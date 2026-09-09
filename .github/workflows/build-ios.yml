@@ -48,16 +48,28 @@ jobs:
           security set-key-partition-list -S apple-tool:,apple: -s -k "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
           security list-keychain -d user -s $KEYCHAIN_PATH
 
+          # Profil bilgilerini oku ve UUID dosya adiyla sisteme ekle
+          security cms -D -i $PP_PATH > $RUNNER_TEMP/profile.plist
+          PROFILE_UUID=$(/usr/libexec/PlistBuddy -c "Print UUID" $RUNNER_TEMP/profile.plist)
+          PROFILE_NAME=$(/usr/libexec/PlistBuddy -c "Print Name" $RUNNER_TEMP/profile.plist)
+          PROFILE_TEAM=$(/usr/libexec/PlistBuddy -c "Print TeamIdentifier:0" $RUNNER_TEMP/profile.plist)
+
+          echo "Algilanan Profil: $PROFILE_NAME ($PROFILE_UUID) - Team: $PROFILE_TEAM"
+          echo "PROFILE_NAME=$PROFILE_NAME" >> $GITHUB_ENV
+          echo "PROFILE_UUID=$PROFILE_UUID" >> $GITHUB_ENV
+          echo "PROFILE_TEAM=$PROFILE_TEAM" >> $GITHUB_ENV
+
           mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
-          cp $PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles/
+          cp $PP_PATH ~/Library/MobileDevice/Provisioning\ Profiles/$PROFILE_UUID.mobileprovision
 
       - name: Setup App Store Connect API Key
         env:
           APP_STORE_CONNECT_PRIVATE_KEY: ${{ secrets.APP_STORE_CONNECT_PRIVATE_KEY }}
           APP_STORE_CONNECT_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
         run: |
-          mkdir -p ~/.appstoreconnect/private_keys
+          mkdir -p ~/.appstoreconnect/private_keys ~/.private_keys
           echo "$APP_STORE_CONNECT_PRIVATE_KEY" > ~/.appstoreconnect/private_keys/AuthKey_${APP_STORE_CONNECT_KEY_ID}.p8
+          cp ~/.appstoreconnect/private_keys/AuthKey_${APP_STORE_CONNECT_KEY_ID}.p8 ~/.private_keys/
 
       - name: Install Dependencies
         run: |
@@ -69,7 +81,7 @@ jobs:
 
       - name: Create ExportOptions Plists
         run: |
-          cat << 'EOF' > ExportOptions-export.plist
+          cat << EOF > ExportOptions-export.plist
           <?xml version="1.0" encoding="UTF-8"?>
           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
           <plist version="1.0">
@@ -77,19 +89,19 @@ jobs:
               <key>method</key>
               <string>app-store</string>
               <key>teamID</key>
-              <string>T9XDWD79PT</string>
+              <string>${PROFILE_TEAM}</string>
               <key>signingStyle</key>
               <string>manual</string>
               <key>provisioningProfiles</key>
               <dict>
                   <key>com.yds.sorufiltreleme</key>
-                  <string>AppStoreProfile</string>
+                  <string>${PROFILE_NAME}</string>
               </dict>
           </dict>
           </plist>
           EOF
 
-          cat << 'EOF' > ExportOptions-upload.plist
+          cat << EOF > ExportOptions-upload.plist
           <?xml version="1.0" encoding="UTF-8"?>
           <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
           <plist version="1.0">
@@ -99,13 +111,13 @@ jobs:
               <key>method</key>
               <string>app-store</string>
               <key>teamID</key>
-              <string>T9XDWD79PT</string>
+              <string>${PROFILE_TEAM}</string>
               <key>signingStyle</key>
               <string>manual</string>
               <key>provisioningProfiles</key>
               <dict>
                   <key>com.yds.sorufiltreleme</key>
-                  <string>AppStoreProfile</string>
+                  <string>${PROFILE_NAME}</string>
               </dict>
           </dict>
           </plist>
@@ -113,14 +125,20 @@ jobs:
 
       - name: Build Xcode Archive
         run: |
-          xcodebuild -workspace ios/App/App.xcworkspace \
+          if [ -d "ios/App/App.xcworkspace" ]; then
+            TARGET_FLAG="-workspace ios/App/App.xcworkspace"
+          else
+            TARGET_FLAG="-project ios/App/App.xcodeproj"
+          fi
+
+          xcodebuild $TARGET_FLAG \
             -scheme App \
             -configuration Release \
             -destination 'generic/platform=iOS' \
             -archivePath build/App.xcarchive \
             CODE_SIGN_STYLE="Manual" \
-            DEVELOPMENT_TEAM="T9XDWD79PT" \
-            PROVISIONING_PROFILE_SPECIFIER="AppStoreProfile" \
+            DEVELOPMENT_TEAM="${PROFILE_TEAM}" \
+            PROVISIONING_PROFILE_SPECIFIER="${PROFILE_NAME}" \
             archive
 
       - name: Export Signed IPA (Local Artifact)
@@ -145,6 +163,7 @@ jobs:
           xcodebuild -exportArchive \
             -archivePath build/App.xcarchive \
             -exportOptionsPlist ExportOptions-upload.plist \
+            -exportPath build/upload \
             -authenticationKeyPath ~/.appstoreconnect/private_keys/AuthKey_${APP_STORE_CONNECT_KEY_ID}.p8 \
             -authenticationKeyID "$APP_STORE_CONNECT_KEY_ID" \
             -authenticationKeyIssuerID "$APP_STORE_CONNECT_ISSUER_ID"
