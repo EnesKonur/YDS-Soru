@@ -1,0 +1,12 @@
+
+node_modules
+
+*.apk
+*.aab
+*.jks
+pdf_page_images/
+
+*.py
+pdf_kaynaklar/
+scratch/
+__pycache__/

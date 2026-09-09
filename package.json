@@ -1,0 +1,26 @@
+{
+  "name": "yds-soru-filtreleme",
+  "version": "1.0.0",
+  "description": "Bu uygulama, YDS sınavlarına hazırlanan adayların soruları **istedikleri herhangi bir kelimeye** (örneğin `\"apple\"`, `\"conduct\"`, `\"although\"`, `\"climate\"`, `\"sustainable\"` vb.), soru tiplerine, yıllara ve çözüm durumuna göre anında filtreleyip ekranda tek tek çözebilmelerini sağlayan interaktif bir web platformudur.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor-community/admob": "^8.1.0",
+    "@capacitor/android": "^8.5.1",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/cli": "^8.5.1",
+    "@capacitor/core": "^8.5.1",
+    "@capacitor/ios": "^8.5.1",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.3",
+    "jsdom": "^30.0.1",
+    "puppeteer": "^25.10.0",
+    "tesseract.js": "^7.0.0"
+  }
+}

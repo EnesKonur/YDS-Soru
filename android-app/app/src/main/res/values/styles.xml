@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.YDSSoru" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#4F46E5</item>
+        <item name="colorPrimaryVariant">#4338CA</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#4F46E5</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,962 @@
+[
+  {
+    "question_number": 1,
+    "question_text": "While commonality was once popular, more and more people are now seeking diversity in personal preferences, so consumerism is no longer about rigid ---- to the taste of the general public but about constantly updated individualism.",
+    "options": {
+      "A": "resolution",
+      "B": "exception",
+      "C": "alteration",
+      "D": "entitlement",
+      "E": "adherence"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 2,
+    "question_text": "Many companies seek out employees who agree with their moral standards, and in order to keep such employees, they are paying more attention to the way they treat their workforce, including the ---- they provide for improving performance.",
+    "options": {
+      "A": "inclinations",
+      "B": "oddities",
+      "C": "incentives",
+      "D": "ramifications",
+      "E": "constraints"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 3,
+    "question_text": "Some sociologists suggest that cultural identity is such an ---- concept that it is hard to precisely define; rather, they prefer to list cultural elements unique to a particular society.",
+    "options": {
+      "A": "ambiguous",
+      "B": "overt",
+      "C": "intuitive",
+      "D": "abrupt",
+      "E": "incessant"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 4,
+    "question_text": "The social benefits of technologies are ---- distributed across the United States as there are still rural communities and individuals with disabilities facing out-of-reach costs or lacking access to products that meet their needs.",
+    "options": {
+      "A": "undeniably",
+      "B": "invariably",
+      "C": "unevenly",
+      "D": "irreversibly",
+      "E": "inseparably"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 5,
+    "question_text": "Environmental monitoring, which is often carried out to promote the sustainability of marine or terrestrial wildlife, has ---- public understanding of the relation between people and the environment.",
+    "options": {
+      "A": "retained",
+      "B": "exceeded",
+      "C": "enhanced",
+      "D": "mitigated",
+      "E": "fulfilled"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 6,
+    "question_text": "As people feel more secure and knowledgeable when they become a member of a group, they often tend to adjust their behaviours in order to ---- the norms of the group.",
+    "options": {
+      "A": "bargain for",
+      "B": "interfere with",
+      "C": "call for",
+      "D": "descend from",
+      "E": "align with"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 7,
+    "question_text": "Genetic evidence indicates that higher levels of caffeine in a person's blood ---- to lower weight, but people ---- that drinking more coffee will be a route to weight loss.",
+    "options": {
+      "A": "used to be linked / cannot assume",
+      "B": "would be linked / might not assume",
+      "C": "may be linked / should not assume",
+      "D": "could be linked / will not assume",
+      "E": "ought to be linked / must not assume"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 8,
+    "question_text": "If Enlightenment refers to the power of the light of reason ---- the shadows of superstition and ignorance, this light ---- the society without the explosion in the production and dissemination of books and newspapers.",
+    "options": {
+      "A": "having dissipated / should not have illuminated",
+      "B": "dissipated / may not have illuminated",
+      "C": "being dissipated / might not have illuminated",
+      "D": "to dissipate / could not have illuminated",
+      "E": "to be dissipated / would not have illuminated"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 9,
+    "question_text": "The Sun burst into being 4.6 billion years ago, which makes studying its early days difficult as physical material ---- from this period is scarce, but scientists have found crystals more than 4.5 billion years old ---- deep within meteorites that indicate the Sun had a tumultuous early life.",
+    "options": {
+      "A": "remained / to have been buried",
+      "B": "remaining / buried",
+      "C": "to be remaining / being buried",
+      "D": "to remain / having been buried",
+      "E": "having remained / to be buried"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 10,
+    "question_text": "Behaviourist psychologists claim that language is learned ---- the mechanism of reinforcing the contingent association ---- between stimulus and response – the same general-purpose mechanism invoked to explain other learning processes ---- humans.",
+    "options": {
+      "A": "about / at",
+      "B": "with / on",
+      "C": "for / among",
+      "D": "through / in",
+      "E": "from / to"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 11,
+    "question_text": "Swiss physicist Jean-Daniel Colladon demonstrated that light could be trapped by total internal reflection inside a tube, allowing it to travel ---- a curved path, which is a core principle ---- modern-day optical fibres.",
+    "options": {
+      "A": "across / through",
+      "B": "in / by",
+      "C": "along / behind",
+      "D": "from / towards",
+      "E": "over / with"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 12,
+    "question_text": "---- the name Igor Ivanovich Sikorsky is generally associated with the development of the helicopter as a practical flying machine, he is also notable as a great designer of flying boats.",
+    "options": {
+      "A": "As long as",
+      "B": "Provided that",
+      "C": "While",
+      "D": "Unless",
+      "E": "Once"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 13,
+    "question_text": "---- crop domestication and the increase and spread of people occurred in largely forested environments, ancient societies everywhere had a cumulatively severe impact on forests.",
+    "options": {
+      "A": "As if",
+      "B": "Because",
+      "C": "Although",
+      "D": "Whereas",
+      "E": "Whether"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 14,
+    "question_text": "It is important for young readers to experience a range of different cultural understandings, ---- their perception of their own culture could remain narrow and impoverished.",
+    "options": {
+      "A": "instead",
+      "B": "otherwise",
+      "C": "thus",
+      "D": "just as",
+      "E": "if"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 15,
+    "question_text": "Many people who would benefit from psychotherapy may be hesitant to get it because ---- they do not know how to access it ---- they feel that they will be stigmatised and embarrassed if they seek help.",
+    "options": {
+      "A": "neither / nor",
+      "B": "as / as",
+      "C": "either / or",
+      "D": "the more / the less",
+      "E": "so / that"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 16,
+    "question_text": "During the early periods in northern China, wheat seems to have been treated as a crop of desperation ---- a culinary delight, and was grown in an attempt to tackle starvation.",
+    "options": {
+      "A": "on the basis of",
+      "B": "by means of",
+      "C": "with reference to",
+      "D": "as a result of",
+      "E": "rather than"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 17,
+    "question_text": "Design ethics focuses on moral behaviour and responsible choices in the practice of design. It guides how designers conduct the design process, how they determine the features of products, and how they assess the moral worth of the products. Ethical considerations have always played a role in design thinking, but the development of scientific knowledge and technology has (17)---- an intense awareness of the ethical dimensions of design.",
+    "options": {
+      "A": "seized",
+      "B": "exploited",
+      "C": "released",
+      "D": "fostered",
+      "E": "confronted"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 18,
+    "question_text": "As designers use new knowledge of physical and human nature (18)---- new forms of technology to create their products, people are increasingly aware of the consequences of design for individuals, societies, and the natural environment.",
+    "options": {
+      "A": "despite",
+      "B": "in contrast with",
+      "C": "with the aim of",
+      "D": "regardless of",
+      "E": "along with"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 19,
+    "question_text": "The design arts are important because they are the means by which scientific knowledge and technological possibilities are converted (19)---- concrete products that serve the needs and desires of individuals and communities.",
+    "options": {
+      "A": "at",
+      "B": "into",
+      "C": "with",
+      "D": "through",
+      "E": "on"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 20,
+    "question_text": "(20)---- design has a broad scope of application, it is difficult to come up with a strict definition for the term.",
+    "options": {
+      "A": "Once",
+      "B": "Before",
+      "C": "Since",
+      "D": "Unless",
+      "E": "Whether"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 21,
+    "question_text": "One can discuss the design of scientific experiments, of theories of nature and society, of political systems, of works of fine art, and of the everyday products created by engineering. In all of these examples, design may be described generally as the art of forethought by which society seeks to integrate all of the factors (21)---- the final result of creative human effort.",
+    "options": {
+      "A": "to be shaped",
+      "B": "being shaped",
+      "C": "shaping",
+      "D": "having shaped",
+      "E": "to have shaped"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 22,
+    "question_text": "Described with majesty and awe in many historical texts, the Hanging Gardens of Babylon were said to be one of humanity's greatest achievements. They were a multi-tiered paradise, and in many ways they (22)---- the core values of Babylon: beauty, wealth, and engineering prowess.",
+    "options": {
+      "A": "relieved",
+      "B": "aggravated",
+      "C": "penetrated",
+      "D": "embodied",
+      "E": "halted"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 23,
+    "question_text": "But what if they never even existed? After all, (23)---- the Hanging Gardens are mentioned in numerous later texts, no documents from the time have identified them.",
+    "options": {
+      "A": "although",
+      "B": "as",
+      "C": "until",
+      "D": "when",
+      "E": "provided that"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 24,
+    "question_text": "Moreover, Herodotus, known as the 'Father of History', does not mention them at all in his Histories, (24)---- visiting the city and describing many of its other features in detail.",
+    "options": {
+      "A": "in pursuit of",
+      "B": "due to",
+      "C": "besides",
+      "D": "despite",
+      "E": "similar to"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 25,
+    "question_text": "Surely, if Herodotus had witnessed the beauty of the Hanging Gardens, they (25)---- a line or two in his Histories.",
+    "options": {
+      "A": "have deserved",
+      "B": "would have deserved",
+      "C": "had deserved",
+      "D": "must have deserved",
+      "E": "will have deserved"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 26,
+    "question_text": "As a result, today debate rages fiercely (26)---- whether or not these legendary gardens were real.",
+    "options": {
+      "A": "from",
+      "B": "through",
+      "C": "into",
+      "D": "beyond",
+      "E": "over"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 27,
+    "question_text": "Given that social norms are not absolute and compliance to norms is rarely total, ----.",
+    "options": {
+      "A": "people base their choices and values on social norms, not simply on their view of what benefits them",
+      "B": "internalisation of social norms plays an essential role in a person's identity development",
+      "C": "it is usual for community members to diverge from social norms under certain circumstances",
+      "D": "humans have a natural sense of right and wrong that helps them formulate social norms",
+      "E": "most of us typically conform to these prevailing social norms in order to avoid social rejection"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 28,
+    "question_text": "While the 1594 Peasants' Revolt in Austria was first thought to be an uprising by peasants urged by their clergy to defend themselves against the Catholic Counter-Reformation, ----.",
+    "options": {
+      "A": "Freigeld, a feudal tax peasants had to pay whenever their property was transferred as a result of sale or death, was among the highest taxes",
+      "B": "the peasants declared that they had taken up arms only to free themselves from unjust taxes with which the nobles oppressed them",
+      "C": "all other taxes imposed on the peasants had been greatly increased, and thus their top economic grievances were heavy taxes",
+      "D": "they were highly determined to continue their rebellion against the taxes when they marched to Vienna and threatened to torch the capital's suburbs",
+      "E": "some of the peasants expressed their willingness to be submissive and to pay the taxes levied on them"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 29,
+    "question_text": "Because aerobatic flying involves abrupt and extreme manoeuvres, which are unnecessary for normal flights, ----.",
+    "options": {
+      "A": "both airplanes and helicopters, can perform all the same aerobatic manoeuvres, and more, as can their full-scale counterparts",
+      "B": "dangerous manoeuvres, such as loops, rolls, and dives, have become an integral part of military flight tactics",
+      "C": "in an aerobatic competition, each pilot is required to fly a number of individual sequences of aerobatic figures, which are scored by a panel of judges",
+      "D": "the ability to fly an aircraft upside down was first demonstrated by the French aviator Adolphe Pégoud in 1913",
+      "E": "it places extra structural and stability demands on an aircraft and imposes specific physical requirements on the pilot"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 30,
+    "question_text": "Although e-government seems to simply mark the shift from the paper to digital environment, ----.",
+    "options": {
+      "A": "most countries relying on e-government services claim that they will have become a totally paperless society by 2050",
+      "B": "more and more government institutions and agencies are now providing web-based information instead of paper-based information",
+      "C": "the greatest benefits of e-government do not arise from replicating paper-based processes in a computer system, but from using technology to reengineer these processes",
+      "D": "e-government applications are highly promoted as they reduce paperwork and decrease time required to respond",
+      "E": "e-government has led to a change from traditional paper filing to electronic filing in official services"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 31,
+    "question_text": "As cognitive therapy is employed for a broad spectrum of illnesses and is often used in conjunction with other treatment interventions, ----.",
+    "options": {
+      "A": "it is a psychosocial therapy assuming that irrational thinking patterns cause maladaptive behaviour",
+      "B": "it also deals with cognitive distortions, which may take the form of abnormal beliefs about others' actions",
+      "C": "it might be difficult to measure overall success rates for the therapy and to accurately estimate its efficiency in treating a specific disease",
+      "D": "it focuses primarily on changing thoughts in order to adjust psychological problems",
+      "E": "it is administered in an outpatient setting (clinic or doctor's office) by a therapist trained in cognitive therapy techniques"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 32,
+    "question_text": "Once people have become aware that their daily routines lead to sleep disturbances, ----.",
+    "options": {
+      "A": "going to bed at the same time every night has been shown to help them establish a conscious rhythm of slowing down as that time approaches",
+      "B": "sleep aids, though they are effective for occasional use, may disrupt sleep rather than promote it over the long term",
+      "C": "sleep deprivation most significantly affects the nervous system, impairing cognitive function as well as spatial orientation and coordination",
+      "D": "they can adopt lifestyle measures, such as altering eating habits and practising regular exercise, to improve the amount and quality of sleep",
+      "E": "they may also suffer from physical conditions, such as neurologic disorders, obstructive sleep apnea, and chronic pain"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 33,
+    "question_text": "Without natural predators like birds and bats that keep pests under control, losses in crops would be much higher and the use of pesticides would severely impair the production quality, ----.",
+    "options": {
+      "A": "while pesticides may create a new problem as pests develop resistance over time, forcing farmers to change another chemical to combat the same pest",
+      "B": "unless natural predators, as well as pollinators and organisms that help create productive soil, reduce the need for pesticides",
+      "C": "so pesticides cannot replace the services provided by natural predators that save farmers billions each year",
+      "D": "yet pesticides are usually non-selective, killing both the pest and helpful organisms such as pollinators and weeds",
+      "E": "because scientists are working to develop ways to overcome harmful effects of pesticides and make agricultural production more environmentally friendly"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 34,
+    "question_text": "---; however, human activities contribute to the increases in extinction rates as they cause global environmental changes.",
+    "options": {
+      "A": "Some animal extinctions are occurring so quickly that they represent a modern mass extinction of similar intensity to those documented in geological records",
+      "B": "The most important human influences leading to the extinction of species are excessive exploitation of forests and habitat disturbance",
+      "C": "Extinction is a natural occurrence induced by an unpredictable catastrophe or ecological interactions such as competition or predation",
+      "D": "The high level of biodiversity loss during the past centuries has been best documented for invertebrate species",
+      "E": "Biodiversity can be promoted in ecological reserves, which are protected areas established for the conservation of endangered species"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 35,
+    "question_text": "Prior to nine months, infants can retain memories for weeks or even months, ----.",
+    "options": {
+      "A": "yet sleep is a dominant activity during the early months, which facilitates the consolidation of memories",
+      "B": "as studies of infant imitation and memory have further contributed to the understanding of the infants' representational ability",
+      "C": "because their developmental deficits may involve lack of attention, heightened distractibility, and short-term memory impairment",
+      "D": "but they retrieve those memories only if sufficient cues are present to allow them to recognise the familiarity of an event",
+      "E": "thus memories can be altered when they encounter new material that is not compatible with stored information"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 36,
+    "question_text": "Peer relationships with negative outcomes are usually observed among teens searching for a particular emotion they lack in their lives; ---.",
+    "options": {
+      "A": "on the other hand, research indicates that peers could be fairly detrimental to an adolescent's development",
+      "B": "in contrast, most parents fear that their children will befriend the wrong crowd and end up in trouble",
+      "C": "nonetheless, adolescents are more likely to conform to their peers' opinions when it comes to day-to-day matters",
+      "D": "moreover, adolescents who have positive relationships with their parents tend to easily engage in social interaction with their peers",
+      "E": "for instance, teens joining cliques that bully or harass have low self-esteem and seek approval or a sense of dominance"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 37,
+    "question_text": "Improvements in information technologies have allowed marketers to respond more quickly and flexibly to the changes in consumer behaviour; however, highly complex information systems can distract the marketers from imagination essential to successful advertising strategies.",
+    "options": {
+      "A": "Bilgi teknolojilerindeki ilerlemeler pazarlamacıların tüketici davranışındaki değişikliklere daha hızlı ve esnek bir şekilde karşılık vermelerini sağlasa da pazarlamacıları başarılı reklam stratejileri için önemli olan hayal gücünden uzaklaştırabilecek oldukça karmaşık bilgi sistemleri vardır.",
+      "B": "Bilgi teknolojilerindeki ilerlemeler pazarlamacıların tüketici davranışındaki değişikliklere daha hızlı ve esnek bir şekilde karşılık vermelerini sağlamıştır ancak oldukça karmaşık bilgi sistemleri pazarlamacıları başarılı reklam stratejileri için önemli olan hayal gücünden uzaklaştırabilir.",
+      "C": "Bilgi teknolojilerindeki ilerlemelerle tüketici davranışındaki değişikliklere pazarlamacılar tarafından daha hızlı ve esnek bir şekilde karşılık verilse de oldukça karmaşık bilgi sistemleri pazarlamacıları başarılı reklam stratejileri için önem taşıyan hayal gücünden uzaklaştırabilir.",
+      "D": "Bilgi teknolojilerindeki ilerlemeler pazarlamacıların tüketici davranışındaki değişikliklere daha hızlı ve esnek bir şekilde karşılık vermelerini sağlamıştır ancak pazarlamacılar oldukça karmaşık bilgi sistemlerinden dolayı başarılı reklam stratejileri için önemli olan hayal gücünden uzaklaşabilir.",
+      "E": "Bilgi teknolojilerindeki ilerlemeler sayesinde pazarlamacılar tüketici davranışındaki değişikliklere daha hızlı ve esnek bir şekilde karşılık vermektedir ancak oldukça karmaşık bilgi sistemleri pazarlamacıları başarılı reklam stratejileri için önem taşıyan hayal gücünden uzaklaştırabilir."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 38,
+    "question_text": "While creativity is generally defined as the ability to produce works of art, any human endeavour can also involve creativity, such as proposing unusual ideas to find solutions to problems or coming up with new inventions.",
+    "options": {
+      "A": "Yaratıcılık genellikle sanat eserleri üretme yeteneği olarak tanımlansa bile sorunlara çözüm üretirken sıra dışı fikirler sunmak veya yeni buluşlar gerçekleştirmek gibi herhangi bir insanı uğraş da yaratıcılık içerebilir.",
+      "B": "Yaratıcılık genellikle sanat eserleri üretme yeteneği olarak tanımlanmaktadır ancak sorunlara çözüm üretme konusunda sıra dışı fikirler ileri sürmek veya yeni buluşlar ortaya koymak gibi herhangi bir insanı uğraş da yaratıcılık içerebilir.",
+      "C": "Yaratıcılık genellikle sanat eserleri üretme yeteneği olarak tanımlansa da sorunlara çözüm üretmek için sıra dışı fikirler ileri sürmek veya yeni buluşlar ortaya koymak gibi herhangi bir insani uğraş da yaratıcılık içerebilir.",
+      "D": "Genellikle sanat eserleri üretme yeteneği olarak tanımlanan yaratıcılık, sorunlara çözüm üretmek için sıra dışı fikirler ileri sürmek veya yeni buluşlar gerçekleştirmek gibi herhangi bir insani uğraşı da kapsayabilir.",
+      "E": "Yaratıcılığın tanımı genellikle sanat eserleri üretme yeteneğini içerse de yaratıcılık, sorunlara çözüm üretmek için sıra dışı fikirler sunmak veya yeni buluşlar ortaya koymak gibi herhangi bir insani uğraşı da kapsayabilir."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 39,
+    "question_text": "Exposure to violent scenes in computer games and cartoons is closely associated with an increase in the likelihood that a child will become vulnerable to violence and display aggressive behaviours.",
+    "options": {
+      "A": "Bir çocuğun bilgisayar oyunları ve çizgi filmlerde şiddet sahnelerine maruz kalması, çocuğu şiddete karşı savunmasız hâle getirdiği için onun saldırgan davranışlar sergileme olasılığındaki artışla yakından ilişkilendirilmektedir.",
+      "B": "Bilgisayar oyunları ve çizgi filmlerde şiddet sahnelerine maruz kalmak, bir çocuğun şiddete karşı savunmasız hâle gelme ve saldırgan davranışlar sergileme olasılığındaki artışla yakından ilişkilendirilmektedir.",
+      "C": "Bir çocuk bilgisayar oyunları ve çizgi filmlerde şiddet sahnelerine maruz kaldığında şiddete karşı savunmasız hâle gelir ve bu durum çocuğun saldırgan davranışlar sergileme olasılığındaki artışla yakından ilişkilendirilmektedir.",
+      "D": "Bilgisayar oyunları ve çizgi filmlerde şiddet sahnelerine maruz kalan bir çocuğun şiddete karşı savunmasız hâle gelmesi, çocuğun saldırgan davranışlar sergileme olasılığındaki artışla yakından ilişkilendirilmektedir.",
+      "E": "Bilgisayar oyunları ve çizgi filmlerde şiddet sahnelerine maruz kalmak, şiddete karşı savunmasız hâle gelen bir çocuğun saldırgan davranışlar sergileme olasılığındaki artışla yakından ilişkilendirilmektedir."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 40,
+    "question_text": "İkinci bir dil öğrenmek uzun ve karmaşık bir süreçtir çünkü ana dilinizin sınırlarının ötesine ulaşmanız ve yeni bir kültürü benimsemek için farklı bir düşünme yöntemi geliştirmeniz gerekmektedir.",
+    "options": {
+      "A": "Because you are required to reach beyond the confines of your native language by developing a different way of thinking to embrace a new culture, learning a second language is a long and complex process.",
+      "B": "Since you have to reach beyond the confines of your native language to devise a different way of thinking while embracing a new culture, learning a second language is a long and complex process.",
+      "C": "Learning a second language, which is a long and complex process, requires you to reach beyond the confines of your native language and develop a different way of thinking in order to embrace a new culture.",
+      "D": "Learning a second language is a long and complex process as you have to reach beyond the confines of your native language and develop a different way of thinking to embrace a new culture.",
+      "E": "Learning a second language is a long and complex process through which you have to reach beyond the confines of your native language and devise a different way of thinking so that you can embrace a new culture."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 41,
+    "question_text": "Vücudun enerji kanallarına temas edilerek evrensel ve bireysel enerjinin dengelendiği bir iyileşme yöntemi olan reiki, hastalığın sebep olduğu travmayı hafifletmek için tıbbi tedaviye ek olarak kullanılır.",
+    "options": {
+      "A": "Reiki, which is used as an adjunct to medical treatment to alleviate the trauma resulting from illness, is a method of healing by which universal and individual energy are balanced through touching the body's energy pathways.",
+      "B": "Reiki is a method of healing by which universal and individual energy are balanced through touching the body's energy pathways and is used as an adjunct to medical treatment to ease the trauma caused by illness.",
+      "C": "Reiki, a method of healing by which universal and individual energy are balanced through touching the body's energy pathways, is used as an adjunct to medical treatment to ease the trauma caused by illness.",
+      "D": "Being used as an adjunct to medical treatment to ease the trauma resulting from illness, reiki is a method of healing by which universal and individual energy are balanced through touching the body's energy pathways.",
+      "E": "Universal and individual energy are balanced through touching the body's energy pathways in reiki, which is a method of healing used as an adjunct to medical treatment to alleviate the trauma caused by illness."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 42,
+    "question_text": "Önde gelen yapay zekâ araştırmacıları, güvenlik yönergelerinin geliştirilmesine ve uygulanmasına zaman tanımak için araştırma laboratuvarlarına yapay zekâ alanındaki deneyleri en az altı ay durdurma çağrısı yaptı.",
+    "options": {
+      "A": "Calling for research laboratories to pause their experiments in artificial intelligence for at least six months, prominent artificial intelligence researchers have allowed time for the development and implementation of safety instructions.",
+      "B": "Prominent artificial intelligence researchers have requested that research laboratories pause their experiments in artificial intelligence for at least six months, which can allow time for the development and implementation of safety instructions.",
+      "C": "What prominent artificial intelligence researchers have demanded from research laboratories is to pause their experiments in artificial intelligence for at least six months to allow time for the development and implementation of safety instructions.",
+      "D": "Research laboratories have been requested by prominent artificial intelligence researchers to pause their experiments in artificial intelligence for at least six months so that they can allow time for the development and implementation of safety instructions.",
+      "E": "Prominent artificial intelligence researchers have called for research laboratories to pause their experiments in artificial intelligence for at least six months in order to allow time for the development and implementation of safety instructions."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 43,
+    "question_text": "One can conclude from the passage that Iceland ----.",
+    "options": {
+      "A": "would not continue the practice of whale hunting if it had been completely banned in Norway and Japan",
+      "B": "was not admitted to the IWC after 1992 as it never acted in accordance with the whaling ban",
+      "C": "was dismissed from the IWC as a consequence of Icelanders' illegal whale hunting practices",
+      "D": "has long been known for commercial whaling as it is conventionally practised across the country",
+      "E": "has made the IWC's whale hunting prohibition seem ineffective because of its practices"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 44,
+    "question_text": "According to the passage, whaling ----.",
+    "options": {
+      "A": "was strictly prohibited by the IWC in 1992, which made it mandatory for Iceland to leave the Commission",
+      "B": "was widely practised in Iceland before it became a member of the IWC and ceased commercial whaling",
+      "C": "has declined in Iceland, yet the profits are expected to increase due to the global consumption of whale meat",
+      "D": "had almost become rare in Iceland by 2003 when 852 fin whales and 653 minke whales were killed",
+      "E": "had been performed in Iceland under the pretence of carrying out scientific studies before it left the IWC"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 45,
+    "question_text": "It is stated in the passage that the tendency to continue whaling in Iceland ----.",
+    "options": {
+      "A": "has been curbed considerably as a result of the strong opposition from other countries",
+      "B": "is mainly reinforced by hunting activities rather than whale watching",
+      "C": "is still alarming as Islanders export whale meat to Japan that has a thriving market",
+      "D": "seems to be political, but there has been a downward trend in the practice induced by economic reasons",
+      "E": "has grown substantially since whale meat was presented to tourists as a traditional delicacy"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 46,
+    "question_text": "What is the primary purpose of the author?",
+    "options": {
+      "A": "To show that whale watching has recently become a popular touristic activity in Iceland",
+      "B": "To put emphasis on the IWC's remarkable efforts to ban commercial whaling in Iceland",
+      "C": "To underline the importance of whale meat for Icelanders as a traditional food",
+      "D": "To discuss why whaling has been a controversial issue in Iceland",
+      "E": "To highlight the huge contribution of commercial whaling to the Icelandic economy"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 47,
+    "question_text": "According to the passage, in Visible Empire, Bleichmar attempts to ----.",
+    "options": {
+      "A": "explain how the Western world began to have a greater understanding of the Earth's beauties in the late 1770s",
+      "B": "draw attention to the loss of biodiversity worsened by human activities in the modern world through different essays",
+      "C": "emphasise the huge number of botanical expeditions that crisscrossed the vast Spanish Empire",
+      "D": "offer nearly 12,000 images from Spanish expeditions, most of which are categorised based on different subjects",
+      "E": "provide an array of botanical illustrations produced across the Spanish Empire, which also reflects goals and aspirations of people at that time"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 48,
+    "question_text": "What makes Bleichmar's collection unique?",
+    "options": {
+      "A": "The variety of regions where images of plants were produced",
+      "B": "The time span during which botanical illustrations were created",
+      "C": "The quantity and the quality of the botanical works",
+      "D": "The differences between explorers, scientists and artists in terms of their ambitions",
+      "E": "The opportunity to navigate through the past centuries"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 49,
+    "question_text": "Which can be inferred from the passage?",
+    "options": {
+      "A": "Contemporary viewers may not clearly understand the images of plants without focusing on the economic and political aspects of the Spanish expeditions.",
+      "B": "Spanish authorities assigned several meanings and benefits to the discovery of new plants and the production of their images.",
+      "C": "Contemporary viewers may place botanical images at the intersection of art and politics as Spanish authorities do.",
+      "D": "Spanish authorities promoted Bleichmar's collection to reveal the little-known history of scientific expeditions made in the Spanish Empire.",
+      "E": "Contemporary viewers interpret botanical illustrations with reference to specific regions and expeditions."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 50,
+    "question_text": "What is the primary purpose of the author?",
+    "options": {
+      "A": "To make a comparison between images of plants and essays in Bleichmar's collection in terms of their potential to reflect scientific endeavours",
+      "B": "To define the criteria Bleichmar adopted when selecting certain images of plants to produce her collection",
+      "C": "To introduce contradictory ideas about the biological wealth of the Spanish Empire",
+      "D": "To show how Spanish explorers catalogued the botany of lands occupied by the Spanish Empire",
+      "E": "To pay tribute to Bleichmar's collection that features the botanical richness in the Spanish Empire"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 51,
+    "question_text": "It can be understood from the passage that the futile lipid cycle ----.",
+    "options": {
+      "A": "may fail to function effectively in people with fat cells having exceptionally active mitochondria",
+      "B": "functions smoothly in slim people although they have smaller fat cells with improper mitochondrial activity",
+      "C": "leads slim people to eat what they want as they tend to consume a lower amount of food than the average person does",
+      "D": "works in the same way in people with a low BMI and those with a normal BMI despite the differences in the genes involved in making fat",
+      "E": "could help obese people lose weight provided that mitochondrial activity is improved"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 52,
+    "question_text": "Which of the following is not among the research findings mentioned in the passage?",
+    "options": {
+      "A": "In slim people, a considerable amount of energy is burned through the futile lipid cycle.",
+      "B": "Mitochondrial activity is more intense in slim people than it is in obese people.",
+      "C": "In people with low BMIs, the futile lipid cycle produces only a small amount of fat before breaking it down.",
+      "D": "Slim people are not vulnerable to problems caused by their mitochondrial activity as they do not need to burn a lot of energy.",
+      "E": "Cold exposure can only produce benefits for people whose mitochondrial activity is not inhibited."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 53,
+    "question_text": "Which can be understood from the passage?",
+    "options": {
+      "A": "Boudina has found the findings of Gheldof's study unreliable as she thinks that a person's weight cannot be solely linked to the mitochondrial machinery.",
+      "B": "Gheldof and Boudina cite different reasons for the dysfunction of the futile lipid cycle in average people.",
+      "C": "In people having BMIs of 18.5 or under, fat cells are minute although their futile lipid cycle does not function well due to extremely active genes.",
+      "D": "Having ice baths is common in obese people as it is a useful way of breaking down fats in the body.",
+      "E": "The cold shock strategy will not exert the desired effect on people whose mitochondrial machinery does not operate properly."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 54,
+    "question_text": "What is the primary purpose of the author?",
+    "options": {
+      "A": "To compare slim and average people in terms of their BMIs and the number of fat cells",
+      "B": "To highlight the importance of the cold shock strategy for the treatment of obesity",
+      "C": "To explain why mitochondrial activity is hampered in obese people",
+      "D": "To outline the basics of the futile lipid cycle and its contribution to weight control",
+      "E": "To inform the reader about how fat cells rebuild smaller fat cells in underweight people"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 55,
+    "question_text": "The main problem in environmental diplomacy is the failure ----.",
+    "options": {
+      "A": "to discriminate between conventions regulating the utilisation of natural resources and pollution",
+      "B": "to lead national economies to efficiently use resources that produce pollution",
+      "C": "to understand that biological boundaries of a country are set regarding the size of its economy",
+      "D": "to keep environmental hazards within national boundaries",
+      "E": "to draw biological boundaries precisely in the use of natural resources"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 56,
+    "question_text": "Which could be inferred from the passage?",
+    "options": {
+      "A": "The US economy has presented both benefits and threats to the conservation of the environment due to its large size.",
+      "B": "The US government has recently taken on an instrumental role in global discussions thanks to its power in environmental diplomacy.",
+      "C": "The US has long been a strong proponent of using conventions that apply to every nation in the world in international environmental protection.",
+      "D": "The amount and variety of natural resources in the US have caused it to follow environmental policies that are incompatible with those in many parts of the world.",
+      "E": "The success of the US environmental diplomacy in the 20th century relied mostly on multilateral treaties."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 57,
+    "question_text": "The reason why the US has lost the leadership in the field of environmental diplomacy is that ----.",
+    "options": {
+      "A": "the environmental problems the US faces are different from those experienced in other countries",
+      "B": "the US government has become less competent in dealing with environmental deterioration",
+      "C": "the US government has failed to react to the increased global awareness of the major environmental threats",
+      "D": "the US government's plans have contradicted the treaties drafted through global discussions",
+      "E": "the shift to the conventions regarding every nation has revealed that the US is mainly responsible for global environmental problems"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 58,
+    "question_text": "What is the passage mainly about?",
+    "options": {
+      "A": "The position of the US in environmental diplomacy",
+      "B": "The increased awareness of global environmental problems",
+      "C": "The importance of environmental diplomacy to save nations",
+      "D": "The design of environmental policy in the 20th century",
+      "E": "The historical development of environmental diplomacy"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 59,
+    "question_text": "The recent studies on children's cognitive development ----.",
+    "options": {
+      "A": "have included experiments that test how cognitive development can be supported so that children can perform Piagetian tasks competently",
+      "B": "have provided further information on the tasks that children can achieve, largely based on Piaget's theory",
+      "C": "have compared and contrasted the stages at which Piagetian tasks can be successfully carried out by children",
+      "D": "have concentrated mainly on the differences between children's minds and other people's minds",
+      "E": "have shifted their focus towards offering theoretical explanations about the reason and period of particular tasks children can do"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 60,
+    "question_text": "Modern neuroimaging techniques employed in studies on cognitive development ----.",
+    "options": {
+      "A": "have enabled researchers to formulate a new 'theory of mind', which mostly relates cognitive development to cultural environment",
+      "B": "have demonstrated why some children fail to perform certain tasks due to the problems with language development",
+      "C": "can help psychologists better predict which Piagetian tasks can be done earlier or delayed in children based on cultural variables",
+      "D": "have helped researchers to come up with new facts on brain structures, which contradict Piaget's theory",
+      "E": "may allow psychologists to analyse the brain's make-up and its contribution to the development of certain skills and capabilities"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 61,
+    "question_text": "Which of the following is investigated by the studies focusing on the influence of culture on cognition?",
+    "options": {
+      "A": "Whether cultural norms affect the early emergence of Piagetian tasks",
+      "B": "What language problems are experienced by children with different cultural backgrounds",
+      "C": "Whether cognitive development follows the same or divergent paths in different cultures",
+      "D": "Which cognitive tasks are prioritised or specified in certain cultures",
+      "E": "How intelligence can be enhanced despite being largely inherited"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 62,
+    "question_text": "Which could be the best title for this passage?",
+    "options": {
+      "A": "The Assessment of Cognitive Development through Neuroimaging Techniques",
+      "B": "Ordering Piagetian Tasks in Terms of Cognitive Development",
+      "C": "The Significance of Culture for Cognitive Studies",
+      "D": "Current Trends in Cognitive Development Research",
+      "E": "The Universality of Cognitive Development across All Children"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 63,
+    "question_text": "Christine:\n- Have you ever wondered why we rub our eyes when we feel tired?\n\nLee:\n- ----\n\nChristine:\n- It sounds like a rational reason, but scientists have a different view on why we rub our eyes because of tiredness. They say it triggers the oculocardiac reflex, which lowers the heart rate and helps us relax when we're tired.\n\nLee:\n- That's really interesting. I've never thought the eyes may have an impact on the heart and produce a calming effect.",
+    "options": {
+      "A": "As far as I know, if we rub our eyes repetitively and excessively, the risk of weakening the cornea is very high.",
+      "B": "Well, I often rub my hands across my forehead or temples to get instant relief from fatigue, but I'm not sure rubbing the eyes would do the same.",
+      "C": "I think it must be because we want to improve our vision by rubbing them as it's often blurred due to exhaustion.",
+      "D": "Yes, but it's not tiredness that makes me rub my eyes. I usually do so when I suffer from seasonal allergy.",
+      "E": "No matter how good it might feel, rubbing the eyes welcomes bacteria and germs around the eyes, which can cause an infection."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 64,
+    "question_text": "Student:\n- How do honeybees find their way home after they travel miles to forage faraway flower patches?\n\nTeacher:\n- They use the Sun as a compass. The position of the Sun, combined with the indication of time from their internal clock, enables them to find their way.\n\nStudent:\n- ----\n\nTeacher:\n- As honeybees can also monitor how much the Sun moves during their journey, after their return to the colony, they can even tell their nest mates the position of the food relative to the Sun's current position, rather than its position when they found the food.",
+    "options": {
+      "A": "And, on cloudy days when there's not much sunlight, how do they benefit from the Sun?",
+      "B": "By the way, I've also seen a documentary on how the Earth's magnetic field helps honeybees find their way. Is it true?",
+      "C": "I've read that a standard jar of honey requires honeybees to forage 80,000 km. How do they cover such great distances?",
+      "D": "So, this is how they can keep track of direction and distance. Is there any other benefit of this trait?",
+      "E": "Honeybees have dance moves that allow them to show others where flowers are located. Is this a kind of language between them?"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "question_number": 65,
+    "question_text": "Sylvia:\n- Did you know that music therapy was established as a profession in the US in the 1950s?\n\nRobert:\n- Interesting! It sounds a bit late, doesn't it?\n\nSylvia:\n- ----\n\nRobert:\n- That makes sense now. You know, people couldn't have discovered the therapeutic effect of music that late. Then what you're referring to is its formal recognition in the 1950s.\n\nSylvia:\n- Yeah! Probably because around that time, methodical research expanded, as well as the formulation of theories.",
+    "options": {
+      "A": "But today, it is practised worldwide as an extremely varied and flexible profession in many fields, like special education and rehabilitation.",
+      "B": "As a matter of fact, people suffering from severe impairments seemed to show noticeable improvement when treated with music.",
+      "C": "Actually, the popularity of music therapy led to a dramatic increase in the number of its practitioners.",
+      "D": "As ancient people believed that music had a magical power, they didn't consider it as a treatment method.",
+      "E": "Right, but professionals from several disciplines had already been using music while working with various populations."
+    },
+    "correct_answer": "E"
+  },
+  {
+    "question_number": 66,
+    "question_text": "Lisa:\n- Why is the cookery of Valencia a global name when it comes to cooking rice?\n\nNancy:\n- ----\n\nLisa:\n- So, this is why it attracts particular attention. Can you tell me more about this technique?\n\nNancy:\n- Valencians cook rice with a precise proportion of grain to water. So, at the end of the cooking process, the grains are perfectly fluffy, with no stickiness from excess water.",
+    "options": {
+      "A": "As far as I know, Valencian rice is fairly starchy and distinct from other types of rice, and the region's cooks are capable of producing a large number of recipes.",
+      "B": "Well, rice is central to Valencia's culinary identity, in particular, its delicious rice dish paella, which consists of rabbit, tomato, and flat green beans.",
+      "C": "Rice has always been the staple food in Spain, and especially in Valencia. It's imported from China at an extremely low price affordable for all locals.",
+      "D": "This style is famous for its clever use of rice, as the rice is cooked slowly so that it can absorb the ingredients surrounding it, producing the best texture.",
+      "E": "In fact, Spanish cuisine is world-famous for its unique use of fire to steam grains, as well as meat and fish."
+    },
+    "correct_answer": "D"
+  },
+  {
+    "question_number": 67,
+    "question_text": "Student:\n- What are the effects of ageing on human brain?\n\nProfessor:\n- Well, first of all, as the brain ages, its white matter often develops small lesions because of disrupted blood flow, leading to impaired cognitive function and mobility.\n\nStudent:\n- I guess, until now, extensive research must have been conducted to slow down the progress of the condition. Isn't there anything that can be done to alleviate these effects?\n\nProfessor:\n- ----\n\nStudent:\n- Then can we say more people should be encouraged to exercise regularly?\n\nProfessor:\n- More research needs to be done in this area, but the results have been fairly promising so far.",
+    "options": {
+      "A": "Well, the more heart-healthy habits people have, the less cognitive decline they exhibit. A stronger cardiovascular system means a stronger pipeline of nutrients to the brain.",
+      "B": "You know, exercise has proven anti-inflammatory effects against some diseases like diabetes and rheumatoid arthritis, but it whether it protects brain health is not known for how.",
+      "C": "Exercise benefits the brain by improving vascular health, but newly published research cast doubt on the claims that it combats the chronic neuroinflammation observed in Alzheimer's and other brain diseases.",
+      "D": "Actually, exercise might offer some protection. In fact, one study showed that women who exercised twice a week showed significantly less progression of white matter lesions than the others who didn't.",
+      "E": "In such neurological conditions, the inflammation that normally clears tissue damage doesn't shut off and starts to obstruct communication between neurons."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 68,
+    "question_text": "A recent study has shown that when someone is thanked, it increases their chances of being helpful again, likely because they enjoy the feeling of being socially valued by other people.",
+    "options": {
+      "A": "A helpful person who is thanked is even more likely to thank others in the future provided that they like how it makes them feel, as shown by a current study.",
+      "B": "A new study has revealed that a person can be more helpful towards others when they feel socially valued and thanked by those who appreciate receiving help.",
+      "C": "Being socially valued has been shown in a new study to affect the likelihood that someone will feel more willing to help others in return for thanks.",
+      "D": "A current study has revealed that someone is more likely to repeat helpful behaviour when thanked, probably due to the pleasure of being socially valued by others.",
+      "E": "A recent study has shown that someone who is thanked for their help is much more likely to be socially valued by others and feel the need to provide further help."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 69,
+    "question_text": "The use of antibiotics for spraying crops has increased exponentially in recent years in the US, with streptomycin predominantly used to control the bacterial disease that jeopardises apple and pear orchards.",
+    "options": {
+      "A": "In order to spray crops, antibiotics have been increasingly employed in recent years in the US, but apple and pear orchards are still at risk of serious harm from bacterial disease despite the heavy use of streptomycin.",
+      "B": "Streptomycin is one of the most commonly used antibiotics to spray crops in the US, where bacterial disease, which cannot be controlled in recent years, has struck apple and pear orchards.",
+      "C": "There has recently been a substantial increase in the use of antibiotics to spray crops in the US, however, without streptomycin, which is extensively employed to combat bacterial disease, apple and pear orchards would be destroyed.",
+      "D": "Streptomycin, which is intensely used to combat the bacterial disease that damages apple and pear orchards, has been widely blamed for the sharp increase in the use of antibiotics for spraying crops in recent years in the US.",
+      "E": "In recent years, a dramatic increase has been experienced in the exploitation of antibiotics to spray crops in the US, and among them is streptomycin, which is being largely used to control the bacterial disease that threatens apple and pear orchards."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 70,
+    "question_text": "Although originally native to the Arabian Peninsula, aloe vera has become a global botanical product given that its leaves contain antioxidants that are essential to healthy skin.",
+    "options": {
+      "A": "Aloe vera was initially unique to the Arabian Peninsula; however, the importance of antioxidants in its leaves for healthy skin was realised across the entire world, and thus it has become a global botanical product.",
+      "B": "While aloe vera was first grown across the Arabian Peninsula, it has become a botanical product used all over the world because its leaves involve antioxidants that are vital to healthy skin.",
+      "C": "As aloe vera was initially grown on the Arabian Peninsula, the fact that its leaves contain antioxidants crucial to healthy skin was first discovered there, but later it became a global botanical product.",
+      "D": "The leaves of aloe vera contain antioxidants that are vital to healthy skin, which boosts its global recognition as a botanical product, yet it was the Arabian Peninsula which first grew it considering its benefits.",
+      "E": "Before aloe vera became a botanical product used throughout the entire world, it had initially been grown on the Arabian Peninsula, where its leaves involving antioxidants were used to ensure healthy skin."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 71,
+    "question_text": "As people have adopted sedentary lifestyles thanks to technological advances, there has been a global shift in their health conditions, which appears to be triggered by new living habits.",
+    "options": {
+      "A": "People's sedentary lifestyles have brought a worldwide change in their health conditions, and new living patterns mostly shaped by technological advances could account for this shift.",
+      "B": "As more and more people have had sedentary lifestyles due to technological advances, it has become inevitable for them to experience a worldwide change in their health conditions that might be related to new living patterns.",
+      "C": "Technological developments have caused people to cultivate new living habits, compelling them to have sedentary lifestyles, which seems to have induced a global change in their health conditions.",
+      "D": "Given that technological developments have led people to maintain sedentary lifestyles, there has been a worldwide change in their health conditions, and it seems to result from new living habits.",
+      "E": "People have recently been engaged in sedentary lifestyles which include new living patterns impacted by technological developments, but these new patterns are thought to have prompted a global change in their health conditions."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 72,
+    "question_text": "Despite increased ecological awareness present within the diving community, the careful management of divers is extremely important. Although aware of the fragility of the underwater environment, an underwater holiday maker still has human curiosity and the desire to make the 45-minute experience as worthwhile as possible. ---- Clearly, the potential stress caused by such an event must be avoided wherever possible, but the relative invisibility of such an occurrence to all but the participants makes it difficult to control.",
+    "options": {
+      "A": "This leads to instances such as that reported at Sharm el-Sheikh, Egypt, in March 1999, when an estimated 30 divers were chasing one turtle.",
+      "B": "The most obvious method for doing so is to limit the numbers of divers at any one site, though this requires the establishment of thresholds.",
+      "C": "A further problem is the fact that the vast majority of diving occurs within only 0.025% of the marine environment, i.e. around coral reefs.",
+      "D": "When we compare the marine ecosystems between the 1900s and 2000s, the gloomy state of affairs in the last century becomes evident.",
+      "E": "In addition, most divers now demand a sensitive environmental operation from the dive companies themselves."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 73,
+    "question_text": "A reading disorder is characterised by a difficulty in learning to decode, leading to poor appreciation of the spelling patterns of words and their pronunciation. Therefore, people with a reading disorder can have difficulties accurately reading aloud and with spelling. ---- Generally, people who are identified as having a reading disorder before the third grade and who get intensive reading education can make significant progress. There is, however, a great deal of variation among people in intelligence, educational opportunities, and the will to overcome a reading disorder. All these factors combine to determine the ultimate outcome of this disorder. The prognosis is usually good if the condition is diagnosed early and the person is enrolled in a good remedial program. Supportive family, friends, and teachers also improve a person's chances of overcoming this disorder.",
+    "options": {
+      "A": "Anyone who is suspected of having a reading disorder should also have a comprehensive evaluation of hearing and vision.",
+      "B": "Children with reading disorders are rarely referred to a child psychiatrist for remedial treatment unless they have emotional and behavioural difficulties.",
+      "C": "How well a person can compensate for this disorder depends on the severity of the impairment and the type of educational remediation that they receive.",
+      "D": "Despite the complexity of the reading disorder, researchers have found that the condition is at least partially inherited.",
+      "E": "Difficulties in reading can occur at various levels, and a reading disorder may have several causes that manifest in different ways."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 74,
+    "question_text": "The most famous of all comets was certainly seen by the English astronomer Edmond Halley when it flew round the Sun in 1682, but he did not discover it. The credit for that goes back at least another 2,000 years to 240 BCE, when unknown Chinese astronomers noted what they called a broom star appearing in the eastern sky in May of that year. ---- While studying a list of comet observations over the centuries, he noticed that similar objects appearing in 1531, 1607, and 1682 were just different apparitions of the same comet. Was it just a coincidence that they were all about 76 years apart? Using Newton's then newly published law of gravity, he showed that they were all the same object, swinging round the Sun on a vast orbit. Halley predicted it would return in 1758, which it really did at that time.",
+    "options": {
+      "A": "According to Halley, the comet follows a retrograde (east-west), elliptical orbit, providing a magnificent astronomical spectacle.",
+      "B": "Halley's comet may live another 225,000 years if recent estimates calculated from data collected by the space probe Giotto are correct.",
+      "C": "Throughout history, comets were viewed as omens, and Halley's comet is no exception: in 451 AD, it was linked to Atilla the Hun's only defeat.",
+      "D": "In fact, Halley's claim to the name stems from his crucial discovery about the nature of the comet.",
+      "E": "After further scientific voyages, Halley was appointed Savilian Professor of Geometry at Oxford in 1704, where he continued his astronomical work."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 75,
+    "question_text": "Artificial sweeteners make things much sweeter than the corresponding calorific value of ordinary sugar, so very small doses can make products sweet while adding very few calories. In 1996, American neurologist John Olney claimed that the aspartame, a widely used artificial sweetener, caused cancer. His argument was based on data showing that since the approval of aspartame in 1981, the number of brain cancer cases has increased. ---- However, many scientists agree that its long-term health effects have not yet been sufficiently clarified.",
+    "options": {
+      "A": "Aspartame is one of the most comprehensively studied sweeteners and is 200 times sweeter than table sugar.",
+      "B": "A group of scientists have studied the history of artificial sweeteners, such as aspartame and saccharin, and analysed their consumption rates.",
+      "C": "Furthermore, aspartame can also be found in milk drinks, shake mixes, and juice beverages.",
+      "D": "This caused heated debate, but since then, most studies have found that it does not cause cancer, and health authorities allow aspartame in food today.",
+      "E": "It is evident that governments and the medical field express uncertainty regarding the use of aspartame due to its changing health-safety status."
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 76,
+    "question_text": "(I) In contrast to production, which has been studied in exhaustive detail, consumption has long been ignored. (II) The reasons for this silence are not clear but may reflect, among other things, Marxism's emphasis on production and labour as the central acts of social life, and conversely, neoclassical economics' sterile and asocial view of consumption. (III) In fact, consumption and production cannot be neatly separated and are closely intertwined. (IV) Economists generally focus on consumption in the context of the global economy, particularly the manner in which commodities are distributed and consumed via commodity chains. (V) Historically, the growth of mass production has always been accompanied by mass consumption, and the explosive growth of producer services has induced remarkable changes in consumption, such as increasingly specialised niche markets and sophisticated consumers.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 77,
+    "question_text": "(I) Until about a century ago, it was thought that not much lived in the deep sea – with its average depth of around 3.5 km, crushing pressures, and permanent darkness, few people bothered looking there. (II) Deep sea is home to many creatures, from snails covered in metal plates to hairy crabs having unusual adaptations that help them to survive with no sunlight and in water temperatures that range from boiling to freezing. (III) But today's scientists have ditched the old ideas of a deep, empty ocean and flat, featureless seabed. (IV) They are keen to take a closer look beneath the waves, and the latest generation of research equipment is opening up the depths like never before. (V) New technology is helping scientists uncover the oceans' vital role in global climate and find bizarre creatures that offer clues about the origins of life on Earth.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 78,
+    "question_text": "(I) Most of us are familiar with the unpleasant symptoms of food poisoning, from vomiting to debilitating stomach cramps. (II) Although viruses play a role, bacteria have been known as common offenders that are topping the poisoning charts. (III) Research suggests that many bacteria do not cause vomiting, but certain types of bacteria may stimulate the vagus nerve which transmits a signal to the brain's vomiting centre. (IV) Some bacteria wreak havoc by multiplying in the body before delivering their toxins that spark an immune reaction in the gut. (V) Others, such as Staphylococcus, poison us by contaminating meat, fish, pastry, and dairy products with toxins.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 79,
+    "question_text": "(I) Occasionally littered with calcified corpses, the bright red water of Lake Natron in Tanzania gives a very clear warning to any life form that approaches its shores. (II) As its source, the volcano Mount Ol Doinyo Lengai releases run-off water from its slopes, mixing it with volcanic material. (III) As a result, the lake's water becomes highly salty and alkaline, which severely limits the number of animal and plant species that can survive in the waters. (IV) If an animal dies in these waters, there is a high chance that it will become calcified as the salty lake hardens its body. (V) However, one organism that thrives in its salty waters is the extremophile cyanobacteria, which is the red algae that colours the lake and makes it toxic to other life forms.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correct_answer": ""
+  },
+  {
+    "question_number": 80,
+    "question_text": "(I) By increasing children's self-esteem and motivation for achievement, educators can help children overcome learned helplessness. (II) The negative attributions that adults make towards children and academic failure seem to contribute to learned helplessness, which refers to the eventual passive acceptance of consistent failure, resulting in the cessation of all voluntary activity. (III) It is particularly evident in children who have been diagnosed with a learning disability. (IV) Children who believe that academic failure is the result of an ability deficit are unlikely to exert much effort to change this seemingly unavoidable condition. (V) Such children are more likely to view failure as a permanent and internal condition.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correct_answer": ""
+  }
+]
