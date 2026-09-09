@@ -32,6 +32,14 @@ jobs:
           echo -n "$BUILD_CERTIFICATE_BASE64" | base64 --decode -o $CERT_PATH
           echo -n "$BUILD_PROVISION_PROFILE_BASE64" | base64 --decode -o $PP_PATH
 
+          # OpenSSL 3 ile olusan p12'yi Apple Legacy formatina donustur
+          OPENSSL_BIN="/opt/homebrew/opt/openssl@3/bin/openssl"
+          if [ ! -x "$OPENSSL_BIN" ]; then
+            OPENSSL_BIN="openssl"
+          fi
+          $OPENSSL_BIN pkcs12 -in $CERT_PATH -nodes -passin "pass:$P12_PASSWORD" -out $RUNNER_TEMP/cert.pem
+          $OPENSSL_BIN pkcs12 -export -legacy -in $RUNNER_TEMP/cert.pem -out $CERT_PATH -passout "pass:$P12_PASSWORD"
+
           security create-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
           security set-keychain-settings -lut 21600 $KEYCHAIN_PATH
           security unlock-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
