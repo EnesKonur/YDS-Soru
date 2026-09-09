@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy-ios:
-    runs-on: macos-15
+    runs-on: macos-26
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -89,11 +89,13 @@ jobs:
           <plist version="1.0">
           <dict>
               <key>method</key>
-              <string>app-store</string>
+              <string>app-store-connect</string>
               <key>teamID</key>
               <string>${PROFILE_TEAM}</string>
               <key>signingStyle</key>
               <string>manual</string>
+              <key>uploadSymbols</key>
+              <false/>
               <key>provisioningProfiles</key>
               <dict>
                   <key>com.yds.sorufiltreleme</key>
@@ -111,11 +113,13 @@ jobs:
               <key>destination</key>
               <string>upload</string>
               <key>method</key>
-              <string>app-store</string>
+              <string>app-store-connect</string>
               <key>teamID</key>
               <string>${PROFILE_TEAM}</string>
               <key>signingStyle</key>
               <string>manual</string>
+              <key>uploadSymbols</key>
+              <false/>
               <key>provisioningProfiles</key>
               <dict>
                   <key>com.yds.sorufiltreleme</key>
