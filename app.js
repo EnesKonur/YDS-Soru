@@ -49,12 +49,17 @@ class YDSApp {
     this._scrollLocked = true;
     this._savedScrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
     
+    document.documentElement.style.overflow = 'hidden';
+    document.documentElement.style.height = '100%';
+    document.documentElement.style.touchAction = 'none';
     document.body.style.position = 'fixed';
     document.body.style.top = `-${this._savedScrollY}px`;
     document.body.style.left = '0';
     document.body.style.right = '0';
     document.body.style.width = '100%';
+    document.body.style.height = '100%';
     document.body.style.overflow = 'hidden';
+    document.body.style.touchAction = 'none';
   }
 
   unlockScroll() {
@@ -62,12 +67,17 @@ class YDSApp {
     this._scrollLocked = false;
     const scrollY = this._savedScrollY || 0;
     
+    document.documentElement.style.overflow = '';
+    document.documentElement.style.height = '';
+    document.documentElement.style.touchAction = '';
     document.body.style.position = '';
     document.body.style.top = '';
     document.body.style.left = '';
     document.body.style.right = '';
     document.body.style.width = '';
+    document.body.style.height = '';
     document.body.style.overflow = '';
+    document.body.style.touchAction = '';
     
     window.scrollTo(0, scrollY);
   }
@@ -292,17 +302,14 @@ class YDSApp {
 
     if (this.isPracticeMode) {
       if (searchScope === "exams") {
-        const examQuestions = [];
-        for (let i = 1; i <= 5; i++) {
-          const qs = window.questionRepo ? window.questionRepo.getByExam(i) : [];
-          examQuestions.push(...qs);
-        }
-        poolToSearch = examQuestions;
+        poolToSearch = window.questionRepo ? window.questionRepo.getAllExamQuestions() : [];
       } else if (searchScope === "all") {
-        poolToSearch = window.questionRepo ? window.questionRepo.getAllUserFacingQuestions() : (window.PRACTICE_YDS_QUESTIONS || []);
+        poolToSearch = window.questionRepo ? window.questionRepo.getAllUserFacingQuestions() : [];
       } else {
-        poolToSearch = window.questionRepo ? window.questionRepo.getAlistirmaQuestions() : (window.PRACTICE_YDS_QUESTIONS || []).slice(0, 330);
+        poolToSearch = window.questionRepo ? window.questionRepo.getAlistirmaQuestions() : [];
       }
+    } else {
+      poolToSearch = this.activePool || [];
     }
 
     this.filteredQuestions = poolToSearch.filter(q => {
@@ -377,17 +384,27 @@ class YDSApp {
 
     countSpan.textContent = this.filteredQuestions.length;
 
+    // Sınav modunda filtre rozeti gösterilmez
+    if (this.isExamMode) {
+      badge.classList.add("hidden");
+      if (clearBtn) clearBtn.classList.add("hidden");
+      return;
+    }
+
+    const catVal = document.getElementById("categoryFilter")?.value || "all";
+    const stVal = document.getElementById("statusFilter")?.value || "all";
+    const scVal = document.getElementById("searchScopeFilter")?.value || "practice";
+
     if (this.activeKeyword) {
       badge.classList.remove("hidden");
       if (this.isPracticeMode) {
-        const searchScope = document.getElementById("searchScopeFilter")?.value || "practice";
-        if (searchScope === "exams") {
+        if (scVal === "exams") {
           if (keywordSpan) {
-            keywordSpan.textContent = `🎯 Yalnızca Çıkmışlar: "${this.activeKeyword}" (${this.filteredQuestions.length} soruda çıktı)`;
+            keywordSpan.textContent = `🎯 Deneme Soruları: "${this.activeKeyword}" (${this.filteredQuestions.length} soru)`;
           }
-        } else if (searchScope === "all") {
+        } else if (scVal === "all") {
           if (keywordSpan) {
-            keywordSpan.textContent = `🌐 Tüm Sorular: "${this.activeKeyword}" (${this.filteredQuestions.length} soru bulundu)`;
+            keywordSpan.textContent = `🌐 Tüm Sorular: "${this.activeKeyword}" (${this.filteredQuestions.length} soru)`;
           }
         } else {
           if (keywordSpan) {
@@ -401,17 +418,24 @@ class YDSApp {
       }
       if (clearBtn) clearBtn.classList.remove("hidden");
     } else if (
-      (document.getElementById("categoryFilter")?.value !== "all") ||
-      (document.getElementById("yearFilter")?.value !== "all") ||
-      (document.getElementById("statusFilter")?.value !== "all") ||
-      (this.isPracticeMode && document.getElementById("searchScopeFilter")?.value !== "practice")
+      catVal !== "all" ||
+      stVal !== "all" ||
+      (this.isPracticeMode && scVal !== "practice")
     ) {
       badge.classList.remove("hidden");
       if (keywordSpan) {
-        const sc = document.getElementById("searchScopeFilter")?.value;
-        if (sc === "exams") keywordSpan.textContent = "🎯 Yalnızca Çıkmış Sınavlar";
-        else if (sc === "all") keywordSpan.textContent = "🌐 Tüm Soru Havuzu";
-        else keywordSpan.textContent = "Seçili Kriterler";
+        let label = "Seçili Kriterler";
+        if (catVal !== "all" && stVal === "all" && scVal === "practice") {
+          label = catVal;
+        } else if (stVal !== "all" && catVal === "all" && scVal === "practice") {
+          const stNames = { unsolved: "Çözülmemişler", wrong: "Yanlış Yapılanlar", correct: "Doğru Yapılanlar", favorites: "Yıldızlılar" };
+          label = stNames[stVal] || stVal;
+        } else if (scVal === "exams" && catVal === "all" && stVal === "all") {
+          label = "🎯 Deneme Sınavı Soruları";
+        } else if (scVal === "all" && catVal === "all" && stVal === "all") {
+          label = "🌐 Tüm Sorular (Alıştırma + Deneme)";
+        }
+        keywordSpan.textContent = label;
       }
       if (clearBtn) clearBtn.classList.remove("hidden");
     } else {
@@ -736,16 +760,10 @@ class YDSApp {
       }
     }
 
-    // 🎯 Özel Çözüm Yöntemi & YDS Soru Taktiği Kartı
+    // 🎯 Çözüm Yöntemi kartını gizliyoruz, metin doğrudan Detaylı Çözüm & Türkçe Çeviri içine yerleştirilecek
     const solutionCard = document.getElementById("solutionMethodCard");
-    const solutionContent = document.getElementById("solutionMethodContent");
-    if (solutionCard && solutionContent) {
-      if (q.solutionMethod && q.solutionMethod.trim().length > 0) {
-        solutionCard.classList.remove("hidden");
-        solutionContent.innerHTML = q.solutionMethod.replace(/\n/g, "<br>");
-      } else {
-        solutionCard.classList.add("hidden");
-      }
+    if (solutionCard) {
+      solutionCard.classList.add("hidden");
     }
 
     const feedbackBanner = document.getElementById("answerFeedbackBanner");
@@ -775,9 +793,17 @@ class YDSApp {
       }
     }
 
+    const fullExplanation = (q.explanation && q.explanation.trim().length > 0 ? q.explanation : (q.solutionMethod || "")).trim();
+    const explanationWrapper = document.getElementById("explanationCardWrapper");
     const explanationContent = document.getElementById("explanationContent");
     if (explanationContent) {
-      explanationContent.innerHTML = (q.explanation || "Açıklama bulunmuyor.").replace(/\n/g, "<br>");
+      if (fullExplanation && fullExplanation.length > 0) {
+        if (explanationWrapper) explanationWrapper.classList.remove("hidden");
+        explanationContent.innerHTML = fullExplanation.replace(/\n/g, "<br>");
+      } else {
+        if (explanationWrapper) explanationWrapper.classList.add("hidden");
+        explanationContent.innerHTML = "";
+      }
     }
 
     // Sorudaki Önemli Kelimeler Tablosu / Listesi
@@ -970,7 +996,99 @@ class YDSApp {
     if (!modal) return;
     this.lockScroll();
     modal.classList.remove("hidden");
-    this.renderLearningPoolList();
+    const masteredCountEl = document.getElementById("masteredTotalWords");
+    if (masteredCountEl) masteredCountEl.textContent = this.masteredWords.length;
+    this._showPoolTab("pool");
+  }
+
+  _showPoolTab(tab) {
+    const poolBtn = document.getElementById("tabPoolWordsBtn");
+    const masteredBtn = document.getElementById("tabMasteredWordsBtn");
+    const poolList = document.getElementById("learningPoolList");
+    const masteredList = document.getElementById("masteredWordsList");
+    const actionsBar = document.getElementById("poolActionsBar");
+
+    if (tab === "mastered") {
+      poolBtn?.classList.remove("bg-indigo-600", "text-white", "shadow-sm");
+      poolBtn?.classList.add("bg-gray-100", "dark:bg-gray-700", "text-gray-700", "dark:text-gray-300");
+      masteredBtn?.classList.remove("bg-gray-100", "dark:bg-gray-700", "text-gray-700", "dark:text-gray-300");
+      masteredBtn?.classList.add("bg-emerald-600", "text-white", "shadow-sm");
+      poolList?.classList.add("hidden");
+      masteredList?.classList.remove("hidden");
+      actionsBar?.classList.add("hidden");
+      this.renderMasteredWordsList();
+    } else {
+      masteredBtn?.classList.remove("bg-emerald-600", "text-white", "shadow-sm");
+      masteredBtn?.classList.add("bg-gray-100", "dark:bg-gray-700", "text-gray-700", "dark:text-gray-300");
+      poolBtn?.classList.remove("bg-gray-100", "dark:bg-gray-700", "text-gray-700", "dark:text-gray-300");
+      poolBtn?.classList.add("bg-indigo-600", "text-white", "shadow-sm");
+      masteredList?.classList.add("hidden");
+      poolList?.classList.remove("hidden");
+      actionsBar?.classList.remove("hidden");
+      this.renderLearningPoolList();
+    }
+  }
+
+  renderMasteredWordsList() {
+    const container = document.getElementById("masteredWordsList");
+    if (!container) return;
+
+    if (this.masteredWords.length === 0) {
+      container.innerHTML = `
+        <div class="text-center py-12 text-gray-500 dark:text-gray-400">
+          <p class="text-4xl mb-3">🎓</p>
+          <p class="text-lg font-medium">Henüz öğrendiğin kelime yok.</p>
+          <p class="text-sm mt-1">Flaş Kart modunda "Öğrendim" butonuna basarak kelimeleri buraya taşıyabilirsin.</p>
+        </div>
+      `;
+      return;
+    }
+
+    container.innerHTML = "";
+    const mSorted = [...this.masteredWords].map(item => ({
+      ...item,
+      count: this.getExamOccurrenceCount(item.word)
+    })).sort((a, b) => b.count - a.count);
+
+    mSorted.forEach(item => {
+      const dateStr = item.date ? new Date(item.date).toLocaleDateString("tr-TR") : "";
+      const card = document.createElement("div");
+      card.className = "p-4 rounded-xl border border-emerald-200 dark:border-emerald-800 bg-emerald-50 dark:bg-emerald-950/30 flex flex-col space-y-2";
+
+      const meaningHtml = item.meaning ? `<p class="text-gray-700 dark:text-gray-300 text-sm mt-1">${item.meaning}</p>` : "";
+      const dateHtml = dateStr ? `<p class="text-xs text-gray-400 mt-0.5">${dateStr} tarihinde öğrenildi</p>` : "";
+
+      const safeWord = (item.word || "").replace(/"/g, "&quot;");
+
+      card.innerHTML = `
+        <div class="flex items-start justify-between">
+          <div>
+            <div class="flex items-center space-x-2">
+              <span class="font-bold text-lg text-emerald-700 dark:text-emerald-400">${item.word || ""}</span>
+              <button class="text-gray-400 hover:text-emerald-600" onclick="ydsApp.speakWord(this.dataset.w)" data-w="${safeWord}">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
+                </svg>
+              </button>
+              <span class="px-2 py-0.5 rounded-full text-xs font-bold bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300">✓ Öğrenildi</span>
+            </div>
+            ${meaningHtml}
+            ${dateHtml}
+          </div>
+        </div>
+        <div class="flex items-center justify-between pt-2 border-t border-emerald-200 dark:border-emerald-800">
+          <span class="text-xs font-semibold text-amber-600 dark:text-amber-400 flex items-center">
+            <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            YDS'de ${item.count} kez soruldu
+          </span>
+          <button class="px-3 py-1 bg-indigo-50 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 text-xs font-bold rounded-lg hover:bg-indigo-100 transition" onclick="ydsApp.searchWordInExams(this.dataset.w)" data-w="${safeWord}">
+            Sorulara Git →
+          </button>
+        </div>
+      `;
+
+      container.appendChild(card);
+    });
   }
 
   closeLearningPoolModal() {
@@ -1599,6 +1717,7 @@ class YDSApp {
   }
 
   startExamMode(examIdentifier) {
+    this.practiceSessionActive = false;
     this.isPracticeMode = false;
     this.isExamMode = true;
 
@@ -1656,6 +1775,11 @@ class YDSApp {
     if (catSelect) catSelect.value = "all";
     if (stSelect) stSelect.value = "all";
     if (yrSelect) yrSelect.value = "all";
+    this.activeKeyword = "";
+    this._lastHasFilter = false;
+
+    // Denemenin kendi kategorileriyle dropdown'ı doldur
+    this.populateFilterDropdowns(examQuestions);
 
     // Soru çözüm ekranını göster
     this.showQuestionView("exam");
@@ -1676,6 +1800,7 @@ class YDSApp {
       this.resumeExamSmartTimer();
     }
 
+    this.updateFilterStatusBadge();
     this.renderQuestion();
     this.renderQuestionGrid();
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1955,30 +2080,20 @@ class YDSApp {
   }
 
   // --- Filtre Dropdown Doldurma ---
-  populateFilterDropdowns() {
+  populateFilterDropdowns(pool) {
     const catSelect = document.getElementById("categoryFilter");
-    const yrSelect = document.getElementById("yearFilter");
+    const sourcePool = pool || this.activePool || this.allQuestions || [];
 
     if (catSelect) {
       catSelect.innerHTML = '<option value="all">Tüm Konular</option>';
-      const categories = [...new Set(this.allQuestions.map(q => q.category).filter(Boolean))];
+      const categories = [...new Set(sourcePool.map(q => q.category).filter(Boolean))].sort();
       categories.forEach(cat => {
         const opt = document.createElement("option");
         opt.value = cat;
         opt.textContent = cat;
         catSelect.appendChild(opt);
       });
-    }
-
-    if (yrSelect) {
-      yrSelect.innerHTML = '<option value="all">Tüm Yıllar</option>';
-      const years = [...new Set(this.allQuestions.map(q => q.year).filter(y => typeof y === 'number'))].sort((a, b) => b - a);
-      years.forEach(yr => {
-        const opt = document.createElement("option");
-        opt.value = yr;
-        opt.textContent = `${yr} Yılı`;
-        yrSelect.appendChild(opt);
-      });
+      catSelect.value = "all";
     }
   }
 
@@ -2097,6 +2212,12 @@ class YDSApp {
     document.getElementById("navReportBtn")?.classList.remove("inline-flex");
 
     this.previousView = this.currentView;
+    const poolLabelH = document.getElementById("poolBtnLabel");
+    if (poolLabelH) {
+      poolLabelH.textContent = "Kelime Havuzum";
+      poolLabelH.classList.remove("hidden");
+      poolLabelH.classList.add("inline");
+    }
     this.currentView = "home";
     this.expandHeaderBars?.();
     this.updateHomeStats();
@@ -2144,6 +2265,11 @@ class YDSApp {
     }
 
     this.previousView = this.currentView;
+    const poolLabelQ = document.getElementById("poolBtnLabel");
+    if (poolLabelQ) {
+      poolLabelQ.classList.add("hidden");
+      poolLabelQ.classList.remove("inline");
+    }
     this.currentView = "question";
     this.expandHeaderBars?.();
 
@@ -2187,6 +2313,11 @@ class YDSApp {
     document.getElementById("navReportBtn")?.classList.remove("inline-flex");
 
     this.previousView = this.currentView;
+    const poolLabelR = document.getElementById("poolBtnLabel");
+    if (poolLabelR) {
+      poolLabelR.classList.add("hidden");
+      poolLabelR.classList.remove("inline");
+    }
     this.currentView = "report";
     this.renderReportView();
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -2551,17 +2682,12 @@ class YDSApp {
     }
     this.activePool = practiceQuestions;
 
-    // Preserve session state if already active
-    if (!this.practiceSessionActive || !this.filteredQuestions || this.filteredQuestions.length === 0) {
-      const shuffled = [...practiceQuestions].sort(() => Math.random() - 0.5);
-      this.filteredQuestions = shuffled;
-      this.currentIndex = 0;
-      this.savedUnfilteredIndex = 0;
-      this.practiceSessionActive = true;
-    } else {
-      // Restore previously saved unfiltered index if returning from report etc.
-      this.currentIndex = this.savedUnfilteredIndex || this.currentIndex || 0;
-    }
+    // Alıştırma moduna girildiğinde daima taze alıştırma havuzu yüklenir (deneme soruları karışamaz)
+    const shuffled = [...practiceQuestions].sort(() => Math.random() - 0.5);
+    this.filteredQuestions = shuffled;
+    this.currentIndex = 0;
+    this.savedUnfilteredIndex = 0;
+    this.practiceSessionActive = true;
 
     // Filtreleri sıfırla
     const kwInput = document.getElementById("keywordInput");
@@ -2577,8 +2703,14 @@ class YDSApp {
     if (yrSelect) yrSelect.value = "all";
     const scSelect = document.getElementById("searchScopeFilter");
     if (scSelect) scSelect.value = "practice";
+    this.activeKeyword = "";
+    this._lastHasFilter = false;
+
+    // Alıştırmanın kategorileriyle dropdown'ı doldur
+    this.populateFilterDropdowns(practiceQuestions);
 
     this.showQuestionView("practice");
+    this.updateFilterStatusBadge();
     this.renderQuestion();
     this.renderQuestionGrid();
   }
@@ -2694,6 +2826,17 @@ class YDSApp {
 
   // --- Event Listener'lar ---
   setupEventListeners() {
+    // dailyQuestionModalTouchGuard: Günün Sorusu modalında arka plan kaymasını engelle
+    const dqModal = document.getElementById("dailyQuestionModal");
+    if (dqModal) {
+      dqModal.addEventListener("touchmove", (e) => {
+        const content = document.getElementById("dailyQuestionContent");
+        if (!content || !content.contains(e.target) || content.scrollHeight <= content.clientHeight) {
+          e.preventDefault();
+        }
+      }, { passive: false });
+    }
+
     // Arama Çubuğu (Ters yazım engelleme, imleç koruması ve klavye desteği)
     const kwInput = document.getElementById("keywordInput");
     const clearBtn = document.getElementById("clearKeywordBtn");
@@ -3030,16 +3173,17 @@ class YDSApp {
     let explanationHtml = '';
     if (isAnswered) {
       const isCorrect = isAnswered === actualAnswer;
-      const explanationText = q.explanation || 'Bu soru için henüz bir açıklama veya çeviri girilmemiş.';
+      const explanationText = (q.explanation && q.explanation.trim() ? q.explanation : (q.solutionMethod || '')).trim();
       explanationHtml = `
         <div class="mt-5 p-4 sm:p-5 rounded-2xl ${isCorrect ? 'bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800' : 'bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800'} animate-in fade-in slide-in-from-bottom-4 duration-300">
           <h4 class="font-bold ${isCorrect ? 'text-emerald-700 dark:text-emerald-400' : 'text-red-700 dark:text-red-400'} text-lg mb-2 flex items-center gap-2">
              ${isCorrect ? '✨ Tebrikler, Doğru!' : '❌ Maalesef Yanlış.'}
           </h4>
-          <p class="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-2">Doğru Cevap: ${actualAnswer}</p>
-          <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed space-y-2">
-            ${explanationText}
-          </div>
+          <p class="text-sm font-semibold text-gray-900 dark:text-gray-100 ${explanationText ? 'mb-2' : ''}">Doğru Cevap: ${actualAnswer}</p>
+          ${explanationText ? `
+          <div class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed space-y-2 pt-2 border-t border-gray-200/60 dark:border-gray-700/60">
+            ${explanationText.replace(/\n/g, '<br>')}
+          </div>` : ''}
         </div>
       `;
     }
