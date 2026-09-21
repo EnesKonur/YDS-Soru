@@ -17,9 +17,9 @@ class YDSAdService {
         rewarded: 'ca-app-pub-4561261731825506/7328728589'
       },
       ios: {
-        banner: 'ca-app-pub-3940256099942544/2934735716',
-        interstitial: 'ca-app-pub-3940256099942544/4411468910',
-        rewarded: 'ca-app-pub-3940256099942544/1712485313'
+        banner: 'ca-app-pub-4561261731825506/7335195922',
+        interstitial: 'ca-app-pub-4561261731825506/3755877715',
+        rewarded: 'ca-app-pub-4561261731825506/5891086469'
       }
     };
 
@@ -57,11 +57,11 @@ class YDSAdService {
         }
       }
 
-      // AdMob SDK'sını Başlat (Canlı Android ID ile initializeForTesting: false)
-      const isTestEnv = this.platform === 'ios';
+      // AdMob SDK'sını Başlat (Canlı Mod)
+      const isTestEnv = false;
       await AdMob.initialize({
-        testingDevices: isTestEnv ? ['EMULATOR'] : [],
-        initializeForTesting: isTestEnv
+        testingDevices: [],
+        initializeForTesting: false
       });
 
       this.isInitialized = true;

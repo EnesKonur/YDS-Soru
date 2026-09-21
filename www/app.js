@@ -47,41 +47,16 @@ class YDSApp {
   lockScroll() {
     if (this._scrollLocked) return;
     this._scrollLocked = true;
-    this._savedScrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
-    
     document.documentElement.style.overflow = 'hidden';
-    document.documentElement.style.height = '100%';
-    document.documentElement.style.touchAction = 'none';
-    document.body.style.position = 'fixed';
-    document.body.style.top = `-${this._savedScrollY}px`;
-    document.body.style.left = '0';
-    document.body.style.right = '0';
-    document.body.style.width = '100%';
-    document.body.style.height = '100%';
     document.body.style.overflow = 'hidden';
-    document.body.style.touchAction = 'none';
   }
 
   unlockScroll() {
     if (!this._scrollLocked) return;
     this._scrollLocked = false;
-    const scrollY = this._savedScrollY || 0;
-    
     document.documentElement.style.overflow = '';
-    document.documentElement.style.height = '';
-    document.documentElement.style.touchAction = '';
-    document.body.style.position = '';
-    document.body.style.top = '';
-    document.body.style.left = '';
-    document.body.style.right = '';
-    document.body.style.width = '';
-    document.body.style.height = '';
     document.body.style.overflow = '';
-    document.body.style.touchAction = '';
-    
-    window.scrollTo(0, scrollY);
   }
-
 
   get activeAnswers() {
     return this.isExamMode ? this.examAnswers : this.practiceAnswers;
@@ -3044,45 +3019,64 @@ class YDSApp {
   }
 
   // --- Üst Barların Kaydırma Davranışı (Scroll Auto-Collapse) ---
-  // --- Üst Barların Kaydırma Davranışı (Scroll Auto-Collapse) ---
   initScrollHeaderBars() {
     const barsContainer = document.getElementById('collapsibleHeaderBars');
     if (!barsContainer) return;
 
     let isCollapsed = false;
     let lastScrollY = Math.max(0, window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0);
+    let accumulatedDelta = 0;
+    let lastStateChangeTime = 0;
     let ticking = false;
 
     const updateBarState = () => {
       // Sadece soru ekranındayken ve açık bir modal yokken çalıştır
       if (this.currentView !== 'question' || this._scrollLocked) {
         lastScrollY = Math.max(0, window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0);
+        accumulatedDelta = 0;
         ticking = false;
         return;
       }
 
       const currentScrollY = Math.max(0, window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0);
       const delta = currentScrollY - lastScrollY;
+      const now = Date.now();
 
-      // 1. En üstteyken (<= 15px) her zaman görünür olmalı
-      if (currentScrollY <= 15) {
+      // 1. En üstteyken (<= 25px) daima görünür olmalı
+      if (currentScrollY <= 25) {
         if (isCollapsed) {
           isCollapsed = false;
           barsContainer.classList.remove('collapsed-header-bars');
+          lastStateChangeTime = now;
         }
-      }
-      // 2. Aşağı kaydırırken ve belirli bir derinlikteyken (> 60px) gizle
-      else if (delta > 8 && currentScrollY > 60) {
-        if (!isCollapsed) {
-          isCollapsed = true;
-          barsContainer.classList.add('collapsed-header-bars');
+        accumulatedDelta = 0;
+      } else {
+        // Yön değişiminde birikimi sıfırla
+        if ((delta > 0 && accumulatedDelta < 0) || (delta < 0 && accumulatedDelta > 0)) {
+          accumulatedDelta = 0;
         }
-      }
-      // 3. Yukarı kaydırırken (delta < -8) geri getir
-      else if (delta < -8) {
-        if (isCollapsed) {
-          isCollapsed = false;
-          barsContainer.classList.remove('collapsed-header-bars');
+        accumulatedDelta += delta;
+
+        // Soğuma süresi (cooldown): Son açılma/kapanmadan sonra 180ms bekle (titremeyi önler)
+        if (now - lastStateChangeTime > 180) {
+          // 2. Aşağı doğru belirgin kaydırma (> 45px) ve yeterli derinlikteyken (> 80px) gizle
+          if (accumulatedDelta > 45 && currentScrollY > 80) {
+            if (!isCollapsed) {
+              isCollapsed = true;
+              barsContainer.classList.add('collapsed-header-bars');
+              lastStateChangeTime = now;
+              accumulatedDelta = 0;
+            }
+          }
+          // 3. Yukarı doğru belirgin kaydırma (< -35px) durumunda geri getir
+          else if (accumulatedDelta < -35) {
+            if (isCollapsed) {
+              isCollapsed = false;
+              barsContainer.classList.remove('collapsed-header-bars');
+              lastStateChangeTime = now;
+              accumulatedDelta = 0;
+            }
+          }
         }
       }
 
@@ -3100,6 +3094,7 @@ class YDSApp {
     this.expandHeaderBars = () => {
       isCollapsed = false;
       lastScrollY = 0;
+      accumulatedDelta = 0;
       barsContainer.classList.remove('collapsed-header-bars');
     };
   }

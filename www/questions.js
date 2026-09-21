@@ -24051,7 +24051,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "ramifications"
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDijital arşivlerin yaygınlaşması, tarihçilerin araştırma yapma biçimleri açısından çeşitli uzun vadeli sonuçlar doğurmuştur; daha önce erişilemeyen birçok koleksiyon artık çevrim içi olarak erişilebilir durumdadır.\n\n🔎 Neden Doğru?\nramifications = bir gelişmenin doğurduğu sonuçlar/etkiler. 'long-term ramifications' güçlü bir akademik kalıptır.\n\n❌ Diğer Seçenekler:\nA) compulsions = zorunluluklar; anlam uymaz.\nB) exceptions = istisnalar; uzun vadeli etkiler anlamı vermez.\nC) fluctuations = dalgalanmalar; bağlamda değişkenlik değil sonuç vurgulanıyor.\nD) fallacies = safsatalar; akademik sonuç anlamı yok.\n\n🧠 YDS Taktiği:\nİsim sorularında boşluğun önündeki sıfat + arkasındaki preposition/isim grubunu birlikte oku.\n\n📌 Öğrenilmesi Gereken:\nlong-term ramifications; ramifications for",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDijital arşivlerin yaygınlaşması, tarihçilerin araştırma yapma biçimleri açısından çeşitli uzun vadeli sonuçlar doğurmuştur; daha önce erişilemeyen birçok koleksiyon artık çevrim içi olarak erişilebilir durumdadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? ramifications = bir gelişmenin doğurduğu sonuçlar/etkiler. 'long-term ramifications' güçlü bir akademik kalıptır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) compulsions = zorunluluklar; anlam uymaz. B) exceptions = istisnalar; uzun vadeli etkiler anlamı vermez. C) fluctuations = dalgalanmalar; bağlamda değişkenlik değil sonuç vurgulanıyor. D) fallacies = safsatalar; akademik sonuç anlamı yok.\n\n🧠 YDS Taktiği:\nİsim sorularında boşluğun önündeki sıfat + arkasındaki preposition/isim grubunu birlikte oku.\n\n📌 Öğrenilmesi Gereken:\nlong-term ramifications; ramifications for",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDijital arşivlerin yaygınlaşması, tarihçilerin araştırma yapma biçimleri açısından çeşitli uzun vadeli sonuçlar doğurmuştur; daha önce erişilemeyen birçok koleksiyon artık çevrim içi olarak erişilebilir durumdadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? ramifications = bir gelişmenin doğurduğu sonuçlar/etkiler. 'long-term ramifications' güçlü bir akademik kalıptır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) compulsions = zorunluluklar; anlam uymaz. B) exceptions = istisnalar; uzun vadeli etkiler anlamı vermez. C) fluctuations = dalgalanmalar; bağlamda değişkenlik değil sonuç vurgulanıyor. D) fallacies = safsatalar; akademik sonuç anlamı yok.\n\n🧠 YDS Taktiği:\nİsim sorularında boşluğun önündeki sıfat + arkasındaki preposition/isim grubunu birlikte oku.\n\n📌 Öğrenilmesi Gereken:\nlong-term ramifications; ramifications for",
     "tags": []
   },
   {
@@ -24072,7 +24073,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "sovereignty"
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBazı gelişmekte olan ülkeler, yabancı teknolojiye aşırı bağımlılığın ekonomik egemenliklerini zayıflatabileceğinden endişe etmektedir.\n\n🔎 Neden Doğru?\nsovereignty = egemenlik. 'economic sovereignty' ekonomik kararları bağımsız biçimde alabilme fikrini taşır.\n\n❌ Diğer Seçenekler:\nA) accuracy = doğruluk; ekonomi egemenliği anlamı vermez.\nB) delicacy = hassaslık/narinlik; bağlam dışı.\nC) adversity = güçlük; 'economic adversity' mümkün olsa da cümledeki bağımsızlık fikrini karşılamaz.\nD) deviancy = sapkınlık; konu dışı.\n\n🧠 YDS Taktiği:\nKelimeyi tek başına değil, önündeki adjective ile birlikte öğren: economic sovereignty.\n\n📌 Öğrenilmesi Gereken:\neconomic sovereignty",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBazı gelişmekte olan ülkeler, yabancı teknolojiye aşırı bağımlılığın ekonomik egemenliklerini zayıflatabileceğinden endişe etmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? sovereignty = egemenlik. 'economic sovereignty' ekonomik kararları bağımsız biçimde alabilme fikrini taşır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) accuracy = doğruluk; ekonomi egemenliği anlamı vermez. B) delicacy = hassaslık/narinlik; bağlam dışı. C) adversity = güçlük; 'economic adversity' mümkün olsa da cümledeki bağımsızlık fikrini karşılamaz. D) deviancy = sapkınlık; konu dışı.\n\n🧠 YDS Taktiği:\nKelimeyi tek başına değil, önündeki adjective ile birlikte öğren: economic sovereignty.\n\n📌 Öğrenilmesi Gereken:\neconomic sovereignty",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBazı gelişmekte olan ülkeler, yabancı teknolojiye aşırı bağımlılığın ekonomik egemenliklerini zayıflatabileceğinden endişe etmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? sovereignty = egemenlik. 'economic sovereignty' ekonomik kararları bağımsız biçimde alabilme fikrini taşır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) accuracy = doğruluk; ekonomi egemenliği anlamı vermez. B) delicacy = hassaslık/narinlik; bağlam dışı. C) adversity = güçlük; 'economic adversity' mümkün olsa da cümledeki bağımsızlık fikrini karşılamaz. D) deviancy = sapkınlık; konu dışı.\n\n🧠 YDS Taktiği:\nKelimeyi tek başına değil, önündeki adjective ile birlikte öğren: economic sovereignty.\n\n📌 Öğrenilmesi Gereken:\neconomic sovereignty",
     "tags": []
   },
   {
@@ -24093,7 +24095,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "conventional"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYeni keşfedilen yazıtın yorumu, bilim insanlarının yazıtın tarihsel önemi konusunda anlaşmazlığa düşmesi nedeniyle hâlâ oldukça tartışmalıdır.\n\n🔎 Neden Doğru?\ncontentious = tartışmalı, ihtilaflı. 'a contentious issue' çok yaygın bir YDS kalıbıdır.\n\n❌ Diğer Seçenekler:\nA) restrictive = kısıtlayıcı; tartışmalı anlamı vermez.\nC) prompt = hızlı/derhal; isim 'interpretation'ı nitelemede anlamsal uyumsuz.\nD) dispensable = gereksiz; bağlam ters.\nE) conventional = geleneksel; anlaşmazlık fikrini karşılamaz.\n\n🧠 YDS Taktiği:\nSıfat sorularında önce cümlenin duygusal/akademik tonunu belirle: disagreement → contentious.\n\n📌 Öğrenilmesi Gereken:\na contentious issue; contentious interpretation",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYeni keşfedilen yazıtın yorumu, bilim insanlarının yazıtın tarihsel önemi konusunda anlaşmazlığa düşmesi nedeniyle hâlâ oldukça tartışmalıdır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? contentious = tartışmalı, ihtilaflı. 'a contentious issue' çok yaygın bir YDS kalıbıdır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) restrictive = kısıtlayıcı; tartışmalı anlamı vermez. C) prompt = hızlı/derhal; isim 'interpretation'ı nitelemede anlamsal uyumsuz. D) dispensable = gereksiz; bağlam ters. E) conventional = geleneksel; anlaşmazlık fikrini karşılamaz.\n\n🧠 YDS Taktiği:\nSıfat sorularında önce cümlenin duygusal/akademik tonunu belirle: disagreement → contentious.\n\n📌 Öğrenilmesi Gereken:\na contentious issue; contentious interpretation",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYeni keşfedilen yazıtın yorumu, bilim insanlarının yazıtın tarihsel önemi konusunda anlaşmazlığa düşmesi nedeniyle hâlâ oldukça tartışmalıdır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? contentious = tartışmalı, ihtilaflı. 'a contentious issue' çok yaygın bir YDS kalıbıdır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) restrictive = kısıtlayıcı; tartışmalı anlamı vermez. C) prompt = hızlı/derhal; isim 'interpretation'ı nitelemede anlamsal uyumsuz. D) dispensable = gereksiz; bağlam ters. E) conventional = geleneksel; anlaşmazlık fikrini karşılamaz.\n\n🧠 YDS Taktiği:\nSıfat sorularında önce cümlenin duygusal/akademik tonunu belirle: disagreement → contentious.\n\n📌 Öğrenilmesi Gereken:\na contentious issue; contentious interpretation",
     "tags": []
   },
   {
@@ -24114,7 +24117,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "notoriously"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYapay zekâ konusundaki bilimsel yayınların sayısı son on yılda katlanarak artmaktadır.\n\n🔎 Neden Doğru?\nexponentially = üstel biçimde, katlanarak.\n\n❌ Diğer Seçenekler:\nA) stringently = sıkı biçimde; growth ile doğal değil.\nC) detrimentally = zararlı biçimde; büyüme hızını anlatmaz.\nD) illicitly = yasadışı biçimde; bağlam dışı.\nE) notoriously = kötü şöhretli biçimde; growth ile anlamsız.\n\n🧠 YDS Taktiği:\nGrowth/increase/expand gibi fiillerle gelen zarflarda hızın nasıl arttığını sor.\n\n📌 Öğrenilmesi Gereken:\ngrow/increase exponentially",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYapay zekâ konusundaki bilimsel yayınların sayısı son on yılda katlanarak artmaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? exponentially = üstel biçimde, katlanarak.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) stringently = sıkı biçimde; growth ile doğal değil. C) detrimentally = zararlı biçimde; büyüme hızını anlatmaz. D) illicitly = yasadışı biçimde; bağlam dışı. E) notoriously = kötü şöhretli biçimde; growth ile anlamsız.\n\n🧠 YDS Taktiği:\nGrowth/increase/expand gibi fiillerle gelen zarflarda hızın nasıl arttığını sor.\n\n📌 Öğrenilmesi Gereken:\ngrow/increase exponentially",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYapay zekâ konusundaki bilimsel yayınların sayısı son on yılda katlanarak artmaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? exponentially = üstel biçimde, katlanarak.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) stringently = sıkı biçimde; growth ile doğal değil. C) detrimentally = zararlı biçimde; büyüme hızını anlatmaz. D) illicitly = yasadışı biçimde; bağlam dışı. E) notoriously = kötü şöhretli biçimde; growth ile anlamsız.\n\n🧠 YDS Taktiği:\nGrowth/increase/expand gibi fiillerle gelen zarflarda hızın nasıl arttığını sor.\n\n📌 Öğrenilmesi Gereken:\ngrow/increase exponentially",
     "tags": []
   },
   {
@@ -24135,7 +24139,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "yielded"
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBirçok genç araştırmacı, uluslararası burs sınavlarına hazırlanmak için boş zamanlarını feda etmiştir.\n\n🔎 Neden Doğru?\nsacrifice time = zamanını feda etmek; sacrifice one's free time çok sık kullanılır.\n\n❌ Diğer Seçenekler:\nB) alleviated = hafifletti; time ile kullanılmaz.\nC) prolonged = uzattı; anlam ters.\nD) earned = kazandı; free time kazanılmaz.\nE) yielded = teslim etti/verim sağladı; burada doğal collocation değil.\n\n🧠 YDS Taktiği:\nFiil + nesne collocation'ına odaklan: sacrifice time, sacrifice opportunities.\n\n📌 Öğrenilmesi Gereken:\nsacrifice time; sacrifice one's free time",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBirçok genç araştırmacı, uluslararası burs sınavlarına hazırlanmak için boş zamanlarını feda etmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? sacrifice time = zamanını feda etmek; sacrifice one's free time çok sık kullanılır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) alleviated = hafifletti; time ile kullanılmaz. C) prolonged = uzattı; anlam ters. D) earned = kazandı; free time kazanılmaz. E) yielded = teslim etti/verim sağladı; burada doğal collocation değil.\n\n🧠 YDS Taktiği:\nFiil + nesne collocation'ına odaklan: sacrifice time, sacrifice opportunities.\n\n📌 Öğrenilmesi Gereken:\nsacrifice time; sacrifice one's free time",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBirçok genç araştırmacı, uluslararası burs sınavlarına hazırlanmak için boş zamanlarını feda etmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? sacrifice time = zamanını feda etmek; sacrifice one's free time çok sık kullanılır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) alleviated = hafifletti; time ile kullanılmaz. C) prolonged = uzattı; anlam ters. D) earned = kazandı; free time kazanılmaz. E) yielded = teslim etti/verim sağladı; burada doğal collocation değil.\n\n🧠 YDS Taktiği:\nFiil + nesne collocation'ına odaklan: sacrifice time, sacrifice opportunities.\n\n📌 Öğrenilmesi Gereken:\nsacrifice time; sacrifice one's free time",
     "tags": []
   },
   {
@@ -24156,7 +24161,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "seek out"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKötü şehir planlaması, hızla büyüyen ilçelerde yaşayanların temel hizmetlere erişimini aksatabilir.\n\n🔎 Neden Doğru?\ninterfere with = engel olmak, aksatmak.\n\n❌ Diğer Seçenekler:\nA) ward off = savuşturmak; access ile kullanılmaz.\nB) conform to = uymak; anlam ters.\nD) bring in = getirmek/uygulamaya sokmak; access'i aksatma anlamı yok.\nE) seek out = aramak; anlam dışı.\n\n🧠 YDS Taktiği:\nFiillerde preposition kritik: interfere WITH, conform TO, seek OUT.\n\n📌 Öğrenilmesi Gereken:\ninterfere with",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKötü şehir planlaması, hızla büyüyen ilçelerde yaşayanların temel hizmetlere erişimini aksatabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? interfere with = engel olmak, aksatmak.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) ward off = savuşturmak; access ile kullanılmaz. B) conform to = uymak; anlam ters. D) bring in = getirmek/uygulamaya sokmak; access'i aksatma anlamı yok. E) seek out = aramak; anlam dışı.\n\n🧠 YDS Taktiği:\nFiillerde preposition kritik: interfere WITH, conform TO, seek OUT.\n\n📌 Öğrenilmesi Gereken:\ninterfere with",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKötü şehir planlaması, hızla büyüyen ilçelerde yaşayanların temel hizmetlere erişimini aksatabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? interfere with = engel olmak, aksatmak.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) ward off = savuşturmak; access ile kullanılmaz. B) conform to = uymak; anlam ters. D) bring in = getirmek/uygulamaya sokmak; access'i aksatma anlamı yok. E) seek out = aramak; anlam dışı.\n\n🧠 YDS Taktiği:\nFiillerde preposition kritik: interfere WITH, conform TO, seek OUT.\n\n📌 Öğrenilmesi Gereken:\ninterfere with",
     "tags": []
   },
   {
@@ -24177,7 +24183,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "would be lessened / having promoted"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nToprak erozyonunun basit bir çözümü yoktur; ancak sürdürülebilir tarım uygulamaları ve daha fazla arazi bozulmasını önleyen yöntemler sayesinde etkileri azaltılabilir.\n\n🔎 Neden Doğru?\ncan be lessened = azaltılabilir; modal + passive. İkinci yapı anlam paralelliği gerektirir.\n\n❌ Diğer Seçenekler:\nA) has to be lessened / being promoted → ikinci yapı paralelliği bozuyor.\nB) may be lessened / to be promoted → bağlamdaki eşzamanlı amaç/eylem ilişkisini bozuyor.\nD) should be lessened / promoted → ilk yapı olasılık/öneri açısından daha az uygun.\nE) would be lessened / having promoted → zaman ve yapı uyumsuz.\n\n🧠 YDS Taktiği:\nModal + passive ve parallelism sorularında iki boşluğu ayrı ayrı değil birlikte kontrol et.\n\n📌 Öğrenilmesi Gereken:\ncan be + V3; prevent ... and promote ...",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nToprak erozyonunun basit bir çözümü yoktur; ancak sürdürülebilir tarım uygulamaları ve daha fazla arazi bozulmasını önleyen yöntemler sayesinde etkileri azaltılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? can be lessened = azaltılabilir; modal + passive. İkinci yapı anlam paralelliği gerektirir.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) has to be lessened / being promoted → ikinci yapı paralelliği bozuyor. B) may be lessened / to be promoted → bağlamdaki eşzamanlı amaç/eylem ilişkisini bozuyor. D) should be lessened / promoted → ilk yapı olasılık/öneri açısından daha az uygun. E) would be lessened / having promoted → zaman ve yapı uyumsuz.\n\n🧠 YDS Taktiği:\nModal + passive ve parallelism sorularında iki boşluğu ayrı ayrı değil birlikte kontrol et.\n\n📌 Öğrenilmesi Gereken:\ncan be + V3; prevent ... and promote ...",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nToprak erozyonunun basit bir çözümü yoktur; ancak sürdürülebilir tarım uygulamaları ve daha fazla arazi bozulmasını önleyen yöntemler sayesinde etkileri azaltılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? can be lessened = azaltılabilir; modal + passive. İkinci yapı anlam paralelliği gerektirir.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) has to be lessened / being promoted → ikinci yapı paralelliği bozuyor. B) may be lessened / to be promoted → bağlamdaki eşzamanlı amaç/eylem ilişkisini bozuyor. D) should be lessened / promoted → ilk yapı olasılık/öneri açısından daha az uygun. E) would be lessened / having promoted → zaman ve yapı uyumsuz.\n\n🧠 YDS Taktiği:\nModal + passive ve parallelism sorularında iki boşluğu ayrı ayrı değil birlikte kontrol et.\n\n📌 Öğrenilmesi Gereken:\ncan be + V3; prevent ... and promote ...",
     "tags": []
   },
   {
@@ -24198,7 +24205,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "To be achieved / might be planted"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYeni geliştirilen bir ürünün en yüksek verimi elde edilebilmesi için, yeterli miktarda besin içeren toprağa ekilmesi gerekir.\n\n🔎 Neden Doğru?\nTo achieve = amaç; must be planted = zorunluluk + passive.\n\n❌ Diğer Seçenekler:\nA) Having achieved → amaç yerine tamamlanmış eylem bildirir.\nC) Achieving → özne-yapı ilişkisi zayıf.\nD) Having been achieved → passive perfect, anlam bozuk.\nE) To be achieved → achieved olan şey 'yield' olmalı; cümle yapısı ters.\n\n🧠 YDS Taktiği:\nCümlenin başında '... elde etmek için' varsa to + V1 güçlü adaydır.\n\n📌 Öğrenilmesi Gereken:\nto achieve; must be + V3",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYeni geliştirilen bir ürünün en yüksek verimi elde edilebilmesi için, yeterli miktarda besin içeren toprağa ekilmesi gerekir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? To achieve = amaç; must be planted = zorunluluk + passive.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Having achieved → amaç yerine tamamlanmış eylem bildirir. C) Achieving → özne-yapı ilişkisi zayıf. D) Having been achieved → passive perfect, anlam bozuk. E) To be achieved → achieved olan şey 'yield' olmalı; cümle yapısı ters.\n\n🧠 YDS Taktiği:\nCümlenin başında '... elde etmek için' varsa to + V1 güçlü adaydır.\n\n📌 Öğrenilmesi Gereken:\nto achieve; must be + V3",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYeni geliştirilen bir ürünün en yüksek verimi elde edilebilmesi için, yeterli miktarda besin içeren toprağa ekilmesi gerekir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? To achieve = amaç; must be planted = zorunluluk + passive.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Having achieved → amaç yerine tamamlanmış eylem bildirir. C) Achieving → özne-yapı ilişkisi zayıf. D) Having been achieved → passive perfect, anlam bozuk. E) To be achieved → achieved olan şey 'yield' olmalı; cümle yapısı ters.\n\n🧠 YDS Taktiği:\nCümlenin başında '... elde etmek için' varsa to + V1 güçlü adaydır.\n\n📌 Öğrenilmesi Gereken:\nto achieve; must be + V3",
     "tags": []
   },
   {
@@ -24219,7 +24227,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "to be harnessed / has not been exploited"
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nRüzgâr enerjisi daha temiz enerji kaynakları arayan ülkeler tarafından giderek daha fazla kullanılmakla birlikte, bazı bölgelerdeki potansiyeli henüz tam olarak değerlendirilememiştir.\n\n🔎 Neden Doğru?\nharness energy = enerjiden yararlanmak; has not been exploited = henüz tam kullanılmamıştır.\n\n❌ Diğer Seçenekler:\nA) would not have been exploited → geçmiş koşul/sonuç gerektirir.\nB) had not been exploited → past perfect için geçmiş referans gerekir.\nC) will not be exploited → gelecek zaman bağlamı yok.\nD) may not have been exploited → geçmiş olasılık verir, cümlenin genel güncel durumu değil.\n\n🧠 YDS Taktiği:\nEnerji kaynaklarıyla harness, exploit, generate, consume gibi fiilleri birlikte öğren.\n\n📌 Öğrenilmesi Gereken:\nharness energy; exploit potential",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nRüzgâr enerjisi daha temiz enerji kaynakları arayan ülkeler tarafından giderek daha fazla kullanılmakla birlikte, bazı bölgelerdeki potansiyeli henüz tam olarak değerlendirilememiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? harness energy = enerjiden yararlanmak; has not been exploited = henüz tam kullanılmamıştır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) would not have been exploited → geçmiş koşul/sonuç gerektirir. B) had not been exploited → past perfect için geçmiş referans gerekir. C) will not be exploited → gelecek zaman bağlamı yok. D) may not have been exploited → geçmiş olasılık verir, cümlenin genel güncel durumu değil.\n\n🧠 YDS Taktiği:\nEnerji kaynaklarıyla harness, exploit, generate, consume gibi fiilleri birlikte öğren.\n\n📌 Öğrenilmesi Gereken:\nharness energy; exploit potential",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nRüzgâr enerjisi daha temiz enerji kaynakları arayan ülkeler tarafından giderek daha fazla kullanılmakla birlikte, bazı bölgelerdeki potansiyeli henüz tam olarak değerlendirilememiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? harness energy = enerjiden yararlanmak; has not been exploited = henüz tam kullanılmamıştır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) would not have been exploited → geçmiş koşul/sonuç gerektirir. B) had not been exploited → past perfect için geçmiş referans gerekir. C) will not be exploited → gelecek zaman bağlamı yok. D) may not have been exploited → geçmiş olasılık verir, cümlenin genel güncel durumu değil.\n\n🧠 YDS Taktiği:\nEnerji kaynaklarıyla harness, exploit, generate, consume gibi fiilleri birlikte öğren.\n\n📌 Öğrenilmesi Gereken:\nharness energy; exploit potential",
     "tags": []
   },
   {
@@ -24240,7 +24249,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "towards / by"
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nMiras projelerinin temel amaçları, hızla değişen topluluklar içinde kültürel çeşitliliği sürdürmek ve tarihî alanların korunmasına yönelik kamu desteğini harekete geçirmektir.\n\n🔎 Neden Doğru?\nwithin = içinde; support for = ... için destek.\n\n❌ Diğer Seçenekler:\nA) across / at → support at yanlış.\nB) among / from → support from farklı bir anlam verir.\nC) on / about → ilk edat uygun değil.\nE) towards / by → ikinci yapı doğal değil.\n\n🧠 YDS Taktiği:\nEdat sorularında sabit kalıpları ezberle: support FOR, protection OF.\n\n📌 Öğrenilmesi Gereken:\nwithin communities; support for",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nMiras projelerinin temel amaçları, hızla değişen topluluklar içinde kültürel çeşitliliği sürdürmek ve tarihî alanların korunmasına yönelik kamu desteğini harekete geçirmektir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? within = içinde; support for = ... için destek.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) across / at → support at yanlış. B) among / from → support from farklı bir anlam verir. C) on / about → ilk edat uygun değil. E) towards / by → ikinci yapı doğal değil.\n\n🧠 YDS Taktiği:\nEdat sorularında sabit kalıpları ezberle: support FOR, protection OF.\n\n📌 Öğrenilmesi Gereken:\nwithin communities; support for",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nMiras projelerinin temel amaçları, hızla değişen topluluklar içinde kültürel çeşitliliği sürdürmek ve tarihî alanların korunmasına yönelik kamu desteğini harekete geçirmektir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? within = içinde; support for = ... için destek.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) across / at → support at yanlış. B) among / from → support from farklı bir anlam verir. C) on / about → ilk edat uygun değil. E) towards / by → ikinci yapı doğal değil.\n\n🧠 YDS Taktiği:\nEdat sorularında sabit kalıpları ezberle: support FOR, protection OF.\n\n📌 Öğrenilmesi Gereken:\nwithin communities; support for",
     "tags": []
   },
   {
@@ -24261,7 +24271,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "with / to"
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\n'Doğal' ve 'premium' gibi ifadelerle pazarlanan ürünler, benzer geleneksel ürünlerden genellikle daha pahalıdır.\n\n🔎 Neden Doğru?\nwith = içeren; comparable ...; alternatif/karşılaştırma yapılarında to/from gibi edatlar kalıp bazlıdır.\n\n❌ Diğer Seçenekler:\nA) about / over → both collocations weak.\nB) in / from → marketed in terms of yapısı burada farklı bir anlam verir; ikinci edat uymaz.\nC) for / on → yapı uyumsuz.\nD) through / at → yapı uyumsuz.\n\n🧠 YDS Taktiği:\nEdatları kelimeyle birlikte öğren; tek tek Türkçe karşılık ezberlemekten kaçın.\n\n📌 Öğrenilmesi Gereken:\nproducts with; comparable to",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\n'Doğal' ve 'premium' gibi ifadelerle pazarlanan ürünler, benzer geleneksel ürünlerden genellikle daha pahalıdır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? with = içeren; comparable ...; alternatif/karşılaştırma yapılarında to/from gibi edatlar kalıp bazlıdır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) about / over → both collocations weak. B) in / from → marketed in terms of yapısı burada farklı bir anlam verir; ikinci edat uymaz. C) for / on → yapı uyumsuz. D) through / at → yapı uyumsuz.\n\n🧠 YDS Taktiği:\nEdatları kelimeyle birlikte öğren; tek tek Türkçe karşılık ezberlemekten kaçın.\n\n📌 Öğrenilmesi Gereken:\nproducts with; comparable to",
+    "explanation": "🇹🇷 Türkçe Çeviri:\n'Doğal' ve 'premium' gibi ifadelerle pazarlanan ürünler, benzer geleneksel ürünlerden genellikle daha pahalıdır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? with = içeren; comparable ...; alternatif/karşılaştırma yapılarında to/from gibi edatlar kalıp bazlıdır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) about / over → both collocations weak. B) in / from → marketed in terms of yapısı burada farklı bir anlam verir; ikinci edat uymaz. C) for / on → yapı uyumsuz. D) through / at → yapı uyumsuz.\n\n🧠 YDS Taktiği:\nEdatları kelimeyle birlikte öğren; tek tek Türkçe karşılık ezberlemekten kaçın.\n\n📌 Öğrenilmesi Gereken:\nproducts with; comparable to",
     "tags": []
   },
   {
@@ -24282,7 +24293,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "whether"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBeslenme yetersizliği riski, kısıtlayıcı diyet uygulayan kişilerde daha çeşitli beslenen kişilere kıyasla daha yüksek olabilir; çünkü bazı besinler istemeden beslenmeden çıkarılabilir.\n\n🔎 Neden Doğru?\nbecause = çünkü/…dığı için; ikinci cümle ilk bölümün nedenini açıklıyor.\n\n❌ Diğer Seçenekler:\nA) whereas = oysa; zıtlık yok.\nB) so = böylece; sonuç yönü yanlış.\nD) although = rağmen; zıtlık yok.\nE) whether = olup olmadığı; yapı anlamsız.\n\n🧠 YDS Taktiği:\nBağlaç sorularında iki cümle arasındaki mantıksal ilişkiyi Türkçe olarak bir kez kur.\n\n📌 Öğrenilmesi Gereken:\nbecause + clause",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBeslenme yetersizliği riski, kısıtlayıcı diyet uygulayan kişilerde daha çeşitli beslenen kişilere kıyasla daha yüksek olabilir; çünkü bazı besinler istemeden beslenmeden çıkarılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? because = çünkü/…dığı için; ikinci cümle ilk bölümün nedenini açıklıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) whereas = oysa; zıtlık yok. B) so = böylece; sonuç yönü yanlış. D) although = rağmen; zıtlık yok. E) whether = olup olmadığı; yapı anlamsız.\n\n🧠 YDS Taktiği:\nBağlaç sorularında iki cümle arasındaki mantıksal ilişkiyi Türkçe olarak bir kez kur.\n\n📌 Öğrenilmesi Gereken:\nbecause + clause",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBeslenme yetersizliği riski, kısıtlayıcı diyet uygulayan kişilerde daha çeşitli beslenen kişilere kıyasla daha yüksek olabilir; çünkü bazı besinler istemeden beslenmeden çıkarılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? because = çünkü/…dığı için; ikinci cümle ilk bölümün nedenini açıklıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) whereas = oysa; zıtlık yok. B) so = böylece; sonuç yönü yanlış. D) although = rağmen; zıtlık yok. E) whether = olup olmadığı; yapı anlamsız.\n\n🧠 YDS Taktiği:\nBağlaç sorularında iki cümle arasındaki mantıksal ilişkiyi Türkçe olarak bir kez kur.\n\n📌 Öğrenilmesi Gereken:\nbecause + clause",
     "tags": []
   },
   {
@@ -24303,7 +24315,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "consequently"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYeni yalan tespit teknolojisi fizyolojik değişiklikleri belirleyebilir; ancak çok az hukuk sistemi bu tür sonuçlara kesin kanıt olarak güvenmeye hazırdır.\n\n🔎 Neden Doğru?\nhowever = ancak/bununla birlikte; zıtlık bağlar.\n\n❌ Diğer Seçenekler:\nA) namely = yani; açıklama yok.\nC) likewise = aynı şekilde; zıtlık yok.\nD) moreover = ayrıca; ikinci cümle ek bilgi değil sınırlama.\nE) consequently = sonuç olarak; mantık ters.\n\n🧠 YDS Taktiği:\nİlk cümle olumlu, ikinci cümle sınırlayıcıysa however güçlü ipucudur.\n\n📌 Öğrenilmesi Gereken:\nhowever; nevertheless",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYeni yalan tespit teknolojisi fizyolojik değişiklikleri belirleyebilir; ancak çok az hukuk sistemi bu tür sonuçlara kesin kanıt olarak güvenmeye hazırdır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? however = ancak/bununla birlikte; zıtlık bağlar.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) namely = yani; açıklama yok. C) likewise = aynı şekilde; zıtlık yok. D) moreover = ayrıca; ikinci cümle ek bilgi değil sınırlama. E) consequently = sonuç olarak; mantık ters.\n\n🧠 YDS Taktiği:\nİlk cümle olumlu, ikinci cümle sınırlayıcıysa however güçlü ipucudur.\n\n📌 Öğrenilmesi Gereken:\nhowever; nevertheless",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYeni yalan tespit teknolojisi fizyolojik değişiklikleri belirleyebilir; ancak çok az hukuk sistemi bu tür sonuçlara kesin kanıt olarak güvenmeye hazırdır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? however = ancak/bununla birlikte; zıtlık bağlar.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) namely = yani; açıklama yok. C) likewise = aynı şekilde; zıtlık yok. D) moreover = ayrıca; ikinci cümle ek bilgi değil sınırlama. E) consequently = sonuç olarak; mantık ters.\n\n🧠 YDS Taktiği:\nİlk cümle olumlu, ikinci cümle sınırlayıcıysa however güçlü ipucudur.\n\n📌 Öğrenilmesi Gereken:\nhowever; nevertheless",
     "tags": []
   },
   {
@@ -24324,7 +24337,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "As if"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKuzey Kutbu çevresinin aşırı koşulları nedeniyle incelenmesi zor olsa da araştırmacılar son zamanlarda uzaktan algılayıcılar aracılığıyla değerli veriler elde etmiştir.\n\n🔎 Neden Doğru?\nEven though = -mesine rağmen.\n\n❌ Diğer Seçenekler:\nA) Once = -dığında; zıtlık kurmaz.\nC) Provided that = şartıyla; koşul yok.\nD) As long as = -dığı sürece; koşul yok.\nE) As if = sanki; anlam dışı.\n\n🧠 YDS Taktiği:\nAlthough/even though/despite/in spite of arasındaki yapı farklarını ayır.\n\n📌 Öğrenilmesi Gereken:\neven though + clause",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKuzey Kutbu çevresinin aşırı koşulları nedeniyle incelenmesi zor olsa da araştırmacılar son zamanlarda uzaktan algılayıcılar aracılığıyla değerli veriler elde etmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Even though = -mesine rağmen.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Once = -dığında; zıtlık kurmaz. C) Provided that = şartıyla; koşul yok. D) As long as = -dığı sürece; koşul yok. E) As if = sanki; anlam dışı.\n\n🧠 YDS Taktiği:\nAlthough/even though/despite/in spite of arasındaki yapı farklarını ayır.\n\n📌 Öğrenilmesi Gereken:\neven though + clause",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKuzey Kutbu çevresinin aşırı koşulları nedeniyle incelenmesi zor olsa da araştırmacılar son zamanlarda uzaktan algılayıcılar aracılığıyla değerli veriler elde etmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Even though = -mesine rağmen.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Once = -dığında; zıtlık kurmaz. C) Provided that = şartıyla; koşul yok. D) As long as = -dığı sürece; koşul yok. E) As if = sanki; anlam dışı.\n\n🧠 YDS Taktiği:\nAlthough/even though/despite/in spite of arasındaki yapı farklarını ayır.\n\n📌 Öğrenilmesi Gereken:\neven though + clause",
     "tags": []
   },
   {
@@ -24345,7 +24359,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "either / or"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAntik mühendisler öylesine gelişmiş sulama sistemleri inşa etmişlerdir ki sonraki toplumlar bunları ileri düzey teknik bilginin kanıtı olarak değerlendirmiştir.\n\n🔎 Neden Doğru?\nsuch + adjective + noun + that = öyle ... ki.\n\n❌ Diğer Seçenekler:\nA) not only / but also → iki unsuru eşleştirir, sonuç ilişkisi yok.\nB) as / as → karşılaştırma yapar.\nD) whether / or → alternatif bildirir.\nE) either / or → seçenek bildirir.\n\n🧠 YDS Taktiği:\nsuch ... that ile so ... that ayrımını öğren: such + noun phrase; so + adjective/adverb.\n\n📌 Öğrenilmesi Gereken:\nsuch a complex system that",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAntik mühendisler öylesine gelişmiş sulama sistemleri inşa etmişlerdir ki sonraki toplumlar bunları ileri düzey teknik bilginin kanıtı olarak değerlendirmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? such + adjective + noun + that = öyle ... ki.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) not only / but also → iki unsuru eşleştirir, sonuç ilişkisi yok. B) as / as → karşılaştırma yapar. D) whether / or → alternatif bildirir. E) either / or → seçenek bildirir.\n\n🧠 YDS Taktiği:\nsuch ... that ile so ... that ayrımını öğren: such + noun phrase; so + adjective/adverb.\n\n📌 Öğrenilmesi Gereken:\nsuch a complex system that",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAntik mühendisler öylesine gelişmiş sulama sistemleri inşa etmişlerdir ki sonraki toplumlar bunları ileri düzey teknik bilginin kanıtı olarak değerlendirmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? such + adjective + noun + that = öyle ... ki.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) not only / but also → iki unsuru eşleştirir, sonuç ilişkisi yok. B) as / as → karşılaştırma yapar. D) whether / or → alternatif bildirir. E) either / or → seçenek bildirir.\n\n🧠 YDS Taktiği:\nsuch ... that ile so ... that ayrımını öğren: such + noun phrase; so + adjective/adverb.\n\n📌 Öğrenilmesi Gereken:\nsuch a complex system that",
     "tags": []
   },
   {
@@ -24366,7 +24381,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "for the purpose of"
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nHastane, hasta kayıt sistemini veri güvenliğine ilişkin yeni ulusal standartlara uygun olarak yeniden tasarlamıştır.\n\n🔎 Neden Doğru?\nin accordance with = ... doğrultusunda, ... ile uyumlu olarak.\n\n❌ Diğer Seçenekler:\nB) irrespective of = ...den bağımsız olarak; tam tersi mantık.\nC) with the exception of = ... hariç; anlam dışı.\nD) as opposed to = ...nın aksine; karşıtlık yok.\nE) for the purpose of = amacıyla; burada standartlara uygunluk anlatılıyor.\n\n🧠 YDS Taktiği:\nUzun prepositional phrase sorularında Türkçe ilişkiyi belirle: 'uygun olarak' → in accordance with.\n\n📌 Öğrenilmesi Gereken:\nin accordance with",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nHastane, hasta kayıt sistemini veri güvenliğine ilişkin yeni ulusal standartlara uygun olarak yeniden tasarlamıştır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? in accordance with = ... doğrultusunda, ... ile uyumlu olarak.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) irrespective of = ...den bağımsız olarak; tam tersi mantık. C) with the exception of = ... hariç; anlam dışı. D) as opposed to = ...nın aksine; karşıtlık yok. E) for the purpose of = amacıyla; burada standartlara uygunluk anlatılıyor.\n\n🧠 YDS Taktiği:\nUzun prepositional phrase sorularında Türkçe ilişkiyi belirle: 'uygun olarak' → in accordance with.\n\n📌 Öğrenilmesi Gereken:\nin accordance with",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nHastane, hasta kayıt sistemini veri güvenliğine ilişkin yeni ulusal standartlara uygun olarak yeniden tasarlamıştır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? in accordance with = ... doğrultusunda, ... ile uyumlu olarak.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) irrespective of = ...den bağımsız olarak; tam tersi mantık. C) with the exception of = ... hariç; anlam dışı. D) as opposed to = ...nın aksine; karşıtlık yok. E) for the purpose of = amacıyla; burada standartlara uygunluk anlatılıyor.\n\n🧠 YDS Taktiği:\nUzun prepositional phrase sorularında Türkçe ilişkiyi belirle: 'uygun olarak' → in accordance with.\n\n📌 Öğrenilmesi Gereken:\nin accordance with",
     "tags": []
   },
   {
@@ -24377,8 +24393,8 @@ const CUSTOM_EXAM_QUESTIONS = [
     "questionNumber": 17,
     "category": "Cloze Test",
     "subCategory": "Cloze Test",
-    "passage": "",
-    "questionText": "The use of satellite technology has expanded rapidly. (17) ______ accurate observation is essential to modern climate research, satellites have become an important source of environmental data.",
+    "passage": "The use of satellite technology has expanded rapidly. (17) ______ accurate observation is essential to modern climate research, satellites have become an important source of environmental data.",
+    "questionText": "",
     "options": {
       "A": "When",
       "B": "As if",
@@ -24387,7 +24403,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Unless"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDoğru gözlem modern iklim araştırmaları için gerekli olduğundan, uydular önemli bir çevresel veri kaynağı hâline gelmiştir.\n\n🔎 Neden Doğru?\nSince burada '…dığı için' anlamında neden bildiriyor.\n\n❌ Diğer Seçenekler:\nA) When = ne zaman; zaman ilişkisi gerekmiyor.\nB) As if = sanki; anlam dışı.\nD) Although = rağmen; zıtlık yok.\nE) Unless = -medikçe; koşul yok.\n\n🧠 YDS Taktiği:\nSince hem zaman hem neden verebilir; devamındaki cümle anlamına bak.\n\n📌 Öğrenilmesi Gereken:\nsince + clause (reason)",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDoğru gözlem modern iklim araştırmaları için gerekli olduğundan, uydular önemli bir çevresel veri kaynağı hâline gelmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Since burada '…dığı için' anlamında neden bildiriyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) When = ne zaman; zaman ilişkisi gerekmiyor. B) As if = sanki; anlam dışı. D) Although = rağmen; zıtlık yok. E) Unless = -medikçe; koşul yok.\n\n🧠 YDS Taktiği:\nSince hem zaman hem neden verebilir; devamındaki cümle anlamına bak.\n\n📌 Öğrenilmesi Gereken:\nsince + clause (reason)",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDoğru gözlem modern iklim araştırmaları için gerekli olduğundan, uydular önemli bir çevresel veri kaynağı hâline gelmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Since burada '…dığı için' anlamında neden bildiriyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) When = ne zaman; zaman ilişkisi gerekmiyor. B) As if = sanki; anlam dışı. D) Although = rağmen; zıtlık yok. E) Unless = -medikçe; koşul yok.\n\n🧠 YDS Taktiği:\nSince hem zaman hem neden verebilir; devamındaki cümle anlamına bak.\n\n📌 Öğrenilmesi Gereken:\nsince + clause (reason)",
     "tags": []
   },
   {
@@ -24408,7 +24425,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "to"
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAraştırmacılar artık uzak bölgelerden bu bölgelere gitmek zorunda kalmadan ölçüm toplayabilmekte; bu da geniş alanları verimli bir şekilde incelemeyi mümkün kılmaktadır.\n\n🔎 Neden Doğru?\nmake it possible to + V1 = ...meyi mümkün kılmak.\n\n❌ Diğer Seçenekler:\nA) from → make it possible from yapısı yok.\nB) with → yapı yanlış.\nC) on → yapı yanlış.\nD) at → yapı yanlış.\n\n🧠 YDS Taktiği:\nmake it possible to, allow somebody to, enable somebody to kalıplarını birlikte öğren.\n\n📌 Öğrenilmesi Gereken:\nmake it possible to",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAraştırmacılar artık uzak bölgelerden bu bölgelere gitmek zorunda kalmadan ölçüm toplayabilmekte; bu da geniş alanları verimli bir şekilde incelemeyi mümkün kılmaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? make it possible to + V1 = ...meyi mümkün kılmak.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) from → make it possible from yapısı yok. B) with → yapı yanlış. C) on → yapı yanlış. D) at → yapı yanlış.\n\n🧠 YDS Taktiği:\nmake it possible to, allow somebody to, enable somebody to kalıplarını birlikte öğren.\n\n📌 Öğrenilmesi Gereken:\nmake it possible to",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAraştırmacılar artık uzak bölgelerden bu bölgelere gitmek zorunda kalmadan ölçüm toplayabilmekte; bu da geniş alanları verimli bir şekilde incelemeyi mümkün kılmaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? make it possible to + V1 = ...meyi mümkün kılmak.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) from → make it possible from yapısı yok. B) with → yapı yanlış. C) on → yapı yanlış. D) at → yapı yanlış.\n\n🧠 YDS Taktiği:\nmake it possible to, allow somebody to, enable somebody to kalıplarını birlikte öğren.\n\n📌 Öğrenilmesi Gereken:\nmake it possible to",
     "tags": []
   },
   {
@@ -24429,7 +24447,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "aversion"
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDijital bilimsel veri tabanlarının yaygınlaşması, araştırmacıların farklı kurumlardan elde edilen bulguları karşılaştırmasını kolaylaştırmıştır.\n\n🔎 Neden Doğru?\nproliferation = hızlı yayılma/çoğalma.\n\n❌ Diğer Seçenekler:\nA) expiration = sona erme.\nB) aggravation = kötüleşme.\nC) alienation = yabancılaşma.\nE) aversion = kaçınma/tiksinme.\n\n🧠 YDS Taktiği:\nSoyut akademik isimlerde kelimenin kökünü tanımak önemli: proliferate → proliferation.\n\n📌 Öğrenilmesi Gereken:\nthe proliferation of",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDijital bilimsel veri tabanlarının yaygınlaşması, araştırmacıların farklı kurumlardan elde edilen bulguları karşılaştırmasını kolaylaştırmıştır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? proliferation = hızlı yayılma/çoğalma.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) expiration = sona erme. B) aggravation = kötüleşme. C) alienation = yabancılaşma. E) aversion = kaçınma/tiksinme.\n\n🧠 YDS Taktiği:\nSoyut akademik isimlerde kelimenin kökünü tanımak önemli: proliferate → proliferation.\n\n📌 Öğrenilmesi Gereken:\nthe proliferation of",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDijital bilimsel veri tabanlarının yaygınlaşması, araştırmacıların farklı kurumlardan elde edilen bulguları karşılaştırmasını kolaylaştırmıştır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? proliferation = hızlı yayılma/çoğalma.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) expiration = sona erme. B) aggravation = kötüleşme. C) alienation = yabancılaşma. E) aversion = kaçınma/tiksinme.\n\n🧠 YDS Taktiği:\nSoyut akademik isimlerde kelimenin kökünü tanımak önemli: proliferate → proliferation.\n\n📌 Öğrenilmesi Gereken:\nthe proliferation of",
     "tags": []
   },
   {
@@ -24450,7 +24469,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Regardless of"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYapay zekânın hızla gelişmesinin bir sonucu olarak üniversiteler bazı araştırma politikalarını yeniden gözden geçirmektedir.\n\n🔎 Neden Doğru?\nAs a consequence of = ... sonucunda.\n\n❌ Diğer Seçenekler:\nA) In comparison to = ... ile karşılaştırıldığında.\nC) Instead of = ... yerine.\nD) Despite = ...e rağmen.\nE) Regardless of = ...e bakmaksızın.\n\n🧠 YDS Taktiği:\nof sonrasında isim/isim öbeği gelir; tam cümle geliyorsa because/as a result gibi yapılar düşün.\n\n📌 Öğrenilmesi Gereken:\nas a consequence of",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYapay zekânın hızla gelişmesinin bir sonucu olarak üniversiteler bazı araştırma politikalarını yeniden gözden geçirmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? As a consequence of = ... sonucunda.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) In comparison to = ... ile karşılaştırıldığında. C) Instead of = ... yerine. D) Despite = ...e rağmen. E) Regardless of = ...e bakmaksızın.\n\n🧠 YDS Taktiği:\nof sonrasında isim/isim öbeği gelir; tam cümle geliyorsa because/as a result gibi yapılar düşün.\n\n📌 Öğrenilmesi Gereken:\nas a consequence of",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYapay zekânın hızla gelişmesinin bir sonucu olarak üniversiteler bazı araştırma politikalarını yeniden gözden geçirmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? As a consequence of = ... sonucunda.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) In comparison to = ... ile karşılaştırıldığında. C) Instead of = ... yerine. D) Despite = ...e rağmen. E) Regardless of = ...e bakmaksızın.\n\n🧠 YDS Taktiği:\nof sonrasında isim/isim öbeği gelir; tam cümle geliyorsa because/as a result gibi yapılar düşün.\n\n📌 Öğrenilmesi Gereken:\nas a consequence of",
     "tags": []
   },
   {
@@ -24471,7 +24491,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "would have complemented"
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nLaboratuvar gerekli ekipmanı daha erken almış olsaydı, araştırmacılar finansman dönemi sona ermeden pilot çalışmayı tamamlamış olacaklardı.\n\n🔎 Neden Doğru?\nwould have + V3 = gerçekleşmemiş geçmiş sonuç.\n\n❌ Diğer Seçenekler:\nA) had complemented → if clause'daki past perfect ile sonuç yapısı olmaz.\nB) should have complemented → tavsiye/geçmiş gereklilik anlamı verir.\nC) will have complemented → gelecek tamamlanmış zaman.\nE) would have complemented ile hedef yapı aynı; ancak bu seçenek kaynak tasarımındaki hedef pozisyondur.\n\n🧠 YDS Taktiği:\nThird conditional: If + had V3, would have V3.\n\n📌 Öğrenilmesi Gereken:\nIf + past perfect → would have + V3",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nLaboratuvar gerekli ekipmanı daha erken almış olsaydı, araştırmacılar finansman dönemi sona ermeden pilot çalışmayı tamamlamış olacaklardı.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? would have + V3 = gerçekleşmemiş geçmiş sonuç.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) had complemented → if clause'daki past perfect ile sonuç yapısı olmaz. B) should have complemented → tavsiye/geçmiş gereklilik anlamı verir. C) will have complemented → gelecek tamamlanmış zaman. E) would have complemented ile hedef yapı aynı; ancak bu seçenek kaynak tasarımındaki hedef pozisyondur.\n\n🧠 YDS Taktiği:\nThird conditional: If + had V3, would have V3.\n\n📌 Öğrenilmesi Gereken:\nIf + past perfect → would have + V3",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nLaboratuvar gerekli ekipmanı daha erken almış olsaydı, araştırmacılar finansman dönemi sona ermeden pilot çalışmayı tamamlamış olacaklardı.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? would have + V3 = gerçekleşmemiş geçmiş sonuç.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) had complemented → if clause'daki past perfect ile sonuç yapısı olmaz. B) should have complemented → tavsiye/geçmiş gereklilik anlamı verir. C) will have complemented → gelecek tamamlanmış zaman. E) would have complemented ile hedef yapı aynı; ancak bu seçenek kaynak tasarımındaki hedef pozisyondur.\n\n🧠 YDS Taktiği:\nThird conditional: If + had V3, would have V3.\n\n📌 Öğrenilmesi Gereken:\nIf + past perfect → would have + V3",
     "tags": []
   },
   {
@@ -24482,8 +24503,8 @@ const CUSTOM_EXAM_QUESTIONS = [
     "questionNumber": 22,
     "category": "Cloze Test",
     "subCategory": "Cloze Test",
-    "passage": "",
-    "questionText": "Historical maps can reveal how earlier societies understood their surroundings. Researchers sometimes compare them with written records ______ relying on either source alone.",
+    "passage": "Historical maps can reveal how earlier societies understood their surroundings. Researchers sometimes compare them with written records ______ relying on either source alone.",
+    "questionText": "",
     "options": {
       "A": "on the basis of",
       "B": "rather than",
@@ -24492,7 +24513,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "due to"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAraştırmacılar, tek başına herhangi bir kaynağa güvenmek yerine tarihî haritaları yazılı kayıtlarla karşılaştırmaktadır.\n\n🔎 Neden Doğru?\nrather than = ... yerine.\n\n❌ Diğer Seçenekler:\nA) on the basis of = temelinde.\nC) by means of = aracılığıyla.\nD) in terms of = açısından.\nE) due to = nedeniyle.\n\n🧠 YDS Taktiği:\nrather than iki alternatif arasında tercih/zıtlaştırma yapar.\n\n📌 Öğrenilmesi Gereken:\nrather than + noun/V-ing",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAraştırmacılar, tek başına herhangi bir kaynağa güvenmek yerine tarihî haritaları yazılı kayıtlarla karşılaştırmaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? rather than = ... yerine.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) on the basis of = temelinde. C) by means of = aracılığıyla. D) in terms of = açısından. E) due to = nedeniyle.\n\n🧠 YDS Taktiği:\nrather than iki alternatif arasında tercih/zıtlaştırma yapar.\n\n📌 Öğrenilmesi Gereken:\nrather than + noun/V-ing",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAraştırmacılar, tek başına herhangi bir kaynağa güvenmek yerine tarihî haritaları yazılı kayıtlarla karşılaştırmaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? rather than = ... yerine.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) on the basis of = temelinde. C) by means of = aracılığıyla. D) in terms of = açısından. E) due to = nedeniyle.\n\n🧠 YDS Taktiği:\nrather than iki alternatif arasında tercih/zıtlaştırma yapar.\n\n📌 Öğrenilmesi Gereken:\nrather than + noun/V-ing",
     "tags": []
   },
   {
@@ -24503,8 +24525,8 @@ const CUSTOM_EXAM_QUESTIONS = [
     "questionNumber": 23,
     "category": "Cloze Test",
     "subCategory": "Cloze Test",
-    "passage": "",
-    "questionText": "The new conservation programme aims to ______ the protection of endangered habitats rather than merely describing their condition.",
+    "passage": "The new conservation programme aims to ______ the protection of endangered habitats rather than merely describing their condition.",
+    "questionText": "",
     "options": {
       "A": "allocate",
       "B": "fulfil",
@@ -24513,7 +24535,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "elucidate"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYeni koruma programı, nesli tehlike altındaki yaşam alanlarının durumunu yalnızca betimlemek yerine uzun vadeli olarak korunmasını sürdürmeyi amaçlamaktadır.\n\n🔎 Neden Doğru?\npursue = bir amacı/hedefi izlemek, sürdürmek.\n\n❌ Diğer Seçenekler:\nA) allocate = tahsis etmek.\nB) fulfil = yerine getirmek.\nD) halt = durdurmak.\nE) elucidate = açıklığa kavuşturmak.\n\n🧠 YDS Taktiği:\npursue a goal/aim/policy/objective kalıplarını öğren.\n\n📌 Öğrenilmesi Gereken:\npursue a goal; pursue an objective",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYeni koruma programı, nesli tehlike altındaki yaşam alanlarının durumunu yalnızca betimlemek yerine uzun vadeli olarak korunmasını sürdürmeyi amaçlamaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? pursue = bir amacı/hedefi izlemek, sürdürmek.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) allocate = tahsis etmek. B) fulfil = yerine getirmek. D) halt = durdurmak. E) elucidate = açıklığa kavuşturmak.\n\n🧠 YDS Taktiği:\npursue a goal/aim/policy/objective kalıplarını öğren.\n\n📌 Öğrenilmesi Gereken:\npursue a goal; pursue an objective",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYeni koruma programı, nesli tehlike altındaki yaşam alanlarının durumunu yalnızca betimlemek yerine uzun vadeli olarak korunmasını sürdürmeyi amaçlamaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? pursue = bir amacı/hedefi izlemek, sürdürmek.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) allocate = tahsis etmek. B) fulfil = yerine getirmek. D) halt = durdurmak. E) elucidate = açıklığa kavuşturmak.\n\n🧠 YDS Taktiği:\npursue a goal/aim/policy/objective kalıplarını öğren.\n\n📌 Öğrenilmesi Gereken:\npursue a goal; pursue an objective",
     "tags": []
   },
   {
@@ -24534,7 +24557,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "in"
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nMüze, arkeolojik eserlerin yasa dışı yollarla çıkarılmasına karşı daha sıkı denetimler uygulamaya koymuştur.\n\n🔎 Neden Doğru?\ncontrols/measures against = ...e karşı kontroller/önlemler.\n\n❌ Diğer Seçenekler:\nB) through = aracılığıyla.\nC) at = -de/-da veya -e; burada kalıp değil.\nD) from = -den.\nE) in = içinde.\n\n🧠 YDS Taktiği:\nmeasure against, protection against, defence against gibi kalıpları ezberle.\n\n📌 Öğrenilmesi Gereken:\nmeasures against; controls against",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nMüze, arkeolojik eserlerin yasa dışı yollarla çıkarılmasına karşı daha sıkı denetimler uygulamaya koymuştur.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? controls/measures against = ...e karşı kontroller/önlemler.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) through = aracılığıyla. C) at = -de/-da veya -e; burada kalıp değil. D) from = -den. E) in = içinde.\n\n🧠 YDS Taktiği:\nmeasure against, protection against, defence against gibi kalıpları ezberle.\n\n📌 Öğrenilmesi Gereken:\nmeasures against; controls against",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nMüze, arkeolojik eserlerin yasa dışı yollarla çıkarılmasına karşı daha sıkı denetimler uygulamaya koymuştur.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? controls/measures against = ...e karşı kontroller/önlemler.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) through = aracılığıyla. C) at = -de/-da veya -e; burada kalıp değil. D) from = -den. E) in = içinde.\n\n🧠 YDS Taktiği:\nmeasure against, protection against, defence against gibi kalıpları ezberle.\n\n📌 Öğrenilmesi Gereken:\nmeasures against; controls against",
     "tags": []
   },
   {
@@ -24555,7 +24579,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "having joined"
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBirkaç üniversite, yenilenebilir enerji araştırmalarına adanmış ortak bir araştırma ağına katılmayı kabul etmiştir.\n\n🔎 Neden Doğru?\nagree to + V1 = bir şeyi yapmayı kabul etmek.\n\n❌ Diğer Seçenekler:\nB) joined → agree'den sonra past tense gelemez.\nC) to have been joined → passive perfect anlamsız.\nD) to be joined → edilgen olur; üniversiteler katılan özne.\nE) having joined → gerund perfect, agree ile uyumsuz.\n\n🧠 YDS Taktiği:\nagree, decide, refuse, aim gibi fiillerden sonra sıkça to-infinitive gelir.\n\n📌 Öğrenilmesi Gereken:\nagree to do",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBirkaç üniversite, yenilenebilir enerji araştırmalarına adanmış ortak bir araştırma ağına katılmayı kabul etmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? agree to + V1 = bir şeyi yapmayı kabul etmek.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) joined → agree'den sonra past tense gelemez. C) to have been joined → passive perfect anlamsız. D) to be joined → edilgen olur; üniversiteler katılan özne. E) having joined → gerund perfect, agree ile uyumsuz.\n\n🧠 YDS Taktiği:\nagree, decide, refuse, aim gibi fiillerden sonra sıkça to-infinitive gelir.\n\n📌 Öğrenilmesi Gereken:\nagree to do",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBirkaç üniversite, yenilenebilir enerji araştırmalarına adanmış ortak bir araştırma ağına katılmayı kabul etmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? agree to + V1 = bir şeyi yapmayı kabul etmek.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) joined → agree'den sonra past tense gelemez. C) to have been joined → passive perfect anlamsız. D) to be joined → edilgen olur; üniversiteler katılan özne. E) having joined → gerund perfect, agree ile uyumsuz.\n\n🧠 YDS Taktiği:\nagree, decide, refuse, aim gibi fiillerden sonra sıkça to-infinitive gelir.\n\n📌 Öğrenilmesi Gereken:\nagree to do",
     "tags": []
   },
   {
@@ -24576,7 +24601,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Conversely"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAraştırmacılar deneyi aynı koşullar altında tekrarladı; böylece elde edilen son veriler çok daha tutarlı hâle geldi.\n\n🔎 Neden Doğru?\nThus = böylece/dolayısıyla.\n\n❌ Diğer Seçenekler:\nA) However = ancak; zıtlık yok.\nB) Otherwise = aksi takdirde; koşullu sonuç yok.\nD) Even so = yine de; zıtlık yok.\nE) Conversely = tersine; zıtlık yok.\n\n🧠 YDS Taktiği:\nİlk cümle neden, ikinci cümle sonuçsa thus/therefore/consequently düşün.\n\n📌 Öğrenilmesi Gereken:\nthus; therefore; consequently",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAraştırmacılar deneyi aynı koşullar altında tekrarladı; böylece elde edilen son veriler çok daha tutarlı hâle geldi.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Thus = böylece/dolayısıyla.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) However = ancak; zıtlık yok. B) Otherwise = aksi takdirde; koşullu sonuç yok. D) Even so = yine de; zıtlık yok. E) Conversely = tersine; zıtlık yok.\n\n🧠 YDS Taktiği:\nİlk cümle neden, ikinci cümle sonuçsa thus/therefore/consequently düşün.\n\n📌 Öğrenilmesi Gereken:\nthus; therefore; consequently",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAraştırmacılar deneyi aynı koşullar altında tekrarladı; böylece elde edilen son veriler çok daha tutarlı hâle geldi.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Thus = böylece/dolayısıyla.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) However = ancak; zıtlık yok. B) Otherwise = aksi takdirde; koşullu sonuç yok. D) Even so = yine de; zıtlık yok. E) Conversely = tersine; zıtlık yok.\n\n🧠 YDS Taktiği:\nİlk cümle neden, ikinci cümle sonuçsa thus/therefore/consequently düşün.\n\n📌 Öğrenilmesi Gereken:\nthus; therefore; consequently",
     "tags": []
   },
   {
@@ -24597,7 +24623,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "members of a peer group have similar behavioural patterns or goals"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nErgenler, sapkın davranışları teşvik eden bir grubun üyesi hâline gelirlerse, ebeveynlerin çocuklarının davranışlarını şekillendirme veya düzenleme yeteneği önemli ölçüde azalabilir.\n\n🔎 Neden Doğru?\nIf-clause sonrasında mantıksal sonuç aranır; C seçeneği neden-sonuç ilişkisini tamamlar.\n\n❌ Diğer Seçenekler:\nA) Arkadaşlık kalıplarını anlatır ama if-clause'un doğal sonucu değil.\nB) Deviant behaviour tanımı verir, tamamlayıcı sonuç değil.\nD) Grup bileşiminin değişkenliğini anlatır; bağlantı zayıf.\nE) Peer group tanımı verir; sonuç oluşturmaz.\n\n🧠 YDS Taktiği:\nSentence completion'da cümlenin sonuna sadece gramer değil, neden-sonuç açısından da bak.\n\n📌 Öğrenilmesi Gereken:\npromote deviant behaviour; regulate behaviour",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nErgenler, sapkın davranışları teşvik eden bir grubun üyesi hâline gelirlerse, ebeveynlerin çocuklarının davranışlarını şekillendirme veya düzenleme yeteneği önemli ölçüde azalabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? If-clause sonrasında mantıksal sonuç aranır; C seçeneği neden-sonuç ilişkisini tamamlar.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Arkadaşlık kalıplarını anlatır ama if-clause'un doğal sonucu değil. B) Deviant behaviour tanımı verir, tamamlayıcı sonuç değil. D) Grup bileşiminin değişkenliğini anlatır; bağlantı zayıf. E) Peer group tanımı verir; sonuç oluşturmaz.\n\n🧠 YDS Taktiği:\nSentence completion'da cümlenin sonuna sadece gramer değil, neden-sonuç açısından da bak.\n\n📌 Öğrenilmesi Gereken:\npromote deviant behaviour; regulate behaviour",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nErgenler, sapkın davranışları teşvik eden bir grubun üyesi hâline gelirlerse, ebeveynlerin çocuklarının davranışlarını şekillendirme veya düzenleme yeteneği önemli ölçüde azalabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? If-clause sonrasında mantıksal sonuç aranır; C seçeneği neden-sonuç ilişkisini tamamlar.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Arkadaşlık kalıplarını anlatır ama if-clause'un doğal sonucu değil. B) Deviant behaviour tanımı verir, tamamlayıcı sonuç değil. D) Grup bileşiminin değişkenliğini anlatır; bağlantı zayıf. E) Peer group tanımı verir; sonuç oluşturmaz.\n\n🧠 YDS Taktiği:\nSentence completion'da cümlenin sonuna sadece gramer değil, neden-sonuç açısından da bak.\n\n📌 Öğrenilmesi Gereken:\npromote deviant behaviour; regulate behaviour",
     "tags": []
   },
   {
@@ -24618,7 +24645,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "instead shyness is often grouped in with other conditions and traits, such as fear and introversion"
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇekingen insanlar genellikle başkalarıyla etkileşime girmekten veya etkinliklere katılmaktan kaçınırlar; çünkü korku, kaygı ya da belirsizlik duygusunun etkisiyle bunu etkili bir şekilde yapamayacaklarını düşünürler.\n\n🔎 Neden Doğru?\nas = çünkü; find oneself unable to = kendini bir şeyi yapamaz durumda bulmak.\n\n❌ Diğer Seçenekler:\nB) Genel iletişim zorluğundan söz eder, verilen neden ilişkisini tam kurmaz.\nC) but ile zıtlık gerekir; ana cümledeki because-like açıklamayı vermez.\nD) although zıtlık kurar, ancak anlam akışı uygun değil.\nE) instead yanlış yönlü bir bağlayıcıdır.\n\n🧠 YDS Taktiği:\nSentence completion'da sonucun nedenini arıyorsan because/as/since içeren seçeneklere dikkat et.\n\n📌 Öğrenilmesi Gereken:\nfind oneself unable to do",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇekingen insanlar genellikle başkalarıyla etkileşime girmekten veya etkinliklere katılmaktan kaçınırlar; çünkü korku, kaygı ya da belirsizlik duygusunun etkisiyle bunu etkili bir şekilde yapamayacaklarını düşünürler.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? as = çünkü; find oneself unable to = kendini bir şeyi yapamaz durumda bulmak.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) Genel iletişim zorluğundan söz eder, verilen neden ilişkisini tam kurmaz. C) but ile zıtlık gerekir; ana cümledeki because-like açıklamayı vermez. D) although zıtlık kurar, ancak anlam akışı uygun değil. E) instead yanlış yönlü bir bağlayıcıdır.\n\n🧠 YDS Taktiği:\nSentence completion'da sonucun nedenini arıyorsan because/as/since içeren seçeneklere dikkat et.\n\n📌 Öğrenilmesi Gereken:\nfind oneself unable to do",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÇekingen insanlar genellikle başkalarıyla etkileşime girmekten veya etkinliklere katılmaktan kaçınırlar; çünkü korku, kaygı ya da belirsizlik duygusunun etkisiyle bunu etkili bir şekilde yapamayacaklarını düşünürler.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? as = çünkü; find oneself unable to = kendini bir şeyi yapamaz durumda bulmak.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) Genel iletişim zorluğundan söz eder, verilen neden ilişkisini tam kurmaz. C) but ile zıtlık gerekir; ana cümledeki because-like açıklamayı vermez. D) although zıtlık kurar, ancak anlam akışı uygun değil. E) instead yanlış yönlü bir bağlayıcıdır.\n\n🧠 YDS Taktiği:\nSentence completion'da sonucun nedenini arıyorsan because/as/since içeren seçeneklere dikkat et.\n\n📌 Öğrenilmesi Gereken:\nfind oneself unable to do",
     "tags": []
   },
   {
@@ -24639,7 +24667,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "individuals with certain mental disorders may repeat words spoken by others with a robot-like speech pattern"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nRuhsal bozuklukların türlerinin karmaşıklığı göz önüne alındığında, belirtiler, semptomlar ve tedavi yöntemleri kişiden kişiye büyük ölçüde farklılık gösterebilir.\n\n🔎 Neden Doğru?\nGiven the complexity ... ifadesi geniş değişkenlik sonucunu gerektirir.\n\n❌ Diğer Seçenekler:\nA) Tedavilerin kimyasal etkisini anlatır; karmaşıklığın doğrudan sonucu değil.\nC) Tek bir beden algısı örneği verir.\nD) Bilişsel terapiyi tanımlar.\nE) Belirli bir davranış örneği verir.\n\n🧠 YDS Taktiği:\nGiven + noun phrase → sonuç/çıkarım aranır.\n\n📌 Öğrenilmesi Gereken:\ndiffer from one person to another; given the complexity",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nRuhsal bozuklukların türlerinin karmaşıklığı göz önüne alındığında, belirtiler, semptomlar ve tedavi yöntemleri kişiden kişiye büyük ölçüde farklılık gösterebilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Given the complexity ... ifadesi geniş değişkenlik sonucunu gerektirir.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Tedavilerin kimyasal etkisini anlatır; karmaşıklığın doğrudan sonucu değil. C) Tek bir beden algısı örneği verir. D) Bilişsel terapiyi tanımlar. E) Belirli bir davranış örneği verir.\n\n🧠 YDS Taktiği:\nGiven + noun phrase → sonuç/çıkarım aranır.\n\n📌 Öğrenilmesi Gereken:\ndiffer from one person to another; given the complexity",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nRuhsal bozuklukların türlerinin karmaşıklığı göz önüne alındığında, belirtiler, semptomlar ve tedavi yöntemleri kişiden kişiye büyük ölçüde farklılık gösterebilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Given the complexity ... ifadesi geniş değişkenlik sonucunu gerektirir.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Tedavilerin kimyasal etkisini anlatır; karmaşıklığın doğrudan sonucu değil. C) Tek bir beden algısı örneği verir. D) Bilişsel terapiyi tanımlar. E) Belirli bir davranış örneği verir.\n\n🧠 YDS Taktiği:\nGiven + noun phrase → sonuç/çıkarım aranır.\n\n📌 Öğrenilmesi Gereken:\ndiffer from one person to another; given the complexity",
     "tags": []
   },
   {
@@ -24648,7 +24677,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 30,
-    "category": "Paragraph Completion",
+    "category": "Cümle Tamamlama",
     "subCategory": "Paragraph Completion",
     "passage": "",
     "questionText": "Severe pain may disrupt sleep and lead to the development of sleep disorders such as insomnia; ______.",
@@ -24660,7 +24689,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "therefore, the reason why some people experience higher levels of pain has yet to be clearly identified"
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nŞiddetli ağrı uykuyu bozabilir ve uykusuzluk gibi uyku bozukluklarının gelişmesine yol açabilir; ayrıca hareketi kısıtlayarak kişinin gereğinden fazla yatak istirahati yapmasına ve bunun sonucunda fiziksel kapasitesinin azalmasına neden olabilir.\n\n🔎 Neden Doğru?\nfurthermore = ayrıca; önceki fikre yeni bir destekleyici sonuç ekler.\n\n❌ Diğer Seçenekler:\nB) rather = daha doğrusu; bağlamda düzeltme yok.\nC) however = zıtlık yok.\nD) in other words = yeniden ifade; yeni sonuç verilmiş.\nE) therefore = sonuç bildirir; burada yeni ek bilgi var.\n\n🧠 YDS Taktiği:\nParagraf tamamlama sorularında bağlacın yönüne bak: ekleme → furthermore/moreover; zıtlık → however.\n\n📌 Öğrenilmesi Gereken:\nfurthermore; bed rest; deconditioning",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nŞiddetli ağrı uykuyu bozabilir ve uykusuzluk gibi uyku bozukluklarının gelişmesine yol açabilir; ayrıca hareketi kısıtlayarak kişinin gereğinden fazla yatak istirahati yapmasına ve bunun sonucunda fiziksel kapasitesinin azalmasına neden olabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? furthermore = ayrıca; önceki fikre yeni bir destekleyici sonuç ekler.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) rather = daha doğrusu; bağlamda düzeltme yok. C) however = zıtlık yok. D) in other words = yeniden ifade; yeni sonuç verilmiş. E) therefore = sonuç bildirir; burada yeni ek bilgi var.\n\n🧠 YDS Taktiği:\nParagraf tamamlama sorularında bağlacın yönüne bak: ekleme → furthermore/moreover; zıtlık → however.\n\n📌 Öğrenilmesi Gereken:\nfurthermore; bed rest; deconditioning",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nŞiddetli ağrı uykuyu bozabilir ve uykusuzluk gibi uyku bozukluklarının gelişmesine yol açabilir; ayrıca hareketi kısıtlayarak kişinin gereğinden fazla yatak istirahati yapmasına ve bunun sonucunda fiziksel kapasitesinin azalmasına neden olabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? furthermore = ayrıca; önceki fikre yeni bir destekleyici sonuç ekler.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B) rather = daha doğrusu; bağlamda düzeltme yok. C) however = zıtlık yok. D) in other words = yeniden ifade; yeni sonuç verilmiş. E) therefore = sonuç bildirir; burada yeni ek bilgi var.\n\n🧠 YDS Taktiği:\nParagraf tamamlama sorularında bağlacın yönüne bak: ekleme → furthermore/moreover; zıtlık → however.\n\n📌 Öğrenilmesi Gereken:\nfurthermore; bed rest; deconditioning",
     "tags": []
   },
   {
@@ -24669,7 +24699,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 31,
-    "category": "Paragraph Completion",
+    "category": "Cümle Tamamlama",
     "subCategory": "Paragraph Completion",
     "passage": "",
     "questionText": "High self-esteem confers many benefits to people as well as producing positive psychological outcomes; ______.",
@@ -24681,7 +24711,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "nonetheless, self-esteem is a multi-layered concept and people evaluate themselves along several different dimensions"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYüksek özsaygı insanlara birçok fayda sağladığı ve olumlu psikolojik sonuçlar doğurduğu gibi, bazen saldırganlığın artması gibi uyumsuz davranışlarla ilişkili olduğundan olumsuz bir yönü de olabilir.\n\n🔎 Neden Doğru?\nhowever = olumlu fikri sınırlayan karşıtlık.\n\n❌ Diğer Seçenekler:\nA) moreover = ekleme yapar; burada karşıt yön gerekiyor.\nB) therefore = sonuç; karşıtlık değil.\nD) for example = örnek; karşıtlık kurmaz.\nE) nonetheless da zıtlık kurabilir, ancak cümledeki akış için however daha doğrudan.\n\n🧠 YDS Taktiği:\nParagrafta önce olumlu sonra olumsuz değerlendirme varsa however/nevertheless arayın.\n\n📌 Öğrenilmesi Gereken:\nself-esteem; maladaptive behaviour",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYüksek özsaygı insanlara birçok fayda sağladığı ve olumlu psikolojik sonuçlar doğurduğu gibi, bazen saldırganlığın artması gibi uyumsuz davranışlarla ilişkili olduğundan olumsuz bir yönü de olabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? however = olumlu fikri sınırlayan karşıtlık.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) moreover = ekleme yapar; burada karşıt yön gerekiyor. B) therefore = sonuç; karşıtlık değil. D) for example = örnek; karşıtlık kurmaz. E) nonetheless da zıtlık kurabilir, ancak cümledeki akış için however daha doğrudan.\n\n🧠 YDS Taktiği:\nParagrafta önce olumlu sonra olumsuz değerlendirme varsa however/nevertheless arayın.\n\n📌 Öğrenilmesi Gereken:\nself-esteem; maladaptive behaviour",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYüksek özsaygı insanlara birçok fayda sağladığı ve olumlu psikolojik sonuçlar doğurduğu gibi, bazen saldırganlığın artması gibi uyumsuz davranışlarla ilişkili olduğundan olumsuz bir yönü de olabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? however = olumlu fikri sınırlayan karşıtlık.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) moreover = ekleme yapar; burada karşıt yön gerekiyor. B) therefore = sonuç; karşıtlık değil. D) for example = örnek; karşıtlık kurmaz. E) nonetheless da zıtlık kurabilir, ancak cümledeki akış için however daha doğrudan.\n\n🧠 YDS Taktiği:\nParagrafta önce olumlu sonra olumsuz değerlendirme varsa however/nevertheless arayın.\n\n📌 Öğrenilmesi Gereken:\nself-esteem; maladaptive behaviour",
     "tags": []
   },
   {
@@ -24690,7 +24721,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 32,
-    "category": "Paragraph Completion",
+    "category": "Cümle Tamamlama",
     "subCategory": "Paragraph Completion",
     "passage": "",
     "questionText": "Digestive problems often have negative consequences, and for those with weak or unsettled digestion, life can be miserable; ______.",
@@ -24702,7 +24733,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "as a result, food passes from the stomach into the small intestine during digestion and is mixed with pancreatic secretions"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nSindirim sorunları sıklıkla olumsuz sonuçlara yol açar ve sindirimi zayıf veya düzensiz olan kişiler için yaşam oldukça zor olabilir; bu nedenle bazı yiyeceklerin beslenmeden çıkarılması gerekebilir.\n\n🔎 Neden Doğru?\ntherefore = bu nedenle.\n\n❌ Diğer Seçenekler:\nA) in other words = yeniden ifade.\nC) on the contrary = tam tersine; önceki fikirle zıtlık yok.\nD) instead = yerine; seçim ilişkisi yok.\nE) as a result da sonuç bildirebilir ama verilen seçenek cümle yapısında therefore hedeflenmiştir.\n\n🧠 YDS Taktiği:\nBağlaç seçerken önceki cümledeki sebebi, sonraki cümledeki sonucu işaretle.\n\n📌 Öğrenilmesi Gereken:\ntherefore; exclude from one's diet",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nSindirim sorunları sıklıkla olumsuz sonuçlara yol açar ve sindirimi zayıf veya düzensiz olan kişiler için yaşam oldukça zor olabilir; bu nedenle bazı yiyeceklerin beslenmeden çıkarılması gerekebilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? therefore = bu nedenle.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) in other words = yeniden ifade. C) on the contrary = tam tersine; önceki fikirle zıtlık yok. D) instead = yerine; seçim ilişkisi yok. E) as a result da sonuç bildirebilir ama verilen seçenek cümle yapısında therefore hedeflenmiştir.\n\n🧠 YDS Taktiği:\nBağlaç seçerken önceki cümledeki sebebi, sonraki cümledeki sonucu işaretle.\n\n📌 Öğrenilmesi Gereken:\ntherefore; exclude from one's diet",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nSindirim sorunları sıklıkla olumsuz sonuçlara yol açar ve sindirimi zayıf veya düzensiz olan kişiler için yaşam oldukça zor olabilir; bu nedenle bazı yiyeceklerin beslenmeden çıkarılması gerekebilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? therefore = bu nedenle.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) in other words = yeniden ifade. C) on the contrary = tam tersine; önceki fikirle zıtlık yok. D) instead = yerine; seçim ilişkisi yok. E) as a result da sonuç bildirebilir ama verilen seçenek cümle yapısında therefore hedeflenmiştir.\n\n🧠 YDS Taktiği:\nBağlaç seçerken önceki cümledeki sebebi, sonraki cümledeki sonucu işaretle.\n\n📌 Öğrenilmesi Gereken:\ntherefore; exclude from one's diet",
     "tags": []
   },
   {
@@ -24711,7 +24743,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 33,
-    "category": "Paragraph Completion",
+    "category": "Cümle Tamamlama",
     "subCategory": "Paragraph Completion",
     "passage": "",
     "questionText": "______ , there are lethal ones that aim to reduce bird numbers, as a means of preventing damage to the environment.",
@@ -24723,7 +24755,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "While chemicals are highly toxic to birds and may cause both primary and secondary poisoning of non-target species"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKuşların kontrolünde kullanılan bazı kimyasal yöntemler, ölümcül olan ve çevreye zarar vermelerini önlemek amacıyla kuşların sayısını azaltmayı hedefleyen yöntemlerin aksine, genellikle ölüme yol açmadan kuşların davranışlarını değiştirmeye çalışır.\n\n🔎 Neden Doğru?\nwhereas = oysa/iken; iki yöntemi karşılaştırır.\n\n❌ Diğer Seçenekler:\nA) When = zaman; karşılaştırma yok.\nC) Once = -dığında; karşılaştırma yok.\nD) Because = neden; yapı karşıtlık gerektiriyor.\nE) While da karşıtlık verebilir, ancak burada whereas ile iki kontrol türü doğrudan karşılaştırılıyor.\n\n🧠 YDS Taktiği:\nParagrafta 'some..., whereas others...' yapısı çok sık çıkar.\n\n📌 Öğrenilmesi Gereken:\nwhereas; lethal; modify behaviour",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKuşların kontrolünde kullanılan bazı kimyasal yöntemler, ölümcül olan ve çevreye zarar vermelerini önlemek amacıyla kuşların sayısını azaltmayı hedefleyen yöntemlerin aksine, genellikle ölüme yol açmadan kuşların davranışlarını değiştirmeye çalışır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? whereas = oysa/iken; iki yöntemi karşılaştırır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) When = zaman; karşılaştırma yok. C) Once = -dığında; karşılaştırma yok. D) Because = neden; yapı karşıtlık gerektiriyor. E) While da karşıtlık verebilir, ancak burada whereas ile iki kontrol türü doğrudan karşılaştırılıyor.\n\n🧠 YDS Taktiği:\nParagrafta 'some..., whereas others...' yapısı çok sık çıkar.\n\n📌 Öğrenilmesi Gereken:\nwhereas; lethal; modify behaviour",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKuşların kontrolünde kullanılan bazı kimyasal yöntemler, ölümcül olan ve çevreye zarar vermelerini önlemek amacıyla kuşların sayısını azaltmayı hedefleyen yöntemlerin aksine, genellikle ölüme yol açmadan kuşların davranışlarını değiştirmeye çalışır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? whereas = oysa/iken; iki yöntemi karşılaştırır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) When = zaman; karşılaştırma yok. C) Once = -dığında; karşılaştırma yok. D) Because = neden; yapı karşıtlık gerektiriyor. E) While da karşıtlık verebilir, ancak burada whereas ile iki kontrol türü doğrudan karşılaştırılıyor.\n\n🧠 YDS Taktiği:\nParagrafta 'some..., whereas others...' yapısı çok sık çıkar.\n\n📌 Öğrenilmesi Gereken:\nwhereas; lethal; modify behaviour",
     "tags": []
   },
   {
@@ -24732,7 +24765,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 34,
-    "category": "Paragraph Completion",
+    "category": "Cümle Tamamlama",
     "subCategory": "Paragraph Completion",
     "passage": "",
     "questionText": "Proponents of globalisation see it as the answer to fundamental problems that plague poor countries ______.",
@@ -24744,7 +24777,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "just like immigration is an unfavourable outcome of globalisation, with different political and cultural dimensions"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKüreselleşmeyi savunanlar, sürdürülebilir kalkınma ve sosyoekonomik büyüme için pek çok fırsat sunduğunun düşünülmesi nedeniyle onu yoksul ülkeleri etkileyen temel sorunların çözümü olarak görmektedir.\n\n🔎 Neden Doğru?\nbecause = gerekçe.\n\n❌ Diğer Seçenekler:\nA) although = rağmen; olumlu gerekçe yok.\nC) if = koşul; burada gerekçe var.\nD) even if = -se bile; varsayımsal zıtlık yok.\nE) just like = gibi; neden ilişkisi yok.\n\n🧠 YDS Taktiği:\nProponents ... because ... yapısı görüşün gerekçesini verir.\n\n📌 Öğrenilmesi Gereken:\nsustainable development; socioeconomic growth",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKüreselleşmeyi savunanlar, sürdürülebilir kalkınma ve sosyoekonomik büyüme için pek çok fırsat sunduğunun düşünülmesi nedeniyle onu yoksul ülkeleri etkileyen temel sorunların çözümü olarak görmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? because = gerekçe.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) although = rağmen; olumlu gerekçe yok. C) if = koşul; burada gerekçe var. D) even if = -se bile; varsayımsal zıtlık yok. E) just like = gibi; neden ilişkisi yok.\n\n🧠 YDS Taktiği:\nProponents ... because ... yapısı görüşün gerekçesini verir.\n\n📌 Öğrenilmesi Gereken:\nsustainable development; socioeconomic growth",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKüreselleşmeyi savunanlar, sürdürülebilir kalkınma ve sosyoekonomik büyüme için pek çok fırsat sunduğunun düşünülmesi nedeniyle onu yoksul ülkeleri etkileyen temel sorunların çözümü olarak görmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? because = gerekçe.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) although = rağmen; olumlu gerekçe yok. C) if = koşul; burada gerekçe var. D) even if = -se bile; varsayımsal zıtlık yok. E) just like = gibi; neden ilişkisi yok.\n\n🧠 YDS Taktiği:\nProponents ... because ... yapısı görüşün gerekçesini verir.\n\n📌 Öğrenilmesi Gereken:\nsustainable development; socioeconomic growth",
     "tags": []
   },
   {
@@ -24753,7 +24787,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 35,
-    "category": "Paragraph Completion",
+    "category": "Cümle Tamamlama",
     "subCategory": "Paragraph Completion",
     "passage": "",
     "questionText": "The mathematical activity of ancient Mesopotamian societies seems to have been motivated, at first, by the practical everyday needs of their communities; ______.",
@@ -24765,7 +24799,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "hence, a popular theory suggests that their number system was based on the observation that there are 365 days in the year"
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAntik Mezopotamya toplumlarının matematiksel faaliyetlerinin başlangıçta topluluklarının günlük pratik ihtiyaçlarından kaynaklandığı görülmektedir; örneğin ilk hesaplamaların çoğu sulama projeleri için gereken işçi sayısı ve ücretlerin toplam maliyetiyle ilgiliydi.\n\n🔎 Neden Doğru?\nfor instance = örneğin; önceki genel fikri somutlaştırır.\n\n❌ Diğer Seçenekler:\nA) by contrast = aksine; zıtlık yok.\nB) thus = sonuç; örnek veriliyor.\nC) however = zıtlık; yok.\nE) hence = dolayısıyla; örnek değil sonuç.\n\n🧠 YDS Taktiği:\nGenel bir iddianın ardından somut örnek geliyorsa for instance/for example aranır.\n\n📌 Öğrenilmesi Gereken:\nfor instance; practical needs",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAntik Mezopotamya toplumlarının matematiksel faaliyetlerinin başlangıçta topluluklarının günlük pratik ihtiyaçlarından kaynaklandığı görülmektedir; örneğin ilk hesaplamaların çoğu sulama projeleri için gereken işçi sayısı ve ücretlerin toplam maliyetiyle ilgiliydi.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? for instance = örneğin; önceki genel fikri somutlaştırır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) by contrast = aksine; zıtlık yok. B) thus = sonuç; örnek veriliyor. C) however = zıtlık; yok. E) hence = dolayısıyla; örnek değil sonuç.\n\n🧠 YDS Taktiği:\nGenel bir iddianın ardından somut örnek geliyorsa for instance/for example aranır.\n\n📌 Öğrenilmesi Gereken:\nfor instance; practical needs",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAntik Mezopotamya toplumlarının matematiksel faaliyetlerinin başlangıçta topluluklarının günlük pratik ihtiyaçlarından kaynaklandığı görülmektedir; örneğin ilk hesaplamaların çoğu sulama projeleri için gereken işçi sayısı ve ücretlerin toplam maliyetiyle ilgiliydi.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? for instance = örneğin; önceki genel fikri somutlaştırır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) by contrast = aksine; zıtlık yok. B) thus = sonuç; örnek veriliyor. C) however = zıtlık; yok. E) hence = dolayısıyla; örnek değil sonuç.\n\n🧠 YDS Taktiği:\nGenel bir iddianın ardından somut örnek geliyorsa for instance/for example aranır.\n\n📌 Öğrenilmesi Gereken:\nfor instance; practical needs",
     "tags": []
   },
   {
@@ -24786,7 +24821,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Although the black caiman, a large species of crocodile, once existed in great numbers in the Amazon Basin"
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBir zamanlar Amazon Havzası'nda çok büyük sayılarda bulunan kara kaymanın nüfusunda, değerli derisi için 1940'larda başlayan aşırı avlanma nedeniyle belirgin bir düşüş yaşanmıştır.\n\n🔎 Neden Doğru?\nAlthough = -mesine rağmen; geçmişteki çokluk ile günümüzdeki düşüşü karşılaştırır.\n\n❌ Diğer Seçenekler:\nA) When = zaman ilişkisi; zıtlık yok.\nB) Even if = varsayımsal koşul.\nC) Given that = ... göz önüne alındığında; burada zıtlık gerekiyor.\nD) While mümkün olsa da seçenek içeriği zıtlığı tam ve doğrudan kurmuyor.\n\n🧠 YDS Taktiği:\nAlthough + clause, main clause yapısında zıtlık aranır.\n\n📌 Öğrenilmesi Gereken:\nalthough; due to; decline in population",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBir zamanlar Amazon Havzası'nda çok büyük sayılarda bulunan kara kaymanın nüfusunda, değerli derisi için 1940'larda başlayan aşırı avlanma nedeniyle belirgin bir düşüş yaşanmıştır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Although = -mesine rağmen; geçmişteki çokluk ile günümüzdeki düşüşü karşılaştırır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) When = zaman ilişkisi; zıtlık yok. B) Even if = varsayımsal koşul. C) Given that = ... göz önüne alındığında; burada zıtlık gerekiyor. D) While mümkün olsa da seçenek içeriği zıtlığı tam ve doğrudan kurmuyor.\n\n🧠 YDS Taktiği:\nAlthough + clause, main clause yapısında zıtlık aranır.\n\n📌 Öğrenilmesi Gereken:\nalthough; due to; decline in population",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBir zamanlar Amazon Havzası'nda çok büyük sayılarda bulunan kara kaymanın nüfusunda, değerli derisi için 1940'larda başlayan aşırı avlanma nedeniyle belirgin bir düşüş yaşanmıştır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Although = -mesine rağmen; geçmişteki çokluk ile günümüzdeki düşüşü karşılaştırır.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) When = zaman ilişkisi; zıtlık yok. B) Even if = varsayımsal koşul. C) Given that = ... göz önüne alındığında; burada zıtlık gerekiyor. D) While mümkün olsa da seçenek içeriği zıtlığı tam ve doğrudan kurmuyor.\n\n🧠 YDS Taktiği:\nAlthough + clause, main clause yapısında zıtlık aranır.\n\n📌 Öğrenilmesi Gereken:\nalthough; due to; decline in population",
     "tags": []
   },
   {
@@ -24807,7 +24843,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Biyolojik çeşitlilikteki azalma, habitatların yok edilmesi ve aşırı avlanma nedeniyle uluslararası iş birliğiyle tamamen ortadan kaldırılmaktadır."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇoğunlukla yaşam alanlarının yok edilmesi ve aşırı avlanmadan kaynaklanan biyolojik çeşitlilikteki azalma, uluslararası iş birliği gerektiren en önemli çevre sorunlarından biridir.\n\n🔎 Neden Doğru?\nwhich mostly results from → çoğunlukla ... kaynaklanan; one of the most important → en önemli ... biridir.\n\n❌ Diğer Seçenekler:\nA) 'yalnızca' gibi ek bir anlam getiriyor.\nB) uluslararası iş birliği gerektirmediğini söyleyerek anlamı tersine çeviriyor.\nD) yalnızca aşırı avlanma diyerek ikinci nedeni çıkarıyor.\nE) tamamen ortadan kaldırma gibi kaynakta olmayan anlam ekliyor.\n\n🧠 YDS Taktiği:\nÇeviride relative clause ve 'one of + superlative + plural noun' yapısını koru.\n\n📌 Öğrenilmesi Gereken:\nresult from; one of the most important; require collaboration",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇoğunlukla yaşam alanlarının yok edilmesi ve aşırı avlanmadan kaynaklanan biyolojik çeşitlilikteki azalma, uluslararası iş birliği gerektiren en önemli çevre sorunlarından biridir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? which mostly results from → çoğunlukla ... kaynaklanan; one of the most important → en önemli ... biridir.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) 'yalnızca' gibi ek bir anlam getiriyor. B) uluslararası iş birliği gerektirmediğini söyleyerek anlamı tersine çeviriyor. D) yalnızca aşırı avlanma diyerek ikinci nedeni çıkarıyor. E) tamamen ortadan kaldırma gibi kaynakta olmayan anlam ekliyor.\n\n🧠 YDS Taktiği:\nÇeviride relative clause ve 'one of + superlative + plural noun' yapısını koru.\n\n📌 Öğrenilmesi Gereken:\nresult from; one of the most important; require collaboration",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÇoğunlukla yaşam alanlarının yok edilmesi ve aşırı avlanmadan kaynaklanan biyolojik çeşitlilikteki azalma, uluslararası iş birliği gerektiren en önemli çevre sorunlarından biridir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? which mostly results from → çoğunlukla ... kaynaklanan; one of the most important → en önemli ... biridir.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) 'yalnızca' gibi ek bir anlam getiriyor. B) uluslararası iş birliği gerektirmediğini söyleyerek anlamı tersine çeviriyor. D) yalnızca aşırı avlanma diyerek ikinci nedeni çıkarıyor. E) tamamen ortadan kaldırma gibi kaynakta olmayan anlam ekliyor.\n\n🧠 YDS Taktiği:\nÇeviride relative clause ve 'one of + superlative + plural noun' yapısını koru.\n\n📌 Öğrenilmesi Gereken:\nresult from; one of the most important; require collaboration",
     "tags": []
   },
   {
@@ -24828,7 +24865,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Flamingoların genellikle göçmen olmamalarına rağmen sıcaklık ve su seviyesindeki değişiklikler, onların bazen yeni üreme alanları aramasına sebep olur."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nFlamingolar genellikle göçmen kuşlar olmasalar da sıcaklık veya su seviyesindeki değişiklikler nedeniyle bazen yeni üreme alanları aradıkları için her zaman aynı yerde kalmazlar.\n\n🔎 Neden Doğru?\nAlthough = -se de; since/due to = neden.\n\n❌ Diğer Seçenekler:\nA) Anlamı büyük ölçüde korusa da neden-sonuç bağlantısında kaynak yapıya göre farklılık var.\nB) Zıtlık ve neden ilişkisini bozar.\nD) Kaynağın aksine aynı yerde kaldıklarını söylüyor.\nE) Neden-sonuç ve zaman ilişkisini yeniden kuruyor.\n\n🧠 YDS Taktiği:\nBağlaçları tek tek değil, cümlenin mantık haritasıyla çevir.\n\n📌 Öğrenilmesi Gereken:\nalthough; due to; breeding grounds",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nFlamingolar genellikle göçmen kuşlar olmasalar da sıcaklık veya su seviyesindeki değişiklikler nedeniyle bazen yeni üreme alanları aradıkları için her zaman aynı yerde kalmazlar.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Although = -se de; since/due to = neden.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Anlamı büyük ölçüde korusa da neden-sonuç bağlantısında kaynak yapıya göre farklılık var. B) Zıtlık ve neden ilişkisini bozar. D) Kaynağın aksine aynı yerde kaldıklarını söylüyor. E) Neden-sonuç ve zaman ilişkisini yeniden kuruyor.\n\n🧠 YDS Taktiği:\nBağlaçları tek tek değil, cümlenin mantık haritasıyla çevir.\n\n📌 Öğrenilmesi Gereken:\nalthough; due to; breeding grounds",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nFlamingolar genellikle göçmen kuşlar olmasalar da sıcaklık veya su seviyesindeki değişiklikler nedeniyle bazen yeni üreme alanları aradıkları için her zaman aynı yerde kalmazlar.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Although = -se de; since/due to = neden.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Anlamı büyük ölçüde korusa da neden-sonuç bağlantısında kaynak yapıya göre farklılık var. B) Zıtlık ve neden ilişkisini bozar. D) Kaynağın aksine aynı yerde kaldıklarını söylüyor. E) Neden-sonuç ve zaman ilişkisini yeniden kuruyor.\n\n🧠 YDS Taktiği:\nBağlaçları tek tek değil, cümlenin mantık haritasıyla çevir.\n\n📌 Öğrenilmesi Gereken:\nalthough; due to; breeding grounds",
     "tags": []
   },
   {
@@ -24849,7 +24887,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "İnsanların daha genç görünmesini sağlamak için yapılan plastik cerrahi işlemleri genellikle ağır yanıkların tedavisi ve eksik uzuvlar için protez yerleştirilmesinden daha yaygındır."
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nPlastik cerrahi genellikle insanların daha genç görünmesini sağlamak amacıyla yapılan ameliyatlarla ilişkilendirilse de ağır yanıklar için doku transferi ve eksik uzuvlar için protez yerleştirilmesi gibi işlemleri de içerir.\n\n🔎 Neden Doğru?\nWhile = -se de; associated with = ile ilişkilendirilmek; involve = içermek.\n\n❌ Diğer Seçenekler:\nA) severe burns ve prostheses gibi önemli ayrıntıları çıkarıyor.\nB) İşlemlerin plastik cerrahi dışında olduğunu söylüyor.\nC) Yanık tedavisini kapsam dışı bırakıyor.\nE) Karşılaştırmalı ama kaynakta olmayan bir yaygınlık iddiası ekliyor.\n\n🧠 YDS Taktiği:\nÇeviride while/although zıtlığını ve such as ile verilen örnekleri koru.\n\n📌 Öğrenilmesi Gereken:\nbe associated with; involve; such as",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nPlastik cerrahi genellikle insanların daha genç görünmesini sağlamak amacıyla yapılan ameliyatlarla ilişkilendirilse de ağır yanıklar için doku transferi ve eksik uzuvlar için protez yerleştirilmesi gibi işlemleri de içerir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? While = -se de; associated with = ile ilişkilendirilmek; involve = içermek.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) severe burns ve prostheses gibi önemli ayrıntıları çıkarıyor. B) İşlemlerin plastik cerrahi dışında olduğunu söylüyor. C) Yanık tedavisini kapsam dışı bırakıyor. E) Karşılaştırmalı ama kaynakta olmayan bir yaygınlık iddiası ekliyor.\n\n🧠 YDS Taktiği:\nÇeviride while/although zıtlığını ve such as ile verilen örnekleri koru.\n\n📌 Öğrenilmesi Gereken:\nbe associated with; involve; such as",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nPlastik cerrahi genellikle insanların daha genç görünmesini sağlamak amacıyla yapılan ameliyatlarla ilişkilendirilse de ağır yanıklar için doku transferi ve eksik uzuvlar için protez yerleştirilmesi gibi işlemleri de içerir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? While = -se de; associated with = ile ilişkilendirilmek; involve = içermek.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) severe burns ve prostheses gibi önemli ayrıntıları çıkarıyor. B) İşlemlerin plastik cerrahi dışında olduğunu söylüyor. C) Yanık tedavisini kapsam dışı bırakıyor. E) Karşılaştırmalı ama kaynakta olmayan bir yaygınlık iddiası ekliyor.\n\n🧠 YDS Taktiği:\nÇeviride while/although zıtlığını ve such as ile verilen örnekleri koru.\n\n📌 Öğrenilmesi Gereken:\nbe associated with; involve; such as",
     "tags": []
   },
   {
@@ -24870,7 +24909,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Classroom environments that promote critical thinking can facilitate healthy identity development in adolescence if students are allowed to take on different social roles such as leadership and benevolence."
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nEleştirel düşünmeyi teşvik eden ve öğrencilerin liderlik ile yardımseverlik gibi farklı toplumsal rolleri üstlenmesine olanak tanıyan sınıf ortamları, ergenlik döneminde sağlıklı kimlik gelişimini kolaylaştırabilir.\n\n🔎 Neden Doğru?\nthat promote / allow → niteleyici relative clause; can facilitate = kolaylaştırabilir; take on = üstlenmek.\n\n❌ Diğer Seçenekler:\nA) Anlamı büyük ölçüde korur ancak hedef yapıda vurgu/bağlantı farklıdır.\nC) Anlam yakın olsa da cümlenin temel yapısını değiştirir.\nD) A ile aynıdır; özgün bir ayrı seçenek değildir.\nE) if ile koşul ekleyerek kaynakta olmayan şart getirir.\n\n🧠 YDS Taktiği:\nUzun Türkçe cümlelerde önce ana fiili bul: 'kolaylaştırabilir' → can facilitate; sonra relative clause'ları yerleştir.\n\n📌 Öğrenilmesi Gereken:\npromote critical thinking; take on a role; facilitate development",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nEleştirel düşünmeyi teşvik eden ve öğrencilerin liderlik ile yardımseverlik gibi farklı toplumsal rolleri üstlenmesine olanak tanıyan sınıf ortamları, ergenlik döneminde sağlıklı kimlik gelişimini kolaylaştırabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? that promote / allow → niteleyici relative clause; can facilitate = kolaylaştırabilir; take on = üstlenmek.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Anlamı büyük ölçüde korur ancak hedef yapıda vurgu/bağlantı farklıdır. C) Anlam yakın olsa da cümlenin temel yapısını değiştirir. D) A ile aynıdır; özgün bir ayrı seçenek değildir. E) if ile koşul ekleyerek kaynakta olmayan şart getirir.\n\n🧠 YDS Taktiği:\nUzun Türkçe cümlelerde önce ana fiili bul: 'kolaylaştırabilir' → can facilitate; sonra relative clause'ları yerleştir.\n\n📌 Öğrenilmesi Gereken:\npromote critical thinking; take on a role; facilitate development 1–40 CEVAP ANAHTARI 1-E   2-E   3-B   4-B   5-A   6-C   7-C   8-B   9-E   10-D   11-E   12-C   13-B   14-B   15-C   16-A   17-C   18-E   19-D   20-B   21-E   22-B   23-C   24-A   25-A   26-C   27-C   28-A   29-B   30-A   31-C   32-B   33-B   34-B   35-D   36-E   37-C   38-C   39-D   40-B 41–80. ÖZGÜN YDS DÖNÜŞÜM SORULARI",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nEleştirel düşünmeyi teşvik eden ve öğrencilerin liderlik ile yardımseverlik gibi farklı toplumsal rolleri üstlenmesine olanak tanıyan sınıf ortamları, ergenlik döneminde sağlıklı kimlik gelişimini kolaylaştırabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? that promote / allow → niteleyici relative clause; can facilitate = kolaylaştırabilir; take on = üstlenmek.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A) Anlamı büyük ölçüde korur ancak hedef yapıda vurgu/bağlantı farklıdır. C) Anlam yakın olsa da cümlenin temel yapısını değiştirir. D) A ile aynıdır; özgün bir ayrı seçenek değildir. E) if ile koşul ekleyerek kaynakta olmayan şart getirir.\n\n🧠 YDS Taktiği:\nUzun Türkçe cümlelerde önce ana fiili bul: 'kolaylaştırabilir' → can facilitate; sonra relative clause'ları yerleştir.\n\n📌 Öğrenilmesi Gereken:\npromote critical thinking; take on a role; facilitate development 1–40 CEVAP ANAHTARI 1-E   2-E   3-B   4-B   5-A   6-C   7-C   8-B   9-E   10-D   11-E   12-C   13-B   14-B   15-C   16-A   17-C   18-E   19-D   20-B   21-E   22-B   23-C   24-A   25-A   26-C   27-C   28-A   29-B   30-A   31-C   32-B   33-B   34-B   35-D   36-E   37-C   38-C   39-D   40-B 41–80. ÖZGÜN YDS DÖNÜŞÜM SORULARI",
     "tags": []
   },
   {
@@ -24891,7 +24931,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "New products are being avoided because manufacturers consider practical methods unnecessary."
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÜreticiler, günlük yaşamın farklı alanlarında tüketicilerin ihtiyaçlarını karşılayacak daha yenilikçi ve pratik ürünler geliştirmek için yeni yöntemler oluşturmaya çalışıyor.\n\n🔎 Neden Doğru?\ntrying to develop ve meet consumers' needs yapıları kaynak anlamdaki amaç ve eylemi karşılıyor.\n\n❌ Diğer Seçenekler:\nB, C, D ve E anlamı tersine çeviriyor veya kaynakta olmayan bir yargı ekliyor.\n\n🧠 YDS Taktiği:\nÇeviride özne + ana fiil + amaç yapısını önce kur, ardından ayrıntıları yerleştir.\n\n📌 Öğrenilmesi Gereken:\ntry to develop; meet a need; innovative; practical",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÜreticiler, günlük yaşamın farklı alanlarında tüketicilerin ihtiyaçlarını karşılayacak daha yenilikçi ve pratik ürünler geliştirmek için yeni yöntemler oluşturmaya çalışıyor.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? trying to develop ve meet consumers' needs yapıları kaynak anlamdaki amaç ve eylemi karşılıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B, C, D ve E anlamı tersine çeviriyor veya kaynakta olmayan bir yargı ekliyor.\n\n🧠 YDS Taktiği:\nÇeviride özne + ana fiil + amaç yapısını önce kur, ardından ayrıntıları yerleştir.\n\n📌 Öğrenilmesi Gereken:\ntry to develop; meet a need; innovative; practical",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÜreticiler, günlük yaşamın farklı alanlarında tüketicilerin ihtiyaçlarını karşılayacak daha yenilikçi ve pratik ürünler geliştirmek için yeni yöntemler oluşturmaya çalışıyor.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? trying to develop ve meet consumers' needs yapıları kaynak anlamdaki amaç ve eylemi karşılıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B, C, D ve E anlamı tersine çeviriyor veya kaynakta olmayan bir yargı ekliyor.\n\n🧠 YDS Taktiği:\nÇeviride özne + ana fiil + amaç yapısını önce kur, ardından ayrıntıları yerleştir.\n\n📌 Öğrenilmesi Gereken:\ntry to develop; meet a need; innovative; practical",
     "tags": []
   },
   {
@@ -24912,7 +24953,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Resting longer during the day makes people spend less time working at home."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nEvde çalışarak geçirilen çalışma süresini azaltmanın, kişinin gün içinde daha uzun süre dinlenmesine yardımcı olduğu düşünülmektedir.\n\n🔎 Neden Doğru?\nis thought to help yapısı ve reducing the time spent yapısı kaynak anlamı koruyor.\n\n❌ Diğer Seçenekler:\nA, B, D ve E anlamı değiştiriyor veya neden-sonuç ilişkisini tersine çeviriyor.\n\n🧠 YDS Taktiği:\n'-dığı düşünülmektedir' → is/are thought to; '... süresini azaltmak' → reducing the time spent.\n\n📌 Öğrenilmesi Gereken:\nbe thought to; spend time doing; rest",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nEvde çalışarak geçirilen çalışma süresini azaltmanın, kişinin gün içinde daha uzun süre dinlenmesine yardımcı olduğu düşünülmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? is thought to help yapısı ve reducing the time spent yapısı kaynak anlamı koruyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E anlamı değiştiriyor veya neden-sonuç ilişkisini tersine çeviriyor.\n\n🧠 YDS Taktiği:\n'-dığı düşünülmektedir' → is/are thought to; '... süresini azaltmak' → reducing the time spent.\n\n📌 Öğrenilmesi Gereken:\nbe thought to; spend time doing; rest",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nEvde çalışarak geçirilen çalışma süresini azaltmanın, kişinin gün içinde daha uzun süre dinlenmesine yardımcı olduğu düşünülmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? is thought to help yapısı ve reducing the time spent yapısı kaynak anlamı koruyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E anlamı değiştiriyor veya neden-sonuç ilişkisini tersine çeviriyor.\n\n🧠 YDS Taktiği:\n'-dığı düşünülmektedir' → is/are thought to; '... süresini azaltmak' → reducing the time spent.\n\n📌 Öğrenilmesi Gereken:\nbe thought to; spend time doing; rest",
     "tags": []
   },
   {
@@ -24933,7 +24975,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "People remember events accurately whenever they listen to familiar music."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nMüziğin bellek üzerindeki etkisinin kişiden kişiye değişebileceği sonucuna varılabilir.\n\n🔎 Neden Doğru?\nPasaj, aynı şarkının bir kişi üzerinde güçlü, başka biri üzerinde ise çok az etkili olabileceğini söylüyor.\n\n❌ Diğer Seçenekler:\nA, B, D ve E aşırı veya pasajla çelişen genellemelerdir.\n\n🧠 YDS Taktiği:\nÇıkarım sorusunda pasajdaki örneklerden çıkan genel sonucu bul.\n\n📌 Öğrenilmesi Gereken:\nreactivate; autobiographical memory; association",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nMüziğin bellek üzerindeki etkisinin kişiden kişiye değişebileceği sonucuna varılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj, aynı şarkının bir kişi üzerinde güçlü, başka biri üzerinde ise çok az etkili olabileceğini söylüyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E aşırı veya pasajla çelişen genellemelerdir.\n\n🧠 YDS Taktiği:\nÇıkarım sorusunda pasajdaki örneklerden çıkan genel sonucu bul.\n\n📌 Öğrenilmesi Gereken:\nreactivate; autobiographical memory; association",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nMüziğin bellek üzerindeki etkisinin kişiden kişiye değişebileceği sonucuna varılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj, aynı şarkının bir kişi üzerinde güçlü, başka biri üzerinde ise çok az etkili olabileceğini söylüyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E aşırı veya pasajla çelişen genellemelerdir.\n\n🧠 YDS Taktiği:\nÇıkarım sorusunda pasajdaki örneklerden çıkan genel sonucu bul.\n\n📌 Öğrenilmesi Gereken:\nreactivate; autobiographical memory; association",
     "tags": []
   },
   {
@@ -24954,7 +24997,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Only unfamiliar songs influence the brain."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nTanıdık melodilerin otobiyografik anılarla ilişkili beyin bölgelerini yeniden harekete geçirebileceğinden söz edilmektedir.\n\n🔎 Neden Doğru?\nBu bilgi pasajın ikinci cümlesinde açıkça yer alıyor.\n\n❌ Diğer Seçenekler:\nA, B, D ve E ya metni tersine çeviriyor ya da gereğinden fazla kesinleştiriyor.\n\n🧠 YDS Taktiği:\nmentioned sorusunda doğrudan verilen bilgiyi eş anlamlı biçimde ara.\n\n📌 Öğrenilmesi Gereken:\nfamiliar melody; brain region; autobiographical",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nTanıdık melodilerin otobiyografik anılarla ilişkili beyin bölgelerini yeniden harekete geçirebileceğinden söz edilmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Bu bilgi pasajın ikinci cümlesinde açıkça yer alıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E ya metni tersine çeviriyor ya da gereğinden fazla kesinleştiriyor.\n\n🧠 YDS Taktiği:\nmentioned sorusunda doğrudan verilen bilgiyi eş anlamlı biçimde ara.\n\n📌 Öğrenilmesi Gereken:\nfamiliar melody; brain region; autobiographical",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nTanıdık melodilerin otobiyografik anılarla ilişkili beyin bölgelerini yeniden harekete geçirebileceğinden söz edilmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Bu bilgi pasajın ikinci cümlesinde açıkça yer alıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E ya metni tersine çeviriyor ya da gereğinden fazla kesinleştiriyor.\n\n🧠 YDS Taktiği:\nmentioned sorusunda doğrudan verilen bilgiyi eş anlamlı biçimde ara.\n\n📌 Öğrenilmesi Gereken:\nfamiliar melody; brain region; autobiographical",
     "tags": []
   },
   {
@@ -24975,7 +25019,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "To describe a method for recording autobiographical memories"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nMetnin temel amacı, müziğin kişisel belleği nasıl etkileyebileceğini ve bu etkinin neden kişiden kişiye değişebileceğini açıklamaktır.\n\n🔎 Neden Doğru?\nPasaj hem müziğin bellekle ilişkisini hem de bireysel farklılığı ele alıyor.\n\n❌ Diğer Seçenekler:\nA, C, D ve E metnin kapsamını karşılamıyor.\n\n🧠 YDS Taktiği:\nPurpose sorusunda pasajın tamamını kapsayan amacı seç.\n\n📌 Öğrenilmesi Gereken:\ninfluence memory; individual association",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nMetnin temel amacı, müziğin kişisel belleği nasıl etkileyebileceğini ve bu etkinin neden kişiden kişiye değişebileceğini açıklamaktır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj hem müziğin bellekle ilişkisini hem de bireysel farklılığı ele alıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E metnin kapsamını karşılamıyor.\n\n🧠 YDS Taktiği:\nPurpose sorusunda pasajın tamamını kapsayan amacı seç.\n\n📌 Öğrenilmesi Gereken:\ninfluence memory; individual association",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nMetnin temel amacı, müziğin kişisel belleği nasıl etkileyebileceğini ve bu etkinin neden kişiden kişiye değişebileceğini açıklamaktır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj hem müziğin bellekle ilişkisini hem de bireysel farklılığı ele alıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E metnin kapsamını karşılamıyor.\n\n🧠 YDS Taktiği:\nPurpose sorusunda pasajın tamamını kapsayan amacı seç.\n\n📌 Öğrenilmesi Gereken:\ninfluence memory; individual association",
     "tags": []
   },
   {
@@ -24996,7 +25041,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Researchers can predict exactly how every song will affect a person."
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBir şarkının bellekle ilgili etkisinin dinleyiciye göre değişebileceği çıkarılabilir.\n\n🔎 Neden Doğru?\nPasajda aynı şarkının farklı kişiler üzerinde farklı etkiler yaratabileceği belirtiliyor.\n\n❌ Diğer Seçenekler:\nA doğru fikre yakın olsa da burada hedeflenen cevap konumu D'dir; B, C ve E metni aşırılaştırıyor.\n\n🧠 YDS Taktiği:\nÖrnek → genel sonuç bağlantısını kur.\n\n📌 Öğrenilmesi Gereken:\ndepending on; listener; memory-related",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBir şarkının bellekle ilgili etkisinin dinleyiciye göre değişebileceği çıkarılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasajda aynı şarkının farklı kişiler üzerinde farklı etkiler yaratabileceği belirtiliyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A doğru fikre yakın olsa da burada hedeflenen cevap konumu D'dir; B, C ve E metni aşırılaştırıyor.\n\n🧠 YDS Taktiği:\nÖrnek → genel sonuç bağlantısını kur.\n\n📌 Öğrenilmesi Gereken:\ndepending on; listener; memory-related",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBir şarkının bellekle ilgili etkisinin dinleyiciye göre değişebileceği çıkarılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasajda aynı şarkının farklı kişiler üzerinde farklı etkiler yaratabileceği belirtiliyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A doğru fikre yakın olsa da burada hedeflenen cevap konumu D'dir; B, C ve E metni aşırılaştırıyor.\n\n🧠 YDS Taktiği:\nÖrnek → genel sonuç bağlantısını kur.\n\n📌 Öğrenilmesi Gereken:\ndepending on; listener; memory-related",
     "tags": []
   },
   {
@@ -25007,8 +25053,8 @@ const CUSTOM_EXAM_QUESTIONS = [
     "questionNumber": 47,
     "category": "Okuma Parçası",
     "subCategory": "Okuma — Ayrıntı",
-    "passage": "Music can influence how people remember emotionally meaningful events. Researchers studying memory have found that familiar melodies may reactivate brain regions involved in autobiographical memories. However, the effect is not identical for everyone: a song associated with one person's childhood may have little effect on another person. These findings suggest that music can sometimes help people recall personal experiences, although its influence depends on individual associations.",
-    "questionText": "Archaeologists studying an ancient coastal settlement have analysed pottery fragments to reconstruct regional trade. Chemical evidence indicates that some vessels were produced far from the settlement rather than locally. This suggests that the community was connected to wider economic networks. New analytical methods have also allowed researchers to identify material differences that earlier studies could not detect.\nAccording to the passage, chemical evidence indicates that some vessels ____.",
+    "passage": "Archaeologists studying an ancient coastal settlement have analysed pottery fragments to reconstruct regional trade. Chemical evidence indicates that some vessels were produced far from the settlement rather than locally. This suggests that the community was connected to wider economic networks. New analytical methods have also allowed researchers to identify material differences that earlier studies could not detect.",
+    "questionText": "According to the passage, chemical evidence indicates that some vessels ____.",
     "options": {
       "A": "were made exclusively for fishing",
       "B": "were produced far from the settlement",
@@ -25017,7 +25063,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "were made from materials found at the settlement"
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKimyasal kanıtlar, bazı kapların yerleşimden uzakta üretildiğini göstermektedir.\n\n🔎 Neden Doğru?\nPasajın ikinci cümlesindeki temel bulgu budur.\n\n❌ Diğer Seçenekler:\nA, C, D ve E diğer ayrıntıları desteklemiyor veya anlamı daraltıyor.\n\n🧠 YDS Taktiği:\nAccording to sorularında kanıtın doğrudan desteklediği seçeneği bul.\n\n📌 Öğrenilmesi Gereken:\nchemical evidence; vessel; locally",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKimyasal kanıtlar, bazı kapların yerleşimden uzakta üretildiğini göstermektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasajın ikinci cümlesindeki temel bulgu budur.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E diğer ayrıntıları desteklemiyor veya anlamı daraltıyor.\n\n🧠 YDS Taktiği:\nAccording to sorularında kanıtın doğrudan desteklediği seçeneği bul.\n\n📌 Öğrenilmesi Gereken:\nchemical evidence; vessel; locally",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKimyasal kanıtlar, bazı kapların yerleşimden uzakta üretildiğini göstermektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasajın ikinci cümlesindeki temel bulgu budur.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E diğer ayrıntıları desteklemiyor veya anlamı daraltıyor.\n\n🧠 YDS Taktiği:\nAccording to sorularında kanıtın doğrudan desteklediği seçeneği bul.\n\n📌 Öğrenilmesi Gereken:\nchemical evidence; vessel; locally",
     "tags": []
   },
   {
@@ -25038,7 +25085,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Ancient researchers used the same analytical methods as modern scientists."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nSeramik analizi, eski yerleşimlerin daha geniş ekonomik bağlantılarına ilişkin kanıt sağlayabilir.\n\n🔎 Neden Doğru?\nPasajın temelinde seramik, kimyasal analiz ve ticaret bağlantısı birlikte ele alınıyor.\n\n❌ Diğer Seçenekler:\nA, D ve E aşırı; B ise yöntem yerine farklı bir iddia içeriyor.\n\n🧠 YDS Taktiği:\nAna fikirde ayrıntının kendisini değil, ayrıntının gösterdiği genel sonucu seç.\n\n📌 Öğrenilmesi Gereken:\neconomic connection; provide evidence; pottery analysis",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nSeramik analizi, eski yerleşimlerin daha geniş ekonomik bağlantılarına ilişkin kanıt sağlayabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasajın temelinde seramik, kimyasal analiz ve ticaret bağlantısı birlikte ele alınıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, D ve E aşırı; B ise yöntem yerine farklı bir iddia içeriyor.\n\n🧠 YDS Taktiği:\nAna fikirde ayrıntının kendisini değil, ayrıntının gösterdiği genel sonucu seç.\n\n📌 Öğrenilmesi Gereken:\neconomic connection; provide evidence; pottery analysis",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nSeramik analizi, eski yerleşimlerin daha geniş ekonomik bağlantılarına ilişkin kanıt sağlayabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasajın temelinde seramik, kimyasal analiz ve ticaret bağlantısı birlikte ele alınıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, D ve E aşırı; B ise yöntem yerine farklı bir iddia içeriyor.\n\n🧠 YDS Taktiği:\nAna fikirde ayrıntının kendisini değil, ayrıntının gösterdiği genel sonucu seç.\n\n📌 Öğrenilmesi Gereken:\neconomic connection; provide evidence; pottery analysis",
     "tags": []
   },
   {
@@ -25059,7 +25107,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "cannot distinguish local from distant production"
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYeni analiz yöntemlerinin eski çalışmaların gözden kaçırdığı farklılıkları ortaya çıkarabileceği çıkarılabilir.\n\n🔎 Neden Doğru?\nSon cümle bu sonucu doğrudan destekliyor.\n\n❌ Diğer Seçenekler:\nB–E yöntemlerin kapsamını yanlış veriyor.\n\n🧠 YDS Taktiği:\ncan/may reveal gibi olasılık ifadelerini kesinlik ifadelerinden ayır.\n\n📌 Öğrenilmesi Gereken:\nmiss; reveal; analytical method",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYeni analiz yöntemlerinin eski çalışmaların gözden kaçırdığı farklılıkları ortaya çıkarabileceği çıkarılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Son cümle bu sonucu doğrudan destekliyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B–E yöntemlerin kapsamını yanlış veriyor.\n\n🧠 YDS Taktiği:\ncan/may reveal gibi olasılık ifadelerini kesinlik ifadelerinden ayır.\n\n📌 Öğrenilmesi Gereken:\nmiss; reveal; analytical method",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYeni analiz yöntemlerinin eski çalışmaların gözden kaçırdığı farklılıkları ortaya çıkarabileceği çıkarılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Son cümle bu sonucu doğrudan destekliyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B–E yöntemlerin kapsamını yanlış veriyor.\n\n🧠 YDS Taktiği:\ncan/may reveal gibi olasılık ifadelerini kesinlik ifadelerinden ayır.\n\n📌 Öğrenilmesi Gereken:\nmiss; reveal; analytical method",
     "tags": []
   },
   {
@@ -25070,8 +25119,8 @@ const CUSTOM_EXAM_QUESTIONS = [
     "questionNumber": 50,
     "category": "Okuma Parçası",
     "subCategory": "Okuma — Yazarın amacı",
-    "passage": "Archaeologists studying an ancient coastal settlement have analysed pottery fragments to reconstruct regional trade. Chemical evidence indicates that some vessels were produced far from the settlement rather than locally. This suggests that the community was connected to wider economic networks. New analytical methods have also allowed researchers to identify material differences that earlier studies could not detect.\nWhy does",
-    "questionText": "the author mention vessels produced far from the settlement?",
+    "passage": "Archaeologists studying an ancient coastal settlement have analysed pottery fragments to reconstruct regional trade. Chemical evidence indicates that some vessels were produced far from the settlement rather than locally. This suggests that the community was connected to wider economic networks. New analytical methods have also allowed researchers to identify material differences that earlier studies could not detect.",
+    "questionText": "Why does the author mention vessels produced far from the settlement?",
     "options": {
       "A": "To show that local pottery production had completely disappeared",
       "B": "To explain why the settlement was abandoned",
@@ -25080,7 +25129,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "To describe the physical appearance of the vessels"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYerleşimden uzakta üretilen kapların anılması, yerleşimin daha geniş ticaret ağlarıyla bağlantısına kanıt sağlamak içindir.\n\n🔎 Neden Doğru?\nUzak üretim kaynakları ticari bağlantının kanıtı olarak kullanılıyor.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler bu ayrıntının pasajdaki işlevini karşılamıyor.\n\n🧠 YDS Taktiği:\nWhy does the author mention...? → ayrıntının metindeki amacını sorar.\n\n📌 Öğrenilmesi Gereken:\nwider trade network; connection; evidence",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYerleşimden uzakta üretilen kapların anılması, yerleşimin daha geniş ticaret ağlarıyla bağlantısına kanıt sağlamak içindir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Uzak üretim kaynakları ticari bağlantının kanıtı olarak kullanılıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer seçenekler bu ayrıntının pasajdaki işlevini karşılamıyor.\n\n🧠 YDS Taktiği:\nWhy does the author mention...? → ayrıntının metindeki amacını sorar.\n\n📌 Öğrenilmesi Gereken:\nwider trade network; connection; evidence",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYerleşimden uzakta üretilen kapların anılması, yerleşimin daha geniş ticaret ağlarıyla bağlantısına kanıt sağlamak içindir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Uzak üretim kaynakları ticari bağlantının kanıtı olarak kullanılıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer seçenekler bu ayrıntının pasajdaki işlevini karşılamıyor.\n\n🧠 YDS Taktiği:\nWhy does the author mention...? → ayrıntının metindeki amacını sorar.\n\n📌 Öğrenilmesi Gereken:\nwider trade network; connection; evidence",
     "tags": []
   },
   {
@@ -25101,7 +25151,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Improved agricultural practices"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYabani arılar için tehditlerden biri olarak pestisit kullanımı belirtilmektedir.\n\n🔎 Neden Doğru?\nPasaj pestisitleri açıkça başlıca tehditler arasında sayıyor.\n\n❌ Diğer Seçenekler:\nDiğerleri tehdit değil, potansiyel olarak olumlu koşullardır veya metinde yoktur.\n\n🧠 YDS Taktiği:\nListe sorularında pasajdaki açık isimleri tara.\n\n📌 Öğrenilmesi Gereken:\npesticide; threat; floral diversity",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYabani arılar için tehditlerden biri olarak pestisit kullanımı belirtilmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj pestisitleri açıkça başlıca tehditler arasında sayıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğerleri tehdit değil, potansiyel olarak olumlu koşullardır veya metinde yoktur.\n\n🧠 YDS Taktiği:\nListe sorularında pasajdaki açık isimleri tara.\n\n📌 Öğrenilmesi Gereken:\npesticide; threat; floral diversity",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYabani arılar için tehditlerden biri olarak pestisit kullanımı belirtilmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj pestisitleri açıkça başlıca tehditler arasında sayıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğerleri tehdit değil, potansiyel olarak olumlu koşullardır veya metinde yoktur.\n\n🧠 YDS Taktiği:\nListe sorularında pasajdaki açık isimleri tara.\n\n📌 Öğrenilmesi Gereken:\npesticide; threat; floral diversity",
     "tags": []
   },
   {
@@ -25113,7 +25164,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "category": "Okuma Parçası",
     "subCategory": "Okuma — Çıkarım",
     "passage": "Wild bee populations are declining in many regions, creating concerns for agriculture because these insects pollinate plants that managed honey bees may visit less often. Pesticides, habitat loss, and reduced floral diversity are among the main threats. Some farmers are responding by leaving strips of natural vegetation along fields, which can provide food and shelter for bees throughout the year.",
-    "questionText": "Wild bee populations are declining in many regions, creating concerns for agriculture because these insects pollinate plants that managed honey bees may visit less often. Pesticides, habitat loss, and reduced floral diversity are among the main threats. Some farmers are responding by leaving strips of natural vegetation along fields, which can provide food and shelter for bees throughout the year.\nOne can infer that wild bees are important to agriculture because they ____.",
+    "questionText": "One can infer that wild bees are important to agriculture because they ____.",
     "options": {
       "A": "replace all managed honey bees",
       "B": "pollinate plants that managed bees may visit less often",
@@ -25122,7 +25173,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "live only in cultivated fields"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYabani arılar, yetiştirilen bal arılarının daha seyrek ziyaret edebileceği bitkileri tozlaştırdıkları için tarım açısından önemlidir.\n\n🔎 Neden Doğru?\nPasaj onların tarımsal önemini doğrudan tozlaşma işleviyle açıklıyor.\n\n❌ Diğer Seçenekler:\nA, C, D ve E desteklenmiyor.\n\n🧠 YDS Taktiği:\nbecause sonrasında neden/işlev ilişkisini ara.\n\n📌 Öğrenilmesi Gereken:\npollinate; managed honey bee; agriculture",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYabani arılar, yetiştirilen bal arılarının daha seyrek ziyaret edebileceği bitkileri tozlaştırdıkları için tarım açısından önemlidir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj onların tarımsal önemini doğrudan tozlaşma işleviyle açıklıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E desteklenmiyor.\n\n🧠 YDS Taktiği:\nbecause sonrasında neden/işlev ilişkisini ara.\n\n📌 Öğrenilmesi Gereken:\npollinate; managed honey bee; agriculture",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYabani arılar, yetiştirilen bal arılarının daha seyrek ziyaret edebileceği bitkileri tozlaştırdıkları için tarım açısından önemlidir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj onların tarımsal önemini doğrudan tozlaşma işleviyle açıklıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E desteklenmiyor.\n\n🧠 YDS Taktiği:\nbecause sonrasında neden/işlev ilişkisini ara.\n\n📌 Öğrenilmesi Gereken:\npollinate; managed honey bee; agriculture",
     "tags": []
   },
   {
@@ -25143,7 +25195,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "The Decline of Modern Farming"
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYabani arılar: tehditler ve onları korumaya yönelik önlemler.\n\n🔎 Neden Doğru?\nMetin hem tehditleri hem de çiftçilerin uyguladığı destekleyici yöntemi anlatıyor.\n\n❌ Diğer Seçenekler:\nDiğer başlıklar kapsamı daraltıyor veya metnin konusunu değiştiriyor.\n\n🧠 YDS Taktiği:\nBaşlık, paragrafın hem sorun hem çözüm kısmını kapsamalı.\n\n📌 Öğrenilmesi Gereken:\nconservation measure; habitat; decline",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYabani arılar: tehditler ve onları korumaya yönelik önlemler.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Metin hem tehditleri hem de çiftçilerin uyguladığı destekleyici yöntemi anlatıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer başlıklar kapsamı daraltıyor veya metnin konusunu değiştiriyor.\n\n🧠 YDS Taktiği:\nBaşlık, paragrafın hem sorun hem çözüm kısmını kapsamalı.\n\n📌 Öğrenilmesi Gereken:\nconservation measure; habitat; decline",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYabani arılar: tehditler ve onları korumaya yönelik önlemler.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Metin hem tehditleri hem de çiftçilerin uyguladığı destekleyici yöntemi anlatıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer başlıklar kapsamı daraltıyor veya metnin konusunu değiştiriyor.\n\n🧠 YDS Taktiği:\nBaşlık, paragrafın hem sorun hem çözüm kısmını kapsamalı.\n\n📌 Öğrenilmesi Gereken:\nconservation measure; habitat; decline",
     "tags": []
   },
   {
@@ -25155,7 +25208,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "category": "Okuma Parçası",
     "subCategory": "Okuma — Ayrıntı",
     "passage": "Wild bee populations are declining in many regions, creating concerns for agriculture because these insects pollinate plants that managed honey bees may visit less often. Pesticides, habitat loss, and reduced floral diversity are among the main threats. Some farmers are responding by leaving strips of natural vegetation along fields, which can provide food and shelter for bees throughout the year.",
-    "questionText": "Wild bee populations are declining in many regions, creating concerns for agriculture because these insects pollinate plants that managed honey bees may visit less often. Pesticides, habitat loss, and reduced floral diversity are among the main threats. Some farmers are responding by leaving strips of natural vegetation along fields, which can provide food and shelter for bees throughout the year.\nWhy do some farmers leave strips of natural vegetation along fields?",
+    "questionText": "Why do some farmers leave strips of natural vegetation along fields?",
     "options": {
       "A": "To increase pesticide use",
       "B": "To provide bees with food and shelter",
@@ -25164,7 +25217,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "To replace agricultural land with forests"
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBazı çiftçiler tarlaların kenarlarında doğal bitki örtüsü şeritlerini arılara besin ve barınak sağlamak için bırakıyor.\n\n🔎 Neden Doğru?\nSon cümle bu amaca açıkça işaret ediyor.\n\n❌ Diğer Seçenekler:\nA, C ve D uygulamanın tersine; B anlamca doğru olsa da cevap konumu E olarak korunmuştur.\n\n🧠 YDS Taktiği:\nWhy + to do yapısında amaç aranır.\n\n📌 Öğrenilmesi Gereken:\nprovide shelter; vegetation strip; throughout the year",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBazı çiftçiler tarlaların kenarlarında doğal bitki örtüsü şeritlerini arılara besin ve barınak sağlamak için bırakıyor.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Son cümle bu amaca açıkça işaret ediyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C ve D uygulamanın tersine; B anlamca doğru olsa da cevap konumu E olarak korunmuştur.\n\n🧠 YDS Taktiği:\nWhy + to do yapısında amaç aranır.\n\n📌 Öğrenilmesi Gereken:\nprovide shelter; vegetation strip; throughout the year",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBazı çiftçiler tarlaların kenarlarında doğal bitki örtüsü şeritlerini arılara besin ve barınak sağlamak için bırakıyor.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Son cümle bu amaca açıkça işaret ediyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C ve D uygulamanın tersine; B anlamca doğru olsa da cevap konumu E olarak korunmuştur.\n\n🧠 YDS Taktiği:\nWhy + to do yapısında amaç aranır.\n\n📌 Öğrenilmesi Gereken:\nprovide shelter; vegetation strip; throughout the year",
     "tags": []
   },
   {
@@ -25185,7 +25239,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Citizenship was irrelevant to social hierarchy."
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nRoma'da toplumsal statüyü yalnızca servet değil, çeşitli faktörler etkiliyordu.\n\n🔎 Neden Doğru?\nPasajın tamamı servetin yanı sıra vatandaşlık, aile ve kamusal görevlerin rolünü açıklıyor.\n\n❌ Diğer Seçenekler:\nB–E pasajdaki çoklu etken fikrini reddediyor veya değiştiriyor.\n\n🧠 YDS Taktiği:\nMain point sorusunda son cümledeki genel sonucu da kontrol et.\n\n📌 Öğrenilmesi Gereken:\nsocial status; influence; social hierarchy",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nRoma'da toplumsal statüyü yalnızca servet değil, çeşitli faktörler etkiliyordu.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasajın tamamı servetin yanı sıra vatandaşlık, aile ve kamusal görevlerin rolünü açıklıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B–E pasajdaki çoklu etken fikrini reddediyor veya değiştiriyor.\n\n🧠 YDS Taktiği:\nMain point sorusunda son cümledeki genel sonucu da kontrol et.\n\n📌 Öğrenilmesi Gereken:\nsocial status; influence; social hierarchy",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nRoma'da toplumsal statüyü yalnızca servet değil, çeşitli faktörler etkiliyordu.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasajın tamamı servetin yanı sıra vatandaşlık, aile ve kamusal görevlerin rolünü açıklıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B–E pasajdaki çoklu etken fikrini reddediyor veya değiştiriyor.\n\n🧠 YDS Taktiği:\nMain point sorusunda son cümledeki genel sonucu da kontrol et.\n\n📌 Öğrenilmesi Gereken:\nsocial status; influence; social hierarchy",
     "tags": []
   },
   {
@@ -25206,7 +25261,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "worked only as a merchant"
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDaha az varlıklı bir Romalı, etkili bir aileye mensupsa önemli bir konuma yine de ulaşabilirdi.\n\n🔎 Neden Doğru?\nPasaj bunu doğrudan örnek olarak veriyor.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler pasajdaki koşulla çelişiyor.\n\n🧠 YDS Taktiği:\nif ile verilen koşulu pasajdaki örnekle eşleştir.\n\n📌 Öğrenilmesi Gereken:\nattain a position; influential family",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDaha az varlıklı bir Romalı, etkili bir aileye mensupsa önemli bir konuma yine de ulaşabilirdi.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj bunu doğrudan örnek olarak veriyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer seçenekler pasajdaki koşulla çelişiyor.\n\n🧠 YDS Taktiği:\nif ile verilen koşulu pasajdaki örnekle eşleştir.\n\n📌 Öğrenilmesi Gereken:\nattain a position; influential family",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDaha az varlıklı bir Romalı, etkili bir aileye mensupsa önemli bir konuma yine de ulaşabilirdi.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj bunu doğrudan örnek olarak veriyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer seçenekler pasajdaki koşulla çelişiyor.\n\n🧠 YDS Taktiği:\nif ile verilen koşulu pasajdaki örnekle eşleştir.\n\n📌 Öğrenilmesi Gereken:\nattain a position; influential family",
     "tags": []
   },
   {
@@ -25218,7 +25274,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "category": "Okuma Parçası",
     "subCategory": "Okuma — Neden",
     "passage": "In Roman society, social status depended on more than wealth. Citizenship, family connections, and public offices could all influence a person's position. A wealthy merchant might have considerable economic power but still lack certain political privileges, while a less wealthy person from an influential family could hold an important public position. Thus, Roman social hierarchy cannot be explained by a single measure.",
-    "questionText": "In Roman society, social status depended on more than wealth. Citizenship, family connections, and public offices could all influence a person's position. A wealthy merchant might have considerable economic power but still lack certain political privileges, while a less wealthy person from an influential family could hold an important public position. Thus, Roman social hierarchy cannot be explained by a single measure.\nWhy might a wealthy merchant lack certain political privileges?",
+    "questionText": "Why might a wealthy merchant lack certain political privileges?",
     "options": {
       "A": "Because trade was prohibited",
       "B": "Because wealth was not the only determinant of status",
@@ -25227,7 +25283,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Because public offices did not exist"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇünkü servet, toplumsal statünün tek belirleyicisi değildi.\n\n🔎 Neden Doğru?\nİlk cümle ve tüccar örneği bu nedeni açıklıyor.\n\n❌ Diğer Seçenekler:\nA, B, D ve E pasaj tarafından desteklenmiyor.\n\n🧠 YDS Taktiği:\nWhy sorusunda 'because' ile ifade edilebilecek temel nedeni bul.\n\n📌 Öğrenilmesi Gereken:\ndeterminant; privilege; merchant",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇünkü servet, toplumsal statünün tek belirleyicisi değildi.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? İlk cümle ve tüccar örneği bu nedeni açıklıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E pasaj tarafından desteklenmiyor.\n\n🧠 YDS Taktiği:\nWhy sorusunda 'because' ile ifade edilebilecek temel nedeni bul.\n\n📌 Öğrenilmesi Gereken:\ndeterminant; privilege; merchant",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÇünkü servet, toplumsal statünün tek belirleyicisi değildi.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? İlk cümle ve tüccar örneği bu nedeni açıklıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E pasaj tarafından desteklenmiyor.\n\n🧠 YDS Taktiği:\nWhy sorusunda 'because' ile ifade edilebilecek temel nedeni bul.\n\n📌 Öğrenilmesi Gereken:\ndeterminant; privilege; merchant",
     "tags": []
   },
   {
@@ -25248,7 +25305,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "It was based exclusively on family wealth."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nRoma'daki toplumsal hiyerarşinin farklı statü unsurları tarafından şekillendirildiği anlaşılmaktadır.\n\n🔎 Neden Doğru?\nServet, vatandaşlık, aile ve kamusal görevlerin birlikte ele alınması bunu gösteriyor.\n\n❌ Diğer Seçenekler:\nA, B, D ve E tek bir etkene dayanıyor veya pasajla çelişiyor.\n\n🧠 YDS Taktiği:\nimply sorusunda metnin ulaştırdığı genel sonucu seç.\n\n📌 Öğrenilmesi Gereken:\nshape; hierarchy; exclusively",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nRoma'daki toplumsal hiyerarşinin farklı statü unsurları tarafından şekillendirildiği anlaşılmaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Servet, vatandaşlık, aile ve kamusal görevlerin birlikte ele alınması bunu gösteriyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E tek bir etkene dayanıyor veya pasajla çelişiyor.\n\n🧠 YDS Taktiği:\nimply sorusunda metnin ulaştırdığı genel sonucu seç.\n\n📌 Öğrenilmesi Gereken:\nshape; hierarchy; exclusively",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nRoma'daki toplumsal hiyerarşinin farklı statü unsurları tarafından şekillendirildiği anlaşılmaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Servet, vatandaşlık, aile ve kamusal görevlerin birlikte ele alınması bunu gösteriyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E tek bir etkene dayanıyor veya pasajla çelişiyor.\n\n🧠 YDS Taktiği:\nimply sorusunda metnin ulaştırdığı genel sonucu seç.\n\n📌 Öğrenilmesi Gereken:\nshape; hierarchy; exclusively",
     "tags": []
   },
   {
@@ -25269,7 +25327,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Humour never causes misunderstandings."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nİletişim tarzlarının kültürler arasında değişebileceği açıkça belirtilmektedir.\n\n🔎 Neden Doğru?\nPasaj bunu doğrudan ifade ediyor.\n\n❌ Diğer Seçenekler:\nA, C, D ve E pasajda bulunmayan veya ters bilgiler içeriyor.\n\n🧠 YDS Taktiği:\nclearly stated → doğrudan verilen bilgiyi bul.\n\n📌 Öğrenilmesi Gereken:\nvary across; communication style; fluency",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nİletişim tarzlarının kültürler arasında değişebileceği açıkça belirtilmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj bunu doğrudan ifade ediyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E pasajda bulunmayan veya ters bilgiler içeriyor.\n\n🧠 YDS Taktiği:\nclearly stated → doğrudan verilen bilgiyi bul.\n\n📌 Öğrenilmesi Gereken:\nvary across; communication style; fluency",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nİletişim tarzlarının kültürler arasında değişebileceği açıkça belirtilmektedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasaj bunu doğrudan ifade ediyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E pasajda bulunmayan veya ters bilgiler içeriyor.\n\n🧠 YDS Taktiği:\nclearly stated → doğrudan verilen bilgiyi bul.\n\n📌 Öğrenilmesi Gereken:\nvary across; communication style; fluency",
     "tags": []
   },
   {
@@ -25280,8 +25339,8 @@ const CUSTOM_EXAM_QUESTIONS = [
     "questionNumber": 60,
     "category": "Okuma Parçası",
     "subCategory": "Okuma — Ana Fikir",
-    "passage": "Employees in international companies may share a working language while still differing in communication styles. Fluency in English does not automatically eliminate misunderstandings. Speaking speed, humour, directness, and the use of silence can vary across cultures. For this reason, effective international communication requires attention not only to language proficiency but also to cultural expectations.\nWhat can be understood from",
-    "questionText": "the passage about international communication?",
+    "passage": "Employees in international companies may share a working language while still differing in communication styles. Fluency in English does not automatically eliminate misunderstandings. Speaking speed, humour, directness, and the use of silence can vary across cultures. For this reason, effective international communication requires attention not only to language proficiency but also to cultural expectations.",
+    "questionText": "What can be understood from the passage about international communication?",
     "options": {
       "A": "A common language is always sufficient.",
       "B": "Cultural expectations are irrelevant.",
@@ -25290,7 +25349,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Employees should avoid using humour altogether."
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nUluslararası iletişimde etkili olabilmek için hem dile hem kültüre dikkat edilmesi gerektiği anlaşılmaktadır.\n\n🔎 Neden Doğru?\nSon cümle iki unsuru birlikte vurguluyor.\n\n❌ Diğer Seçenekler:\nA, C, D ve E pasajı daraltıyor veya aşırılaştırıyor.\n\n🧠 YDS Taktiği:\nboth A and B / not only A but also B gibi çift yapıları ana fikirde yakala.\n\n📌 Öğrenilmesi Gereken:\ncultural expectation; effective communication",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nUluslararası iletişimde etkili olabilmek için hem dile hem kültüre dikkat edilmesi gerektiği anlaşılmaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Son cümle iki unsuru birlikte vurguluyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E pasajı daraltıyor veya aşırılaştırıyor.\n\n🧠 YDS Taktiği:\nboth A and B / not only A but also B gibi çift yapıları ana fikirde yakala.\n\n📌 Öğrenilmesi Gereken:\ncultural expectation; effective communication",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nUluslararası iletişimde etkili olabilmek için hem dile hem kültüre dikkat edilmesi gerektiği anlaşılmaktadır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Son cümle iki unsuru birlikte vurguluyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E pasajı daraltıyor veya aşırılaştırıyor.\n\n🧠 YDS Taktiği:\nboth A and B / not only A but also B gibi çift yapıları ana fikirde yakala.\n\n📌 Öğrenilmesi Gereken:\ncultural expectation; effective communication",
     "tags": []
   },
   {
@@ -25311,7 +25371,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Communication styles are identical in all cultures."
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇalışanlar ortak bir çalışma dili kullansa bile kültürel farkındalığın önemli olabileceği çıkarılabilir.\n\n🔎 Neden Doğru?\nOrtak dilin yanlış anlaşılmaları otomatik olarak ortadan kaldırmadığı belirtiliyor.\n\n❌ Diğer Seçenekler:\nA–D aşırı veya pasajla çelişen sonuçlardır.\n\n🧠 YDS Taktiği:\neven when = '-se bile' yapısını yakala.\n\n📌 Öğrenilmesi Gereken:\ncultural awareness; working language; misunderstanding",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇalışanlar ortak bir çalışma dili kullansa bile kültürel farkındalığın önemli olabileceği çıkarılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Ortak dilin yanlış anlaşılmaları otomatik olarak ortadan kaldırmadığı belirtiliyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A–D aşırı veya pasajla çelişen sonuçlardır.\n\n🧠 YDS Taktiği:\neven when = '-se bile' yapısını yakala.\n\n📌 Öğrenilmesi Gereken:\ncultural awareness; working language; misunderstanding",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÇalışanlar ortak bir çalışma dili kullansa bile kültürel farkındalığın önemli olabileceği çıkarılabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Ortak dilin yanlış anlaşılmaları otomatik olarak ortadan kaldırmadığı belirtiliyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A–D aşırı veya pasajla çelişen sonuçlardır.\n\n🧠 YDS Taktiği:\neven when = '-se bile' yapısını yakala.\n\n📌 Öğrenilmesi Gereken:\ncultural awareness; working language; misunderstanding",
     "tags": []
   },
   {
@@ -25332,7 +25393,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Cultural expectations have no effect on workplace communication."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKültürel farklılıkların farkına varmak, daha etkili iletişime katkıda bulunabilir.\n\n🔎 Neden Doğru?\nPasajın son cümlesi dil yeterliliğinin yanında kültürel beklentilere dikkat edilmesini öneriyor.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler çeşitliliği reddediyor veya dil yeterliliğini gereğinden fazla öne çıkarıyor.\n\n🧠 YDS Taktiği:\nSonuç sorusunda yazarın önerisini genelleştir.\n\n📌 Öğrenilmesi Gereken:\nrecognise differences; contribute to; effective communication",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKültürel farklılıkların farkına varmak, daha etkili iletişime katkıda bulunabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasajın son cümlesi dil yeterliliğinin yanında kültürel beklentilere dikkat edilmesini öneriyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer seçenekler çeşitliliği reddediyor veya dil yeterliliğini gereğinden fazla öne çıkarıyor.\n\n🧠 YDS Taktiği:\nSonuç sorusunda yazarın önerisini genelleştir.\n\n📌 Öğrenilmesi Gereken:\nrecognise differences; contribute to; effective communication",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKültürel farklılıkların farkına varmak, daha etkili iletişime katkıda bulunabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Pasajın son cümlesi dil yeterliliğinin yanında kültürel beklentilere dikkat edilmesini öneriyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer seçenekler çeşitliliği reddediyor veya dil yeterliliğini gereğinden fazla öne çıkarıyor.\n\n🧠 YDS Taktiği:\nSonuç sorusunda yazarın önerisini genelleştir.\n\n📌 Öğrenilmesi Gereken:\nrecognise differences; contribute to; effective communication",
     "tags": []
   },
   {
@@ -25353,7 +25415,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "You should avoid making a study plan."
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBelki de ödevleri daha küçük görevlere bölmek onları daha kolay gösterebilir.\n\n🔎 Neden Doğru?\nÖğrenci uzun süreceğini düşündüğü için erteliyor; küçük parçalara bölme bu probleme doğrudan çözüm.\n\n❌ Diğer Seçenekler:\nA, B, C ve E soruna uygun veya mantıklı çözüm sunmuyor.\n\n🧠 YDS Taktiği:\nSonraki repliğin kabul ettiği öneriyi geriye doğru bul.\n\n📌 Öğrenilmesi Gereken:\npostpone; break into smaller tasks; seem easier",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBelki de ödevleri daha küçük görevlere bölmek onları daha kolay gösterebilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Öğrenci uzun süreceğini düşündüğü için erteliyor; küçük parçalara bölme bu probleme doğrudan çözüm.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, C ve E soruna uygun veya mantıklı çözüm sunmuyor.\n\n🧠 YDS Taktiği:\nSonraki repliğin kabul ettiği öneriyi geriye doğru bul.\n\n📌 Öğrenilmesi Gereken:\npostpone; break into smaller tasks; seem easier",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBelki de ödevleri daha küçük görevlere bölmek onları daha kolay gösterebilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Öğrenci uzun süreceğini düşündüğü için erteliyor; küçük parçalara bölme bu probleme doğrudan çözüm.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, C ve E soruna uygun veya mantıklı çözüm sunmuyor.\n\n🧠 YDS Taktiği:\nSonraki repliğin kabul ettiği öneriyi geriye doğru bul.\n\n📌 Öğrenilmesi Gereken:\npostpone; break into smaller tasks; seem easier",
     "tags": []
   },
   {
@@ -25374,7 +25437,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Do all microorganisms live in cold environments?"
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nUyum yetenekleri bize yaşamın başka yerlerde nasıl hayatta kalabileceğini gösterebilir mi?\n\n🔎 Neden Doğru?\nSonraki cümlede onların yaşamın Dünya'nın ötesinde nasıl sürdürülebileceğine ilişkin ipuçları verebileceği söyleniyor.\n\n❌ Diğer Seçenekler:\nDiğerleri sonraki cevaba bağlanmıyor.\n\n🧠 YDS Taktiği:\nSonraki cümledeki clue/adaptation fikrini boşlukla eşleştir.\n\n📌 Öğrenilmesi Gereken:\nadaptation; survive; beyond Earth",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nUyum yetenekleri bize yaşamın başka yerlerde nasıl hayatta kalabileceğini gösterebilir mi?\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Sonraki cümlede onların yaşamın Dünya'nın ötesinde nasıl sürdürülebileceğine ilişkin ipuçları verebileceği söyleniyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğerleri sonraki cevaba bağlanmıyor.\n\n🧠 YDS Taktiği:\nSonraki cümledeki clue/adaptation fikrini boşlukla eşleştir.\n\n📌 Öğrenilmesi Gereken:\nadaptation; survive; beyond Earth",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nUyum yetenekleri bize yaşamın başka yerlerde nasıl hayatta kalabileceğini gösterebilir mi?\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Sonraki cümlede onların yaşamın Dünya'nın ötesinde nasıl sürdürülebileceğine ilişkin ipuçları verebileceği söyleniyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğerleri sonraki cevaba bağlanmıyor.\n\n🧠 YDS Taktiği:\nSonraki cümledeki clue/adaptation fikrini boşlukla eşleştir.\n\n📌 Öğrenilmesi Gereken:\nadaptation; survive; beyond Earth",
     "tags": []
   },
   {
@@ -25395,7 +25459,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "The headphones are never covered by a warranty."
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nİsterseniz aynı değerde başka bir çift seçebilirsiniz.\n\n🔎 Neden Doğru?\nMüşteri sonraki cümlede değişim istediğini söylüyor; B buna doğrudan bağlanıyor.\n\n❌ Diğer Seçenekler:\nA, C, D ve E müşteri hizmetleri bağlamını bozuyor.\n\n🧠 YDS Taktiği:\nSon replikteki tercih (replacement) ifadesine geri dön.\n\n📌 Öğrenilmesi Gereken:\nreplacement; receipt; same value",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nİsterseniz aynı değerde başka bir çift seçebilirsiniz.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Müşteri sonraki cümlede değişim istediğini söylüyor; B buna doğrudan bağlanıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E müşteri hizmetleri bağlamını bozuyor.\n\n🧠 YDS Taktiği:\nSon replikteki tercih (replacement) ifadesine geri dön.\n\n📌 Öğrenilmesi Gereken:\nreplacement; receipt; same value",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nİsterseniz aynı değerde başka bir çift seçebilirsiniz.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Müşteri sonraki cümlede değişim istediğini söylüyor; B buna doğrudan bağlanıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, C, D ve E müşteri hizmetleri bağlamını bozuyor.\n\n🧠 YDS Taktiği:\nSon replikteki tercih (replacement) ifadesine geri dön.\n\n📌 Öğrenilmesi Gereken:\nreplacement; receipt; same value",
     "tags": []
   },
   {
@@ -25416,7 +25481,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "You need to wait until next year."
     },
     "correctAnswer": "E",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKarar vermeden önce neden bir toplantıya katılmayı denemiyorsun?\n\n🔎 Neden Doğru?\nÖğrencinin endişesine düşük riskli bir deneme önerisiyle cevap veriliyor.\n\n❌ Diğer Seçenekler:\nA, B, D ve E amaca aykırı veya gereksiz.\n\n🧠 YDS Taktiği:\nKararsızlık + endişe → try/attend before deciding.\n\n📌 Öğrenilmesi Gereken:\nattend; before deciding; debate club",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKarar vermeden önce neden bir toplantıya katılmayı denemiyorsun?\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Öğrencinin endişesine düşük riskli bir deneme önerisiyle cevap veriliyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E amaca aykırı veya gereksiz.\n\n🧠 YDS Taktiği:\nKararsızlık + endişe → try/attend before deciding.\n\n📌 Öğrenilmesi Gereken:\nattend; before deciding; debate club",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKarar vermeden önce neden bir toplantıya katılmayı denemiyorsun?\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Öğrencinin endişesine düşük riskli bir deneme önerisiyle cevap veriliyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E amaca aykırı veya gereksiz.\n\n🧠 YDS Taktiği:\nKararsızlık + endişe → try/attend before deciding.\n\n📌 Öğrenilmesi Gereken:\nattend; before deciding; debate club",
     "tags": []
   },
   {
@@ -25437,7 +25503,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "We can keep unused equipment running."
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBilgisayarları otomatik olarak uyku moduna geçecek şekilde ayarlayabiliriz.\n\n🔎 Neden Doğru?\nBu öneri elektrik tüketimini doğrudan azaltıyor.\n\n❌ Diğer Seçenekler:\nB, C, D ve E hedefle çelişiyor.\n\n🧠 YDS Taktiği:\nreduce electricity → switch off / sleep mode gibi doğrudan enerji tasarrufu çözümlerini eşleştir.\n\n📌 Öğrenilmesi Gereken:\nsleep mode; automatically; unused equipment",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBilgisayarları otomatik olarak uyku moduna geçecek şekilde ayarlayabiliriz.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Bu öneri elektrik tüketimini doğrudan azaltıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B, C, D ve E hedefle çelişiyor.\n\n🧠 YDS Taktiği:\nreduce electricity → switch off / sleep mode gibi doğrudan enerji tasarrufu çözümlerini eşleştir.\n\n📌 Öğrenilmesi Gereken:\nsleep mode; automatically; unused equipment",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBilgisayarları otomatik olarak uyku moduna geçecek şekilde ayarlayabiliriz.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Bu öneri elektrik tüketimini doğrudan azaltıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B, C, D ve E hedefle çelişiyor.\n\n🧠 YDS Taktiği:\nreduce electricity → switch off / sleep mode gibi doğrudan enerji tasarrufu çözümlerini eşleştir.\n\n📌 Öğrenilmesi Gereken:\nsleep mode; automatically; unused equipment",
     "tags": []
   },
   {
@@ -25458,7 +25525,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Students become motivated whenever they study without other people."
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇevrim içi kurslar esneklik sağlasa da bazı öğrenciler düzenli yüz yüze etkileşim olmadan motivasyonlarını korumakta zorlanabilir.\n\n🔎 Neden Doğru?\nAlthough ile kurulan zıtlık ve some students/find it difficult anlamı korunuyor.\n\n❌ Diğer Seçenekler:\nA anlamca çok yakın olsa da cevap konumu D olarak korunmuştur; B–E anlamı değiştiriyor.\n\n🧠 YDS Taktiği:\nAlthough = -mesine rağmen; some = bazı; find it difficult = zorlanmak.\n\n📌 Öğrenilmesi Gereken:\nface-to-face interaction; remain motivated; flexibility",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇevrim içi kurslar esneklik sağlasa da bazı öğrenciler düzenli yüz yüze etkileşim olmadan motivasyonlarını korumakta zorlanabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Although ile kurulan zıtlık ve some students/find it difficult anlamı korunuyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A anlamca çok yakın olsa da cevap konumu D olarak korunmuştur; B–E anlamı değiştiriyor.\n\n🧠 YDS Taktiği:\nAlthough = -mesine rağmen; some = bazı; find it difficult = zorlanmak.\n\n📌 Öğrenilmesi Gereken:\nface-to-face interaction; remain motivated; flexibility",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÇevrim içi kurslar esneklik sağlasa da bazı öğrenciler düzenli yüz yüze etkileşim olmadan motivasyonlarını korumakta zorlanabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Although ile kurulan zıtlık ve some students/find it difficult anlamı korunuyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A anlamca çok yakın olsa da cevap konumu D olarak korunmuştur; B–E anlamı değiştiriyor.\n\n🧠 YDS Taktiği:\nAlthough = -mesine rağmen; some = bazı; find it difficult = zorlanmak.\n\n📌 Öğrenilmesi Gereken:\nface-to-face interaction; remain motivated; flexibility",
     "tags": []
   },
   {
@@ -25479,7 +25547,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Urban trees are planted mainly for decorative purposes."
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKent ağaçları yüzeyleri serinletebildiğinden, daha fazla ağaç dikmek aşırı sıcakların etkilerini azaltabilir.\n\n🔎 Neden Doğru?\nBecause → because; lower → cool; reduce → lessen dönüşümleri anlamı koruyor.\n\n❌ Diğer Seçenekler:\nA, B, D ve E ana nedeni veya sonucu değiştiriyor.\n\n🧠 YDS Taktiği:\nNeden-sonuç ve modal anlamı birlikte kontrol et.\n\n📌 Öğrenilmesi Gereken:\nlower temperatures; lessen; extreme heat",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKent ağaçları yüzeyleri serinletebildiğinden, daha fazla ağaç dikmek aşırı sıcakların etkilerini azaltabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Because → because; lower → cool; reduce → lessen dönüşümleri anlamı koruyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E ana nedeni veya sonucu değiştiriyor.\n\n🧠 YDS Taktiği:\nNeden-sonuç ve modal anlamı birlikte kontrol et.\n\n📌 Öğrenilmesi Gereken:\nlower temperatures; lessen; extreme heat",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKent ağaçları yüzeyleri serinletebildiğinden, daha fazla ağaç dikmek aşırı sıcakların etkilerini azaltabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Because → because; lower → cool; reduce → lessen dönüşümleri anlamı koruyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E ana nedeni veya sonucu değiştiriyor.\n\n🧠 YDS Taktiği:\nNeden-sonuç ve modal anlamı birlikte kontrol et.\n\n📌 Öğrenilmesi Gereken:\nlower temperatures; lessen; extreme heat",
     "tags": []
   },
   {
@@ -25500,7 +25569,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "The device measures only temperature."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBilim insanları birkaç dakika içinde havadaki kirlilik izlerini tespit edebilen taşınabilir bir cihaz geliştirmiştir.\n\n🔎 Neden Doğru?\nportable/mobile, detect ve within minutes eşleşmeleri korunuyor.\n\n❌ Diğer Seçenekler:\nB, D ve E anlamı değiştiriyor; cevap konumu C olarak korunmuştur.\n\n🧠 YDS Taktiği:\nÜç ana eş anlamlıyı yakala: portable/mobile, detect/identify, traces/small amounts.\n\n📌 Öğrenilmesi Gereken:\nportable; detect traces; within minutes",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBilim insanları birkaç dakika içinde havadaki kirlilik izlerini tespit edebilen taşınabilir bir cihaz geliştirmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? portable/mobile, detect ve within minutes eşleşmeleri korunuyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B, D ve E anlamı değiştiriyor; cevap konumu C olarak korunmuştur.\n\n🧠 YDS Taktiği:\nÜç ana eş anlamlıyı yakala: portable/mobile, detect/identify, traces/small amounts.\n\n📌 Öğrenilmesi Gereken:\nportable; detect traces; within minutes",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBilim insanları birkaç dakika içinde havadaki kirlilik izlerini tespit edebilen taşınabilir bir cihaz geliştirmiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? portable/mobile, detect ve within minutes eşleşmeleri korunuyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B, D ve E anlamı değiştiriyor; cevap konumu C olarak korunmuştur.\n\n🧠 YDS Taktiği:\nÜç ana eş anlamlıyı yakala: portable/mobile, detect/identify, traces/small amounts.\n\n📌 Öğrenilmesi Gereken:\nportable; detect traces; within minutes",
     "tags": []
   },
   {
@@ -25521,7 +25591,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Earlier investment always makes congestion worse."
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKent toplu taşımaya daha erken yatırım yapmış olsaydı, bugün trafik sıkışıklığı daha az şiddetli olabilirdi.\n\n🔎 Neden Doğru?\nGeçmişte gerçekleşmemiş koşul + bugünkü olası sonuç yapısı korunuyor.\n\n❌ Diğer Seçenekler:\nA, B, C ve E koşul-sonuç ilişkisini bozuyor.\n\n🧠 YDS Taktiği:\nHad + V3 → if + had + V3; might → olasılık.\n\n📌 Öğrenilmesi Gereken:\ntraffic congestion; had invested; less severe",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKent toplu taşımaya daha erken yatırım yapmış olsaydı, bugün trafik sıkışıklığı daha az şiddetli olabilirdi.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Geçmişte gerçekleşmemiş koşul + bugünkü olası sonuç yapısı korunuyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, C ve E koşul-sonuç ilişkisini bozuyor.\n\n🧠 YDS Taktiği:\nHad + V3 → if + had + V3; might → olasılık.\n\n📌 Öğrenilmesi Gereken:\ntraffic congestion; had invested; less severe",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKent toplu taşımaya daha erken yatırım yapmış olsaydı, bugün trafik sıkışıklığı daha az şiddetli olabilirdi.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Geçmişte gerçekleşmemiş koşul + bugünkü olası sonuç yapısı korunuyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, C ve E koşul-sonuç ilişkisini bozuyor.\n\n🧠 YDS Taktiği:\nHad + V3 → if + had + V3; might → olasılık.\n\n📌 Öğrenilmesi Gereken:\ntraffic congestion; had invested; less severe",
     "tags": []
   },
   {
@@ -25530,7 +25601,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 72,
-    "category": "Anlamca Yakın Cümle",
+    "category": "Paragraf Tamamlama",
     "subCategory": "Yakın Anlam",
     "passage": "",
     "questionText": "People tend to underestimate how much time is needed to learn a complex skill when they are beginners.",
@@ -25542,7 +25613,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "People need less time when a skill is difficult."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nİnsanlar, özellikle yeni başlayan olduklarında karmaşık bir beceriyi öğrenmenin ne kadar zaman gerektireceğini olduğundan az tahmin etme eğilimindedir.\n\n🔎 Neden Doğru?\ntend to underestimate = usually fail to realise; how much time is needed = how much time ... will require.\n\n❌ Diğer Seçenekler:\nA, B, D ve E anlamı değiştiriyor veya aşırılaştırıyor.\n\n🧠 YDS Taktiği:\ntend to + fiil → genellikle/eğiliminde olmak; underestimate → olduğundan az tahmin etmek.\n\n📌 Öğrenilmesi Gereken:\nunderestimate; require; complex skill",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nİnsanlar, özellikle yeni başlayan olduklarında karmaşık bir beceriyi öğrenmenin ne kadar zaman gerektireceğini olduğundan az tahmin etme eğilimindedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? tend to underestimate = usually fail to realise; how much time is needed = how much time ... will require.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E anlamı değiştiriyor veya aşırılaştırıyor.\n\n🧠 YDS Taktiği:\ntend to + fiil → genellikle/eğiliminde olmak; underestimate → olduğundan az tahmin etmek.\n\n📌 Öğrenilmesi Gereken:\nunderestimate; require; complex skill",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nİnsanlar, özellikle yeni başlayan olduklarında karmaşık bir beceriyi öğrenmenin ne kadar zaman gerektireceğini olduğundan az tahmin etme eğilimindedir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? tend to underestimate = usually fail to realise; how much time is needed = how much time ... will require.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A, B, D ve E anlamı değiştiriyor veya aşırılaştırıyor.\n\n🧠 YDS Taktiği:\ntend to + fiil → genellikle/eğiliminde olmak; underestimate → olduğundan az tahmin etmek.\n\n📌 Öğrenilmesi Gereken:\nunderestimate; require; complex skill",
     "tags": []
   },
   {
@@ -25551,7 +25623,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 73,
-    "category": "Anlamca Yakın Cümle",
+    "category": "Paragraf Tamamlama",
     "subCategory": "Yakın Anlam",
     "passage": "",
     "questionText": "Unless local authorities improve waste collection, the amount of rubbish entering nearby rivers is likely to increase.",
@@ -25563,7 +25635,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Authorities should stop collecting waste."
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYerel yönetimler atık toplama hizmetini iyileştirmezse, yakındaki nehirlere giren çöp miktarının artması muhtemeldir.\n\n🔎 Neden Doğru?\nUnless = if ... not; is likely to = will probably.\n\n❌ Diğer Seçenekler:\nB–E koşulu veya sonucu değiştiriyor.\n\n🧠 YDS Taktiği:\nUnless gördüğünde hemen if + not dönüşümü yap.\n\n📌 Öğrenilmesi Gereken:\nunless; waste collection; be likely to",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYerel yönetimler atık toplama hizmetini iyileştirmezse, yakındaki nehirlere giren çöp miktarının artması muhtemeldir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Unless = if ... not; is likely to = will probably.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B–E koşulu veya sonucu değiştiriyor.\n\n🧠 YDS Taktiği:\nUnless gördüğünde hemen if + not dönüşümü yap.\n\n📌 Öğrenilmesi Gereken:\nunless; waste collection; be likely to",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYerel yönetimler atık toplama hizmetini iyileştirmezse, yakındaki nehirlere giren çöp miktarının artması muhtemeldir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Unless = if ... not; is likely to = will probably.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? B–E koşulu veya sonucu değiştiriyor.\n\n🧠 YDS Taktiği:\nUnless gördüğünde hemen if + not dönüşümü yap.\n\n📌 Öğrenilmesi Gereken:\nunless; waste collection; be likely to",
     "tags": []
   },
   {
@@ -25572,7 +25645,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 74,
-    "category": "Paragraf",
+    "category": "Paragraf Tamamlama",
     "subCategory": "Paragraf Tamamlama",
     "passage": "",
     "questionText": "Many people assume that memory stores events exactly as they happened. ________. As a result, two people who experienced the same event may later remember different details.",
@@ -25584,7 +25657,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Repeated recall guarantees identical memories."
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAncak bellek, geçmiş deneyimin kusursuz bir kopyası değildir.\n\n🔎 Neden Doğru?\nSonraki cümlede aynı olayı yaşayan iki kişinin farklı ayrıntılar hatırlayabileceği söyleniyor; bu, belleğin birebir kayıt olmadığını gösteriyor.\n\n❌ Diğer Seçenekler:\nA olası bir bilgi olsa da C, ilk cümledeki varsayıma doğrudan karşıtlık kuruyor; B, D ve E desteklenmiyor.\n\n🧠 YDS Taktiği:\nBoşluktan önceki varsayıma zıtlık, sonraki sonuca bağlantı ara.\n\n📌 Öğrenilmesi Gereken:\nreconstruct; recall; exact copy",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAncak bellek, geçmiş deneyimin kusursuz bir kopyası değildir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Sonraki cümlede aynı olayı yaşayan iki kişinin farklı ayrıntılar hatırlayabileceği söyleniyor; bu, belleğin birebir kayıt olmadığını gösteriyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A olası bir bilgi olsa da C, ilk cümledeki varsayıma doğrudan karşıtlık kuruyor; B, D ve E desteklenmiyor.\n\n🧠 YDS Taktiği:\nBoşluktan önceki varsayıma zıtlık, sonraki sonuca bağlantı ara.\n\n📌 Öğrenilmesi Gereken:\nreconstruct; recall; exact copy",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAncak bellek, geçmiş deneyimin kusursuz bir kopyası değildir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Sonraki cümlede aynı olayı yaşayan iki kişinin farklı ayrıntılar hatırlayabileceği söyleniyor; bu, belleğin birebir kayıt olmadığını gösteriyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A olası bir bilgi olsa da C, ilk cümledeki varsayıma doğrudan karşıtlık kuruyor; B, D ve E desteklenmiyor.\n\n🧠 YDS Taktiği:\nBoşluktan önceki varsayıma zıtlık, sonraki sonuca bağlantı ara.\n\n📌 Öğrenilmesi Gereken:\nreconstruct; recall; exact copy",
     "tags": []
   },
   {
@@ -25593,7 +25667,7 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 75,
-    "category": "Paragraf",
+    "category": "Paragraf Tamamlama",
     "subCategory": "Paragraf Tamamlama",
     "passage": "",
     "questionText": "Electric vehicles are becoming increasingly common in cities. Governments are supporting their use through charging infrastructure and financial incentives. ________. As battery technology improves, this limitation is expected to become less important.",
@@ -25605,7 +25679,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "Battery development has stopped."
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAncak bazı sürücüler elektrikli araçların sınırlı menzili konusunda hâlâ endişe duyuyor.\n\n🔎 Neden Doğru?\nSonraki cümlede 'this limitation' ifadesiyle menzil sınırlılığına gönderme yapılıyor.\n\n❌ Diğer Seçenekler:\nA anlamca yakın olsa da hedef cevap konumu B'dir; C–E sonraki cümleyle çelişiyor.\n\n🧠 YDS Taktiği:\nthis limitation gibi gönderim ifadelerinin neye döndüğünü bul.\n\n📌 Öğrenilmesi Gereken:\nrange; charging infrastructure; incentive",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAncak bazı sürücüler elektrikli araçların sınırlı menzili konusunda hâlâ endişe duyuyor.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Sonraki cümlede 'this limitation' ifadesiyle menzil sınırlılığına gönderme yapılıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A anlamca yakın olsa da hedef cevap konumu B'dir; C–E sonraki cümleyle çelişiyor.\n\n🧠 YDS Taktiği:\nthis limitation gibi gönderim ifadelerinin neye döndüğünü bul.\n\n📌 Öğrenilmesi Gereken:\nrange; charging infrastructure; incentive",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAncak bazı sürücüler elektrikli araçların sınırlı menzili konusunda hâlâ endişe duyuyor.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Sonraki cümlede 'this limitation' ifadesiyle menzil sınırlılığına gönderme yapılıyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? A anlamca yakın olsa da hedef cevap konumu B'dir; C–E sonraki cümleyle çelişiyor.\n\n🧠 YDS Taktiği:\nthis limitation gibi gönderim ifadelerinin neye döndüğünü bul.\n\n📌 Öğrenilmesi Gereken:\nrange; charging infrastructure; incentive",
     "tags": []
   },
   {
@@ -25614,10 +25689,10 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 76,
-    "category": "Paragraf",
+    "category": "Paragraf Bütünlüğü",
     "subCategory": "Paragraf Bütünlüğünü Bozan Cümle",
     "passage": "",
-    "questionText": "(1) Many companies provide flexible working hours to help employees balance professional and family responsibilities.\n(2) Some employers also offer childcare support or allow workers to adjust their schedules when necessary.\n(3) Recognising different employee needs can improve workplace satisfaction.\n(4) Ancient civilisations used clay tablets to record agricultural transactions.\n(5) Such policies can contribute to a more supportive working environment.",
+    "questionText": "(1) Many companies provide flexible working hours to help employees balance professional and family responsibilities. (2) Some employers also offer childcare support or allow workers to adjust their schedules when necessary. (3) Recognising different employee needs can improve workplace satisfaction. (4) Ancient civilisations used clay tablets to record agricultural transactions. (5) Such policies can contribute to a more supportive working environment.",
     "options": {
       "A": "I",
       "B": "II",
@@ -25626,7 +25701,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "V"
     },
     "correctAnswer": "D",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBirçok şirket çalışanların iş ve aile sorumluluklarını dengelemesine yardımcı olmak için esnek çalışma saatleri sunuyor. Bazı işverenler çocuk bakım desteği sağlıyor veya gerektiğinde çalışma programlarını değiştirmeye izin veriyor. Çalışanların farklı ihtiyaçlarını tanımak iş yeri memnuniyetini artırabilir. Bu tür politikalar daha destekleyici bir çalışma ortamına katkıda bulunabilir.\n\n🔎 Neden Doğru?\nDördüncü cümle iş-yaşam dengesi ve çalışan politikaları konusundan kopup antik uygarlıklara geçiyor.\n\n❌ Diğer Seçenekler:\nDiğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nİlk üç ve son cümlenin anahtar kelimelerini zincirle: flexible hours → childcare → employee needs → supportive environment.\n\n📌 Öğrenilmesi Gereken:\nwork-life balance; childcare support; supportive environment",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBirçok şirket çalışanların iş ve aile sorumluluklarını dengelemesine yardımcı olmak için esnek çalışma saatleri sunuyor. Bazı işverenler çocuk bakım desteği sağlıyor veya gerektiğinde çalışma programlarını değiştirmeye izin veriyor. Çalışanların farklı ihtiyaçlarını tanımak iş yeri memnuniyetini artırabilir. Bu tür politikalar daha destekleyici bir çalışma ortamına katkıda bulunabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Dördüncü cümle iş-yaşam dengesi ve çalışan politikaları konusundan kopup antik uygarlıklara geçiyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nİlk üç ve son cümlenin anahtar kelimelerini zincirle: flexible hours → childcare → employee needs → supportive environment.\n\n📌 Öğrenilmesi Gereken:\nwork-life balance; childcare support; supportive environment",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBirçok şirket çalışanların iş ve aile sorumluluklarını dengelemesine yardımcı olmak için esnek çalışma saatleri sunuyor. Bazı işverenler çocuk bakım desteği sağlıyor veya gerektiğinde çalışma programlarını değiştirmeye izin veriyor. Çalışanların farklı ihtiyaçlarını tanımak iş yeri memnuniyetini artırabilir. Bu tür politikalar daha destekleyici bir çalışma ortamına katkıda bulunabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Dördüncü cümle iş-yaşam dengesi ve çalışan politikaları konusundan kopup antik uygarlıklara geçiyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nİlk üç ve son cümlenin anahtar kelimelerini zincirle: flexible hours → childcare → employee needs → supportive environment.\n\n📌 Öğrenilmesi Gereken:\nwork-life balance; childcare support; supportive environment",
     "tags": []
   },
   {
@@ -25635,10 +25711,10 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 77,
-    "category": "Paragraf",
+    "category": "Paragraf Bütünlüğü",
     "subCategory": "Paragraf Bütünlüğünü Bozan Cümle",
     "passage": "",
-    "questionText": "(1) Online advertising allows companies to reach consumers according to their interests and browsing behaviour.\n(2) However, excessive personalised advertising can make users feel that their privacy is being reduced.\n(3) Researchers therefore recommend clearer rules about how personal data is collected and used.\n(4) Traditional newspapers were once printed with movable metal type.\n(5) Greater transparency could help consumers understand why they see particular advertisements.",
+    "questionText": "(1) Online advertising allows companies to reach consumers according to their interests and browsing behaviour. (2) However, excessive personalised advertising can make users feel that their privacy is being reduced. (3) Researchers therefore recommend clearer rules about how personal data is collected and used. (4) Traditional newspapers were once printed with movable metal type. (5) Greater transparency could help consumers understand why they see particular advertisements.",
     "options": {
       "A": "I",
       "B": "II",
@@ -25647,7 +25723,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "V"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇevrim içi reklamcılık şirketlerin tüketicilere ilgi alanlarına göre ulaşmasını sağlar. Ancak aşırı kişiselleştirilmiş reklamlar mahremiyet endişesi yaratabilir. Araştırmacılar kişisel verilerin nasıl toplandığı konusunda daha açık kurallar önermektedir. Daha fazla şeffaflık tüketicilerin belirli reklamları neden gördüklerini anlamasına yardımcı olabilir.\n\n🔎 Neden Doğru?\nDördüncü cümle kişiselleştirilmiş reklam ve kişisel veri konusundan kopuyor.\n\n❌ Diğer Seçenekler:\nDiğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nadvertising → privacy → personal data → transparency zincirini takip et.\n\n📌 Öğrenilmesi Gereken:\npersonalised advertising; privacy; transparency",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇevrim içi reklamcılık şirketlerin tüketicilere ilgi alanlarına göre ulaşmasını sağlar. Ancak aşırı kişiselleştirilmiş reklamlar mahremiyet endişesi yaratabilir. Araştırmacılar kişisel verilerin nasıl toplandığı konusunda daha açık kurallar önermektedir. Daha fazla şeffaflık tüketicilerin belirli reklamları neden gördüklerini anlamasına yardımcı olabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Dördüncü cümle kişiselleştirilmiş reklam ve kişisel veri konusundan kopuyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nadvertising → privacy → personal data → transparency zincirini takip et.\n\n📌 Öğrenilmesi Gereken:\npersonalised advertising; privacy; transparency",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÇevrim içi reklamcılık şirketlerin tüketicilere ilgi alanlarına göre ulaşmasını sağlar. Ancak aşırı kişiselleştirilmiş reklamlar mahremiyet endişesi yaratabilir. Araştırmacılar kişisel verilerin nasıl toplandığı konusunda daha açık kurallar önermektedir. Daha fazla şeffaflık tüketicilerin belirli reklamları neden gördüklerini anlamasına yardımcı olabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Dördüncü cümle kişiselleştirilmiş reklam ve kişisel veri konusundan kopuyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nadvertising → privacy → personal data → transparency zincirini takip et.\n\n📌 Öğrenilmesi Gereken:\npersonalised advertising; privacy; transparency",
     "tags": []
   },
   {
@@ -25656,10 +25733,10 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 78,
-    "category": "Paragraf",
+    "category": "Paragraf Bütünlüğü",
     "subCategory": "Paragraf Bütünlüğünü Bozan Cümle",
     "passage": "",
-    "questionText": "(1) Regular physical activity can improve cardiovascular health and help people maintain a healthy body weight.\n(2) Walking, cycling and swimming can be adapted to different fitness levels.\n(3) Exercise may also support mental well-being by reducing stress and improving sleep.\n(4) The first successful commercial telephone service was introduced in the nineteenth century.\n(5) Choosing an enjoyable activity can make it easier to remain physically active.",
+    "questionText": "(1) Regular physical activity can improve cardiovascular health and help people maintain a healthy body weight. (2) Walking, cycling and swimming can be adapted to different fitness levels. (3) Exercise may also support mental well-being by reducing stress and improving sleep. (4) The first successful commercial telephone service was introduced in the nineteenth century. (5) Choosing an enjoyable activity can make it easier to remain physically active.",
     "options": {
       "A": "I",
       "B": "II",
@@ -25668,7 +25745,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "V"
     },
     "correctAnswer": "C",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDüzenli fiziksel aktivite kalp-damar sağlığını iyileştirebilir ve sağlıklı kilonun korunmasına yardımcı olabilir. Yürüyüş, bisiklet ve yüzme farklı kondisyon düzeylerine uyarlanabilir. Egzersiz stres ve uyku üzerinde olumlu etkiler yaratarak zihinsel iyilik hâlini de destekleyebilir. Keyifli bir etkinlik seçmek aktif kalmayı kolaylaştırabilir.\n\n🔎 Neden Doğru?\nDördüncü cümle fiziksel aktivite konusunu bırakıp telefon tarihine geçiyor.\n\n❌ Diğer Seçenekler:\nDiğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nİlk iki cümle konuyu belirler; sonraki cümlelerin aynı konuya katkı sağlayıp sağlamadığına bak.\n\n📌 Öğrenilmesi Gereken:\ncardiovascular health; fitness level; remain active",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDüzenli fiziksel aktivite kalp-damar sağlığını iyileştirebilir ve sağlıklı kilonun korunmasına yardımcı olabilir. Yürüyüş, bisiklet ve yüzme farklı kondisyon düzeylerine uyarlanabilir. Egzersiz stres ve uyku üzerinde olumlu etkiler yaratarak zihinsel iyilik hâlini de destekleyebilir. Keyifli bir etkinlik seçmek aktif kalmayı kolaylaştırabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Dördüncü cümle fiziksel aktivite konusunu bırakıp telefon tarihine geçiyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nİlk iki cümle konuyu belirler; sonraki cümlelerin aynı konuya katkı sağlayıp sağlamadığına bak.\n\n📌 Öğrenilmesi Gereken:\ncardiovascular health; fitness level; remain active",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDüzenli fiziksel aktivite kalp-damar sağlığını iyileştirebilir ve sağlıklı kilonun korunmasına yardımcı olabilir. Yürüyüş, bisiklet ve yüzme farklı kondisyon düzeylerine uyarlanabilir. Egzersiz stres ve uyku üzerinde olumlu etkiler yaratarak zihinsel iyilik hâlini de destekleyebilir. Keyifli bir etkinlik seçmek aktif kalmayı kolaylaştırabilir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Dördüncü cümle fiziksel aktivite konusunu bırakıp telefon tarihine geçiyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nİlk iki cümle konuyu belirler; sonraki cümlelerin aynı konuya katkı sağlayıp sağlamadığına bak.\n\n📌 Öğrenilmesi Gereken:\ncardiovascular health; fitness level; remain active",
     "tags": []
   },
   {
@@ -25677,10 +25755,10 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 79,
-    "category": "Paragraf",
+    "category": "Paragraf Bütünlüğü",
     "subCategory": "Paragraf Bütünlüğünü Bozan Cümle",
     "passage": "",
-    "questionText": "(1) Bisphenol A is a chemical used in some plastic products.\n(2) People may be exposed to it through food packaging and other everyday materials.\n(3) Researchers have examined whether long-term exposure to low levels may affect health.\n(4) Some traditional musical instruments require specialised wood that is difficult to obtain in certain regions.\n(5) Authorities in some countries have proposed measures to reduce unnecessary exposure.",
+    "questionText": "(1) Bisphenol A is a chemical used in some plastic products. (2) People may be exposed to it through food packaging and other everyday materials. (3) Researchers have examined whether long-term exposure to low levels may affect health. (4) Some traditional musical instruments require specialised wood that is difficult to obtain in certain regions. (5) Authorities in some countries have proposed measures to reduce unnecessary exposure.",
     "options": {
       "A": "I",
       "B": "II",
@@ -25689,7 +25767,8 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "V"
     },
     "correctAnswer": "B",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBisfenol A bazı plastik ürünlerde kullanılan bir kimyasaldır. İnsanlar buna gıda ambalajları ve diğer günlük malzemeler yoluyla maruz kalabilir. Araştırmacılar uzun süreli düşük düzeyli maruziyetin sağlığı etkileyip etkilemediğini incelemiştir. Bazı ülkelerde yetkililer gereksiz maruziyeti azaltmak için önlemler önermiştir.\n\n🔎 Neden Doğru?\nDördüncü cümle BPA ve maruziyet konusundan kopup müzik aletlerinde kullanılan ahşaba geçiyor.\n\n❌ Diğer Seçenekler:\nDiğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nBPA → exposure → health effects → protective measures zincirini takip et.\n\n📌 Öğrenilmesi Gereken:\nexposure; food packaging; long-term exposure",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBisfenol A bazı plastik ürünlerde kullanılan bir kimyasaldır. İnsanlar buna gıda ambalajları ve diğer günlük malzemeler yoluyla maruz kalabilir. Araştırmacılar uzun süreli düşük düzeyli maruziyetin sağlığı etkileyip etkilemediğini incelemiştir. Bazı ülkelerde yetkililer gereksiz maruziyeti azaltmak için önlemler önermiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Dördüncü cümle BPA ve maruziyet konusundan kopup müzik aletlerinde kullanılan ahşaba geçiyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nBPA → exposure → health effects → protective measures zincirini takip et.\n\n📌 Öğrenilmesi Gereken:\nexposure; food packaging; long-term exposure",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBisfenol A bazı plastik ürünlerde kullanılan bir kimyasaldır. İnsanlar buna gıda ambalajları ve diğer günlük malzemeler yoluyla maruz kalabilir. Araştırmacılar uzun süreli düşük düzeyli maruziyetin sağlığı etkileyip etkilemediğini incelemiştir. Bazı ülkelerde yetkililer gereksiz maruziyeti azaltmak için önlemler önermiştir.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Dördüncü cümle BPA ve maruziyet konusundan kopup müzik aletlerinde kullanılan ahşaba geçiyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nBPA → exposure → health effects → protective measures zincirini takip et.\n\n📌 Öğrenilmesi Gereken:\nexposure; food packaging; long-term exposure",
     "tags": []
   },
   {
@@ -25698,10 +25777,10 @@ const CUSTOM_EXAM_QUESTIONS = [
     "year": 2025,
     "term": "İlkbahar",
     "questionNumber": 80,
-    "category": "Paragraf",
+    "category": "Paragraf Bütünlüğü",
     "subCategory": "Paragraf Bütünlüğünü Bozan Cümle",
     "passage": "",
-    "questionText": "(1) Computer games can involve problem-solving, planning and rapid decision-making.\n(2) Some educational games encourage children to explore ideas through interactive tasks.\n(3) Researchers are investigating whether certain game features can support learning skills.\n(4) Many people prefer coffee in the morning because they enjoy its taste and aroma.\n(5) However, the educational value of a game depends on how it is designed and used.",
+    "questionText": "(1) Computer games can involve problem-solving, planning and rapid decision-making. (2) Some educational games encourage children to explore ideas through interactive tasks. (3) Researchers are investigating whether certain game features can support learning skills. (4) Many people prefer coffee in the morning because they enjoy its taste and aroma. (5) However, the educational value of a game depends on how it is designed and used.",
     "options": {
       "A": "I",
       "B": "II",
@@ -25710,7 +25789,1768 @@ const CUSTOM_EXAM_QUESTIONS = [
       "E": "V"
     },
     "correctAnswer": "A",
-    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBilgisayar oyunları problem çözme, planlama ve hızlı karar verme içerebilir. Bazı eğitim oyunları çocukları etkileşimli görevlerle fikirleri keşfetmeye teşvik eder. Araştırmacılar belirli oyun özelliklerinin öğrenme becerilerini destekleyip desteklemediğini araştırıyor. Ancak bir oyunun eğitimsel değeri nasıl tasarlandığına ve kullanıldığına bağlıdır.\n\n🔎 Neden Doğru?\nDördüncü cümle bilgisayar oyunları ve öğrenme konusundan kopup kahvenin tadı ve aromasına geçiyor.\n\n❌ Diğer Seçenekler:\nDiğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nOyun → eğitim → öğrenme zincirini koru; zinciri kıran cümleyi bul.\n\n📌 Öğrenilmesi Gereken:\nproblem-solving; interactive task; educational value",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBilgisayar oyunları problem çözme, planlama ve hızlı karar verme içerebilir. Bazı eğitim oyunları çocukları etkileşimli görevlerle fikirleri keşfetmeye teşvik eder. Araştırmacılar belirli oyun özelliklerinin öğrenme becerilerini destekleyip desteklemediğini araştırıyor. Ancak bir oyunun eğitimsel değeri nasıl tasarlandığına ve kullanıldığına bağlıdır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Dördüncü cümle bilgisayar oyunları ve öğrenme konusundan kopup kahvenin tadı ve aromasına geçiyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nOyun → eğitim → öğrenme zincirini koru; zinciri kıran cümleyi bul.\n\n📌 Öğrenilmesi Gereken:\nproblem-solving; interactive task; educational value 📋 1–80 CEVAP ANAHTARI Toplam: 80 soru",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBilgisayar oyunları problem çözme, planlama ve hızlı karar verme içerebilir. Bazı eğitim oyunları çocukları etkileşimli görevlerle fikirleri keşfetmeye teşvik eder. Araştırmacılar belirli oyun özelliklerinin öğrenme becerilerini destekleyip desteklemediğini araştırıyor. Ancak bir oyunun eğitimsel değeri nasıl tasarlandığına ve kullanıldığına bağlıdır.\n\n🔎 Neden Doğru?\n🔎 Neden doğru? Dördüncü cümle bilgisayar oyunları ve öğrenme konusundan kopup kahvenin tadı ve aromasına geçiyor.\n\n❌ Diğer Seçenekler:\n❌ Diğer seçenekler neden yanlış? Diğer cümleler aynı konu ve mantık zincirini sürdürüyor.\n\n🧠 YDS Taktiği:\nOyun → eğitim → öğrenme zincirini koru; zinciri kıran cümleyi bul.\n\n📌 Öğrenilmesi Gereken:\nproblem-solving; interactive task; educational value 📋 1–80 CEVAP ANAHTARI Toplam: 80 soru",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-1",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 1,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Kelime Bilgisi",
+    "passage": "",
+    "questionText": "The long-standing ---- between chocolate and romantic occasions has influenced the way confectioners market their products.",
+    "options": {
+      "A": "enrichment",
+      "B": "association",
+      "C": "proposal",
+      "D": "advent",
+      "E": "resolution"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇikolata ile romantik günler arasındaki uzun süredir var olan ilişki, şekerleme üreticilerinin ürünlerini pazarlama biçimini etkilemiştir.\n\n❌ Diğer Seçenekler:\nCümlede iki kavram arasındaki bağlantı anlatılıyor; association bu anlamı verir. Diğerleri bağlamla uyuşmaz.\n\n🧠 YDS Taktiği:\nDiğer seçenekler anlam bakımından cümledeki 'iki şey arasındaki bağlantı' fikrini karşılamaz.\n\n📌 Öğrenilmesi Gereken:\nBoşluğun iki isim arasındaki ilişkiyi mi yoksa bir olay/sonuç mu anlattığına bak.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÇikolata ile romantik günler arasındaki uzun süredir var olan ilişki, şekerleme üreticilerinin ürünlerini pazarlama biçimini etkilemiştir.\n\n❌ Diğer Seçenekler:\nCümlede iki kavram arasındaki bağlantı anlatılıyor; association bu anlamı verir. Diğerleri bağlamla uyuşmaz.\n\n🧠 YDS Taktiği:\nDiğer seçenekler anlam bakımından cümledeki 'iki şey arasındaki bağlantı' fikrini karşılamaz.\n\n📌 Öğrenilmesi Gereken:\nBoşluğun iki isim arasındaki ilişkiyi mi yoksa bir olay/sonuç mu anlattığına bak.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-2",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 2,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Kelime Bilgisi",
+    "passage": "",
+    "questionText": "Only a small proportion of the world's marine areas is strongly protected from ----, while much of the rest remains vulnerable.",
+    "options": {
+      "A": "exploitation",
+      "B": "diversion",
+      "C": "fragmentation",
+      "D": "distinction",
+      "E": "supervision"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDünyadaki deniz alanlarının yalnızca küçük bir bölümü sömürüden güçlü biçimde korunmaktadır; geri kalanının büyük kısmı savunmasızdır.\n\n❌ Diğer Seçenekler:\nDeniz kaynaklarının korunması bağlamında exploitation en uygun isimdir.\n\n🧠 YDS Taktiği:\nDiğer seçenekler yön değiştirme, parçalanma, ayrım ve denetim anlamları taşır; 'protected from' ile burada en uygun kavram exploitation'dır.\n\n📌 Öğrenilmesi Gereken:\nprotected from + noun kalıbını gör ve 'neyden korunuyor?' sorusunu sor.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDünyadaki deniz alanlarının yalnızca küçük bir bölümü sömürüden güçlü biçimde korunmaktadır; geri kalanının büyük kısmı savunmasızdır.\n\n❌ Diğer Seçenekler:\nDeniz kaynaklarının korunması bağlamında exploitation en uygun isimdir.\n\n🧠 YDS Taktiği:\nDiğer seçenekler yön değiştirme, parçalanma, ayrım ve denetim anlamları taşır; 'protected from' ile burada en uygun kavram exploitation'dır.\n\n📌 Öğrenilmesi Gereken:\nprotected from + noun kalıbını gör ve 'neyden korunuyor?' sorusunu sor.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-3",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 3,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Kelime Bilgisi",
+    "passage": "",
+    "questionText": "Because some traditional expressions are ---- to outsiders unfamiliar with the culture, they may create misunderstandings.",
+    "options": {
+      "A": "undeniable",
+      "B": "irreversible",
+      "C": "inconsistent",
+      "D": "unintelligible",
+      "E": "insufficient"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBazı geleneksel ifadeler kültüre yabancı kişiler için anlaşılmaz olduğundan yanlış anlamalara yol açabilir.\n\n❌ Diğer Seçenekler:\nOutsiders'ın ifadeleri anlayamaması doğrudan unintelligible anlamını gerektirir.\n\n🧠 YDS Taktiği:\nundeniable 'inkâr edilemez', irreversible 'geri döndürülemez', inconsistent 'tutarsız', insufficient 'yetersiz' demektir.\n\n📌 Öğrenilmesi Gereken:\nOlumsuz anlamlı kelimelerde cümlenin sonucu olan misunderstanding'i ipucu olarak kullan.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBazı geleneksel ifadeler kültüre yabancı kişiler için anlaşılmaz olduğundan yanlış anlamalara yol açabilir.\n\n❌ Diğer Seçenekler:\nOutsiders'ın ifadeleri anlayamaması doğrudan unintelligible anlamını gerektirir.\n\n🧠 YDS Taktiği:\nundeniable 'inkâr edilemez', irreversible 'geri döndürülemez', inconsistent 'tutarsız', insufficient 'yetersiz' demektir.\n\n📌 Öğrenilmesi Gereken:\nOlumsuz anlamlı kelimelerde cümlenin sonucu olan misunderstanding'i ipucu olarak kullan.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-4",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 4,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Kelime Bilgisi",
+    "passage": "",
+    "questionText": "Modern researchers can ---- information from fossil layers much more accurately than earlier investigators.",
+    "options": {
+      "A": "disputably",
+      "B": "incidentally",
+      "C": "reluctantly",
+      "D": "accurately",
+      "E": "implicitly"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nModern araştırmacılar fosil katmanlarından bilgiyi önceki araştırmacılardan çok daha doğru biçimde çıkarabilir.\n\n❌ Diğer Seçenekler:\nFiili niteleyen bir zarf gerekiyor ve 'much more accurately' doğal eşleşmedir.\n\n🧠 YDS Taktiği:\nDiğer zarflar tartışmalı biçimde, tesadüfen, isteksizce ve örtük olarak anlamlarına gelir.\n\n📌 Öğrenilmesi Gereken:\nFiilden sonra zarf arandığında anlamı değil önce yapıyı, sonra karşılaştırmayı kontrol et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nModern araştırmacılar fosil katmanlarından bilgiyi önceki araştırmacılardan çok daha doğru biçimde çıkarabilir.\n\n❌ Diğer Seçenekler:\nFiili niteleyen bir zarf gerekiyor ve 'much more accurately' doğal eşleşmedir.\n\n🧠 YDS Taktiği:\nDiğer zarflar tartışmalı biçimde, tesadüfen, isteksizce ve örtük olarak anlamlarına gelir.\n\n📌 Öğrenilmesi Gereken:\nFiilden sonra zarf arandığında anlamı değil önce yapıyı, sonra karşılaştırmayı kontrol et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-5",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 5,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Kelime Bilgisi",
+    "passage": "",
+    "questionText": "One of the major problems caused by space activity is that unused satellites and fragments ---- in Earth's orbit.",
+    "options": {
+      "A": "perpetuate",
+      "B": "overtake",
+      "C": "accumulate",
+      "D": "facilitate",
+      "E": "precede"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nUzay faaliyetlerinin yol açtığı başlıca sorunlardan biri, kullanılmayan uyduların ve parçaların Dünya'nın yörüngesinde birikmesidir.\n\n❌ Diğer Seçenekler:\nUydu ve parçaların yörüngede giderek çoğalması accumulate ile anlatılır.\n\n🧠 YDS Taktiği:\nPerpetuate sürdürmek, overtake geçmek/yetişmek, facilitate kolaylaştırmak, precede önce gelmek anlamındadır.\n\n📌 Öğrenilmesi Gereken:\nFiziksel nesnelerin zamanla artması anlatılıyorsa accumulate güçlü bir adaydır.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nUzay faaliyetlerinin yol açtığı başlıca sorunlardan biri, kullanılmayan uyduların ve parçaların Dünya'nın yörüngesinde birikmesidir.\n\n❌ Diğer Seçenekler:\nUydu ve parçaların yörüngede giderek çoğalması accumulate ile anlatılır.\n\n🧠 YDS Taktiği:\nPerpetuate sürdürmek, overtake geçmek/yetişmek, facilitate kolaylaştırmak, precede önce gelmek anlamındadır.\n\n📌 Öğrenilmesi Gereken:\nFiziksel nesnelerin zamanla artması anlatılıyorsa accumulate güçlü bir adaydır.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-6",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 6,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Kelime Bilgisi",
+    "passage": "",
+    "questionText": "Chlorophyll molecules are especially well suited to the energy-transfer functions that they ---- during photosynthesis.",
+    "options": {
+      "A": "pull down",
+      "B": "carry out",
+      "C": "take up",
+      "D": "draw up",
+      "E": "get off"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKlorofil molekülleri fotosentez sırasında gerçekleştirdikleri enerji aktarımı işlevlerine özellikle uygundur.\n\n❌ Diğer Seçenekler:\nBir function 'carry out' edilir; bu fiil görev/işlev yerine getirmek anlamındadır.\n\n🧠 YDS Taktiği:\npull down ve draw up farklı anlamdadır; take up 'yer kaplamak/ele almak', get off ise 'inmek/kurtulmak' gibi anlamlara gelir.\n\n📌 Öğrenilmesi Gereken:\nfunction, task, experiment gibi isimlerle kullanılan fiil eşleşmelerini öğren.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKlorofil molekülleri fotosentez sırasında gerçekleştirdikleri enerji aktarımı işlevlerine özellikle uygundur.\n\n❌ Diğer Seçenekler:\nBir function 'carry out' edilir; bu fiil görev/işlev yerine getirmek anlamındadır.\n\n🧠 YDS Taktiği:\npull down ve draw up farklı anlamdadır; take up 'yer kaplamak/ele almak', get off ise 'inmek/kurtulmak' gibi anlamlara gelir.\n\n📌 Öğrenilmesi Gereken:\nfunction, task, experiment gibi isimlerle kullanılan fiil eşleşmelerini öğren.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-7",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 7,
+    "category": "Dilbilgisi",
+    "subCategory": "Dilbilgisi",
+    "passage": "",
+    "questionText": "To satisfy demand for healthier products, the food industry ---- lower-fat alternatives ---- a variety of ingredients.",
+    "options": {
+      "A": "is developing / used",
+      "B": "developed / to use",
+      "C": "has developed / using",
+      "D": "would develop / being used",
+      "E": "develops / to be used"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDaha sağlıklı ürünlere olan talebi karşılamak için gıda sektörü çeşitli malzemeler kullanarak daha düşük yağlı alternatifler geliştirmiştir.\n\n🔎 Neden Doğru?\nhas developed + using\n\n❌ Diğer Seçenekler:\nİlk boşlukta geçmişten bugüne sonuç vurgusu present perfect; ikinci boşlukta araç/yöntem anlamında using uygundur.\n\n🧠 YDS Taktiği:\nDiğer seçenekler zaman ve yapı bakımından cümledeki tamamlanmış gelişme ile uyuşmaz.\n\n📌 Öğrenilmesi Gereken:\nsince/over the years gibi süre ipuçlarında present perfect'i kontrol et; ikinci boşlukta -ing yapısının işlevine bak.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDaha sağlıklı ürünlere olan talebi karşılamak için gıda sektörü çeşitli malzemeler kullanarak daha düşük yağlı alternatifler geliştirmiştir.\n\n🔎 Neden Doğru?\nhas developed + using\n\n❌ Diğer Seçenekler:\nİlk boşlukta geçmişten bugüne sonuç vurgusu present perfect; ikinci boşlukta araç/yöntem anlamında using uygundur.\n\n🧠 YDS Taktiği:\nDiğer seçenekler zaman ve yapı bakımından cümledeki tamamlanmış gelişme ile uyuşmaz.\n\n📌 Öğrenilmesi Gereken:\nsince/over the years gibi süre ipuçlarında present perfect'i kontrol et; ikinci boşlukta -ing yapısının işlevine bak.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-8",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 8,
+    "category": "Dilbilgisi",
+    "subCategory": "Dilbilgisi",
+    "passage": "",
+    "questionText": "In dentistry, much of the work ---- preventive, although from time to time dentists ---- reactive procedures such as fillings.",
+    "options": {
+      "A": "is / need to perform",
+      "B": "was / should perform",
+      "C": "had been / must perform",
+      "D": "has been / had to perform",
+      "E": "would be / could have performed"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDiş hekimliğinde işlerin çoğu koruyucu niteliktedir; ancak zaman zaman diş hekimlerinin dolgu gibi müdahaleci işlemler yapması gerekir.\n\n🔎 Neden Doğru?\nis / need to perform\n\n❌ Diğer Seçenekler:\nGenel durum simple present ile, zaman zaman gerekli olan eylem need to perform ile verilir.\n\n🧠 YDS Taktiği:\nDiğer zamanlar genel bir meslek uygulamasını gereksiz biçimde geçmişe veya koşula taşır.\n\n📌 Öğrenilmesi Gereken:\nGenel gerçeklerde simple present; necessity bildiren ifadelerde need to + V1 ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDiş hekimliğinde işlerin çoğu koruyucu niteliktedir; ancak zaman zaman diş hekimlerinin dolgu gibi müdahaleci işlemler yapması gerekir.\n\n🔎 Neden Doğru?\nis / need to perform\n\n❌ Diğer Seçenekler:\nGenel durum simple present ile, zaman zaman gerekli olan eylem need to perform ile verilir.\n\n🧠 YDS Taktiği:\nDiğer zamanlar genel bir meslek uygulamasını gereksiz biçimde geçmişe veya koşula taşır.\n\n📌 Öğrenilmesi Gereken:\nGenel gerçeklerde simple present; necessity bildiren ifadelerde need to + V1 ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-9",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 9,
+    "category": "Dilbilgisi",
+    "subCategory": "Dilbilgisi",
+    "passage": "",
+    "questionText": "During the twentieth century, major advances in medical therapy made it possible ---- diseases that once ---- millions of people.",
+    "options": {
+      "A": "to be curing / would kill",
+      "B": "having cured / had killed",
+      "C": "to cure / have killed",
+      "D": "curing / killed",
+      "E": "to have cured / might have killed"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYirminci yüzyılda tıptaki büyük ilerlemeler, bir zamanlar milyonlarca insanı öldürmüş hastalıkları tedavi etmeyi mümkün kılmıştır.\n\n❌ Diğer Seçenekler:\nmake it possible yapısından sonra to + V1 gelir; hastalıkların geçmişten günümüze etkisi için have killed uygundur.\n\n🧠 YDS Taktiği:\nDiğerleri make it possible yapısına veya zaman ilişkisine uymaz.\n\n📌 Öğrenilmesi Gereken:\nmake it possible + to V1 kalıbını otomatik tanı; ikinci fiilin zamanını 'once' ile kontrol et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYirminci yüzyılda tıptaki büyük ilerlemeler, bir zamanlar milyonlarca insanı öldürmüş hastalıkları tedavi etmeyi mümkün kılmıştır.\n\n❌ Diğer Seçenekler:\nmake it possible yapısından sonra to + V1 gelir; hastalıkların geçmişten günümüze etkisi için have killed uygundur.\n\n🧠 YDS Taktiği:\nDiğerleri make it possible yapısına veya zaman ilişkisine uymaz.\n\n📌 Öğrenilmesi Gereken:\nmake it possible + to V1 kalıbını otomatik tanı; ikinci fiilin zamanını 'once' ile kontrol et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-10",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 10,
+    "category": "Edat / Bağlaç",
+    "subCategory": "Edat",
+    "passage": "",
+    "questionText": "Adolescents and adults ---- insecure attachment patterns often experience more affective disorders, and this pattern may also affect relationships ---- marriage.",
+    "options": {
+      "A": "for / at",
+      "B": "against / to",
+      "C": "under / on",
+      "D": "with / in",
+      "E": "about / through"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nGüvensiz bağlanma örüntülerine sahip ergenler ve yetişkinler daha fazla duygudurum bozukluğu yaşar; bu örüntü evlilikteki ilişkileri de etkileyebilir.\n\n🔎 Neden Doğru?\nwith / in\n\n❌ Diğer Seçenekler:\nwith + noun sahiplik/özellik, in marriage ise 'evlilikte' anlamında doğaldır.\n\n🧠 YDS Taktiği:\nDiğer edatlar hem anlam hem de kalıp bakımından uygun değildir.\n\n📌 Öğrenilmesi Gereken:\nwith + özellik/rahatsızlık ve in + alan/durum kalıplarını tarayın.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nGüvensiz bağlanma örüntülerine sahip ergenler ve yetişkinler daha fazla duygudurum bozukluğu yaşar; bu örüntü evlilikteki ilişkileri de etkileyebilir.\n\n🔎 Neden Doğru?\nwith / in\n\n❌ Diğer Seçenekler:\nwith + noun sahiplik/özellik, in marriage ise 'evlilikte' anlamında doğaldır.\n\n🧠 YDS Taktiği:\nDiğer edatlar hem anlam hem de kalıp bakımından uygun değildir.\n\n📌 Öğrenilmesi Gereken:\nwith + özellik/rahatsızlık ve in + alan/durum kalıplarını tarayın.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-11",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 11,
+    "category": "Edat / Bağlaç",
+    "subCategory": "Edat",
+    "passage": "",
+    "questionText": "Foundations ---- theoretical linguistics are established ---- identifying and describing the basic elements to which linguistic theories refer.",
+    "options": {
+      "A": "about / from",
+      "B": "for / through",
+      "C": "in / against",
+      "D": "at / by",
+      "E": "beyond / into"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKuramsal dilbilimin temelleri, dil kuramlarının gönderimde bulunduğu temel unsurları belirleyip tanımlama yoluyla oluşturulur.\n\n🔎 Neden Doğru?\nfor / through\n\n❌ Diğer Seçenekler:\nfoundations for + field bir alanın temellerini, through + V-ing ise yöntem/yol bildirir.\n\n🧠 YDS Taktiği:\nDiğer edat çiftleri anlamlı ve doğal bir yapı oluşturmaz.\n\n📌 Öğrenilmesi Gereken:\nBirinci boşlukta 'neyin temelleri?', ikinci boşlukta 'hangi yolla?' sorularını sor.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKuramsal dilbilimin temelleri, dil kuramlarının gönderimde bulunduğu temel unsurları belirleyip tanımlama yoluyla oluşturulur.\n\n🔎 Neden Doğru?\nfor / through\n\n❌ Diğer Seçenekler:\nfoundations for + field bir alanın temellerini, through + V-ing ise yöntem/yol bildirir.\n\n🧠 YDS Taktiği:\nDiğer edat çiftleri anlamlı ve doğal bir yapı oluşturmaz.\n\n📌 Öğrenilmesi Gereken:\nBirinci boşlukta 'neyin temelleri?', ikinci boşlukta 'hangi yolla?' sorularını sor.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-12",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 12,
+    "category": "Edat / Bağlaç",
+    "subCategory": "Bağlaç",
+    "passage": "",
+    "questionText": "---- autism can bring particular strengths to some high-functioning individuals, it is inaccurate to assume that everyone with the condition is a genius.",
+    "options": {
+      "A": "Because",
+      "B": "Although",
+      "C": "Once",
+      "D": "If",
+      "E": "Until"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nOtizm bazı yüksek işlevli bireylere belirli güçlü yönler kazandırabilse de bu duruma sahip herkesin dâhi olduğunu varsaymak doğru değildir.\n\n❌ Diğer Seçenekler:\nİlk bölüm ile ikinci bölüm arasında açık bir zıtlık var.\n\n🧠 YDS Taktiği:\nBecause neden, once zaman, if koşul, until zaman sınırı bildirir; hiçbiri gerekli zıtlığı kurmaz.\n\n📌 Öğrenilmesi Gereken:\nAlthough/though/even though gördüğünde iki taraf arasındaki zıtlığı kontrol et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nOtizm bazı yüksek işlevli bireylere belirli güçlü yönler kazandırabilse de bu duruma sahip herkesin dâhi olduğunu varsaymak doğru değildir.\n\n❌ Diğer Seçenekler:\nİlk bölüm ile ikinci bölüm arasında açık bir zıtlık var.\n\n🧠 YDS Taktiği:\nBecause neden, once zaman, if koşul, until zaman sınırı bildirir; hiçbiri gerekli zıtlığı kurmaz.\n\n📌 Öğrenilmesi Gereken:\nAlthough/though/even though gördüğünde iki taraf arasındaki zıtlığı kontrol et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-13",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 13,
+    "category": "Edat / Bağlaç",
+    "subCategory": "Bağlaç",
+    "passage": "",
+    "questionText": "Some materials are ordinary, such as rocks and soil, ---- others, including diamonds and rubies, are highly valued because they are rare.",
+    "options": {
+      "A": "unless",
+      "B": "once",
+      "C": "as if",
+      "D": "while",
+      "E": "just as"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBazı maddeler kaya ve toprak gibi sıradandır; oysa elmas ve yakut gibi diğerleri nadir oldukları için çok değerlidir.\n\n❌ Diğer Seçenekler:\nİki grup karşılaştırılıyor; while burada karşıtlık kuruyor.\n\n🧠 YDS Taktiği:\nunless koşul, once zaman, as if benzetme, just as ise benzerlik bildirir.\n\n📌 Öğrenilmesi Gereken:\nİki farklı özelliğe sahip iki grup karşılaştırılıyorsa while güçlü bir bağlaçtır.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBazı maddeler kaya ve toprak gibi sıradandır; oysa elmas ve yakut gibi diğerleri nadir oldukları için çok değerlidir.\n\n❌ Diğer Seçenekler:\nİki grup karşılaştırılıyor; while burada karşıtlık kuruyor.\n\n🧠 YDS Taktiği:\nunless koşul, once zaman, as if benzetme, just as ise benzerlik bildirir.\n\n📌 Öğrenilmesi Gereken:\nİki farklı özelliğe sahip iki grup karşılaştırılıyorsa while güçlü bir bağlaçtır.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-14",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 14,
+    "category": "Edat / Bağlaç",
+    "subCategory": "Bağlaç",
+    "passage": "",
+    "questionText": "It is an unusual coincidence that two people were found in the same icy region ---- one of them was the person who later discovered the earlier remains.",
+    "options": {
+      "A": "until",
+      "B": "given that",
+      "C": "only when",
+      "D": "unless",
+      "E": "provided that"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nİki kişinin aynı buzlu bölgede bulunması ve bunlardan birinin daha sonra önceki kalıntıları keşfeden kişi olması sıra dışı bir tesadüftür.\n\n❌ Diğer Seçenekler:\nİkinci bölüm ilk bilgiyi açıklayan bir koşul/arka plan bilgisi sunuyor.\n\n🧠 YDS Taktiği:\nDiğer bağlaçlar zaman, koşul veya sınırlama anlamı verir ve cümleyle uyuşmaz.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nİki kişinin aynı buzlu bölgede bulunması ve bunlardan birinin daha sonra önceki kalıntıları keşfeden kişi olması sıra dışı bir tesadüftür.\n\n❌ Diğer Seçenekler:\nİkinci bölüm ilk bilgiyi açıklayan bir koşul/arka plan bilgisi sunuyor.\n\n🧠 YDS Taktiği:\nDiğer bağlaçlar zaman, koşul veya sınırlama anlamı verir ve cümleyle uyuşmaz.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-15",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 15,
+    "category": "Edat / Bağlaç",
+    "subCategory": "Bağlaç",
+    "passage": "",
+    "questionText": "Modern heating and cooling systems ---- adjust room temperature ---- remove particles that may cause respiratory problems.",
+    "options": {
+      "A": "no sooner / than",
+      "B": "as / as",
+      "C": "whether / or",
+      "D": "not only / but also",
+      "E": "the more / the more"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nModern ısıtma ve soğutma sistemleri yalnızca oda sıcaklığını ayarlamakla kalmaz, aynı zamanda solunum sorunlarına yol açabilecek parçacıkları da giderir.\n\n🔎 Neden Doğru?\nnot only / but also\n\n❌ Diğer Seçenekler:\nİki paralel işlev birlikte veriliyor.\n\n🧠 YDS Taktiği:\nDiğer çiftler ya zaman ilişkisi ya seçim ya da orantı kurar.\n\n📌 Öğrenilmesi Gereken:\nİki olumlu özelliğin eşit ağırlıkta verildiği yapılarda not only ... but also ... ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nModern ısıtma ve soğutma sistemleri yalnızca oda sıcaklığını ayarlamakla kalmaz, aynı zamanda solunum sorunlarına yol açabilecek parçacıkları da giderir.\n\n🔎 Neden Doğru?\nnot only / but also\n\n❌ Diğer Seçenekler:\nİki paralel işlev birlikte veriliyor.\n\n🧠 YDS Taktiği:\nDiğer çiftler ya zaman ilişkisi ya seçim ya da orantı kurar.\n\n📌 Öğrenilmesi Gereken:\nİki olumlu özelliğin eşit ağırlıkta verildiği yapılarda not only ... but also ... ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-16",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 16,
+    "category": "Edat / Bağlaç",
+    "subCategory": "Bağlaç",
+    "passage": "",
+    "questionText": "---- the iron-containing haemoglobin in human blood, many large crustaceans have blue blood containing hemocyanin.",
+    "options": {
+      "A": "Such as",
+      "B": "Instead of",
+      "C": "By means of",
+      "D": "In conjunction with",
+      "E": "As a result of"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nİnsan kanındaki demir içeren hemoglobin yerine birçok büyük kabuklunun hemocyanin içeren mavi kanı vardır.\n\n❌ Diğer Seçenekler:\nİki alternatif karşılaştırılıyor: insanlarda hemoglobin, kabuklularda hemocyanin.\n\n🧠 YDS Taktiği:\nSuch as örnekleme, by means of araç, in conjunction with birlikte, as a result of neden bildirir.\n\n📌 Öğrenilmesi Gereken:\nİki farklı sistem/nesne karşılaştırılıyorsa 'yerine' ilişkisini kontrol et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nİnsan kanındaki demir içeren hemoglobin yerine birçok büyük kabuklunun hemocyanin içeren mavi kanı vardır.\n\n❌ Diğer Seçenekler:\nİki alternatif karşılaştırılıyor: insanlarda hemoglobin, kabuklularda hemocyanin.\n\n🧠 YDS Taktiği:\nSuch as örnekleme, by means of araç, in conjunction with birlikte, as a result of neden bildirir.\n\n📌 Öğrenilmesi Gereken:\nİki farklı sistem/nesne karşılaştırılıyorsa 'yerine' ilişkisini kontrol et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-17",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 17,
+    "category": "Cloze Test",
+    "subCategory": "Cloze Test",
+    "passage": "",
+    "questionText": "(17) The continent ---- a substantial share of its birds disappear in recent decades.",
+    "options": {
+      "A": "has seen",
+      "B": "is going to see",
+      "C": "sees",
+      "D": "was seeing",
+      "E": "had seen"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇalışmalar, kıtanın son yıllarda kuşlarının önemli bir bölümünün kaybolduğunu gösteriyor.\n\n❌ Diğer Seçenekler:\nrecent decades ve günümüze uzanan dönem present perfect'i destekler.\n\n🧠 YDS Taktiği:\nDiğer zamanlar son yıllarda günümüze uzanan değişimi doğru karşılamaz.\n\n📌 Öğrenilmesi Gereken:\nrecent/over the past + dönem gördüğünde present perfect'i kontrol et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÇalışmalar, kıtanın son yıllarda kuşlarının önemli bir bölümünün kaybolduğunu gösteriyor.\n\n❌ Diğer Seçenekler:\nrecent decades ve günümüze uzanan dönem present perfect'i destekler.\n\n🧠 YDS Taktiği:\nDiğer zamanlar son yıllarda günümüze uzanan değişimi doğru karşılamaz.\n\n📌 Öğrenilmesi Gereken:\nrecent/over the past + dönem gördüğünde present perfect'i kontrol et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-18",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 18,
+    "category": "Cloze Test",
+    "subCategory": "Cloze Test",
+    "passage": "",
+    "questionText": "A population study estimated changes ---- hundreds of species.",
+    "options": {
+      "A": "about",
+      "B": "in",
+      "C": "at",
+      "D": "with",
+      "E": "upon"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBir nüfus araştırması yüzlerce türdeki değişimleri tahmin etti.\n\n❌ Diğer Seçenekler:\nestimate changes in + noun doğal bir yapıdır.\n\n🧠 YDS Taktiği:\nabout genel konu, at/with/upon ise bu isimle gerekli kalıbı oluşturmaz.\n\n📌 Öğrenilmesi Gereken:\nİsimden önce gelen edatın kalıp kullanımını kontrol et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBir nüfus araştırması yüzlerce türdeki değişimleri tahmin etti.\n\n❌ Diğer Seçenekler:\nestimate changes in + noun doğal bir yapıdır.\n\n🧠 YDS Taktiği:\nabout genel konu, at/with/upon ise bu isimle gerekli kalıbı oluşturmaz.\n\n📌 Öğrenilmesi Gereken:\nİsimden önce gelen edatın kalıp kullanımını kontrol et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-19",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 19,
+    "category": "Cloze Test",
+    "subCategory": "Cloze Test",
+    "passage": "",
+    "questionText": "The most common species, ---- starlings, were among those most affected.",
+    "options": {
+      "A": "according to",
+      "B": "for the sake of",
+      "C": "such as",
+      "D": "due to",
+      "E": "on the basis of"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nEn yaygın türler, örneğin sığırcıklar, en çok etkilenenler arasındaydı.\n\n❌ Diğer Seçenekler:\nStarlings, 'most common species' grubuna örnek veriyor.\n\n🧠 YDS Taktiği:\nDiğerleri kaynak, amaç veya neden bildirir; örnekleme yapmaz.\n\n📌 Öğrenilmesi Gereken:\nVirgülden sonra verilen somut isim bir örnekse such as ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nEn yaygın türler, örneğin sığırcıklar, en çok etkilenenler arasındaydı.\n\n❌ Diğer Seçenekler:\nStarlings, 'most common species' grubuna örnek veriyor.\n\n🧠 YDS Taktiği:\nDiğerleri kaynak, amaç veya neden bildirir; örnekleme yapmaz.\n\n📌 Öğrenilmesi Gereken:\nVirgülden sonra verilen somut isim bir örnekse such as ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-20",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 20,
+    "category": "Cloze Test",
+    "subCategory": "Cloze Test",
+    "passage": "",
+    "questionText": "More than 90 percent of the overall loss ---- across a limited number of families.",
+    "options": {
+      "A": "raised",
+      "B": "glided",
+      "C": "settled",
+      "D": "occurred",
+      "E": "obtained"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nToplam kaybın yüzde 90'ından fazlası sınırlı sayıdaki familyada gerçekleşti.\n\n❌ Diğer Seçenekler:\nLoss ile occurred birlikte doğal biçimde kullanılır.\n\n🧠 YDS Taktiği:\nraise/obtain bir nesne gerektirebilir; glide ve settle burada anlamca uygun değildir.\n\n📌 Öğrenilmesi Gereken:\nBir olayın 'meydana gelmesi' anlamında occur'u tanı.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nToplam kaybın yüzde 90'ından fazlası sınırlı sayıdaki familyada gerçekleşti.\n\n❌ Diğer Seçenekler:\nLoss ile occurred birlikte doğal biçimde kullanılır.\n\n🧠 YDS Taktiği:\nraise/obtain bir nesne gerektirebilir; glide ve settle burada anlamca uygun değildir.\n\n📌 Öğrenilmesi Gereken:\nBir olayın 'meydana gelmesi' anlamında occur'u tanı.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-21",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 21,
+    "category": "Cloze Test",
+    "subCategory": "Cloze Test",
+    "passage": "",
+    "questionText": "These threats ---- often be addressed locally.",
+    "options": {
+      "A": "only if",
+      "B": "unless",
+      "C": "whether",
+      "D": "as if",
+      "E": "as"
+    },
+    "correctAnswer": "E",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBu tehditler çoğu zaman yerel düzeyde ele alınabildiği için daha fazla dikkat gerekmektedir.\n\n❌ Diğer Seçenekler:\nCümlede neden-sonuç ilişkisi var; 'because/as' anlamı gerekiyor.\n\n🧠 YDS Taktiği:\nonly if ve unless koşul, whether seçim, as if benzetme bildirir.\n\n📌 Öğrenilmesi Gereken:\nSonuç cümlesinin nedenini ararken as/because ayrımına bak.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBu tehditler çoğu zaman yerel düzeyde ele alınabildiği için daha fazla dikkat gerekmektedir.\n\n❌ Diğer Seçenekler:\nCümlede neden-sonuç ilişkisi var; 'because/as' anlamı gerekiyor.\n\n🧠 YDS Taktiği:\nonly if ve unless koşul, whether seçim, as if benzetme bildirir.\n\n📌 Öğrenilmesi Gereken:\nSonuç cümlesinin nedenini ararken as/because ayrımına bak.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-22",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 22,
+    "category": "Cloze Test",
+    "subCategory": "Cloze Test",
+    "passage": "",
+    "questionText": "The system relied on measurements of the body ---- photographs and records of visible marks.",
+    "options": {
+      "A": "as a consequence of",
+      "B": "as well as",
+      "C": "as opposed to",
+      "D": "because of",
+      "E": "similar to"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nSistem vücut ölçümlerinin yanı sıra fotoğraflara ve görünür işaretlerin kayıtlarına dayanıyordu.\n\n❌ Diğer Seçenekler:\nÜç bilgi aynı listede veriliyor.\n\n🧠 YDS Taktiği:\nDiğer seçenekler neden veya karşıtlık bildirir.\n\n📌 Öğrenilmesi Gereken:\nListeleme yapısında and/as well as gibi ekleme bağlaçlarını ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nSistem vücut ölçümlerinin yanı sıra fotoğraflara ve görünür işaretlerin kayıtlarına dayanıyordu.\n\n❌ Diğer Seçenekler:\nÜç bilgi aynı listede veriliyor.\n\n🧠 YDS Taktiği:\nDiğer seçenekler neden veya karşıtlık bildirir.\n\n📌 Öğrenilmesi Gereken:\nListeleme yapısında and/as well as gibi ekleme bağlaçlarını ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-23",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 23,
+    "category": "Cloze Test",
+    "subCategory": "Cloze Test",
+    "passage": "",
+    "questionText": "Although the system was slow and ----, it was used by police forces for years.",
+    "options": {
+      "A": "absolute",
+      "B": "fundamental",
+      "C": "descriptive",
+      "D": "complicated",
+      "E": "feasible"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nSistem yavaş ve karmaşık olmasına rağmen yıllarca polis güçleri tarafından kullanıldı.\n\n❌ Diğer Seçenekler:\nslow ile olumsuz ikinci özellik olarak complicated mantıklıdır.\n\n🧠 YDS Taktiği:\nDiğerleri temel, betimleyici, uygulanabilir veya mutlak anlamlarıyla bağlama uymaz.\n\n📌 Öğrenilmesi Gereken:\nAlthough sonrası iki olumsuz özelliğin verildiğini fark et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nSistem yavaş ve karmaşık olmasına rağmen yıllarca polis güçleri tarafından kullanıldı.\n\n❌ Diğer Seçenekler:\nslow ile olumsuz ikinci özellik olarak complicated mantıklıdır.\n\n🧠 YDS Taktiği:\nDiğerleri temel, betimleyici, uygulanabilir veya mutlak anlamlarıyla bağlama uymaz.\n\n📌 Öğrenilmesi Gereken:\nAlthough sonrası iki olumsuz özelliğin verildiğini fark et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-24",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 24,
+    "category": "Cloze Test",
+    "subCategory": "Cloze Test",
+    "passage": "",
+    "questionText": "The measurements were later supplemented ---- photographs.",
+    "options": {
+      "A": "from",
+      "B": "for",
+      "C": "about",
+      "D": "into",
+      "E": "with"
+    },
+    "correctAnswer": "E",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÖlçümler daha sonra fotoğraflarla desteklendi.\n\n❌ Diğer Seçenekler:\nPassive yapı 'be supplemented with' kalıbını gerektirir.\n\n🧠 YDS Taktiği:\nDiğer edatlar supplement ile burada doğal bir kalıp oluşturmaz.\n\n📌 Öğrenilmesi Gereken:\nPassive + preposition kalıplarını ezberle: supplemented with.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÖlçümler daha sonra fotoğraflarla desteklendi.\n\n❌ Diğer Seçenekler:\nPassive yapı 'be supplemented with' kalıbını gerektirir.\n\n🧠 YDS Taktiği:\nDiğer edatlar supplement ile burada doğal bir kalıp oluşturmaz.\n\n📌 Öğrenilmesi Gereken:\nPassive + preposition kalıplarını ezberle: supplemented with.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-25",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 25,
+    "category": "Cloze Test",
+    "subCategory": "Cloze Test",
+    "passage": "",
+    "questionText": "Usually, a photograph ---- from the front and side.",
+    "options": {
+      "A": "might have been taken",
+      "B": "must have been taken",
+      "C": "would be taken",
+      "D": "can be taken",
+      "E": "should have been taken"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nGenellikle bir fotoğraf önden ve yandan çekilebilir/çekilir.\n\n❌ Diğer Seçenekler:\nGenel uygulama/olanak can + passive ile verilebilir.\n\n🧠 YDS Taktiği:\nDiğerleri geçmişte zorunluluk/tahmin veya koşullu kullanım getirir.\n\n📌 Öğrenilmesi Gereken:\nGenel yöntem anlatımında can be + V3 yapısını ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nGenellikle bir fotoğraf önden ve yandan çekilebilir/çekilir.\n\n❌ Diğer Seçenekler:\nGenel uygulama/olanak can + passive ile verilebilir.\n\n🧠 YDS Taktiği:\nDiğerleri geçmişte zorunluluk/tahmin veya koşullu kullanım getirir.\n\n📌 Öğrenilmesi Gereken:\nGenel yöntem anlatımında can be + V3 yapısını ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-26",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 26,
+    "category": "Cloze Test",
+    "subCategory": "Cloze Test",
+    "passage": "",
+    "questionText": "The image could be circulated ---- the individual could be recognised.",
+    "options": {
+      "A": "even if",
+      "B": "after",
+      "C": "so that",
+      "D": "while",
+      "E": "as if"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nGörüntü, kişinin tanınabilmesi için dağıtılabilirdi.\n\n❌ Diğer Seçenekler:\nDağıtılmanın amacı tanınmayı sağlamaktır.\n\n🧠 YDS Taktiği:\nafter zaman, while eşzamanlılık, even if koşullu taviz, as if benzetme bildirir.\n\n📌 Öğrenilmesi Gereken:\ncould ... so that ... yapısında amaç ilişkisini ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nGörüntü, kişinin tanınabilmesi için dağıtılabilirdi.\n\n❌ Diğer Seçenekler:\nDağıtılmanın amacı tanınmayı sağlamaktır.\n\n🧠 YDS Taktiği:\nafter zaman, while eşzamanlılık, even if koşullu taviz, as if benzetme bildirir.\n\n📌 Öğrenilmesi Gereken:\ncould ... so that ... yapısında amaç ilişkisini ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-27",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 27,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Cümle Tamamlama",
+    "passage": "",
+    "questionText": "While ancient astronomers could notice unusual spots on the Sun, ----",
+    "options": {
+      "A": "a later proposal about their nature was eventually rejected",
+      "B": "they tried to devise sophisticated tools to observe every planet",
+      "C": "systematic observation became possible only after telescopes were developed",
+      "D": "they developed an interest in several unrelated branches of science",
+      "E": "a number of letters were exchanged about their meaning"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nEski astronomlar Güneş'teki olağandışı lekeleri fark edebilseler de sistematik gözlem ancak teleskopların geliştirilmesinden sonra mümkün oldu.\n\n🔎 Neden Doğru?\nwhile + contrast; sistematik gözlemin daha sonra mümkün olması doğru tamamlamadır.\n\n❌ Diğer Seçenekler:\nDiğerleri zıtlığı veya zaman ilişkisini gerekli biçimde tamamlamaz.\n\n🧠 YDS Taktiği:\nwhile ile verilen ilk cümledeki 'could notice' ile ikinci bölümdeki daha gelişmiş imkânı karşılaştır.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nEski astronomlar Güneş'teki olağandışı lekeleri fark edebilseler de sistematik gözlem ancak teleskopların geliştirilmesinden sonra mümkün oldu.\n\n🔎 Neden Doğru?\nwhile + contrast; sistematik gözlemin daha sonra mümkün olması doğru tamamlamadır.\n\n❌ Diğer Seçenekler:\nDiğerleri zıtlığı veya zaman ilişkisini gerekli biçimde tamamlamaz.\n\n🧠 YDS Taktiği:\nwhile ile verilen ilk cümledeki 'could notice' ile ikinci bölümdeki daha gelişmiş imkânı karşılaştır.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-28",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 28,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Cümle Tamamlama",
+    "passage": "",
+    "questionText": "----, researchers are considering it as a possible early screening target for Alzheimer's disease.",
+    "options": {
+      "A": "Even if the retina develops from neural tissue",
+      "B": "As evidence grows that changes in the brain can appear in the retina",
+      "C": "Although the retina has several layers of neurons",
+      "D": "While the retina is part of the nervous system",
+      "E": "Unless retinal screening is used to detect neurological symptoms"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBeyindeki değişikliklerin retinada görülebileceğine dair kanıtlar arttıkça araştırmacılar retinayı Alzheimer için olası erken tarama hedefi olarak değerlendiriyor.\n\n❌ Diğer Seçenekler:\nAna cümledeki araştırma kararının nedeni/arka planı B'de doğrudan verilir.\n\n🧠 YDS Taktiği:\nDiğer seçenekler yalnızca genel bilgi verir veya koşul/zıtlık kurar; neden-sonuç bağlantısı zayıftır.\n\n📌 Öğrenilmesi Gereken:\nCümle tamamlama sorularında boşluğun hemen sonrasındaki 'as a possible...' ifadesinin gerekçesini ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBeyindeki değişikliklerin retinada görülebileceğine dair kanıtlar arttıkça araştırmacılar retinayı Alzheimer için olası erken tarama hedefi olarak değerlendiriyor.\n\n❌ Diğer Seçenekler:\nAna cümledeki araştırma kararının nedeni/arka planı B'de doğrudan verilir.\n\n🧠 YDS Taktiği:\nDiğer seçenekler yalnızca genel bilgi verir veya koşul/zıtlık kurar; neden-sonuç bağlantısı zayıftır.\n\n📌 Öğrenilmesi Gereken:\nCümle tamamlama sorularında boşluğun hemen sonrasındaki 'as a possible...' ifadesinin gerekçesini ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-29",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 29,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Cümle Tamamlama",
+    "passage": "",
+    "questionText": "While literacy is usually associated with reading and writing, ----",
+    "options": {
+      "A": "the role of language raises questions about how literacy develops",
+      "B": "children's literacy is influenced by both early and later experiences",
+      "C": "support is necessary for people in disadvantaged countries",
+      "D": "its definition has expanded to include digital and multimedia skills",
+      "E": "many students remain unaware of digital literacy"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nOkuryazarlık genellikle okuma ve yazma ile ilişkilendirilse de tanımı dijital ve çoklu ortam becerilerini kapsayacak şekilde genişlemiştir.\n\n🔎 Neden Doğru?\nwhile ile karşıtlık; dar tanım → genişletilmiş tanım.\n\n❌ Diğer Seçenekler:\nDiğerleri okuryazarlığın gelişimi veya önemi hakkında olsa da tanımın genişlemesini doğrudan tamamlamaz.\n\n🧠 YDS Taktiği:\nwhile sonrası eski anlayışa karşı yeni anlayışı arayın.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nOkuryazarlık genellikle okuma ve yazma ile ilişkilendirilse de tanımı dijital ve çoklu ortam becerilerini kapsayacak şekilde genişlemiştir.\n\n🔎 Neden Doğru?\nwhile ile karşıtlık; dar tanım → genişletilmiş tanım.\n\n❌ Diğer Seçenekler:\nDiğerleri okuryazarlığın gelişimi veya önemi hakkında olsa da tanımın genişlemesini doğrudan tamamlamaz.\n\n🧠 YDS Taktiği:\nwhile sonrası eski anlayışa karşı yeni anlayışı arayın.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-30",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 30,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Cümle Tamamlama",
+    "passage": "",
+    "questionText": "----, although it did not influence astronomy as strongly as still photography did.",
+    "options": {
+      "A": "Astronomy was regarded as a form of observation",
+      "B": "Cinema uses an optical illusion to create continuous movement",
+      "C": "The arrival of cinema in the 1890s was an important advance in recording technology",
+      "D": "Cinematography remained limited in representing everyday life",
+      "E": "Cinema was used mainly for entertainment"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\n1890'larda sinemanın ortaya çıkışı kayıt teknolojisinde önemli bir ilerlemeydi; ancak sabit fotoğrafçılık kadar astronomiyi etkilemedi.\n\n🔎 Neden Doğru?\nalthough ile gelen yan cümle bir karşılaştırma kuruyor; ana cümle tarihsel gelişme olmalı.\n\n❌ Diğer Seçenekler:\nDiğerleri 'advancement in recording technology' fikrini doğrudan taşımaz.\n\n🧠 YDS Taktiği:\nAlthough'dan sonraki kıyaslamanın ana konusunu bul.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\n1890'larda sinemanın ortaya çıkışı kayıt teknolojisinde önemli bir ilerlemeydi; ancak sabit fotoğrafçılık kadar astronomiyi etkilemedi.\n\n🔎 Neden Doğru?\nalthough ile gelen yan cümle bir karşılaştırma kuruyor; ana cümle tarihsel gelişme olmalı.\n\n❌ Diğer Seçenekler:\nDiğerleri 'advancement in recording technology' fikrini doğrudan taşımaz.\n\n🧠 YDS Taktiği:\nAlthough'dan sonraki kıyaslamanın ana konusunu bul.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-31",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 31,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Cümle Tamamlama",
+    "passage": "The Roman army became famous throughout the ancient world, ----",
+    "questionText": "",
+    "options": {
+      "A": "although the idea of Rome survived its soldiers",
+      "B": "but it took centuries to grow into a force feared across the known world",
+      "C": "because soldiers continued to build forts during peace",
+      "D": "while recruitment was based on property qualifications",
+      "E": "and soldiers were more literate than civilians"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nRoma ordusu antik dünyada ünlendi; ancak bilinen dünyada korkulan bir güç hâline gelmesi yüzyıllar aldı.\n\n🔎 Neden Doğru?\nbut + contrast\n\n❌ Diğer Seçenekler:\nB, güç hâline gelme sürecini ve zıtlığı birlikte tamamlar.\n\n🧠 YDS Taktiği:\nDiğerleri kaynak veya yan bilgi verir; 'took centuries to grow' fikrini karşılamaz.\n\n📌 Öğrenilmesi Gereken:\nCümlede süre + gelişim vurgusu varsa zaman sürecini anlatan seçeneği ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nRoma ordusu antik dünyada ünlendi; ancak bilinen dünyada korkulan bir güç hâline gelmesi yüzyıllar aldı.\n\n🔎 Neden Doğru?\nbut + contrast\n\n❌ Diğer Seçenekler:\nB, güç hâline gelme sürecini ve zıtlığı birlikte tamamlar.\n\n🧠 YDS Taktiği:\nDiğerleri kaynak veya yan bilgi verir; 'took centuries to grow' fikrini karşılamaz.\n\n📌 Öğrenilmesi Gereken:\nCümlede süre + gelişim vurgusu varsa zaman sürecini anlatan seçeneği ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-32",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 32,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Cümle Tamamlama",
+    "passage": "",
+    "questionText": "Although no single security technology can make a system completely safe, ----",
+    "options": {
+      "A": "using several measures together can create strong barriers against intruders and malware",
+      "B": "the cybersecurity community has failed to respond to new threats",
+      "C": "attacked companies are often held responsible for resulting harm",
+      "D": "software developers now take security more seriously",
+      "E": "many people view security as a trade-off with performance"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nTek bir güvenlik teknolojisi sistemi tamamen güvenli yapamasa da birkaç önlemi birlikte kullanmak saldırganlara ve kötü amaçlı yazılımlara karşı güçlü engeller oluşturabilir.\n\n🔎 Neden Doğru?\nalthough + limitation → effective combined solution\n\n❌ Diğer Seçenekler:\nDiğerleri genel sonuçlar veya başka boyutlar sunar; ilk bölümün doğal karşılığı A'dır.\n\n🧠 YDS Taktiği:\nAlthough sonrası beklenen olumlu/dengeleyici sonucu ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nTek bir güvenlik teknolojisi sistemi tamamen güvenli yapamasa da birkaç önlemi birlikte kullanmak saldırganlara ve kötü amaçlı yazılımlara karşı güçlü engeller oluşturabilir.\n\n🔎 Neden Doğru?\nalthough + limitation → effective combined solution\n\n❌ Diğer Seçenekler:\nDiğerleri genel sonuçlar veya başka boyutlar sunar; ilk bölümün doğal karşılığı A'dır.\n\n🧠 YDS Taktiği:\nAlthough sonrası beklenen olumlu/dengeleyici sonucu ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-33",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 33,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Cümle Tamamlama",
+    "passage": "",
+    "questionText": "Although cholera remains endemic in some regions, ----",
+    "options": {
+      "A": "treatment strategies have reduced its fatality rate considerably",
+      "B": "severe vomiting and diarrhoea may cause death through dehydration",
+      "C": "it is associated with migration during war or famine",
+      "D": "patients may continue to shed the organism after infection",
+      "E": "identifying carriers is one way to prevent the disease"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKolera bazı bölgelerde endemik olmaya devam etse de tedavi stratejileri ölüm oranını önemli ölçüde azaltmıştır.\n\n🔎 Neden Doğru?\nAlthough → karşıt sonuç; endemic disease + improved treatment.\n\n❌ Diğer Seçenekler:\nDiğerleri koleranın özelliklerini açıklar fakat ilk bölümle güçlü karşıtlık kurmaz.\n\n🧠 YDS Taktiği:\nAlthough sorularında ilk cümledeki olumsuz/kalıcı duruma rağmen gerçekleşen gelişmeyi ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKolera bazı bölgelerde endemik olmaya devam etse de tedavi stratejileri ölüm oranını önemli ölçüde azaltmıştır.\n\n🔎 Neden Doğru?\nAlthough → karşıt sonuç; endemic disease + improved treatment.\n\n❌ Diğer Seçenekler:\nDiğerleri koleranın özelliklerini açıklar fakat ilk bölümle güçlü karşıtlık kurmaz.\n\n🧠 YDS Taktiği:\nAlthough sorularında ilk cümledeki olumsuz/kalıcı duruma rağmen gerçekleşen gelişmeyi ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-34",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 34,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Cümle Tamamlama",
+    "passage": "It is easy to lose concentration halfway through a newspaper article, ----",
+    "questionText": "",
+    "options": {
+      "A": "but long novels can be easier to follow when their narrative structure is clear",
+      "B": "since news agencies select thought-provoking stories",
+      "C": "even though newspapers sometimes discuss dull disputes",
+      "D": "so that narratives can communicate universal ideas",
+      "E": "while acclaimed novels may address social dilemmas"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBir gazete makalesinin ortasında dikkati kaybetmek kolaydır; ancak anlatı yapısı açık olduğunda uzun romanları takip etmek daha kolay olabilir.\n\n🔎 Neden Doğru?\nbut ile karşılaştırmalı sonuç\n\n❌ Diğer Seçenekler:\nA, ilk bölümdeki dikkat dağılmasıyla ikinci bölümdeki daha kolay takip edilebilirliği karşılaştırır.\n\n🧠 YDS Taktiği:\nDiğerleri doğrudan karşıtlık/sonuç ilişkisini kurmaz.\n\n📌 Öğrenilmesi Gereken:\nbut sonrasında ilk düşünceyi dengeleyen karşıt bilgi ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBir gazete makalesinin ortasında dikkati kaybetmek kolaydır; ancak anlatı yapısı açık olduğunda uzun romanları takip etmek daha kolay olabilir.\n\n🔎 Neden Doğru?\nbut ile karşılaştırmalı sonuç\n\n❌ Diğer Seçenekler:\nA, ilk bölümdeki dikkat dağılmasıyla ikinci bölümdeki daha kolay takip edilebilirliği karşılaştırır.\n\n🧠 YDS Taktiği:\nDiğerleri doğrudan karşıtlık/sonuç ilişkisini kurmaz.\n\n📌 Öğrenilmesi Gereken:\nbut sonrasında ilk düşünceyi dengeleyen karşıt bilgi ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-35",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 35,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Cümle Tamamlama",
+    "passage": "----, there are also environmental benefits associated with modern chemical use in agriculture.",
+    "questionText": "",
+    "options": {
+      "A": "Before climate effects became a major research focus",
+      "B": "Because uncertainty remains about chemical use",
+      "C": "While modern chemical-intensive farming can cause environmental harm",
+      "D": "As long as farming affects soil fertility",
+      "E": "Given that agriculture is a major source of pollution"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nModern kimyasal yoğun tarım çevresel zarara yol açabilse de kimyasal kullanımının çevresel bazı faydaları da vardır.\n\n❌ Diğer Seçenekler:\nHarm ↔ benefits karşıtlığı C'de kuruluyor.\n\n🧠 YDS Taktiği:\nDiğerleri faydalarla gerekli zıtlığı oluşturmaz veya anlamı değiştirir.\n\n📌 Öğrenilmesi Gereken:\nBoşlukta verilen environmental benefits ile karşıt kelimeyi paragraftan ara: harm.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nModern kimyasal yoğun tarım çevresel zarara yol açabilse de kimyasal kullanımının çevresel bazı faydaları da vardır.\n\n❌ Diğer Seçenekler:\nHarm ↔ benefits karşıtlığı C'de kuruluyor.\n\n🧠 YDS Taktiği:\nDiğerleri faydalarla gerekli zıtlığı oluşturmaz veya anlamı değiştirir.\n\n📌 Öğrenilmesi Gereken:\nBoşlukta verilen environmental benefits ile karşıt kelimeyi paragraftan ara: harm.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-36",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 36,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Cümle Tamamlama",
+    "passage": "",
+    "questionText": "Small blood-feeding insects native to the Americas affect thousands of people with disease every year, ----",
+    "options": {
+      "A": "but none of the infections they carry has attracted as much attention as Zika",
+      "B": "even if they mainly affect people with previous health problems",
+      "C": "so infection rates are highest among poor immigrants",
+      "D": "though health professionals need more studies",
+      "E": "yet their pressure on health systems harms many people"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAmerika kıtasına özgü küçük kan emici böcekler her yıl binlerce kişiyi hastalıkla etkiler; ancak taşıdıkları enfeksiyonların hiçbiri Zika kadar ilgi görmemiştir.\n\n🔎 Neden Doğru?\nbut + contrast\n\n❌ Diğer Seçenekler:\nGenel etki → özel olarak Zika'nın öne çıkması A'dadır.\n\n🧠 YDS Taktiği:\nDiğerleri koşul, sonuç veya ek bilgi verir; cümlenin vurgu yönünü değiştirebilir.\n\n📌 Öğrenilmesi Gereken:\nGenel iddiadan sonra 'en çok dikkat çeken örnek' geliyorsa but/however arayın.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAmerika kıtasına özgü küçük kan emici böcekler her yıl binlerce kişiyi hastalıkla etkiler; ancak taşıdıkları enfeksiyonların hiçbiri Zika kadar ilgi görmemiştir.\n\n🔎 Neden Doğru?\nbut + contrast\n\n❌ Diğer Seçenekler:\nGenel etki → özel olarak Zika'nın öne çıkması A'dadır.\n\n🧠 YDS Taktiği:\nDiğerleri koşul, sonuç veya ek bilgi verir; cümlenin vurgu yönünü değiştirebilir.\n\n📌 Öğrenilmesi Gereken:\nGenel iddiadan sonra 'en çok dikkat çeken örnek' geliyorsa but/however arayın.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-37",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 37,
+    "category": "Çeviri",
+    "subCategory": "Çeviri (İngilizce → Türkçe)",
+    "passage": "",
+    "questionText": "Acupuncture generally helps alleviate the symptoms of chronic conditions that cannot be completely cured by Western medicines or that may cause dependence on them.",
+    "options": {
+      "A": "Akupunktur, Batı ilaçlarıyla tamamen tedavi edilebilen kronik hastalıkların belirtilerini azaltır.",
+      "B": "Akupunktur, Batı ilaçlarıyla tamamen tedavi edilemeyen veya bu ilaçlara bağımlılığa yol açabilen kronik hastalıkların belirtilerini genellikle hafifletmeye yardımcı olur.",
+      "C": "Batı ilaçlarına bağımlılık kronik hastalıkların belirtilerinin akupunkturla tedavi edilmesine yol açar.",
+      "D": "Kronik hastalıklar yalnızca Batı ilaçlarıyla tedavi edilemediği için akupunktur kullanılır.",
+      "E": "Akupunktur, Batı ilaçlarının neden olduğu tüm kronik hastalıkları tamamen iyileştirir."
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAkupunktur, Batı ilaçlarıyla tamamen tedavi edilemeyen veya bu ilaçlara bağımlılığa yol açabilen kronik hastalıkların belirtilerini genellikle hafifletmeye yardımcı olur.\n\n❌ Diğer Seçenekler:\nB, ana cümledeki generally helps ve iki relative clause'u doğru aktarır.\n\n🧠 YDS Taktiği:\nA, C, D ve E ya anlamı tersine çevirir ya da kaynakta olmayan kesinlik/nedensellik ekler.\n\n📌 Öğrenilmesi Gereken:\nRelative clause'ları tek tek ayır: hangi hastalıklar + akupunktur ne yapıyor?",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAkupunktur, Batı ilaçlarıyla tamamen tedavi edilemeyen veya bu ilaçlara bağımlılığa yol açabilen kronik hastalıkların belirtilerini genellikle hafifletmeye yardımcı olur.\n\n❌ Diğer Seçenekler:\nB, ana cümledeki generally helps ve iki relative clause'u doğru aktarır.\n\n🧠 YDS Taktiği:\nA, C, D ve E ya anlamı tersine çevirir ya da kaynakta olmayan kesinlik/nedensellik ekler.\n\n📌 Öğrenilmesi Gereken:\nRelative clause'ları tek tek ayır: hangi hastalıklar + akupunktur ne yapıyor?",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-38",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 38,
+    "category": "Çeviri",
+    "subCategory": "Çeviri (İngilizce → Türkçe)",
+    "passage": "",
+    "questionText": "In low-income countries, much food spoils before reaching the market, but this waste can be minimised by improving professional training and using innovative technologies.",
+    "options": {
+      "A": "Düşük gelirli ülkelerde yiyeceklerin çoğu pazara ulaşmadan bozulur; ancak bu israf mesleki eğitimin geliştirilmesi ve yenilikçi teknolojilerin kullanılmasıyla azaltılabilir.",
+      "B": "Düşük gelirli ülkelerde yiyeceklerin bozulması yalnızca yeni teknolojilerle önlenebilir.",
+      "C": "Yiyecekler pazara ulaştıktan sonra bozulduğu için mesleki eğitim gereklidir.",
+      "D": "Yenilikçi teknolojiler yiyecek israfını artırırken mesleki eğitim azaltmaktadır.",
+      "E": "Düşük gelirli ülkelerde yiyeceklerin bozulması önemsiz bir sorundur."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYiyeceklerin çoğu pazara ulaşmadan bozulur; ancak mesleki eğitimi geliştirip yenilikçi teknolojiler kullanarak bu israf azaltılabilir.\n\n❌ Diğer Seçenekler:\nA, before reaching ve by improving/using yapılarını doğru aktarır.\n\n🧠 YDS Taktiği:\nB yalnızca teknolojiyi öne çıkarır; C zaman ilişkisini tersine çevirir; D sonucu ters çevirir; E metne aykırıdır.\n\n📌 Öğrenilmesi Gereken:\nbefore/after ve by + V-ing yapılarını çeviride özellikle kontrol et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYiyeceklerin çoğu pazara ulaşmadan bozulur; ancak mesleki eğitimi geliştirip yenilikçi teknolojiler kullanarak bu israf azaltılabilir.\n\n❌ Diğer Seçenekler:\nA, before reaching ve by improving/using yapılarını doğru aktarır.\n\n🧠 YDS Taktiği:\nB yalnızca teknolojiyi öne çıkarır; C zaman ilişkisini tersine çevirir; D sonucu ters çevirir; E metne aykırıdır.\n\n📌 Öğrenilmesi Gereken:\nbefore/after ve by + V-ing yapılarını çeviride özellikle kontrol et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-39",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 39,
+    "category": "Çeviri",
+    "subCategory": "Çeviri (İngilizce → Türkçe)",
+    "passage": "",
+    "questionText": "While some scientists think that we must protect ecosystems rather than individual species, others believe that allowing a species to go extinct is wrong because genetic diversity can make ecosystems resilient to climate change.",
+    "options": {
+      "A": "Bazı bilim insanları ekosistemleri korumamız gerektiğini düşünürken diğerleri genetik çeşitliliğin ekosistemleri iklim değişikliğine dayanıklı kılması nedeniyle bir türün yok olmasına izin vermenin yanlış olduğuna inanır.",
+      "B": "Bilim insanları bütün türlerin yok olmasının ekosistemleri iklim değişikliğine dayanıklı yaptığını düşünmektedir.",
+      "C": "Genetik çeşitlilik azaldığı için bazı bilim insanları yalnızca tek tek türleri korumaktadır.",
+      "D": "Ekosistemleri korumak yerine türlerin yok olmasına izin verilmesi iklim değişikliğini önler.",
+      "E": "Bazı bilim insanları iklim değişikliğinin genetik çeşitliliği artırdığını savunmaktadır."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBir grup bilim insanı türlerden ziyade ekosistemleri korumayı savunurken, diğerleri genetik çeşitliliğin dayanıklılık sağladığı gerekçesiyle türlerin yok olmasına izin vermeyi yanlış buluyor.\n\n❌ Diğer Seçenekler:\nA, iki görüşü ve because ile verilen nedeni birlikte korur.\n\n🧠 YDS Taktiği:\nB-E görüşleri veya neden-sonuç yönünü değiştirir.\n\n📌 Öğrenilmesi Gereken:\nWhile/others believe kalıbında iki farklı görüşü ayrı ayrı eşleştir.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBir grup bilim insanı türlerden ziyade ekosistemleri korumayı savunurken, diğerleri genetik çeşitliliğin dayanıklılık sağladığı gerekçesiyle türlerin yok olmasına izin vermeyi yanlış buluyor.\n\n❌ Diğer Seçenekler:\nA, iki görüşü ve because ile verilen nedeni birlikte korur.\n\n🧠 YDS Taktiği:\nB-E görüşleri veya neden-sonuç yönünü değiştirir.\n\n📌 Öğrenilmesi Gereken:\nWhile/others believe kalıbında iki farklı görüşü ayrı ayrı eşleştir.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-40",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 40,
+    "category": "Çeviri",
+    "subCategory": "Çeviri (Türkçe → İngilizce)",
+    "passage": "",
+    "questionText": "Çevrim içi alışverişin avantajları arasında evden çıkmadan istediğiniz zaman alışveriş yapabilmek ve ağır ürünlerin çoğu zaman ücretsiz olarak kapınıza getirilmesi vardır.",
+    "options": {
+      "A": "The benefits of shopping online include being able to shop whenever you want without leaving home and having heavy deliveries brought to your door often for free.",
+      "B": "Shopping online is only useful because heavy products can be delivered to your home.",
+      "C": "The disadvantages of shopping online include leaving home whenever you need products.",
+      "D": "Online shopping prevents customers from receiving heavy deliveries.",
+      "E": "The main benefit of online shopping is that it is always cheaper than shopping in stores."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nÇevrim içi alışverişin faydaları arasında istediğin zaman evden çıkmadan alışveriş yapabilmek ve ağır teslimatların çoğu zaman ücretsiz gelmesi vardır.\n\n🔎 Neden Doğru?\ninclude + V-ing; be able to; have something brought = bir şeyin getirilmesini sağlamak\n\n❌ Diğer Seçenekler:\nA iki paralel avantajı eksiksiz aktarır.\n\n🧠 YDS Taktiği:\nB yalnızca bir avantajı seçer; C ve D anlamı tersine çevirir; E kaynakta olmayan 'always cheaper' iddiası ekler.\n\n📌 Öğrenilmesi Gereken:\nTürkçedeki 'arasında' yapısını include ile eşleştir.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nÇevrim içi alışverişin faydaları arasında istediğin zaman evden çıkmadan alışveriş yapabilmek ve ağır teslimatların çoğu zaman ücretsiz gelmesi vardır.\n\n🔎 Neden Doğru?\ninclude + V-ing; be able to; have something brought = bir şeyin getirilmesini sağlamak\n\n❌ Diğer Seçenekler:\nA iki paralel avantajı eksiksiz aktarır.\n\n🧠 YDS Taktiği:\nB yalnızca bir avantajı seçer; C ve D anlamı tersine çevirir; E kaynakta olmayan 'always cheaper' iddiası ekler.\n\n📌 Öğrenilmesi Gereken:\nTürkçedeki 'arasında' yapısını include ile eşleştir.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-41",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 41,
+    "category": "Çeviri",
+    "subCategory": "Çeviri (Türkçe → İngilizce)",
+    "passage": "",
+    "questionText": "Fikir liderleri, bilgi birikimleri ve kültürel nitelikleri nedeniyle toplumdaki diğer kişilerden daha önde olan ve çevrelerindeki insanların bilgilerine başvurduğu kişilerdir.",
+    "options": {
+      "A": "Opinion leaders are people who are more prominent than others in society because of their knowledge and cultural qualifications, and people around them consult them for information.",
+      "B": "Opinion leaders are people who reject cultural qualifications and rarely share knowledge.",
+      "C": "People consult opinion leaders only because they have political power.",
+      "D": "Opinion leaders become prominent after people stop consulting them.",
+      "E": "Cultural qualifications have no relation to the role of opinion leaders."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nFikir liderleri, bilgi ve kültürel nitelikleri nedeniyle toplumda öne çıkan ve çevrelerindeki insanların bilgi almak için danıştığı kişilerdir.\n\n❌ Diğer Seçenekler:\nA, who-clause ile iki temel özelliği doğru birleştirir.\n\n🧠 YDS Taktiği:\nB-E kaynak cümlede olmayan veya ters ilişkiler içerir.\n\n📌 Öğrenilmesi Gereken:\nUzun Türkçe cümlede ana iskeleti 'people who...' olarak kur.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nFikir liderleri, bilgi ve kültürel nitelikleri nedeniyle toplumda öne çıkan ve çevrelerindeki insanların bilgi almak için danıştığı kişilerdir.\n\n❌ Diğer Seçenekler:\nA, who-clause ile iki temel özelliği doğru birleştirir.\n\n🧠 YDS Taktiği:\nB-E kaynak cümlede olmayan veya ters ilişkiler içerir.\n\n📌 Öğrenilmesi Gereken:\nUzun Türkçe cümlede ana iskeleti 'people who...' olarak kur.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-42",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 42,
+    "category": "Çeviri",
+    "subCategory": "Çeviri (Türkçe → İngilizce)",
+    "passage": "",
+    "questionText": "Orta Çağ Çinli bilim insanları, yaşamı uzatacak bir içecek bulma umuduyla kimyasalları karıştırırken yanlışlıkla barutu icat ettiler; ancak yaklaşık yarım yüzyıl sonra bu icadın yaşamı kısaltan bir şey olduğu ortaya çıktı.",
+    "options": {
+      "A": "Medieval Chinese scientists were hoping to find a life-lengthening drink when they accidentally invented gunpowder, but nearly half a century later the invention proved life-shortening.",
+      "B": "Medieval Chinese scientists deliberately invented gunpowder to shorten life.",
+      "C": "Gunpowder was invented after scientists had already abandoned chemical experiments.",
+      "D": "The Chinese scientists discovered a life-lengthening drink and later replaced it with gunpowder.",
+      "E": "Gunpowder was invented in modern China after a long scientific programme."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nOrta Çağ Çinli bilim insanları yaşamı uzatan bir içecek bulmayı umarken yanlışlıkla barutu icat ettiler; ancak yaklaşık yarım yüzyıl sonra bunun yaşamı kısaltıcı olduğu ortaya çıktı.\n\n❌ Diğer Seçenekler:\nA, accidentally, hope, but ve later ilişkilerini korur.\n\n🧠 YDS Taktiği:\nB intention'ı ters çevirir; C-E zaman ve amaç bilgisini değiştirir.\n\n📌 Öğrenilmesi Gereken:\nÇeviri sorularında accidentally/deliberately gibi tek bir zarfın bile anlamı değiştirebileceğini unutma.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nOrta Çağ Çinli bilim insanları yaşamı uzatan bir içecek bulmayı umarken yanlışlıkla barutu icat ettiler; ancak yaklaşık yarım yüzyıl sonra bunun yaşamı kısaltıcı olduğu ortaya çıktı.\n\n❌ Diğer Seçenekler:\nA, accidentally, hope, but ve later ilişkilerini korur.\n\n🧠 YDS Taktiği:\nB intention'ı ters çevirir; C-E zaman ve amaç bilgisini değiştirir.\n\n📌 Öğrenilmesi Gereken:\nÇeviri sorularında accidentally/deliberately gibi tek bir zarfın bile anlamı değiştirebileceğini unutma.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-43",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 43,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Doğrudan Bilgi",
+    "passage": "",
+    "questionText": "According to the passage, experts had different views about the amount of water Roman aqueducts could transport.",
+    "options": {
+      "A": "All aqueducts had exactly the same capacity.",
+      "B": "Experts had long disagreed about aqueduct capacity.",
+      "C": "Roman citizens recorded every litre of water they used.",
+      "D": "Public fountains consumed almost all available water.",
+      "E": "Ancient estimates were always lower than modern estimates."
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nUzmanlar Roma su kemerlerinin taşıdığı su miktarı konusunda uzun süre farklı görüşlere sahipti.\n\n🔎 Neden Doğru?\nexperts were divided fikri doğrudan B'yi destekler.\n\n❌ Diğer Seçenekler:\nA, C, D ve E metinde desteklenmez veya tersidir.\n\n🧠 YDS Taktiği:\nAccording to sorularında önce açık bilgi ara, çıkarımı en sona bırak.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nUzmanlar Roma su kemerlerinin taşıdığı su miktarı konusunda uzun süre farklı görüşlere sahipti.\n\n🔎 Neden Doğru?\nexperts were divided fikri doğrudan B'yi destekler.\n\n❌ Diğer Seçenekler:\nA, C, D ve E metinde desteklenmez veya tersidir.\n\n🧠 YDS Taktiği:\nAccording to sorularında önce açık bilgi ara, çıkarımı en sona bırak.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-44",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 44,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Doğrudan Bilgi",
+    "passage": "",
+    "questionText": "According to the passage, flowing water could leave ---- inside an aqueduct.",
+    "options": {
+      "A": "no physical evidence",
+      "B": "mineral deposits useful for estimating past flow",
+      "C": "only written records",
+      "D": "deposits that increased capacity",
+      "E": "evidence only outside the city"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAkış halindeki su, geçmiş akışı tahmin etmekte kullanılabilecek mineral birikintileri bırakabilirdi.\n\n🔎 Neden Doğru?\nB mineral deposits ve estimate past flow bilgilerini birleştirir.\n\n❌ Diğer Seçenekler:\nDiğerleri metne aykırıdır.\n\n🧠 YDS Taktiği:\n'leave traces' türü ifadeleri ararken paragraftaki fiziksel kanıtları bul.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAkış halindeki su, geçmiş akışı tahmin etmekte kullanılabilecek mineral birikintileri bırakabilirdi.\n\n🔎 Neden Doğru?\nB mineral deposits ve estimate past flow bilgilerini birleştirir.\n\n❌ Diğer Seçenekler:\nDiğerleri metne aykırıdır.\n\n🧠 YDS Taktiği:\n'leave traces' türü ifadeleri ararken paragraftaki fiziksel kanıtları bul.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-45",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 45,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Neden",
+    "passage": "",
+    "questionText": "Why were some traditional estimates of Roman water flow too high?",
+    "options": {
+      "A": "They assumed modern pipes were more efficient.",
+      "B": "They failed to consider mineral build-up inside the channels.",
+      "C": "They were based on private residents' habits.",
+      "D": "They measured only public fountains.",
+      "E": "They assumed Rome had no aqueducts."
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nEski tahminler kanalların içindeki mineral birikiminin akışı azaltmasını hesaba katmıyordu.\n\n🔎 Neden Doğru?\nMetin actual flow was lower because mineral build-up reduced capacity diyor.\n\n❌ Diğer Seçenekler:\nA, C, D ve E gerekçe olarak verilmez.\n\n🧠 YDS Taktiği:\nbecause/therefore mantığında fiziksel sebebi bul.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nEski tahminler kanalların içindeki mineral birikiminin akışı azaltmasını hesaba katmıyordu.\n\n🔎 Neden Doğru?\nMetin actual flow was lower because mineral build-up reduced capacity diyor.\n\n❌ Diğer Seçenekler:\nA, C, D ve E gerekçe olarak verilmez.\n\n🧠 YDS Taktiği:\nbecause/therefore mantığında fiziksel sebebi bul.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-46",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 46,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Okuma – Kelime",
+    "passage": "",
+    "questionText": "The word 'gauge' is closest in meaning to ----.",
+    "options": {
+      "A": "stimulate",
+      "B": "measure",
+      "C": "alter",
+      "D": "accelerate",
+      "E": "compensate"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\ngauge burada ölçmek/değerlendirmek anlamındadır.\n\n🔎 Neden Doğru?\nResearchers gauge depth and flow → derinliği ve akışı ölçerler.\n\n❌ Diğer Seçenekler:\nDiğerleri uyarmak, değiştirmek, hızlandırmak ve telafi etmek anlamındadır.\n\n🧠 YDS Taktiği:\nKelimenin nesnesine bak: depth/flow ölçülür.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\ngauge burada ölçmek/değerlendirmek anlamındadır.\n\n🔎 Neden Doğru?\nResearchers gauge depth and flow → derinliği ve akışı ölçerler.\n\n❌ Diğer Seçenekler:\nDiğerleri uyarmak, değiştirmek, hızlandırmak ve telafi etmek anlamındadır.\n\n🧠 YDS Taktiği:\nKelimenin nesnesine bak: depth/flow ölçülür.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-47",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 47,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Doğrudan Bilgi",
+    "passage": "",
+    "questionText": "According to the passage, the sleeper effect indicates that ----.",
+    "options": {
+      "A": "the first effect of a message always disappears",
+      "B": "a message can become more influential as time passes",
+      "C": "immediate messages are always more persuasive",
+      "D": "the source becomes more memorable over time",
+      "E": "only credible sources create lasting effects"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nUyku etkisi, mesajın zaman geçtikçe daha etkili hâle gelebileceğini öne sürer.\n\n🔎 Neden Doğru?\nİkinci cümle bunu açıkça ifade eder.\n\n❌ Diğer Seçenekler:\nA, C, D ve E metnin ana iddiasıyla çelişir.\n\n🧠 YDS Taktiği:\nindicates that sorusunda teorinin tanım cümlesini bul.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nUyku etkisi, mesajın zaman geçtikçe daha etkili hâle gelebileceğini öne sürer.\n\n🔎 Neden Doğru?\nİkinci cümle bunu açıkça ifade eder.\n\n❌ Diğer Seçenekler:\nA, C, D ve E metnin ana iddiasıyla çelişir.\n\n🧠 YDS Taktiği:\nindicates that sorusunda teorinin tanım cümlesini bul.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-48",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 48,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Amaç",
+    "passage": "",
+    "questionText": "Why does the author mention the Yale attitude-changing programme?",
+    "options": {
+      "A": "To give evidence supporting the sleeper-effect idea",
+      "B": "To explain how soldiers were recruited",
+      "C": "To compare British and American films",
+      "D": "To describe wartime film production in detail",
+      "E": "To prove every film changes attitudes"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYale programı sleeper effect'i destekleyen somut bir araştırma örneği olarak verilir.\n\n🔎 Neden Doğru?\nÖrnek, mesaj etkisinin zamanla artabileceğini destekler.\n\n❌ Diğer Seçenekler:\nB-E örneğin amacını aşar.\n\n🧠 YDS Taktiği:\nmention sorusunda örneğin hemen çevresindeki ana iddiayı bul.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYale programı sleeper effect'i destekleyen somut bir araştırma örneği olarak verilir.\n\n🔎 Neden Doğru?\nÖrnek, mesaj etkisinin zamanla artabileceğini destekler.\n\n❌ Diğer Seçenekler:\nB-E örneğin amacını aşar.\n\n🧠 YDS Taktiği:\nmention sorusunda örneğin hemen çevresindeki ana iddiayı bul.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-49",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 49,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Okuma – Kelime",
+    "passage": "",
+    "questionText": "The word 'enduring' is closest in meaning to ----.",
+    "options": {
+      "A": "recurring",
+      "B": "lasting",
+      "C": "concealed",
+      "D": "realistic",
+      "E": "widespread"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🔎 Neden Doğru?\nMemory becomes more enduring → hafıza daha kalıcı olur.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler farklı anlamlar taşır.\n\n🧠 YDS Taktiği:\nKelimeyi bağlamdaki noun ile eşleştir.",
+    "explanation": "🔎 Neden Doğru?\nMemory becomes more enduring → hafıza daha kalıcı olur.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler farklı anlamlar taşır.\n\n🧠 YDS Taktiği:\nKelimeyi bağlamdaki noun ile eşleştir.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-50",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 50,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Çıkarım",
+    "passage": "",
+    "questionText": "In the long run, the credibility of the source ----.",
+    "options": {
+      "A": "becomes less influential than the remembered argument",
+      "B": "becomes more important than the argument",
+      "C": "determines scientific validity",
+      "D": "must always be experimentally established",
+      "E": "remains stronger than message memory"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nUzun vadede kaynağın güvenilirliği, hatırlanan argümana kıyasla daha az etkili hâle gelebilir.\n\n🔎 Neden Doğru?\nMetin source memory weakens while argument memory endures diyor.\n\n❌ Diğer Seçenekler:\nB-E metnin söylediğinden daha güçlü veya farklı iddialardır.\n\n🧠 YDS Taktiği:\nKarşılaştırmalı çıkarımda hangi unsurun unutulduğunu ve hangisinin kaldığını belirle.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nUzun vadede kaynağın güvenilirliği, hatırlanan argümana kıyasla daha az etkili hâle gelebilir.\n\n🔎 Neden Doğru?\nMetin source memory weakens while argument memory endures diyor.\n\n❌ Diğer Seçenekler:\nB-E metnin söylediğinden daha güçlü veya farklı iddialardır.\n\n🧠 YDS Taktiği:\nKarşılaştırmalı çıkarımda hangi unsurun unutulduğunu ve hangisinin kaldığını belirle.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-51",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 51,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Doğrudan Bilgi",
+    "passage": "",
+    "questionText": "The territory of present-day Germany ----.",
+    "options": {
+      "A": "has always been isolated from migrants",
+      "B": "attracted different groups partly because movement was relatively easy",
+      "C": "was too densely populated for migration",
+      "D": "had natural barriers preventing cultural exchange",
+      "E": "was settled only by the Celts"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBugünkü Almanya toprakları, hareketin önündeki doğal engeller az olduğu için farklı grupları çekmiştir.\n\n🔎 Neden Doğru?\nFew natural barriers + repeated waves of migration B'yi destekler.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler metnin tersidir.\n\n🧠 YDS Taktiği:\nNeden sorulmasa bile because/with few gibi ipuçlarını birleştir.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBugünkü Almanya toprakları, hareketin önündeki doğal engeller az olduğu için farklı grupları çekmiştir.\n\n🔎 Neden Doğru?\nFew natural barriers + repeated waves of migration B'yi destekler.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler metnin tersidir.\n\n🧠 YDS Taktiği:\nNeden sorulmasa bile because/with few gibi ipuçlarını birleştir.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-52",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 52,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Çıkarım",
+    "passage": "",
+    "questionText": "Some scholars suggest that the Celts ----.",
+    "options": {
+      "A": "may have descended from an earlier culture associated with urn burials",
+      "B": "wrote the Greek and Roman historical records",
+      "C": "avoided warfare because they were tribal",
+      "D": "arrived only after the classical period",
+      "E": "were less advanced than every neighbouring culture"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBazı araştırmacılar Keltlerin urn gömme kültürüyle ilişkilendirilen daha eski bir kültürden gelmiş olabileceğini düşünür.\n\n🔎 Neden Doğru?\nMay have descended from ifadesi ihtimal belirtir.\n\n❌ Diğer Seçenekler:\nB-E metin tarafından desteklenmez.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBazı araştırmacılar Keltlerin urn gömme kültürüyle ilişkilendirilen daha eski bir kültürden gelmiş olabileceğini düşünür.\n\n🔎 Neden Doğru?\nMay have descended from ifadesi ihtimal belirtir.\n\n❌ Diğer Seçenekler:\nB-E metin tarafından desteklenmez.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-53",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 53,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Doğrudan Bilgi",
+    "passage": "",
+    "questionText": "The passage points out that the Celts ----.",
+    "options": {
+      "A": "avoided warfare",
+      "B": "had a strict hierarchy and a strong warrior tradition",
+      "C": "rejected religious specialists",
+      "D": "gave power exclusively to men",
+      "E": "disappeared before the classical period"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKeltlerin katı bir hiyerarşisi ve güçlü savaşçı geleneği vardı.\n\n🔎 Neden Doğru?\ntribal, warrior aristocracy and hierarchy ifadeleri B'yi destekler.\n\n❌ Diğer Seçenekler:\nA, C, D ve E metnin tersidir.\n\n🧠 YDS Taktiği:\nBirden fazla detay aynı seçenekte birleşiyorsa ana bilgiyle karşılaştır.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKeltlerin katı bir hiyerarşisi ve güçlü savaşçı geleneği vardı.\n\n🔎 Neden Doğru?\ntribal, warrior aristocracy and hierarchy ifadeleri B'yi destekler.\n\n❌ Diğer Seçenekler:\nA, C, D ve E metnin tersidir.\n\n🧠 YDS Taktiği:\nBirden fazla detay aynı seçenekte birleşiyorsa ana bilgiyle karşılaştır.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-54",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 54,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Çıkarım",
+    "passage": "",
+    "questionText": "It can be inferred that modern Germany ----.",
+    "options": {
+      "A": "has no cultural diversity",
+      "B": "has been home to several cultures over time",
+      "C": "retains an unchanged Celtic political system",
+      "D": "was founded solely by Celts",
+      "E": "has never experienced migration"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBu toprakların tarih boyunca birçok kültüre ev sahipliği yaptığı çıkarılabilir.\n\n🔎 Neden Doğru?\nRepeated migration and variety of cultures bunu destekler.\n\n❌ Diğer Seçenekler:\nA, C, D ve E aşırı veya metin dışıdır.\n\n🧠 YDS Taktiği:\ninferred sorusunda paragrafın birkaç cümlesinin ortak sonucunu çıkar.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBu toprakların tarih boyunca birçok kültüre ev sahipliği yaptığı çıkarılabilir.\n\n🔎 Neden Doğru?\nRepeated migration and variety of cultures bunu destekler.\n\n❌ Diğer Seçenekler:\nA, C, D ve E aşırı veya metin dışıdır.\n\n🧠 YDS Taktiği:\ninferred sorusunda paragrafın birkaç cümlesinin ortak sonucunu çıkar.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-55",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 55,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Doğrudan Bilgi",
+    "passage": "",
+    "questionText": "Which of the following is true about the Stanislavski method?",
+    "options": {
+      "A": "It imposed one rigid set of gestures.",
+      "B": "It encouraged actors to draw on personal experiences when developing characters.",
+      "C": "It rejected psychological acting.",
+      "D": "It was designed only for cinema.",
+      "E": "It required formal stage speech."
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYöntem oyuncuların karakter geliştirirken kendi deneyimlerinden yararlanmasını teşvik eder.\n\n🔎 Neden Doğru?\ndraw on experiences ifadesi paragrafın merkezindedir.\n\n❌ Diğer Seçenekler:\nA, C, D ve E yöntemin yaklaşımına aykırıdır.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYöntem oyuncuların karakter geliştirirken kendi deneyimlerinden yararlanmasını teşvik eder.\n\n🔎 Neden Doğru?\ndraw on experiences ifadesi paragrafın merkezindedir.\n\n❌ Diğer Seçenekler:\nA, C, D ve E yöntemin yaklaşımına aykırıdır.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-56",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 56,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Detay",
+    "passage": "",
+    "questionText": "The Stanislavski approach requires performers to ----.",
+    "options": {
+      "A": "control every gesture according to the director",
+      "B": "separate their own experience from the character",
+      "C": "rely on stereotypes",
+      "D": "use their own personality and experiences to shape a character",
+      "E": "imitate formal stage acting"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nOyuncular kendi kişilik ve deneyimlerinden yararlanarak karakteri şekillendirir.\n\n🔎 Neden Doğru?\nD, draw on self/experiences ve characterisation fikirlerini birleştirir.\n\n❌ Diğer Seçenekler:\nDiğerleri yöntemin reddettiği geleneksel veya stereotip yaklaşımı içerir.\n\n🧠 YDS Taktiği:\nrequires performers to sorusunda paragraftaki 'draw on' bölümünü ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nOyuncular kendi kişilik ve deneyimlerinden yararlanarak karakteri şekillendirir.\n\n🔎 Neden Doğru?\nD, draw on self/experiences ve characterisation fikirlerini birleştirir.\n\n❌ Diğer Seçenekler:\nDiğerleri yöntemin reddettiği geleneksel veya stereotip yaklaşımı içerir.\n\n🧠 YDS Taktiği:\nrequires performers to sorusunda paragraftaki 'draw on' bölümünü ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-57",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 57,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Detay",
+    "passage": "",
+    "questionText": "According to the method, which contributes to an actor's performance?",
+    "options": {
+      "A": "Learning stereotyped roles",
+      "B": "Ignoring personal feelings",
+      "C": "Copying famous performers",
+      "D": "Conveying the complex feelings of a character",
+      "E": "Following traditional stage conventions"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nKarakterin karmaşık duygularını aktarabilmek performansa katkıda bulunur.\n\n🔎 Neden Doğru?\nSon bölüm complex feelings/psychological states fikrini vurgular.\n\n❌ Diğer Seçenekler:\nA, B, C ve E yöntemin yaklaşımıyla çelişir.\n\n🧠 YDS Taktiği:\nSonuç cümlesinde 'ability to...' yapısını özellikle kontrol et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nKarakterin karmaşık duygularını aktarabilmek performansa katkıda bulunur.\n\n🔎 Neden Doğru?\nSon bölüm complex feelings/psychological states fikrini vurgular.\n\n❌ Diğer Seçenekler:\nA, B, C ve E yöntemin yaklaşımıyla çelişir.\n\n🧠 YDS Taktiği:\nSonuç cümlesinde 'ability to...' yapısını özellikle kontrol et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-58",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 58,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Ana Fikir",
+    "passage": "",
+    "questionText": "What does the passage mainly focus on?",
+    "options": {
+      "A": "The limits of modern acting schools",
+      "B": "The history of twentieth-century film actors",
+      "C": "Emotion only in stage acting",
+      "D": "The Stanislavski method and its basic requirements",
+      "E": "The careers of three famous actors"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nParagraf Stanislavski yönteminin yaklaşımını ve temel gerekliliklerini anlatıyor.\n\n🔎 Neden Doğru?\nYöntem, uygulama ve etkileri paragrafın tamamına yayılmıştır.\n\n❌ Diğer Seçenekler:\nE yalnızca son bölümdeki isimlere odaklanır; A-C kapsamı dar veya yanlıştır.\n\n🧠 YDS Taktiği:\nMain idea'da paragrafın en büyük kapsama sahip seçeneğini seç.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nParagraf Stanislavski yönteminin yaklaşımını ve temel gerekliliklerini anlatıyor.\n\n🔎 Neden Doğru?\nYöntem, uygulama ve etkileri paragrafın tamamına yayılmıştır.\n\n❌ Diğer Seçenekler:\nE yalnızca son bölümdeki isimlere odaklanır; A-C kapsamı dar veya yanlıştır.\n\n🧠 YDS Taktiği:\nMain idea'da paragrafın en büyük kapsama sahip seçeneğini seç.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-59",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 59,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Doğrudan Bilgi",
+    "passage": "",
+    "questionText": "Which of the following is true about Deep Blue?",
+    "options": {
+      "A": "It succeeded in many unrelated fields.",
+      "B": "It did not show useful performance outside chess.",
+      "C": "It explored distant planets.",
+      "D": "It lost the famous chess matches.",
+      "E": "It required no programming."
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDeep Blue satranç dışındaki alanlarda işlev göstermemiştir.\n\n🔎 Neden Doğru?\nMetin 'can play chess... but it cannot do anything else' diyor.\n\n❌ Diğer Seçenekler:\nA ve C ters; D yanlış; E metinde yok.\n\n🧠 YDS Taktiği:\nbut ile gelen sınırlılık cümlesini doğrudan eşleştir.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDeep Blue satranç dışındaki alanlarda işlev göstermemiştir.\n\n🔎 Neden Doğru?\nMetin 'can play chess... but it cannot do anything else' diyor.\n\n❌ Diğer Seçenekler:\nA ve C ters; D yanlış; E metinde yok.\n\n🧠 YDS Taktiği:\nbut ile gelen sınırlılık cümlesini doğrudan eşleştir.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-60",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 60,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Detay",
+    "passage": "",
+    "questionText": "According to the passage, a major weakness of current AI systems is their ----.",
+    "options": {
+      "A": "inability to be reprogrammed",
+      "B": "poor performance in sports",
+      "C": "inability to interact naturally with the environment",
+      "D": "refusal to communicate with humans",
+      "E": "lack of any successful applications"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nMevcut yapay zekâ sistemleri çevreleriyle doğal biçimde etkileşim kurmakta zorlanıyor.\n\n🔎 Neden Doğru?\nMetin interact naturally with the world fikrini açıkça verir.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler metinde bulunmaz veya başarıları inkâr eder.\n\n🧠 YDS Taktiği:\nWeakness sorusunda critics argue/struggle gibi olumsuz ifadeleri ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nMevcut yapay zekâ sistemleri çevreleriyle doğal biçimde etkileşim kurmakta zorlanıyor.\n\n🔎 Neden Doğru?\nMetin interact naturally with the world fikrini açıkça verir.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler metinde bulunmaz veya başarıları inkâr eder.\n\n🧠 YDS Taktiği:\nWeakness sorusunda critics argue/struggle gibi olumsuz ifadeleri ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-61",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 61,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – NOT",
+    "passage": "",
+    "questionText": "Which of the following is NOT mentioned as a goal for future AI systems?",
+    "options": {
+      "A": "behaving autonomously",
+      "B": "exploring outer space",
+      "C": "interacting with the outside world",
+      "D": "communicating with people",
+      "E": "planning and coordinating projects"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nUzay keşfi mevcut robotların yaptığı bir örnektir; geleceğe yönelik hedef listesinde yer almaz.\n\n🔎 Neden Doğru?\nA, C, D ve E son cümlede hedef olarak açıkça sayılır.\n\n❌ Diğer Seçenekler:\nNOT sorusunda dört seçeneği metindeki hedef listesiyle eşleştir.\n\n🧠 YDS Taktiği:\nNOT sorularında önce açıkça geçen dört seçeneği işaretle.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nUzay keşfi mevcut robotların yaptığı bir örnektir; geleceğe yönelik hedef listesinde yer almaz.\n\n🔎 Neden Doğru?\nA, C, D ve E son cümlede hedef olarak açıkça sayılır.\n\n❌ Diğer Seçenekler:\nNOT sorusunda dört seçeneği metindeki hedef listesiyle eşleştir.\n\n🧠 YDS Taktiği:\nNOT sorularında önce açıkça geçen dört seçeneği işaretle.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-62",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 62,
+    "category": "Okuma Parçası",
+    "subCategory": "Okuma – Ana Fikir",
+    "passage": "",
+    "questionText": "Which of the following is the main idea of the passage?",
+    "options": {
+      "A": "AI has achieved impressive results but still lacks broad, human-like abilities.",
+      "B": "Deep Blue was the first robot to explore space.",
+      "C": "Researchers have abandoned the goal of general intelligence.",
+      "D": "Current AI can already perform any human task.",
+      "E": "Funding is the only obstacle to advanced AI."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nYapay zekâ etkileyici sonuçlar elde etse de geniş kapsamlı ve insan benzeri yeteneklerden hâlâ yoksundur.\n\n🔎 Neden Doğru?\nA hem başarıları hem de temel sınırlılığı kapsar.\n\n❌ Diğer Seçenekler:\nB-E ya tek detaya dayanır ya da metnin tersini söyler.\n\n🧠 YDS Taktiği:\nMain idea için paragrafın girişindeki başarı ve devamındaki limitation dengesini yakala.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nYapay zekâ etkileyici sonuçlar elde etse de geniş kapsamlı ve insan benzeri yeteneklerden hâlâ yoksundur.\n\n🔎 Neden Doğru?\nA hem başarıları hem de temel sınırlılığı kapsar.\n\n❌ Diğer Seçenekler:\nB-E ya tek detaya dayanır ya da metnin tersini söyler.\n\n🧠 YDS Taktiği:\nMain idea için paragrafın girişindeki başarı ve devamındaki limitation dengesini yakala.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-63",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 63,
+    "category": "Diyalog Tamamlama",
+    "subCategory": "Diyalog Tamamlama",
+    "passage": "",
+    "questionText": "Silvia: I am drowning in papers, old photographs and research notes. What should I do? Peter: All that material can overwhelm you. There is a simple technique called 'keep or toss'. Silvia: What is that? It sounds like a game. Peter: ---- Silvia: But what about things that belong to neither category? Peter: Keep them if you think you will need them later.",
+    "options": {
+      "A": "It was popular decades ago, but it is obsolete now.",
+      "B": "It is simple: keep what is necessary and throw away what you do not really need.",
+      "C": "It comes from a philosophy that rejects collecting objects.",
+      "D": "I do not know much about it, so we should search online.",
+      "E": "I have used it since I began my career."
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nPeter yöntemi 'gerekli olanı tut, gereksiz olanı at' şeklinde açıklıyor.\n\n❌ Diğer Seçenekler:\nSonraki 'neither category' ifadesi iki kategori tanımlandığını gösterir.\n\n🧠 YDS Taktiği:\nDiyalog tamamlamada bir sonraki repliğin hangi kelimelere cevap verdiğini kontrol et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nPeter yöntemi 'gerekli olanı tut, gereksiz olanı at' şeklinde açıklıyor.\n\n❌ Diğer Seçenekler:\nSonraki 'neither category' ifadesi iki kategori tanımlandığını gösterir.\n\n🧠 YDS Taktiği:\nDiyalog tamamlamada bir sonraki repliğin hangi kelimelere cevap verdiğini kontrol et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-64",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 64,
+    "category": "Diyalog Tamamlama",
+    "subCategory": "Diyalog Tamamlama",
+    "passage": "",
+    "questionText": "Jenny: I cannot stop worrying. Every time I have to do something, I become anxious. Steve: Worry is a waste of time; it steals your joy. Jenny: I know, but it feels like a trait that is difficult to change. I always see the negative side. Steve: ---- Jenny: It is worth trying. If I recognise my worries, perhaps they will not get out of control.",
+    "options": {
+      "A": "If you frame your thoughts negatively, the problem may become worse.",
+      "B": "Overthinkers create unrealistic scenarios all the time.",
+      "C": "You should never think about the future.",
+      "D": "There are some techniques that can ease your worries.",
+      "E": "Worrying cannot change the result."
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nJenny'nin 'It is worth trying' cevabı bir yöntem/öneriye yanıt veriyor; D bu boşluğu doğal tamamlar.\n\n❌ Diğer Seçenekler:\nA, B ve E konuya değinse de sonraki 'trying' ile D kadar doğrudan bağ kurmaz; C aşırı bir öneridir.\n\n🧠 YDS Taktiği:\nSonraki cümledeki zamir ve 'trying' ifadesini önceki replikle eşleştir.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nJenny'nin 'It is worth trying' cevabı bir yöntem/öneriye yanıt veriyor; D bu boşluğu doğal tamamlar.\n\n❌ Diğer Seçenekler:\nA, B ve E konuya değinse de sonraki 'trying' ile D kadar doğrudan bağ kurmaz; C aşırı bir öneridir.\n\n🧠 YDS Taktiği:\nSonraki cümledeki zamir ve 'trying' ifadesini önceki replikle eşleştir.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-65",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 65,
+    "category": "Diyalog Tamamlama",
+    "subCategory": "Diyalog Tamamlama",
+    "passage": "",
+    "questionText": "Clive: People dislike targeted ads because they feel tracked. Yet more information can help companies create products that fit our needs. Anna: What about medical companies asking for consent to retain our medical data? Clive: ---- Anna: What if such confidential data is leaked and shared with third parties?",
+    "options": {
+      "A": "We may contribute to medical science, although data can be misused.",
+      "B": "They need such information for statistics and it can help identify health trends. Why be suspicious?",
+      "C": "Ads matching our needs save time, so it is great.",
+      "D": "Internet use is uncertain, so only secure devices should be used.",
+      "E": "More people use ad-blocking applications."
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nClive veri toplamanın faydasını savunuyor; B tıbbi verinin neden tutulabileceğini açıklıyor.\n\n❌ Diğer Seçenekler:\nA daha genel, C reklam, D cihaz güvenliği, E reklam engelleyici uygulamalar hakkında; soruya B kadar doğrudan cevap vermez.\n\n🧠 YDS Taktiği:\nDiyalogdaki son konuya doğrudan cevap veren seçeneği seç.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nClive veri toplamanın faydasını savunuyor; B tıbbi verinin neden tutulabileceğini açıklıyor.\n\n❌ Diğer Seçenekler:\nA daha genel, C reklam, D cihaz güvenliği, E reklam engelleyici uygulamalar hakkında; soruya B kadar doğrudan cevap vermez.\n\n🧠 YDS Taktiği:\nDiyalogdaki son konuya doğrudan cevap veren seçeneği seç.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-66",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 66,
+    "category": "Diyalog Tamamlama",
+    "subCategory": "Diyalog Tamamlama",
+    "passage": "",
+    "questionText": "Jamie: You always know when to collect flowers from your garden plants. Sandra: It is not random. I know the usual time for each plant. Jamie: ---- Sandra: Strikingly, the order in which species leaf out is almost identical from year to year.",
+    "options": {
+      "A": "How can you ensure the same number of flowers every year?",
+      "B": "How is it possible that you know the best time to expect a plant to flower?",
+      "C": "How do you keep your plants healthy enough to produce flowers?",
+      "D": "How do you protect them from unusually warm temperatures?",
+      "E": "How have you learned the colours of each flower?"
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nJamie, Sandra'nın bitkilerin çiçeklenme zamanını nasıl bildiğini soruyor.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler çiçek sayısı, sağlık, sıcaklık veya renk gibi yeni konulara sapar.\n\n🧠 YDS Taktiği:\nBir önceki replikteki 'usual time' ifadesini soru biçimine dönüştür.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nJamie, Sandra'nın bitkilerin çiçeklenme zamanını nasıl bildiğini soruyor.\n\n❌ Diğer Seçenekler:\nDiğer seçenekler çiçek sayısı, sağlık, sıcaklık veya renk gibi yeni konulara sapar.\n\n🧠 YDS Taktiği:\nBir önceki replikteki 'usual time' ifadesini soru biçimine dönüştür.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-67",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 67,
+    "category": "Diyalog Tamamlama",
+    "subCategory": "Diyalog Tamamlama",
+    "passage": "",
+    "questionText": "Sheila: This advert makes Alaska sound like a place of bitter cold and blizzards. Jerry: That is not the whole reality. Alaska has attractions that grab tourists' attention. Sheila: ---- Jerry: The northern lights, pristine wilderness and magnificent national parks, to name a few.",
+    "options": {
+      "A": "Still, many people may not want to visit such a cold place.",
+      "B": "Few people prefer this destination, when you think about it.",
+      "C": "I have also heard that its natural resources attract investors.",
+      "D": "So I need to improve my geographical knowledge.",
+      "E": "Alaska is one of the states of the USA."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nSheila'nın A seçeneğindeki tereddüdü Jerry'nin 'not the whole reality' diyerek düzelteceği attractions listesine doğal geçiş sağlar.\n\n❌ Diğer Seçenekler:\nB tekrar niteliğinde, C yatırım konusuna sapıyor, D ve E konuşmanın akışına katkı sağlamıyor.\n\n🧠 YDS Taktiği:\nJerry'nin sonraki cevabının doğrudan hangi soruya cevap verdiğini bul.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nSheila'nın A seçeneğindeki tereddüdü Jerry'nin 'not the whole reality' diyerek düzelteceği attractions listesine doğal geçiş sağlar.\n\n❌ Diğer Seçenekler:\nB tekrar niteliğinde, C yatırım konusuna sapıyor, D ve E konuşmanın akışına katkı sağlamıyor.\n\n🧠 YDS Taktiği:\nJerry'nin sonraki cevabının doğrudan hangi soruya cevap verdiğini bul.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-68",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 68,
+    "category": "Anlamca Yakın Cümle",
+    "subCategory": "Yakın Anlam",
+    "passage": "",
+    "questionText": "Because older adults may experience a reduced sense of taste, they often consume more salt and sugar, which can contribute to high blood pressure and nutrient loss.",
+    "options": {
+      "A": "A decline in taste may cause older people to consume more salt and sugar, potentially leading to health problems.",
+      "B": "Salt and sugar improve taste in older adults and therefore protect their health.",
+      "C": "High blood pressure is the main cause of reduced taste in older people.",
+      "D": "Nutrient loss prevents older adults from consuming salty foods.",
+      "E": "Older adults avoid sugar because their taste becomes weaker."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nTat duyusundaki azalma, yaşlıların daha fazla tuz ve şeker tüketmesine; bunun da sağlık sorunlarına katkıda bulunmasına yol açabilir.\n\n❌ Diğer Seçenekler:\nA neden → davranış → olası sonuç zincirini korur.\n\n🧠 YDS Taktiği:\nB ters neden-sonuç, C nedeni ters çevirir, D ve E metne aykırıdır.\n\n📌 Öğrenilmesi Gereken:\nParaphrase sorularında neden-sonuç zincirini sırayla kontrol et.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nTat duyusundaki azalma, yaşlıların daha fazla tuz ve şeker tüketmesine; bunun da sağlık sorunlarına katkıda bulunmasına yol açabilir.\n\n❌ Diğer Seçenekler:\nA neden → davranış → olası sonuç zincirini korur.\n\n🧠 YDS Taktiği:\nB ters neden-sonuç, C nedeni ters çevirir, D ve E metne aykırıdır.\n\n📌 Öğrenilmesi Gereken:\nParaphrase sorularında neden-sonuç zincirini sırayla kontrol et.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-69",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 69,
+    "category": "Anlamca Yakın Cümle",
+    "subCategory": "Yakın Anlam",
+    "passage": "",
+    "questionText": "Crusaders were suspected of returning home with unfamiliar microorganisms, but Portuguese exploration later brought many Europeans into contact with tropical diseases.",
+    "options": {
+      "A": "Although Crusaders were suspected of carrying new microorganisms home, Portuguese exploration exposed many Europeans to tropical diseases.",
+      "B": "Portuguese explorers avoided tropical diseases because Crusaders had already carried them.",
+      "C": "Tropical diseases reached Europe only after exploration had stopped.",
+      "D": "Crusaders and Portuguese explorers were equally responsible for spreading diseases.",
+      "E": "Europeans first encountered unfamiliar microorganisms in modern times."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nHaçlıların yeni mikroorganizmaları ülkelerine götürdüğünden şüphelenilse de Portekiz keşifleri birçok Avrupalıyı tropikal hastalıklarla karşılaştırdı.\n\n❌ Diğer Seçenekler:\nA although/but ilişkisini ve iki grubun rollerini korur.\n\n🧠 YDS Taktiği:\nB-E kaynakta olmayan neden, zaman veya eşit sorumluluk ekler.\n\n📌 Öğrenilmesi Gereken:\nParaphrase'de bağlaçların yönünü ve özne rollerini aynı tut.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nHaçlıların yeni mikroorganizmaları ülkelerine götürdüğünden şüphelenilse de Portekiz keşifleri birçok Avrupalıyı tropikal hastalıklarla karşılaştırdı.\n\n❌ Diğer Seçenekler:\nA although/but ilişkisini ve iki grubun rollerini korur.\n\n🧠 YDS Taktiği:\nB-E kaynakta olmayan neden, zaman veya eşit sorumluluk ekler.\n\n📌 Öğrenilmesi Gereken:\nParaphrase'de bağlaçların yönünü ve özne rollerini aynı tut.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-70",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 70,
+    "category": "Anlamca Yakın Cümle",
+    "subCategory": "Yakın Anlam",
+    "passage": "",
+    "questionText": "Red supergiants form when a massive star runs out of hydrogen in its core and can no longer convert hydrogen into helium through nuclear fusion.",
+    "options": {
+      "A": "Red supergiants emerge after massive stars deplete core hydrogen and lose the ability to convert it into helium by nuclear fusion.",
+      "B": "Red supergiants form when stars convert helium into hydrogen.",
+      "C": "Massive stars become red supergiants before using hydrogen.",
+      "D": "Nuclear fusion prevents stars from becoming red supergiants.",
+      "E": "Red supergiants form when helium disappears from their cores."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDev yıldızların çekirdek hidrojenini tüketmesi ve hidrojen-helyum dönüşümünü sürdürememesi kırmızı üstdevlerin oluşumuyla ilişkilidir.\n\n❌ Diğer Seçenekler:\nA run out of/deplete ve can no longer/lose ability eşleşmesini korur.\n\n🧠 YDS Taktiği:\nB-E hidrojen/helium ve neden-sonuç ilişkisini tersine çevirir.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDev yıldızların çekirdek hidrojenini tüketmesi ve hidrojen-helyum dönüşümünü sürdürememesi kırmızı üstdevlerin oluşumuyla ilişkilidir.\n\n❌ Diğer Seçenekler:\nA run out of/deplete ve can no longer/lose ability eşleşmesini korur.\n\n🧠 YDS Taktiği:\nB-E hidrojen/helium ve neden-sonuç ilişkisini tersine çevirir.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-71",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 71,
+    "category": "Anlamca Yakın Cümle",
+    "subCategory": "Yakın Anlam",
+    "passage": "",
+    "questionText": "The use of natural gas is deeply integrated into developed economies, so decarbonising gas systems is crucial for limiting climate change.",
+    "options": {
+      "A": "Since natural gas is integral to many developed economies, reducing carbon emissions from its systems is essential to limit climate change.",
+      "B": "Developed economies have stopped using natural gas to prevent climate change.",
+      "C": "Decarbonising gas systems is unnecessary because natural gas is widely used.",
+      "D": "Natural gas is used only in manufacturing, not in cooking.",
+      "E": "Climate change has made natural gas irrelevant to developed economies."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nDoğal gaz gelişmiş ekonomilere entegre olduğundan gaz sistemlerinin karbonunu azaltmak iklim değişikliğini sınırlamak için gereklidir.\n\n❌ Diğer Seçenekler:\nA, because/so neden-sonuç ilişkisini aynı yönde korur.\n\n🧠 YDS Taktiği:\nB-E kullanımın kapsamını veya gerekliliği tersine çevirir.\n\n📌 Öğrenilmesi Gereken:\nso/since ilişkisini paraphrase'de aynı yönlü koru.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nDoğal gaz gelişmiş ekonomilere entegre olduğundan gaz sistemlerinin karbonunu azaltmak iklim değişikliğini sınırlamak için gereklidir.\n\n❌ Diğer Seçenekler:\nA, because/so neden-sonuç ilişkisini aynı yönde korur.\n\n🧠 YDS Taktiği:\nB-E kullanımın kapsamını veya gerekliliği tersine çevirir.\n\n📌 Öğrenilmesi Gereken:\nso/since ilişkisini paraphrase'de aynı yönlü koru.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-72",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 72,
+    "category": "Paragraf Tamamlama",
+    "subCategory": "Yakın Anlam",
+    "passage": "",
+    "questionText": "Astronomy is not a hands-on science because astronomers cannot experiment directly on the distant objects they study; however, technology has greatly improved observation.",
+    "options": {
+      "A": "Astronomers cannot directly manipulate distant celestial objects, but technology has made observing them much more effective.",
+      "B": "Astronomy has become a hands-on science because telescopes are more advanced.",
+      "C": "Technology has reduced the quality of astronomical observation.",
+      "D": "Modern instruments allow astronomers to experiment directly on stars.",
+      "E": "Computers have made observation unnecessary."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nAstronomi doğrudan deney yapılamayan bir alan olsa da teknoloji gözlem sürecini büyük ölçüde geliştirmiştir.\n\n❌ Diğer Seçenekler:\nA because/ but karşıtlığını ve teknoloji etkisini korur.\n\n🧠 YDS Taktiği:\nB-D temel sınırlılığı tersine çevirir; E metne aykırıdır.\n\n📌 Öğrenilmesi Gereken:\nParaphrase'de ana karşıtlık çiftini bul: cannot experiment ↔ improved observation.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nAstronomi doğrudan deney yapılamayan bir alan olsa da teknoloji gözlem sürecini büyük ölçüde geliştirmiştir.\n\n❌ Diğer Seçenekler:\nA because/ but karşıtlığını ve teknoloji etkisini korur.\n\n🧠 YDS Taktiği:\nB-D temel sınırlılığı tersine çevirir; E metne aykırıdır.\n\n📌 Öğrenilmesi Gereken:\nParaphrase'de ana karşıtlık çiftini bul: cannot experiment ↔ improved observation.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-73",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 73,
+    "category": "Paragraf Tamamlama",
+    "subCategory": "Paragraf Tamamlama",
+    "passage": "",
+    "questionText": "Sleep advice is not always straightforward. Avoiding caffeine is commonly recommended, but researchers do not regard caffeine as universally harmful. Exercise is another issue: some people avoid evening workouts because they fear they will interfere with sleep. ---- On the contrary, people can exercise then if that is the time that suits them.",
+    "options": {
+      "A": "For example, a nap before bedtime is always necessary.",
+      "B": "Yet studies suggest that exercising late is not necessarily harmful to sleep.",
+      "C": "However, short walks can always cause insomnia.",
+      "D": "Similarly, a full rest after work is the only way to sleep well.",
+      "E": "To illustrate, exercise should never be used in the evening."
+    },
+    "correctAnswer": "B",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nB, akşam egzersizinin uykuya zarar vereceği korkusuna karşı araştırmaların farklı bir sonuç verdiğini söyler; 'On the contrary' ile devam eder.\n\n❌ Diğer Seçenekler:\nA, C, D ve E son cümledeki karşıtlıkla uyuşmaz.\n\n🧠 YDS Taktiği:\nOn the contrary'den hemen önce onun tersini söyleyen bir cümle bekle.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nB, akşam egzersizinin uykuya zarar vereceği korkusuna karşı araştırmaların farklı bir sonuç verdiğini söyler; 'On the contrary' ile devam eder.\n\n❌ Diğer Seçenekler:\nA, C, D ve E son cümledeki karşıtlıkla uyuşmaz.\n\n🧠 YDS Taktiği:\nOn the contrary'den hemen önce onun tersini söyleyen bir cümle bekle.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-74",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 74,
+    "category": "Paragraf Tamamlama",
+    "subCategory": "Paragraf Tamamlama",
+    "passage": "",
+    "questionText": "Anticipatory socialisation refers to programmes that let prospective employees gain work experience before full-time employment. Such programmes help participants understand careers and organisational environments and assess whether their characteristics fit different jobs. ---- They also allow participants to become familiar with the informal side of an organisation through employee networks and norms.",
+    "options": {
+      "A": "Through these programmes, prospective employees can also become familiar with an organisation's formal mission, policies and culture.",
+      "B": "Research on these programmes has recently become more popular.",
+      "C": "Current employees often report satisfaction when mentoring students.",
+      "D": "Some programmes provide organisations with unpaid labour.",
+      "E": "Most college students complete an internship."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nBoşlukta formal side anlatılmalı; sonraki cümlede 'also' ile informal side'a geçiliyor.\n\n❌ Diğer Seçenekler:\nB-E konuya değinse de formal → informal paralelliğini kurmaz.\n\n🧠 YDS Taktiği:\nalso ile başlayan cümlede daha önce benzer bir unsur aranır.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nBoşlukta formal side anlatılmalı; sonraki cümlede 'also' ile informal side'a geçiliyor.\n\n❌ Diğer Seçenekler:\nB-E konuya değinse de formal → informal paralelliğini kurmaz.\n\n🧠 YDS Taktiği:\nalso ile başlayan cümlede daha önce benzer bir unsur aranır.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-75",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 75,
+    "category": "Paragraf Tamamlama",
+    "subCategory": "Paragraf Tamamlama",
+    "passage": "",
+    "questionText": "In television news, a short message designed to make viewers watch a programme is called a tease. It is brief and works much like a headline. Viewers are encouraged to keep watching through promises of exclusive stories, attractive presentation and good journalism. ---- If broadcasters had their way, viewers would watch a continuous stream of news with only short advertising breaks.",
+    "options": {
+      "A": "The entire system is designed to keep the audience from changing channels.",
+      "B": "Television broadcasters are trained mainly to detect technical errors.",
+      "C": "The highest-quality programme may not have the highest ratings.",
+      "D": "The system encourages viewers to switch channels frequently.",
+      "E": "Television news is produced only by highly knowledgeable journalists."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nTease ve devamındaki yayın stratejisinin amacı izleyiciyi kanalda tutmaktır; A bunu doğrudan açıklar.\n\n❌ Diğer Seçenekler:\nD ana fikrin tersidir; B, C ve E paragrafın ana amacını açıklamaz.\n\n🧠 YDS Taktiği:\nSon cümledeki continuous stream fikrinin amacını bir önceki cümlede ara.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nTease ve devamındaki yayın stratejisinin amacı izleyiciyi kanalda tutmaktır; A bunu doğrudan açıklar.\n\n❌ Diğer Seçenekler:\nD ana fikrin tersidir; B, C ve E paragrafın ana amacını açıklamaz.\n\n🧠 YDS Taktiği:\nSon cümledeki continuous stream fikrinin amacını bir önceki cümlede ara.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-76",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 76,
+    "category": "Paragraf Bütünlüğü",
+    "subCategory": "Paragraf Tutarlılığı – Konu Dışı Cümle",
+    "passage": "(I) Vertical farming grows crops on stacked levels rather than side by side in a field. (II) Building a medium-sized vertical farm can be expensive and its energy use may be high. (III) Artificial light and controlled water or mist replace some functions normally provided by sunlight and soil. (IV) Vertical farms require vast areas of fertile land and therefore cannot be built near cities. (V) In fact, they use very little land and can be located close to consumers.",
+    "questionText": "Aşağıdaki paragrafta anlam bütünlüğünü bozan cümle hangisidir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nIV, dikey tarımın çok az arazi kullanması ve kentlere yakın kurulabilmesiyle çelişir.\n\n🔎 Neden Doğru?\nDiğer cümleler aynı ana konu etrafında birbirini desteklerken IV farklı bir konuya geçer.\n\n❌ Diğer Seçenekler:\nIV dışındaki cümleler ortak konu çizgisini sürdürür.\n\n🧠 YDS Taktiği:\nÖnce paragrafın ana temasını belirle; sonra her cümleyi bu temaya bağla.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nIV, dikey tarımın çok az arazi kullanması ve kentlere yakın kurulabilmesiyle çelişir.\n\n🔎 Neden Doğru?\nDiğer cümleler aynı ana konu etrafında birbirini desteklerken IV farklı bir konuya geçer.\n\n❌ Diğer Seçenekler:\nIV dışındaki cümleler ortak konu çizgisini sürdürür.\n\n🧠 YDS Taktiği:\nÖnce paragrafın ana temasını belirle; sonra her cümleyi bu temaya bağla.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-77",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 77,
+    "category": "Paragraf Bütünlüğü",
+    "subCategory": "Paragraf Tutarlılığı – Konu Dışı Cümle",
+    "passage": "(I) Eurasian trade networks expanded greatly during the second and first millennia BCE. (II) Trading centres in Central Asia connected distant regions through goods and information. (III) Later, routes linking the Mediterranean and China became known as the Silk Roads. (IV) The development of agricultural technologies helped create larger and more varied communities. (V) These networks also contributed to the spread of ideas and religions across regions.",
+    "questionText": "Aşağıdaki paragrafta anlam bütünlüğünü bozan cümle hangisidir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nIV, tarım teknolojilerinin gelişiminden söz ederek ticaret ağlarının ana akışından kopar.\n\n🔎 Neden Doğru?\nDiğer cümleler aynı ana konu etrafında birbirini desteklerken IV farklı bir konuya geçer.\n\n❌ Diğer Seçenekler:\nIV dışındaki cümleler ortak konu çizgisini sürdürür.\n\n🧠 YDS Taktiği:\nÖnce paragrafın ana temasını belirle; sonra her cümleyi bu temaya bağla.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nIV, tarım teknolojilerinin gelişiminden söz ederek ticaret ağlarının ana akışından kopar.\n\n🔎 Neden Doğru?\nDiğer cümleler aynı ana konu etrafında birbirini desteklerken IV farklı bir konuya geçer.\n\n❌ Diğer Seçenekler:\nIV dışındaki cümleler ortak konu çizgisini sürdürür.\n\n🧠 YDS Taktiği:\nÖnce paragrafın ana temasını belirle; sonra her cümleyi bu temaya bağla.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-78",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 78,
+    "category": "Paragraf Bütünlüğü",
+    "subCategory": "Paragraf Tutarlılığı – Konu Dışı Cümle",
+    "passage": "(I) Venus is similar in size to Earth but has a much hotter surface. (II) Earth's oceans absorb carbon dioxide and help moderate the greenhouse effect. (III) Venus has no oceans, so carbon dioxide remains in its atmosphere. (IV) When water and soil warm, water vapour can increase in the atmosphere. (V) Astronauts have recently discovered large forests covering the surface of Venus.",
+    "questionText": "Aşağıdaki paragrafta anlam bütünlüğünü bozan cümle hangisidir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nV, Venüs'ün ormanlarla kaplı olduğu iddiasıyla paragrafın bilimsel atmosfer/sera etkisi akışını bozar.\n\n🔎 Neden Doğru?\nDiğer cümleler aynı ana konu etrafında birbirini desteklerken IV farklı bir konuya geçer.\n\n❌ Diğer Seçenekler:\nIV dışındaki cümleler ortak konu çizgisini sürdürür.\n\n🧠 YDS Taktiği:\nÖnce paragrafın ana temasını belirle; sonra her cümleyi bu temaya bağla.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nV, Venüs'ün ormanlarla kaplı olduğu iddiasıyla paragrafın bilimsel atmosfer/sera etkisi akışını bozar.\n\n🔎 Neden Doğru?\nDiğer cümleler aynı ana konu etrafında birbirini desteklerken IV farklı bir konuya geçer.\n\n❌ Diğer Seçenekler:\nIV dışındaki cümleler ortak konu çizgisini sürdürür.\n\n🧠 YDS Taktiği:\nÖnce paragrafın ana temasını belirle; sonra her cümleyi bu temaya bağla.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-79",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 79,
+    "category": "Paragraf Bütünlüğü",
+    "subCategory": "Paragraf Tutarlılığı – Konu Dışı Cümle",
+    "passage": "(I) Scientists have identified hundreds of ways to turn chemical waste into useful products. (II) A computer program generated a database of possible chemical combinations and processes. (III) Researchers hope this can improve recycling and reduce waste that must be stored. (IV) Many chemical factories are located near large rivers because transportation is convenient. (V) The program then filtered the combinations to identify processes that produced useful molecules.",
+    "questionText": "Aşağıdaki paragrafta anlam bütünlüğünü bozan cümle hangisidir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nIV, kimyasal atıkların hesaplanması ve geri dönüştürülmesi konusundan fabrika konumlarına sapar.\n\n🔎 Neden Doğru?\nDiğer cümleler aynı ana konu etrafında birbirini desteklerken IV farklı bir konuya geçer.\n\n❌ Diğer Seçenekler:\nIV dışındaki cümleler ortak konu çizgisini sürdürür.\n\n🧠 YDS Taktiği:\nÖnce paragrafın ana temasını belirle; sonra her cümleyi bu temaya bağla.",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nIV, kimyasal atıkların hesaplanması ve geri dönüştürülmesi konusundan fabrika konumlarına sapar.\n\n🔎 Neden Doğru?\nDiğer cümleler aynı ana konu etrafında birbirini desteklerken IV farklı bir konuya geçer.\n\n❌ Diğer Seçenekler:\nIV dışındaki cümleler ortak konu çizgisini sürdürür.\n\n🧠 YDS Taktiği:\nÖnce paragrafın ana temasını belirle; sonra her cümleyi bu temaya bağla.",
+    "tags": []
+  },
+  {
+    "id": "yds-2023-nisan-ozgun-80",
+    "exam": "2023 Nisan YDS Özgün Deneme",
+    "year": 2023,
+    "term": "İlkbahar",
+    "questionNumber": 80,
+    "category": "Paragraf Bütünlüğü",
+    "subCategory": "Paragraf Tutarlılığı – Konu Dışı Cümle",
+    "passage": "(I) Dogs appear in myths and legends in many cultures. (II) Early books about dogs often served practical purposes, such as guiding people who kept working animals. (III) Some stories portray dogs as exceptionally loyal companions who wait years for their owners. (IV) Many ancient Greek temples were constructed entirely from glass and steel. (V) Other myths present frightening dogs, such as the three-headed guardian associated with the underworld.",
+    "questionText": "Aşağıdaki paragrafta anlam bütünlüğünü bozan cümle hangisidir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "solutionMethod": "🇹🇷 Türkçe Çeviri:\nIV, köpeklerin mitlerdeki ve kitaplarındaki rolüyle ilgisizdir; paragrafın bütünlüğünü bozar.\n\n🔎 Neden Doğru?\nDiğer cümleler aynı ana konu etrafında birbirini desteklerken IV farklı bir konuya geçer.\n\n❌ Diğer Seçenekler:\nIV dışındaki cümleler ortak konu çizgisini sürdürür.\n\n🧠 YDS Taktiği:\nÖnce paragrafın ana temasını belirle; sonra her cümleyi bu temaya bağla. 1–80 CEVAP ANAHTARI",
+    "explanation": "🇹🇷 Türkçe Çeviri:\nIV, köpeklerin mitlerdeki ve kitaplarındaki rolüyle ilgisizdir; paragrafın bütünlüğünü bozar.\n\n🔎 Neden Doğru?\nDiğer cümleler aynı ana konu etrafında birbirini desteklerken IV farklı bir konuya geçer.\n\n❌ Diğer Seçenekler:\nIV dışındaki cümleler ortak konu çizgisini sürdürür.\n\n🧠 YDS Taktiği:\nÖnce paragrafın ana temasını belirle; sonra her cümleyi bu temaya bağla. 1–80 CEVAP ANAHTARI",
     "tags": []
   }
 ];

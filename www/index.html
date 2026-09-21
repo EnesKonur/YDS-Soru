@@ -60,17 +60,15 @@
     }
     /* Üst Filtre ve Deneme Bantları Akıllı Daralma/Genişleme (Scroll Collapse) */
     .collapsible-header-bars {
-      transition: max-height 0.28s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease, transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: max-height 0.22s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.18s ease;
       max-height: 350px;
       opacity: 1;
-      transform: translateY(0);
       overflow: hidden;
-      will-change: max-height, opacity, transform;
+      will-change: max-height, opacity;
     }
     .collapsible-header-bars.collapsed-header-bars {
       max-height: 0 !important;
       opacity: 0 !important;
-      transform: translateY(-8px) !important;
       pointer-events: none !important;
       border: none !important;
     }
@@ -870,7 +868,7 @@
   <!-- ==================== MODALLAR ==================== -->
 
   <!-- 1. İnteraktif Kelime Sözlük Modalı (Word Inspector) -->
-  <div id="wordInspectorModal" class="fixed inset-0 z-[150] flex items-center justify-center p-4 bg-black/50 backdrop-blur-xs hidden">
+  <div id="wordInspectorModal" class="fixed inset-0 z-[150] flex items-center justify-center p-4 bg-black/50 hidden">
     <div class="bg-white dark:bg-gray-800 rounded-2xl max-w-md w-full p-6 shadow-2xl border border-gray-200 dark:border-gray-700 space-y-4 animate-in fade-in zoom-in-95 duration-200">
       
       <div class="flex items-start justify-between">
@@ -908,7 +906,7 @@
   </div>
 
   <!-- 2. Öğrenme Havuzu Modalı -->
-  <div id="learningPoolModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-xs hidden">
+  <div id="learningPoolModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 hidden">
     <div class="bg-white dark:bg-gray-800 rounded-2xl max-w-2xl w-full p-6 shadow-2xl border border-gray-200 dark:border-gray-700 max-h-[90vh] flex flex-col space-y-4">
       
       <div class="flex items-center justify-between border-b border-gray-100 dark:border-gray-700 pb-4">
@@ -939,10 +937,7 @@
         <button id="openFlashcardsBtn" class="inline-flex items-center space-x-2 px-4 py-2 rounded-xl text-sm font-semibold bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600 transition shadow-sm">
           <span>🃏 3D Flaş Kart Modunu Başlat</span>
         </button>
-        <div class="flex flex-wrap items-center gap-2">
-          <button id="exportCsvBtn" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200">CSV İndir</button>
-          <button id="exportJsonBtn" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200">JSON İndir</button>
-        </div>
+
       </div>
 
       <!-- Kelimeler Listesi -->
@@ -959,7 +954,7 @@
   </div>
 
   <!-- 3. Flaş Kart (Flashcard) Çalışma Modalı -->
-  <div id="flashcardModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs hidden">
+  <div id="flashcardModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 hidden">
     <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-lg w-full p-6 shadow-2xl border border-gray-200 dark:border-gray-700 space-y-6">
       
       <div class="flex items-center justify-between">
@@ -1007,7 +1002,7 @@
   </div>
 
   <!-- 4. PDF İçe Aktarma Modalı -->
-  <div id="pdfImportModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-xs hidden">
+  <div id="pdfImportModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 hidden">
     <div class="bg-white dark:bg-gray-800 rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-gray-200 dark:border-gray-700 space-y-5">
       
       <div class="flex items-center justify-between border-b border-gray-100 dark:border-gray-700 pb-3">
@@ -1056,7 +1051,7 @@
   </div>
 
   <!-- 5. 80 Soruluk Yıl Denemesi Seçim Modalı -->
-  <div id="yearExamModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs hidden">
+  <div id="yearExamModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 hidden">
     <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-2xl w-full p-6 shadow-2xl border border-gray-200 dark:border-gray-700 max-h-[92vh] flex flex-col space-y-5 animate-in fade-in zoom-in-95 duration-200">
       
       <!-- Başlık -->
@@ -1101,7 +1096,7 @@
   </div>
 
   <!-- 6. 80 Soruluk Sınav Karnesi & Sonuç Raporu Modalı -->
-  <div id="examScorecardModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs hidden">
+  <div id="examScorecardModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 hidden">
     <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-2xl w-full p-6 sm:p-7 shadow-2xl border border-gray-200 dark:border-gray-700 max-h-[92vh] flex flex-col space-y-5 animate-in fade-in zoom-in-95 duration-200">
       
       <!-- Karne Başlığı -->
@@ -1223,7 +1218,7 @@
 
 
   <!-- 7. İsim Karşılama Modalı (Onboarding) -->
-  <div id="namePromptModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs hidden animate-in fade-in duration-200">
+  <div id="namePromptModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 hidden animate-in fade-in duration-200">
     <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-md w-full p-6 sm:p-7 shadow-2xl border border-gray-200 dark:border-gray-700 space-y-5 text-center">
       <div class="w-16 h-16 mx-auto rounded-3xl bg-gradient-to-tr from-indigo-600 to-violet-600 text-white flex items-center justify-center text-3xl shadow-lg shadow-indigo-500/30">
         👋
@@ -1253,7 +1248,7 @@
   </div>
 
   <!-- 8. Uygulama Ayarları Modalı -->
-  <div id="settingsModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs hidden animate-in fade-in duration-200">
+  <div id="settingsModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 hidden animate-in fade-in duration-200">
     <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-lg w-full p-6 sm:p-7 shadow-2xl border border-gray-200 dark:border-gray-700 max-h-[90vh] flex flex-col space-y-5">
       
       <!-- Başlık -->
@@ -1341,7 +1336,7 @@
   <script src="app.js"></script>
 
   <!-- Çıkış Onay Modalı -->
-  <div id="exitConfirmModal" class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs hidden animate-in fade-in duration-200">
+  <div id="exitConfirmModal" class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/50 hidden animate-in fade-in duration-200">
     <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-sm w-full p-6 text-center shadow-2xl border border-gray-200 dark:border-gray-700">
       <div class="w-16 h-16 mx-auto rounded-3xl bg-red-100 dark:bg-red-900/30 text-red-600 flex items-center justify-center text-3xl shadow-sm mb-4">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1363,7 +1358,7 @@
 
 
   <!-- Günün Sorusu Modalı -->
-  <div id="dailyQuestionModal" class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs hidden animate-in fade-in duration-200" style="touch-action: none; overscroll-behavior: contain;">
+  <div id="dailyQuestionModal" class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/50 hidden animate-in fade-in duration-200" style="touch-action: none; overscroll-behavior: contain;">
     <div class="bg-white dark:bg-gray-800 rounded-3xl w-full max-w-lg p-5 sm:p-6 shadow-2xl border border-gray-200 dark:border-gray-700 flex flex-col max-h-[90vh]" style="touch-action: auto; overscroll-behavior: contain;">
       <div class="flex justify-between items-center mb-4 pb-3 border-b border-gray-100 dark:border-gray-700">
         <h3 class="font-extrabold text-lg sm:text-xl text-gray-900 dark:text-white flex items-center gap-2">
