@@ -1,0 +1,145 @@
+Total paragraphs: 1104
+[0] YDS TARZI ÖZGÜN SORU SETİ
+[1] 1-80 Arası Özgün Sorular ve Ayrıntılı Çözümler (2020-YDS/1, 27 Eylül 2020 formatı temel alınarak hazırlanmıştır)
+[2] 1-6: KELİME SORUSU
+[3] Bu sorularda, cümlede boş bırakılan yere uygun gelen kelime ya da ifadeyi seçiniz.
+[4] 1. Kelime Sorusu
+[5] Twenty-five hundred years ago, ancient Greek philosophers turned their highly refined ---- away from the whims of the gods and toward questions of the natural world.
+[6] A) inquiries
+[7] B) fallacies
+[8] C) incentives
+[9] D) complaints
+[10] E) precautions
+[11] ✅ Doğru cevap: A) inquiries
+[12] 🇹🇷 Türkçe çeviri: İki bin beş yüz yıl önce, antik Yunan filozofları son derece gelişmiş ----'lerini tanrıların keyfinden uzaklaştırıp doğal dünyanın sorularına yönelttiler.
+[13] 🔎 Neden doğru? "Inquiries" (sorgulamalar/araştırmalar) filozofların zihinsel faaliyetini doğru şekilde ifade eder; "turned...toward questions" ile tutarlıdır.
+[14] ❌ Diğer seçenekler: B) fallacies (yanlış çıkarımlar) — olumsuz/hatalı bir anlam, uymuyor.
+C) incentives (teşvikler) — anlamca ilgisiz.
+D) complaints (şikayetler) — anlam uymuyor.
+E) precautions (önlemler) — anlamca ilgisiz.
+[15] 🧠 YDS taktiği: "turn X away from Y and toward Z" yapısında X, kişinin zihinsel/entelektüel faaliyetini bildiren bir isim olmalıdır.
+[16] 📌 Öğrenilmesi gereken: inquiries (sorgulamalar, araştırmalar)
+[17] 2. Kelime Sorusu
+[18] Mission control specialists cannot tell whether the piece of space debris will strike the space station, but they are certain that a ---- would tear a hole in its hull and cause all the air inside to rapidly escape into space.
+[19] A) succession
+[20] B) collision
+[21] C) conversion
+[22] D) fluctuation
+[23] E) deviation
+[24] ✅ Doğru cevap: B) collision
+[25] 🇹🇷 Türkçe çeviri: Görev kontrol uzmanları, uzay çöpü parçasının uzay istasyonuna çarpıp çarpmayacağını söyleyemez, ama bir ---- gövdesinde bir delik açar ve içindeki tüm havanın hızla uzaya kaçmasına neden olurdu konusunda kesindirler.
+[26] 🔎 Neden doğru? "Collision" (çarpışma) gövdede delik açan olayı doğru bildirir; "strike" fiiliyle anlamca örtüşür.
+[27] ❌ Diğer seçenekler: A) succession (ardışıklık) — anlamca ilgisiz.
+C) conversion (dönüşüm) — anlam uymuyor.
+D) fluctuation (dalgalanma) — anlamca ilgisiz.
+E) deviation (sapma) — anlam kaymış.
+[28] 🧠 YDS taktiği: Bir cismin başka bir cisme çarparak zarar vermesini bildiren cümlelerde "collision" (çarpışma) güçlü bir adaydır.
+[29] 📌 Öğrenilmesi gereken: collision (çarpışma)
+[30] 3. Kelime Sorusu
+[31] While newspapers have been in sharp decline across much of the developed West, the industry remains ---- and is still expanding in many of Asia's booming cities.
+[32] A) fragile
+[33] B) profitable
+[34] C) confidential
+[35] D) peculiar
+[36] E) notorious
+[37] ✅ Doğru cevap: B) profitable
+[38] 🇹🇷 Türkçe çeviri: Gazeteler gelişmiş Batı'nın büyük kısmında sert bir düşüş içindeyken, sektör Asya'nın hızla büyüyen birçok şehrinde ---- kalmakta ve büyümeyi sürdürmektedir.
+[39] 🔎 Neden doğru? "Profitable and still expanding" = "kârlı ve hâlâ büyüyen"; iki olumlu özelliğin birlikte anlamlı olması gerekir, "profitable" bunu sağlar.
+[40] ❌ Diğer seçenekler: A) fragile (kırılgan) — "still expanding" ile çelişir.
+C) confidential (gizli) — anlamca ilgisiz.
+D) peculiar (tuhaf) — anlam uymuyor.
+E) notorious (kötü şöhretli) — olumsuz anlam, "still growing" ile uyumsuz.
+[41] 🧠 YDS taktiği: "---- and still growing" yapısında boşluk, büyümeyle uyumlu OLUMLU bir sıfat olmalıdır.
+[42] 📌 Öğrenilmesi gereken: profitable (kârlı)
+[43] 4. Kelime Sorusu
+[44] Since the DNA of two unrelated people differs by only about one in every 1,000 base pairs, humans display ---- little genetic diversity.
+[45] A) remarkably
+[46] B) elaborately
+[47] C) ambiguously
+[48] D) sufficiently
+[49] E) promptly
+[50] ✅ Doğru cevap: A) remarkably
+[51] 🇹🇷 Türkçe çeviri: Birbiriyle akraba olmayan iki kişinin DNA'sı sadece her 1.000 baz çiftinden birinde farklılık gösterdiğinden, insanlar ---- az genetik çeşitlilik sergiler.
+[52] 🔎 Neden doğru? "Remarkably little" = "dikkat çekici derecede az"; verilen istatistiğin (1000'de 1 fark) şaşırtıcı bir azlık olduğunu doğru vurgular.
+[53] ❌ Diğer seçenekler: B) elaborately (ayrıntılı biçimde) — "little" ile anlamsız bir kombinasyon.
+C) ambiguously (belirsiz biçimde) — anlam uymuyor.
+D) sufficiently (yeterince) — "little" ile anlam çelişkisi yaratır.
+E) promptly (hemen) — anlamca ilgisiz.
+[54] 🧠 YDS taktiği: "---- little X" yapısında, azlığın DERECESİNİ vurgulayan "remarkably/surprisingly" gibi zarfları ara.
+[55] 📌 Öğrenilmesi gereken: remarkably (dikkat çekici derecede)
+[56] 5. Kelime Sorusu
+[57] Biologists have engineered a molecule that ---- the connections between brain cells, known as neurons, functioning much like the steel bars inside reinforced concrete.
+[58] A) penetrates
+[59] B) overcomes
+[60] C) implements
+[61] D) fortifies
+[62] E) receives
+[63] ✅ Doğru cevap: D) fortifies
+[64] 🇹🇷 Türkçe çeviri: Biyologlar, nöron olarak bilinen beyin hücreleri arasındaki bağlantıları, güçlendirilmiş betonun içindeki çelik çubuklar gibi işlev görerek ---- bir molekül tasarlamıştır.
+[65] 🔎 Neden doğru? "Fortifies connections" = "bağlantıları güçlendirir"; "functioning like steel bars in reinforced concrete" (güçlendirme örneği) ile tam tutarlıdır.
+[66] ❌ Diğer seçenekler: A) penetrates (nüfuz eder) — anlam kaymış.
+B) overcomes (üstesinden gelir) — anlamca ilgisiz.
+C) implements (uygular) — anlam uymuyor.
+E) receives (alır) — anlamca ilgisiz.
+[67] 🧠 YDS taktiği: Verilen benzetmeyi ("like steel bars in reinforced concrete" = güçlendirme) doğrudan yansıtan fiili ("fortify") seç.
+[68] 📌 Öğrenilmesi gereken: fortify (güçlendirmek, takviye etmek)
+[69] 6. Kelime Sorusu
+[70] Internet users are increasingly ---- cyberchondria, a mental condition in which easy access to medical information online leads to heightened anxiety about one's health.
+[71] A) making up for
+[72] B) cutting down on
+[73] C) getting away with
+[74] D) looking around for
+[75] E) coming down with
+[76] ✅ Doğru cevap: E) coming down with
+[77] 🇹🇷 Türkçe çeviri: İnternet kullanıcıları giderek daha çok siberkondriye ----; bu, çevrimiçi tıbbi bilgiye kolay erişimin sağlık konusunda artan kaygı hissine yol açtığı zihinsel bir durumdur.
+[78] 🔎 Neden doğru? "Coming down with a condition" = "bir duruma/hastalığa yakalanmak"; zihinsel bir duruma "yakalanma" anlamını doğru verir.
+[79] ❌ Diğer seçenekler: A) making up for (telafi etmek) — anlamca ilgisiz.
+B) cutting down on (azaltmak) — anlam ters, "increasingly" ile çelişir.
+C) getting away with (cezasız kalmak) — anlam uymuyor.
+D) looking around for (aramak) — anlamca ilgisiz.
+[80] 🧠 YDS taktiği: "come down with [hastalık/durum]" kalıbını (bir duruma/hastalığa yakalanmak) ezberle.
+[81] 📌 Öğrenilmesi gereken: come down with (…e yakalanmak, tutulmak)
+[82] 7-16: DİLBİLGİSİ SORUSU
+[83] Bu sorularda, cümlede boş bırakılan yer(ler)e uygun gelen kelime(ler) ya da ifade(ler)i seçiniz.
+[84] 7. Dilbilgisi Sorusu (Zaman)
+[85] So far, only two types of mental exertion ---- to improve overall cognitive ability: one is musical training, the other is learning a new language or practising a second one you ----.
+[86] A) were shown / will have already learned
+[87] B) had been shown / have already been learning
+[88] C) have been shown / have already learned
+[89] D) will be shown / already learned
+[90] E) are shown / had already learned
+[91] ✅ Doğru cevap: C) have been shown / have already learned
+[92] 🇹🇷 Türkçe çeviri: Şimdiye kadar, sadece iki tür zihinsel çalışmanın genel bilişsel yeteneği geliştirdiği gösterilmiştir: biri müzik eğitimi, diğeri yeni bir dil öğrenmek veya zaten öğrenmiş olduğunuz bir ikinci dili uygulamaktır.
+[93] 🔎 Neden doğru? "So far" ifadesi present perfect'i ("have been shown") tetikler; "a language you have already learned" (zaten öğrendiğin bir dil) da present perfect ile doğru ifade edilir.
+[94] ❌ Diğer seçenekler: A) were shown/will have already learned — geçmiş zaman+gelecek perfect, "so far" ile uyumsuz.
+B) had been shown/have already been learning — past perfect+present perfect sürerlilik, tutarsız.
+D) will be shown/already learned — gelecek zaman+geçmiş zaman, "so far" ile uyumsuz.
+E) are shown/had already learned — geniş zaman+past perfect, zaman uyumsuz.
+[95] 🧠 YDS taktiği: "so far" ifadesi genelde present perfect'i tetikler; "a language you have already learned" kalıbında da present perfect kullanılır.
+[96] 📌 Öğrenilmesi gereken: so far + present perfect (şimdiye kadar + yakın geçmiş zaman)
+[97] 8. Dilbilgisi Sorusu (Zaman/Kip)
+[98] If any age could ever rightly be called 'dark' in European history, it ---- the two centuries that ---- the collapse of Roman authority in Britain at the start of the fifth century.
+[99] A) may be / follow
+[100] B) would be / followed
+[101] C) used to be / had followed
+[102] D) must be / have followed
+[103] E) had to be / were following
+[104] ✅ Doğru cevap: D) must be / have followed
+[105] 🇹🇷 Türkçe çeviri: Avrupa tarihinde herhangi bir dönem gerçekten 'karanlık' olarak adlandırılabilirse, bu dönem, beşinci yüzyılın başında Britanya'daki Roma yönetiminin çöküşünü takip eden iki yüzyıl olmalıdır.
+[106] 🔎 Neden doğru? Genel/kesin bir çıkarımı bildiren "must be" ile bu iki yüzyılın çöküşü TAKİP ETTİĞİNİ bildiren present perfect "have followed" doğru bileşimdir.
+[107] ❌ Diğer seçenekler: A) may be/follow — zayıf olasılık, cümledeki KESİN çıkarımla uyumsuz.
+B) would be/followed — şart kipi burada gereksiz.
+C) used to be/had followed — alışkanlık anlamı yanlış.
+E) had to be/were following — geçmiş zorunluluk+sürerlilik, uyumsuz.
+[108] 🧠 YDS taktiği: "If X could ever be called Y, it ---- Z" yapısında genel bir çıkarım/tanım bildiren "must be" ara.
+[109] 📌 Öğrenilmesi gereken: must be (…olmalı - kesin çıkarım)
+[110] 9. Dilbilgisi Sorusu (Mastar/Edilgen)
+[111] Wall paintings previously ---- in three Spanish caves have now been dated to 65,000 years ago – some 20,000 years before Homo sapiens is thought ---- in Europe.
+[112] A) to have been discovered / to arrive
+[113] B) being discovered / having arrived
+[114] C) discovered / to have arrived
+[115] D) having been discovered / to be arriving
+[116] E) to be discovered / arriving
+[117] ✅ Doğru cevap: A) to have been discovered / to arrive
+[118] 🇹🇷 Türkçe çeviri: Daha önce üç İspanyol mağarasında keşfedilmiş olan duvar resimleri, şimdi 65.000 yıl öncesine tarihlendirilmiştir – Homo sapiens'in Avrupa'ya vardığı düşünülen tarihten yaklaşık 20.000 yıl önce.
+[119] 🔎 Neden doğru? "Previously" ile tamamlanmış bir edilgen mastar ("to have been discovered") ve "is thought ---- " yapısında ileriye dönük bir mastar ("to arrive") doğru kombinasyondur.

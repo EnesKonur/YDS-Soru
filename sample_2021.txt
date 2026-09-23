@@ -1,0 +1,120 @@
+[0] YDS Özgün Pratik Soruları (1-80)
+[1] 2021-YDS/1, 18 Nisan 2021 formatı temel alınarak hazırlanmıştır.
+[2] 1-6: Kelime Sorusu (Sözcük Bilgisi)
+[3] Kelime Sorusu
+[4] 1. The most effective ---- to shoplifting is visible security cameras, but retailers should also consider staff training, as equipment alone can be costly.
+[5] A) resemblance
+[6] B) adjustment
+[7] C) deterrent
+[8] D) submission
+[9] E) adherence
+[10] ✅ Doğru cevap: C) deterrent
+[11] 🔎 Neden doğru? Cümlede güvenlik kameralarının mağazadan hırsızlığı önleyici/caydırıcı bir unsur olduğu anlatılıyor. 'deterrent' (caydırıcı unsur) bu bağlama tam uyar.
+[12] ❌ Diğer seçenekler neden yanlış?
+[13] A) resemblance: benzerlik
+[14] B) adjustment: ayarlama, uyarlama
+[15] D) submission: teslim olma, boyun eğme
+[16] E) adherence: bağlılık, uyma
+[17] 🧠 YDS taktiği: Kelime sorularında cümlenin genel mantığını (neden-sonuç, karşıtlık) yakalayın; 'the most effective ---- to X' kalıbı genelde 'caydırıcı/önleyici' anlamındaki bir isim ister.
+[18] 📌 Öğrenilmesi gereken kelime/kalıp: deterrent (n.): caydırıcı unsur / caydırıcı şey
+[19] Kelime Sorusu
+[20] 2. Lactose intolerance is fairly widespread, but the ---- of the condition differs considerably depending on ethnicity and geographic region.
+[21] A) utilisation
+[22] B) withdrawal
+[23] C) precaution
+[24] D) termination
+[25] E) prevalence
+[26] ✅ Doğru cevap: E) prevalence
+[27] 🔎 Neden doğru? Cümle laktoz intoleransının yaygınlığının etnik köken ve bölgeye göre değiştiğini anlatıyor; 'prevalence' (yaygınlık/görülme sıklığı) bu bağlamda doğru seçenektir.
+[28] ❌ Diğer seçenekler neden yanlış?
+[29] A) utilisation: kullanım
+[30] B) withdrawal: geri çekilme, çekilme
+[31] C) precaution: önlem
+[32] D) termination: sona erdirme
+[33] 🧠 YDS taktiği: 'varies according to/depending on' ifadesinin öznesi genelde bir oran, yaygınlık veya sıklık bildiren bir isimdir; anlam olarak istatistiksel bir kavram arayın.
+[34] 📌 Öğrenilmesi gereken kelime/kalıp: prevalence (n.): yaygınlık, görülme sıklığı
+[35] Kelime Sorusu
+[36] 3. The expansion and contraction of metal bridges are not ----, since it takes hours for the structure to fully absorb or release the day's heat.
+[37] A) hospitable
+[38] B) convertible
+[39] C) instantaneous
+[40] D) detrimental
+[41] E) preliminary
+[42] ✅ Doğru cevap: C) instantaneous
+[43] 🔎 Neden doğru? Cümlede metal köprülerin ısıyı saatler içinde emdiği/yaydığı belirtiliyor; bu da genleşme ve büzülmenin 'ani/anlık' olmadığı anlamına gelir. 'instantaneous' (anlık) doğru seçenektir.
+[44] ❌ Diğer seçenekler neden yanlış?
+[45] A) hospitable: konuksever, elverişli
+[46] B) convertible: dönüştürülebilir
+[47] D) detrimental: zararlı
+[48] E) preliminary: ön, hazırlık niteliğinde
+[49] 🧠 YDS taktiği: 'since it takes [zaman ifadesi]' kalıbı genelde bir önceki boşluğun 'ani/hızlı' anlamındaki bir sıfatın olumsuzlanması gerektiğini işaret eder.
+[50] 📌 Öğrenilmesi gereken kelime/kalıp: instantaneous (adj.): ani, anlık
+[51] Kelime Sorusu
+[52] 4. Since the early 2000s, e-waste generation has increased ----, and the resulting toxic contamination has become a pressing environmental concern.
+[53] A) exponentially
+[54] B) conveniently
+[55] C) alternatively
+[56] D) precisely
+[57] E) fruitfully
+[58] ✅ Doğru cevap: A) exponentially
+[59] 🔎 Neden doğru? Cümle elektronik atığın giderek büyüyen bir çevre sorununa dönüştüğünü anlatıyor; bu tür hızlı ve katlanarak artan büyümeyi ifade eden kelime 'exponentially' (katlanarak) olmalıdır.
+[60] ❌ Diğer seçenekler neden yanlış?
+[61] B) conveniently: uygun bir şekilde
+[62] C) alternatively: alternatif olarak
+[63] D) precisely: tam olarak, kesinlikle
+[64] E) fruitfully: verimli bir şekilde
+[65] 🧠 YDS taktiği: 'has increased ----' yapısında, sonrasında 'has become a global/pressing issue' gibi bir sonuç cümlesi varsa, artışın büyüklüğünü/şiddetini belirten bir zarf aranır.
+[66] 📌 Öğrenilmesi gereken kelime/kalıp: exponentially (adv.): katlanarak, üstel biçimde
+[67] Kelime Sorusu
+[68] 5. The most fundamental step towards digital literacy is to ---- proficiency in using basic software for everyday professional or personal needs.
+[69] A) exclude
+[70] B) relieve
+[71] C) deteriorate
+[72] D) restrict
+[73] E) attain
+[74] ✅ Doğru cevap: E) attain
+[75] 🔎 Neden doğru? Cümlede dijital okuryazarlığa giden en temel adımın günlük yazılım kullanımında yeterlilik 'kazanmak/elde etmek' olduğu anlatılıyor; 'attain' (elde etmek, kazanmak) bu bağlama uyar.
+[76] ❌ Diğer seçenekler neden yanlış?
+[77] A) exclude: hariç tutmak
+[78] B) relieve: hafifletmek, rahatlatmak
+[79] C) deteriorate: kötüleşmek, bozulmak
+[80] D) restrict: kısıtlamak, sınırlamak
+[81] 🧠 YDS taktiği: 'the most basic/fundamental path/step to X is to ---- competence/proficiency' kalıbında boşluğa 'kazanmak, elde etmek' anlamındaki bir fiil gelir.
+[82] 📌 Öğrenilmesi gereken kelime/kalıp: attain (v.): elde etmek, kazanmak, ulaşmak
+[83] Kelime Sorusu
+[84] 6. Starting a small business can be exciting, but it can also be quite demanding, as many entrepreneurs ---- cash-flow problems and give up before they truly get going.
+[85] A) hand over
+[86] B) look for
+[87] C) turn down
+[88] D) give up
+[89] E) run into
+[90] ✅ Doğru cevap: E) run into
+[91] 🔎 Neden doğru? Cümlede girişimcilerin nakit akışı sorunlarıyla 'karşılaştığı/karşı karşıya kaldığı' ve bu yüzden vazgeçtiği anlatılıyor; 'run into' (aniden karşılaşmak, rastlamak) bu bağlama uyar.
+[92] ❌ Diğer seçenekler neden yanlış?
+[93] A) hand over: teslim etmek, devretmek
+[94] B) look for: aramak
+[95] C) turn down: reddetmek
+[96] D) give up: vazgeçmek
+[97] 🧠 YDS taktiği: 'give up' fiili cümlede zaten sonuç olarak geçiyorsa, boşluğa aynı anlamdaki bir seçenek (D) çeldirici olarak konur; boşluk aslında sorunla 'karşılaşmayı' ifade eden bir deyimsel fiil ister.
+[98] 📌 Öğrenilmesi gereken kelime/kalıp: run into (phr. v.): (bir sorunla) aniden karşılaşmak
+[99] 7-16: Dilbilgisi Sorusu (Zaman / Kip / Edat / Bağlaç)
+[100] Dilbilgisi Sorusu (Zaman/Kip)
+[101] 7. A landmark study ---- that people who ---- fewer than six hours a night are at a significantly higher risk of cardiovascular disease.
+[102] A) revealed / will sleep
+[103] B) has revealed / sleep
+[104] C) reveals / will be sleeping
+[105] D) will reveal / have slept
+[106] E) had revealed / had been sleeping
+[107] ✅ Doğru cevap: B) has revealed / sleep
+[108] 🔎 Neden doğru? İlk boşlukta genel geçerliliği olan bir bilimsel bulgudan söz edildiği için present perfect ('has revealed') tercih edilir; ikinci boşlukta ise alışkanlık/genel durum bildiren simple present ('sleep') kullanılır.
+[109] ❌ Diğer seçenekler neden yanlış?
+[110] A) revealed / will sleep: geçmiş zaman + gelecek zaman uyumsuz
+[111] C) reveals / will be sleeping: geniş zaman + gelecekte sürerlilik anlam olarak uymuyor
+[112] D) will reveal / have slept: gelecek zaman + present perfect mantıksal olarak çelişkili
+[113] E) had revealed / had been sleeping: past perfect, genel bir bilimsel gerçek için uygun değil
+[114] 🧠 YDS taktiği: Bilimsel çalışma sonuçlarından bahsedilen cümlelerde 'has/have + V3' (present perfect) yaygındır; alışkanlık bildiren yan cümlelerde ise simple present kullanılır.
+[115] 📌 Öğrenilmesi gereken kelime/kalıp: a study has revealed that... / people who sleep... (genel gerçek + alışkanlık)
+[116] Dilbilgisi Sorusu (Kip)
+[117] 8. Ideally, the fall of the Berlin Wall ---- a genuine reduction in political tension across Europe; in reality, however, new conflicts ---- in other regions.
+[118] A) might have signified / will have moved
+[119] B) would have signified / used to move

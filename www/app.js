@@ -82,6 +82,7 @@ class YDSApp {
     this.updateStats();
     this.updateHomeStats();
     this.updateLearningPoolBadge();
+    this.updateNotesCountBadge();
     this.populateFilterDropdowns();
     this.initDailyTip();
     this.showHomeView();
@@ -192,12 +193,515 @@ class YDSApp {
 
   loadNotes() {
     try {
-      return JSON.parse(localStorage.getItem(STORAGE_KEYS.NOTES)) || {};
+      const saved = localStorage.getItem("yds_question_notes") || localStorage.getItem(STORAGE_KEYS?.NOTES || "yds_notes");
+      return saved ? JSON.parse(saved) : {};
     } catch { return {}; }
   }
 
   saveNotes() {
-    localStorage.setItem(STORAGE_KEYS.NOTES, JSON.stringify(this.notes));
+    try {
+      const data = JSON.stringify(this.notes);
+      localStorage.setItem("yds_question_notes", data);
+      localStorage.setItem(STORAGE_KEYS?.NOTES || "yds_notes", data);
+      this.updateNotesCountBadge();
+    } catch (e) {
+      console.error("Not kaydetme hatası:", e);
+    }
+  }
+
+  getQuestionNote(questionId) {
+    if (!questionId || !this.notes) return null;
+    const item = this.notes[questionId];
+    if (!item) return null;
+    if (typeof item === 'string') {
+      return { note: item, updatedAt: null };
+    }
+    return item;
+  }
+
+  saveCurrentQuestionNote() {
+    try {
+      const q = this.filteredQuestions[this.currentIndex];
+      if (!q) return;
+
+      const textarea = document.getElementById("questionNoteTextarea");
+      if (!textarea) return;
+
+      const noteText = textarea.value.trim();
+      if (noteText.length === 0) {
+        this.deleteCurrentQuestionNote();
+        return;
+      }
+
+      // Sanal klavyeyi derhal kapatarak ekran kaymasını/takılmasını engelle
+      textarea.blur();
+      if (document.activeElement && typeof document.activeElement.blur === 'function') {
+        document.activeElement.blur();
+      }
+
+      this.notes[q.id] = {
+        note: noteText,
+        updatedAt: new Date().toISOString(),
+        exam: `${q.exam || "YDS"} ${q.year || ""}`.trim(),
+        questionNumber: q.questionNumber || (this.currentIndex + 1)
+      };
+      this.saveNotes();
+
+      const statusEl = document.getElementById("questionNoteSaveStatus");
+      if (statusEl) {
+        statusEl.classList.remove("hidden");
+        setTimeout(() => statusEl.classList.add("hidden"), 1000);
+      }
+
+      this.updateQuestionNoteUI(q);
+      
+      // Bekletmeden akıcı şekilde kapat
+      setTimeout(() => {
+        this.closeQuestionNoteDrawer();
+      }, 100);
+    } catch (e) {
+      console.error("Not kaydetme hatası:", e);
+      this.closeQuestionNoteDrawer();
+    }
+  }
+
+  deleteCurrentQuestionNote() {
+    try {
+      const q = this.filteredQuestions[this.currentIndex];
+      if (!q) return;
+
+      if (this.notes[q.id]) {
+        delete this.notes[q.id];
+        this.saveNotes();
+      }
+
+      const textarea = document.getElementById("questionNoteTextarea");
+      if (textarea) textarea.value = "";
+      this.updateQuestionNoteCharCount();
+
+      this.updateQuestionNoteUI(q);
+      this.closeQuestionNoteDrawer();
+    } catch (e) {
+      console.error("Not silinirken hata:", e);
+      this.closeQuestionNoteDrawer();
+    }
+  }
+
+  openQuestionNoteDrawer() {
+    try {
+      const q = this.filteredQuestions[this.currentIndex];
+      if (!q) return;
+
+      const drawer = document.getElementById("questionNoteDrawer");
+      const titleEl = document.getElementById("questionNoteTitle");
+      const subtitleEl = document.getElementById("questionNoteSubtitle");
+      const textarea = document.getElementById("questionNoteTextarea");
+      const deleteBtn = document.getElementById("deleteQuestionNoteBtn");
+      const statusEl = document.getElementById("questionNoteSaveStatus");
+
+      if (statusEl) statusEl.classList.add("hidden");
+
+      if (titleEl) {
+        titleEl.textContent = `Soru ${this.currentIndex + 1} Notu`;
+      }
+      if (subtitleEl) {
+        subtitleEl.textContent = `${q.exam || "YDS"} ${q.year || ""} (Soru No: ${q.questionNumber || this.currentIndex + 1})`;
+      }
+
+      const existingNote = this.getQuestionNote(q.id);
+      if (textarea) {
+        textarea.value = existingNote ? (existingNote.note || existingNote.text || "") : "";
+      }
+      this.updateQuestionNoteCharCount();
+
+      if (deleteBtn) {
+        if (existingNote && (existingNote.note || existingNote.text)) {
+          deleteBtn.classList.remove("hidden");
+        } else {
+          deleteBtn.classList.add("hidden");
+        }
+      }
+
+      if (drawer) {
+        this.lockScroll();
+        drawer.classList.remove("hidden");
+        drawer.classList.add("active");
+        requestAnimationFrame(() => {
+          drawer.classList.add("open");
+        });
+      }
+
+      setTimeout(() => {
+        if (textarea) textarea.focus();
+      }, 150);
+    } catch (e) {
+      console.error("Not çekmecesi açılırken hata:", e);
+      this.unlockScroll();
+    }
+  }
+
+  closeQuestionNoteDrawer() {
+    try {
+      // Klavyeyi ve odaklanmayı hemen serbest bırak
+      const textarea = document.getElementById("questionNoteTextarea");
+      if (textarea) textarea.blur();
+      if (document.activeElement && typeof document.activeElement.blur === 'function') {
+        document.activeElement.blur();
+      }
+
+      // Sayfa kaydırma kilidini hemen açarak takılmayı tamamen yok et
+      this.unlockScroll();
+
+      const drawer = document.getElementById("questionNoteDrawer");
+      if (!drawer) return;
+
+      drawer.classList.remove("open");
+      setTimeout(() => {
+        drawer.classList.remove("active");
+      }, 220);
+    } catch (e) {
+      console.error("Not çekmecesi kapatılırken hata:", e);
+      this.unlockScroll();
+    }
+  }
+
+  updateQuestionNoteCharCount() {
+    const textarea = document.getElementById("questionNoteTextarea");
+    const countEl = document.getElementById("questionNoteCharCount");
+    if (textarea && countEl) {
+      countEl.textContent = `${textarea.value.length} karakter`;
+    }
+  }
+
+  updateQuestionNoteUI(q) {
+    if (!q) return;
+    const noteData = this.getQuestionNote(q.id);
+    const hasNote = !!(noteData && noteData.note && noteData.note.trim().length > 0);
+
+    const noteBtn = document.getElementById("questionNoteBtn");
+    const btnText = document.getElementById("questionNoteBtnText");
+    const indicator = document.getElementById("questionNoteIndicator");
+
+    if (noteBtn) {
+      if (hasNote) {
+        noteBtn.className = "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-black text-white bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 border border-amber-600 shadow-md shadow-amber-500/25 transition transform active:scale-95";
+        noteBtn.title = "Kayıtlı notunuz var (Düzenlemek için tıklayın)";
+        if (btnText) btnText.textContent = "Notum Var";
+      } else {
+        noteBtn.className = "inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl text-xs font-bold text-amber-800 dark:text-amber-200 bg-amber-50 hover:bg-amber-100 dark:bg-amber-950/60 dark:hover:bg-amber-900 border border-amber-300 dark:border-amber-700 shadow-2xs transition transform active:scale-95";
+        noteBtn.title = "Bu soruya özel not al";
+        if (btnText) btnText.textContent = "Not Al";
+      }
+    }
+
+    if (indicator) {
+      if (hasNote) {
+        indicator.className = "w-2 h-2 rounded-full bg-white ring-2 ring-amber-300 animate-pulse";
+        indicator.classList.remove("hidden");
+      } else {
+        indicator.classList.add("hidden");
+      }
+    }
+
+    // Soru Gövdesindeki Doğrudan Not Kutucuğu
+    const inlineCard = document.getElementById("questionInlineNoteCard");
+    const inlineText = document.getElementById("questionInlineNoteText");
+    if (inlineCard && inlineText) {
+      if (hasNote) {
+        inlineCard.classList.remove("hidden");
+        inlineText.textContent = noteData.note;
+      } else {
+        inlineCard.classList.add("hidden");
+        inlineText.textContent = "";
+      }
+    }
+
+    // Explanation section reminder card
+    const explCard = document.getElementById("explanationNoteCard");
+    const explText = document.getElementById("explanationNoteText");
+    if (explCard && explText) {
+      if (hasNote) {
+        explCard.classList.remove("hidden");
+        explText.textContent = noteData.note;
+      } else {
+        explCard.classList.add("hidden");
+        explText.textContent = "";
+      }
+    }
+  }
+
+  escapeHtml(str) {
+    if (str === null || str === undefined) return "";
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  findQuestionById(id) {
+    if (id === null || id === undefined) return null;
+    const strId = String(id);
+    
+    // 1. window.questionRepo (getQuestionById)
+    if (window.questionRepo && typeof window.questionRepo.getQuestionById === 'function') {
+      try {
+        const q = window.questionRepo.getQuestionById(strId);
+        if (q) return q;
+      } catch (_) {}
+    }
+
+    // 2. this.filteredQuestions
+    if (Array.isArray(this.filteredQuestions)) {
+      const q = this.filteredQuestions.find(x => String(x?.id) === strId);
+      if (q) return q;
+    }
+
+    // 3. this.allQuestions
+    if (Array.isArray(this.allQuestions)) {
+      const q = this.allQuestions.find(x => String(x?.id) === strId);
+      if (q) return q;
+    }
+
+    // 4. Custom Exams
+    if (typeof CUSTOM_EXAM_QUESTIONS !== 'undefined' && Array.isArray(CUSTOM_EXAM_QUESTIONS)) {
+      const q = CUSTOM_EXAM_QUESTIONS.find(x => String(x?.id) === strId);
+      if (q) return q;
+    }
+
+    // 5. Practice Questions
+    if (typeof PRACTICE_YDS_QUESTIONS !== 'undefined' && Array.isArray(PRACTICE_YDS_QUESTIONS)) {
+      const q = PRACTICE_YDS_QUESTIONS.find(x => String(x?.id) === strId);
+      if (q) return q;
+    }
+
+    return null;
+  }
+
+  // --- Tüm Soru Notlarım (Notlarım Sekmesi & Modalı) ---
+  updateNotesCountBadge() {
+    try {
+      const noteKeys = Object.keys(this.notes || {}).filter(k => {
+        const item = this.notes[k];
+        return item && ((item.note && item.note.trim().length > 0) || (typeof item === 'string' && item.trim().length > 0));
+      });
+      const count = noteKeys.length;
+
+      const topBadge = document.getElementById("notesCountBadge");
+      if (topBadge) topBadge.textContent = count;
+
+      const allNotesBadge = document.getElementById("allNotesCountBadge");
+      if (allNotesBadge) allNotesBadge.textContent = count;
+
+      const homeBadge = document.getElementById("homeNotesBadge");
+      if (homeBadge) homeBadge.textContent = count;
+    } catch (_) {}
+  }
+
+  openAllNotesModal() {
+    try {
+      const modal = document.getElementById("allNotesModal");
+      if (!modal) return;
+      this.lockScroll();
+      const searchInput = document.getElementById("allNotesSearchInput");
+      if (searchInput) searchInput.value = "";
+      this.renderAllNotesList();
+      modal.classList.remove("hidden");
+    } catch (e) {
+      console.error("Notlar modalı açılırken hata:", e);
+      this.unlockScroll();
+    }
+  }
+
+  closeAllNotesModal() {
+    try {
+      this.unlockScroll();
+      document.getElementById("allNotesModal")?.classList.add("hidden");
+    } catch (e) {
+      console.error("Notlar modalı kapatılırken hata:", e);
+      this.unlockScroll();
+    }
+  }
+
+  renderAllNotesList() {
+    try {
+      const container = document.getElementById("allNotesListContainer");
+      if (!container) return;
+
+      const searchInput = document.getElementById("allNotesSearchInput");
+      const searchFilter = (searchInput?.value || "").trim().toLowerCase();
+
+      const noteEntries = Object.entries(this.notes || {}).filter(([qId, item]) => {
+        if (!item) return false;
+        const text = typeof item === 'string' ? item : (item.note || item.text || '');
+        return text.trim().length > 0;
+      });
+
+      this.updateNotesCountBadge();
+
+      if (noteEntries.length === 0) {
+        container.innerHTML = `
+          <div class="py-12 text-center text-gray-500 dark:text-gray-400 space-y-3">
+            <div class="w-16 h-16 rounded-3xl bg-amber-50 dark:bg-amber-950/40 text-amber-500 mx-auto flex items-center justify-center text-3xl shadow-xs">📝</div>
+            <h4 class="text-base font-bold text-gray-800 dark:text-gray-200">Henüz Kayıtlı Notunuz Yok</h4>
+            <p class="text-xs sm:text-sm max-w-sm mx-auto leading-relaxed">
+              Soruları çözerken soru başlığındaki <strong>"📝 Not Al"</strong> butonuna tıklayarak soruya özel ipuçlarınızı ve kelime notlarınızı buraya kaydedebilirsiniz.
+            </p>
+          </div>
+        `;
+        return;
+      }
+
+      // Arama filtresi uygula
+      const filteredEntries = noteEntries.filter(([qId, item]) => {
+        if (!searchFilter) return true;
+        const noteText = (typeof item === 'string' ? item : (item.note || item.text || '')).toLowerCase();
+        
+        const qObj = this.findQuestionById(qId);
+        const qText = (qObj?.questionText || '').toLowerCase();
+        const examName = (item?.exam || qObj?.exam || '').toLowerCase();
+
+        return noteText.includes(searchFilter) || qText.includes(searchFilter) || examName.includes(searchFilter);
+      });
+
+      if (filteredEntries.length === 0) {
+        container.innerHTML = `
+          <div class="py-8 text-center text-gray-500 dark:text-gray-400">
+            <p class="text-sm">"<strong>${this.escapeHtml(searchFilter)}</strong>" aramasına uygun kayıtlı bir not bulunamadı.</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = "";
+
+      filteredEntries.forEach(([qId, item]) => {
+        const rawNoteText = typeof item === 'string' ? item : (item.note || item.text || '');
+        const noteText = this.escapeHtml(rawNoteText);
+        const examName = this.escapeHtml(item?.exam || "YDS Sorusu");
+        const qNum = item?.questionNumber ? `Soru ${this.escapeHtml(item.questionNumber)}` : "Soru";
+        
+        let dateStr = "";
+        if (item?.updatedAt) {
+          try {
+            const d = new Date(item.updatedAt);
+            dateStr = d.toLocaleDateString("tr-TR", { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+          } catch (_) {}
+        }
+
+        const qObj = this.findQuestionById(qId);
+        const qStemPreview = qObj?.questionText ? this.escapeHtml(qObj.questionText.slice(0, 110) + (qObj.questionText.length > 110 ? "..." : "")) : "";
+
+        const card = document.createElement("div");
+        card.className = "p-4 sm:p-5 rounded-2xl bg-gray-50/80 dark:bg-gray-800/80 border border-gray-200/80 dark:border-gray-700 hover:border-amber-400 dark:hover:border-amber-500 transition-all shadow-2xs space-y-3 cursor-pointer";
+        
+        card.innerHTML = `
+          <div class="flex items-center justify-between gap-2">
+            <div class="flex items-center space-x-2 min-w-0">
+              <span class="px-2.5 py-0.5 rounded-lg text-[11px] font-black bg-amber-100 dark:bg-amber-950/70 text-amber-800 dark:text-amber-300 truncate max-w-[200px] sm:max-w-none">
+                ${examName}
+              </span>
+              <span class="text-xs font-bold text-gray-700 dark:text-gray-300 whitespace-nowrap">${qNum}</span>
+            </div>
+            ${dateStr ? `<span class="text-[11px] text-gray-400 font-medium whitespace-nowrap">${dateStr}</span>` : ""}
+          </div>
+
+          <div class="p-3 rounded-xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-900/40 text-amber-950 dark:text-amber-100 text-xs sm:text-sm leading-relaxed whitespace-pre-wrap font-medium">
+            ${noteText}
+          </div>
+
+          ${qStemPreview ? `
+            <div class="text-xs text-gray-500 dark:text-gray-400 italic line-clamp-2 pl-2 border-l-2 border-amber-400/80 dark:border-amber-600">
+              "${qStemPreview}"
+            </div>
+          ` : ""}
+
+          <div class="flex items-center justify-between pt-1 border-t border-gray-200/50 dark:border-gray-700/50">
+            <button type="button" class="delete-note-btn text-xs font-bold text-rose-500 hover:text-rose-600 dark:hover:text-rose-400 transition flex items-center gap-1 py-1 px-2 rounded-lg hover:bg-rose-50 dark:hover:bg-rose-950/50">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
+              <span>Sil</span>
+            </button>
+
+            <button type="button" class="goto-question-btn inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-extrabold bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white shadow-xs transition transform active:scale-95">
+              <span>Soruya Git</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </button>
+          </div>
+        `;
+
+        card.addEventListener("click", (e) => {
+          if (e.target.closest('.delete-note-btn')) return;
+          this.goToQuestionById(qId);
+        });
+
+        card.querySelector(".delete-note-btn")?.addEventListener("click", (e) => {
+          e.stopPropagation();
+          if (confirm("Bu soruya aldığınız notu silmek istediğinize emin misiniz?")) {
+            delete this.notes[qId];
+            this.saveNotes();
+            this.renderAllNotesList();
+            const currentQ = this.filteredQuestions[this.currentIndex];
+            if (currentQ && String(currentQ.id) === String(qId)) {
+              this.updateQuestionNoteUI(currentQ);
+            }
+          }
+        });
+
+        container.appendChild(card);
+      });
+    } catch (e) {
+      console.error("Not listesi renderlanırken hata:", e);
+    }
+  }
+
+  goToQuestionById(questionId) {
+    if (!questionId) return;
+
+    this.closeAllNotesModal();
+    this.closeQuestionNoteDrawer();
+
+    const targetQ = this.findQuestionById(questionId);
+
+    if (!targetQ) {
+      alert("Soru bulunamadı.");
+      return;
+    }
+
+    // Eğer soru gerçek bir YDS denemesine aitse
+    if (targetQ.exam && !targetQ.exam.includes("Alıştırma") && window.questionRepo) {
+      this.startExamMode(targetQ.exam);
+      const idx = this.filteredQuestions.findIndex(q => String(q.id) === String(targetQ.id));
+      if (idx >= 0) {
+        this.currentIndex = idx;
+        this.onQuestionChanged();
+        this.renderQuestion();
+      }
+    } else {
+      // Alıştırma modunda göster
+      this.showQuestionView('practice');
+      const scopeFilter = document.getElementById("searchScopeFilter");
+      if (scopeFilter) scopeFilter.value = "all";
+      const statusFilter = document.getElementById("statusFilter");
+      if (statusFilter) statusFilter.value = "all";
+      const catFilter = document.getElementById("categoryFilter");
+      if (catFilter) catFilter.value = "all";
+      const kwInput = document.getElementById("keywordInput");
+      if (kwInput) kwInput.value = "";
+      
+      this.applyFilters();
+      const idx = this.filteredQuestions.findIndex(q => String(q.id) === String(targetQ.id));
+      if (idx >= 0) {
+        this.currentIndex = idx;
+        this.renderQuestion();
+      } else {
+        this.filteredQuestions = [targetQ];
+        this.currentIndex = 0;
+        this.renderQuestion();
+      }
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   // --- Ses Efektleri (Web Audio API) ---
@@ -316,11 +820,14 @@ class YDSApp {
       // 4. Çözüm Durumu Filtresi
       const ans = this.userAnswers[q.id];
       const isFav = this.favorites.includes(q.id);
+      const noteItem = this.notes ? this.notes[q.id] : null;
+      const hasNote = !!(noteItem && ((noteItem.note && noteItem.note.trim().length > 0) || (typeof noteItem === 'string' && noteItem.trim().length > 0)));
 
       if (status === "unsolved" && ans) return false;
       if (status === "correct" && (!ans || !ans.isCorrect)) return false;
       if (status === "wrong" && (!ans || ans.isCorrect)) return false;
       if (status === "favorites" && !isFav) return false;
+      if (status === "notes" && !hasNote) return false;
 
       return true;
     });
@@ -468,7 +975,9 @@ class YDSApp {
     if (categoryBadge) categoryBadge.textContent = q.category || "Genel";
     if (subCategoryBadge) subCategoryBadge.textContent = q.subCategory || "";
     if (difficultyBadge) difficultyBadge.textContent = q.difficulty || "Orta";
-    if (qNumberDisplay) qNumberDisplay.textContent = `Soru ${this.currentIndex + 1} / ${this.filteredQuestions.length} (YDS No: ${q.questionNumber || this.currentIndex + 1})`;
+    if (qNumberDisplay) qNumberDisplay.textContent = `Soru ${this.currentIndex + 1} / ${this.filteredQuestions.length}`;
+    const qYdsDisplay = document.getElementById("qYdsNumberDisplay");
+    if (qYdsDisplay) qYdsDisplay.textContent = `(YDS No: ${q.questionNumber || this.currentIndex + 1})`;
 
     // Favori durumu
     const isFav = this.favorites.includes(q.id);
@@ -477,6 +986,9 @@ class YDSApp {
         ? `<svg class="w-5 h-5 fill-amber-400 text-amber-500" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>`
         : `<svg class="w-5 h-5 text-gray-400 hover:text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>`;
     }
+
+    // Soru Notu Göstergesi
+    this.updateQuestionNoteUI(q);
 
     // Paragraf varsa göster
     const passageContainer = document.getElementById("passageContainer");
@@ -814,6 +1326,9 @@ class YDSApp {
         document.getElementById("keyWordsCard")?.classList.add("hidden");
       }
     }
+
+    // Soru Notu Hatırlatıcısı (Çözüm Alanında)
+    this.updateQuestionNoteUI(q);
   }
 
   // --- Kelimeye Tıklayınca Açılan Sözlük Penceresi ---
@@ -2190,8 +2705,6 @@ class YDSApp {
     const poolLabelH = document.getElementById("poolBtnLabel");
     if (poolLabelH) {
       poolLabelH.textContent = "Kelime Havuzum";
-      poolLabelH.classList.remove("hidden");
-      poolLabelH.classList.add("inline");
     }
     this.currentView = "home";
     this.expandHeaderBars?.();
@@ -2870,6 +3383,18 @@ class YDSApp {
     document.getElementById("nextQuestionBtn")?.addEventListener("click", () => this.nextQuestion());
     document.getElementById("favoriteBtn")?.addEventListener("click", () => this.toggleFavorite());
 
+    // Soru Notu Olayları
+    document.getElementById("questionNoteBtn")?.addEventListener("click", () => this.openQuestionNoteDrawer());
+    document.getElementById("questionNoteTextarea")?.addEventListener("input", () => this.updateQuestionNoteCharCount());
+    document.getElementById("saveQuestionNoteBtn")?.addEventListener("click", () => this.saveCurrentQuestionNote());
+    document.getElementById("deleteQuestionNoteBtn")?.addEventListener("click", () => this.deleteCurrentQuestionNote());
+    document.getElementById("openNotesModalBtn")?.addEventListener("click", () => this.openAllNotesModal());
+    document.getElementById("closeAllNotesModalBtn")?.addEventListener("click", () => this.closeAllNotesModal());
+    document.getElementById("allNotesModal")?.addEventListener("click", (e) => {
+      if (e.target.id === "allNotesModal") this.closeAllNotesModal();
+    });
+    document.getElementById("allNotesSearchInput")?.addEventListener("input", () => this.renderAllNotesList());
+
     // Zamanlayıcı
     document.getElementById("timerToggleBtn")?.addEventListener("click", () => this.toggleTimer());
     document.getElementById("timerResetBtn")?.addEventListener("click", () => this.resetTimer());
@@ -3249,23 +3774,26 @@ class YDSApp {
 
     
   handleHardwareBackButton() {
-    // 1. Ak bir modal varsa kapat (en Ǭstteki modal)
+    // 1. Açık bir modal veya çekmece varsa kapat (en üstteki panel)
     const modals = [
+      { id: "allNotesModal", closeFn: () => this.closeAllNotesModal() },
+      { id: "questionNoteDrawer", closeFn: () => this.closeQuestionNoteDrawer() },
+      { id: "learnedVocabModal", closeFn: () => this.closeLearnedVocabModal() },
       { id: "dailyQuestionModal", closeFn: () => this.closeDailyQuestion() },
-        { id: "wordInspectorModal", closeFn: () => this.closeWordModal() },
+      { id: "wordInspectorModal", closeFn: () => this.closeWordModal() },
       { id: "flashcardModal", closeFn: () => this.closeFlashcardsModal() },
       { id: "learningPoolModal", closeFn: () => this.closeLearningPoolModal() },
       { id: "yearExamModal", closeFn: () => this.closeYearExamModal() },
       { id: "pdfImportModal", closeFn: () => document.getElementById("pdfImportModal")?.classList.add("hidden") },
       { id: "settingsModal", closeFn: () => document.getElementById("settingsModal")?.classList.add("hidden") },
       { id: "examScorecardModal", closeFn: () => this.closeExamScorecard() },
-      { id: "namePromptModal", closeFn: () => {} } // sim zorunluysa kapatlamaz
+      { id: "namePromptModal", closeFn: () => {} } // İsim zorunluysa kapatılamaz
     ];
 
     for (const modal of modals) {
       const el = document.getElementById(modal.id);
       if (el && !el.classList.contains("hidden")) {
-        if (modal.id === "namePromptModal") return; // Geri tuYu ile geilemez
+        if (modal.id === "namePromptModal") return; // Geri tuşu ile geçilemez
         modal.closeFn();
         return; // Sadece en Ǭsttekini kapat ve k
       }

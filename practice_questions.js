@@ -1,17 +1,16 @@
 // YDS Alıştırmalık Soru Havuzu (Practice Mode Questions Bank)
-// Resmi denemelerden tamamen bağımsız, çakışmayan soru seti.
-// Toplam 655 Adet Soru
+// Resmi denemelerden tamamen bağımsız, çakışmayan, tamamı doğrulanmış özgün soru seti.
+// Toplam 227 Adet Temizlenmiş & Doğrulanmış Soru
 
 const PRACTICE_YDS_QUESTIONS = [
   {
     "id": "practice-1",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 1,
     "category": "Kelime Bilgisi",
     "subCategory": "İsimler (Nouns)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "The rapid expansion of metropolitan areas has placed immense ------ on municipal water supply systems and sanitation infrastructures.",
     "options": {
@@ -24,12 +23,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Kelime Sorusu Taktiği: 'placed immense ------ on ...' yapısına dikkat edin. İngilizcede 'place a strain on' (baskı/yük yaratmak, zorlamak) kalıplaşmış ve YDS'de çok sık çıkan bir eşdizimdir (collocation).",
     "explanation": "'strain' gerginlik, aşırı yük, baskı anlamına gelir. Cümle Çevirisi: 'Metropol alanların hızlı genişlemesi, belediye su şebekesi sistemleri ve kanalizasyon altyapıları üzerinde muazzam bir baskı/yük yaratmıştır.' Diğer şıklar: remedy (çare), triumph (zafer), patience (sabır), consent (rıza, onay).",
-    "wordAnalysis": {
-      "strain": "baskı, gerginlik, yük",
-      "immense": "muazzam, muazzam büyüklükte",
-      "municipal": "belediyeye ait",
-      "sanitation": "hıfzıssıhha, kanalizasyon/sağlık koruma"
-    },
     "tags": [
       "vocabulary",
       "noun",
@@ -39,13 +32,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-2",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 2,
     "category": "Kelime Bilgisi",
     "subCategory": "Sıfatlar (Adjectives)",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Microplastics are now so ------ in marine ecosystems that researchers have detected synthetic fibers in the deepest oceanic trenches on Earth.",
     "options": {
@@ -58,12 +50,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Sıfat Sorusu Taktiği: 'so ------ that...' (öyle ... ki) neden-sonuç yapısı var. En derin okyanus çukurlarında bile bulunması, mikroplastiklerin her yere yayıldığını gösterir. 'Pervasive' (her tarafa yayılmış, istila edici) tam oturur.",
     "explanation": "'pervasive' her yere sinmiş, yaygın anlamına gelir. Cümle Çevirisi: 'Mikroplastikler deniz ekosistemlerinde artık öylesine yaygındır ki araştırmacılar Dünya'nın en derin okyanus çukurlarında bile sentetik lifler tespit etmiştir.' Diğer şıklar: redundant (gereksiz, fazlalık), negligible (ihmal edilebilir), fragile (kırılgan), hostile (düşmanca).",
-    "wordAnalysis": {
-      "pervasive": "her yere yayılmış, nüfuz eden",
-      "marine": "denize ait",
-      "trench": "çukur, hendek",
-      "synthetic": "yapay, sentetik"
-    },
     "tags": [
       "vocabulary",
       "adjective",
@@ -73,13 +59,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-3",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 3,
     "category": "Kelime Bilgisi",
     "subCategory": "Zarflar (Adverbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "The clinical trial was halted ------ after several volunteers reported unforeseen cardiovascular complications during the initial testing phase.",
     "options": {
@@ -92,12 +77,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Zarf Sorusu Taktiği: 'was halted ------ after unforeseen complications' (öngörülemeyen komplikasyonlar sonrasında ... durduruldu). Ciddi bir sağlık riski nedeniyle denemenin aniden/pat diye durdurulması anlatılmaktadır. 'Abruptly' (aniden, birdenbire) doğru cevaptır.",
     "explanation": "'abruptly' aniden, ansızın, beklenmedik biçimde demektir. Cümle Çevirisi: 'Klinik deney, birkaç gönüllünün ilk test aşamasında öngörülemeyen kardiyovasküler komplikasyonlar bildirmesi üzerine aniden durduruldu.' Diğer şıklar: gracefully (zarifçe), reluctantly (gönülsüzce), vaguely (belirsiz şekilde), consecutively (ardı ardına).",
-    "wordAnalysis": {
-      "abruptly": "aniden, pat diye",
-      "halt": "durdurmak",
-      "unforeseen": "öngörülemeyen",
-      "complication": "yan etki, karmaşa"
-    },
     "tags": [
       "vocabulary",
       "adverb",
@@ -107,13 +86,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-4",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 4,
     "category": "Kelime Bilgisi",
     "subCategory": "Fiiller (Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "International wildlife treaties aim to ------ illegal trade in endangered species by imposing severe penal sanctions on traffickers.",
     "options": {
@@ -126,12 +104,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Fiil Sorusu Taktiği: Yasa dışı ticareti (illegal trade) cezai yaptırımlarla 'kısıtlamak, dizginlemek, azaltmak' amaçlanır. 'Curtail' (kısmak, kısıtlamak, azaltmak) tam karşılıktır.",
     "explanation": "'curtail' kısıtlamak, azaltmak demektir. Cümle Çevirisi: 'Uluslararası yaban hayatı antlaşmaları, kaçakçılara ağır cezai yaptırımlar uygulayarak nesli tükenmekte olan türlerin yasa dışı ticaretini kısıtlamayı/azaltmayı hedefler.' Diğer şıklar: stimulate (teşvik etmek), tolerate (hoşgörmek), justify (haklı çıkarmak), accelerate (hızlandırmak).",
-    "wordAnalysis": {
-      "curtail": "kısmak, kısıtlamak",
-      "endangered": "nesli tükenmekte olan",
-      "sanction": "yaptırım",
-      "trafficker": "kaçakçı"
-    },
     "tags": [
       "vocabulary",
       "verb",
@@ -141,13 +113,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-5",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 5,
     "category": "Kelime Bilgisi",
     "subCategory": "Phrasal Verbs",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Aerospace engineers had to ------ numerous alternative design concepts before settling on the aerodynamic shape of the supersonic jet.",
     "options": {
@@ -160,12 +131,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Phrasal Verb Taktiği: 'before settling on...' (bir tasarım üzerinde uzlaşmadan/karar kılmadan önce) mühendisler birçok alternatifi 'elemek, göz ardı etmek' zorunda kalmıştır. 'Rule out' (elemek, ihtimal dışı bırakmak) tam oturur.",
     "explanation": "'rule out' saf dışı bırakmak, elemek, hesaba katmamak demektir. Cümle Çevirisi: 'Havacılık ve uzay mühendisleri, süpersonik jetin aerodinamik şekline karar vermeden önce çok sayıda alternatif tasarım konseptini elemek zorunda kaldılar.' Diğer şıklar: look up to (hayranlık duymak), make do with (ile yetinmek), run out of (tükenmek), stand up for (savunmak).",
-    "wordAnalysis": {
-      "rule out": "elemek, hariç tutmak",
-      "aerospace": "havacılık ve uzay",
-      "aerodynamic": "hava hareketine uygun",
-      "settle on": "üzerinde karar kılmak"
-    },
     "tags": [
       "vocabulary",
       "phrasal verb",
@@ -175,13 +140,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-6",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 6,
     "category": "Kelime Bilgisi",
     "subCategory": "Phrasal Verbs",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "It often takes several decades for developing nations to ------ the devastating economic consequences of prolonged civil conflicts.",
     "options": {
@@ -194,12 +158,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Phrasal Verb Taktiği: 'devastating economic consequences' (yıkıcı ekonomik sonuçlar) gibi olumsuz bir süreci 'atlatmak, üstesinden gelmek, toparlanmak' anlamına gelen deyim 'get over'dır.",
     "explanation": "'get over' bir hastalığı, şoku veya zorluğu atlatmak/iyileşmek demektir. Cümle Çevirisi: 'Gelişmekte olan ülkelerin uzun süren iç çatışmaların yıkıcı ekonomik sonuçlarını atlatması/toparlaması genellikle onlarca yıl alır.' Diğer şıklar: turn down (reddetmek), take after (benzemek), keep up with (ayak uydurmak), give off (yaymak - koku, gaz).",
-    "wordAnalysis": {
-      "get over": "atlatmak, üstesinden gelmek",
-      "devastating": "yıkıcı",
-      "prolonged": "uzun süren",
-      "conflict": "çatışma"
-    },
     "tags": [
       "vocabulary",
       "phrasal verb",
@@ -209,13 +167,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-7",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 7,
     "category": "Dilbilgisi",
     "subCategory": "Tense & Zaman Uyumu",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "By the time James Cook ------ the eastern coast of Australia in 1770, Indigenous Australians ------ on the continent for tens of thousands of years.",
     "options": {
@@ -228,11 +185,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Zaman Uyumu Taktiği: 'By the time + V2 (Past Simple) ..., Main Clause: Past Perfect (had + V3 / had been Ving)'. Cook 1770'te Avustralya'ya vardığında, yerli Aborjinler zaten on binlerce yıldır orada 'yaşamaktaydı'. 'reached / had been living' kusursuz geçmiş zaman sıralamasıdır.",
     "explanation": "Cümle Çevirisi: 'James Cook 1770 yılında Avustralya'nın doğu kıyısına ulaştığında, Yerli Avustralyalılar kıtada on binlerce yıldır yaşamaktaydı.' 'By the time + Past Simple' kalıbı ana cümlede mutlaka Past Perfect gerektirir.",
-    "wordAnalysis": {
-      "indigenous": "yerli, otokton",
-      "coast": "kıyı, sahil",
-      "continent": "kıta"
-    },
     "tags": [
       "grammar",
       "tense",
@@ -241,13 +193,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-8",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 8,
     "category": "Dilbilgisi",
     "subCategory": "Modals & Deduction",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "The ancient Indus Valley civilization ------ due to severe climate shifts and prolonged droughts, as recent sediment data ------ sudden reductions in monsoon rainfall.",
     "options": {
@@ -260,11 +211,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Modal Taktiği: Geçmişte yok olmuş bir uygarlık için güçlü geçmiş tahmini aranıyor: 'must have + V3' (çökmüş/yıkılmış olmalı). Güncel tortul verileri ('recent sediment data') ise günümüzde bunu göstermektedir ('indicate'). C şıkkı tam uyar.",
     "explanation": "Cümle Çevirisi: 'Antik İndus Vadisi uygarlığı şiddetli iklim değişiklikleri ve uzun süren kuraklıklar nedeniyle çökmüş olmalı, zira güncel tortul verileri muson yağmurlarında ani azalmalar olduğunu göstermektedir.'",
-    "wordAnalysis": {
-      "collapse": "çökmek, yıkılmak",
-      "sediment": "tortu, çökelti",
-      "monsoon": "muson rüzgarları/yağmuru"
-    },
     "tags": [
       "grammar",
       "modals",
@@ -274,13 +220,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-9",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 9,
     "category": "Dilbilgisi",
     "subCategory": "Edatlar (Prepositions)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "In medieval Europe, scholars relied heavily ------ handwritten parchment manuscripts to transmit scientific knowledge ------ successive generations.",
     "options": {
@@ -293,11 +238,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Edat Taktiği: 1. 'rely on / upon' (bir şeye güvenmek, bel bağlamak). 2. 'transmit something to someone' (bir şeyi birine aktarmak/iletmek). Bu iki temel kalıp doğrudan 'on / to' ikilisini zorunlu kılar.",
     "explanation": "Cümle Çevirisi: 'Orta Çağ Avrupası'nda akademisyenler, bilimsel bilgiyi ardışık nesillere aktarmak için büyük ölçüde el yazması parşömen metinlere bel bağlamışlardır.'",
-    "wordAnalysis": {
-      "rely on": "bel bağlamak, güvenmek",
-      "transmit": "iletmek, aktarmak",
-      "successive": "ardışık, birbirini izleyen"
-    },
     "tags": [
       "grammar",
       "preposition",
@@ -306,13 +246,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-10",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 10,
     "category": "Dilbilgisi",
     "subCategory": "Bağlaçlar & Zıtlık",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "------ quantum computing holds revolutionary potential for cryptography, practical implementations remain limited by severe hardware decoherence issues.",
     "options": {
@@ -325,11 +264,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Bağlaç Taktiği: Bir yanda 'devrimsel potansiyel taşıması' (olumlu), diğer yanda 'pratik uygulamaların donanım sorunları nedeniyle sınırlı kalması' (olumsuz). Bu zıtlığı (concession) kuran bağlaç 'While' (iken, -e rağmen) bağlacıdır.",
     "explanation": "Cümle Çevirisi: 'Kuantum bilişimi kriptografi için devrimsel bir potansiyel barındırmasına rağmen, pratik uygulamalar ciddi donanım dekoherans sorunları sebebiyle sınırlı kalmaktadır.' Diğer şıklar: Because/Since (çünkü - sebep bildirir), As long as (şart bildirir), In case (ihtimaline karşı).",
-    "wordAnalysis": {
-      "quantum": "kuantum",
-      "cryptography": "şifreleme bilimi",
-      "decoherence": "tutarlık kaybı, dekoherans"
-    },
     "tags": [
       "grammar",
       "conjunction",
@@ -338,13 +272,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-11",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 11,
     "category": "Cümle Tamamlama",
     "subCategory": "Zıtlık (Despite)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Despite dramatic improvements in agricultural machinery and crop genetics, ------.",
     "options": {
@@ -357,11 +290,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'Despite dramatic improvements...' (tarım makineleri ve ürün genetiğindeki çarpıcı gelişmelere rağmen) olumlu bir giriş yapılmıştır. Devamında beklenmedik olumsuz bir gerçek aranmalıdır: 'chronic hunger and malnutrition still afflict...' (kronik açlık ve yetersiz beslenme hâlâ yüz milyonlarca insanı vurmaktadır). B şıkkı tam zıtlığı verir.",
     "explanation": "Cümle Çevirisi: 'Tarım makineleri ve ürün genetiğindeki çarpıcı ilerlemelere rağmen, kronik açlık ve yetersiz beslenme gelişmekte olan bölgelerde yüz milyonlarca insanı hâlâ etkilemektedir.'",
-    "wordAnalysis": {
-      "malnutrition": "yetersiz beslenme",
-      "afflict": "zarar vermek, vurmak",
-      "machinery": "makine donanımı"
-    },
     "tags": [
       "sentence completion",
       "concession",
@@ -371,13 +299,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-12",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 12,
     "category": "Cümle Tamamlama",
     "subCategory": "Koşul (Unless)",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Unless sovereign governments introduce enforceable regulations on artificial intelligence models, ------.",
     "options": {
@@ -390,11 +317,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'Unless' (-medikçe / if not) olumsuz bir koşul uyarısıdır. 'Hükümetler yapay zeka modellerine yönelik uygulanabilir düzenlemeler getirmedikçe...' olumsuz bir felaket/risk beklenir: 'algoritmik yanlılık ve dezenformasyon kampanyaları demokratik seçimleri baltalayabilir'. E şıkkı birebirdir.",
     "explanation": "Cümle Çevirisi: 'Egemen hükümetler yapay zeka modelleri üzerine uygulanabilir düzenlemeler getirmedikçe, algoritmik yanlılık ve dezenformasyon kampanyaları küresel çapta demokratik seçimleri baltalayabilir.'",
-    "wordAnalysis": {
-      "enforceable": "uygulanabilir, yaptırımı olan",
-      "undermine": "baltalamak, zayıflatmak",
-      "bias": "yanlılık, önyargı"
-    },
     "tags": [
       "sentence completion",
       "condition",
@@ -404,13 +326,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-13",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 13,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Regular consumption of antioxidant-rich foods protects brain cells from oxidative stress and slows age-related memory decline.",
     "options": {
@@ -423,12 +344,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Regular consumption of antioxidant-rich foods' (Antioksidan açısından zengin besinlerin düzenli tüketimi). Yüklem 1: 'protects brain cells...' (beyin hücrelerini korur). Yüklem 2: 'and slows age-related memory decline' (ve yaşa bağlı hafıza gerilemesini yavaşlatır). E seçeneği eksiksiz ve birebir karşılar.",
     "explanation": "Cümle Çevirisi: 'Antioksidan açısından zengin besinlerin düzenli tüketimi, beyin hücrelerini oksidatif stresten korur ve yaşa bağlı hafıza gerilemesini yavaşlatır.' Diğer seçeneklerde özne ve yüklemler değiştirilmiştir.",
-    "wordAnalysis": {
-      "consumption": "tüketim",
-      "oxidative": "oksidatif",
-      "decline": "gerileme, azalma",
-      "antioxidant": "antioksidan"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -438,13 +353,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-14",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 14,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Güneş panellerinin verimliliği son yıllarda önemli ölçüde artmış olsa da yüksek kurulum maliyetleri hâlâ yaygın benimsenmenin önünde bir engel teşkil etmektedir.",
     "options": {
@@ -457,12 +371,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: '-sa da / -e rağmen' yapısı 'Although' ile başlar ('Although the efficiency of solar panels has increased significantly...'). Ana cümlenin yüklemi 'bir engel teşkil etmektedir' -> 'pose a barrier to widespread adoption'. D şıkkı tam oturur.",
     "explanation": "Cümle Çevirisi: 'Although the efficiency of solar panels has increased significantly in recent years, high installation costs still pose a barrier to widespread adoption.'",
-    "wordAnalysis": {
-      "efficiency": "verimlilik",
-      "installation": "kurulum",
-      "pose a barrier": "engel teşkil etmek",
-      "adoption": "benimseme"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -472,13 +380,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-15",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 15,
     "category": "Anlamca En Yakın Cümle",
     "subCategory": "Restatement",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Had the municipal authorities acted promptly to repair the aging embankment, the coastal storm surge would not have flooded the downtown commercial district.",
     "options": {
@@ -491,11 +398,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Restatement Taktiği: Cümlede devrik Type 3 gizli koşul vardır: 'Had the municipal authorities acted promptly ... would not have flooded' = Şayet belediye yetkilileri zamanında hareket etseydi su basmazdı (demek ki zamanında hareket etmediler ve bu yüzden su bastı!). C şıkkındaki 'Because local authorities failed to reinforce in time, the storm surge resulted in flooding...' tam olarak bu gerçekliği açıklar.",
     "explanation": "Cümle Çevirisi: 'Belediye yetkilileri eskiyen seti onarmak için zamanında harekete geçmiş olsaydı, kıyı fırtınası kabarması şehir merkezindeki ticari bölgeyi sular altında bırakmazdı.' A seçeneği eşanlamlı yapılarla gerçeği eksiksiz ifade eder.",
-    "wordAnalysis": {
-      "embankment": "kıyı seti, dolgu set",
-      "storm surge": "fırtına kabarması/dalgası",
-      "promptly": "derhal, zamanında"
-    },
     "tags": [
       "restatement",
       "inversion",
@@ -504,13 +406,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-16",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 16,
     "category": "Diyalog Tamamlama",
     "subCategory": "Karşılıklı Konuşma",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Professor Aris: Have you examined the newly unearthed Byzantine mosaics in the southern basilica?\n\nResearcher Elena: ------\n\nProfessor Aris: Exactly! That specific pigment was believed to be imported exclusively from Central Asia, which rewrites our understanding of 6th-century Mediterranean trade routes.",
     "options": {
@@ -523,11 +424,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Diyalog Taktiği: Profesörün cevabına bakın: 'Exactly! That specific pigment was believed to be imported exclusively from Central Asia...' (Kesinlikle! O belirli boya pigmentinin sadece Orta Asya'dan ithal edildiği sanılıyordu). Demek ki Elena bir boya pigmentinden bahsetmiştir. E şıkkındaki 'vivid lapis lazuli blue' (canlı lacivert/lapis lazuli mavisi) bu pigment referansını mükemmel şekilde sağlar.",
     "explanation": "Cümle Çevirisi: Elena: 'Evet ve beni en çok şaşırtan şey tavan madalyonlarında kullanılan canlı lacivert (lapis lazuli) rengi oldu.' Profesör: 'Kesinlikle! O boyanın...' E şıkkı diyalog akışına kusursuz uyar.",
-    "wordAnalysis": {
-      "mosaic": "mozaik",
-      "pigment": "boya maddesi, pigment",
-      "unearthed": "toprak altından çıkarılmış"
-    },
     "tags": [
       "dialogue",
       "archaeology",
@@ -536,13 +432,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-17",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 17,
     "category": "Paragraf Tamamlama",
     "subCategory": "Akış & Uyum",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "For centuries, astronomers deduced the presence of planets solely through visible starlight perturbations. ------. However, the advent of gravitational wave observatories like LIGO has revolutionized observational astrophysics. Today, scientists can detect the ripples generated when two black holes merge billions of light-years away, opening an entirely acoustic window into the cosmos.",
     "options": {
@@ -555,11 +450,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan sonraki 'However, the advent of gravitational wave observatories has revolutionized...' zıtlığına bakın. Yeni kütleçekim dalgaları bir devrim yarattıysa, boşlukta eski optik teleskopların sınırlılıkları anlatılmalıdır. A şıkkındaki 'These traditional optical methods were fundamentally restricted by dust clouds...' (Bu geleneksel optik yöntemler toz bulutlarıyla kısıtlıydı) tam köprüyü kurar.",
     "explanation": "Cümle Çevirisi: Boşluğa gelen cümle: 'Bu geleneksel optik yöntemler, toz bulutları ve yıldızlararası enkaz tarafından temelden sınırlandırılmaktaydı.' Devamındaki 'However' ile bu kısıtlamanın yeni dalgalarla aşıldığı aktarılır.",
-    "wordAnalysis": {
-      "perturbation": "sapma, düzensizlik",
-      "observatory": "gözlemevi",
-      "merger": "birleşme"
-    },
     "tags": [
       "paragraph completion",
       "space",
@@ -568,13 +458,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-18",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 18,
-    "category": "Anlatım Akışını Bozan Cümle",
-    "subCategory": "Irrelevant Sentence",
-    "difficulty": "Orta",
+    "category": "Anlam Butunlugunu Bozan Cumle",
+    "subCategory": "Akışı Bozan Cümle (Irrelevant Sentence)",
     "passage": "",
     "questionText": "(I) The invention of the movable type printing press by Johannes Gutenberg in the 1440s democratized access to written literature across Europe. (II) Prior to this breakthrough, hand-copied books were luxury commodities available almost exclusively to nobility and monastic scribes. (III) Gutenberg himself faced profound financial bankruptcies and lost control of his print workshop to investors. (IV) By drastically reducing the cost and labor required to produce text, the press fueled rapid literacy and accelerated the spread of scientific knowledge. (V) Consequently, intellectual discourse was liberated from ecclesiastical gatekeepers, laying the foundations for the modern Enlightenment.",
     "options": {
@@ -587,11 +476,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Akışı Bozan Cümle Taktiği: Paragrafın ana konusu Gutenberg'in matbaasının Avrupa'da bilginin yayılmasına ve aydınlanmaya yaptığı toplumsal katkıdır. III. cümle ise Gutenberg'in kişisel parasal iflaslarından ve atölyesini kaybetmesinden bahsetmekte, metnin ana akışından tamamen kopmaktadır. Bu nedenle (III) akışı bozar.",
     "explanation": "(III) numaralı cümle matbaanın sosyolojik ve düşünsel devriminden sapıp Gutenberg'in kişisel maddi borçlarına odaklandığı için anlatım bütünlüğünü bozar. Doğru cevap C şıkkıdır.",
-    "wordAnalysis": {
-      "democratize": "demokratikleştirmek, tabana yaymak",
-      "commodity": "ticari mal, eşya",
-      "ecclesiastical": "kiliseye ait, ruhani"
-    },
     "tags": [
       "irrelevant sentence",
       "history",
@@ -600,13 +484,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-19",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 19,
-    "category": "Okuma Parçası",
-    "subCategory": "Ana Fikir",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "Deep within subterranean caves in Mexico, giant gypsum crystals have grown to lengths exceeding eleven meters over hundreds of thousands of years. These monumental mineral structures formed under extraordinarily stable hydrothermal conditions: submerged in mineral-rich groundwater heated from magma chambers below and maintained at a constant temperature around 58 degrees Celsius. Because these caves are extremely hot and humid, human exploration without pressurized thermal suits is limited to mere minutes. Today, scientists study these subterranean crystals not only to understand mineral crystallography, but also to search for ancient extremophile bacteria entombed inside fluid inclusions, which could offer vital clues about how microbial life might survive on other celestial bodies such as Mars.",
     "questionText": "According to the passage, the colossal gypsum crystals in Mexico could grow to immense proportions primarily because ------.",
     "options": {
@@ -619,12 +502,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Okuma Parçası Taktiği: Metindeki 'formed under extraordinarily stable hydrothermal conditions: submerged in mineral-rich groundwater heated from magma... and maintained at a constant temperature' ifadesine bakın. D şıkkındaki 'remained submerged in mineral-laden thermal waters kept at a consistent temperature for millennia' bu ifadenin kusursuz eşanlamlı karşılığıdır.",
     "explanation": "Cümle Çevirisi: Metne göre kristallerin devasa boyutlara ulaşabilmesinin temel nedeni, binlerce yıl boyunca sabit sıcaklıktaki mineral zengini termal suların içinde batık kalmış olmalarıdır. Doğru cevap D'dir.",
-    "wordAnalysis": {
-      "subterranean": "yer altı",
-      "gypsum": "alçı taşı, jips",
-      "extremophile": "uç koşullarda yaşayan canlı",
-      "entombed": "hapsolmuş, gömülmüş"
-    },
     "tags": [
       "reading",
       "main idea",
@@ -634,13 +511,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-20",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 20,
-    "category": "Okuma Parçası",
-    "subCategory": "Çıkarım (Inference)",
-    "difficulty": "Zor",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "Deep within subterranean caves in Mexico, giant gypsum crystals have grown to lengths exceeding eleven meters over hundreds of thousands of years. These monumental mineral structures formed under extraordinarily stable hydrothermal conditions: submerged in mineral-rich groundwater heated from magma chambers below and maintained at a constant temperature around 58 degrees Celsius. Because these caves are extremely hot and humid, human exploration without pressurized thermal suits is limited to mere minutes. Today, scientists study these subterranean crystals not only to understand mineral crystallography, but also to search for ancient extremophile bacteria entombed inside fluid inclusions, which could offer vital clues about how microbial life might survive on other celestial bodies such as Mars.",
     "questionText": "It can be inferred from the passage that studying microbes trapped within the Mexican cave crystals ------.",
     "options": {
@@ -653,11 +529,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Çıkarım Sorusu Taktiği: Metnin son cümlesi: 'which could offer vital clues about how microbial life might survive on other celestial bodies such as Mars.' Mars gibi gök cisimlerinde mikrobiyal yaşamın nasıl hayatta kalabileceğine dair ipucu vermesi, A şıkkındaki 'could provide valuable insights into the potential habitability of extraterrestrial environments' (dünya dışı ortamların yaşanabilirliği hakkında değerli bilgiler sağlayabilir) ile eşleşir.",
     "explanation": "Metnin sonundaki Mars atfı, dünya dışı yaşam potansiyeline yönelik bir çıkarımdır. Doğru seçenek A'dır.",
-    "wordAnalysis": {
-      "extraterrestrial": "dünya dışı, uzay",
-      "habitability": "yaşanabilirlik",
-      "insight": "içgörü, kavrayış"
-    },
     "tags": [
       "reading",
       "inference",
@@ -667,13 +538,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-21",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 21,
     "category": "Kelime Bilgisi",
     "subCategory": "Sıfatlar (Adjectives)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Due to erratic seasonal rainfall, local grain farmers face ------ uncertainty regarding their upcoming autumn harvest.",
     "options": {
@@ -686,11 +556,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Sıfat Taktiği: 'düzensiz mevsimsel yağışlar nedeniyle çiftçiler önemli/büyük bir belirsizlikle karşı karşıyadır'. 'Substantial' (önemli derecede, büyük) en uygun sıfattır.",
     "explanation": "Cümle Çevirisi: 'Düzensiz mevsimsel yağışlar sebebiyle, yerel tahıl üreticileri yaklaşan sonbahar hasadına ilişkin önemli ölçüde bir belirsizlikle karşı karşıyadır.'",
-    "wordAnalysis": {
-      "substantial": "önemli miktarda, hatırı sayılır",
-      "erratic": "düzensiz, kararsız",
-      "harvest": "hasat"
-    },
     "tags": [
       "vocabulary",
       "adjective",
@@ -699,13 +564,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-22",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 22,
     "category": "Dilbilgisi",
     "subCategory": "Relative Clause & Reduction",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "The archaeological citadel, ------ during the late Bronze Age, contains elaborate stone fortifications that have resisted earthquakes for millennia.",
     "options": {
@@ -718,11 +582,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Kısaltma Taktiği: 'The citadel which was constructed...' yapısının pasif kısaltması doğrudan 'V3' yani 'constructed' (inşa edilmiş olan) şeklindedir.",
     "explanation": "Cümle Çevirisi: 'Geç Tunç Çağı'nda inşa edilen arkeolojik kale, bin yıllardır depremlere direnen incelikli taş surlar barındırmaktadır.'",
-    "wordAnalysis": {
-      "citadel": "kale, hisar",
-      "fortification": "tahkimat, sur",
-      "elaborate": "ayrıntılı, incelikli"
-    },
     "tags": [
       "grammar",
       "reduction",
@@ -731,13 +590,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-23",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 23,
     "category": "Dilbilgisi",
     "subCategory": "İkili Bağlaçlar",
-    "difficulty": "Kolay",
     "passage": "",
     "questionText": "Renewable energy investments offer ------ environmental benefits by lowering emissions ------ long-term economic stability by reducing fuel dependence.",
     "options": {
@@ -750,11 +608,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "İkili Bağlaç Taktiği: 'both ... and ...' (hem ... hem de ...). Hem çevresel faydalar hem de ekonomik istikrar sağlar.",
     "explanation": "Cümle Çevirisi: 'Yenilenebilir enerji yatırımları, emisyonları düşürerek hem çevresel faydalar hem de yakıt bağımlılığını azaltarak uzun vadeli ekonomik istikrar sunar.'",
-    "wordAnalysis": {
-      "dependence": "bağımlılık",
-      "stability": "istikrar",
-      "emissions": "salımlar"
-    },
     "tags": [
       "grammar",
       "conjunction",
@@ -763,13 +616,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-24",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 24,
     "category": "Cümle Tamamlama",
     "subCategory": "Zaman & Neden",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "As long-term antibiotic overuse continues unchecked in livestock farming, ------.",
     "options": {
@@ -782,11 +634,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Cümle Tamamlama Taktiği: Hayvancılıkta aşırı antibiyotik kullanımı devam ettikçe ortaya çıkacak olumsuz sonuç aranır: 'dirençli süper mikroplar çoğalmakta ve insan sağlığını tehdit etmektedir' (E şıkkı).",
     "explanation": "Cümle Çevirisi: 'Hayvancılıkta uzun vadeli aşırı antibiyotik kullanımı denetimsiz biçimde devam ettikçe, ilaca dirençli süper mikroplar çoğalmakta ve küresel olarak insan sağlığını tehdit etmektedir.'",
-    "wordAnalysis": {
-      "livestock": "çiftlik hayvanları",
-      "superbug": "dirençli mikrop",
-      "proliferate": "hızla çoğalmak"
-    },
     "tags": [
       "sentence completion",
       "health",
@@ -795,13 +642,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-25",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 25,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Marine biologists warn that warming sea currents cause extensive coral bleaching, disrupting the habitats of countless fish species.",
     "options": {
@@ -814,11 +660,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Çeviri Taktiği: Özne: 'Marine biologists' (Deniz biyologları). Yüklem: 'warn that...' (...uyarmaktadır). Cümlenin anlamı tam olarak B şıkkında verilmiştir.",
     "explanation": "Cümle Çevirisi: 'Deniz biyologları, ısınan deniz akıntılarının geniş çaplı mercan ağarmasına yol açarak sayısız balık türünün yaşam alanını bozduğu konusunda uyarmaktadır.'",
-    "wordAnalysis": {
-      "coral bleaching": "mercan ağarması",
-      "habitat": "yaşam alanı",
-      "disrupt": "bozmak, aksatmak"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -828,13 +669,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-26",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 26,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Yapay zeka modellerinin şeffaf olması, kullanıcıların bu sistemlerin aldığı kararlara güvenebilmesi açısından kritik bir zorunluluktur.",
     "options": {
@@ -847,11 +687,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Çeviri Taktiği: Özne: 'The transparency of artificial intelligence models' (Yapay zeka modellerinin şeffaf olması). Yüklem: 'is a critical necessity for users to trust the decisions...' (...güvenebilmesi açısından kritik bir zorunluluktur). B şıkkı tamdır.",
     "explanation": "Cümle Çevirisi: 'The transparency of artificial intelligence models is a critical necessity for users to trust the decisions made by these systems.'",
-    "wordAnalysis": {
-      "transparency": "şeffaflık",
-      "necessity": "zorunluluk, gereklilik",
-      "trust": "güvenmek"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -861,13 +696,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-27",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 27,
     "category": "Anlamca En Yakın Cümle",
     "subCategory": "Restatement",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Unless individuals maintain a balanced sleep schedule, their cognitive performance and emotional resilience inevitably deteriorate.",
     "options": {
@@ -880,11 +714,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Restatement Taktiği: Orijinal: 'Dengeli uyku düzeni sürdürülmedikçe, zihinsel performans ve duygusal direnç kaçınılmaz olarak bozulur.' D şıkkı: 'Failing to sustain regular sleep patterns (düzenli uyku modellerini sürdürememek) inevitably compromises mental acuity and emotional strength (zihinsel keskinliği ve duygusal gücü kaçınılmaz olarak tehlikeye atar).' Birebir aynı anlama gelir.",
     "explanation": "Cümle Çevirisi: 'Bireyler dengeli bir uyku düzeni sürdürmedikçe, bilişsel performansları ve duygusal dayanıklılıkları kaçınılmaz olarak bozulur.'",
-    "wordAnalysis": {
-      "resilience": "dayanıklılık, toparlanma gücü",
-      "deteriorate": "kötüleşmek, bozulmak",
-      "acuity": "keskinlik"
-    },
     "tags": [
       "restatement",
       "health",
@@ -893,13 +722,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-28",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 28,
     "category": "Diyalog Tamamlama",
     "subCategory": "Karşılıklı Konuşma",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Dr. Selin: The satellite imagery indicates that the wetland reserve has shrunk by nearly 30 percent over the past five years.\n\nEcology Specialist Kerem: ------\n\nDr. Selin: Unquestionably. If local farmers continue pumping groundwater at current rates, the entire ecosystem will collapse within a decade.",
     "options": {
@@ -912,11 +740,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Diyalog Taktiği: Dr. Selin'in son cevabında 'Unquestionably. If local farmers continue pumping groundwater...' (Kuşkusuz. Eğer yerel çiftçiler yeraltı suyunu pompalamaya devam ederse...) demesi, Kerem'in tarımsal sulamaya ve yeraltı sularına değindiğini kanıtlar. A şıkkı 'agricultural irrigation draining the aquifers' (tarımsal sulamanın akiferleri kurutması) diyerek tam köprüyü kurar.",
     "explanation": "Cümle Çevirisi: Kerem: 'Bu durum, izinsiz tarımsal sulamanın akiferleri tükettiğine dair hipotezimizi açıkça doğruluyor.' Doğru cevap A'dır.",
-    "wordAnalysis": {
-      "wetland": "sulak alan",
-      "aquifer": "yeraltı su katmanı, akifer",
-      "unauthorized": "izinsiz, yetkisiz"
-    },
     "tags": [
       "dialogue",
       "environment",
@@ -925,13 +748,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-29",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 29,
     "category": "Paragraf Tamamlama",
     "subCategory": "Akış & Bütünlük",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "In human history, volcanic eruptions have repeatedly altered regional and global weather patterns. When Mount Tambora erupted cataclysmically in 1815, it ejected colossal quantities of sulfate aerosols into the stratosphere. ------. Crops failed across North America and Western Europe, resulting in widespread famine and social unrest.",
     "options": {
@@ -944,11 +766,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önce sülfat aerosollerinin stratosfere saçılması, boşluktan sonra ise 'Kuzey Amerika ve Avrupa'da ekinlerin mahvolması ve kıtlık' anlatılıyor. A şıkkındaki 'Bu aerosol örtüleri güneş ışığını yansıtarak 1816'da meşhur Yazsız Yıl'a neden oldu' ifadesi sebep ile sonucu kusursuz bağlar.",
     "explanation": "Cümle Çevirisi: 'Bu aerosol örtüleri gelen güneş radyasyonunu yansıtarak 1816'da meşhur \"Yaz Yaşanmayan Yıl\"a yol açtı.' Doğru cevap A'dır.",
-    "wordAnalysis": {
-      "cataclysmic": "yıkıcı, tufan gibi",
-      "aerosol": "aerosol, asıltı",
-      "famine": "kıtlık, açlık"
-    },
     "tags": [
       "paragraph completion",
       "history",
@@ -957,13 +774,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-30",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 30,
-    "category": "Anlatım Akışını Bozan Cümle",
-    "subCategory": "Irrelevant Sentence",
-    "difficulty": "Orta",
+    "category": "Anlam Butunlugunu Bozan Cumle",
+    "subCategory": "Akışı Bozan Cümle (Irrelevant Sentence)",
     "passage": "",
     "questionText": "(I) Photosynthesis is the primary biochemical mechanism through which green plants convert solar energy into usable chemical energy. (II) During this process, chlorophyll pigments absorb photon wavelengths while releasing oxygen as a byproduct. (III) Many carnivorous animals hunt exclusively during nocturnal hours to avoid diurnal predators. (IV) The synthesized carbohydrates serve as the energetic foundation for virtually all terrestrial food webs. (V) Without this continuous solar conversion, complex multicellular life on Earth would cease to exist.",
     "options": {
@@ -976,11 +792,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Akışı Bozan Cümle Taktiği: Metin tamamen fotosentez süreci, klorofil, oksijen ve besin zincirine odaklanmaktadır. (III) numaralı cümle ise aniden etobur hayvanların gece avlanmasından bahsederek akışı tamamen koparmıştır. Doğru cevap C (III)'tür.",
     "explanation": "Cümle Çevirisi: (III) numaralı cümle 'Birçok etobur hayvan gündüz avcılarından kaçınmak için gece avlanır' diyerek fotosentez konusunun dışına çıkmaktadır.",
-    "wordAnalysis": {
-      "photosynthesis": "fotosentez",
-      "chlorophyll": "klorofil",
-      "nocturnal": "geceye ait"
-    },
     "tags": [
       "irrelevant sentence",
       "biology",
@@ -989,13 +800,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-31",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 31,
     "category": "Kelime Bilgisi",
     "subCategory": "İsimler (Nouns)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "The rapid advancement of agricultural genetics has provided farmers with the ------ needed to cultivate disease-resistant crops in arid regions.",
     "options": {
@@ -1008,12 +818,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "İsim Sorusu Çözüm Taktiği: Boşluktan önceki 'the' ve sonrasındaki 'needed to cultivate...' sıfat cümleciğine dikkat edin. Cümlenin olumlu akışına uygun bir yetenek/güç/kapasite ismi aranmaktadır. 'Capacity' (kapasite, güç, yetenek) tam oturur.",
     "explanation": "'capacity' kapasite, yetenek, olanak anlamına gelir. Cümle Çevirisi: '2024 yılında ziraat ve biyoteknolojideki hızlı ilerleme, çiftçilere kurak bölgelerde hastalığa dayanıklı ürünler yetiştirmek için gereken kapasiteyi/olanağı sağlamıştır.' Diğer şıklar: rejection (reddetme), confinement (kısıtlama, hapis), hazard (tehlike), reluctance (isteksizlik).",
-    "wordAnalysis": {
-      "capacity": "kapasite, yetenek",
-      "cultivate": "ekip biçmek, yetiştirmek",
-      "arid": "kurak, çorak",
-      "advancement": "ilerleme, gelişim"
-    },
     "tags": [
       "vocabulary",
       "noun",
@@ -1023,13 +827,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-32",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 32,
     "category": "Kelime Bilgisi",
     "subCategory": "Sıfatlar (Adjectives)",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Recent botanical evaluations demonstrate that the preservation of wild apple and fruit varieties is of ------ importance for maintaining global agricultural biodiversity.",
     "options": {
@@ -1042,12 +845,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Sıfat Sorusu Çözüm Taktiği: 'of ------ importance' YDS'de son derece sık sorulan bir kalıptır ('of paramount / crucial / utmost importance' = hayati/en yüksek öneme sahip). 'Paramount' en yüksek, en önemli demektir.",
     "explanation": "'paramount' en önemli, fevkalade, hayati demektir. Cümle Çevirisi: 'Son botanik değerlendirmeler, yabani elma ve meyve çeşitlerinin korunmasının küresel tarımsal biyoçeşitliliği sürdürmek adına hayati/en yüksek öneme sahip olduğunu ortaya koymaktadır.' Diğer şıklar: trivial (önemsiz), detrimental (zararlı), tedious (sıkıcı, bıktırıcı), perishable (çabuk bozulan).",
-    "wordAnalysis": {
-      "paramount": "en önemli, hayati",
-      "preservation": "koruma, muhafaza",
-      "biodiversity": "biyoçeşitlilik",
-      "apple": "elma"
-    },
     "tags": [
       "apple",
       "vocabulary",
@@ -1058,13 +855,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-33",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 33,
     "category": "Kelime Bilgisi",
     "subCategory": "Zarflar (Adverbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "During the extensive clinical trials conducted in 2024, the new therapeutic compound was found to reduce neuroinflammation ------ without causing adverse side effects.",
     "options": {
@@ -1077,12 +873,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Zarf Sorusu Çözüm Taktiği: Fiili niteleyen zarf ('reduce neuroinflammation ------') olumlu bir başarıyı ifade etmelidir. 'Significantly reduce' (belirgin/önemli ölçüde azaltmak) akademik makalelerde ve YDS'de en sık kullanılan eşdizimdir (collocation).",
     "explanation": "'significantly' belirgin biçimde, önemli ölçüde demektir. Cümle Çevirisi: 'Yapılan kapsamlı klinik deneyler sırasında yeni tedavi edici bileşiğin, hiçbir yan etkiye neden olmaksızın sinir iltihabını belirgin ölçüde azalttığı tespit edilmiştir.' Diğer şıklar: scarcely (neredeyse hiç), erratically (düzensizce), reluctantly (gönülsüzce), adversely (olumsuz şekilde).",
-    "wordAnalysis": {
-      "significantly": "önemli ölçüde",
-      "therapeutic": "tedavi edici",
-      "compound": "bileşik, madde",
-      "adverse": "olumsuz, zararlı"
-    },
     "tags": [
       "vocabulary",
       "adverb",
@@ -1092,13 +882,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-34",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 34,
     "category": "Kelime Bilgisi",
     "subCategory": "Fiiller (Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Environmental economists warn that excessive groundwater extraction will inevitably ------ the local water table, making irrigation nearly impossible.",
     "options": {
@@ -1111,12 +900,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Fiil Sorusu Çözüm Taktiği: 'excessive groundwater extraction' (aşırı yer altı suyu çekimi) olumsuz bir sonuca yol açacaktır. 'Deplete' (tüketmek, suyunu çekmek) doğrudan yer altı kaynakları ve enerji rezervleri için kullanılır.",
     "explanation": "'deplete' tüketmek, boşaltmak, azaltmak anlamına gelir. Cümle Çevirisi: 'Çevre ekonomistleri, aşırı yer altı suyu çekiminin yerel su seviyesini kaçınılmaz olarak tüketeceği ve sulamayı neredeyse imkânsız hale getireceği konusunda uyarıyor.' Diğer şıklar: enhance (artırmak), subsidize (sübvanse etmek), reconcile (uzlaştırmak), generate (üretmek).",
-    "wordAnalysis": {
-      "deplete": "tüketmek, azaltmak",
-      "extraction": "çıkarma, çekme",
-      "inevitably": "kaçınılmaz olarak",
-      "irrigation": "sulama"
-    },
     "tags": [
       "vocabulary",
       "verb",
@@ -1126,13 +909,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-35",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 35,
     "category": "Kelime Bilgisi",
     "subCategory": "Phrasal Verbs",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Agronomists in 2024 decided to ------ a comprehensive five-year study to investigate how organic pest controls impact commercial apple harvests.",
     "options": {
@@ -1145,12 +927,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Phrasal Verb Çözüm Taktiği: 'study / experiment / research / survey' nesneleri ile 'carry out' (yürütmek, icra etmek, gerçekleştirmek) fiili doğrudan eşleşir (carry out a study).",
     "explanation": "'carry out' yürütmek, uygulamak, icra etmek demektir. Cümle Çevirisi: 'Ziraat uzmanları, organik haşere kontrol yöntemlerinin ticari elma hasadını nasıl etkilediğini araştırmak amacıyla kapsamlı bir beş yıllık çalışma yürütmeye karar verdiler.' Diğer şıklar: call off (iptal etmek), give in (pes etmek, boyun eğmek), run out (tükenmek), put down (yere koymak, bastırmak).",
-    "wordAnalysis": {
-      "carry out": "yürütmek, uygulamak",
-      "agronomist": "tarım bilimci",
-      "apple": "elma",
-      "harvest": "hasat"
-    },
     "tags": [
       "apple",
       "phrasal verb",
@@ -1160,13 +936,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-36",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 36,
     "category": "Kelime Bilgisi",
     "subCategory": "Phrasal Verbs",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "When severe market recessions hit global trade, even well-established export corporations may ------ financial assistance from the government.",
     "options": {
@@ -1179,12 +954,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Phrasal Verb Çözüm Taktiği: 'fall back on' zor zamanda başvurmak, son çare olarak sığınmak/güvenmek demektir. Kriz anında finansal desteğe başvurmak anlamına uygun tek şıktır.",
     "explanation": "'fall back on' son çare olarak başvurmak, el uzatmak demektir. Cümle Çevirisi: 'Şiddetli piyasa durgunlukları küresel ticareti vurduğunda, köklü ihracat şirketleri bile hükümetin mali yardımına başvurmak/sığınmak zorunda kalabilir.' Diğer şıklar: look down on (küçümsemek), do away with (yürürlükten kaldırmak), make up for (telafi etmek), get away with (yanına kâr kalmak).",
-    "wordAnalysis": {
-      "fall back on": "son çare başvurmak",
-      "recession": "ekonomik durgunluk",
-      "established": "köklü, oturmuş",
-      "assistance": "yardım"
-    },
     "tags": [
       "phrasal verb",
       "vocabulary",
@@ -1193,13 +962,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-37",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 37,
     "category": "Dilbilgisi",
     "subCategory": "Tense & Zaman Uyumu",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Archaeologists ------ ancient stone tools in the highlands last summer that ------ the timeline of early human settlements in Anatolia.",
     "options": {
@@ -1212,12 +980,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Tense Çözüm Taktiği: Cümledeki 'last summer' geçmişte tamamlanmış kesin bir zaman zarfıdır (Simple Past -> discovered). İkinci kısım da bu keşfin o zaman tarihi değiştirdiğini ifade ettiği için Simple Past (altered) ile zaman uyumu sağlanır.",
     "explanation": "Cümle Çevirisi: 'Arkeologlar geçen yaz yaylalarda, Anadolu'daki erken insan yerleşimlerinin zaman çizelgesini değiştiren antik taş aletler keşfettiler.' Her iki taraf da 'Simple Past Tense' gerektirir.",
-    "wordAnalysis": {
-      "archaeologist": "arkeolog",
-      "settlement": "yerleşim",
-      "alter": "değiştirmek",
-      "timeline": "zaman çizelgesi"
-    },
     "tags": [
       "grammar",
       "tense",
@@ -1227,13 +989,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-38",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 38,
     "category": "Dilbilgisi",
     "subCategory": "Modals & Passive",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "The preservation of endangered marine ecosystems ------ achieved unless strict international fishing quotas ------ without delay.",
     "options": {
@@ -1246,12 +1007,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Modals & Passive Çözüm Taktiği: 'unless' Type-1 koşul yapısı kurar (Present / Future). 'The preservation' (koruma) edilgen (passive) olarak 'cannot be achieved' gerektirir; kotalar da 'are enforced' (yürürlüğe konulur) edilgen yapıda olmalıdır.",
     "explanation": "Cümle Çevirisi: 'Sıkı uluslararası balıkçılık kotaları gecikmeksizin yürürlüğe konmadıkça, tehlike altındaki deniz ekosistemlerinin korunması başarılamaz/sağlanamaz.'",
-    "wordAnalysis": {
-      "preservation": "koruma",
-      "endangered": "nesli tehlikede",
-      "enforce": "yürürlüğe koymak, zorunlu kılmak",
-      "quota": "kota"
-    },
     "tags": [
       "grammar",
       "modals",
@@ -1262,13 +1017,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-39",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 39,
     "category": "Dilbilgisi",
     "subCategory": "Gerund & Participle Reduction",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "------ centuries ago as an essential trade hub, the coastal city continues ------ foreign merchants and tourists today.",
     "options": {
@@ -1281,12 +1035,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Kısaltma (Reduction) Taktiği: Cümle öznesi 'the coastal city'dir. Şehir yüzyıllar önce kendisi kurmadı, 'kuruldu' (Passive Participle -> 'Founded'). İkinci tarafta 'continue' fiili 'to attract' (mastar) alır.",
     "explanation": "Cümle Çevirisi: 'Yüzyıllar önce önemli bir ticaret merkezi olarak kurulan kıyı kenti, bugün de yabancı tüccarları ve turistleri kendine çekmeye devam etmektedir.'",
-    "wordAnalysis": {
-      "hub": "merkez, odak noktası",
-      "merchant": "tüccar",
-      "attract": "cezbetmek, çekmek",
-      "coastal": "kıyıya ait"
-    },
     "tags": [
       "grammar",
       "participle",
@@ -1297,13 +1045,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-40",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 40,
     "category": "Dilbilgisi",
     "subCategory": "Edatlar (Prepositions)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Pioneering researchers are currently working ------ innovative solar cells that convert sunlight ------ electricity with unprecedented efficiency.",
     "options": {
@@ -1316,12 +1063,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Preposition Taktiği: 'work on something' (bir konu üzerinde çalışmak/araştırma yapmak) ve 'convert ... into ...' (...-i ...-e dönüştürmek) kesin edat eşleşmeleridir (collocations).",
     "explanation": "Cümle Çevirisi: 'Öncü araştırmacılar şu anda güneş ışığını benzeri görülmemiş bir verimlilikle elektriğe dönüştüren yenilikçi güneş pilleri üzerinde çalışıyorlar.'",
-    "wordAnalysis": {
-      "convert into": "dönüştürmek",
-      "work on": "üzerinde çalışmak",
-      "unprecedented": "eşi benzeri görülmemiş",
-      "efficiency": "verimlilik"
-    },
     "tags": [
       "grammar",
       "preposition",
@@ -1331,13 +1072,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-41",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 41,
     "category": "Dilbilgisi",
     "subCategory": "Edatlar (Prepositions)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Cognitive psychologists have found that chronic exposure ------ heavy traffic noise can interfere ------ a child's reading comprehension.",
     "options": {
@@ -1350,12 +1090,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Preposition Taktiği: 'exposure to' (-e maruz kalma) ve 'interfere with' (-e müdahale etmek, bozmak, sekteye uğratmak) YDS sınavında en çok çıkan edat ikililerindendir.",
     "explanation": "Cümle Çevirisi: 'Bilişsel psikologlar, yoğun trafik gürültüsüne kronik maruziyetin bir çocuğun okuduğunu anlama yetisini sekteye uğratabileceğini/olumsuz etkileyebileceğini keşfettiler.'",
-    "wordAnalysis": {
-      "exposure to": "maruz kalma",
-      "interfere with": "sekteye uğratmak, engellemek",
-      "comprehension": "anlama, kavrama",
-      "chronic": "kronik"
-    },
     "tags": [
       "grammar",
       "preposition",
@@ -1365,13 +1099,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-42",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 42,
     "category": "Dilbilgisi",
     "subCategory": "Edat Öbekleri (Prepositional Phrases)",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Farmers are adopting integrated pest management ------ synthetic chemical pesticides to protect both pollinating bees and groundwater quality.",
     "options": {
@@ -1384,12 +1117,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Edat Öbeği Taktiği: 'in place of' (-in yerine) demektir. Cümlede sentetik kimyasal ilaçların yerine entegre zararlı yönetiminin tercih edildiği vurgulanmaktadır. Diğerleri: in charge of (sorumlu), on behalf of (adına), in accordance with (uyarınca).",
     "explanation": "Cümle Çevirisi: 'Çiftçiler, hem tozlayıcı arıları hem de yer altı suyu kalitesini korumak için sentetik kimyasal böcek ilaçlarının yerine entegre zararlı yönetimini benimsiyorlar.'",
-    "wordAnalysis": {
-      "in place of": "yerine",
-      "pesticide": "böcek ilacı",
-      "pollinating": "tozlaşmayı sağlayan",
-      "adopt": "benimsemek"
-    },
     "tags": [
       "grammar",
       "prepositional phrase",
@@ -1399,13 +1126,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-43",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 43,
     "category": "Dilbilgisi",
     "subCategory": "Bağlaçlar (Conjunctions - Zıtlık)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "------ modern smartphones possess computational power superior to early space computers, their batteries still degrade noticeably after two years.",
     "options": {
@@ -1418,12 +1144,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Zıtlık Bağlacı Taktiği: İlk cümlede telefonların erken uzay bilgisayarlarından üstün hesaplama gücü olduğu (olumlu +), ikinci cümlede ise pillerinin iki yıl sonra bozulduğu (olumsuz -) belirtilmiştir. Zıtlık (+ / -) gereği 'Although' doğru cevaptır.",
     "explanation": "Cümle Çevirisi: 'Modern akıllı telefonlar ilk uzay bilgisayarlarından daha üstün bir işlem gücüne sahip olmasına rağmen, bataryaları iki yıl sonra hala gözle görülür biçimde zayıflamaktadır.'",
-    "wordAnalysis": {
-      "computational": "hesaplamalı, işlemci",
-      "superior": "üstün",
-      "degrade": "bozulmak, gücünü yitirmek",
-      "noticeably": "belirgin biçimde"
-    },
     "tags": [
       "grammar",
       "conjunction",
@@ -1433,13 +1153,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-44",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 44,
     "category": "Dilbilgisi",
     "subCategory": "Bağlaçlar (Conjunctions - Sebep & Sonuç)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Severe droughts have devastated Mediterranean olive and apple yields; ------, wholesale consumer prices across European supermarkets have surged.",
     "options": {
@@ -1452,13 +1171,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Noktalı Virgül Geçiş Bağlacı Taktiği: İlk cümlede kuraklığın zeytin ve elma verimini mahvettiği (sebep), ikinci cümlede ise toptan fiyatların yükseldiği (sonuç) belirtilmiştir. Sebep-sonuç bağlayıcı 'consequently' (bunun sonucunda) doğru tercihtir.",
     "explanation": "Cümle Çevirisi: 'Şiddetli kuraklıklar Akdeniz'deki zeytin ve elma verimini mahvetti; bunun bir sonucu olarak Avrupa süpermarketlerindeki toptan tüketici fiyatları fırladı.'",
-    "wordAnalysis": {
-      "consequently": "sonuç olarak",
-      "devastate": "tahrip etmek, mahvetmek",
-      "yield": "ürün verimi",
-      "apple": "elma",
-      "wholesale": "toptan"
-    },
     "tags": [
       "apple",
       "grammar",
@@ -1469,13 +1181,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-45",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 45,
     "category": "Dilbilgisi",
     "subCategory": "Bağlaçlar (Conjunctions - Koşul)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Autonomous vehicles can navigate city streets safely ------ urban infrastructure is equipped with ultra-fast communication sensors.",
     "options": {
@@ -1488,12 +1199,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Koşul Bağlacı Taktiği: Otonom araçların güvenle ilerlemesi, kentsel altyapının sensörlerle donatılması 'şartına/koşuluna' bağlanmıştır. 'Provided that' (-mesi şartıyla / provided / as long as) koşul bağlacıdır.",
     "explanation": "Cümle Çevirisi: 'Kentsel altyapı ultra hızlı iletişim sensörleriyle donatıldığı takdirde / donatılması şartıyla otonom araçlar şehir sokaklarında güvenle seyredebilir.'",
-    "wordAnalysis": {
-      "provided that": "şartıyla, koşuluyla",
-      "autonomous": "otonom, sürücüsüz",
-      "infrastructure": "altyapı",
-      "sensor": "algılayıcı"
-    },
     "tags": [
       "grammar",
       "conjunction",
@@ -1503,13 +1208,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-46",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 46,
     "category": "Dilbilgisi",
     "subCategory": "Bağlaçlar (Correlative Conjunctions)",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "A balanced nutritional diet should supply ------ essential vitamins and minerals ------ sufficient fiber for cardiovascular stability.",
     "options": {
@@ -1522,12 +1226,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "İkili Bağlaç Taktiği: 'not only ... but also ...' (sadece ... değil, aynı zamanda ...) yapısı paralel iki unsuru (essential vitamins and minerals / sufficient fiber) birbirine bağlar.",
     "explanation": "Cümle Çevirisi: 'Dengeli bir beslenme diyeti, sadece temel vitamin ve mineralleri değil, aynı zamanda kalp-damar dengesi için yeterli lifi de sağlamalıdır.'",
-    "wordAnalysis": {
-      "cardiovascular": "kalp-damar",
-      "sufficient": "yeterli",
-      "essential": "temel, elzem",
-      "stability": "istikrar, denge"
-    },
     "tags": [
       "grammar",
       "correlative",
@@ -1537,13 +1235,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-47",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 47,
     "category": "Cloze Test",
     "subCategory": "Edat (Preposition)",
-    "difficulty": "Orta",
     "passage": "The human brain undergoes remarkable adaptations throughout life, a phenomenon known as neuroplasticity. Until the late twentieth century, neuroscientists believed that neural pathways were completely fixed (17)------ childhood. However, groundbreaking imaging techniques have shown that the brain (18)------ new synaptic connections in response to novel experiences and learning. Physical exercise and cognitive stimulation play an (19)------ role in preserving brain health into old age. Adults who regularly engage (20)------ mentally challenging tasks tend to build cognitive reserves (21)------ protect them against degenerative disorders.",
     "questionText": "Choose the word or phrase that best completes blank (17) in the passage above.",
     "options": {
@@ -1556,11 +1253,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Cloze Test Taktiği: Eski bilimsel yanılgı: 'çocukluktan sonra' yolların sabitlendiği sanılıyordu ('fixed after childhood'). Devamındaki 'However' zıtlığı da bunu doğrular.",
     "explanation": "Cümle Çevirisi: 'Yirminci yüzyılın sonlarına kadar sinirbilimciler, sinirsel yolların çocukluktan sonra tamamen sabitlendiğine inanıyorlardı.'",
-    "wordAnalysis": {
-      "pathway": "yol, güzergah",
-      "phenomenon": "olgu, fenomen",
-      "remarkable": "dikkat çekici"
-    },
     "tags": [
       "cloze test",
       "neuroscience",
@@ -1569,13 +1261,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-48",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 48,
     "category": "Cloze Test",
     "subCategory": "Tense & Active",
-    "difficulty": "Orta",
     "passage": "The human brain undergoes remarkable adaptations throughout life, a phenomenon known as neuroplasticity. Until the late twentieth century, neuroscientists believed that neural pathways were completely fixed (17)------ childhood. However, groundbreaking imaging techniques have shown that the brain (18)------ new synaptic connections in response to novel experiences and learning. Physical exercise and cognitive stimulation play an (19)------ role in preserving brain health into old age. Adults who regularly engage (20)------ mentally challenging tasks tend to build cognitive reserves (21)------ protect them against degenerative disorders.",
     "questionText": "Choose the word or phrase that best completes blank (18) in the passage above.",
     "options": {
@@ -1588,11 +1279,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Cloze Test Taktiği: Genel bilimsel bir yetenek/gerçek anlatılıyor. 'can generate' (üretebilir/oluşturabilir) genel geçer bilimsel kabiliyeti ifade eder.",
     "explanation": "Cümle Çevirisi: 'Ancak çığır açan görüntüleme teknikleri, beynin yeni deneyimlere karşılık yeni sinaptik bağlantılar üretebildiğini göstermiştir.'",
-    "wordAnalysis": {
-      "groundbreaking": "çığır açan",
-      "synaptic": "sinaptik",
-      "generate": "üretmek"
-    },
     "tags": [
       "cloze test",
       "neuroscience",
@@ -1601,13 +1287,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-49",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 49,
     "category": "Cloze Test",
     "subCategory": "Kelime (Sıfat)",
-    "difficulty": "Orta",
     "passage": "The human brain undergoes remarkable adaptations throughout life, a phenomenon known as neuroplasticity. Until the late twentieth century, neuroscientists believed that neural pathways were completely fixed (17)------ childhood. However, groundbreaking imaging techniques have shown that the brain (18)------ new synaptic connections in response to novel experiences and learning. Physical exercise and cognitive stimulation play an (19)------ role in preserving brain health into old age. Adults who regularly engage (20)------ mentally challenging tasks tend to build cognitive reserves (21)------ protect them against degenerative disorders.",
     "questionText": "Choose the word or phrase that best completes blank (19) in the passage above.",
     "options": {
@@ -1620,11 +1305,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Cloze Test Taktiği: 'play an indispensable role' (vazgeçilmez bir rol oynamak) akademik metinlerde sıkça kullanılan kalıp bir yapıdır.",
     "explanation": "Cümle Çevirisi: 'Fiziksel egzersiz ve zihinsel uyarım, yaşlılıkta beyin sağlığının korunmasında vazgeçilmez bir rol oynamaktadır.'",
-    "wordAnalysis": {
-      "indispensable": "vazgeçilmez",
-      "stimulation": "uyarım",
-      "preservation": "koruma"
-    },
     "tags": [
       "cloze test",
       "neuroscience",
@@ -1633,13 +1313,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-50",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 50,
     "category": "Cloze Test",
     "subCategory": "Edat (Preposition)",
-    "difficulty": "Kolay",
     "passage": "The human brain undergoes remarkable adaptations throughout life, a phenomenon known as neuroplasticity. Until the late twentieth century, neuroscientists believed that neural pathways were completely fixed (17)------ childhood. However, groundbreaking imaging techniques have shown that the brain (18)------ new synaptic connections in response to novel experiences and learning. Physical exercise and cognitive stimulation play an (19)------ role in preserving brain health into old age. Adults who regularly engage (20)------ mentally challenging tasks tend to build cognitive reserves (21)------ protect them against degenerative disorders.",
     "questionText": "Choose the word or phrase that best completes blank (20) in the passage above.",
     "options": {
@@ -1652,11 +1331,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Cloze Test Taktiği: 'engage in' (bir aktiviteye/işe girişmek, meşgul olmak) ayrılmaz bir kalıptır.",
     "explanation": "Cümle Çevirisi: 'Zihinsel olarak zorlayıcı görevlerle düzenli şekilde meşgul olan yetişkinler...', 'engage in' doğru edattır.",
-    "wordAnalysis": {
-      "engage in": "ile meşgul olmak, katılmak",
-      "challenging": "zorlayıcı",
-      "reserve": "ihtiyat, rezerv"
-    },
     "tags": [
       "cloze test",
       "preposition",
@@ -1665,13 +1339,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-51",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 51,
     "category": "Cloze Test",
     "subCategory": "Relative Clause / Bağlaç",
-    "difficulty": "Orta",
     "passage": "The human brain undergoes remarkable adaptations throughout life, a phenomenon known as neuroplasticity. Until the late twentieth century, neuroscientists believed that neural pathways were completely fixed (17)------ childhood. However, groundbreaking imaging techniques have shown that the brain (18)------ new synaptic connections in response to novel experiences and learning. Physical exercise and cognitive stimulation play an (19)------ role in preserving brain health into old age. Adults who regularly engage (20)------ mentally challenging tasks tend to build cognitive reserves (21)------ protect them against degenerative disorders.",
     "questionText": "Choose the word or phrase that best completes blank (21) in the passage above.",
     "options": {
@@ -1684,10 +1357,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Cloze Test Taktiği: 'cognitive reserves' (bilişsel rezervler) cansız çoğul isimdir. Sonrasındaki fiil ('protect') için niteleyici sıfat cümleciği (relative pronoun) 'that' veya 'which' olmalıdır.",
     "explanation": "Cümle Çevirisi: '...onları dejeneratif hastalıklara karşı koruyan bilişsel rezervler oluşturma eğilimindedirler.'",
-    "wordAnalysis": {
-      "degenerative": "dejeneratif, yıkıcı",
-      "disorder": "rahatsızlık, bozukluk"
-    },
     "tags": [
       "cloze test",
       "relative clause",
@@ -1696,13 +1365,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-52",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 52,
     "category": "Cloze Test",
     "subCategory": "Kelime (Participle)",
-    "difficulty": "Zor",
     "passage": "Ancient agricultural practices in Central Asia relied heavily upon natural forest ecosystems to foster fruit resilience. Wild apple species (Malus sieversii) originally flourished in mountainous regions, (22)------ harsh frosts and genetic diversity. When commercial farming expanded, many wild traits were replaced by varieties bred solely (23)------ cosmetic appearance. Today, researchers are returning to these ancestral forests (24)------ crop resistance has declined drastically due to evolving pathogens. Scientists hope to breed hardier fruit varieties (25)------ can endure erratic climate swings (26)------ reliance on chemical pesticides.",
     "questionText": "Choose the word or phrase that best completes blank (22) in the passage above.",
     "options": {
@@ -1715,12 +1383,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Cloze Test Taktiği: 'harsh frosts' (sert donlar) karşısında ağaçların 'direnmesi/dayanması' gerekir. 'Withstand' (dayanmak, mukavemet etmek) anlamına gelir.",
     "explanation": "Cümle Çevirisi: 'Yabani elma türleri sert donlara ve iklim zorluklarına dayanarak dağlık bölgelerde gelişmiştir.'",
-    "wordAnalysis": {
-      "withstand": "dayanmak, direnmek",
-      "harsh": "sert, çetin",
-      "frost": "don, ayaz",
-      "apple": "elma"
-    },
     "tags": [
       "apple",
       "cloze test",
@@ -1730,13 +1392,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-53",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 53,
     "category": "Cloze Test",
     "subCategory": "Edat (Preposition)",
-    "difficulty": "Kolay",
     "passage": "Ancient agricultural practices in Central Asia relied heavily upon natural forest ecosystems to foster fruit resilience. Wild apple species (Malus sieversii) originally flourished in mountainous regions, (22)------ harsh frosts and genetic diversity. When commercial farming expanded, many wild traits were replaced by varieties bred solely (23)------ cosmetic appearance. Today, researchers are returning to these ancestral forests (24)------ crop resistance has declined drastically due to evolving pathogens. Scientists hope to breed hardier fruit varieties (25)------ can endure erratic climate swings (26)------ reliance on chemical pesticides.",
     "questionText": "Choose the word or phrase that best completes blank (23) in the passage above.",
     "options": {
@@ -1749,11 +1410,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Cloze Test Taktiği: Amaç bildiren edat: 'bred solely for cosmetic appearance' (yalnızca kozmetik görünüm için yetiştirilen/üretilen). 'for' amaç anlamı katar.",
     "explanation": "Cümle Çevirisi: 'Ticari tarım genişlediğinde, birçok yabani özellik yerini yalnızca kozmetik görünüm için melezlenen çeşitlere bıraktı.'",
-    "wordAnalysis": {
-      "bred": "yetiştirilmiş, üretilmiş",
-      "cosmetic": "kozmetik, yüzeysel",
-      "appearance": "görünüş"
-    },
     "tags": [
       "cloze test",
       "preposition"
@@ -1761,13 +1417,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-54",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 54,
     "category": "Cloze Test",
     "subCategory": "Bağlaç (Sebep)",
-    "difficulty": "Orta",
     "passage": "Ancient agricultural practices in Central Asia relied heavily upon natural forest ecosystems to foster fruit resilience. Wild apple species (Malus sieversii) originally flourished in mountainous regions, (22)------ harsh frosts and genetic diversity. When commercial farming expanded, many wild traits were replaced by varieties bred solely (23)------ cosmetic appearance. Today, researchers are returning to these ancestral forests (24)------ crop resistance has declined drastically due to evolving pathogens. Scientists hope to breed hardier fruit varieties (25)------ can endure erratic climate swings (26)------ reliance on chemical pesticides.",
     "questionText": "Choose the word or phrase that best completes blank (24) in the passage above.",
     "options": {
@@ -1780,11 +1435,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Cloze Test Taktiği: Araştırmacıların atasal ormanlara dönme 'sebebi' anlatılıyor: '...because crop resistance has declined' (çünkü mahsul direnci sert bir şekilde düştü).",
     "explanation": "Cümle Çevirisi: 'Bugün araştırmacılar bu atasal ormanlara geri dönüyorlar çünkü gelişen patojenler nedeniyle ürün direnci şiddetli şekilde düştü.'",
-    "wordAnalysis": {
-      "decline": "düşmek, gerilemek",
-      "pathogen": "hastalık yapıcı mikrop",
-      "ancestral": "atasal"
-    },
     "tags": [
       "cloze test",
       "conjunction",
@@ -1793,13 +1443,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-55",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 55,
     "category": "Cloze Test",
     "subCategory": "Relative Pronoun",
-    "difficulty": "Kolay",
     "passage": "Ancient agricultural practices in Central Asia relied heavily upon natural forest ecosystems to foster fruit resilience. Wild apple species (Malus sieversii) originally flourished in mountainous regions, (22)------ harsh frosts and genetic diversity. When commercial farming expanded, many wild traits were replaced by varieties bred solely (23)------ cosmetic appearance. Today, researchers are returning to these ancestral forests (24)------ crop resistance has declined drastically due to evolving pathogens. Scientists hope to breed hardier fruit varieties (25)------ can endure erratic climate swings (26)------ reliance on chemical pesticides.",
     "questionText": "Choose the word or phrase that best completes blank (25) in the passage above.",
     "options": {
@@ -1812,10 +1461,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Cloze Test Taktiği: 'hardier fruit varieties' (daha dayanıklı meyve türleri) öznesi için sıfat cümleciği 'that' ile başlar.",
     "explanation": "Cümle Çevirisi: 'Bilim insanları, düzensiz iklim dalgalanmalarına dayanabilecek daha dirençli meyve çeşitleri geliştirmeyi umuyorlar.'",
-    "wordAnalysis": {
-      "endure": "katlanmak, dayanmak",
-      "erratic": "düzensiz, tutarsız"
-    },
     "tags": [
       "cloze test",
       "relative clause"
@@ -1823,13 +1468,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-56",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 56,
     "category": "Cloze Test",
     "subCategory": "Edat (Preposition)",
-    "difficulty": "Orta",
     "passage": "Ancient agricultural practices in Central Asia relied heavily upon natural forest ecosystems to foster fruit resilience. Wild apple species (Malus sieversii) originally flourished in mountainous regions, (22)------ harsh frosts and genetic diversity. When commercial farming expanded, many wild traits were replaced by varieties bred solely (23)------ cosmetic appearance. Today, researchers are returning to these ancestral forests (24)------ crop resistance has declined drastically due to evolving pathogens. Scientists hope to breed hardier fruit varieties (25)------ can endure erratic climate swings (26)------ reliance on chemical pesticides.",
     "questionText": "Choose the word or phrase that best completes blank (26) in the passage above.",
     "options": {
@@ -1842,10 +1486,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Cloze Test Taktiği: 'kimyasal tarım ilaçlarına bağımlı olmaksızın / olmadan' anlamı için olumsuzluk edatı 'without' gereklidir ('without reliance on...').",
     "explanation": "Cümle Çevirisi: '...kimyasal böcek ilaçlarına bağımlı olmadan iklim dalgalanmalarına dayanabilen meyveler.'",
-    "wordAnalysis": {
-      "reliance on": "bağımlılık, güven",
-      "pesticide": "tarım ilacı"
-    },
     "tags": [
       "cloze test",
       "preposition"
@@ -1853,13 +1493,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-57",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 57,
     "category": "Cümle Tamamlama",
     "subCategory": "Zıtlık Bağlacı",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Although early civilizations lacked modern meteorological instruments, ------.",
     "options": {
@@ -1872,11 +1511,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'Although' ile başlayan yan cümlede olumsuz bir kısıtlama (teknolojik aletlerin olmaması -) varsa, ana cümlede bunu telafi eden olumlu bir başarı (+) beklenir. D şıkkında gök cisimlerini takip ederek isabetli takvimler geliştirdikleri belirtilmiştir.",
     "explanation": "Cümle Çevirisi: 'Erken uygarlıklar modern meteorolojik aletlerden yoksun olmalarına rağmen, gök hareketlerini takip ederek son derece isabetli takvimler geliştirdiler.'",
-    "wordAnalysis": {
-      "meteorological": "meteorolojik, hava durumuyla ilgili",
-      "accurately": "isabetli şekilde",
-      "astronomical": "astronomik"
-    },
     "tags": [
       "sentence completion",
       "contrast",
@@ -1885,13 +1519,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-58",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 58,
     "category": "Cümle Tamamlama",
     "subCategory": "Sebep-Sonuç",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Because bees and other wild insects pollinate over seventy percent of the world's staple food crops, ------.",
     "options": {
@@ -1904,11 +1537,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'Because' arıcılığın ve tozlaşmanın gıdanın %70'ini oluşturduğu hayati önemini bildiriyor. Sonuç cümlesinde bu böceklerin yok olmasının insanlığın gıda güvenliğini tehdit ettiği (C şıkkı) doğrudan mantıksal sonuçtur.",
     "explanation": "Cümle Çevirisi: 'Arılar ve diğer yabani böcekler dünyadaki temel gıda ürünlerinin yüzde yetmişinden fazlasını tozlaştırdığı için, onların süregelen küresel nüfus kaybı insan gıda güvenliğine yönelik korkutucu bir tehdit oluşturmaktadır.'",
-    "wordAnalysis": {
-      "pollinate": "tozlaştırmak",
-      "staple": "temel gıda",
-      "alarming": "endişe verici, korkutucu"
-    },
     "tags": [
       "sentence completion",
       "cause effect",
@@ -1918,13 +1546,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-59",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 59,
     "category": "Cümle Tamamlama",
     "subCategory": "Zaman Cümlesi",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Ever since satellite technology was first introduced to monitor polar ice caps, ------.",
     "options": {
@@ -1937,11 +1564,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'Ever since + Past' kuralı ana cümlede 'Present Perfect Tense' (have documented) gerektirir. Anlamsal olarak uydular kutup buzullarını izlediğinden beri erime hızı kaydedilmektedir.",
     "explanation": "Cümle Çevirisi: 'Kutup buzullarını izlemek için uydu teknolojisi ilk kez kullanılmaya başlandığından bu yana, iklimbilimciler buzul erimesindeki hızlanmayı benzeri görülmemiş bir hassasiyetle belgelemektedirler.'",
-    "wordAnalysis": {
-      "glacial": "buzul",
-      "precision": "hassasiyet, kesinlik",
-      "climatologist": "iklimbilimci"
-    },
     "tags": [
       "sentence completion",
       "time clause",
@@ -1951,13 +1573,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-60",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 60,
     "category": "Cümle Tamamlama",
     "subCategory": "Zıtlık (Whereas / While)",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "While renewable energy production has expanded substantially across Western economies, ------.",
     "options": {
@@ -1970,11 +1591,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'While' (iken / -e rağmen) zıtlık yapısıdır. Yenilenebilir enerji artarken (olumlu gelişme), kömür ve gazın hala küresel talebin çoğunu karşılaması (ters gerçek) mükemmel zıtlıktır.",
     "explanation": "Cümle Çevirisi: 'Batı ekonomilerinde yenilenebilir enerji üretimi önemli ölçüde artarken, kömür ve doğal gaz küresel elektrik talebinin baskın bir kısmını karşılamaya devam etmektedir.'",
-    "wordAnalysis": {
-      "substantially": "önemli ölçüde",
-      "predominant": "baskın, en büyük",
-      "demand": "talep"
-    },
     "tags": [
       "sentence completion",
       "contrast",
@@ -1984,13 +1600,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-61",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 61,
     "category": "Cümle Tamamlama",
     "subCategory": "Koşul Cümlesi (Unless)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Unless public health authorities act decisively to curb antimicrobial resistance, ------.",
     "options": {
@@ -2003,11 +1618,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'Unless' (-medikçe / if not) olumsuz bir uyarıdır. Yetkililer antibiyotik direncine karşı harekete geçmedikçe, sıradan ameliyatlar bile ölümcül hale gelebilir (A şıkkı).",
     "explanation": "Cümle Çevirisi: 'Halk sağlığı yetkilileri antimikrobiyal direnci engellemek için kararlı adımlar atmadıkça, rutin cerrahi müdahaleler ve küçük enfeksiyonlar yeniden hayati tehlike yaratır hale gelebilir.'",
-    "wordAnalysis": {
-      "antimicrobial": "mikrop karşıtı",
-      "curb": "dizginlemek, kontrol altına almak",
-      "life-threatening": "hayati tehlike yaratan"
-    },
     "tags": [
       "sentence completion",
       "condition",
@@ -2017,13 +1627,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-62",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 62,
     "category": "Cümle Tamamlama",
     "subCategory": "Sebep (Since)",
-    "difficulty": "Kolay",
     "passage": "",
     "questionText": "Since consumer awareness regarding sustainable farming has risen sharply, ------.",
     "options": {
@@ -2036,11 +1645,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Cümle Tamamlama Taktiği: Tüketici bilinci arttığı için (sebep), süpermarketler organik elma gibi ürünlere daha çok yer açmaktadır (sonuç).",
     "explanation": "Cümle Çevirisi: 'Sürdürülebilir tarıma yönelik tüketici bilinci hızla yükseldiği için, büyük süpermarket zincirleri organik olarak yetiştirilen elma gibi meyvelere reyonlarında daha fazla yer ayırmaktadır.'",
-    "wordAnalysis": {
-      "awareness": "farkındalık, bilinç",
-      "organically": "organik olarak",
-      "apple": "elma"
-    },
     "tags": [
       "apple",
       "sentence completion",
@@ -2050,13 +1654,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-63",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 63,
     "category": "Cümle Tamamlama",
     "subCategory": "Amaç (In order to)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "In order to mitigate the destructive impact of urban heat islands during peak summer, ------.",
     "options": {
@@ -2069,11 +1672,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'In order to mitigate' (azaltmak / hafifletmek amacıyla) yapısı kentsel ısı adalarını düşürecek yeşil çatı ve geçirgen asfalt gibi çözümlere işaret eder (E şıkkı).",
     "explanation": "Cümle Çevirisi: 'Yazın en sıcak dönemlerinde kentsel ısı adalarının yıkıcı etkisini hafifletmek amacıyla, şehir plancıları çatı bahçeleri ve geçirgen kaplama malzemelerini şehre entegre etmektedirler.'",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek, azaltmak",
-      "permeable": "geçirgen",
-      "rooftop": "çatı"
-    },
     "tags": [
       "sentence completion",
       "purpose",
@@ -2083,13 +1681,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-64",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 64,
     "category": "Cümle Tamamlama",
     "subCategory": "Zıtlık (In spite of)",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "In spite of experiencing prolonged periods of extreme economic volatility, ------.",
     "options": {
@@ -2102,11 +1699,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'In spite of' (-e rağmen) zıtlık katar. Ekonomik çalkantıya rağmen şirketin pes etmeyip yapay zeka araştırmalarına büyük yatırım yapmayı sürdürmesi (C şıkkı) tek zıtlıktır; diğer şıklar krizin doğrudan olumsuz sonuçlarıdır.",
     "explanation": "Cümle Çevirisi: 'Uzun süreli aşırı ekonomik dalgalanma dönemleri yaşamasına rağmen, teknoloji firması yapay zeka araştırmalarına yoğun yatırım yapmayı sürdürdü.'",
-    "wordAnalysis": {
-      "volatility": "oynaklık, dalgalanma",
-      "prolonged": "uzun süreli",
-      "invest": "yatırım yapmak"
-    },
     "tags": [
       "sentence completion",
       "contrast",
@@ -2116,13 +1708,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-65",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 65,
     "category": "Cümle Tamamlama",
     "subCategory": "Karşılaştırma (Just as... so...)",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Just as physical exercise strengthens muscles and boosts cardiovascular resilience, ------.",
     "options": {
@@ -2135,11 +1726,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'Just as ... so ...' (Tıpkı ... olduğu gibi, ... de öyledir) benzerlik/analoji kurar. Egzersizin kasları güçlendirdiği gibi, zihinsel faaliyetlerin de sinirleri güçlendirmesi paraleldir.",
     "explanation": "Cümle Çevirisi: 'Tıpkı fiziksel egzersizin kasları güçlendirip kalp-damar dayanıklılığını artırdığı gibi, bilişsel öğrenme etkinlikleri de sinirsel bağlantıları tahkim eder ve yaşa bağlı zihinsel gerilemeyi geciktirir.'",
-    "wordAnalysis": {
-      "fortify": "güçlendirmek, tahkim etmek",
-      "cardiovascular": "kalp-damar",
-      "resilience": "dayanıklılık"
-    },
     "tags": [
       "sentence completion",
       "analogy",
@@ -2149,13 +1735,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-66",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 66,
     "category": "Cümle Tamamlama",
     "subCategory": "Zaman (Once)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Once deep-sea explorers map the uncharted topography of hydrothermal vents, ------.",
     "options": {
@@ -2168,11 +1753,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Cümle Tamamlama Taktiği: 'Once + Present' (zaman bağlacı: ...-dığı zaman / -er ermez), ana cümlede Future Tense (will be better equipped) gerektirir.",
     "explanation": "Cümle Çevirisi: 'Derin deniz kaşifleri hidrotermal bacaların haritalanmamış topografyasını çıkardıklarında, deniz biyologları karanlıkta gelişen eşsiz mikrobiyal ekosistemleri anlamak için daha donanımlı olacaklardır.'",
-    "wordAnalysis": {
-      "uncharted": "haritası çıkarılmamış, bilinmeyen",
-      "hydrothermal": "hidrotermal, sıcak su",
-      "thrive": "gelişmek, serpilmek"
-    },
     "tags": [
       "sentence completion",
       "time clause",
@@ -2182,13 +1762,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-67",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 67,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Cognitive behavioral therapy has emerged as one of the most effective psychological interventions for treating chronic anxiety disorders.",
     "options": {
@@ -2201,12 +1780,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: 1. Özneyi bulun: 'Cognitive behavioral therapy' (Bilişsel davranışçı terapi). 2. Ana yüklemi bulun: 'has emerged as...' (...olarak ortaya çıkmıştır). Bu özne ve yüklem eşleşmesi eksiksiz olarak yalnızca C şıkkında mevcuttur.",
     "explanation": "Cümle Çevirisi: 'Bilişsel davranışçı terapi, kronik kaygı bozukluklarının tedavisinde en etkili psikolojik müdahalelerden biri olarak ortaya çıkmıştır.' B şıkkında yüklem 'en yaygınıdır', C'de 'tedavi edilmektedir', D'de 'tercih edilir' şeklinde değiştirilerek çeldirici yapılmıştır.",
-    "wordAnalysis": {
-      "intervention": "müdahale",
-      "anxiety": "kaygı, endişe",
-      "emerge": "ortaya çıkmak",
-      "chronic": "kronik, süreğen"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -2216,13 +1789,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-68",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 68,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Recent archaeological excavations in Southeastern Anatolia prove that hunter-gatherer societies were capable of monumental architecture much earlier than previously assumed.",
     "options": {
@@ -2235,12 +1807,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Recent archaeological excavations in Southeastern Anatolia' (Güneydoğu Anadolu'daki son arkeolojik kazılar). Yüklem: 'prove that...' (...-i kanıtlamaktadır). Yüklemin geniş zaman/şimdiki zaman karşılığı olan 'kanıtlamaktadır' doğrudan A şıkkında bulunmaktadır.",
     "explanation": "Cümle Çevirisi: 'Güneydoğu Anadolu'daki son arkeolojik kazılar, avcı-toplayıcı toplumların anıtsal mimariyi daha önce varsayılandan çok daha önce yapabildiğini kanıtlamaktadır.'",
-    "wordAnalysis": {
-      "excavation": "arkeolojik kazı",
-      "monumental": "anıtsal",
-      "hunter-gatherer": "avcı-toplayıcı",
-      "prove": "kanıtlamak"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -2250,13 +1816,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-69",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 69,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Zor",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Cultivating wild apple species without synthetic fertilizers not only preserves beneficial soil bacteria but also enhances the fruit's natural antioxidant concentration.",
     "options": {
@@ -2269,13 +1834,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: 'not only ... but also ...' kalıbının Türkçe karşılığı 'sadece ... ile kalmaz, aynı zamanda ... de' yapısıdır. Bu ikili bağlacı birebir veren seçenek C'dir.",
     "explanation": "Cümle Çevirisi: 'Yabani elma türlerini sentetik gübreler olmadan yetiştirmek, sadece yararlı toprak bakterilerini korumakla kalmaz, aynı zamanda meyvenin doğal antioksidan yoğunluğunu da artırır.'",
-    "wordAnalysis": {
-      "cultivate": "yetiştirmek",
-      "apple": "elma",
-      "fertilizer": "gübre",
-      "antioxidant": "antioksidan",
-      "preserve": "korumak"
-    },
     "tags": [
       "apple",
       "translation",
@@ -2286,13 +1844,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-70",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 70,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Yapay zeka sistemleri tıp alanında teşhis doğruluğunu artırsa da hiçbir algoritma uzman bir hekimin klinik deneyiminin yerini tamamen alamaz.",
     "options": {
@@ -2305,12 +1862,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Türkçe cümledeki '-sa da / -e rağmen' zıtlığı 'Although' ile başlar. Ana cümlenin yüklemi 'yerini tamamen alamaz' -> 'no algorithm can completely replace...'. Birebir E şıkkında mevcuttur.",
     "explanation": "Cümle Çevirisi: 'Although artificial intelligence systems enhance diagnostic accuracy in medicine, no algorithm can completely replace the clinical experience of an expert physician.'",
-    "wordAnalysis": {
-      "diagnostic": "teşhise ait",
-      "accuracy": "doğruluk",
-      "physician": "hekim, doktor",
-      "replace": "yerini almak"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -2320,13 +1871,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-71",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 71,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Temiz içme suyuna erişim temel bir insan hakkıdır; bu nedenle hükümetler su kaynaklarını kirlilikten korumak için sıkı politikalar uygulamalıdır.",
     "options": {
@@ -2339,12 +1889,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Noktalı virgülden sonra gelen 'bu nedenle' ifadesi 'therefore' ile karşılanır. 'temel bir insan hakkıdır' -> 'is a fundamental human right'. 'sıkı politikalar uygulamalıdır' -> 'must implement strict policies'. B şıkkı eksiksizdir.",
     "explanation": "Cümle Çevirisi: 'Access to clean drinking water is a fundamental human right; therefore, governments must implement strict policies to protect water resources from pollution.'",
-    "wordAnalysis": {
-      "fundamental": "temel, asli",
-      "therefore": "bu nedenle",
-      "implement": "uygulamak",
-      "pollution": "kirlilik"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -2354,13 +1898,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-72",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 72,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Zor",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Geleneksel meyve bahçelerinde kimyasal böcek ilaçlarının kullanımını sınırlandırmak, hem toprak kalitesini artırır hem de yerel ekosistemi korur.",
     "options": {
@@ -2373,12 +1916,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Özne: 'Geleneksel meyve bahçelerinde kimyasal böcek ilaçlarının kullanımını sınırlandırmak' -> 'Restricting the use of chemical pesticides in traditional orchards'. 'hem ... hem de ...' yapısı -> 'both ... and ...'. D şıkkı kusursuzdur.",
     "explanation": "Cümle Çevirisi: 'Restricting the use of chemical pesticides in traditional orchards both enhances soil quality and protects the local ecosystem.'",
-    "wordAnalysis": {
-      "restrict": "sınırlandırmak",
-      "orchard": "meyve bahçesi",
-      "pesticide": "böcek ilacı",
-      "enhance": "artırmak"
-    },
     "tags": [
       "apple",
       "translation",
@@ -2388,13 +1925,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-73",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 73,
-    "category": "Okuma Parçası",
-    "subCategory": "Ana Fikir",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "Wild apple forests nestled in the Tian Shan mountains of Central Asia are widely recognized as the genetic birthplace of all modern domestic apples. For centuries, these wild populations endured extreme temperature fluctuations, rampant fungal blights, and relentless insect attacks without human intervention. As a consequence of natural selection, these wild trees accumulated an extraordinary reservoir of disease-resistant genes. In recent decades, however, urban encroachment and commercial monoculture farming have placed these ancestral woodlands under severe threat. Agricultural scientists are now urgently cataloging seed specimens from these remote valleys because commercial apple varieties have become dangerously uniform. Without the genetic variability preserved in wild relatives, commercial orchards worldwide remain exceptionally vulnerable to emerging catastrophic plant diseases.",
     "questionText": "It is clearly stated in the passage that the wild apple forests of Central Asia ------.",
     "options": {
@@ -2407,12 +1943,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Paragraf Ana Fikir Taktiği: Metnin ana tezi son ve ilk cümlelerde özetlenmiştir: Yabani ormanlar modern elmaların genetik atasıdır ve hastalıklara karşı elzem genetik çeşitlilik taşırlar.",
     "explanation": "Metinde açıkça belirtilmiştir ki, yabani elma ormanları modern elmaların hastalıklara karşı korunması için hayati genetik çeşitliliği barındırmaktadır (C seçeneği).",
-    "wordAnalysis": {
-      "reservoir": "hazne, depo",
-      "encroachment": "istila, tecavüz",
-      "vulnerable": "savunmasız",
-      "apple": "elma"
-    },
     "tags": [
       "apple",
       "reading",
@@ -2422,13 +1952,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-74",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 74,
-    "category": "Okuma Parçası",
-    "subCategory": "Doğrudan Çıkarım",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "Wild apple forests nestled in the Tian Shan mountains of Central Asia are widely recognized as the genetic birthplace of all modern domestic apples. For centuries, these wild populations endured extreme temperature fluctuations, rampant fungal blights, and relentless insect attacks without human intervention. As a consequence of natural selection, these wild trees accumulated an extraordinary reservoir of disease-resistant genes. In recent decades, however, urban encroachment and commercial monoculture farming have placed these ancestral woodlands under severe threat. Agricultural scientists are now urgently cataloging seed specimens from these remote valleys because commercial apple varieties have become dangerously uniform. Without the genetic variability preserved in wild relatives, commercial orchards worldwide remain exceptionally vulnerable to emerging catastrophic plant diseases.",
     "questionText": "According to the passage, wild apple populations developed strong disease resistance because ------.",
     "options": {
@@ -2441,11 +1970,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Paragraf Detay Taktiği: 'As a consequence of natural selection, these wild trees accumulated...' ifadesi B şıkkında 'survived rigorous natural selection under harsh environmental pressures' olarak eşanlamlı (paraphrased) verilmiştir.",
     "explanation": "Doğru cevap B'dir: 'yüzyıllar boyunca çetin çevre koşulları altında doğal seçilimden geçerek hayatta kaldıkları için'.",
-    "wordAnalysis": {
-      "rigorous": "sıkı, zorlu",
-      "accumulate": "biriktirmek",
-      "consequence": "sonuç"
-    },
     "tags": [
       "apple",
       "reading",
@@ -2454,13 +1978,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-75",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 75,
-    "category": "Okuma Parçası",
-    "subCategory": "Yazarın Uyarısı",
-    "difficulty": "Zor",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "Wild apple forests nestled in the Tian Shan mountains of Central Asia are widely recognized as the genetic birthplace of all modern domestic apples. For centuries, these wild populations endured extreme temperature fluctuations, rampant fungal blights, and relentless insect attacks without human intervention. As a consequence of natural selection, these wild trees accumulated an extraordinary reservoir of disease-resistant genes. In recent decades, however, urban encroachment and commercial monoculture farming have placed these ancestral woodlands under severe threat. Agricultural scientists are now urgently cataloging seed specimens from these remote valleys because commercial apple varieties have become dangerously uniform. Without the genetic variability preserved in wild relatives, commercial orchards worldwide remain exceptionally vulnerable to emerging catastrophic plant diseases.",
     "questionText": "The author warns that modern commercial apple orchards are at risk primarily due to ------.",
     "options": {
@@ -2473,11 +1996,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Paragraf Taktiği: Metnin son cümlesine dikkat: 'Without the genetic variability preserved in wild relatives, commercial orchards worldwide remain exceptionally vulnerable...'. Bu tehlike A şıkkındaki 'lack of genetic variability' ifadesiyle birebir örtüşür.",
     "explanation": "Doğru cevap A'dır: Ticari yetiştiriciliğin yarattığı tehlikeli genetik tekdüzelik ve çeşitlilik eksikliği.",
-    "wordAnalysis": {
-      "uniform": "tekdüze, standart",
-      "variability": "çeşitlilik",
-      "vulnerable": "savunmasız"
-    },
     "tags": [
       "apple",
       "reading",
@@ -2486,13 +2004,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-76",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 76,
-    "category": "Okuma Parçası",
-    "subCategory": "Kelime Anlamı",
-    "difficulty": "Kolay",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "Wild apple forests nestled in the Tian Shan mountains of Central Asia are widely recognized as the genetic birthplace of all modern domestic apples. For centuries, these wild populations endured extreme temperature fluctuations, rampant fungal blights, and relentless insect attacks without human intervention. As a consequence of natural selection, these wild trees accumulated an extraordinary reservoir of disease-resistant genes. In recent decades, however, urban encroachment and commercial monoculture farming have placed these ancestral woodlands under severe threat. Agricultural scientists are now urgently cataloging seed specimens from these remote valleys because commercial apple varieties have become dangerously uniform. Without the genetic variability preserved in wild relatives, commercial orchards worldwide remain exceptionally vulnerable to emerging catastrophic plant diseases.",
     "questionText": "The word 'encroachment' in line 4 is closest in meaning to ------.",
     "options": {
@@ -2505,10 +2022,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Kelime Sorusu Taktiği: 'Urban encroachment' = kentsel yayılma / istila / doğal alana izinsiz sokulma. 'Intrusion' (izinsiz giriş, müdahale, istila) en yakın anlamlısıdır.",
     "explanation": "'encroachment' sınır aşımı, izinsiz yayılma, işgal anlamına gelir. 'intrusion' kelimesiyle birebir eşanlamlıdır.",
-    "wordAnalysis": {
-      "encroachment": "istila, sınır aşımı",
-      "intrusion": "izinsiz giriş, işgal"
-    },
     "tags": [
       "reading",
       "vocabulary in context"
@@ -2516,13 +2029,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-77",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 77,
-    "category": "Okuma Parçası",
-    "subCategory": "Ana Fikir",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The integration of generative artificial intelligence into professional workplaces is reshaping traditional concepts of labor and creativity. Proponents assert that autonomous algorithms relieve knowledge workers from mundane administrative burdens, liberating them to pursue higher-order strategic thinking. However, critics caution that cognitive deskilling may emerge if professionals rely excessively on synthetic outputs without exercising critical judgment. In fields such as software engineering, law, and medical diagnosis, AI models routinely generate coherent initial drafts, yet human verification remains indispensable. Organizations that thrive in this technological transition will likely be those that foster symbiotic collaboration between human intuition and machine intelligence.",
     "questionText": "The primary purpose of the passage is to ------.",
     "options": {
@@ -2535,11 +2047,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Ana Fikir Taktiği: Metin hem avantajları (rutin işlerden kurtulma) hem de riskleri (bilişsel yetenek kaybı) dengeli şekilde ele almaktadır. C şıkkı 'discuss both the advantages and potential risks' bu sentezi verir.",
     "explanation": "Doğru cevap C'dir: Yapay zekanın iş akışlarına dahil edilmesinin hem faydalarını hem de olası risklerini tartışmak.",
-    "wordAnalysis": {
-      "proponent": "savunucu",
-      "deskilling": "yetenek kaybı",
-      "symbiotic": "ortak yaşam, simbiyotik"
-    },
     "tags": [
       "reading",
       "main idea",
@@ -2549,13 +2056,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-78",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 78,
-    "category": "Okuma Parçası",
-    "subCategory": "Detay",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The integration of generative artificial intelligence into professional workplaces is reshaping traditional concepts of labor and creativity. Proponents assert that autonomous algorithms relieve knowledge workers from mundane administrative burdens, liberating them to pursue higher-order strategic thinking. However, critics caution that cognitive deskilling may emerge if professionals rely excessively on synthetic outputs without exercising critical judgment. In fields such as software engineering, law, and medical diagnosis, AI models routinely generate coherent initial drafts, yet human verification remains indispensable. Organizations that thrive in this technological transition will likely be those that foster symbiotic collaboration between human intuition and machine intelligence.",
     "questionText": "According to the passage, advocates of generative AI argue that the technology ------.",
     "options": {
@@ -2568,11 +2074,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Detay Taktiği: Metindeki 'relieve knowledge workers from mundane administrative burdens, liberating them to pursue higher-order strategic thinking' ifadesi E şıkkında eşanlamlılarla verilmiştir.",
     "explanation": "Doğru cevap E'dir: Bilgi işçilerini rutin işlerden kurtarıp stratejik girişimlere odaklanmalarını sağlar.",
-    "wordAnalysis": {
-      "mundane": "sıradan, rutin",
-      "administrative": "idari",
-      "liberate": "özgür kılmak"
-    },
     "tags": [
       "reading",
       "detail",
@@ -2581,13 +2082,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-79",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 79,
-    "category": "Okuma Parçası",
-    "subCategory": "Yazar Görüşü",
-    "difficulty": "Zor",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The integration of generative artificial intelligence into professional workplaces is reshaping traditional concepts of labor and creativity. Proponents assert that autonomous algorithms relieve knowledge workers from mundane administrative burdens, liberating them to pursue higher-order strategic thinking. However, critics caution that cognitive deskilling may emerge if professionals rely excessively on synthetic outputs without exercising critical judgment. In fields such as software engineering, law, and medical diagnosis, AI models routinely generate coherent initial drafts, yet human verification remains indispensable. Organizations that thrive in this technological transition will likely be those that foster symbiotic collaboration between human intuition and machine intelligence.",
     "questionText": "The author implies that successful organizations in the modern era will be those that ------.",
     "options": {
@@ -2600,11 +2100,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Çıkarım Taktiği: Son cümledeki 'foster symbiotic collaboration between human intuition and machine intelligence' ifadesi C şıkkında 'blending human cognitive insights with artificial intelligence' olarak sunulmuştur.",
     "explanation": "Doğru cevap C'dir: İnsan zekası ve sezgisi ile yapay zekayı harmanlayan üretken ortaklıklar kuran şirketler.",
-    "wordAnalysis": {
-      "symbiotic": "simbiyotik, karşılıklı fayda sağlayan",
-      "intuition": "sezgi",
-      "blend": "harmanlamak"
-    },
     "tags": [
       "reading",
       "inference",
@@ -2613,13 +2108,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-80",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 80,
-    "category": "Okuma Parçası",
-    "subCategory": "Kelime Anlamı",
-    "difficulty": "Kolay",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The integration of generative artificial intelligence into professional workplaces is reshaping traditional concepts of labor and creativity. Proponents assert that autonomous algorithms relieve knowledge workers from mundane administrative burdens, liberating them to pursue higher-order strategic thinking. However, critics caution that cognitive deskilling may emerge if professionals rely excessively on synthetic outputs without exercising critical judgment. In fields such as software engineering, law, and medical diagnosis, AI models routinely generate coherent initial drafts, yet human verification remains indispensable. Organizations that thrive in this technological transition will likely be those that foster symbiotic collaboration between human intuition and machine intelligence.",
     "questionText": "The word 'mundane' in the passage is closest in meaning to ------.",
     "options": {
@@ -2632,10 +2126,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Kelime Sorusu Taktiği: 'mundane administrative burdens' = sıradan, tekdüze, rutin idari yükler. 'Routine' en uygun eşanlamlıdır.",
     "explanation": "'mundane' dünyevi, sıradan, rutin anlamına gelir. 'routine' kelimesiyle birebir örtüşür.",
-    "wordAnalysis": {
-      "mundane": "sıradan, tekdüze",
-      "routine": "rutin"
-    },
     "tags": [
       "reading",
       "vocabulary in context"
@@ -2643,13 +2133,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-81",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 81,
-    "category": "Okuma Parçası",
-    "subCategory": "Ana Fikir",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "During non-rapid eye movement (NREM) sleep, the human brain initiates an intricate cellular waste-clearing mechanism known as the glymphatic system. Cerebrospinal fluid surges through brain tissue at nearly double its waking speed, flushing out toxic metabolic byproducts including beta-amyloid proteins. Neurobiologists have long recognized that the chronic accumulation of these proteins correlates strongly with Alzheimer's disease and cognitive impairment. Consequently, sleep is no longer viewed by medicine as an inactive period of biological downtime, but rather as an aggressive neuroprotective maintenance process. Individuals who consistently curtail their sleep duration below six hours effectively deprive their central nervous system of this essential biological cleansing.",
     "questionText": "According to the passage, the glymphatic system serves to ------.",
     "options": {
@@ -2662,11 +2151,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Detay Taktiği: İlk iki cümlede lenfatik sistemin uykuda beyin omurilik sıvısı ile toksik maddeleri temizlediği açıkça anlatılmıştır (B şıkkı).",
     "explanation": "Doğru cevap B'dir: Derin uyku sırasında beyin omurilik sıvısını artırarak beyni toksik metabolik atıklardan arındırmak.",
-    "wordAnalysis": {
-      "cerebrospinal": "beyin omurilik",
-      "metabolic": "metabolik",
-      "flush out": "yıkayıp temizlemek"
-    },
     "tags": [
       "reading",
       "detail",
@@ -2676,13 +2160,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-82",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 82,
-    "category": "Okuma Parçası",
-    "subCategory": "Çıkarım",
-    "difficulty": "Zor",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "During non-rapid eye movement (NREM) sleep, the human brain initiates an intricate cellular waste-clearing mechanism known as the glymphatic system. Cerebrospinal fluid surges through brain tissue at nearly double its waking speed, flushing out toxic metabolic byproducts including beta-amyloid proteins. Neurobiologists have long recognized that the chronic accumulation of these proteins correlates strongly with Alzheimer's disease and cognitive impairment. Consequently, sleep is no longer viewed by medicine as an inactive period of biological downtime, but rather as an aggressive neuroprotective maintenance process. Individuals who consistently curtail their sleep duration below six hours effectively deprive their central nervous system of this essential biological cleansing.",
     "questionText": "It can be inferred from the passage that chronic sleep deprivation ------.",
     "options": {
@@ -2695,11 +2178,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Çıkarım Taktiği: Metin, toksinlerin atılamamasının Alzheimer ile güçlü ilişkili olduğunu ve uykusuzluğun bu temizliği engellediğini söylüyor. Buradan C şıkkı (Alzheimer gibi hastalıklara yatkınlığı artırması) doğrudan çıkarılır.",
     "explanation": "Doğru cevap C'dir: Uzun vadede Alzheimer gibi nörodejeneratif hastalıklara karşı savunmasızlığı artırır.",
-    "wordAnalysis": {
-      "vulnerability": "savunmasızlık",
-      "neurodegenerative": "sinir yıkıcı",
-      "deprivation": "yoksunluk"
-    },
     "tags": [
       "reading",
       "inference",
@@ -2708,13 +2186,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-83",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 83,
-    "category": "Okuma Parçası",
-    "subCategory": "Yazar Tutumu",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "During non-rapid eye movement (NREM) sleep, the human brain initiates an intricate cellular waste-clearing mechanism known as the glymphatic system. Cerebrospinal fluid surges through brain tissue at nearly double its waking speed, flushing out toxic metabolic byproducts including beta-amyloid proteins. Neurobiologists have long recognized that the chronic accumulation of these proteins correlates strongly with Alzheimer's disease and cognitive impairment. Consequently, sleep is no longer viewed by medicine as an inactive period of biological downtime, but rather as an aggressive neuroprotective maintenance process. Individuals who consistently curtail their sleep duration below six hours effectively deprive their central nervous system of this essential biological cleansing.",
     "questionText": "Modern medicine's evolving perspective on sleep is described as shifting from ------.",
     "options": {
@@ -2727,11 +2204,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Paragraf Karşılaştırma Taktiği: 'no longer viewed as an inactive downtime, but rather as an aggressive neuroprotective maintenance process' ifadesi tam olarak A seçeneğidir.",
     "explanation": "Doğru cevap A'dır: Uyku pasif bir hareketsizlikten aktif bir sinir koruyucu bakım sürecine dönüşen bir bakış açısıyla tanımlanmaktadır.",
-    "wordAnalysis": {
-      "downtime": "duraklama, atıl süre",
-      "neuroprotective": "sinir koruyucu",
-      "perspective": "bakış açısı"
-    },
     "tags": [
       "reading",
       "comparison"
@@ -2739,13 +2211,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-84",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 84,
-    "category": "Okuma Parçası",
-    "subCategory": "Kelime Anlamı",
-    "difficulty": "Kolay",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "During non-rapid eye movement (NREM) sleep, the human brain initiates an intricate cellular waste-clearing mechanism known as the glymphatic system. Cerebrospinal fluid surges through brain tissue at nearly double its waking speed, flushing out toxic metabolic byproducts including beta-amyloid proteins. Neurobiologists have long recognized that the chronic accumulation of these proteins correlates strongly with Alzheimer's disease and cognitive impairment. Consequently, sleep is no longer viewed by medicine as an inactive period of biological downtime, but rather as an aggressive neuroprotective maintenance process. Individuals who consistently curtail their sleep duration below six hours effectively deprive their central nervous system of this essential biological cleansing.",
     "questionText": "The word 'curtail' in the final sentence is closest in meaning to ------.",
     "options": {
@@ -2758,10 +2229,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Kelime Anlamı Taktiği: 'curtail their sleep duration below six hours' = uykusunu altı saatin altına kısmak/kısaltmak. 'Shorten' (kısaltmak) tam karşılığıdır.",
     "explanation": "'curtail' kısmak, azaltmak, kısaltmak demektir. 'shorten' en doğru eşanlamlıdır.",
-    "wordAnalysis": {
-      "curtail": "kısmak, kısaltmak",
-      "shorten": "kısaltmak"
-    },
     "tags": [
       "reading",
       "vocabulary in context"
@@ -2769,13 +2236,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-85",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 85,
-    "category": "Okuma Parçası",
-    "subCategory": "Detay",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The Atlantic Meridional Overturning Circulation (AMOC) functions as a massive oceanic conveyor belt, transporting warm tropical waters northward and returning cold deep water south. This marine circulation plays a profound role in moderating the climate of Western Europe, ensuring temperate winters compared to Canadian latitudes at similar geographic positions. However, unprecedented freshwater runoff from melting Greenland ice sheets is diluting North Atlantic surface salinity. Because fresh water is less dense than saltwater, this dilution inhibits surface water from sinking, which threatens to stall the entire circulation mechanism. Paleoclimate simulations suggest that a substantial deceleration of AMOC could trigger abrupt shifts in tropical monsoon belts and intensify severe storm systems globally.",
     "questionText": "It is stated in the passage that the AMOC is essential for Western Europe because it ------.",
     "options": {
@@ -2788,11 +2254,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Detay Taktiği: Metindeki 'moderating the climate of Western Europe, ensuring temperate winters compared to Canadian latitudes at similar geographic positions' ifadesi E şıkkında 'keeps winter temperatures milder' şeklinde verilmiştir.",
     "explanation": "Doğru cevap E'dir: Kış sıcaklıklarını aynı enlemdeki diğer bölgelere kıyasla belirgin şekilde daha ılıman tutar.",
-    "wordAnalysis": {
-      "temperate": "ılıman",
-      "latitude": "enlem",
-      "circulation": "dolaşım, akıntı"
-    },
     "tags": [
       "reading",
       "detail",
@@ -2802,13 +2263,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-86",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 86,
-    "category": "Okuma Parçası",
-    "subCategory": "Sebep-Sonuç",
-    "difficulty": "Zor",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The Atlantic Meridional Overturning Circulation (AMOC) functions as a massive oceanic conveyor belt, transporting warm tropical waters northward and returning cold deep water south. This marine circulation plays a profound role in moderating the climate of Western Europe, ensuring temperate winters compared to Canadian latitudes at similar geographic positions. However, unprecedented freshwater runoff from melting Greenland ice sheets is diluting North Atlantic surface salinity. Because fresh water is less dense than saltwater, this dilution inhibits surface water from sinking, which threatens to stall the entire circulation mechanism. Paleoclimate simulations suggest that a substantial deceleration of AMOC could trigger abrupt shifts in tropical monsoon belts and intensify severe storm systems globally.",
     "questionText": "The primary reason why melting Greenland ice threatens the oceanic circulation is that ------.",
     "options": {
@@ -2821,11 +2281,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Sebep-Sonuç Taktiği: Metin: 'Because fresh water is less dense than saltwater, this dilution inhibits surface water from sinking'. D şıkkı bunu 'reduces salinity and impedes cold water from sinking' olarak ifade eder.",
     "explanation": "Doğru cevap D'dir: Eriyen tatlı suyun tuzluluğu düşürerek soğuk suyun batmasını engellemesi.",
-    "wordAnalysis": {
-      "salinity": "tuzluluk",
-      "impede": "engellemek",
-      "dense": "yoğun"
-    },
     "tags": [
       "reading",
       "cause effect",
@@ -2834,13 +2289,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-87",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 87,
-    "category": "Okuma Parçası",
-    "subCategory": "Sonuç / Çıkarım",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The Atlantic Meridional Overturning Circulation (AMOC) functions as a massive oceanic conveyor belt, transporting warm tropical waters northward and returning cold deep water south. This marine circulation plays a profound role in moderating the climate of Western Europe, ensuring temperate winters compared to Canadian latitudes at similar geographic positions. However, unprecedented freshwater runoff from melting Greenland ice sheets is diluting North Atlantic surface salinity. Because fresh water is less dense than saltwater, this dilution inhibits surface water from sinking, which threatens to stall the entire circulation mechanism. Paleoclimate simulations suggest that a substantial deceleration of AMOC could trigger abrupt shifts in tropical monsoon belts and intensify severe storm systems globally.",
     "questionText": "According to paleoclimate models, if the AMOC slows down considerably, ------.",
     "options": {
@@ -2853,11 +2307,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Sonuç Taktiği: Son cümleye bakın: 'a substantial deceleration of AMOC could trigger abrupt shifts in tropical monsoon belts and intensify severe storm systems globally.' A şıkkı bu küresel hava bozulmalarını özetler.",
     "explanation": "Doğru cevap A'dır: Muson yağışlarının değişmesi de dahil küresel hava anomalileri aniden ortaya çıkabilir.",
-    "wordAnalysis": {
-      "deceleration": "yavaşlama",
-      "abrupt": "ani",
-      "monsoon": "muson"
-    },
     "tags": [
       "reading",
       "inference",
@@ -2866,13 +2315,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-88",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 88,
-    "category": "Okuma Parçası",
-    "subCategory": "Kelime Anlamı",
-    "difficulty": "Kolay",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The Atlantic Meridional Overturning Circulation (AMOC) functions as a massive oceanic conveyor belt, transporting warm tropical waters northward and returning cold deep water south. This marine circulation plays a profound role in moderating the climate of Western Europe, ensuring temperate winters compared to Canadian latitudes at similar geographic positions. However, unprecedented freshwater runoff from melting Greenland ice sheets is diluting North Atlantic surface salinity. Because fresh water is less dense than saltwater, this dilution inhibits surface water from sinking, which threatens to stall the entire circulation mechanism. Paleoclimate simulations suggest that a substantial deceleration of AMOC could trigger abrupt shifts in tropical monsoon belts and intensify severe storm systems globally.",
     "questionText": "The word 'deceleration' in the final sentence is closest in meaning to ------.",
     "options": {
@@ -2885,10 +2333,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Kelime Sorusu Taktiği: 'deceleration' (ivme kaybı, yavaşlama) kelimesinin doğrudan eşanlamlısı 'slowing down'dır.",
     "explanation": "'deceleration' yavaşlama demektir. 'slowing down' doğru cevaptır.",
-    "wordAnalysis": {
-      "deceleration": "yavaşlama",
-      "slowing down": "yavaşlama"
-    },
     "tags": [
       "reading",
       "vocabulary in context"
@@ -2896,13 +2340,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-89",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 89,
-    "category": "Okuma Parçası",
-    "subCategory": "Ana Fikir",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "Linguists estimate that roughly half of the world's approximately 7,000 spoken languages may disappear before the end of the twenty-first century. When an indigenous language becomes extinct, humanity loses far more than an arbitrary collection of grammatical rules and phonetic symbols. Embedded within indigenous vocabularies are vast encyclopedias of ethnobotanical knowledge, detailing medicinal properties of rare plants and ancestral ecological stewardship. Linguistic assimilation driven by globalized telecommunications and centralized school curricula accelerates the transition of younger generations toward dominant national tongues. Digital archiving initiatives and community-led revitalization programs represent the most promising safeguards to preserve these fragile cultural archives for posterity.",
     "questionText": "The author emphasizes that the loss of an indigenous language is tragic because ------.",
     "options": {
@@ -2915,11 +2358,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Ana Fikir Taktiği: Metin 'humanity loses far more than an arbitrary collection of words... vast encyclopedias of ethnobotanical knowledge' diyerek dilin kaybıyla benzersiz botanik ve ekolojik bilginin yok olduğunu vurgular (C şıkkı).",
     "explanation": "Doğru cevap C'dir: Kelime hazinesinde saklı olan yeri doldurulamaz botanik, ekolojik ve kültürel birikimi yok etmesi.",
-    "wordAnalysis": {
-      "lexicon": "söz varlığı, sözlük",
-      "ethnobotanical": "etnobotanik",
-      "irreplaceable": "yeri doldurulamaz"
-    },
     "tags": [
       "reading",
       "main idea",
@@ -2928,13 +2366,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-90",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 90,
-    "category": "Okuma Parçası",
-    "subCategory": "Detay",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "Linguists estimate that roughly half of the world's approximately 7,000 spoken languages may disappear before the end of the twenty-first century. When an indigenous language becomes extinct, humanity loses far more than an arbitrary collection of grammatical rules and phonetic symbols. Embedded within indigenous vocabularies are vast encyclopedias of ethnobotanical knowledge, detailing medicinal properties of rare plants and ancestral ecological stewardship. Linguistic assimilation driven by globalized telecommunications and centralized school curricula accelerates the transition of younger generations toward dominant national tongues. Digital archiving initiatives and community-led revitalization programs represent the most promising safeguards to preserve these fragile cultural archives for posterity.",
     "questionText": "According to the passage, linguistic assimilation is accelerated by ------.",
     "options": {
@@ -2947,10 +2384,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Detay Taktiği: 'Linguistic assimilation driven by globalized telecommunications and centralized school curricula...' cümlesi doğrudan B şıkkına denk gelir.",
     "explanation": "Doğru cevap B'dir: Merkezi müfredatlar ve yaygın dijital telekomünikasyon.",
-    "wordAnalysis": {
-      "assimilation": "asimilasyon, benzeşme",
-      "pervasive": "yaygın, her yere sinen"
-    },
     "tags": [
       "reading",
       "detail",
@@ -2959,13 +2392,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-91",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 91,
-    "category": "Okuma Parçası",
-    "subCategory": "Çözüm Önerisi",
-    "difficulty": "Orta",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "Linguists estimate that roughly half of the world's approximately 7,000 spoken languages may disappear before the end of the twenty-first century. When an indigenous language becomes extinct, humanity loses far more than an arbitrary collection of grammatical rules and phonetic symbols. Embedded within indigenous vocabularies are vast encyclopedias of ethnobotanical knowledge, detailing medicinal properties of rare plants and ancestral ecological stewardship. Linguistic assimilation driven by globalized telecommunications and centralized school curricula accelerates the transition of younger generations toward dominant national tongues. Digital archiving initiatives and community-led revitalization programs represent the most promising safeguards to preserve these fragile cultural archives for posterity.",
     "questionText": "The passage suggests that the most effective way to safeguard endangered languages is through ------.",
     "options": {
@@ -2978,10 +2410,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Çözüm Taktiği: Son cümleye bakın: 'Digital archiving initiatives and community-led revitalization programs represent the most promising safeguards...'. D şıkkı bu ifadeyi doğrudan karşılar.",
     "explanation": "Doğru cevap D'dir: Dijital arşivleme ve topluluk öncülüğünde canlandırma programları.",
-    "wordAnalysis": {
-      "safeguard": "koruma önlemi",
-      "revitalization": "yeniden canlandırma"
-    },
     "tags": [
       "reading",
       "solution",
@@ -2990,13 +2418,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-92",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 92,
-    "category": "Okuma Parçası",
-    "subCategory": "Kelime Anlamı",
-    "difficulty": "Kolay",
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "Linguists estimate that roughly half of the world's approximately 7,000 spoken languages may disappear before the end of the twenty-first century. When an indigenous language becomes extinct, humanity loses far more than an arbitrary collection of grammatical rules and phonetic symbols. Embedded within indigenous vocabularies are vast encyclopedias of ethnobotanical knowledge, detailing medicinal properties of rare plants and ancestral ecological stewardship. Linguistic assimilation driven by globalized telecommunications and centralized school curricula accelerates the transition of younger generations toward dominant national tongues. Digital archiving initiatives and community-led revitalization programs represent the most promising safeguards to preserve these fragile cultural archives for posterity.",
     "questionText": "The word 'posterity' in the final sentence is closest in meaning to ------.",
     "options": {
@@ -3009,10 +2436,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Kelime Sorusu Taktiği: 'for posterity' = gelecek nesiller için, gelecek kuşaklar için. 'Future generations' doğrudan karşılığıdır.",
     "explanation": "'posterity' gelecek nesiller, ahfad demektir. 'future generations' doğru eşanlamlıdır.",
-    "wordAnalysis": {
-      "posterity": "gelecek nesiller",
-      "future generations": "gelecek nesiller"
-    },
     "tags": [
       "reading",
       "vocabulary in context"
@@ -3020,13 +2443,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-93",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 93,
     "category": "Diyalog Tamamlama",
     "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Professor Aris: Our department is considering replacing traditional textbooks with interactive AI tutoring software next semester.\n\nDr. Linda: ------\n\nProfessor Aris: That's a valid concern, but the software only provides scaffolding; teachers will still conduct all live evaluations and lectures.",
     "options": {
@@ -3039,11 +2461,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Diyalog Taktiği: Profesörün yanıtına bakın: 'That's a valid concern, but the software only provides scaffolding...' (Bu haklı bir endişe, ancak yazılım sadece destek sağlıyor...). Boşlukta olumsuz bir 'endişe/risk' dile getirilmiş olmalıdır. D şıkkı öğrencilerin aşırı bağımlı olma endişesini dile getirmektedir.",
     "explanation": "Cümle Çevirisi: Dr. Linda haklı bir endişe öne sürmelidir ('Öğrencilerin otomatik cevaplara aşırı bağımlı hale gelip eleştirel düşünme becerilerini kaybetmelerinden endişelenmiyor musunuz?'). Profesör de 'Bu haklı bir endişe ancak...' diyerek yanıtlamıştır.",
-    "wordAnalysis": {
-      "scaffolding": "destek, iskele",
-      "reliant": "bağımlı",
-      "evaluation": "değerlendirme"
-    },
     "tags": [
       "dialogue",
       "education",
@@ -3052,13 +2469,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-94",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 94,
     "category": "Diyalog Tamamlama",
     "subCategory": "Çevre & Ziraat Diyaloğu",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Farmer Tom: I've noticed that wild apple trees growing near the forest boundary never get infected with fungal scab, while my commercial orchard suffers every spring.\n\nAgronomist Sarah: ------\n\nFarmer Tom: Exactly. That explains why researchers are so eager to crossbreed those wild varieties into our commercial stock.",
     "options": {
@@ -3071,12 +2487,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Diyalog Taktiği: Tom'un 'Exactly. That explains why researchers are so eager to crossbreed...' (Aynen öyle. Bu, araştırmacıların neden o yabani çeşitleri melezlemeye bu kadar hevesli olduğunu açıklıyor) tepkisi, Sarah'nın yabani ağaçların genetik üstünlüğünü açıklamış olmasını gerektirir (E şıkkı).",
     "explanation": "Cümle Çevirisi: Agronomist Sarah: 'Çünkü yüzyıllardır süren doğal seçilim yabani türleri, ticari tek tip ürünlerde bulunmayan çok genli güçlü bir dirençle donatmıştır.' Tom: 'Aynen öyle...' diyerek bunu onaylar.",
-    "wordAnalysis": {
-      "endow": "donatmak, bahşetmek",
-      "scab": "kabuk bağlama, bitki uyuzu",
-      "crossbreed": "melezlemek",
-      "apple": "elma"
-    },
     "tags": [
       "apple",
       "dialogue",
@@ -3085,13 +2495,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-95",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 95,
     "category": "Diyalog Tamamlama",
     "subCategory": "Tıp & Sağlık Diyaloğu",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Patient: Doctor, is it true that drinking black coffee before exercising burns substantially more fat?\n\nDoctor: Caffeine can slightly elevate your resting metabolic rate and increase alertness, but ------\n\nPatient: So it's not a magical shortcut after all; sustainable diet and consistent training are what really matter.",
     "options": {
@@ -3104,11 +2513,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Diyalog Taktiği: Hastanın son cümlesindeki 'So it's not a magical shortcut after all; sustainable diet and consistent training are what really matter' (Demek ki sihirli bir kestirme yol değilmiş; asıl önemli olan sürdürülebilir diyet ve düzenli antrenmanmış) çıkarımı, doktorun kahvenin tek başına kalori açığı ve egzersizin yerini tutamayacağını söylediğini gösterir (A şıkkı).",
     "explanation": "Cümle Çevirisi: Doktor: '...fakat anlamlı bir kilo yönetiminde kalori açığının ve düzenli fiziksel aktivitenin yerini tutamaz.' Hasta: 'Demek ki sihirli bir kestirme yol değilmiş...' der.",
-    "wordAnalysis": {
-      "substitute": "yerini tutmak",
-      "caloric deficit": "kalori açığı",
-      "sustainable": "sürdürülebilir"
-    },
     "tags": [
       "dialogue",
       "health",
@@ -3117,13 +2521,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-96",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 96,
     "category": "Diyalog Tamamlama",
     "subCategory": "Ekonomi Diyaloğu",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Financial Analyst: Several emerging economies are pegging their local currencies to gold reserves rather than foreign fiat currencies.\n\nEconomist: ------\n\nFinancial Analyst: You have a point. If global gold mining declines or reserves are frozen, liquidity could vanish overnight.",
     "options": {
@@ -3136,11 +2539,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Diyalog Taktiği: Analistin 'You have a point. If gold declines, liquidity could vanish...' (Haklı bir noktanız var, likidite bir gecede yok olabilir) cevabı, Ekonomistin altın standardının kısıtlayıcı tehlikelerinden bahsettiğini gösterir (D şıkkı).",
     "explanation": "Cümle Çevirisi: Ekonomist: 'Bu durum enflasyonu geçici olarak dizginlese de, derin durgunluklarda merkez bankasının ekonomiyi canlandırma yeteneğini ciddi şekilde kısıtlar.'",
-    "wordAnalysis": {
-      "constrain": "kısıtlamak",
-      "liquidity": "likidite, nakit akışı",
-      "recession": "durgunluk"
-    },
     "tags": [
       "dialogue",
       "economics"
@@ -3148,13 +2546,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-97",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 97,
     "category": "Diyalog Tamamlama",
     "subCategory": "Mimarlık & Şehircilik",
-    "difficulty": "Kolay",
     "passage": "",
     "questionText": "Architect Dan: We plan to replace all concrete plazas in the new downtown project with bioswales and permeable greenery.\n\nDeveloper Clara: Won't that substantially increase the initial construction budget?\n\nArchitect Dan: ------\n\nDeveloper Clara: I see. So the upfront expense pays for itself through disaster mitigation.",
     "options": {
@@ -3167,11 +2564,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Diyalog Taktiği: Clara'nın son sözü: 'I see. So the upfront expense pays for itself through disaster mitigation' (Anlıyorum, yani peşin maliyet felaketi önleme sayesinde kendi kendini amorti ediyor). Demek ki Dan ilk maliyetin pahalı olduğunu ama sel gibi büyük masrafları önlediğini söylemiştir (E şıkkı).",
     "explanation": "Cümle Çevirisi: Dan: 'Evet artırır, ancak pahalı yer altı yağmur suyu drenaj borularına olan ihtiyacı ortadan kaldırır ve ani sel hasarlarını önler.' Clara: 'Anlıyorum, peşin masraf kendini amorti ediyor.'",
-    "wordAnalysis": {
-      "bioswale": "biyo-hendek, yeşil su kanalı",
-      "permeable": "geçirgen",
-      "drainage": "drenaj"
-    },
     "tags": [
       "dialogue",
       "urban",
@@ -3180,13 +2572,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-98",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 98,
     "category": "Anlamca En Yakın Cümle",
     "subCategory": "Zıtlık / Karşılaştırma",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Had environmental scientists not persistently warned international bodies about the depletion of the ozone layer, the Montreal Protocol would never have been signed in 1987.",
     "options": {
@@ -3199,11 +2590,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Restatement Taktiği: Orijinal cümle bir Type-3 gizli koşuldur ('Had scientists not warned... = If scientists had not warned... protocol would never have been signed' -> Bilim insanları uyarısı olmasaydı imzalanmazdı, yani tam olarak bilim insanlarının ısrarlı uyarıları sayesinde imzalandı). B şıkkı bu neden-sonuç ilişkisini 'precisely because environmental scientists maintained relentless warnings' ile kusursuz verir.",
     "explanation": "Cümle Çevirisi: 'Çevre bilimcileri uluslararası kuruluşları ozon tabakasının incelmesi konusunda ısrarla uyarmamış olsaydı, 1987 Montreal Protokolü asla imzalanmazdı.' B seçeneği aynı anlamı vermektedir.",
-    "wordAnalysis": {
-      "depletion": "tükenme, incelme",
-      "ratify": "onaylamak, yürürlüğe koymak",
-      "relentless": "dur durak bilmeyen, amansız"
-    },
     "tags": [
       "restatement",
       "environment",
@@ -3212,13 +2598,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-99",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 99,
     "category": "Anlamca En Yakın Cümle",
     "subCategory": "Koşul ve Kısıtlama",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Only by conserving the genetic diversity of wild fruit ancestors like the apple can modern agriculture safeguard food supplies against unforeseen plant pandemics.",
     "options": {
@@ -3231,12 +2616,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Restatement Taktiği: 'Only by conserving... can modern agriculture safeguard...' (Yalnızca koruyarak güvence altına alabilir = tek yol budur). A şıkkındaki 'is the sole means by which...' ifadesi 'only by' yapısının birebir karşılığıdır.",
     "explanation": "Cümle Çevirisi: 'Modern tarım, gıda arzını öngörülemeyen bitki pandemilerine karşı ancak elma gibi yabani meyve atalarının genetik çeşitliliğini koruyarak emniyete alabilir.'",
-    "wordAnalysis": {
-      "forebear": "ata",
-      "sole means": "tek yol, yegane araç",
-      "unforeseen": "öngörülemeyen",
-      "apple": "elma"
-    },
     "tags": [
       "apple",
       "restatement",
@@ -3245,13 +2624,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-100",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 100,
     "category": "Anlamca En Yakın Cümle",
     "subCategory": "Zıtlık / Taviz",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Despite possessing vast computational power, contemporary artificial neural networks cannot genuinely comprehend the contextual meaning of human emotional nuances.",
     "options": {
@@ -3264,11 +2642,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Restatement Taktiği: 'Despite possessing vast power' (büyük güce sahip olmasına rağmen) = 'Even though they boast immense processing capabilities'. 'cannot genuinely comprehend' (gerçekten anlayamaz) = 'remain incapable of truly grasping'. C şıkkı eşanlamlılarla tam oturur.",
     "explanation": "Cümle Çevirisi: 'Muazzam hesaplama gücüne sahip olmasına rağmen, günümüz yapay sinir ağları insan duygusal nüanslarının bağlamsal anlamını gerçekten kavrayamamaktadır.'",
-    "wordAnalysis": {
-      "nuance": "nüans, ince ayrım",
-      "grasp": "kavramak",
-      "subtlety": "incelik"
-    },
     "tags": [
       "restatement",
       "technology",
@@ -3277,13 +2650,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-101",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 101,
     "category": "Anlamca En Yakın Cümle",
     "subCategory": "Sebep-Sonuç",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Because prolonged exposure to blue light from digital displays suppresses melatonin secretion, it often leads to severe insomnia and disrupted circadian rhythms.",
     "options": {
@@ -3296,12 +2668,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Restatement Taktiği: 'prolonged exposure' -> 'extended screen time'; 'suppresses melatonin' -> 'by hindering the production of melatonin'; 'leads to severe insomnia and disrupted circadian rhythms' -> 'frequently induces acute insomnia and upsets the natural sleep cycle'. A şıkkı tam karşılıktır.",
     "explanation": "Cümle Çevirisi: 'Dijital ekranlardan gelen mavi ışığa uzun süre maruz kalmak melatonin salgılanmasını baskıladığından, sıklıkla şiddetli uykusuzluğa ve sirkadiyen ritmin bozulmasına yol açar.'",
-    "wordAnalysis": {
-      "suppress": "baskılamak",
-      "insomnia": "uykusuzluk",
-      "hinder": "engellemek",
-      "circadian": "günlük biyolojik ritim"
-    },
     "tags": [
       "restatement",
       "health",
@@ -3310,13 +2676,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-102",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 102,
     "category": "Paragraf Tamamlama",
     "subCategory": "Paragraf Akışı",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "For centuries, the Silk Road was celebrated not merely as a conduit for luxury goods like silk and porcelain, but as a dynamic artery of biological exchange. Along with religious beliefs and astronomical manuscripts, merchants transported vital agricultural cultivars across continents. ------. Modern genetic analyses reveal that these nomadic exchanges fundamentally diversified Eurasian crop cultivation, shaping food systems from China to the Mediterranean.",
     "options": {
@@ -3329,12 +2694,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki cümle: 'merchants transported vital agricultural cultivars across continents' (tüccarlar kıtalar arasında hayati tarımsal çeşitleri taşıdılar). Boşluktan sonraki cümle: 'Modern genetic analyses reveal that these nomadic exchanges fundamentally diversified Eurasian crop cultivation...' (Modern genetik analizler bu göçebe takasların Avrasya tarımını temelden çeşitlendirdiğini ortaya koymaktadır). Boşluğa bu tarımsal bitki transferinin somut örneği gelmelidir (E şıkkı: yabani elma ve ceviz türlerinin taşınması).",
     "explanation": "Cümle Çevirisi: 'En dönüştürücü bahçecilik transferleri arasında, Orta Asya dağ geçitlerinden taşınan yabani elma ve ceviz çeşitleri yer alıyordu.'",
-    "wordAnalysis": {
-      "conduit": "kanal, vasıta",
-      "cultivar": "ekili bitki çeşidi",
-      "horticultural": "bahçe ziraati",
-      "apple": "elma"
-    },
     "tags": [
       "apple",
       "paragraph completion",
@@ -3344,13 +2703,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-103",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 103,
     "category": "Paragraf Tamamlama",
     "subCategory": "Çevre & Enerji",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Geothermal energy utilizes the natural thermal heat generated within the Earth's molten core. Unlike wind and solar power, which fluctuate depending on weather conditions, geothermal reservoirs deliver a continuous, baseload supply of clean electricity. ------. As drilling technologies advance, access to deeper subsurface thermal layers will make clean geothermal generation viable in regions far beyond active volcanic zones.",
     "options": {
@@ -3363,11 +2721,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önce jeotermal enerjinin rüzgar ve güneşin aksine 'kesintisiz ve sürekli' (continuous, baseload supply) olduğu söylenmiştir. Boşluğa bu güvenilirliği niteleyen 'This remarkable reliability makes it an indispensable component...' cümlesi (B şıkkı) akışa tam oturur.",
     "explanation": "Cümle Çevirisi: 'Bu kayda değer güvenilirlik, onu yenilenebilir elektrik şebekelerini dengelemek için vazgeçilmez bir bileşen haline getirmektedir.'",
-    "wordAnalysis": {
-      "geothermal": "jeotermal",
-      "fluctuate": "dalgalanmak",
-      "baseload": "taban yük, kesintisiz güç"
-    },
     "tags": [
       "paragraph completion",
       "energy",
@@ -3376,13 +2729,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-104",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 104,
     "category": "Paragraf Tamamlama",
     "subCategory": "Bilişsel Psikoloji",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Psychologists describe the 'confirmation bias' as the universal human tendency to favor information that corroborates pre-existing beliefs. When presented with contradictory evidence, people often dismiss or scrutinize it with disproportionate skepticism. ------. Consequently, polarized opinions become further entrenched rather than harmonized through dialogue.",
     "options": {
@@ -3395,11 +2747,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önce: Çelişkili kanıtlar görüldüğünde insanlar bunu şüpheyle reddederler. Boşlukta bunun zıddı (kendi fikrini destekleyen muğlak verileri ise sorgulamadan kabul ederler) gelmelidir ('Conversely, even ambiguous data that seems to support their stance is readily embraced...'). Sonraki 'entrenched' (kutuplaşmış fikirlerin kemikleşmesi) sonucu da bunu teyit eder.",
     "explanation": "Cümle Çevirisi: 'Aksine, ilk görüşlerini destekler gibi görünen belirsiz veriler bile eleştirel bir inceleme olmaksızın hevesle benimsenir.'",
-    "wordAnalysis": {
-      "confirmation bias": "doğrulama yanlılığı",
-      "corroborate": "doğrulamak, teyit etmek",
-      "entrenched": "kemikleşmiş"
-    },
     "tags": [
       "paragraph completion",
       "psychology"
@@ -3407,13 +2754,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-105",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 105,
     "category": "Paragraf Tamamlama",
     "subCategory": "Tıp & Antibiyotik",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Bacterial biofilms are dense microbiological communities encased in self-produced protective slime. Within these structured clusters, bacteria communicate via chemical signaling molecules in a process known as quorum sensing. ------. As a result, chronic infections caused by biofilm-forming pathogens require drastically elevated drug dosages that can be toxic to human organs.",
     "options": {
@@ -3426,11 +2772,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önce koruyucu balçık kılıfından ('protective slime') bahsedilmiş, boşluktan sonra ise antibiyotiklerin çok yüksek dozlarda verilmek zorunda kalındığı belirtilmiştir. Boşluğa bu kılıfın antibiyotiklerin içeri girmesini engelleyen bir kalkan olduğunu açıklayan C şıkkı gelmelidir ('This protective matrix acts as a physical shield that prevents standard antibiotics...').",
     "explanation": "Cümle Çevirisi: 'Bu koruyucu matris, standart antibiyotiklerin ve bağışıklık hücrelerinin bakteri kolonisine nüfuz etmesini engelleyen fiziksel bir kalkan görevi görür.'",
-    "wordAnalysis": {
-      "biofilm": "biyofilm",
-      "matrix": "matris, doku",
-      "penetrate": "nüfuz etmek, içine girmek"
-    },
     "tags": [
       "paragraph completion",
       "medicine",
@@ -3439,13 +2780,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-106",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 106,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Konu Bütünlüğü",
-    "difficulty": "Orta",
+    "category": "Anlam Butunlugunu Bozan Cumle",
+    "subCategory": "Akışı Bozan Cümle (Irrelevant Sentence)",
     "passage": "",
     "questionText": "(I) Coral reefs occupy less than one percent of the ocean floor, yet they provide shelter for more than twenty-five percent of all marine species. (II) In recent decades, rising sea surface temperatures have triggered mass coral bleaching events across tropical archipelagos. (III) When water warms excessively, corals expel the symbiotic photosynthetic algae residing in their tissues, turning completely white. (IV) Scuba diving equipment has become remarkably inexpensive, allowing tourists to explore coastal shipwrecks worldwide. (V) Deprived of these microscopic algae, the corals starve and become highly susceptible to lethal infections.",
     "options": {
@@ -3458,11 +2798,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Akışı Bozan Cümle Taktiği: Paragraf mercan resifleri, sıcak suyun mercan beyazlamasına (coral bleaching) yol açması ve alglerin ölümü üzerinedir (I, II, III, V birbiriyle sıkı nedensellik bağlamındadır). Ancak IV numaralı cümle tüplü dalış ekipmanlarının ucuzlamasından ve batık turizminden bahsederek konunun tamamen dışına çıkmıştır.",
     "explanation": "IV numaralı cümle (D seçeneği) metnin bilimsel ve ekolojik akışını bozmaktadır.",
-    "wordAnalysis": {
-      "bleaching": "beyazlama",
-      "symbiotic": "simbiyotik, ortak yaşayan",
-      "expel": "dışarı atmak, kovmak"
-    },
     "tags": [
       "irrelevant sentence",
       "marine",
@@ -3471,13 +2806,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-107",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 107,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Konu Bütünlüğü",
-    "difficulty": "Orta",
+    "category": "Anlam Butunlugunu Bozan Cumle",
+    "subCategory": "Akışı Bozan Cümle (Irrelevant Sentence)",
     "passage": "",
     "questionText": "(I) Organic apple growers rely heavily on biological controls rather than synthetic pesticides to safeguard their seasonal crop yields. (II) By introducing predatory insects like ladybugs into the orchard, farmers naturally suppress aphid infestations. (III) Furthermore, intercropping flowering clover between tree rows attracts pollinating wild bumblebees and improves soil nitrogen levels. (IV) Commercial apple cider was traditionally fermented in large charred oak barrels throughout colonial North America. (V) These holistic practices allow orchardists to harvest pristine fruit while keeping the surrounding ecosystem balanced and toxin-free.",
     "options": {
@@ -3490,12 +2824,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Akışı Bozan Cümle Taktiği: Paragraf organik elma yetiştiriciliğinde doğal böcek kontrolü ve ekolojik tarım yöntemlerini anlatmaktadır (I, II, III, V). IV numaralı cümle ise sömürge döneminde elma sirkesinin/şarabının meşe fıçılarda fermente edilmesinden bahsederek tarihsel ve alakasız bir konuya atlamıştır.",
     "explanation": "IV numaralı cümle (D seçeneği) tarımsal yöntem akışını bozmaktadır.",
-    "wordAnalysis": {
-      "predatory": "avcı, yırtıcı",
-      "infestation": "istila, sarma",
-      "intercropping": "ara ziraat, karışık ekim",
-      "apple": "elma"
-    },
     "tags": [
       "apple",
       "irrelevant sentence",
@@ -3504,13 +2832,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-108",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 108,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Konu Bütünlüğü",
-    "difficulty": "Orta",
+    "category": "Anlam Butunlugunu Bozan Cumle",
+    "subCategory": "Akışı Bozan Cümle (Irrelevant Sentence)",
     "passage": "",
     "questionText": "(I) The invention of the printing press by Johannes Gutenberg in the mid-fifteenth century revolutionized European intellectual history. (II) Before movable type, books were laboriously transcribed by hand, restricting literacy exclusively to elite religious cloisters. (III) Gutenberg's mechanical innovation dramatically lowered production costs, allowing scientific treatises and philosophical texts to circulate widely. (IV) Modern digital smartphones feature high-resolution displays that can stream four-kilobyte video files over wireless cellular networks. (V) Consequently, the rapid dissemination of printed knowledge fueled the Protestant Reformation and the Scientific Revolution.",
     "options": {
@@ -3523,11 +2850,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Akışı Bozan Cümle Taktiği: Paragraf matbaanın icadı ve 15. yüzyıldan itibaren bilginin yayılması (I, II, III, V) hakkındadır. IV numaralı cümle modern akıllı telefonların video çözünürlüğünden bahsederek anlatımı tamamen bozmuştur.",
     "explanation": "IV numaralı cümle (D seçeneği) matbaa tarihi anlatımına uymamaktadır.",
-    "wordAnalysis": {
-      "transcribe": "yazarak kopyalamak",
-      "dissemination": "yayılma, dağıtım",
-      "treatise": "bilimsel risale, tez"
-    },
     "tags": [
       "irrelevant sentence",
       "history"
@@ -3535,13 +2857,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-109",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 109,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Konu Bütünlüğü",
-    "difficulty": "Orta",
+    "category": "Anlam Butunlugunu Bozan Cumle",
+    "subCategory": "Akışı Bozan Cümle (Irrelevant Sentence)",
     "passage": "",
     "questionText": "(I) Chronic psychological stress triggers the continuous release of cortisol and adrenaline into the human bloodstream. (II) In the short term, these hormones prepare the body to confront or escape danger by elevating heart rate and mobilizing glucose. (III) However, prolonged hormonal saturation suppresses the immune system and elevates blood pressure to hazardous thresholds. (IV) Many corporations provide their top executives with generous annual stock bonus incentives to retain talent. (V) Over time, this unmitigated physiological strain significantly elevates the risk of cardiovascular stroke and chronic depression.",
     "options": {
@@ -3554,11 +2875,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Akışı Bozan Cümle Taktiği: Paragraf stres hormonlarının (kortizol ve adrenalin) insan vücudu üzerindeki yıkıcı etkilerini (I, II, III, V) anlatmaktadır. IV numaralı cümle şirketlerin yöneticilere hisse senedi primi vermesinden bahsederek biyolojik akışı bozmaktadır.",
     "explanation": "IV numaralı cümle (D seçeneği) akışı bozan alakasız cümledir.",
-    "wordAnalysis": {
-      "bloodstream": "kan dolaşımı",
-      "saturation": "doygunluk",
-      "unmitigated": "hafifletilmemiş, kesintisiz"
-    },
     "tags": [
       "irrelevant sentence",
       "health",
@@ -3567,13 +2883,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-110",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 110,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Konu Bütünlüğü",
-    "difficulty": "Orta",
+    "category": "Anlam Butunlugunu Bozan Cumle",
+    "subCategory": "Akışı Bozan Cümle (Irrelevant Sentence)",
     "passage": "",
     "questionText": "(I) Volcanic eruptions can exert a substantial cooling influence on global surface temperatures for several consecutive years. (II) When a volcano erupts with explosive force, it injects millions of tons of sulfur dioxide gas high into the stratosphere. (III) There, the gas reacts with moisture to form highly reflective sulfate aerosols that scatter incoming solar radiation back into space. (IV) Mount Pinatubo's 1991 eruption in the Philippines demonstrated this phenomenon by cooling global temperatures by approximately half a degree Celsius. (V) Commercial airline passengers frequently complain about delays caused by routine airport luggage check-in procedures.",
     "options": {
@@ -3586,11 +2901,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Akışı Bozan Cümle Taktiği: Paragraf volkanik patlamaların stratosfere sülfür gazı yayarak küresel sıcaklıkları düşürmesini (I, II, III, IV) anlatmaktadır. V numaralı cümle ise havalimanlarında bagaj teslim gecikmelerinden bahsederek konudan tamamen kopmuştur.",
     "explanation": "V numaralı cümle (E seçeneği) paragrafın bilimsel akışını bozmaktadır.",
-    "wordAnalysis": {
-      "stratosphere": "stratosfer",
-      "aerosol": "aerosol, asılı parçacık",
-      "scatter": "saçmak, dağıtmak"
-    },
     "tags": [
       "irrelevant sentence",
       "volcano",
@@ -3599,13 +2909,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-111",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 111,
     "category": "Kelime Bilgisi",
     "subCategory": "İsimler (Nouns)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "The rapid advancement of environmental biotechnology has provided farmers with the ------ needed to cultivate disease-resistant crops in arid regions.",
     "options": {
@@ -3618,12 +2927,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "İsim Sorusu Çözüm Taktiği: Boşluktan önceki 'the' ve sonrasındaki 'needed to cultivate...' sıfat cümleciğine dikkat edin. Cümlenin olumlu akışına uygun bir yetenek/güç/kapasite ismi aranmaktadır. 'Capacity' (kapasite, güç, yetenek) tam oturur.",
     "explanation": "'capacity' kapasite, yetenek, olanak anlamına gelir. Cümle Çevirisi: '2023 yılında ziraat ve biyoteknolojideki hızlı ilerleme, çiftçilere kurak bölgelerde hastalığa dayanıklı ürünler yetiştirmek için gereken kapasiteyi/olanağı sağlamıştır.' Diğer şıklar: rejection (reddetme), confinement (kısıtlama, hapis), hazard (tehlike), reluctance (isteksizlik).",
-    "wordAnalysis": {
-      "capacity": "kapasite, yetenek",
-      "cultivate": "ekip biçmek, yetiştirmek",
-      "arid": "kurak, çorak",
-      "advancement": "ilerleme, gelişim"
-    },
     "tags": [
       "vocabulary",
       "noun",
@@ -3633,81 +2936,12 @@ const PRACTICE_YDS_QUESTIONS = [
   },
   {
     "id": "practice-112",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 112,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Zarflar (Adverbs)",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "During the extensive clinical trials conducted in 2023, the new therapeutic compound was found to reduce neuroinflammation ------ without causing adverse side effects.",
-    "options": {
-      "A": "scarcely",
-      "B": "erratically",
-      "C": "reluctantly",
-      "D": "adversely",
-      "E": "significantly"
-    },
-    "correctAnswer": "E",
-    "solutionMethod": "Zarf Sorusu Çözüm Taktiği: Fiili niteleyen zarf ('reduce neuroinflammation ------') olumlu bir başarıyı ifade etmelidir. 'Significantly reduce' (belirgin/önemli ölçüde azaltmak) akademik makalelerde ve YDS'de en sık kullanılan eşdizimdir (collocation).",
-    "explanation": "'significantly' belirgin biçimde, önemli ölçüde demektir. Cümle Çevirisi: 'Yapılan kapsamlı klinik deneyler sırasında yeni tedavi edici bileşiğin, hiçbir yan etkiye neden olmaksızın sinir iltihabını belirgin ölçüde azalttığı tespit edilmiştir.' Diğer şıklar: scarcely (neredeyse hiç), erratically (düzensizce), reluctantly (gönülsüzce), adversely (olumsuz şekilde).",
-    "wordAnalysis": {
-      "significantly": "önemli ölçüde",
-      "therapeutic": "tedavi edici",
-      "compound": "bileşik, madde",
-      "adverse": "olumsuz, zararlı"
-    },
-    "tags": [
-      "vocabulary",
-      "adverb",
-      "medicine",
-      "health"
-    ]
-  },
-  {
-    "id": "practice-113",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 113,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Phrasal Verbs",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Agronomists in 2023 decided to ------ a comprehensive five-year study to investigate how organic pest controls impact commercial apple harvests.",
-    "options": {
-      "A": "call off",
-      "B": "give in",
-      "C": "carry out",
-      "D": "run out",
-      "E": "put down"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "Phrasal Verb Çözüm Taktiği: 'study / experiment / research / survey' nesneleri ile 'carry out' (yürütmek, icra etmek, gerçekleştirmek) fiili doğrudan eşleşir (carry out a study).",
-    "explanation": "'carry out' yürütmek, uygulamak, icra etmek demektir. Cümle Çevirisi: 'Ziraat uzmanları, organik haşere kontrol yöntemlerinin ticari elma hasadını nasıl etkilediğini araştırmak amacıyla kapsamlı bir beş yıllık çalışma yürütmeye karar verdiler.' Diğer şıklar: call off (iptal etmek), give in (pes etmek, boyun eğmek), run out (tükenmek), put down (yere koymak, bastırmak).",
-    "wordAnalysis": {
-      "carry out": "yürütmek, uygulamak",
-      "agronomist": "tarım bilimci",
-      "apple": "elma",
-      "harvest": "hasat"
-    },
-    "tags": [
-      "apple",
-      "phrasal verb",
-      "agriculture",
-      "vocabulary"
-    ]
-  },
-  {
-    "id": "practice-114",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 114,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Rising global temperatures have accelerated the melting of polar ice caps, threatening coastal communities worldwide with unprecedented sea-level rise.",
     "options": {
@@ -3720,12 +2954,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Rising global temperatures' (Yükselen küresel sıcaklıklar). Fiil 1: 'have accelerated the melting of polar ice caps' (kutup buzullarının erimesini hızlandırarak - zarf fiil). Ana Yüklem: 'threatening coastal communities ...' (kıyı topluluklarını ... tehdit etmektedir). A şıkkı tam ve eksiksizdir.",
     "explanation": "Cümle Çevirisi: 'Yükselen küresel sıcaklıklar kutup buzullarının erimesini hızlandırarak dünya çapındaki kıyı topluluklarını benzeri görülmemiş deniz seviyesi yükselmesiyle tehdit etmektedir.'",
-    "wordAnalysis": {
-      "accelerate": "hızlandırmak",
-      "polar": "kutupsal",
-      "unprecedented": "benzeri görülmemiş",
-      "coastal": "kıyıya ait"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -3734,14 +2962,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-115",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 115,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-113",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 113,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Despite rigorous international agreements, biodiversity loss continues at an alarming pace, particularly in tropical rainforests.",
     "options": {
@@ -3754,12 +2981,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Cümle başındaki 'Despite rigorous international agreements' (Sıkı uluslararası anlaşmalara rağmen) zıtlık edatıdır. Özne 'biodiversity loss' (biyoçeşitlilik kaybı), yüklem 'continues at an alarming pace' (endişe verici bir hızla devam etmektedir). E şıkkı birebirdir.",
     "explanation": "Cümle Çevirisi: 'Sıkı uluslararası anlaşmalara rağmen, biyoçeşitlilik kaybı özellikle tropikal yağmur ormanlarında endişe verici bir hızla devam etmektedir.'",
-    "wordAnalysis": {
-      "rigorous": "sıkı, titiz",
-      "biodiversity": "biyoçeşitlilik",
-      "alarming": "endişe verici, korkutucu",
-      "rainforest": "yağmur ormanı"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -3768,14 +2989,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-116",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 116,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Zor",
+    "id": "practice-114",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 114,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Epidemiologists emphasize that investing in early warning surveillance systems is far more economical than dealing with the devastating aftermath of global pandemics.",
     "options": {
@@ -3788,12 +3008,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Epidemiologists' (Epidemiyologlar). Yüklem: 'emphasize that...' (...vurgulamaktadır). Karşılaştırma: 'is far more economical than...' (...-den çok daha ekonomiktir). A şıkkı bu yapıyı eksiksiz korur.",
     "explanation": "Cümle Çevirisi: 'Epidemiyologlar, erken uyarı gözetim sistemlerine yatırım yapmanın küresel pandemilerin yıkıcı sonuçlarıyla mücadele etmekten çok daha ekonomik olduğunu vurgulamaktadır.'",
-    "wordAnalysis": {
-      "surveillance": "gözetim, izleme",
-      "economical": "ekonomik, tasarruflu",
-      "devastating": "yıkıcı",
-      "aftermath": "sonrası, neticesi"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -3802,14 +3016,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-117",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 117,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-115",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 115,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Sürdürülebilir kalkınma hedeflerine ulaşmak için gelişmekte olan ülkelerin yeşil teknoloji projelerine daha fazla uluslararası finansman sağlanmalıdır.",
     "options": {
@@ -3822,12 +3035,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: 'ulaşmak için' amaç ifadesi 'In order to achieve' veya 'To achieve' ile başlar. Yüklem: 'sağlanmalıdır' (edilgen / passive modali: 'should be provided'). E seçeneğinde hem amaç cümlesi hem de edilgen modal yüklem tam olarak bulunmaktadır.",
     "explanation": "Cümle Çevirisi: 'In order to achieve sustainable development goals, more international financing should be provided for green technology projects in developing countries.'",
-    "wordAnalysis": {
-      "sustainable": "sürdürülebilir",
-      "development": "kalkınma, gelişme",
-      "financing": "finansman, fon sağlama",
-      "developing": "gelişmekte olan"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -3836,14 +3043,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-118",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 118,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-116",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 116,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Aşı tereddüdü, sadece bireysel sağlığı tehlikeye atmakla kalmaz, aynı zamanda toplum genelinde sürü bağışıklığının oluşmasını da engeller.",
     "options": {
@@ -3856,12 +3062,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: 'sadece ... ile kalmaz, aynı zamanda ... de' yapısı doğrudan 'not only ... but also ...' ikili bağlacıyla aktarılır. Özne: 'Vaccine hesitancy' (Aşı tereddüdü). Yüklem 1: 'jeopardizes' (tehlikeye atar), Yüklem 2: 'prevents' (engeller). C şıkkı tam ve eksiksizdir.",
     "explanation": "Cümle Çevirisi: 'Vaccine hesitancy not only jeopardizes individual health but also prevents the development of herd immunity across society.'",
-    "wordAnalysis": {
-      "hesitancy": "tereddüt, çekinme",
-      "jeopardize": "tehlikeye atmak",
-      "herd immunity": "sürü bağışıklığı",
-      "prevent": "engellemek"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -3870,14 +3070,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-119",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 119,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Zor",
+    "id": "practice-117",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 117,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Şehir planlamacıları kentsel yeşil alanları artırdıkça, hava kirliliği seviyeleri belirgin şekilde düşmekte ve halkın yaşam kalitesi yükselmektedir.",
     "options": {
@@ -3890,12 +3089,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: '-dıkça / -dikçe' orantısal zaman bağlacı 'As' ile karşılanır ('As urban planners increase...'). Yüklemler: 'düşmekte' (decline noticeably) ve 'yükselmektedir' (improves). A şıkkı tüm nüansları eksiksiz taşır.",
     "explanation": "Cümle Çevirisi: 'As urban planners increase urban green spaces, air pollution levels decline noticeably and the public's quality of life improves.'",
-    "wordAnalysis": {
-      "urban planner": "şehir planlamacısı",
-      "decline": "düşmek, azalmak",
-      "noticeably": "belirgin şekilde",
-      "quality of life": "yaşam kalitesi"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -3904,82 +3097,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-120",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 120,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Zarflar (Adverbs)",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "During the extensive clinical trials conducted in 2022, the new therapeutic compound was found to reduce neuroinflammation ------ without causing adverse side effects.",
-    "options": {
-      "A": "scarcely",
-      "B": "erratically",
-      "C": "significantly",
-      "D": "reluctantly",
-      "E": "adversely"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "Zarf Sorusu Çözüm Taktiği: Fiili niteleyen zarf ('reduce neuroinflammation ------') olumlu bir başarıyı ifade etmelidir. 'Significantly reduce' (belirgin/önemli ölçüde azaltmak) akademik makalelerde ve YDS'de en sık kullanılan eşdizimdir (collocation).",
-    "explanation": "'significantly' belirgin biçimde, önemli ölçüde demektir. Cümle Çevirisi: 'Yapılan kapsamlı klinik deneyler sırasında yeni tedavi edici bileşiğin, hiçbir yan etkiye neden olmaksızın sinir iltihabını belirgin ölçüde azalttığı tespit edilmiştir.' Diğer şıklar: scarcely (neredeyse hiç), erratically (düzensizce), reluctantly (gönülsüzce), adversely (olumsuz şekilde).",
-    "wordAnalysis": {
-      "significantly": "önemli ölçüde",
-      "therapeutic": "tedavi edici",
-      "compound": "bileşik, madde",
-      "adverse": "olumsuz, zararlı"
-    },
-    "tags": [
-      "vocabulary",
-      "adverb",
-      "medicine",
-      "health"
-    ]
-  },
-  {
-    "id": "practice-121",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 121,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Phrasal Verbs",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Agronomists in 2022 decided to ------ a comprehensive five-year study to investigate how organic pest controls impact commercial apple harvests.",
-    "options": {
-      "A": "call off",
-      "B": "give in",
-      "C": "run out",
-      "D": "put down",
-      "E": "carry out"
-    },
-    "correctAnswer": "E",
-    "solutionMethod": "Phrasal Verb Çözüm Taktiği: 'study / experiment / research / survey' nesneleri ile 'carry out' (yürütmek, icra etmek, gerçekleştirmek) fiili doğrudan eşleşir (carry out a study).",
-    "explanation": "'carry out' yürütmek, uygulamak, icra etmek demektir. Cümle Çevirisi: 'Ziraat uzmanları, organik haşere kontrol yöntemlerinin ticari elma hasadını nasıl etkilediğini araştırmak amacıyla kapsamlı bir beş yıllık çalışma yürütmeye karar verdiler.' Diğer şıklar: call off (iptal etmek), give in (pes etmek, boyun eğmek), run out (tükenmek), put down (yere koymak, bastırmak).",
-    "wordAnalysis": {
-      "carry out": "yürütmek, uygulamak",
-      "agronomist": "tarım bilimci",
-      "apple": "elma",
-      "harvest": "hasat"
-    },
-    "tags": [
-      "apple",
-      "phrasal verb",
-      "agriculture",
-      "vocabulary"
-    ]
-  },
-  {
-    "id": "practice-122",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 122,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-118",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 118,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Solar and wind power have become the fastest-growing energy sources globally due to dramatic reductions in manufacturing costs over the last decade.",
     "options": {
@@ -3992,12 +3116,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Solar and wind power' (Güneş ve rüzgâr enerjisi). Yüklem: 'have become...' (...haline gelmiştir). Neden zarfı: 'due to dramatic reductions in manufacturing costs over the last decade' (son on yılda üretim maliyetlerindeki çarpıcı düşüşler sayesinde/nedeniyle). D seçeneği tam eşleşir.",
     "explanation": "Cümle Çevirisi: 'Güneş ve rüzgâr enerjisi, son on yılda üretim maliyetlerindeki çarpıcı düşüşler sayesinde küresel ölçekte en hızlı büyüyen enerji kaynakları haline gelmiştir.'",
-    "wordAnalysis": {
-      "dramatic": "çarpıcı, dramatik",
-      "reduction": "düşüş, azalma",
-      "manufacturing": "üretim, imalat",
-      "source": "kaynak"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4006,14 +3124,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-123",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 123,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-119",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 119,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Although organic farming yields lower crop volumes per hectare than conventional agriculture, it significantly improves soil fertility over time.",
     "options": {
@@ -4026,11 +3143,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: 'Although ...' zıtlık yapısı '-sa da / -e rağmen' şeklinde aktarılır. 'yields lower crop volumes per hectare' (hektar başına daha düşük ürün miktarı sağlasa da). Ana yüklem: 'significantly improves soil fertility over time' (zamanla toprak verimliliğini önemli ölçüde artırır). E şıkkı kusursuzdur.",
     "explanation": "Cümle Çevirisi: 'Organik tarım, hektar başına geleneksel tarımdan daha düşük ürün miktarı sağlasa da zamanla toprak verimliliğini önemli ölçüde artırır.'",
-    "wordAnalysis": {
-      "yield": "ürün vermek, sağlamak",
-      "fertility": "verimlilik, doğurganlık",
-      "conventional": "geleneksel, alışılagelmiş"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4039,14 +3151,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-124",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 124,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Zor",
+    "id": "practice-120",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 120,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Hydroelectric reservoirs can generate substantial clean electricity, but they often disrupt freshwater ecosystems and displace local communities.",
     "options": {
@@ -4059,12 +3170,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: 'can generate substantial clean electricity' (önemli miktarda temiz elektrik üretebilir), 'but they often disrupt ... and displace ...' (ancak genellikle tatlı su ekosistemlerini bozar ve yerel toplulukları yerinden eder). B şıkkı özne, yüklem ve bağlaç uyumunu eksiksiz yansıtır.",
     "explanation": "Cümle Çevirisi: 'Hidroelektrik baraj gölleri önemli miktarda temiz elektrik üretebilir, ancak genellikle tatlı su ekosistemlerini bozar ve yerel toplulukları yerinden eder.'",
-    "wordAnalysis": {
-      "reservoir": "baraj gölü, rezervuar",
-      "substantial": "önemli miktarda, hatırı sayılır",
-      "disrupt": "aksatmak, bozmak",
-      "displace": "yerinden etmek"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4073,14 +3178,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-125",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 125,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-121",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 121,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Fosil yakıt tüketimini azaltmak, yalnızca sera gazı emisyonlarını düşürmez, aynı zamanda kentsel alanlarda hava kalitesini de iyileştirir.",
     "options": {
@@ -4093,12 +3197,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: 'yalnızca ... ile kalmaz, aynı zamanda ... de' yapısı 'not only ... but also ...' ile verilir. Özne gerund olmalıdır: 'Reducing fossil fuel consumption' (Fosil yakıt tüketimini azaltmak). B şıkkı eksiksiz karşılıktır.",
     "explanation": "Cümle Çevirisi: 'Reducing fossil fuel consumption not only lowers greenhouse gas emissions but also improves air quality in urban areas.'",
-    "wordAnalysis": {
-      "consumption": "tüketim",
-      "greenhouse gas": "sera gazı",
-      "emission": "salım, emisyon",
-      "urban": "kentsel"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4107,14 +3205,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-126",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 126,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-122",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 122,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Geri dönüşüm programları başarılı olmak istiyorsa, yerel yönetimler halkı atık ayrıştırma konusunda kapsamlı bir şekilde eğitmelidir.",
     "options": {
@@ -4127,11 +3224,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: 'başarılı olmak istiyorsa / başarılı olacaksa' hedef koşul yapısı İngilizcede 'If ... are to be successful' şeklinde ifade edilir. Yüklem: 'kapsamlı bir şekilde eğitmelidir' -> 'must educate the public comprehensively'. E şıkkı tam ve doğrudur.",
     "explanation": "Cümle Çevirisi: 'If recycling programs are to be successful, local governments must educate the public comprehensively on waste sorting.'",
-    "wordAnalysis": {
-      "comprehensively": "kapsamlı bir şekilde",
-      "waste sorting": "atık ayrıştırma",
-      "local government": "yerel yönetim"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4140,14 +3232,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-127",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 127,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Zor",
+    "id": "practice-123",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 123,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Jeotermal enerji santralleri, hava koşullarından bağımsız olarak kesintisiz elektrik sağlayabildikleri için güvenilir bir yenilenebilir enerji kaynağıdır.",
     "options": {
@@ -4160,12 +3251,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Özne: 'Geothermal power plants' (Jeotermal enerji santralleri). Ana yargı: 'are a reliable renewable energy source' (güvenilir bir yenilenebilir enerji kaynağıdır). Neden: 'because they can provide uninterrupted electricity regardless of weather conditions' (...hava koşullarından bağımsız olarak kesintisiz elektrik sağlayabildikleri için). E şıkkı tamdır.",
     "explanation": "Cümle Çevirisi: 'Geothermal power plants are a reliable renewable energy source because they can provide uninterrupted electricity regardless of weather conditions.'",
-    "wordAnalysis": {
-      "geothermal": "jeotermal",
-      "uninterrupted": "kesintisiz",
-      "regardless of": "-e bakılmaksızın, -den bağımsız olarak",
-      "reliable": "güvenilir"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4174,82 +3259,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-128",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 128,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Zarflar (Adverbs)",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "During the extensive clinical trials conducted in 2021, the new therapeutic compound was found to reduce neuroinflammation ------ without causing adverse side effects.",
-    "options": {
-      "A": "scarcely",
-      "B": "erratically",
-      "C": "reluctantly",
-      "D": "significantly",
-      "E": "adversely"
-    },
-    "correctAnswer": "D",
-    "solutionMethod": "Zarf Sorusu Çözüm Taktiği: Fiili niteleyen zarf ('reduce neuroinflammation ------') olumlu bir başarıyı ifade etmelidir. 'Significantly reduce' (belirgin/önemli ölçüde azaltmak) akademik makalelerde ve YDS'de en sık kullanılan eşdizimdir (collocation).",
-    "explanation": "'significantly' belirgin biçimde, önemli ölçüde demektir. Cümle Çevirisi: 'Yapılan kapsamlı klinik deneyler sırasında yeni tedavi edici bileşiğin, hiçbir yan etkiye neden olmaksızın sinir iltihabını belirgin ölçüde azalttığı tespit edilmiştir.' Diğer şıklar: scarcely (neredeyse hiç), erratically (düzensizce), reluctantly (gönülsüzce), adversely (olumsuz şekilde).",
-    "wordAnalysis": {
-      "significantly": "önemli ölçüde",
-      "therapeutic": "tedavi edici",
-      "compound": "bileşik, madde",
-      "adverse": "olumsuz, zararlı"
-    },
-    "tags": [
-      "vocabulary",
-      "adverb",
-      "medicine",
-      "health"
-    ]
-  },
-  {
-    "id": "practice-129",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 129,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Phrasal Verbs",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Agronomists in 2021 decided to ------ a comprehensive five-year study to investigate how organic pest controls impact commercial apple harvests.",
-    "options": {
-      "A": "call off",
-      "B": "carry out",
-      "C": "give in",
-      "D": "run out",
-      "E": "put down"
-    },
-    "correctAnswer": "B",
-    "solutionMethod": "Phrasal Verb Çözüm Taktiği: 'study / experiment / research / survey' nesneleri ile 'carry out' (yürütmek, icra etmek, gerçekleştirmek) fiili doğrudan eşleşir (carry out a study).",
-    "explanation": "'carry out' yürütmek, uygulamak, icra etmek demektir. Cümle Çevirisi: 'Ziraat uzmanları, organik haşere kontrol yöntemlerinin ticari elma hasadını nasıl etkilediğini araştırmak amacıyla kapsamlı bir beş yıllık çalışma yürütmeye karar verdiler.' Diğer şıklar: call off (iptal etmek), give in (pes etmek, boyun eğmek), run out (tükenmek), put down (yere koymak, bastırmak).",
-    "wordAnalysis": {
-      "carry out": "yürütmek, uygulamak",
-      "agronomist": "tarım bilimci",
-      "apple": "elma",
-      "harvest": "hasat"
-    },
-    "tags": [
-      "apple",
-      "phrasal verb",
-      "agriculture",
-      "vocabulary"
-    ]
-  },
-  {
-    "id": "practice-130",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 130,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-124",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 124,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "The discovery of penicillin by Alexander Fleming revolutionized the treatment of bacterial infections and marked the beginning of the modern antibiotic era.",
     "options": {
@@ -4262,12 +3278,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'The discovery of penicillin by Alexander Fleming' (Penisilinin Alexander Fleming tarafından keşfi). Yüklemler: 'revolutionized...' (devrim yaratmış) ve 'marked...' (işaret etmiştir). A seçeneği özne ve yüklemleri birebir karşılar.",
     "explanation": "Cümle Çevirisi: 'Penisilinin Alexander Fleming tarafından keşfi, bakteriyel enfeksiyonların tedavisinde devrim yaratmış ve modern antibiyotik çağının başlangıcına işaret etmiştir.'",
-    "wordAnalysis": {
-      "revolutionize": "devrim yaratmak",
-      "infection": "enfeksiyon, bulaşma",
-      "mark": "işaret etmek, damga vurmak",
-      "era": "çağ, dönem"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4276,14 +3286,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-131",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 131,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-125",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 125,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Remote working models adopted during the pandemic have fundamentally transformed corporate communication and employee work-life balance.",
     "options": {
@@ -4296,12 +3305,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Remote working models adopted during the pandemic' (Pandemi sırasında benimsenen uzaktan çalışma modelleri). Yüklem: 'have fundamentally transformed...' (...kökten dönüştürmüştür). E seçeneği tam oturur.",
     "explanation": "Cümle Çevirisi: 'Pandemi sırasında benimsenen uzaktan çalışma modelleri, kurumsal iletişimi ve çalışanların iş-yaşam dengesini kökten dönüştürmüştür.'",
-    "wordAnalysis": {
-      "fundamentally": "kökten, esaslı biçimde",
-      "transform": "dönüştürmek",
-      "corporate": "kurumsal",
-      "adopt": "benimsemek"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4310,14 +3313,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-132",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 132,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Zor",
+    "id": "practice-126",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 126,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Children who are exposed to multiple languages during early development exhibit superior cognitive flexibility compared to their monolingual peers.",
     "options": {
@@ -4330,12 +3332,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne sıfat tamlamasıdır: 'Children who are exposed to multiple languages during early development' (Erken gelişim döneminde birden fazla dile maruz kalan çocuklar). Yüklem: 'exhibit superior cognitive flexibility' (üstün bilişsel esneklik sergilerler). Karşılaştırma: 'compared to their monolingual peers' (tek dilli akranlarına kıyasla). C şıkkı tamdır.",
     "explanation": "Cümle Çevirisi: 'Erken gelişim döneminde birden fazla dile maruz kalan çocuklar, tek dilli akranlarına kıyasla üstün bilişsel esneklik sergilerler.'",
-    "wordAnalysis": {
-      "expose": "maruz bırakmak",
-      "flexibility": "esneklik",
-      "monolingual": "tek dilli",
-      "peer": "akran, denk"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4344,14 +3340,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-133",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 133,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-127",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 127,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Düzenli fiziksel egzersiz yapmak sadece kalp sağlığını güçlendirmekle kalmaz, aynı zamanda stres seviyelerini de belirgin biçimde azaltır.",
     "options": {
@@ -4364,12 +3359,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: 'sadece ... ile kalmaz, aynı zamanda ... de' -> 'not only ... but also ...'. Özne: 'Doing regular physical exercise' (Düzenli fiziksel egzersiz yapmak). Yüklemler: 'strengthens cardiovascular health' (kalp sağlığını güçlendirir) ve 'significantly reduces stress levels' (stres seviyelerini belirgin biçimde azaltır). C şıkkı doğrudur.",
     "explanation": "Cümle Çevirisi: 'Doing regular physical exercise not only strengthens cardiovascular health but also significantly reduces stress levels.'",
-    "wordAnalysis": {
-      "cardiovascular": "kalp ve damara ait",
-      "strengthen": "güçlendirmek",
-      "regular": "düzenli",
-      "reduce": "azaltmak"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4378,14 +3367,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-134",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 134,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-128",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 128,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Bilim insanları aşıların güvenliğini doğrulamak amacıyla klinik testleri geniş kitleler üzerinde titizlikle yürütmektedir.",
     "options": {
@@ -4398,12 +3386,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Özne: 'Scientists' (Bilim insanları). Yüklem: 'conduct clinical trials meticulously...' (...klinik testleri titizlikle yürütmektedir). Amaç: 'in order to confirm the safety of vaccines' (aşıların güvenliğini doğrulamak amacıyla). D şıkkı eksiksizdir.",
     "explanation": "Cümle Çevirisi: 'Scientists conduct clinical trials meticulously on large populations in order to confirm the safety of vaccines.'",
-    "wordAnalysis": {
-      "meticulously": "titizlikle",
-      "clinical trial": "klinik deneme/test",
-      "confirm": "doğrulamak, teyit etmek",
-      "safety": "güvenlik"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4412,14 +3394,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-135",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 135,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Zor",
+    "id": "practice-129",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 129,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Teknolojik yenilikler geleneksel iş kollarını ortadan kaldırsa da geleceğin ekonomisinde yepyeni uzmanlık alanları yaratacaktır.",
     "options": {
@@ -4432,12 +3413,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: '-sa da / -e rağmen' yapısı 'Although' ile karşılanır. 'ortadan kaldırsa da' -> 'Although technological innovations eliminate traditional occupations'. Gelecek zaman ana yüklem: 'they will create entirely new fields of expertise...' (...yepyeni uzmanlık alanları yaratacaktır). C seçeneği tam oturur.",
     "explanation": "Cümle Çevirisi: 'Although technological innovations eliminate traditional occupations, they will create entirely new fields of expertise in the future economy.'",
-    "wordAnalysis": {
-      "innovation": "yenilik, inovasyon",
-      "occupation": "meslek, iş kolu",
-      "expertise": "uzmanlık",
-      "eliminate": "ortadan kaldırmak"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4446,82 +3421,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-136",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 136,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Zarflar (Adverbs)",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "During the extensive clinical trials conducted in 2020, the new therapeutic compound was found to reduce neuroinflammation ------ without causing adverse side effects.",
-    "options": {
-      "A": "scarcely",
-      "B": "significantly",
-      "C": "erratically",
-      "D": "reluctantly",
-      "E": "adversely"
-    },
-    "correctAnswer": "B",
-    "solutionMethod": "Zarf Sorusu Çözüm Taktiği: Fiili niteleyen zarf ('reduce neuroinflammation ------') olumlu bir başarıyı ifade etmelidir. 'Significantly reduce' (belirgin/önemli ölçüde azaltmak) akademik makalelerde ve YDS'de en sık kullanılan eşdizimdir (collocation).",
-    "explanation": "'significantly' belirgin biçimde, önemli ölçüde demektir. Cümle Çevirisi: 'Yapılan kapsamlı klinik deneyler sırasında yeni tedavi edici bileşiğin, hiçbir yan etkiye neden olmaksızın sinir iltihabını belirgin ölçüde azalttığı tespit edilmiştir.' Diğer şıklar: scarcely (neredeyse hiç), erratically (düzensizce), reluctantly (gönülsüzce), adversely (olumsuz şekilde).",
-    "wordAnalysis": {
-      "significantly": "önemli ölçüde",
-      "therapeutic": "tedavi edici",
-      "compound": "bileşik, madde",
-      "adverse": "olumsuz, zararlı"
-    },
-    "tags": [
-      "vocabulary",
-      "adverb",
-      "medicine",
-      "health"
-    ]
-  },
-  {
-    "id": "practice-137",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 137,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Phrasal Verbs",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Agronomists in 2020 decided to ------ a comprehensive five-year study to investigate how organic pest controls impact commercial apple harvests.",
-    "options": {
-      "A": "call off",
-      "B": "give in",
-      "C": "run out",
-      "D": "carry out",
-      "E": "put down"
-    },
-    "correctAnswer": "D",
-    "solutionMethod": "Phrasal Verb Çözüm Taktiği: 'study / experiment / research / survey' nesneleri ile 'carry out' (yürütmek, icra etmek, gerçekleştirmek) fiili doğrudan eşleşir (carry out a study).",
-    "explanation": "'carry out' yürütmek, uygulamak, icra etmek demektir. Cümle Çevirisi: 'Ziraat uzmanları, organik haşere kontrol yöntemlerinin ticari elma hasadını nasıl etkilediğini araştırmak amacıyla kapsamlı bir beş yıllık çalışma yürütmeye karar verdiler.' Diğer şıklar: call off (iptal etmek), give in (pes etmek, boyun eğmek), run out (tükenmek), put down (yere koymak, bastırmak).",
-    "wordAnalysis": {
-      "carry out": "yürütmek, uygulamak",
-      "agronomist": "tarım bilimci",
-      "apple": "elma",
-      "harvest": "hasat"
-    },
-    "tags": [
-      "apple",
-      "phrasal verb",
-      "agriculture",
-      "vocabulary"
-    ]
-  },
-  {
-    "id": "practice-138",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 138,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-130",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 130,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Widespread quarantine measures enforced during epidemic outbreaks can slow disease transmission, but they often inflict severe economic burdens on vulnerable households.",
     "options": {
@@ -4534,12 +3440,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Widespread quarantine measures enforced during epidemic outbreaks' (Salgın dönemlerinde uygulanan yaygın karantina tedbirleri). Yüklem 1: 'can slow disease transmission' (hastalık bulaşmasını yavaşlatabilir). Yüklem 2: 'inflict severe economic burdens...' (ağır ekonomik yükler getirir). E şıkkı tam karşılıktır.",
     "explanation": "Cümle Çevirisi: 'Salgın dönemlerinde uygulanan yaygın karantina tedbirleri hastalık bulaşmasını yavaşlatabilir, ancak genellikle kırılgan hanelere ağır ekonomik yükler getirir.'",
-    "wordAnalysis": {
-      "outbreak": "salgın, patlak verme",
-      "transmission": "bulaşma, aktarım",
-      "inflict": "yol açmak, yüklemek",
-      "vulnerable": "kırılgan, savunmasız"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4548,14 +3448,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-139",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 139,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-131",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 131,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "The immune system relies on specialized white blood cells to detect and neutralize pathogenic organisms before they can cause severe tissue damage.",
     "options": {
@@ -4568,12 +3467,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'The immune system' (Bağışıklık sistemi). Yüklem: 'relies on...' (...-e güvenir / dayanır). Amaç: 'to detect and neutralize ... before they can cause severe tissue damage' (patojenik organizmaları ciddi doku hasarına yol açmadan önce tespit edip etkisiz hale getirmek için). E şıkkı tamdır.",
     "explanation": "Cümle Çevirisi: 'Bağışıklık sistemi, patojenik organizmaları ciddi doku hasarına yol açmadan önce tespit edip etkisiz hale getirmek için özelleşmiş akyuvarlara güvenir.'",
-    "wordAnalysis": {
-      "immune system": "bağışıklık sistemi",
-      "neutralize": "etkisiz hale getirmek",
-      "pathogenic": "hastalık yapıcı",
-      "tissue": "doku"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4582,14 +3475,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-140",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 140,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Zor",
+    "id": "practice-132",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 132,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Unless governments allocate sufficient resources to public healthcare infrastructure, recurring epidemics will continue to overwhelm hospital capacities.",
     "options": {
@@ -4602,12 +3494,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: 'Unless ...' koşul bağlacı '-medikçe / -madıkça' şeklinde çevrilir. 'Unless governments allocate sufficient resources...' (Hükümetler yeterli kaynak tahsis etmedikçe). Ana yüklem: 'will continue to overwhelm...' (...zorlamaya devam edecektir). A şıkkı birebirdir.",
     "explanation": "Cümle Çevirisi: 'Hükümetler kamu sağlığı altyapısına yeterli kaynak tahsis etmedikçe, tekrarlayan salgınlar hastane kapasitelerini zorlamaya devam edecektir.'",
-    "wordAnalysis": {
-      "allocate": "tahsis etmek, ayırmak",
-      "infrastructure": "altyapı",
-      "recurring": "tekrarlayan",
-      "overwhelm": "aşırı yüklenmek, zorlamak"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4616,14 +3502,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-141",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 141,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-133",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 133,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Virüsler hızla mutasyona uğrayabildiği için araştırmacılar aşıların etkinliğini düzenli laboratuvar deneyleriyle sürekli izlemelidir.",
     "options": {
@@ -4636,12 +3521,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: '-dığı için' neden bağlacı 'Because / Since' ile başlar ('Because viruses can mutate rapidly'). Yüklem: 'sürekli izlemelidir' -> 'must continuously monitor the effectiveness of vaccines...'. D şıkkı tamdır.",
     "explanation": "Cümle Çevirisi: 'Because viruses can mutate rapidly, researchers must continuously monitor the effectiveness of vaccines through regular laboratory experiments.'",
-    "wordAnalysis": {
-      "mutate": "mutasyona uğramak",
-      "monitor": "izlemek, takip etmek",
-      "effectiveness": "etkinlik, etkililik",
-      "rapidly": "hızla"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4650,14 +3529,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-142",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 142,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-134",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 134,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Maske takmak ve sosyal mesafeyi korumak, bulaşıcı hastalıkların yayılmasını önlemede en etkili bireysel tedbirler arasındadır.",
     "options": {
@@ -4670,12 +3548,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Özne: 'Wearing masks and maintaining social distance' (Maske takmak ve sosyal mesafeyi korumak). Yüklem: 'are among the most effective individual measures...' (...en etkili bireysel tedbirler arasındadır). C seçeneği eksiksiz karşılar.",
     "explanation": "Cümle Çevirisi: 'Wearing masks and maintaining social distance are among the most effective individual measures in preventing the spread of infectious diseases.'",
-    "wordAnalysis": {
-      "infectious": "bulaşıcı",
-      "measure": "tedbir, önlem",
-      "maintain": "sürdürmek, korumak",
-      "spread": "yayılma"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4684,14 +3556,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-143",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 143,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Zor",
+    "id": "practice-135",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 135,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Küresel tedarik zincirlerindeki aksamalar sadece sanayi üretimini yavaşlatmakla kalmamış, temel gıda fiyatlarının da keskin bir şekilde artmasına neden olmuştur.",
     "options": {
@@ -4704,12 +3575,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: 'sadece ... ile kalmamış, aynı zamanda ... neden olmuştur' -> 'not only slowed ... but also caused ... to rise sharply'. Özne: 'Disruptions in global supply chains' (Küresel tedarik zincirlerindeki aksamalar). B şıkkı kusursuzdur.",
     "explanation": "Cümle Çevirisi: 'Disruptions in global supply chains not only slowed industrial production but also caused basic food prices to rise sharply.'",
-    "wordAnalysis": {
-      "supply chain": "tedarik zinciri",
-      "disruption": "aksama, bozulma",
-      "sharply": "keskin bir biçimde",
-      "industrial": "sanayiye ait"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4718,82 +3583,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-144",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 144,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Zarflar (Adverbs)",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "During the extensive clinical trials conducted in 2019, the new therapeutic compound was found to reduce neuroinflammation ------ without causing adverse side effects.",
-    "options": {
-      "A": "scarcely",
-      "B": "significantly",
-      "C": "erratically",
-      "D": "reluctantly",
-      "E": "adversely"
-    },
-    "correctAnswer": "B",
-    "solutionMethod": "Zarf Sorusu Çözüm Taktiği: Fiili niteleyen zarf ('reduce neuroinflammation ------') olumlu bir başarıyı ifade etmelidir. 'Significantly reduce' (belirgin/önemli ölçüde azaltmak) akademik makalelerde ve YDS'de en sık kullanılan eşdizimdir (collocation).",
-    "explanation": "'significantly' belirgin biçimde, önemli ölçüde demektir. Cümle Çevirisi: 'Yapılan kapsamlı klinik deneyler sırasında yeni tedavi edici bileşiğin, hiçbir yan etkiye neden olmaksızın sinir iltihabını belirgin ölçüde azalttığı tespit edilmiştir.' Diğer şıklar: scarcely (neredeyse hiç), erratically (düzensizce), reluctantly (gönülsüzce), adversely (olumsuz şekilde).",
-    "wordAnalysis": {
-      "significantly": "önemli ölçüde",
-      "therapeutic": "tedavi edici",
-      "compound": "bileşik, madde",
-      "adverse": "olumsuz, zararlı"
-    },
-    "tags": [
-      "vocabulary",
-      "adverb",
-      "medicine",
-      "health"
-    ]
-  },
-  {
-    "id": "practice-145",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 145,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Phrasal Verbs",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Agronomists in 2019 decided to ------ a comprehensive five-year study to investigate how organic pest controls impact commercial apple harvests.",
-    "options": {
-      "A": "call off",
-      "B": "carry out",
-      "C": "give in",
-      "D": "run out",
-      "E": "put down"
-    },
-    "correctAnswer": "B",
-    "solutionMethod": "Phrasal Verb Çözüm Taktiği: 'study / experiment / research / survey' nesneleri ile 'carry out' (yürütmek, icra etmek, gerçekleştirmek) fiili doğrudan eşleşir (carry out a study).",
-    "explanation": "'carry out' yürütmek, uygulamak, icra etmek demektir. Cümle Çevirisi: 'Ziraat uzmanları, organik haşere kontrol yöntemlerinin ticari elma hasadını nasıl etkilediğini araştırmak amacıyla kapsamlı bir beş yıllık çalışma yürütmeye karar verdiler.' Diğer şıklar: call off (iptal etmek), give in (pes etmek, boyun eğmek), run out (tükenmek), put down (yere koymak, bastırmak).",
-    "wordAnalysis": {
-      "carry out": "yürütmek, uygulamak",
-      "agronomist": "tarım bilimci",
-      "apple": "elma",
-      "harvest": "hasat"
-    },
-    "tags": [
-      "apple",
-      "phrasal verb",
-      "agriculture",
-      "vocabulary"
-    ]
-  },
-  {
-    "id": "practice-146",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 146,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-136",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 136,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Data collected by space telescopes has enabled astrophysicists to detect thousands of exoplanets orbiting distant stars in our galaxy.",
     "options": {
@@ -4806,12 +3602,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Data collected by space telescopes' (Uzay teleskopları tarafından toplanan veriler). Yüklem: 'has enabled astrophysicists to detect...' (...astrofizikçilerin tespit etmesini sağlamıştır). Nesne: 'thousands of exoplanets orbiting distant stars in our galaxy' (galaksimizdeki uzak yıldızların etrafında dönen binlerce ötegezegeni). A şıkkı tam oturur.",
     "explanation": "Cümle Çevirisi: 'Uzay teleskopları tarafından toplanan veriler, astrofizikçilerin galaksimizdeki uzak yıldızların etrafında dönen binlerce ötegezegeni tespit etmesini sağlamıştır.'",
-    "wordAnalysis": {
-      "telescope": "teleskop",
-      "astrophysicist": "astrofizikçi",
-      "exoplanet": "ötegezegen",
-      "orbit": "yörüngesinde dönmek"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4820,14 +3610,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-147",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 147,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-137",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 137,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Behavioral economists argue that emotional biases frequently prevent individuals from making rational financial investments.",
     "options": {
@@ -4840,12 +3629,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Behavioral economists' (Davranışsal iktisatçılar). Yüklem: 'argue that...' (...savunmaktadır). Nesne cümlesi: 'emotional biases frequently prevent individuals from making rational financial investments' (duygusal ön yargıların bireylerin rasyonel finansal yatırımlar yapmasını sıklıkla engellediğini). E seçeneği eksiksizdir.",
     "explanation": "Cümle Çevirisi: 'Davranışsal iktisatçılar, duygusal ön yargıların bireylerin rasyonel finansal yatırımlar yapmasını sıklıkla engellediğini savunmaktadır.'",
-    "wordAnalysis": {
-      "behavioral": "davranışsal",
-      "bias": "ön yargı, yanlılık",
-      "rational": "mantıklı, rasyonel",
-      "investment": "yatırım"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4854,14 +3637,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-148",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 148,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Zor",
+    "id": "practice-138",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 138,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Deforestation in the Amazon basin not only threatens indigenous tribes who depend on forest resources but also accelerates global atmospheric warming.",
     "options": {
@@ -4874,12 +3656,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: 'not only ... but also ...' kalıbı 'sadece ... ile kalmaz, aynı zamanda ... de' olarak çevrilir. Özne: 'Deforestation in the Amazon basin' (Amazon havzasındaki ormansızlaşma). Yüklemler: 'threatens...' (tehdit etmekle kalmaz) ve 'accelerates...' (hızlandırır). C şıkkı tamdır.",
     "explanation": "Cümle Çevirisi: 'Amazon havzasındaki ormansızlaşma, sadece orman kaynaklarına bağımlı olan yerli kabileleri tehdit etmekle kalmaz, aynı zamanda küresel atmosferik ısınmayı da hızlandırır.'",
-    "wordAnalysis": {
-      "deforestation": "ormansızlaşma",
-      "indigenous": "yerli, otokton",
-      "accelerate": "hızlandırmak",
-      "atmospheric": "atmosfere ait"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -4888,14 +3664,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-149",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 149,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-139",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 139,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Gökbilimciler, erken evrenin nasıl genişlediğini daha iyi anlamak için en uzak galaksilerden gelen zayıf ışık sinyallerini analiz etmektedir.",
     "options": {
@@ -4908,12 +3683,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Özne: 'Astronomers' (Gökbilimciler). Yüklem: 'analyze faint light signals from the most distant galaxies' (en uzak galaksilerden gelen zayıf ışık sinyallerini analiz etmektedir). Amaç: 'to better understand how the early universe expanded' (erken evrenin nasıl genişlediğini daha iyi anlamak için). B şıkkı kusursuzdur.",
     "explanation": "Cümle Çevirisi: 'Astronomers analyze faint light signals from the most distant galaxies to better understand how the early universe expanded.'",
-    "wordAnalysis": {
-      "faint": "zayıf, sönük",
-      "expand": "genişlemek",
-      "galaxy": "galaksi, gök ada",
-      "astronomer": "gökbilimci"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4922,14 +3691,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-150",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 150,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-140",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 140,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Tüketiciler satın alma kararları verirken mantıktan çok sosyal çevrenin ve reklamların etkisi altında kalmaktadır.",
     "options": {
@@ -4942,12 +3710,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Zaman cümleciği: 'When making purchasing decisions' (Tüketiciler satın alma kararları verirken). Ana cümle: 'consumers are influenced more by social circles and advertisements than by logic' (tüketiciler mantıktan çok sosyal çevrenin ve reklamların etkisi altında kalmaktadır). E şıkkı tamdır.",
     "explanation": "Cümle Çevirisi: 'When making purchasing decisions, consumers are influenced more by social circles and advertisements than by logic.'",
-    "wordAnalysis": {
-      "purchasing": "satın alma",
-      "consumer": "tüketici",
-      "influence": "etkilemek",
-      "logic": "mantık"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4956,14 +3718,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-151",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 151,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Zor",
+    "id": "practice-141",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 141,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Tropikal ormanların korunması, hem küresel iklim dengesinin sürdürülmesi hem de henüz keşfedilmemiş türlerin yaşatılması açısından hayati önem taşır.",
     "options": {
@@ -4976,12 +3737,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: 'hayati önem taşır' -> 'is of vital importance'. İkili yapı 'hem ... hem de ...' -> 'both for maintaining ... and for preserving ...'. Özne: 'The protection of tropical forests' (Tropikal ormanların korunması). D şıkkı tam ve eksiksizdir.",
     "explanation": "Cümle Çevirisi: 'The protection of tropical forests is of vital importance both for maintaining the global climate balance and for preserving undiscovered species.'",
-    "wordAnalysis": {
-      "vital importance": "hayati önem",
-      "undiscovered": "keşfedilmemiş",
-      "maintain": "sürdürmek, korumak",
-      "species": "türler"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -4990,82 +3745,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-152",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 152,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Zarflar (Adverbs)",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "During the extensive clinical trials conducted in 2018, the new therapeutic compound was found to reduce neuroinflammation ------ without causing adverse side effects.",
-    "options": {
-      "A": "scarcely",
-      "B": "erratically",
-      "C": "reluctantly",
-      "D": "adversely",
-      "E": "significantly"
-    },
-    "correctAnswer": "E",
-    "solutionMethod": "Zarf Sorusu Çözüm Taktiği: Fiili niteleyen zarf ('reduce neuroinflammation ------') olumlu bir başarıyı ifade etmelidir. 'Significantly reduce' (belirgin/önemli ölçüde azaltmak) akademik makalelerde ve YDS'de en sık kullanılan eşdizimdir (collocation).",
-    "explanation": "'significantly' belirgin biçimde, önemli ölçüde demektir. Cümle Çevirisi: 'Yapılan kapsamlı klinik deneyler sırasında yeni tedavi edici bileşiğin, hiçbir yan etkiye neden olmaksızın sinir iltihabını belirgin ölçüde azalttığı tespit edilmiştir.' Diğer şıklar: scarcely (neredeyse hiç), erratically (düzensizce), reluctantly (gönülsüzce), adversely (olumsuz şekilde).",
-    "wordAnalysis": {
-      "significantly": "önemli ölçüde",
-      "therapeutic": "tedavi edici",
-      "compound": "bileşik, madde",
-      "adverse": "olumsuz, zararlı"
-    },
-    "tags": [
-      "vocabulary",
-      "adverb",
-      "medicine",
-      "health"
-    ]
-  },
-  {
-    "id": "practice-153",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 153,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Phrasal Verbs",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Agronomists in 2018 decided to ------ a comprehensive five-year study to investigate how organic pest controls impact commercial apple harvests.",
-    "options": {
-      "A": "call off",
-      "B": "carry out",
-      "C": "give in",
-      "D": "run out",
-      "E": "put down"
-    },
-    "correctAnswer": "B",
-    "solutionMethod": "Phrasal Verb Çözüm Taktiği: 'study / experiment / research / survey' nesneleri ile 'carry out' (yürütmek, icra etmek, gerçekleştirmek) fiili doğrudan eşleşir (carry out a study).",
-    "explanation": "'carry out' yürütmek, uygulamak, icra etmek demektir. Cümle Çevirisi: 'Ziraat uzmanları, organik haşere kontrol yöntemlerinin ticari elma hasadını nasıl etkilediğini araştırmak amacıyla kapsamlı bir beş yıllık çalışma yürütmeye karar verdiler.' Diğer şıklar: call off (iptal etmek), give in (pes etmek, boyun eğmek), run out (tükenmek), put down (yere koymak, bastırmak).",
-    "wordAnalysis": {
-      "carry out": "yürütmek, uygulamak",
-      "agronomist": "tarım bilimci",
-      "apple": "elma",
-      "harvest": "hasat"
-    },
-    "tags": [
-      "apple",
-      "phrasal verb",
-      "agriculture",
-      "vocabulary"
-    ]
-  },
-  {
-    "id": "practice-154",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 154,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-142",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 142,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Ocean currents play a crucial role in regulating global climate by redistributing massive amounts of heat from the equator toward the polar regions.",
     "options": {
@@ -5078,12 +3764,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Ocean currents' (Okyanus akıntıları). Yüklem: 'play a crucial role in regulating global climate' (küresel iklimin düzenlenmesinde çok önemli bir rol oynar). Zarf fiil yapısı: 'by redistributing massive amounts of heat...' (muazzam miktarda ısıyı yeniden dağıtarak). A şıkkı birebirdir.",
     "explanation": "Cümle Çevirisi: 'Okyanus akıntıları, ekvatordan kutup bölgelerine doğru muazzam miktarda ısıyı yeniden dağıtarak küresel iklimin düzenlenmesinde çok önemli bir rol oynar.'",
-    "wordAnalysis": {
-      "current": "akıntı",
-      "crucial role": "çok önemli rol",
-      "equator": "ekvator",
-      "redistribute": "yeniden dağıtmak"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -5092,14 +3772,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-155",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 155,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Orta",
+    "id": "practice-143",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 143,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Fossil findings in Eastern Africa demonstrate that early human ancestors migrated across varied ecological landscapes much earlier than conventional theories suggested.",
     "options": {
@@ -5112,12 +3791,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: Özne: 'Fossil findings in Eastern Africa' (Doğu Afrika'daki fosil bulguları). Yüklem: 'demonstrate that...' (...göstermektedir). Nesne: 'early human ancestors migrated across varied ecological landscapes much earlier than conventional theories suggested' (erken insan atalarının geleneksel teorilerin öne sürdüğünden çok daha önce çeşitli ekolojik coğrafyalara göç ettiğini). C şıkkı tam oturur.",
     "explanation": "Cümle Çevirisi: 'Doğu Afrika'daki fosil bulguları, erken insan atalarının geleneksel teorilerin öne sürdüğünden çok daha önce çeşitli ekolojik coğrafyalara göç ettiğini göstermektedir.'",
-    "wordAnalysis": {
-      "ancestor": "ata, cet",
-      "fossil": "fosil",
-      "landscape": "coğrafya, manzara",
-      "conventional": "geleneksel"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -5126,14 +3799,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-156",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 156,
-    "category": "Çeviri",
-    "subCategory": "İngilizce -> Türkçe",
-    "difficulty": "Zor",
+    "id": "practice-144",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 144,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Unless modern agricultural science preserves wild plant relatives, commercial crops will remain highly susceptible to emerging fungal diseases.",
     "options": {
@@ -5146,12 +3818,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "İngilizce -> Türkçe Çeviri Taktiği: 'Unless ...' bağlacı '-medikçe / -madıkça' koşulunu kurar. 'Unless modern agricultural science preserves wild plant relatives' (Modern tarım bilimi yabani bitki akrabalarını korumadıkça). Ana yüklem: 'will remain highly susceptible to...' (...karşı son derece duyarlı kalacaktır). C şıkkı tam ve eksiksizdir.",
     "explanation": "Cümle Çevirisi: 'Modern tarım bilimi yabani bitki akrabalarını korumadıkça, ticari ürünler ortaya çıkan mantar hastalıklarına karşı son derece duyarlı kalacaktır.'",
-    "wordAnalysis": {
-      "susceptible": "duyarlı, hassas, yatkın",
-      "fungal": "mantara ait",
-      "preserve": "korumak",
-      "relative": "akraba"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -5160,14 +3826,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-157",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 157,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-145",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 145,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Eski çağlarda kuraklık ve kıtlık gibi şiddetli iklim krizleri, insan topluluklarının verimli nehir vadilerine doğru kitlesel göçler yapmasına neden olmuştur.",
     "options": {
@@ -5180,12 +3845,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "E",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Zaman zarfı: 'In ancient times' (Eski çağlarda). Özne: 'severe climate crises such as drought and famine' (kuraklık ve kıtlık gibi şiddetli iklim krizleri). Yüklem: 'caused human populations to migrate en masse toward fertile river valleys' (insan topluluklarının verimli nehir vadilerine doğru kitlesel göçler yapmasına neden olmuştur). E şıkkı tamdır.",
     "explanation": "Cümle Çevirisi: 'In ancient times, severe climate crises such as drought and famine caused human populations to migrate en masse toward fertile river valleys.'",
-    "wordAnalysis": {
-      "famine": "kıtlık, açlık",
-      "drought": "kuraklık",
-      "fertile": "verimli",
-      "en masse": "kitlesel olarak, topluca"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -5194,14 +3853,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-158",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 158,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-146",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 146,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Bitki genetikçileri, kuraklığa dayanıklı yeni buğday çeşitleri geliştirmek amacıyla yabani ot türlerinin genetik dizilimini haritalandırmaktadır.",
     "options": {
@@ -5214,12 +3872,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Özne: 'Plant geneticists' (Bitki genetikçileri). Yüklem: 'are mapping the genetic sequences of wild grass species' (yabani ot türlerinin genetik dizilimini haritalandırmaktadır). Amaç: 'in order to develop new drought-resistant wheat varieties' (kuraklığa dayanıklı yeni buğday çeşitleri geliştirmek amacıyla). B şıkkı tamdır.",
     "explanation": "Cümle Çevirisi: 'Plant geneticists are mapping the genetic sequences of wild grass species in order to develop new drought-resistant wheat varieties.'",
-    "wordAnalysis": {
-      "geneticist": "genetikçi",
-      "sequence": "dizilim, sıra",
-      "drought-resistant": "kuraklığa dayanıklı",
-      "wheat": "buğday"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -5228,14 +3880,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-159",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 159,
-    "category": "Çeviri",
-    "subCategory": "Türkçe -> İngilizce",
-    "difficulty": "Zor",
+    "id": "practice-147",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 147,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Okyanusların derin sularındaki sıcaklık değişimlerini ölçmek, gelecekteki küresel hava olaylarını aylar öncesinden tahmin etmeyi mümkün kılmaktadır.",
     "options": {
@@ -5248,12 +3899,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "Türkçe -> İngilizce Çeviri Taktiği: Özne: 'Measuring temperature fluctuations in the deep waters of oceans' (Okyanusların derin sularındaki sıcaklık değişimlerini ölçmek). Yüklem: 'makes it possible to predict future global weather phenomena months in advance' (...gelecekteki küresel hava olaylarını aylar öncesinden tahmin etmeyi mümkün kılmaktadır). C şıkkı tam ve kusursuzdur.",
     "explanation": "Cümle Çevirisi: 'Measuring temperature fluctuations in the deep waters of oceans makes it possible to predict future global weather phenomena months in advance.'",
-    "wordAnalysis": {
-      "fluctuation": "dalgalanma, değişim",
-      "phenomenon": "olay, fenomen",
-      "in advance": "önceden",
-      "predict": "tahmin etmek"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -5262,14 +3907,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-160",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 160,
+    "id": "practice-148",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 148,
     "category": "Kelime Bilgisi",
     "subCategory": "İsimler (Nouns)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Despite recognizing the environmental perils of fossil fuels, many industrialized nations display an obstinate ------ to overhaul their energy grids due to short-term economic fears.",
     "options": {
@@ -5282,12 +3926,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Cümledeki 'Despite' (rağmen) zıtlık bağlacına ve 'obstinate' (inatçı) sıfatına dikkat edin. Fosil yakıtların tehlikelerini bilmelerine 'rağmen' enerji şebekelerini dönüştürmede bir 'gönülsüzlük / isteksizlik' (reluctance) gösterirler.",
     "explanation": "'reluctance' isteksizlik, gönülsüzlük demektir. Diğerleri: compliance (uyum), devotion (bağlılık), clarity (açıklık), tendency (eğilim).",
-    "wordAnalysis": {
-      "reluctance": "isteksizlik, gönülsüzlük",
-      "obstinate": "inatçı",
-      "overhaul": "kapsamlı bakım yapmak, yenilemek",
-      "peril": "tehlike"
-    },
     "tags": [
       "vocabulary",
       "noun",
@@ -5295,14 +3933,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-161",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 161,
+    "id": "practice-149",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 149,
     "category": "Kelime Bilgisi",
     "subCategory": "Fiiller (Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Without prompt diplomatic intervention, the volatile border disputes are expected to ------ into widespread armed confrontation across the entire region.",
     "options": {
@@ -5315,12 +3952,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "'Without prompt intervention' (Zamanında müdahale olmadan) ifadesi olumsuz bir gidişatı gösterir. Durumun daha da kötüleşmesi anlamında 'deteriorate' (kötüleşmek, bozulmak) fiili kullanılır.",
     "explanation": "'deteriorate' kötüye gitmek, fenalaşmak anlamına gelir. Diğerleri: culminate (doruğa ulaşmak), accelerate (hızlanmak), diminish (azalmak), subside (yatışmak).",
-    "wordAnalysis": {
-      "deteriorate": "kötüye gitmek",
-      "volatile": "istikrarsız, değişken",
-      "dispute": "anlaşmazlık",
-      "confrontation": "çatışma"
-    },
     "tags": [
       "vocabulary",
       "verb",
@@ -5328,14 +3959,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-162",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 162,
+    "id": "practice-150",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 150,
     "category": "Kelime Bilgisi",
     "subCategory": "Sıfatlar (Adjectives)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Economists argue that heavy reliance on external loans is not a ------ financial model for emerging economies striving to achieve long-term resilience.",
     "options": {
@@ -5348,12 +3978,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "C",
     "solutionMethod": "'not a ------ model for long-term resilience' bağlamında uzun vadeli dayanıklılık için dış borçlara bağımlılık 'sürdürülebilir' (sustainable) bir model değildir denilmektedir.",
     "explanation": "'sustainable' sürdürülebilir demektir. Diğerleri: negligible (ihmal edilebilir), redundant (gereksiz/fazlalık), precarious (tehlikeli/güvencesiz), tentative (geçici/kesin olmayan).",
-    "wordAnalysis": {
-      "sustainable": "sürdürülebilir",
-      "resilience": "dayanıklılık, toparlanma gücü",
-      "strive": "çabalamak",
-      "reliance": "bağımlılık"
-    },
     "tags": [
       "vocabulary",
       "adjective",
@@ -5361,14 +3985,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-163",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 163,
+    "id": "practice-151",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 151,
     "category": "Kelime Bilgisi",
     "subCategory": "Zarflar (Adverbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "The advent of artificial intelligence is likely to ------ transform diagnostic precision and patient outcomes across the healthcare sector.",
     "options": {
@@ -5381,11 +4004,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "'Transform' fiilini niteleyen güçlü ve olumlu bir zarf aranmaktadır. Yapay zekanın sağlık sektörünü 'derinden / köklü bir şekilde' dönüştürmesi 'profoundly transform' eşdizimi ile ifade edilir.",
     "explanation": "'profoundly' derinden, son derece anlamına gelir. Diğerleri: scarcely (neredeyse hiç), reluctantly (isteksizce), tentatively (geçici olarak), tediously (bıktırıcı şekilde).",
-    "wordAnalysis": {
-      "profoundly": "derinden, kökten",
-      "advent": "geliş, ortaya çıkış",
-      "precision": "hassasiyet, doğruluk"
-    },
     "tags": [
       "vocabulary",
       "adverb",
@@ -5393,14 +4011,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-164",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 164,
+    "id": "practice-152",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 152,
     "category": "Kelime Bilgisi",
     "subCategory": "Deyimsel Fiiller (Phrasal Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Given the unprecedented scale of the humanitarian catastrophe, international aid agencies have urgently ------ immediate emergency ceasefire.",
     "options": {
@@ -5413,11 +4030,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Yardım kuruluşlarının acil ateşkes 'talep etmesi, çağrıda bulunması' anlamında 'call for' (talep etmek, çağrı yapmak) phrasal verb'ü doğru cevaptır.",
     "explanation": "'call for' istemek, talep etmek, gerektirmek. Diğerleri: put off (ertelemek), run out of (tükenmek), backed out of (sözünden dönmek), turned down (reddetmek).",
-    "wordAnalysis": {
-      "call for": "talep etmek, çağrıda bulunmak",
-      "unprecedented": "eşi benzeri görülmemiş",
-      "catastrophe": "felaket"
-    },
     "tags": [
       "vocabulary",
       "phrasal_verb",
@@ -5425,14 +4037,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-165",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 165,
+    "id": "practice-153",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 153,
     "category": "Kelime Bilgisi",
     "subCategory": "Sıfatlar (Adjectives)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Tropical rainforests harbor an extraordinarily ------ variety of endemic fauna, many of which remain undocumented by modern taxonomic biology.",
     "options": {
@@ -5445,12 +4056,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Yağmur ormanlarındaki zengin biyolojik çeşitlilik kastedilmektedir. 'Extraordinarily abundant variety' (olağanüstü derecede bol/zengin çeşitlilik) doğru tamlamadır.",
     "explanation": "'abundant' bol, çok sayıda, bereketli demektir. Diğerleri: scarce (kıt/az), fragile (kırılgan), hostile (düşmanca), monotonous (tekdüze).",
-    "wordAnalysis": {
-      "abundant": "bol, bereketli",
-      "endemic": "yöreye özgü",
-      "fauna": "hayvan topluluğu",
-      "harbor": "barındırmak"
-    },
     "tags": [
       "vocabulary",
       "adjective",
@@ -5458,14 +4063,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-166",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 166,
+    "id": "practice-154",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 154,
     "category": "Kelime Bilgisi",
     "subCategory": "Fiiller (Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "The Ministry of Education decided to ------ a substantial portion of its annual budget to digital literacy initiatives in rural schools.",
     "options": {
@@ -5478,11 +4082,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Bütçenin kırsal okullardaki dijital okuryazarlığa 'tahsis edilmesi / ayrılması' anlamında 'allocate ... to' yapısı kullanılır.",
     "explanation": "'allocate' tahsis etmek, ayırmak demektir. Diğerleri: deprive (mahrum bırakmak), withhold (saklamak/vermemek), confiscate (el koymak), dismantle (sökmek/dağıtmak).",
-    "wordAnalysis": {
-      "allocate": "tahsis etmek",
-      "substantial": "önemli miktarda",
-      "literacy": "okuryazarlık"
-    },
     "tags": [
       "vocabulary",
       "verb",
@@ -5490,14 +4089,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-167",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 167,
+    "id": "practice-155",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 155,
     "category": "Kelime Bilgisi",
     "subCategory": "Sıfatlar (Adjectives)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Due to rising sea levels and intense cyclones, low-lying coastal populations are exceptionally ------ to catastrophic flash floods.",
     "options": {
@@ -5510,11 +4108,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "'vulnerable to' (bir şeye karşı savunmasız/kırılgan olmak) YDS'nin en sevdiği kalıplardandır.",
     "explanation": "'vulnerable' savunmasız, hassas, kırılgan demektir. Diğerleri: resistant (dirençli), indifferent (ilgisiz), immune (bağışık), detached (bağımsız/kopuk).",
-    "wordAnalysis": {
-      "vulnerable": "savunmasız, kırılgan",
-      "cyclone": "kasırga",
-      "catastrophic": "felaket niteliğinde"
-    },
     "tags": [
       "vocabulary",
       "adjective",
@@ -5522,14 +4115,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-168",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 168,
+    "id": "practice-156",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 156,
     "category": "Kelime Bilgisi",
     "subCategory": "Fiiller (Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Astronomers noted that the peak of the Perseid meteor shower will ------ with the new moon phase, providing optimal conditions for night sky observers.",
     "options": {
@@ -5542,11 +4134,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "İki gök olayının aynı döneme denk gelmesi 'coincide with' (aynı zamana rastlamak, denk gelmek) fiili ile ifade edilir.",
     "explanation": "'coincide with' aynı zamana rastlamak, örtüşmek demektir. Diğerleri: interfere with (müdahale etmek/engellemek), clash (çatışmak), deviate (sapmak), fluctuate (dalgalanmak).",
-    "wordAnalysis": {
-      "coincide": "denk gelmek",
-      "optimal": "en uygun",
-      "meteor shower": "meteor yağmuru"
-    },
     "tags": [
       "vocabulary",
       "verb",
@@ -5554,14 +4141,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-169",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 169,
+    "id": "practice-157",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 157,
     "category": "Kelime Bilgisi",
     "subCategory": "Fiiller (Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Stringent regulatory measures have been introduced across European cities in an effort to ------ particulate air pollution generated by diesel vehicles.",
     "options": {
@@ -5574,11 +4160,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Hava kirliliğini 'dizginlemek, kontrol altına almak, azaltmak' amacıyla sıkı önlemler getirilmiştir. Bu anlamı 'curb' (dizginlemek/azaltmak) karşılar.",
     "explanation": "'curb' frenlemek, dizginlemek, sınırlamak. Diğerleri: foster (teşvik etmek/büyütmek), induce (tetiklemek), magnify (büyütmek), prolong (uzatmak).",
-    "wordAnalysis": {
-      "curb": "dizginlemek, frenlemek",
-      "stringent": "sıkı, katı",
-      "particulate": "parçacıklı"
-    },
     "tags": [
       "vocabulary",
       "verb",
@@ -5586,14 +4167,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-170",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 170,
+    "id": "practice-158",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 158,
     "category": "Kelime Bilgisi",
     "subCategory": "Zarflar (Adverbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "During the routine software upgrade, an engineer ------ deleted critical configuration files, causing hours of unexpected network outage.",
     "options": {
@@ -5606,11 +4186,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Rutin yazılım güncellemesi sırasında bir mühendisin 'yanlışlıkla / kasıtsız olarak' dosyaları silmesi 'inadvertently' zarfı ile anlatılır.",
     "explanation": "'inadvertently' kazara, istemeden, sehven. Diğerleri: deliberately (kasten), scrupulously (titizlikle), rigidly (sertçe), unanimously (oy birliğiyle).",
-    "wordAnalysis": {
-      "inadvertently": "kazara, istemeden",
-      "routine": "olağan",
-      "outage": "kesinti"
-    },
     "tags": [
       "vocabulary",
       "adverb",
@@ -5618,14 +4193,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-171",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 171,
+    "id": "practice-159",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 159,
     "category": "Kelime Bilgisi",
     "subCategory": "İsimler (Nouns)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Independent financial auditors uncovered a glaring ------ between the declared quarterly revenues and the actual bank balances of the firm.",
     "options": {
@@ -5638,11 +4212,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Beyan edilen gelirler ile gerçek banka hesapları arasındaki 'çelişki, uyuşmazlık, tutarsızlık' kastedilmektedir.",
     "explanation": "'discrepancy' uyuşmazlık, tutarsızlık, farklılık demektir. Diğerleri: consensus (uzlaşı), solidarity (dayanışma), precedence (öncelik), affinity (yakınlık/benzerlik).",
-    "wordAnalysis": {
-      "discrepancy": "tutarsızlık, uyumsuzluk",
-      "glaring": "bariz, göze batan",
-      "auditor": "denetçi"
-    },
     "tags": [
       "vocabulary",
       "noun",
@@ -5650,14 +4219,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-172",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 172,
+    "id": "practice-160",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 160,
     "category": "Kelime Bilgisi",
     "subCategory": "Deyimsel Fiiller (Phrasal Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Modern psychological therapies focus on equipping adolescents with resilient cognitive strategies to effectively ------ chronic exam anxiety.",
     "options": {
@@ -5670,11 +4238,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Sınav kaygısıyla 'başa çıkmak, mücadele etmek' anlamında 'cope with' (başa çıkmak) phrasal verb'ü aranmaktadır.",
     "explanation": "'cope with' üstesinden gelmek, başa çıkmak. Diğerleri: give in to (boyun eğmek), look down on (küçümsemek), fall behind (geride kalmak), part with (ayrılmak/vazgeçmek).",
-    "wordAnalysis": {
-      "cope with": "başa çıkmak",
-      "resilient": "dirençli",
-      "adolescent": "ergen"
-    },
     "tags": [
       "vocabulary",
       "phrasal_verb",
@@ -5682,14 +4245,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-173",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 173,
+    "id": "practice-161",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 161,
     "category": "Kelime Bilgisi",
     "subCategory": "Sıfatlar (Adjectives)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Clean drinking water and rudimentary sanitation facilities are ------ prerequisites for preventing waterborne epidemic outbreaks in disaster zones.",
     "options": {
@@ -5702,11 +4264,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Temiz içme suyu ve temel sanitasyon salgınları önlemek için 'vazgeçilmez / zorunlu' (indispensable) ön koşullardır (prerequisites).",
     "explanation": "'indispensable' vazgeçilmez, olmazsa olmaz. Diğerleri: superfluous (gereksiz/fazlalık), disposable (tek kullanımlık), trivial (önemsiz), arbitrary (keyfi).",
-    "wordAnalysis": {
-      "indispensable": "vazgeçilmez",
-      "prerequisite": "ön koşul",
-      "rudimentary": "temel, ilkel"
-    },
     "tags": [
       "vocabulary",
       "adjective",
@@ -5714,14 +4271,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-174",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 174,
+    "id": "practice-162",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 162,
     "category": "Kelime Bilgisi",
     "subCategory": "Fiiller (Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Unverified disinformation circulating unchecked on digital social networks can seriously ------ public trust in democratic institutions.",
     "options": {
@@ -5734,11 +4290,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Denetimsiz yayılan dezenformasyonun halkın demokratik kurumlara olan güvenini 'baltalaması, zayıflatması' beklenir (undermine).",
     "explanation": "'undermine' zayıflatmak, baltalamak, temelini oymak. Diğerleri: reinforce (güçlendirmek), bolster (desteklemek), alleviate (hafifletmek), validate (onaylamak).",
-    "wordAnalysis": {
-      "undermine": "baltalamak, zayıflatmak",
-      "disinformation": "yanıltıcı bilgi",
-      "institution": "kurum"
-    },
     "tags": [
       "vocabulary",
       "verb",
@@ -5746,14 +4297,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-175",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 175,
+    "id": "practice-163",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 163,
     "category": "Kelime Bilgisi",
     "subCategory": "Sıfatlar (Adjectives)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Sedentary lifestyle habits have become increasingly ------ among white-collar professionals who spend extended hours seated before computer monitors.",
     "options": {
@@ -5766,11 +4316,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Hareketsiz yaşam alışkanlıklarının masa başı çalışanlar arasında 'yaygın' (prevalent) hale geldiği ifade edilmektedir.",
     "explanation": "'prevalent' yaygın, geçerli demektir. Diğerleri: scarce (kıt), obsolete (modası geçmiş), remote (uzak), incompatible (uyumsuz).",
-    "wordAnalysis": {
-      "prevalent": "yaygın",
-      "sedentary": "hareketsiz",
-      "white-collar": "beyaz yakalı"
-    },
     "tags": [
       "vocabulary",
       "adjective",
@@ -5778,14 +4323,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-176",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 176,
+    "id": "practice-164",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 164,
     "category": "Kelime Bilgisi",
     "subCategory": "Deyimsel Fiiller (Phrasal Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Technological breakthroughs in renewable batteries are anticipated to ------ fundamental shifts in urban transportation within the next decade.",
     "options": {
@@ -5798,11 +4342,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Teknolojik atılımların şehir içi ulaşımda köklü değişimlere 'sebep olması / yol açması' anlamında 'bring about' (yol açmak, getirmek) kullanılır.",
     "explanation": "'bring about' neden olmak, yol açmak. Diğerleri: turn away (geri çevirmek), break out (patlak vermek), fall through (suya düşmek), keep off (uzak durmak).",
-    "wordAnalysis": {
-      "bring about": "neden olmak",
-      "breakthrough": "çığır açıcı gelişme",
-      "shift": "değişim"
-    },
     "tags": [
       "vocabulary",
       "phrasal_verb",
@@ -5810,14 +4349,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-177",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 177,
+    "id": "practice-165",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 165,
     "category": "Kelime Bilgisi",
     "subCategory": "Sıfatlar (Adjectives)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Without a logically ------ thesis statement, an academic dissertation risks degenerating into an unfocused compilation of disparate claims.",
     "options": {
@@ -5830,11 +4368,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Akademik bir tezin odaklı olması için 'tutarlı, mantıklı' (coherent) olması gerekir.",
     "explanation": "'coherent' tutarlı, ahenkli, mantıklı. Diğerleri: ambiguous (belirsiz), fraudulent (hileli), turbulent (çalkantılı), hasty (aceleci).",
-    "wordAnalysis": {
-      "coherent": "tutarlı, anlaşılır",
-      "dissertation": "tez",
-      "disparate": "farklı, alakasız"
-    },
     "tags": [
       "vocabulary",
       "adjective",
@@ -5842,14 +4375,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-178",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 178,
+    "id": "practice-166",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 166,
     "category": "Kelime Bilgisi",
     "subCategory": "Fiiller (Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Marie Curie did not merely discover radium; she also helped to ------ the burgeoning scientific discipline of radiation oncology.",
     "options": {
@@ -5862,11 +4394,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Marie Curie'nin radyasyon onkolojisi bilimine 'öncülük etmesi' (pioneer) anlatılmaktadır.",
     "explanation": "'pioneer' öncülük etmek, çığır açmak. Diğerleri: suppress (bastırmak), stifle (boğmak/engellemek), impair (bozmak), forbid (yasaklamak).",
-    "wordAnalysis": {
-      "pioneer": "öncülük etmek",
-      "burgeoning": "gelişmekte olan",
-      "discipline": "disiplin, bilim dalı"
-    },
     "tags": [
       "vocabulary",
       "verb",
@@ -5874,14 +4401,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-179",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 179,
+    "id": "practice-167",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 167,
     "category": "Kelime Bilgisi",
     "subCategory": "Fiiller (Verbs)",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Despite centuries of archaeological excavations, the subterranean chambers beneath the temple complex continue to ------ startling historical secrets.",
     "options": {
@@ -5894,11 +4420,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Yeraltı odalarının şaşırtıcı tarihi sırlar 'vermesi, ortaya çıkarması' anlamında 'yield' (ürün vermek, sağlamak, ortaya çıkarmak) uygundur.",
     "explanation": "'yield' vermek, sağlamak, kazandırmak (aynı zamanda teslim olmak). Diğerleri: extinguish (söndürmek), shun (kaçınmak), renounce (feragat etmek), sever (kesmek/koparmak).",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "subterranean": "yeraltı",
-      "startling": "şaşırtıcı"
-    },
     "tags": [
       "vocabulary",
       "verb",
@@ -5906,14 +4427,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-180",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 180,
+    "id": "practice-168",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 168,
     "category": "Dilbilgisi",
     "subCategory": "Dilbilgisi & Zamanlar",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "By the time the new high-speed railway network ------ in 2030, commuters in the metropolitan area ------ on congested buses for decades.",
     "options": {
@@ -5926,10 +4446,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "'By the time + Present (is completed), Future Perfect (will have been relying)' YDS zaman uyumu kuralıdır.",
     "explanation": "'By the time' geleceğe işaret ettiğinde yan cümle Simple Present (veya passive hali 'is completed'), ana cümle ise Future Perfect Continuous ('will have been relying') olur.",
-    "wordAnalysis": {
-      "commuter": "her gün işe gidip gelen",
-      "congested": "tıkalı, yoğun"
-    },
     "tags": [
       "grammar",
       "tenses",
@@ -5937,14 +4453,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-181",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 181,
+    "id": "practice-169",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 169,
     "category": "Dilbilgisi",
     "subCategory": "Dilbilgisi & Zamanlar",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Had the local authorities ------ the initial seismological tremors more vigilantly, the subsequent structural destruction ------ dramatically minimized.",
     "options": {
@@ -5957,10 +4472,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "'Had + Subject + V3' yapısı If Clause Type 3 devrik (inverted) halidir. Ana cümlede 'would/could/might have V3' aranır.",
     "explanation": "Geçmişte gerçekleşmemiş şart: 'Yetkililer ilk deprem sarsıntılarını daha dikkatli değerlendirmiş olsalardı, sonraki yıkım büyük ölçüde en aza indirilebilirdi.' Doğru yanıt A şıkkıdır.",
-    "wordAnalysis": {
-      "vigilantly": "dikkatle, tetikte olarak",
-      "subsequent": "ardından gelen"
-    },
     "tags": [
       "grammar",
       "conditionals",
@@ -5968,14 +4479,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-182",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 182,
+    "id": "practice-170",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 170,
     "category": "Dilbilgisi",
     "subCategory": "Dilbilgisi & Zamanlar",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Microplastics are now so pervasive throughout marine ecosystems that scientists have found them in species ------ at the deepest trenches of the Pacific Ocean.",
     "options": {
@@ -5988,11 +4498,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "'Species (which are) thriving' kısaltması (participle reduction) aktif yapıda olduğu için V-ing ('thriving') olmalıdır.",
     "explanation": "Burada 'species' ismini niteleyen aktif bir sıfat tümceciği kısaltması vardır: 'species which thrive / are thriving' -> 'species thriving' (yaşayan türler).",
-    "wordAnalysis": {
-      "pervasive": "her yere yayılan",
-      "trench": "çukur, hendek",
-      "thrive": "gelişmek, serpilmek"
-    },
     "tags": [
       "grammar",
       "reduction",
@@ -6000,14 +4505,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-183",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 183,
+    "id": "practice-171",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 171,
     "category": "Dilbilgisi",
     "subCategory": "Dilbilgisi & Zamanlar",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "The psychological ramifications of social media isolation are ------ grave ------ public health organizations have declared it an impending adolescent crisis.",
     "options": {
@@ -6020,11 +4524,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "'Grave' bir sıfattır. 'So + Sıfat + that + Cümle' yapısı sonuç bildirir ('o kadar vahimdir ki...'). 'Such' olsaydı isim veya sıfat tamlaması gerekirdi.",
     "explanation": "'so ... that' kalıbı 'o kadar ... ki' anlamına gelir. 'grave' (vahim/ağır) tek başına bir sıfat olduğu için 'so grave that' kullanımı şarttır.",
-    "wordAnalysis": {
-      "ramification": "olası sonuç, etki",
-      "grave": "ciddi, vahim",
-      "impending": "eli kulağında, yaklaşan"
-    },
     "tags": [
       "grammar",
       "conjunction",
@@ -6032,14 +4531,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-184",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 184,
+    "id": "practice-172",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 172,
     "category": "Dilbilgisi",
     "subCategory": "Dilbilgisi & Zamanlar",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Rarely ------ such profound consensus among climatologists as that witnessed regarding anthropogenic global temperature anomalies.",
     "options": {
@@ -6052,11 +4550,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Cümle başına gelen olumsuz/kısıtlayıcı zarflar ('Rarely, Seldom, Scarcely, Never') cümleyi devrik (inversion) yapar: Zarf + Yardımcı Fiil + Özne.",
     "explanation": "'Rarely has there been...' yapısı devriktir. 'Rarely' başta olduğu için yardımcı fiil 'has' özne olan 'there'den önce gelir.",
-    "wordAnalysis": {
-      "consensus": "fikir birliği",
-      "anthropogenic": "insan kaynaklı",
-      "anomaly": "anomali, sapma"
-    },
     "tags": [
       "grammar",
       "inversion",
@@ -6064,14 +4557,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-185",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 185,
+    "id": "practice-173",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 173,
     "category": "Dilbilgisi",
     "subCategory": "Dilbilgisi & Zamanlar",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Modern antibiotics should be administered with extreme caution, ------ pathogenic bacteria will develop drug resistance and render treatments ineffective.",
     "options": {
@@ -6084,10 +4576,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "D",
     "solutionMethod": "Önlem alınması gerektiği, 'aksi takdirde' (otherwise) bakterilerin direnç geliştireceği anlatılmaktadır.",
     "explanation": "'otherwise' (aksi takdirde, yoksa) uyarılardan sonra olumsuz sonucu bağlamak için kullanılır. 'lest' arkasından 'will' almaz (genellikle should veya yalın fiil alır).",
-    "wordAnalysis": {
-      "pathogenic": "hastalık yapıcı",
-      "administer": "uygulamak, vermek"
-    },
     "tags": [
       "grammar",
       "conjunction",
@@ -6095,14 +4583,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-186",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 186,
+    "id": "practice-174",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 174,
     "category": "Dilbilgisi",
     "subCategory": "Dilbilgisi & Zamanlar",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Ancient Roman concrete possessed self-healing properties, ------ allowed monumental structures like the Pantheon to endure for over two millennia.",
     "options": {
@@ -6115,11 +4602,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Virgülden sonra gelen ve cümlenin tamamını (Roma betonunun kendini onarma özelliğine sahip olmasını) niteleyen non-defining relative clause bağlacı 'which'tir. 'That' virgülden sonra kullanılamaz.",
     "explanation": "Bütün bir cümleyi niteleyen virgüllü açıklamalarda sadece 'which' kullanılabilir.",
-    "wordAnalysis": {
-      "endure": "dayanmak",
-      "millennium": "binyıl",
-      "monumental": "anıtsal"
-    },
     "tags": [
       "grammar",
       "relative_clause",
@@ -6127,14 +4609,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-187",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 187,
+    "id": "practice-175",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 175,
     "category": "Dilbilgisi",
     "subCategory": "Dilbilgisi & Zamanlar",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "------ the harsh sub-zero temperatures and intense solar radiation, lichens survive in the Antarctic desert by remaining dormant for years.",
     "options": {
@@ -6147,11 +4628,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Zorlu eksi derecelerdeki sıcaklıklara ve yoğun radyasyona 'rağmen' (despite) likenlerin hayatta kalması anlatılmaktadır.",
     "explanation": "'Despite + Noun Phrase' zıtlık ilişkisi kurar ('... e rağmen'). 'Owing to' sebep bildirir ve anlamı bozar.",
-    "wordAnalysis": {
-      "dormant": "uykuda, hareketsiz",
-      "lichen": "liken",
-      "sub-zero": "sıfırın altında"
-    },
     "tags": [
       "grammar",
       "prepositional_phrase",
@@ -6159,14 +4635,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-188",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 188,
+    "id": "practice-176",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 176,
     "category": "Dilbilgisi",
     "subCategory": "Dilbilgisi & Zamanlar",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Neuroscientists believe that adult brains retain neuroplasticity, meaning they can form new neural connections ------ old we become.",
     "options": {
@@ -6179,10 +4654,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "'No matter how + adjective (old) + subject + verb' kalıbı 'her ne kadar yaşlansak da / ne kadar yaşlı olursak olalım' anlamını verir.",
     "explanation": "'No matter how' arkasından bir sıfat veya zarf alarak ('no matter how old') 'ne kadar ... olursa olsun' anlamı katar.",
-    "wordAnalysis": {
-      "neuroplasticity": "beyin esnekliği",
-      "neural": "sinirsel"
-    },
     "tags": [
       "grammar",
       "adverbial_clause",
@@ -6190,14 +4661,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-189",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 189,
+    "id": "practice-177",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 177,
     "category": "Dilbilgisi",
     "subCategory": "Dilbilgisi & Zamanlar",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Electric autonomous shuttles ------ extensively throughout urban campuses before they are eventually authorized on busy municipal highways.",
     "options": {
@@ -6210,10 +4680,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Zaman uyumu: 'before they are eventually authorized' (Present). Servis araçları test eden değil, 'test edilen' konumunda (Passive) olduğu için 'must be tested' doğru modaldır.",
     "explanation": "Gelecek/genel kural bildirildiği için ve özne 'shuttles' pasif bir eylem gerektirdiği için 'must be tested' kullanılır.",
-    "wordAnalysis": {
-      "autonomous": "otonom, sürücüsüz",
-      "authorize": "yetki/izin vermek"
-    },
     "tags": [
       "grammar",
       "modals",
@@ -6221,14 +4687,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-190",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 190,
+    "id": "practice-178",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 178,
     "category": "Cümle Tamamlama",
     "subCategory": "Cümle Tamamlama",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "While renewable energy capacity has grown exponentially across the globe over the past decade, ------.",
     "options": {
@@ -6241,11 +4706,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "'While' zıtlık bağlacı olumlu bir gelişme sunmuştur (yenilenebilir enerji kapasitesi arttı). Ana cümlede buna tezat olumsuz veya kısıtlayıcı bir durum aranmalıdır: 'fossil fuel consumption still remains dominant'.",
     "explanation": "'While' (her ne kadar ... olsa da) tezatlık gerektirir. Kapasite artmasına karşın fosil yakıt tüketiminin hala baskın kalması anlamca tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "exponentially": "katlanarak, hızla",
-      "plummet": "düşüşe geçmek",
-      "phase out": "kademeli olarak sonlandırmak"
-    },
     "tags": [
       "sentence_completion",
       "contrast",
@@ -6253,14 +4713,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-191",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 191,
+    "id": "practice-179",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 179,
     "category": "Cümle Tamamlama",
     "subCategory": "Cümle Tamamlama",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "------, cognitive scientists have demonstrated that regular bilingual communication actively shields against early-onset dementia.",
     "options": {
@@ -6273,11 +4732,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Ana cümlede 'iki dilli iletişimin demansa karşı koruduğu kanıtlandı' deniyor. Yan cümlede 'geçmişte çocukların gelişimini karıştırdığı yönündeki yanlış inanışa rağmen' (Although ...) zıtlığı harika oturur.",
     "explanation": "'Although ... was once mistakenly believed' ile başlayan tezat cümlesi günümüzdeki bilimsel keşifle kusursuz bir zıtlık bağı kurar.",
-    "wordAnalysis": {
-      "bilingual": "iki dilli",
-      "shield": "korumak, kalkan olmak",
-      "dementia": "bunama"
-    },
     "tags": [
       "sentence_completion",
       "contrast",
@@ -6285,14 +4739,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-192",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 192,
+    "id": "practice-180",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 180,
     "category": "Cümle Tamamlama",
     "subCategory": "Cümle Tamamlama",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Because coral reefs provide essential shoreline protection against destructive oceanic surges, ------.",
     "options": {
@@ -6305,11 +4758,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "'Because' sebep cümlesidir: Mercan resifleri kıyıları okyanus dalgalarından koruduğu için, 'onların yok olması kıyı yerleşimleri için ciddi tehlikeler yaratır' sonucu doğar.",
     "explanation": "Sebep-sonuç ilişkisi: Resiflerin koruyucu olması -> Bozulmalarının insan yerleşimlerini tehlikeye atması.",
-    "wordAnalysis": {
-      "surge": "kabarma, dalga",
-      "degradation": "bozulma, aşınma",
-      "hazard": "tehlike"
-    },
     "tags": [
       "sentence_completion",
       "cause_effect",
@@ -6317,14 +4765,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-193",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 193,
+    "id": "practice-181",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 181,
     "category": "Cümle Tamamlama",
     "subCategory": "Cümle Tamamlama",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "In order to prevent invasive agricultural pests from decimating native crop yields, ------.",
     "options": {
@@ -6337,11 +4784,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "'In order to prevent ...' (önlemek amacıyla) bir amaç bildirir. Bu amacı gerçekleştirecek fail ve eylem: 'Gümrük sınır ajansları ithal edilen kargoları sıkı biyolojik protokollerle denetler'.",
     "explanation": "Amaç-eylem uyumu: Zararlıların ekinleri yok etmesini engellemek için sınır denetimlerinin sıkı yapılması gerekir.",
-    "wordAnalysis": {
-      "decimate": "kırmak, büyük ölçüde yok etmek",
-      "pest": "zararlı böcek/haşere",
-      "timber": "kereste"
-    },
     "tags": [
       "sentence_completion",
       "purpose",
@@ -6349,14 +4791,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-194",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 194,
+    "id": "practice-182",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 182,
     "category": "Cümle Tamamlama",
     "subCategory": "Cümle Tamamlama",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Just as the telescope revolutionized our understanding of celestial bodies in the seventeenth century, ------.",
     "options": {
@@ -6369,11 +4810,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "'Just as ..., so ...' (Tıpkı ... olduğu gibi, öyle de ...) YDS'nin en klasik analoji (benzetme) kalıbıdır. Teleskobun gök cisimlerini anlamamızı devrimleştirmesi ile elektron mikroskobunun mikrobiyolojiyi dönüştürmesi benzetilmiştir.",
     "explanation": "'Just as A ..., so B ...' kalıbında ikinci cümlede devrik veya 'so'lu yapı aranır. Teleskop ile mikroskop arasındaki analoji A şıkkında verilmiştir.",
-    "wordAnalysis": {
-      "celestial": "göksel",
-      "comprehension": "kavrayış, anlama",
-      "spectacles": "gözlük"
-    },
     "tags": [
       "sentence_completion",
       "analogy",
@@ -6381,14 +4817,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-195",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 195,
-    "category": "Çeviri",
-    "subCategory": "İngilizce - Türkçe / Türkçe - İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-183",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 183,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "The deep ocean remains one of the least explored environments on Earth because extreme hydrostatic pressure and total darkness severely restrict human submersible expeditions.",
     "options": {
@@ -6401,11 +4836,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Yüklem analizi: 'remains one of the least explored environments' -> 'en az keşfedilmiş ortamlardan biri olmaya devam etmektedir'. Bağlaç: 'because' -> 'nedeniyle / -dığı için'. Bu tam karşılık A şıkkındadır.",
     "explanation": "Cümlenin ana yüklemi 'remains' (olmaya devam etmektedir) ve sebebi 'because' (nedeniyle) doğrudan A seçeneğinde birebir eşleşmektedir.",
-    "wordAnalysis": {
-      "hydrostatic": "hidrostatik",
-      "submersible": "su altına dalabilen araç",
-      "restrict": "kısıtlamak"
-    },
     "tags": [
       "translation",
       "en-tr",
@@ -6413,14 +4843,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-196",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 196,
-    "category": "Çeviri",
-    "subCategory": "İngilizce - Türkçe / Türkçe - İngilizce",
-    "difficulty": "Orta",
+    "id": "practice-184",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 184,
+    "category": "Ceviri",
+    "subCategory": "Çeviri (Translation)",
     "passage": "",
     "questionText": "Yapay zeka modellerinin sağlık sektöründeki en büyük avantajı, devasa miktardaki hasta verisini saniyeler içinde analiz ederek erken teşhise olanak sağlamasıdır.",
     "options": {
@@ -6433,11 +4862,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Özne: 'Yapay zeka modellerinin sağlık sektöründeki en büyük avantajı' -> 'The greatest advantage of artificial intelligence models in the healthcare sector'. Yüklem: '... olanak sağlamasıdır' -> 'is that they enable ...'.",
     "explanation": "Türkçe cümlenin öznesi 'en büyük avantajı'dır (the greatest advantage), yüklemi ise isim cümlesi bağlayıcısı olan 'is that' yapısıyla A şıkkında kusursuz verilmiştir.",
-    "wordAnalysis": {
-      "advantage": "avantaj",
-      "vast": "muazzam",
-      "enable": "olanak sağlamak"
-    },
     "tags": [
       "translation",
       "tr-en",
@@ -6445,14 +4869,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-197",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 197,
-    "category": "Okuma Parçası",
-    "subCategory": "Tarih & Arkeoloji",
-    "difficulty": "Zor",
+    "id": "practice-185",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 185,
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The Antikythera Mechanism, retrieved by sponge divers from a Greco-Roman shipwreck in 1901, is often hailed as the world's oldest known analog computer. Dating back to approximately the second century BCE, this complex bronze device contained a labyrinthine assembly of over thirty precision gearwheels. When modern computed tomography (CT) scanning and 3D imaging penetrated the corroded fragments a century after its discovery, researchers deciphered miniature inscriptions on its casing that served as an operational manual. The mechanism was calibrated not merely to track the solar and lunar cycles, but also to predict solar and lunar eclipses with startling astronomical accuracy, taking into account the moon's elliptical orbit. The sheer mechanical sophistication of the Antikythera Mechanism suggests that Hellenistic engineering possessed technological capabilities that were subsequently lost to history for over a millennium until the emergence of astronomical clocks in medieval Europe.",
     "questionText": "According to the passage, the Antikythera Mechanism is particularly remarkable because ------.",
     "options": {
@@ -6465,11 +4888,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Parçanın son cümlesine dikkat: 'technological capabilities that were subsequently lost to history for over a millennium until the emergence of astronomical clocks...'. Yani bin yılı aşkın süre bu karmaşıklıkta bir cihaz üretilememiştir.",
     "explanation": "Metnin sonundaki 'lost to history for over a millennium' ifadesi doğrudan A şıkkındaki 'not matched for over a thousand years' ile eşleşir.",
-    "wordAnalysis": {
-      "intricacy": "karmaşıklık",
-      "millennium": "bin yıl",
-      "rudimentary": "ilkel"
-    },
     "tags": [
       "reading",
       "passage",
@@ -6477,14 +4895,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-198",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 198,
-    "category": "Okuma Parçası",
-    "subCategory": "Tarih & Arkeoloji",
-    "difficulty": "Zor",
+    "id": "practice-186",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 186,
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The Antikythera Mechanism, retrieved by sponge divers from a Greco-Roman shipwreck in 1901, is often hailed as the world's oldest known analog computer. Dating back to approximately the second century BCE, this complex bronze device contained a labyrinthine assembly of over thirty precision gearwheels. When modern computed tomography (CT) scanning and 3D imaging penetrated the corroded fragments a century after its discovery, researchers deciphered miniature inscriptions on its casing that served as an operational manual. The mechanism was calibrated not merely to track the solar and lunar cycles, but also to predict solar and lunar eclipses with startling astronomical accuracy, taking into account the moon's elliptical orbit. The sheer mechanical sophistication of the Antikythera Mechanism suggests that Hellenistic engineering possessed technological capabilities that were subsequently lost to history for over a millennium until the emergence of astronomical clocks in medieval Europe.",
     "questionText": "It is clearly stated in the passage that the operational functions of the mechanism were understood ------.",
     "options": {
@@ -6497,10 +4914,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Parçada: 'When modern computed tomography (CT) scanning and 3D imaging penetrated the corroded fragments a century after its discovery, researchers deciphered...' denmektedir.",
     "explanation": "Metinde açıkça belirtildiği üzere cihazın çalışma prensibi ancak keşfinden bir asır sonra gelişmiş CT taraması ve 3D görüntüleme sayesinde anlaşılmıştır.",
-    "wordAnalysis": {
-      "encrusted": "kabuk bağlamış, paslanmış",
-      "penetrate": "nüfuz etmek"
-    },
     "tags": [
       "reading",
       "passage",
@@ -6508,14 +4921,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-199",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 199,
-    "category": "Okuma Parçası",
-    "subCategory": "Tarih & Arkeoloji",
-    "difficulty": "Zor",
+    "id": "practice-187",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 187,
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The Antikythera Mechanism, retrieved by sponge divers from a Greco-Roman shipwreck in 1901, is often hailed as the world's oldest known analog computer. Dating back to approximately the second century BCE, this complex bronze device contained a labyrinthine assembly of over thirty precision gearwheels. When modern computed tomography (CT) scanning and 3D imaging penetrated the corroded fragments a century after its discovery, researchers deciphered miniature inscriptions on its casing that served as an operational manual. The mechanism was calibrated not merely to track the solar and lunar cycles, but also to predict solar and lunar eclipses with startling astronomical accuracy, taking into account the moon's elliptical orbit. The sheer mechanical sophistication of the Antikythera Mechanism suggests that Hellenistic engineering possessed technological capabilities that were subsequently lost to history for over a millennium until the emergence of astronomical clocks in medieval Europe.",
     "questionText": "One can infer from the text that the creators of the Antikythera Mechanism ------.",
     "options": {
@@ -6528,11 +4940,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "B",
     "solutionMethod": "Parçada mekanizmanın 'taking into account the moon's elliptical orbit' (ayın eliptik yörüngesini hesaba katarak) tutulmaları öngördüğü belirtilmiştir. Bu durum yaratıcılarının gelişmiş bir astronomi bilgisine sahip olduğunu gösterir.",
     "explanation": "Ayın eliptik hareketini ve tutulmaları hesaplayabilmesi, cihazı yapanların ayın düzensiz hareketleri hakkında derin astronomik bilgiye sahip olduğunu kanıtlar (B şıkkı).",
-    "wordAnalysis": {
-      "elliptical": "eliptik",
-      "irregular": "düzensiz",
-      "sophisticated": "gelişmiş"
-    },
     "tags": [
       "reading",
       "passage",
@@ -6540,14 +4947,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-200",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 200,
-    "category": "Okuma Parçası",
-    "subCategory": "Tarih & Arkeoloji",
-    "difficulty": "Zor",
+    "id": "practice-188",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 188,
+    "category": "Okuma Anlama",
+    "subCategory": "Okuma Parçaları (Reading Comprehension)",
     "passage": "The Antikythera Mechanism, retrieved by sponge divers from a Greco-Roman shipwreck in 1901, is often hailed as the world's oldest known analog computer. Dating back to approximately the second century BCE, this complex bronze device contained a labyrinthine assembly of over thirty precision gearwheels. When modern computed tomography (CT) scanning and 3D imaging penetrated the corroded fragments a century after its discovery, researchers deciphered miniature inscriptions on its casing that served as an operational manual. The mechanism was calibrated not merely to track the solar and lunar cycles, but also to predict solar and lunar eclipses with startling astronomical accuracy, taking into account the moon's elliptical orbit. The sheer mechanical sophistication of the Antikythera Mechanism suggests that Hellenistic engineering possessed technological capabilities that were subsequently lost to history for over a millennium until the emergence of astronomical clocks in medieval Europe.",
     "questionText": "The primary purpose of the author in this passage is to ------.",
     "options": {
@@ -6560,10 +4966,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Metnin bütünü Antikythera Mekanizması'nın olağanüstü mühendislik başarısını ve tarihteki önemini açıklamaktadır.",
     "explanation": "Yazar antik bir astronomik aygıtın teknik harikalarını ve tarihi önemini aktarmayı amaçlamaktadır (A şıkkı).",
-    "wordAnalysis": {
-      "marvel": "harika, mucize",
-      "significance": "önem"
-    },
     "tags": [
       "reading",
       "passage",
@@ -6571,14 +4973,13 @@ const PRACTICE_YDS_QUESTIONS = [
     ]
   },
   {
-    "id": "practice-201",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 201,
+    "id": "practice-189",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 189,
     "category": "Diyalog Tamamlama",
     "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
     "passage": "",
     "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
     "options": {
@@ -6591,5993 +4992,956 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
     "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
     "tags": [
       "dialogue",
       "epigenetics"
+    ]
+  },
+  {
+    "id": "practice-190",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 190,
+    "category": "Paragraf Tamamlama",
+    "subCategory": "Düşünce Akışı",
+    "passage": "",
+    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
+    "options": {
+      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
+      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
+      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
+      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
+      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
+    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
+    "tags": [
+      "paragraph_completion",
+      "cognitive linguistics"
+    ]
+  },
+  {
+    "id": "practice-191",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 191,
+    "category": "Anlam Butunlugunu Bozan Cumle",
+    "subCategory": "Akışı Bozan Cümle (Irrelevant Sentence)",
+    "passage": "",
+    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
+    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
+    "tags": [
+      "irrelevant_sentence",
+      "glaciology"
+    ]
+  },
+  {
+    "id": "practice-192",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 192,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Akademik Kelimeler",
+    "passage": "",
+    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
+    "options": {
+      "A": "challenge",
+      "B": "conform",
+      "C": "perpetuate",
+      "D": "neglect",
+      "E": "diminish"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
+    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
+    "tags": [
+      "vocabulary",
+      "verb",
+      "urban ecology"
+    ]
+  },
+  {
+    "id": "practice-193",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 193,
+    "category": "Diyalog Tamamlama",
+    "subCategory": "Akademik Diyalog",
+    "passage": "",
+    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
+    "options": {
+      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
+      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
+      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
+      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
+      "E": "Because the funding agency decided to terminate all biological testing prematurely."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
+    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
+    "tags": [
+      "dialogue",
+      "economic history"
+    ]
+  },
+  {
+    "id": "practice-194",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 194,
+    "category": "Anlamca En Yakın Cümle",
+    "subCategory": "Cümle Eşdeğerliği",
+    "passage": "",
+    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
+    "options": {
+      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
+      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
+      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
+      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
+      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
+    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
+    "tags": [
+      "restatement",
+      "neurobiology"
+    ]
+  },
+  {
+    "id": "practice-195",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 195,
+    "category": "Paragraf Tamamlama",
+    "subCategory": "Düşünce Akışı",
+    "passage": "",
+    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
+    "options": {
+      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
+      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
+      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
+      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
+      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
+    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
+    "tags": [
+      "paragraph_completion",
+      "archaeogenetics"
+    ]
+  },
+  {
+    "id": "practice-196",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 196,
+    "category": "Anlam Butunlugunu Bozan Cumle",
+    "subCategory": "Akışı Bozan Cümle (Irrelevant Sentence)",
+    "passage": "",
+    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "C",
+    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
+    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
+    "tags": [
+      "irrelevant_sentence",
+      "renewable energy"
+    ]
+  },
+  {
+    "id": "practice-197",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 197,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Akademik Kelimeler",
+    "passage": "",
+    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
+    "options": {
+      "A": "challenge",
+      "B": "conform",
+      "C": "perpetuate",
+      "D": "neglect",
+      "E": "diminish"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
+    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
+    "tags": [
+      "vocabulary",
+      "verb",
+      "marine biology"
+    ]
+  },
+  {
+    "id": "practice-198",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 198,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Akademik Kelimeler",
+    "passage": "",
+    "questionText": "Recent breakthroughs in Astrophysics have ------ our understanding of black hole thermodynamics, fundamentally shifting previous theoretical frameworks.",
+    "options": {
+      "A": "altered",
+      "B": "diminished",
+      "C": "withheld",
+      "D": "confined",
+      "E": "forbid"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
+    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
+    "tags": [
+      "vocabulary",
+      "astrophysics"
+    ]
+  },
+  {
+    "id": "practice-199",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 199,
+    "category": "Dilbilgisi",
+    "subCategory": "Zamanlar",
+    "passage": "",
+    "questionText": "By the time the comprehensive report on photosynthetic adaptations in arid climates ------ published next year, researchers ------ data for over a decade.",
+    "options": {
+      "A": "is / will have been collecting",
+      "B": "was / had collected",
+      "C": "has been / will collect",
+      "D": "will be / collected",
+      "E": "is / have collected"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
+    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
+    "tags": [
+      "grammar",
+      "tenses",
+      "botany"
+    ]
+  },
+  {
+    "id": "practice-200",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 200,
+    "category": "Cümle Tamamlama",
+    "subCategory": "Zıtlık Bağlaçları",
+    "passage": "",
+    "questionText": "Even though early studies on the evolution of proto-Indo-European languages yielded promising results, ------.",
+    "options": {
+      "A": "subsequent extensive trials failed to replicate those initial phonology outcomes",
+      "B": "the methodology was widely adopted by Linguistics experts",
+      "C": "funding for the project was immediately doubled",
+      "D": "because the statistical margin of error was negligible",
+      "E": "which led to a paradigm shift in the field"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
+    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
+    "tags": [
+      "sentence_completion",
+      "contrast"
+    ]
+  },
+  {
+    "id": "practice-201",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
+    "questionNumber": 201,
+    "category": "Kelime Bilgisi",
+    "subCategory": "Akademik Kelimeler",
+    "passage": "",
+    "questionText": "Recent breakthroughs in Geology have ------ our understanding of tectonic plate boundaries, fundamentally shifting previous theoretical frameworks.",
+    "options": {
+      "A": "altered",
+      "B": "diminished",
+      "C": "withheld",
+      "D": "confined",
+      "E": "forbid"
+    },
+    "correctAnswer": "A",
+    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
+    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
+    "tags": [
+      "vocabulary",
+      "geology"
     ]
   },
   {
     "id": "practice-202",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 202,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
+    "category": "Dilbilgisi",
+    "subCategory": "Zamanlar",
     "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
+    "questionText": "By the time the comprehensive report on the industrial revolution's impact on agriculture ------ published next year, researchers ------ data for over a decade.",
     "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
+      "A": "is / will have been collecting",
+      "B": "was / had collected",
+      "C": "has been / will collect",
+      "D": "will be / collected",
+      "E": "is / have collected"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
+    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
+    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
     "tags": [
-      "restatement",
-      "quantum computing"
+      "grammar",
+      "tenses",
+      "history"
     ]
   },
   {
     "id": "practice-203",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 203,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
+    "category": "Cümle Tamamlama",
+    "subCategory": "Zıtlık Bağlaçları",
     "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
+    "questionText": "Even though early studies on keystone species in marine ecosystems yielded promising results, ------.",
     "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
+      "A": "subsequent extensive trials failed to replicate those initial trophic outcomes",
+      "B": "the methodology was widely adopted by Ecology experts",
+      "C": "funding for the project was immediately doubled",
+      "D": "because the statistical margin of error was negligible",
+      "E": "which led to a paradigm shift in the field"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
+    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
+    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
     "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
+      "sentence_completion",
+      "contrast"
     ]
   },
   {
     "id": "practice-204",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 204,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
+    "category": "Kelime Bilgisi",
+    "subCategory": "Akademik Kelimeler",
     "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
+    "questionText": "Recent breakthroughs in Medicine have ------ our understanding of immunotherapy in oncology, fundamentally shifting previous theoretical frameworks.",
     "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
+      "A": "altered",
+      "B": "diminished",
+      "C": "withheld",
+      "D": "confined",
+      "E": "forbid"
     },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
+    "correctAnswer": "A",
+    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
+    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
     "tags": [
-      "irrelevant_sentence",
-      "glaciology"
+      "vocabulary",
+      "medicine"
     ]
   },
   {
     "id": "practice-205",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 205,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
+    "category": "Dilbilgisi",
+    "subCategory": "Zamanlar",
     "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
+    "questionText": "By the time the comprehensive report on urbanization and social stratification ------ published next year, researchers ------ data for over a decade.",
     "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
+      "A": "is / will have been collecting",
+      "B": "was / had collected",
+      "C": "has been / will collect",
+      "D": "will be / collected",
+      "E": "is / have collected"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
+    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
+    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
     "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
+      "grammar",
+      "tenses",
+      "sociology"
     ]
   },
   {
     "id": "practice-206",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 206,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
+    "category": "Cümle Tamamlama",
+    "subCategory": "Zıtlık Bağlaçları",
     "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
+    "questionText": "Even though early studies on cognitive biases in decision making yielded promising results, ------.",
     "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
+      "A": "subsequent extensive trials failed to replicate those initial dissonance outcomes",
+      "B": "the methodology was widely adopted by Psychology experts",
+      "C": "funding for the project was immediately doubled",
+      "D": "because the statistical margin of error was negligible",
+      "E": "which led to a paradigm shift in the field"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
+    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
+    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
     "tags": [
-      "dialogue",
-      "economic history"
+      "sentence_completion",
+      "contrast"
     ]
   },
   {
     "id": "practice-207",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 207,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
+    "category": "Kelime Bilgisi",
+    "subCategory": "Akademik Kelimeler",
     "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
+    "questionText": "Recent breakthroughs in Botany have ------ our understanding of photosynthetic adaptations in arid climates, fundamentally shifting previous theoretical frameworks.",
     "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
+      "A": "altered",
+      "B": "diminished",
+      "C": "withheld",
+      "D": "confined",
+      "E": "forbid"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
+    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
+    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
     "tags": [
-      "restatement",
-      "neurobiology"
+      "vocabulary",
+      "botany"
     ]
   },
   {
     "id": "practice-208",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 208,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
+    "category": "Dilbilgisi",
+    "subCategory": "Zamanlar",
     "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
+    "questionText": "By the time the comprehensive report on the evolution of proto-Indo-European languages ------ published next year, researchers ------ data for over a decade.",
     "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
+      "A": "is / will have been collecting",
+      "B": "was / had collected",
+      "C": "has been / will collect",
+      "D": "will be / collected",
+      "E": "is / have collected"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
+    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
+    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
     "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
+      "grammar",
+      "tenses",
+      "linguistics"
     ]
   },
   {
     "id": "practice-209",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 209,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
+    "category": "Cümle Tamamlama",
+    "subCategory": "Zıtlık Bağlaçları",
     "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
+    "questionText": "Even though early studies on macroeconomic inflation targeting yielded promising results, ------.",
     "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
+      "A": "subsequent extensive trials failed to replicate those initial monetary policy outcomes",
+      "B": "the methodology was widely adopted by Economics experts",
+      "C": "funding for the project was immediately doubled",
+      "D": "because the statistical margin of error was negligible",
+      "E": "which led to a paradigm shift in the field"
     },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
+    "correctAnswer": "A",
+    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
+    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
     "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
+      "sentence_completion",
+      "contrast"
     ]
   },
   {
     "id": "practice-210",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 210,
     "category": "Kelime Bilgisi",
     "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
     "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
+    "questionText": "Recent breakthroughs in History have ------ our understanding of the industrial revolution's impact on agriculture, fundamentally shifting previous theoretical frameworks.",
     "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
+      "A": "altered",
+      "B": "diminished",
+      "C": "withheld",
+      "D": "confined",
+      "E": "forbid"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
+    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
+    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
     "tags": [
       "vocabulary",
-      "verb",
-      "marine biology"
+      "history"
     ]
   },
   {
     "id": "practice-211",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 211,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
+    "category": "Dilbilgisi",
+    "subCategory": "Zamanlar",
     "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
+    "questionText": "By the time the comprehensive report on keystone species in marine ecosystems ------ published next year, researchers ------ data for over a decade.",
     "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
+      "A": "is / will have been collecting",
+      "B": "was / had collected",
+      "C": "has been / will collect",
+      "D": "will be / collected",
+      "E": "is / have collected"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
+    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
+    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
     "tags": [
-      "dialogue",
-      "epigenetics"
+      "grammar",
+      "tenses",
+      "ecology"
     ]
   },
   {
     "id": "practice-212",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 212,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
+    "category": "Cümle Tamamlama",
+    "subCategory": "Zıtlık Bağlaçları",
     "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
+    "questionText": "Even though early studies on black hole thermodynamics yielded promising results, ------.",
     "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
+      "A": "subsequent extensive trials failed to replicate those initial event horizon outcomes",
+      "B": "the methodology was widely adopted by Astrophysics experts",
+      "C": "funding for the project was immediately doubled",
+      "D": "because the statistical margin of error was negligible",
+      "E": "which led to a paradigm shift in the field"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
+    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
+    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
     "tags": [
-      "restatement",
-      "quantum computing"
+      "sentence_completion",
+      "contrast"
     ]
   },
   {
     "id": "practice-213",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 213,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
+    "category": "Kelime Bilgisi",
+    "subCategory": "Akademik Kelimeler",
     "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
+    "questionText": "Recent breakthroughs in Sociology have ------ our understanding of urbanization and social stratification, fundamentally shifting previous theoretical frameworks.",
     "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
+      "A": "altered",
+      "B": "diminished",
+      "C": "withheld",
+      "D": "confined",
+      "E": "forbid"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
+    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
+    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
     "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
+      "vocabulary",
+      "sociology"
     ]
   },
   {
     "id": "practice-214",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 214,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
+    "category": "Dilbilgisi",
+    "subCategory": "Zamanlar",
     "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
+    "questionText": "By the time the comprehensive report on cognitive biases in decision making ------ published next year, researchers ------ data for over a decade.",
     "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
+      "A": "is / will have been collecting",
+      "B": "was / had collected",
+      "C": "has been / will collect",
+      "D": "will be / collected",
+      "E": "is / have collected"
     },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
+    "correctAnswer": "A",
+    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
+    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
     "tags": [
-      "irrelevant_sentence",
-      "glaciology"
+      "grammar",
+      "tenses",
+      "psychology"
     ]
   },
   {
     "id": "practice-215",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 215,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
+    "category": "Cümle Tamamlama",
+    "subCategory": "Zıtlık Bağlaçları",
     "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
+    "questionText": "Even though early studies on tectonic plate boundaries yielded promising results, ------.",
     "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
+      "A": "subsequent extensive trials failed to replicate those initial lithosphere outcomes",
+      "B": "the methodology was widely adopted by Geology experts",
+      "C": "funding for the project was immediately doubled",
+      "D": "because the statistical margin of error was negligible",
+      "E": "which led to a paradigm shift in the field"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
+    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
+    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
     "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
+      "sentence_completion",
+      "contrast"
     ]
   },
   {
     "id": "practice-216",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 216,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
+    "category": "Kelime Bilgisi",
+    "subCategory": "Akademik Kelimeler",
     "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
+    "questionText": "Recent breakthroughs in Linguistics have ------ our understanding of the evolution of proto-Indo-European languages, fundamentally shifting previous theoretical frameworks.",
     "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
+      "A": "altered",
+      "B": "diminished",
+      "C": "withheld",
+      "D": "confined",
+      "E": "forbid"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
+    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
+    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
     "tags": [
-      "dialogue",
-      "economic history"
+      "vocabulary",
+      "linguistics"
     ]
   },
   {
     "id": "practice-217",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 217,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
+    "category": "Dilbilgisi",
+    "subCategory": "Zamanlar",
     "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
+    "questionText": "By the time the comprehensive report on macroeconomic inflation targeting ------ published next year, researchers ------ data for over a decade.",
     "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
+      "A": "is / will have been collecting",
+      "B": "was / had collected",
+      "C": "has been / will collect",
+      "D": "will be / collected",
+      "E": "is / have collected"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
+    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
+    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
     "tags": [
-      "restatement",
-      "neurobiology"
+      "grammar",
+      "tenses",
+      "economics"
     ]
   },
   {
     "id": "practice-218",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 218,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
+    "category": "Cümle Tamamlama",
+    "subCategory": "Zıtlık Bağlaçları",
     "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
+    "questionText": "Even though early studies on immunotherapy in oncology yielded promising results, ------.",
     "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
+      "A": "subsequent extensive trials failed to replicate those initial malignant outcomes",
+      "B": "the methodology was widely adopted by Medicine experts",
+      "C": "funding for the project was immediately doubled",
+      "D": "because the statistical margin of error was negligible",
+      "E": "which led to a paradigm shift in the field"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
+    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
+    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
     "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
+      "sentence_completion",
+      "contrast"
     ]
   },
   {
     "id": "practice-219",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 219,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
+    "category": "Kelime Bilgisi",
+    "subCategory": "Akademik Kelimeler",
     "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
+    "questionText": "Recent breakthroughs in Ecology have ------ our understanding of keystone species in marine ecosystems, fundamentally shifting previous theoretical frameworks.",
     "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
+      "A": "altered",
+      "B": "diminished",
+      "C": "withheld",
+      "D": "confined",
+      "E": "forbid"
     },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
+    "correctAnswer": "A",
+    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
+    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
     "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
+      "vocabulary",
+      "ecology"
     ]
   },
   {
     "id": "practice-220",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 220,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
+    "category": "Dilbilgisi",
+    "subCategory": "Zamanlar",
     "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
+    "questionText": "By the time the comprehensive report on black hole thermodynamics ------ published next year, researchers ------ data for over a decade.",
     "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
+      "A": "is / will have been collecting",
+      "B": "was / had collected",
+      "C": "has been / will collect",
+      "D": "will be / collected",
+      "E": "is / have collected"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
+    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
+    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
     "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
+      "grammar",
+      "tenses",
+      "astrophysics"
     ]
   },
   {
     "id": "practice-221",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 221,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
+    "category": "Cümle Tamamlama",
+    "subCategory": "Zıtlık Bağlaçları",
     "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
+    "questionText": "Even though early studies on photosynthetic adaptations in arid climates yielded promising results, ------.",
     "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
+      "A": "subsequent extensive trials failed to replicate those initial transpiration outcomes",
+      "B": "the methodology was widely adopted by Botany experts",
+      "C": "funding for the project was immediately doubled",
+      "D": "because the statistical margin of error was negligible",
+      "E": "which led to a paradigm shift in the field"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
+    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
+    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
     "tags": [
-      "dialogue",
-      "epigenetics"
+      "sentence_completion",
+      "contrast"
     ]
   },
   {
     "id": "practice-222",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 222,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
+    "category": "Kelime Bilgisi",
+    "subCategory": "Akademik Kelimeler",
     "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
+    "questionText": "Recent breakthroughs in Psychology have ------ our understanding of cognitive biases in decision making, fundamentally shifting previous theoretical frameworks.",
     "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
+      "A": "altered",
+      "B": "diminished",
+      "C": "withheld",
+      "D": "confined",
+      "E": "forbid"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
+    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
+    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
     "tags": [
-      "restatement",
-      "quantum computing"
+      "vocabulary",
+      "psychology"
     ]
   },
   {
     "id": "practice-223",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 223,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
+    "category": "Dilbilgisi",
+    "subCategory": "Zamanlar",
     "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
+    "questionText": "By the time the comprehensive report on tectonic plate boundaries ------ published next year, researchers ------ data for over a decade.",
     "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
+      "A": "is / will have been collecting",
+      "B": "was / had collected",
+      "C": "has been / will collect",
+      "D": "will be / collected",
+      "E": "is / have collected"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
+    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
+    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
     "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
+      "grammar",
+      "tenses",
+      "geology"
     ]
   },
   {
     "id": "practice-224",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 224,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
+    "category": "Cümle Tamamlama",
+    "subCategory": "Zıtlık Bağlaçları",
     "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
+    "questionText": "Even though early studies on the industrial revolution's impact on agriculture yielded promising results, ------.",
     "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
+      "A": "subsequent extensive trials failed to replicate those initial agrarian outcomes",
+      "B": "the methodology was widely adopted by History experts",
+      "C": "funding for the project was immediately doubled",
+      "D": "because the statistical margin of error was negligible",
+      "E": "which led to a paradigm shift in the field"
     },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
+    "correctAnswer": "A",
+    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
+    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
     "tags": [
-      "irrelevant_sentence",
-      "glaciology"
+      "sentence_completion",
+      "contrast"
     ]
   },
   {
     "id": "practice-225",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 225,
     "category": "Kelime Bilgisi",
     "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
     "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
+    "questionText": "Recent breakthroughs in Economics have ------ our understanding of macroeconomic inflation targeting, fundamentally shifting previous theoretical frameworks.",
     "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
+      "A": "altered",
+      "B": "diminished",
+      "C": "withheld",
+      "D": "confined",
+      "E": "forbid"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
+    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
+    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
     "tags": [
       "vocabulary",
-      "verb",
-      "urban ecology"
+      "economics"
     ]
   },
   {
     "id": "practice-226",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 226,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
+    "category": "Dilbilgisi",
+    "subCategory": "Zamanlar",
     "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
+    "questionText": "By the time the comprehensive report on immunotherapy in oncology ------ published next year, researchers ------ data for over a decade.",
     "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
+      "A": "is / will have been collecting",
+      "B": "was / had collected",
+      "C": "has been / will collect",
+      "D": "will be / collected",
+      "E": "is / have collected"
     },
     "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
+    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
+    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
     "tags": [
-      "dialogue",
-      "economic history"
+      "grammar",
+      "tenses",
+      "medicine"
     ]
   },
   {
     "id": "practice-227",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
+    "exam": "YDS Alıştırma Soruları",
+    "year": "Özgün",
+    "term": "Alıştırma",
     "questionNumber": 227,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-228",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 228,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-229",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 229,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-230",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 230,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-231",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 231,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "epigenetics"
-    ]
-  },
-  {
-    "id": "practice-232",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 232,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "quantum computing"
-    ]
-  },
-  {
-    "id": "practice-233",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 233,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
-    ]
-  },
-  {
-    "id": "practice-234",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 234,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "glaciology"
-    ]
-  },
-  {
-    "id": "practice-235",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 235,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
-    ]
-  },
-  {
-    "id": "practice-236",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 236,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "economic history"
-    ]
-  },
-  {
-    "id": "practice-237",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 237,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-238",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 238,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-239",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 239,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-240",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 240,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-241",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 241,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "epigenetics"
-    ]
-  },
-  {
-    "id": "practice-242",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 242,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "quantum computing"
-    ]
-  },
-  {
-    "id": "practice-243",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 243,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
-    ]
-  },
-  {
-    "id": "practice-244",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 244,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "glaciology"
-    ]
-  },
-  {
-    "id": "practice-245",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 245,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
-    ]
-  },
-  {
-    "id": "practice-246",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 246,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "economic history"
-    ]
-  },
-  {
-    "id": "practice-247",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 247,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-248",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 248,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-249",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 249,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-250",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 250,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-251",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 251,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "epigenetics"
-    ]
-  },
-  {
-    "id": "practice-252",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 252,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "quantum computing"
-    ]
-  },
-  {
-    "id": "practice-253",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 253,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
-    ]
-  },
-  {
-    "id": "practice-254",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 254,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "glaciology"
-    ]
-  },
-  {
-    "id": "practice-255",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 255,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
-    ]
-  },
-  {
-    "id": "practice-256",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 256,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "economic history"
-    ]
-  },
-  {
-    "id": "practice-257",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 257,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-258",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 258,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-259",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 259,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-260",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 260,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-261",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 261,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "epigenetics"
-    ]
-  },
-  {
-    "id": "practice-262",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 262,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "quantum computing"
-    ]
-  },
-  {
-    "id": "practice-263",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 263,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
-    ]
-  },
-  {
-    "id": "practice-264",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 264,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "glaciology"
-    ]
-  },
-  {
-    "id": "practice-265",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 265,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
-    ]
-  },
-  {
-    "id": "practice-266",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 266,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "economic history"
-    ]
-  },
-  {
-    "id": "practice-267",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 267,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-268",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 268,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-269",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 269,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-270",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 270,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-271",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 271,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "epigenetics"
-    ]
-  },
-  {
-    "id": "practice-272",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 272,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "quantum computing"
-    ]
-  },
-  {
-    "id": "practice-273",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 273,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
-    ]
-  },
-  {
-    "id": "practice-274",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 274,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "glaciology"
-    ]
-  },
-  {
-    "id": "practice-275",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 275,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
-    ]
-  },
-  {
-    "id": "practice-276",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 276,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "economic history"
-    ]
-  },
-  {
-    "id": "practice-277",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 277,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-278",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 278,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-279",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 279,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-280",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 280,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-281",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 281,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "epigenetics"
-    ]
-  },
-  {
-    "id": "practice-282",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 282,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "quantum computing"
-    ]
-  },
-  {
-    "id": "practice-283",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 283,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
-    ]
-  },
-  {
-    "id": "practice-284",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 284,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "glaciology"
-    ]
-  },
-  {
-    "id": "practice-285",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 285,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
-    ]
-  },
-  {
-    "id": "practice-286",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 286,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "economic history"
-    ]
-  },
-  {
-    "id": "practice-287",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 287,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-288",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 288,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-289",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 289,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-290",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 290,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-291",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 291,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "epigenetics"
-    ]
-  },
-  {
-    "id": "practice-292",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 292,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "quantum computing"
-    ]
-  },
-  {
-    "id": "practice-293",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 293,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
-    ]
-  },
-  {
-    "id": "practice-294",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 294,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "glaciology"
-    ]
-  },
-  {
-    "id": "practice-295",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 295,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
-    ]
-  },
-  {
-    "id": "practice-296",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 296,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "economic history"
-    ]
-  },
-  {
-    "id": "practice-297",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 297,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-298",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 298,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-299",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 299,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-300",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 300,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-301",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 301,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "epigenetics"
-    ]
-  },
-  {
-    "id": "practice-302",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 302,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "quantum computing"
-    ]
-  },
-  {
-    "id": "practice-303",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 303,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
-    ]
-  },
-  {
-    "id": "practice-304",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 304,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "glaciology"
-    ]
-  },
-  {
-    "id": "practice-305",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 305,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
-    ]
-  },
-  {
-    "id": "practice-306",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 306,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "economic history"
-    ]
-  },
-  {
-    "id": "practice-307",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 307,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-308",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 308,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-309",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 309,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-310",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 310,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-311",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 311,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "epigenetics"
-    ]
-  },
-  {
-    "id": "practice-312",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 312,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "quantum computing"
-    ]
-  },
-  {
-    "id": "practice-313",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 313,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
-    ]
-  },
-  {
-    "id": "practice-314",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 314,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "glaciology"
-    ]
-  },
-  {
-    "id": "practice-315",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 315,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
-    ]
-  },
-  {
-    "id": "practice-316",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 316,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "economic history"
-    ]
-  },
-  {
-    "id": "practice-317",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 317,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-318",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 318,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-319",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 319,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-320",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 320,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-321",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 321,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Epigenetics demonstrate that gene expression without altering DNA sequence.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "methylation": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "epigenetics"
-    ]
-  },
-  {
-    "id": "practice-322",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 322,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding qubits exploiting superposition and entanglement, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from qubits exploiting superposition and entanglement can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate qubits exploiting superposition and entanglement, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in qubits exploiting superposition and entanglement have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on qubits exploiting superposition and entanglement because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of qubits exploiting superposition and entanglement."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "quantum computing"
-    ]
-  },
-  {
-    "id": "practice-323",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 323,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Cognitive Linguistics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe conceptual metaphors shaping human cognition in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "cognitive linguistics"
-    ]
-  },
-  {
-    "id": "practice-324",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 324,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Glaciology is built upon the fundamental premise that accelerating melting of polar ice caps and sea level rise. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "glaciology"
-    ]
-  },
-  {
-    "id": "practice-325",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 325,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Urban Ecology suggest that biodiversity adaptations to anthropogenic urban heat islands may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "habitat fragmentation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "urban ecology"
-    ]
-  },
-  {
-    "id": "practice-326",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 326,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik Diyalog",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. Evans: The latest findings on Economic History demonstrate that the transition from agrarian barter to fiat currencies.\nDr. Miller: Yes, but many peer reviewers remain skeptical about the reproducibility of the initial lab benchmarks.\nDr. Evans: ------\nDr. Miller: That would certainly address the lingering doubts and validate the methodology.",
-    "options": {
-      "A": "Indeed, which is why our consortium is preparing a multi-center replication trial across four independent universities.",
-      "B": "I disagree; the statistical data was already conclusive enough for commercial deployment.",
-      "C": "Why should we care about what junior reviewers think when the grant funding is secured?",
-      "D": "Perhaps we should abandon the entire hypothesis and investigate traditional models instead.",
-      "E": "Because the funding agency decided to terminate all biological testing prematurely."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. Miller'ın son cevabına ('That would certainly address the lingering doubts' - Bu kesinlikle kafalardaki şüpheleri giderir) dikkat edin. Dr. Evans bağımsız laboratuvarlarda doğrulama/tekrar çalışması yapacaklarını söylemelidir.",
-    "explanation": "Dr. Miller'ın şüpheleri giderecek bir hamleden bahsettiği görülmektedir. A seçeneğindeki 'bağımsız üniversitelerde çok merkezli tekrar testi hazırlıyoruz' ifadesi doğrudan bu yanıtı karşılar.",
-    "wordAnalysis": {
-      "monetary": "kilit terim",
-      "reproducibility": "tekrarlanabilirlik",
-      "validate": "geçerli kılmak"
-    },
-    "tags": [
-      "dialogue",
-      "economic history"
-    ]
-  },
-  {
-    "id": "practice-327",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 327,
-    "category": "Anlamca En Yakın Cümle",
-    "subCategory": "Cümle Eşdeğerliği",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Unless governments implement strict regulations regarding synaptic plasticity during deep slow-wave sleep cycles, the environmental consequences will be irreversible within a matter of decades.",
-    "options": {
-      "A": "The environmental fallout from synaptic plasticity during deep slow-wave sleep cycles can only be avoided if authorities promptly enforce stringent regulatory measures.",
-      "B": "Even if governments regulate synaptic plasticity during deep slow-wave sleep cycles, ecosystems will inevitably suffer permanent degradation over the next century.",
-      "C": "Strict governmental interventions in synaptic plasticity during deep slow-wave sleep cycles have already succeeded in reversing previous ecological damage.",
-      "D": "Authorities are hesitant to legislate on synaptic plasticity during deep slow-wave sleep cycles because the environmental repercussions are deemed negligible.",
-      "E": "Decades of regulatory attempts have failed to curtail the detrimental impact of synaptic plasticity during deep slow-wave sleep cycles."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Anlamca En Yakın Cümle Taktiği: 'Unless X, Y will happen' (X olmadıkça Y olur) kalıbı 'Only if X, can Y be prevented' (Y ancak X yapılırsa önlenebilir) kalıbına eşdeğerdir.",
-    "explanation": "Kök cümle: 'Hükümetler sıkı kurallar uygulamadıkça çevresel sonuçlar geri döndürülemez olacaktır.' A seçeneği: 'Çevresel yıkım ancak yetkililerin acilen sıkı önlemleri yürürlüğe koymasıyla önlenebilir.' Birebir aynı anlamdadır.",
-    "wordAnalysis": {
-      "irreversible": "geri döndürülemez",
-      "stringent": "katı, sıkı",
-      "fallout": "olumsuz etki/sonuç"
-    },
-    "tags": [
-      "restatement",
-      "neurobiology"
-    ]
-  },
-  {
-    "id": "practice-328",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 328,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The study of Archaeogenetics has experienced a renaissance in recent years due to cutting-edge analytical tools. Researchers can now observe ancient DNA unravelling prehistoric human migration corridors in real time with unprecedented spatial resolution. ------. Consequently, theoretical paradigms that once seemed speculative are now supported by rigorous empirical evidence.",
-    "options": {
-      "A": "This high level of granular observation allows scientists to detect subtle molecular dynamics that were previously invisible.",
-      "B": "However, classical physicists still refuse to acknowledge the validity of digital instrumentation.",
-      "C": "In contrast, funding for basic scientific research has plummeted dramatically across public institutes.",
-      "D": "Despite these advances, most academic journals have ceased publishing experimental findings.",
-      "E": "Therefore, students are advised to avoid specializing in technical laboratory methods."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Tamamlama Taktiği: Boşluktan önceki 'unprecedented spatial resolution' (benzeri görülmemiş konumsal çözünürlük) ile boşluktaki 'This high level of granular observation' (Bu yüksek düzeydeki ayrıntılı gözlem) arasındaki referans zamirine dikkat edin.",
-    "explanation": "Boşluğun ardındaki 'Consequently' (Sonuç olarak kuramlar ampirik kanıtla destekleniyor) cümlesine A seçeneğindeki ayrıntılı moleküler dinamiklerin gözlemlenebilmesi kusursuz bir geçiş sağlar.",
-    "wordAnalysis": {
-      "spatial": "uzamsal, mekansal",
-      "empirical": "deneysel, ampirik",
-      "granular": "ayrıntılı, taneli"
-    },
-    "tags": [
-      "paragraph_completion",
-      "archaeogenetics"
-    ]
-  },
-  {
-    "id": "practice-329",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 329,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış Bozma",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) The paradigm of Renewable Energy is built upon the fundamental premise that perovskite solar cells offering record photovoltaic efficiency. (II) Modern computational models simulate these intricate dynamics with remarkable fidelity. (III) Commercial advertising campaigns on televised broadcasts frequently exaggerate consumer product benefits. (IV) By cross-referencing these simulations with empirical field samples, researchers can validate predictive models. (V) This synergy between computational simulation and empirical data has paved the way for groundbreaking discoveries.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Parçanın konusu bilimsel modellemeler ve simülasyonlardır. III numaralı cümle ise tamamen alakasız şekilde televizyon reklamlarından ve tüketici ürünlerinden bahsetmektedir.",
-    "explanation": "Parçanın ana fikri ve konusu 'hesaplamalı modeller ve bilimsel simülasyonlar' iken (III) numaralı cümle konu bütünlüğünü tamamen koparmaktadır.",
-    "wordAnalysis": {
-      "premise": "öncül, temel dayanak",
-      "fidelity": "sadakat, gerçeğe yakınlık",
-      "synergy": "sinerji"
-    },
-    "tags": [
-      "irrelevant_sentence",
-      "renewable energy"
-    ]
-  },
-  {
-    "id": "practice-330",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 330,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Advancements in Marine Biology suggest that bioluminescence mechanisms in benthic deep-sea abyssal organisms may fundamentally ------ existing assumptions regarding evolutionary biology and natural selection.",
-    "options": {
-      "A": "challenge",
-      "B": "conform",
-      "C": "perpetuate",
-      "D": "neglect",
-      "E": "diminish"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'challenge existing assumptions' (mevcut varsayımlara meydan okumak, sorgulatmak) YDS'de en çok sorulan akademik eşdizimlerdendir.",
-    "explanation": "'challenge' meydan okumak, sorgulamak anlamına gelir. Gelişmeler eski varsayımları doğrulamaktan ziyade onları sarsmaktadır / meydan okumaktadır.",
-    "wordAnalysis": {
-      "assumption": "varsayım",
-      "challenge": "meydan okumak, sorgulatmak",
-      "predation": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "verb",
-      "marine biology"
-    ]
-  },
-  {
-    "id": "practice-331",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 331,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Astrophysics have ------ our understanding of black hole thermodynamics, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "singularity": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "astrophysics"
-    ]
-  },
-  {
-    "id": "practice-332",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 332,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on photosynthetic adaptations in arid climates ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "botany"
-    ]
-  },
-  {
-    "id": "practice-333",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 333,
     "category": "Cümle Tamamlama",
     "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on the evolution of proto-Indo-European languages yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial phonology outcomes",
-      "B": "the methodology was widely adopted by Linguistics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-334",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 334,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Economics initiative is to mitigate the adverse effects of macroeconomic inflation targeting on local communities.",
-    "options": {
-      "A": "Yeni Economics girişiminin temel amacı, macroeconomic inflation targeting konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Economics alanındaki yenilikler yerel halkı macroeconomic inflation targeting etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar macroeconomic inflation targeting nedeniyle Economics girişiminden olumsuz etkilenmektedir.",
-      "D": "macroeconomic inflation targeting etkilerini azaltmak için Economics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Economics ve macroeconomic inflation targeting arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-335",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 335,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on immunotherapy in oncology in the Medicine journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-336",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 336,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Sociology, analyzing urbanization and social stratification requires highly sophisticated equipment. ------. Without this precision, distinguishing between mobility and demographics would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-337",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 337,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Psychology is a rapidly evolving discipline. (II) Recent studies focusing on cognitive biases in decision making have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand confirmation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-338",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 338,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Geology have ------ our understanding of tectonic plate boundaries, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "subduction": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "geology"
-    ]
-  },
-  {
-    "id": "practice-339",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 339,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on the industrial revolution's impact on agriculture ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "history"
-    ]
-  },
-  {
-    "id": "practice-340",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 340,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on keystone species in marine ecosystems yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial trophic outcomes",
-      "B": "the methodology was widely adopted by Ecology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-341",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 341,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Astrophysics initiative is to mitigate the adverse effects of black hole thermodynamics on local communities.",
-    "options": {
-      "A": "Yeni Astrophysics girişiminin temel amacı, black hole thermodynamics konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Astrophysics alanındaki yenilikler yerel halkı black hole thermodynamics etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar black hole thermodynamics nedeniyle Astrophysics girişiminden olumsuz etkilenmektedir.",
-      "D": "black hole thermodynamics etkilerini azaltmak için Astrophysics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Astrophysics ve black hole thermodynamics arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-342",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 342,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on photosynthetic adaptations in arid climates in the Botany journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-343",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 343,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Linguistics, analyzing the evolution of proto-Indo-European languages requires highly sophisticated equipment. ------. Without this precision, distinguishing between syntax and phonology would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-344",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 344,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Economics is a rapidly evolving discipline. (II) Recent studies focusing on macroeconomic inflation targeting have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand interest rates mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-345",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 345,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Medicine have ------ our understanding of immunotherapy in oncology, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "antibodies": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "medicine"
-    ]
-  },
-  {
-    "id": "practice-346",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 346,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on urbanization and social stratification ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "sociology"
-    ]
-  },
-  {
-    "id": "practice-347",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 347,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on cognitive biases in decision making yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial dissonance outcomes",
-      "B": "the methodology was widely adopted by Psychology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-348",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 348,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Geology initiative is to mitigate the adverse effects of tectonic plate boundaries on local communities.",
-    "options": {
-      "A": "Yeni Geology girişiminin temel amacı, tectonic plate boundaries konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Geology alanındaki yenilikler yerel halkı tectonic plate boundaries etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar tectonic plate boundaries nedeniyle Geology girişiminden olumsuz etkilenmektedir.",
-      "D": "tectonic plate boundaries etkilerini azaltmak için Geology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Geology ve tectonic plate boundaries arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-349",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 349,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on the industrial revolution's impact on agriculture in the History journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-350",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 350,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Ecology, analyzing keystone species in marine ecosystems requires highly sophisticated equipment. ------. Without this precision, distinguishing between biodiversity and trophic would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-351",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 351,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Astrophysics is a rapidly evolving discipline. (II) Recent studies focusing on black hole thermodynamics have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand hawking radiation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-352",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 352,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Botany have ------ our understanding of photosynthetic adaptations in arid climates, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "stomata": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "botany"
-    ]
-  },
-  {
-    "id": "practice-353",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 353,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on the evolution of proto-Indo-European languages ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "linguistics"
-    ]
-  },
-  {
-    "id": "practice-354",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 354,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on macroeconomic inflation targeting yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial monetary policy outcomes",
-      "B": "the methodology was widely adopted by Economics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-355",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 355,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Medicine initiative is to mitigate the adverse effects of immunotherapy in oncology on local communities.",
-    "options": {
-      "A": "Yeni Medicine girişiminin temel amacı, immunotherapy in oncology konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Medicine alanındaki yenilikler yerel halkı immunotherapy in oncology etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar immunotherapy in oncology nedeniyle Medicine girişiminden olumsuz etkilenmektedir.",
-      "D": "immunotherapy in oncology etkilerini azaltmak için Medicine projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Medicine ve immunotherapy in oncology arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-356",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 356,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on urbanization and social stratification in the Sociology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-357",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 357,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Psychology, analyzing cognitive biases in decision making requires highly sophisticated equipment. ------. Without this precision, distinguishing between heuristic and dissonance would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-358",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 358,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Geology is a rapidly evolving discipline. (II) Recent studies focusing on tectonic plate boundaries have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand seismic mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-359",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 359,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in History have ------ our understanding of the industrial revolution's impact on agriculture, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "mechanization": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "history"
-    ]
-  },
-  {
-    "id": "practice-360",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 360,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on keystone species in marine ecosystems ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "ecology"
-    ]
-  },
-  {
-    "id": "practice-361",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 361,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on black hole thermodynamics yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial event horizon outcomes",
-      "B": "the methodology was widely adopted by Astrophysics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-362",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 362,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Botany initiative is to mitigate the adverse effects of photosynthetic adaptations in arid climates on local communities.",
-    "options": {
-      "A": "Yeni Botany girişiminin temel amacı, photosynthetic adaptations in arid climates konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Botany alanındaki yenilikler yerel halkı photosynthetic adaptations in arid climates etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar photosynthetic adaptations in arid climates nedeniyle Botany girişiminden olumsuz etkilenmektedir.",
-      "D": "photosynthetic adaptations in arid climates etkilerini azaltmak için Botany projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Botany ve photosynthetic adaptations in arid climates arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-363",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 363,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on the evolution of proto-Indo-European languages in the Linguistics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-364",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 364,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Economics, analyzing macroeconomic inflation targeting requires highly sophisticated equipment. ------. Without this precision, distinguishing between fiat and monetary policy would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-365",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 365,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Medicine is a rapidly evolving discipline. (II) Recent studies focusing on immunotherapy in oncology have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand T-cells mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-366",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 366,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Sociology have ------ our understanding of urbanization and social stratification, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "mobility": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "sociology"
-    ]
-  },
-  {
-    "id": "practice-367",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 367,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on cognitive biases in decision making ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "psychology"
-    ]
-  },
-  {
-    "id": "practice-368",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 368,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on tectonic plate boundaries yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial lithosphere outcomes",
-      "B": "the methodology was widely adopted by Geology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-369",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 369,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new History initiative is to mitigate the adverse effects of the industrial revolution's impact on agriculture on local communities.",
-    "options": {
-      "A": "Yeni History girişiminin temel amacı, the industrial revolution's impact on agriculture konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "History alanındaki yenilikler yerel halkı the industrial revolution's impact on agriculture etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar the industrial revolution's impact on agriculture nedeniyle History girişiminden olumsuz etkilenmektedir.",
-      "D": "the industrial revolution's impact on agriculture etkilerini azaltmak için History projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı History ve the industrial revolution's impact on agriculture arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-370",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 370,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on keystone species in marine ecosystems in the Ecology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-371",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 371,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Astrophysics, analyzing black hole thermodynamics requires highly sophisticated equipment. ------. Without this precision, distinguishing between singularity and event horizon would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-372",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 372,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Botany is a rapidly evolving discipline. (II) Recent studies focusing on photosynthetic adaptations in arid climates have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand succulent mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-373",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 373,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Linguistics have ------ our understanding of the evolution of proto-Indo-European languages, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "syntax": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "linguistics"
-    ]
-  },
-  {
-    "id": "practice-374",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 374,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on macroeconomic inflation targeting ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "economics"
-    ]
-  },
-  {
-    "id": "practice-375",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 375,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on immunotherapy in oncology yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial malignant outcomes",
-      "B": "the methodology was widely adopted by Medicine experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-376",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 376,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Sociology initiative is to mitigate the adverse effects of urbanization and social stratification on local communities.",
-    "options": {
-      "A": "Yeni Sociology girişiminin temel amacı, urbanization and social stratification konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Sociology alanındaki yenilikler yerel halkı urbanization and social stratification etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar urbanization and social stratification nedeniyle Sociology girişiminden olumsuz etkilenmektedir.",
-      "D": "urbanization and social stratification etkilerini azaltmak için Sociology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Sociology ve urbanization and social stratification arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-377",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 377,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on cognitive biases in decision making in the Psychology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-378",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 378,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Geology, analyzing tectonic plate boundaries requires highly sophisticated equipment. ------. Without this precision, distinguishing between subduction and lithosphere would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-379",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 379,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) History is a rapidly evolving discipline. (II) Recent studies focusing on the industrial revolution's impact on agriculture have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand yield mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-380",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 380,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Ecology have ------ our understanding of keystone species in marine ecosystems, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "biodiversity": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "ecology"
-    ]
-  },
-  {
-    "id": "practice-381",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 381,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on black hole thermodynamics ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "astrophysics"
-    ]
-  },
-  {
-    "id": "practice-382",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 382,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on photosynthetic adaptations in arid climates yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial transpiration outcomes",
-      "B": "the methodology was widely adopted by Botany experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-383",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 383,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Linguistics initiative is to mitigate the adverse effects of the evolution of proto-Indo-European languages on local communities.",
-    "options": {
-      "A": "Yeni Linguistics girişiminin temel amacı, the evolution of proto-Indo-European languages konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Linguistics alanındaki yenilikler yerel halkı the evolution of proto-Indo-European languages etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar the evolution of proto-Indo-European languages nedeniyle Linguistics girişiminden olumsuz etkilenmektedir.",
-      "D": "the evolution of proto-Indo-European languages etkilerini azaltmak için Linguistics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Linguistics ve the evolution of proto-Indo-European languages arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-384",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 384,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on macroeconomic inflation targeting in the Economics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-385",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 385,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Medicine, analyzing immunotherapy in oncology requires highly sophisticated equipment. ------. Without this precision, distinguishing between antibodies and malignant would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-386",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 386,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Sociology is a rapidly evolving discipline. (II) Recent studies focusing on urbanization and social stratification have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand gentrification mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-387",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 387,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Psychology have ------ our understanding of cognitive biases in decision making, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "heuristic": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "psychology"
-    ]
-  },
-  {
-    "id": "practice-388",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 388,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on tectonic plate boundaries ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "geology"
-    ]
-  },
-  {
-    "id": "practice-389",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 389,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on the industrial revolution's impact on agriculture yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial agrarian outcomes",
-      "B": "the methodology was widely adopted by History experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-390",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 390,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Ecology initiative is to mitigate the adverse effects of keystone species in marine ecosystems on local communities.",
-    "options": {
-      "A": "Yeni Ecology girişiminin temel amacı, keystone species in marine ecosystems konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Ecology alanındaki yenilikler yerel halkı keystone species in marine ecosystems etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar keystone species in marine ecosystems nedeniyle Ecology girişiminden olumsuz etkilenmektedir.",
-      "D": "keystone species in marine ecosystems etkilerini azaltmak için Ecology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Ecology ve keystone species in marine ecosystems arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-391",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 391,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on black hole thermodynamics in the Astrophysics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-392",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 392,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Botany, analyzing photosynthetic adaptations in arid climates requires highly sophisticated equipment. ------. Without this precision, distinguishing between stomata and transpiration would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-393",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 393,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Linguistics is a rapidly evolving discipline. (II) Recent studies focusing on the evolution of proto-Indo-European languages have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand cognate mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-394",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 394,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Economics have ------ our understanding of macroeconomic inflation targeting, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "fiat": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "economics"
-    ]
-  },
-  {
-    "id": "practice-395",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 395,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on immunotherapy in oncology ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "medicine"
-    ]
-  },
-  {
-    "id": "practice-396",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 396,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
     "passage": "",
     "questionText": "Even though early studies on urbanization and social stratification yielded promising results, ------.",
     "options": {
@@ -12590,7744 +5954,6 @@ const PRACTICE_YDS_QUESTIONS = [
     "correctAnswer": "A",
     "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
     "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-397",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 397,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Psychology initiative is to mitigate the adverse effects of cognitive biases in decision making on local communities.",
-    "options": {
-      "A": "Yeni Psychology girişiminin temel amacı, cognitive biases in decision making konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Psychology alanındaki yenilikler yerel halkı cognitive biases in decision making etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar cognitive biases in decision making nedeniyle Psychology girişiminden olumsuz etkilenmektedir.",
-      "D": "cognitive biases in decision making etkilerini azaltmak için Psychology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Psychology ve cognitive biases in decision making arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-398",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 398,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on tectonic plate boundaries in the Geology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-399",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 399,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of History, analyzing the industrial revolution's impact on agriculture requires highly sophisticated equipment. ------. Without this precision, distinguishing between mechanization and agrarian would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-400",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 400,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Ecology is a rapidly evolving discipline. (II) Recent studies focusing on keystone species in marine ecosystems have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand conservation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-401",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 401,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Astrophysics have ------ our understanding of black hole thermodynamics, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "singularity": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "astrophysics"
-    ]
-  },
-  {
-    "id": "practice-402",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 402,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on photosynthetic adaptations in arid climates ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "botany"
-    ]
-  },
-  {
-    "id": "practice-403",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 403,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on the evolution of proto-Indo-European languages yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial phonology outcomes",
-      "B": "the methodology was widely adopted by Linguistics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-404",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 404,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Economics initiative is to mitigate the adverse effects of macroeconomic inflation targeting on local communities.",
-    "options": {
-      "A": "Yeni Economics girişiminin temel amacı, macroeconomic inflation targeting konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Economics alanındaki yenilikler yerel halkı macroeconomic inflation targeting etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar macroeconomic inflation targeting nedeniyle Economics girişiminden olumsuz etkilenmektedir.",
-      "D": "macroeconomic inflation targeting etkilerini azaltmak için Economics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Economics ve macroeconomic inflation targeting arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-405",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 405,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on immunotherapy in oncology in the Medicine journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-406",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 406,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Sociology, analyzing urbanization and social stratification requires highly sophisticated equipment. ------. Without this precision, distinguishing between mobility and demographics would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-407",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 407,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Psychology is a rapidly evolving discipline. (II) Recent studies focusing on cognitive biases in decision making have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand confirmation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-408",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 408,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Geology have ------ our understanding of tectonic plate boundaries, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "subduction": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "geology"
-    ]
-  },
-  {
-    "id": "practice-409",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 409,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on the industrial revolution's impact on agriculture ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "history"
-    ]
-  },
-  {
-    "id": "practice-410",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 410,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on keystone species in marine ecosystems yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial trophic outcomes",
-      "B": "the methodology was widely adopted by Ecology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-411",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 411,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Astrophysics initiative is to mitigate the adverse effects of black hole thermodynamics on local communities.",
-    "options": {
-      "A": "Yeni Astrophysics girişiminin temel amacı, black hole thermodynamics konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Astrophysics alanındaki yenilikler yerel halkı black hole thermodynamics etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar black hole thermodynamics nedeniyle Astrophysics girişiminden olumsuz etkilenmektedir.",
-      "D": "black hole thermodynamics etkilerini azaltmak için Astrophysics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Astrophysics ve black hole thermodynamics arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-412",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 412,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on photosynthetic adaptations in arid climates in the Botany journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-413",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 413,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Linguistics, analyzing the evolution of proto-Indo-European languages requires highly sophisticated equipment. ------. Without this precision, distinguishing between syntax and phonology would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-414",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 414,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Economics is a rapidly evolving discipline. (II) Recent studies focusing on macroeconomic inflation targeting have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand interest rates mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-415",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 415,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Medicine have ------ our understanding of immunotherapy in oncology, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "antibodies": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "medicine"
-    ]
-  },
-  {
-    "id": "practice-416",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 416,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on urbanization and social stratification ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "sociology"
-    ]
-  },
-  {
-    "id": "practice-417",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 417,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on cognitive biases in decision making yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial dissonance outcomes",
-      "B": "the methodology was widely adopted by Psychology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-418",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 418,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Geology initiative is to mitigate the adverse effects of tectonic plate boundaries on local communities.",
-    "options": {
-      "A": "Yeni Geology girişiminin temel amacı, tectonic plate boundaries konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Geology alanındaki yenilikler yerel halkı tectonic plate boundaries etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar tectonic plate boundaries nedeniyle Geology girişiminden olumsuz etkilenmektedir.",
-      "D": "tectonic plate boundaries etkilerini azaltmak için Geology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Geology ve tectonic plate boundaries arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-419",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 419,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on the industrial revolution's impact on agriculture in the History journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-420",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 420,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Ecology, analyzing keystone species in marine ecosystems requires highly sophisticated equipment. ------. Without this precision, distinguishing between biodiversity and trophic would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-421",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 421,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Astrophysics is a rapidly evolving discipline. (II) Recent studies focusing on black hole thermodynamics have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand hawking radiation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-422",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 422,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Botany have ------ our understanding of photosynthetic adaptations in arid climates, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "stomata": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "botany"
-    ]
-  },
-  {
-    "id": "practice-423",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 423,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on the evolution of proto-Indo-European languages ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "linguistics"
-    ]
-  },
-  {
-    "id": "practice-424",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 424,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on macroeconomic inflation targeting yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial monetary policy outcomes",
-      "B": "the methodology was widely adopted by Economics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-425",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 425,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Medicine initiative is to mitigate the adverse effects of immunotherapy in oncology on local communities.",
-    "options": {
-      "A": "Yeni Medicine girişiminin temel amacı, immunotherapy in oncology konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Medicine alanındaki yenilikler yerel halkı immunotherapy in oncology etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar immunotherapy in oncology nedeniyle Medicine girişiminden olumsuz etkilenmektedir.",
-      "D": "immunotherapy in oncology etkilerini azaltmak için Medicine projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Medicine ve immunotherapy in oncology arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-426",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 426,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on urbanization and social stratification in the Sociology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-427",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 427,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Psychology, analyzing cognitive biases in decision making requires highly sophisticated equipment. ------. Without this precision, distinguishing between heuristic and dissonance would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-428",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 428,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Geology is a rapidly evolving discipline. (II) Recent studies focusing on tectonic plate boundaries have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand seismic mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-429",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 429,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in History have ------ our understanding of the industrial revolution's impact on agriculture, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "mechanization": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "history"
-    ]
-  },
-  {
-    "id": "practice-430",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 430,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on keystone species in marine ecosystems ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "ecology"
-    ]
-  },
-  {
-    "id": "practice-431",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 431,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on black hole thermodynamics yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial event horizon outcomes",
-      "B": "the methodology was widely adopted by Astrophysics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-432",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 432,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Botany initiative is to mitigate the adverse effects of photosynthetic adaptations in arid climates on local communities.",
-    "options": {
-      "A": "Yeni Botany girişiminin temel amacı, photosynthetic adaptations in arid climates konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Botany alanındaki yenilikler yerel halkı photosynthetic adaptations in arid climates etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar photosynthetic adaptations in arid climates nedeniyle Botany girişiminden olumsuz etkilenmektedir.",
-      "D": "photosynthetic adaptations in arid climates etkilerini azaltmak için Botany projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Botany ve photosynthetic adaptations in arid climates arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-433",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 433,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on the evolution of proto-Indo-European languages in the Linguistics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-434",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 434,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Economics, analyzing macroeconomic inflation targeting requires highly sophisticated equipment. ------. Without this precision, distinguishing between fiat and monetary policy would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-435",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 435,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Medicine is a rapidly evolving discipline. (II) Recent studies focusing on immunotherapy in oncology have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand T-cells mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-436",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 436,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Sociology have ------ our understanding of urbanization and social stratification, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "mobility": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "sociology"
-    ]
-  },
-  {
-    "id": "practice-437",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 437,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on cognitive biases in decision making ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "psychology"
-    ]
-  },
-  {
-    "id": "practice-438",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 438,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on tectonic plate boundaries yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial lithosphere outcomes",
-      "B": "the methodology was widely adopted by Geology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-439",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 439,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new History initiative is to mitigate the adverse effects of the industrial revolution's impact on agriculture on local communities.",
-    "options": {
-      "A": "Yeni History girişiminin temel amacı, the industrial revolution's impact on agriculture konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "History alanındaki yenilikler yerel halkı the industrial revolution's impact on agriculture etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar the industrial revolution's impact on agriculture nedeniyle History girişiminden olumsuz etkilenmektedir.",
-      "D": "the industrial revolution's impact on agriculture etkilerini azaltmak için History projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı History ve the industrial revolution's impact on agriculture arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-440",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 440,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on keystone species in marine ecosystems in the Ecology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-441",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 441,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Astrophysics, analyzing black hole thermodynamics requires highly sophisticated equipment. ------. Without this precision, distinguishing between singularity and event horizon would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-442",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 442,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Botany is a rapidly evolving discipline. (II) Recent studies focusing on photosynthetic adaptations in arid climates have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand succulent mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-443",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 443,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Linguistics have ------ our understanding of the evolution of proto-Indo-European languages, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "syntax": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "linguistics"
-    ]
-  },
-  {
-    "id": "practice-444",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 444,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on macroeconomic inflation targeting ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "economics"
-    ]
-  },
-  {
-    "id": "practice-445",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 445,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on immunotherapy in oncology yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial malignant outcomes",
-      "B": "the methodology was widely adopted by Medicine experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-446",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 446,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Sociology initiative is to mitigate the adverse effects of urbanization and social stratification on local communities.",
-    "options": {
-      "A": "Yeni Sociology girişiminin temel amacı, urbanization and social stratification konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Sociology alanındaki yenilikler yerel halkı urbanization and social stratification etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar urbanization and social stratification nedeniyle Sociology girişiminden olumsuz etkilenmektedir.",
-      "D": "urbanization and social stratification etkilerini azaltmak için Sociology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Sociology ve urbanization and social stratification arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-447",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 447,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on cognitive biases in decision making in the Psychology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-448",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 448,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Geology, analyzing tectonic plate boundaries requires highly sophisticated equipment. ------. Without this precision, distinguishing between subduction and lithosphere would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-449",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 449,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) History is a rapidly evolving discipline. (II) Recent studies focusing on the industrial revolution's impact on agriculture have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand yield mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-450",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 450,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Ecology have ------ our understanding of keystone species in marine ecosystems, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "biodiversity": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "ecology"
-    ]
-  },
-  {
-    "id": "practice-451",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 451,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on black hole thermodynamics ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "astrophysics"
-    ]
-  },
-  {
-    "id": "practice-452",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 452,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on photosynthetic adaptations in arid climates yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial transpiration outcomes",
-      "B": "the methodology was widely adopted by Botany experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-453",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 453,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Linguistics initiative is to mitigate the adverse effects of the evolution of proto-Indo-European languages on local communities.",
-    "options": {
-      "A": "Yeni Linguistics girişiminin temel amacı, the evolution of proto-Indo-European languages konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Linguistics alanındaki yenilikler yerel halkı the evolution of proto-Indo-European languages etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar the evolution of proto-Indo-European languages nedeniyle Linguistics girişiminden olumsuz etkilenmektedir.",
-      "D": "the evolution of proto-Indo-European languages etkilerini azaltmak için Linguistics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Linguistics ve the evolution of proto-Indo-European languages arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-454",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 454,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on macroeconomic inflation targeting in the Economics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-455",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 455,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Medicine, analyzing immunotherapy in oncology requires highly sophisticated equipment. ------. Without this precision, distinguishing between antibodies and malignant would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-456",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 456,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Sociology is a rapidly evolving discipline. (II) Recent studies focusing on urbanization and social stratification have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand gentrification mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-457",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 457,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Psychology have ------ our understanding of cognitive biases in decision making, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "heuristic": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "psychology"
-    ]
-  },
-  {
-    "id": "practice-458",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 458,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on tectonic plate boundaries ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "geology"
-    ]
-  },
-  {
-    "id": "practice-459",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 459,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on the industrial revolution's impact on agriculture yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial agrarian outcomes",
-      "B": "the methodology was widely adopted by History experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-460",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 460,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Ecology initiative is to mitigate the adverse effects of keystone species in marine ecosystems on local communities.",
-    "options": {
-      "A": "Yeni Ecology girişiminin temel amacı, keystone species in marine ecosystems konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Ecology alanındaki yenilikler yerel halkı keystone species in marine ecosystems etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar keystone species in marine ecosystems nedeniyle Ecology girişiminden olumsuz etkilenmektedir.",
-      "D": "keystone species in marine ecosystems etkilerini azaltmak için Ecology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Ecology ve keystone species in marine ecosystems arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-461",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 461,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on black hole thermodynamics in the Astrophysics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-462",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 462,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Botany, analyzing photosynthetic adaptations in arid climates requires highly sophisticated equipment. ------. Without this precision, distinguishing between stomata and transpiration would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-463",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 463,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Linguistics is a rapidly evolving discipline. (II) Recent studies focusing on the evolution of proto-Indo-European languages have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand cognate mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-464",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 464,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Economics have ------ our understanding of macroeconomic inflation targeting, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "fiat": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "economics"
-    ]
-  },
-  {
-    "id": "practice-465",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 465,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on immunotherapy in oncology ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "medicine"
-    ]
-  },
-  {
-    "id": "practice-466",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 466,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on urbanization and social stratification yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial demographics outcomes",
-      "B": "the methodology was widely adopted by Sociology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-467",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 467,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Psychology initiative is to mitigate the adverse effects of cognitive biases in decision making on local communities.",
-    "options": {
-      "A": "Yeni Psychology girişiminin temel amacı, cognitive biases in decision making konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Psychology alanındaki yenilikler yerel halkı cognitive biases in decision making etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar cognitive biases in decision making nedeniyle Psychology girişiminden olumsuz etkilenmektedir.",
-      "D": "cognitive biases in decision making etkilerini azaltmak için Psychology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Psychology ve cognitive biases in decision making arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-468",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 468,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on tectonic plate boundaries in the Geology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-469",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 469,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of History, analyzing the industrial revolution's impact on agriculture requires highly sophisticated equipment. ------. Without this precision, distinguishing between mechanization and agrarian would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-470",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 470,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Ecology is a rapidly evolving discipline. (II) Recent studies focusing on keystone species in marine ecosystems have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand conservation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-471",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 471,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Astrophysics have ------ our understanding of black hole thermodynamics, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "singularity": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "astrophysics"
-    ]
-  },
-  {
-    "id": "practice-472",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 472,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on photosynthetic adaptations in arid climates ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "botany"
-    ]
-  },
-  {
-    "id": "practice-473",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 473,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on the evolution of proto-Indo-European languages yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial phonology outcomes",
-      "B": "the methodology was widely adopted by Linguistics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-474",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 474,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Economics initiative is to mitigate the adverse effects of macroeconomic inflation targeting on local communities.",
-    "options": {
-      "A": "Yeni Economics girişiminin temel amacı, macroeconomic inflation targeting konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Economics alanındaki yenilikler yerel halkı macroeconomic inflation targeting etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar macroeconomic inflation targeting nedeniyle Economics girişiminden olumsuz etkilenmektedir.",
-      "D": "macroeconomic inflation targeting etkilerini azaltmak için Economics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Economics ve macroeconomic inflation targeting arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-475",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 475,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on immunotherapy in oncology in the Medicine journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-476",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 476,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Sociology, analyzing urbanization and social stratification requires highly sophisticated equipment. ------. Without this precision, distinguishing between mobility and demographics would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-477",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 477,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Psychology is a rapidly evolving discipline. (II) Recent studies focusing on cognitive biases in decision making have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand confirmation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-478",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 478,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Geology have ------ our understanding of tectonic plate boundaries, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "subduction": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "geology"
-    ]
-  },
-  {
-    "id": "practice-479",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 479,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on the industrial revolution's impact on agriculture ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "history"
-    ]
-  },
-  {
-    "id": "practice-480",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 480,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on keystone species in marine ecosystems yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial trophic outcomes",
-      "B": "the methodology was widely adopted by Ecology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-481",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 481,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Astrophysics initiative is to mitigate the adverse effects of black hole thermodynamics on local communities.",
-    "options": {
-      "A": "Yeni Astrophysics girişiminin temel amacı, black hole thermodynamics konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Astrophysics alanındaki yenilikler yerel halkı black hole thermodynamics etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar black hole thermodynamics nedeniyle Astrophysics girişiminden olumsuz etkilenmektedir.",
-      "D": "black hole thermodynamics etkilerini azaltmak için Astrophysics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Astrophysics ve black hole thermodynamics arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-482",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 482,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on photosynthetic adaptations in arid climates in the Botany journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-483",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 483,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Linguistics, analyzing the evolution of proto-Indo-European languages requires highly sophisticated equipment. ------. Without this precision, distinguishing between syntax and phonology would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-484",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 484,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Economics is a rapidly evolving discipline. (II) Recent studies focusing on macroeconomic inflation targeting have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand interest rates mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-485",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 485,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Medicine have ------ our understanding of immunotherapy in oncology, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "antibodies": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "medicine"
-    ]
-  },
-  {
-    "id": "practice-486",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 486,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on urbanization and social stratification ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "sociology"
-    ]
-  },
-  {
-    "id": "practice-487",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 487,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on cognitive biases in decision making yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial dissonance outcomes",
-      "B": "the methodology was widely adopted by Psychology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-488",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 488,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Geology initiative is to mitigate the adverse effects of tectonic plate boundaries on local communities.",
-    "options": {
-      "A": "Yeni Geology girişiminin temel amacı, tectonic plate boundaries konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Geology alanındaki yenilikler yerel halkı tectonic plate boundaries etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar tectonic plate boundaries nedeniyle Geology girişiminden olumsuz etkilenmektedir.",
-      "D": "tectonic plate boundaries etkilerini azaltmak için Geology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Geology ve tectonic plate boundaries arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-489",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 489,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on the industrial revolution's impact on agriculture in the History journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-490",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 490,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Ecology, analyzing keystone species in marine ecosystems requires highly sophisticated equipment. ------. Without this precision, distinguishing between biodiversity and trophic would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-491",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 491,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Astrophysics is a rapidly evolving discipline. (II) Recent studies focusing on black hole thermodynamics have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand hawking radiation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-492",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 492,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Botany have ------ our understanding of photosynthetic adaptations in arid climates, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "stomata": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "botany"
-    ]
-  },
-  {
-    "id": "practice-493",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 493,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on the evolution of proto-Indo-European languages ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "linguistics"
-    ]
-  },
-  {
-    "id": "practice-494",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 494,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on macroeconomic inflation targeting yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial monetary policy outcomes",
-      "B": "the methodology was widely adopted by Economics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-495",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 495,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Medicine initiative is to mitigate the adverse effects of immunotherapy in oncology on local communities.",
-    "options": {
-      "A": "Yeni Medicine girişiminin temel amacı, immunotherapy in oncology konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Medicine alanındaki yenilikler yerel halkı immunotherapy in oncology etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar immunotherapy in oncology nedeniyle Medicine girişiminden olumsuz etkilenmektedir.",
-      "D": "immunotherapy in oncology etkilerini azaltmak için Medicine projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Medicine ve immunotherapy in oncology arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-496",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 496,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on urbanization and social stratification in the Sociology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-497",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 497,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Psychology, analyzing cognitive biases in decision making requires highly sophisticated equipment. ------. Without this precision, distinguishing between heuristic and dissonance would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-498",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 498,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Geology is a rapidly evolving discipline. (II) Recent studies focusing on tectonic plate boundaries have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand seismic mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-499",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 499,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in History have ------ our understanding of the industrial revolution's impact on agriculture, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "mechanization": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "history"
-    ]
-  },
-  {
-    "id": "practice-500",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 500,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on keystone species in marine ecosystems ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "ecology"
-    ]
-  },
-  {
-    "id": "practice-501",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 501,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on black hole thermodynamics yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial event horizon outcomes",
-      "B": "the methodology was widely adopted by Astrophysics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-502",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 502,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Botany initiative is to mitigate the adverse effects of photosynthetic adaptations in arid climates on local communities.",
-    "options": {
-      "A": "Yeni Botany girişiminin temel amacı, photosynthetic adaptations in arid climates konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Botany alanındaki yenilikler yerel halkı photosynthetic adaptations in arid climates etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar photosynthetic adaptations in arid climates nedeniyle Botany girişiminden olumsuz etkilenmektedir.",
-      "D": "photosynthetic adaptations in arid climates etkilerini azaltmak için Botany projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Botany ve photosynthetic adaptations in arid climates arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-503",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 503,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on the evolution of proto-Indo-European languages in the Linguistics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-504",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 504,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Economics, analyzing macroeconomic inflation targeting requires highly sophisticated equipment. ------. Without this precision, distinguishing between fiat and monetary policy would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-505",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 505,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Medicine is a rapidly evolving discipline. (II) Recent studies focusing on immunotherapy in oncology have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand T-cells mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-506",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 506,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Sociology have ------ our understanding of urbanization and social stratification, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "mobility": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "sociology"
-    ]
-  },
-  {
-    "id": "practice-507",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 507,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on cognitive biases in decision making ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "psychology"
-    ]
-  },
-  {
-    "id": "practice-508",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 508,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on tectonic plate boundaries yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial lithosphere outcomes",
-      "B": "the methodology was widely adopted by Geology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-509",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 509,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new History initiative is to mitigate the adverse effects of the industrial revolution's impact on agriculture on local communities.",
-    "options": {
-      "A": "Yeni History girişiminin temel amacı, the industrial revolution's impact on agriculture konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "History alanındaki yenilikler yerel halkı the industrial revolution's impact on agriculture etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar the industrial revolution's impact on agriculture nedeniyle History girişiminden olumsuz etkilenmektedir.",
-      "D": "the industrial revolution's impact on agriculture etkilerini azaltmak için History projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı History ve the industrial revolution's impact on agriculture arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-510",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 510,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on keystone species in marine ecosystems in the Ecology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-511",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 511,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Astrophysics, analyzing black hole thermodynamics requires highly sophisticated equipment. ------. Without this precision, distinguishing between singularity and event horizon would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-512",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 512,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Botany is a rapidly evolving discipline. (II) Recent studies focusing on photosynthetic adaptations in arid climates have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand succulent mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-513",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 513,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Linguistics have ------ our understanding of the evolution of proto-Indo-European languages, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "syntax": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "linguistics"
-    ]
-  },
-  {
-    "id": "practice-514",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 514,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on macroeconomic inflation targeting ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "economics"
-    ]
-  },
-  {
-    "id": "practice-515",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 515,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on immunotherapy in oncology yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial malignant outcomes",
-      "B": "the methodology was widely adopted by Medicine experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-516",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 516,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Sociology initiative is to mitigate the adverse effects of urbanization and social stratification on local communities.",
-    "options": {
-      "A": "Yeni Sociology girişiminin temel amacı, urbanization and social stratification konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Sociology alanındaki yenilikler yerel halkı urbanization and social stratification etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar urbanization and social stratification nedeniyle Sociology girişiminden olumsuz etkilenmektedir.",
-      "D": "urbanization and social stratification etkilerini azaltmak için Sociology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Sociology ve urbanization and social stratification arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-517",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 517,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on cognitive biases in decision making in the Psychology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-518",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 518,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Geology, analyzing tectonic plate boundaries requires highly sophisticated equipment. ------. Without this precision, distinguishing between subduction and lithosphere would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-519",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 519,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) History is a rapidly evolving discipline. (II) Recent studies focusing on the industrial revolution's impact on agriculture have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand yield mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-520",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 520,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Ecology have ------ our understanding of keystone species in marine ecosystems, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "biodiversity": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "ecology"
-    ]
-  },
-  {
-    "id": "practice-521",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 521,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on black hole thermodynamics ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "astrophysics"
-    ]
-  },
-  {
-    "id": "practice-522",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 522,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on photosynthetic adaptations in arid climates yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial transpiration outcomes",
-      "B": "the methodology was widely adopted by Botany experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-523",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 523,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Linguistics initiative is to mitigate the adverse effects of the evolution of proto-Indo-European languages on local communities.",
-    "options": {
-      "A": "Yeni Linguistics girişiminin temel amacı, the evolution of proto-Indo-European languages konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Linguistics alanındaki yenilikler yerel halkı the evolution of proto-Indo-European languages etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar the evolution of proto-Indo-European languages nedeniyle Linguistics girişiminden olumsuz etkilenmektedir.",
-      "D": "the evolution of proto-Indo-European languages etkilerini azaltmak için Linguistics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Linguistics ve the evolution of proto-Indo-European languages arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-524",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 524,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on macroeconomic inflation targeting in the Economics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-525",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 525,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Medicine, analyzing immunotherapy in oncology requires highly sophisticated equipment. ------. Without this precision, distinguishing between antibodies and malignant would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-526",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 526,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Sociology is a rapidly evolving discipline. (II) Recent studies focusing on urbanization and social stratification have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand gentrification mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-527",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 527,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Psychology have ------ our understanding of cognitive biases in decision making, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "heuristic": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "psychology"
-    ]
-  },
-  {
-    "id": "practice-528",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 528,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on tectonic plate boundaries ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "geology"
-    ]
-  },
-  {
-    "id": "practice-529",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 529,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on the industrial revolution's impact on agriculture yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial agrarian outcomes",
-      "B": "the methodology was widely adopted by History experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-530",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 530,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Ecology initiative is to mitigate the adverse effects of keystone species in marine ecosystems on local communities.",
-    "options": {
-      "A": "Yeni Ecology girişiminin temel amacı, keystone species in marine ecosystems konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Ecology alanındaki yenilikler yerel halkı keystone species in marine ecosystems etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar keystone species in marine ecosystems nedeniyle Ecology girişiminden olumsuz etkilenmektedir.",
-      "D": "keystone species in marine ecosystems etkilerini azaltmak için Ecology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Ecology ve keystone species in marine ecosystems arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-531",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 531,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on black hole thermodynamics in the Astrophysics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-532",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 532,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Botany, analyzing photosynthetic adaptations in arid climates requires highly sophisticated equipment. ------. Without this precision, distinguishing between stomata and transpiration would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-533",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 533,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Linguistics is a rapidly evolving discipline. (II) Recent studies focusing on the evolution of proto-Indo-European languages have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand cognate mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-534",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 534,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Economics have ------ our understanding of macroeconomic inflation targeting, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "fiat": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "economics"
-    ]
-  },
-  {
-    "id": "practice-535",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 535,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on immunotherapy in oncology ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "medicine"
-    ]
-  },
-  {
-    "id": "practice-536",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 536,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on urbanization and social stratification yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial demographics outcomes",
-      "B": "the methodology was widely adopted by Sociology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-537",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 537,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Psychology initiative is to mitigate the adverse effects of cognitive biases in decision making on local communities.",
-    "options": {
-      "A": "Yeni Psychology girişiminin temel amacı, cognitive biases in decision making konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Psychology alanındaki yenilikler yerel halkı cognitive biases in decision making etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar cognitive biases in decision making nedeniyle Psychology girişiminden olumsuz etkilenmektedir.",
-      "D": "cognitive biases in decision making etkilerini azaltmak için Psychology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Psychology ve cognitive biases in decision making arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-538",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 538,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on tectonic plate boundaries in the Geology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-539",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 539,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of History, analyzing the industrial revolution's impact on agriculture requires highly sophisticated equipment. ------. Without this precision, distinguishing between mechanization and agrarian would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-540",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 540,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Ecology is a rapidly evolving discipline. (II) Recent studies focusing on keystone species in marine ecosystems have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand conservation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-541",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 541,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Astrophysics have ------ our understanding of black hole thermodynamics, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "singularity": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "astrophysics"
-    ]
-  },
-  {
-    "id": "practice-542",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 542,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on photosynthetic adaptations in arid climates ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "botany"
-    ]
-  },
-  {
-    "id": "practice-543",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 543,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on the evolution of proto-Indo-European languages yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial phonology outcomes",
-      "B": "the methodology was widely adopted by Linguistics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-544",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 544,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Economics initiative is to mitigate the adverse effects of macroeconomic inflation targeting on local communities.",
-    "options": {
-      "A": "Yeni Economics girişiminin temel amacı, macroeconomic inflation targeting konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Economics alanındaki yenilikler yerel halkı macroeconomic inflation targeting etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar macroeconomic inflation targeting nedeniyle Economics girişiminden olumsuz etkilenmektedir.",
-      "D": "macroeconomic inflation targeting etkilerini azaltmak için Economics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Economics ve macroeconomic inflation targeting arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-545",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 545,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on immunotherapy in oncology in the Medicine journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-546",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 546,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Sociology, analyzing urbanization and social stratification requires highly sophisticated equipment. ------. Without this precision, distinguishing between mobility and demographics would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-547",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 547,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Psychology is a rapidly evolving discipline. (II) Recent studies focusing on cognitive biases in decision making have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand confirmation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-548",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 548,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Geology have ------ our understanding of tectonic plate boundaries, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "subduction": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "geology"
-    ]
-  },
-  {
-    "id": "practice-549",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 549,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on the industrial revolution's impact on agriculture ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "history"
-    ]
-  },
-  {
-    "id": "practice-550",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 550,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on keystone species in marine ecosystems yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial trophic outcomes",
-      "B": "the methodology was widely adopted by Ecology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-551",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 551,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Astrophysics initiative is to mitigate the adverse effects of black hole thermodynamics on local communities.",
-    "options": {
-      "A": "Yeni Astrophysics girişiminin temel amacı, black hole thermodynamics konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Astrophysics alanındaki yenilikler yerel halkı black hole thermodynamics etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar black hole thermodynamics nedeniyle Astrophysics girişiminden olumsuz etkilenmektedir.",
-      "D": "black hole thermodynamics etkilerini azaltmak için Astrophysics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Astrophysics ve black hole thermodynamics arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-552",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 552,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on photosynthetic adaptations in arid climates in the Botany journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-553",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 553,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Linguistics, analyzing the evolution of proto-Indo-European languages requires highly sophisticated equipment. ------. Without this precision, distinguishing between syntax and phonology would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-554",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 554,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Economics is a rapidly evolving discipline. (II) Recent studies focusing on macroeconomic inflation targeting have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand interest rates mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-555",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 555,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Medicine have ------ our understanding of immunotherapy in oncology, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "antibodies": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "medicine"
-    ]
-  },
-  {
-    "id": "practice-556",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 556,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on urbanization and social stratification ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "sociology"
-    ]
-  },
-  {
-    "id": "practice-557",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 557,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on cognitive biases in decision making yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial dissonance outcomes",
-      "B": "the methodology was widely adopted by Psychology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-558",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 558,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Geology initiative is to mitigate the adverse effects of tectonic plate boundaries on local communities.",
-    "options": {
-      "A": "Yeni Geology girişiminin temel amacı, tectonic plate boundaries konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Geology alanındaki yenilikler yerel halkı tectonic plate boundaries etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar tectonic plate boundaries nedeniyle Geology girişiminden olumsuz etkilenmektedir.",
-      "D": "tectonic plate boundaries etkilerini azaltmak için Geology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Geology ve tectonic plate boundaries arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-559",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 559,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on the industrial revolution's impact on agriculture in the History journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-560",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 560,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Ecology, analyzing keystone species in marine ecosystems requires highly sophisticated equipment. ------. Without this precision, distinguishing between biodiversity and trophic would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-561",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 561,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Astrophysics is a rapidly evolving discipline. (II) Recent studies focusing on black hole thermodynamics have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand hawking radiation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-562",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 562,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Botany have ------ our understanding of photosynthetic adaptations in arid climates, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "stomata": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "botany"
-    ]
-  },
-  {
-    "id": "practice-563",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 563,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on the evolution of proto-Indo-European languages ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "linguistics"
-    ]
-  },
-  {
-    "id": "practice-564",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 564,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on macroeconomic inflation targeting yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial monetary policy outcomes",
-      "B": "the methodology was widely adopted by Economics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-565",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 565,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Medicine initiative is to mitigate the adverse effects of immunotherapy in oncology on local communities.",
-    "options": {
-      "A": "Yeni Medicine girişiminin temel amacı, immunotherapy in oncology konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Medicine alanındaki yenilikler yerel halkı immunotherapy in oncology etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar immunotherapy in oncology nedeniyle Medicine girişiminden olumsuz etkilenmektedir.",
-      "D": "immunotherapy in oncology etkilerini azaltmak için Medicine projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Medicine ve immunotherapy in oncology arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-566",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 566,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on urbanization and social stratification in the Sociology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-567",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 567,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Psychology, analyzing cognitive biases in decision making requires highly sophisticated equipment. ------. Without this precision, distinguishing between heuristic and dissonance would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-568",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 568,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Geology is a rapidly evolving discipline. (II) Recent studies focusing on tectonic plate boundaries have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand seismic mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-569",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 569,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in History have ------ our understanding of the industrial revolution's impact on agriculture, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "mechanization": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "history"
-    ]
-  },
-  {
-    "id": "practice-570",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 570,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on keystone species in marine ecosystems ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "ecology"
-    ]
-  },
-  {
-    "id": "practice-571",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 571,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on black hole thermodynamics yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial event horizon outcomes",
-      "B": "the methodology was widely adopted by Astrophysics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-572",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 572,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Botany initiative is to mitigate the adverse effects of photosynthetic adaptations in arid climates on local communities.",
-    "options": {
-      "A": "Yeni Botany girişiminin temel amacı, photosynthetic adaptations in arid climates konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Botany alanındaki yenilikler yerel halkı photosynthetic adaptations in arid climates etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar photosynthetic adaptations in arid climates nedeniyle Botany girişiminden olumsuz etkilenmektedir.",
-      "D": "photosynthetic adaptations in arid climates etkilerini azaltmak için Botany projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Botany ve photosynthetic adaptations in arid climates arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-573",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 573,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on the evolution of proto-Indo-European languages in the Linguistics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-574",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 574,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Economics, analyzing macroeconomic inflation targeting requires highly sophisticated equipment. ------. Without this precision, distinguishing between fiat and monetary policy would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-575",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 575,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Medicine is a rapidly evolving discipline. (II) Recent studies focusing on immunotherapy in oncology have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand T-cells mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-576",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 576,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Sociology have ------ our understanding of urbanization and social stratification, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "mobility": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "sociology"
-    ]
-  },
-  {
-    "id": "practice-577",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 577,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on cognitive biases in decision making ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "psychology"
-    ]
-  },
-  {
-    "id": "practice-578",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 578,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on tectonic plate boundaries yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial lithosphere outcomes",
-      "B": "the methodology was widely adopted by Geology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-579",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 579,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new History initiative is to mitigate the adverse effects of the industrial revolution's impact on agriculture on local communities.",
-    "options": {
-      "A": "Yeni History girişiminin temel amacı, the industrial revolution's impact on agriculture konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "History alanındaki yenilikler yerel halkı the industrial revolution's impact on agriculture etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar the industrial revolution's impact on agriculture nedeniyle History girişiminden olumsuz etkilenmektedir.",
-      "D": "the industrial revolution's impact on agriculture etkilerini azaltmak için History projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı History ve the industrial revolution's impact on agriculture arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-580",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 580,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on keystone species in marine ecosystems in the Ecology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-581",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 581,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Astrophysics, analyzing black hole thermodynamics requires highly sophisticated equipment. ------. Without this precision, distinguishing between singularity and event horizon would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-582",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 582,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Botany is a rapidly evolving discipline. (II) Recent studies focusing on photosynthetic adaptations in arid climates have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand succulent mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-583",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 583,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Linguistics have ------ our understanding of the evolution of proto-Indo-European languages, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "syntax": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "linguistics"
-    ]
-  },
-  {
-    "id": "practice-584",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 584,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on macroeconomic inflation targeting ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "economics"
-    ]
-  },
-  {
-    "id": "practice-585",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 585,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on immunotherapy in oncology yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial malignant outcomes",
-      "B": "the methodology was widely adopted by Medicine experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-586",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 586,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Sociology initiative is to mitigate the adverse effects of urbanization and social stratification on local communities.",
-    "options": {
-      "A": "Yeni Sociology girişiminin temel amacı, urbanization and social stratification konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Sociology alanındaki yenilikler yerel halkı urbanization and social stratification etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar urbanization and social stratification nedeniyle Sociology girişiminden olumsuz etkilenmektedir.",
-      "D": "urbanization and social stratification etkilerini azaltmak için Sociology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Sociology ve urbanization and social stratification arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-587",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 587,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on cognitive biases in decision making in the Psychology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-588",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 588,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Geology, analyzing tectonic plate boundaries requires highly sophisticated equipment. ------. Without this precision, distinguishing between subduction and lithosphere would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-589",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 589,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) History is a rapidly evolving discipline. (II) Recent studies focusing on the industrial revolution's impact on agriculture have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand yield mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-590",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 590,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Ecology have ------ our understanding of keystone species in marine ecosystems, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "biodiversity": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "ecology"
-    ]
-  },
-  {
-    "id": "practice-591",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 591,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on black hole thermodynamics ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "astrophysics"
-    ]
-  },
-  {
-    "id": "practice-592",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 592,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on photosynthetic adaptations in arid climates yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial transpiration outcomes",
-      "B": "the methodology was widely adopted by Botany experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-593",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 593,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Linguistics initiative is to mitigate the adverse effects of the evolution of proto-Indo-European languages on local communities.",
-    "options": {
-      "A": "Yeni Linguistics girişiminin temel amacı, the evolution of proto-Indo-European languages konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Linguistics alanındaki yenilikler yerel halkı the evolution of proto-Indo-European languages etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar the evolution of proto-Indo-European languages nedeniyle Linguistics girişiminden olumsuz etkilenmektedir.",
-      "D": "the evolution of proto-Indo-European languages etkilerini azaltmak için Linguistics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Linguistics ve the evolution of proto-Indo-European languages arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-594",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 594,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on macroeconomic inflation targeting in the Economics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-595",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 595,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Medicine, analyzing immunotherapy in oncology requires highly sophisticated equipment. ------. Without this precision, distinguishing between antibodies and malignant would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-596",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 596,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Sociology is a rapidly evolving discipline. (II) Recent studies focusing on urbanization and social stratification have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand gentrification mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-597",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 597,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Psychology have ------ our understanding of cognitive biases in decision making, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "heuristic": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "psychology"
-    ]
-  },
-  {
-    "id": "practice-598",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 598,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on tectonic plate boundaries ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "geology"
-    ]
-  },
-  {
-    "id": "practice-599",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 599,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on the industrial revolution's impact on agriculture yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial agrarian outcomes",
-      "B": "the methodology was widely adopted by History experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-600",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 600,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Ecology initiative is to mitigate the adverse effects of keystone species in marine ecosystems on local communities.",
-    "options": {
-      "A": "Yeni Ecology girişiminin temel amacı, keystone species in marine ecosystems konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Ecology alanındaki yenilikler yerel halkı keystone species in marine ecosystems etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar keystone species in marine ecosystems nedeniyle Ecology girişiminden olumsuz etkilenmektedir.",
-      "D": "keystone species in marine ecosystems etkilerini azaltmak için Ecology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Ecology ve keystone species in marine ecosystems arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-601",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 601,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on black hole thermodynamics in the Astrophysics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-602",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 602,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Botany, analyzing photosynthetic adaptations in arid climates requires highly sophisticated equipment. ------. Without this precision, distinguishing between stomata and transpiration would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-603",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 603,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Linguistics is a rapidly evolving discipline. (II) Recent studies focusing on the evolution of proto-Indo-European languages have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand cognate mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-604",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 604,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Economics have ------ our understanding of macroeconomic inflation targeting, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "fiat": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "economics"
-    ]
-  },
-  {
-    "id": "practice-605",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 605,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on immunotherapy in oncology ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "medicine"
-    ]
-  },
-  {
-    "id": "practice-606",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 606,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on urbanization and social stratification yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial demographics outcomes",
-      "B": "the methodology was widely adopted by Sociology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-607",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 607,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Psychology initiative is to mitigate the adverse effects of cognitive biases in decision making on local communities.",
-    "options": {
-      "A": "Yeni Psychology girişiminin temel amacı, cognitive biases in decision making konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Psychology alanındaki yenilikler yerel halkı cognitive biases in decision making etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar cognitive biases in decision making nedeniyle Psychology girişiminden olumsuz etkilenmektedir.",
-      "D": "cognitive biases in decision making etkilerini azaltmak için Psychology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Psychology ve cognitive biases in decision making arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-608",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 608,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on tectonic plate boundaries in the Geology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-609",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 609,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of History, analyzing the industrial revolution's impact on agriculture requires highly sophisticated equipment. ------. Without this precision, distinguishing between mechanization and agrarian would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-610",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 610,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Ecology is a rapidly evolving discipline. (II) Recent studies focusing on keystone species in marine ecosystems have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand conservation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-611",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 611,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Astrophysics have ------ our understanding of black hole thermodynamics, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "singularity": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "astrophysics"
-    ]
-  },
-  {
-    "id": "practice-612",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 612,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on photosynthetic adaptations in arid climates ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "botany"
-    ]
-  },
-  {
-    "id": "practice-613",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 613,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on the evolution of proto-Indo-European languages yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial phonology outcomes",
-      "B": "the methodology was widely adopted by Linguistics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-614",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 614,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Economics initiative is to mitigate the adverse effects of macroeconomic inflation targeting on local communities.",
-    "options": {
-      "A": "Yeni Economics girişiminin temel amacı, macroeconomic inflation targeting konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Economics alanındaki yenilikler yerel halkı macroeconomic inflation targeting etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar macroeconomic inflation targeting nedeniyle Economics girişiminden olumsuz etkilenmektedir.",
-      "D": "macroeconomic inflation targeting etkilerini azaltmak için Economics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Economics ve macroeconomic inflation targeting arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-615",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 615,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on immunotherapy in oncology in the Medicine journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-616",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 616,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Sociology, analyzing urbanization and social stratification requires highly sophisticated equipment. ------. Without this precision, distinguishing between mobility and demographics would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-617",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 617,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Psychology is a rapidly evolving discipline. (II) Recent studies focusing on cognitive biases in decision making have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand confirmation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-618",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 618,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Geology have ------ our understanding of tectonic plate boundaries, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "subduction": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "geology"
-    ]
-  },
-  {
-    "id": "practice-619",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 619,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on the industrial revolution's impact on agriculture ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "history"
-    ]
-  },
-  {
-    "id": "practice-620",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 620,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on keystone species in marine ecosystems yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial trophic outcomes",
-      "B": "the methodology was widely adopted by Ecology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-621",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 621,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Astrophysics initiative is to mitigate the adverse effects of black hole thermodynamics on local communities.",
-    "options": {
-      "A": "Yeni Astrophysics girişiminin temel amacı, black hole thermodynamics konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Astrophysics alanındaki yenilikler yerel halkı black hole thermodynamics etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar black hole thermodynamics nedeniyle Astrophysics girişiminden olumsuz etkilenmektedir.",
-      "D": "black hole thermodynamics etkilerini azaltmak için Astrophysics projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Astrophysics ve black hole thermodynamics arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-622",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 622,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on photosynthetic adaptations in arid climates in the Botany journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-623",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 623,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Linguistics, analyzing the evolution of proto-Indo-European languages requires highly sophisticated equipment. ------. Without this precision, distinguishing between syntax and phonology would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-624",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 624,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Economics is a rapidly evolving discipline. (II) Recent studies focusing on macroeconomic inflation targeting have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand interest rates mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-625",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 625,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Medicine have ------ our understanding of immunotherapy in oncology, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "antibodies": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "medicine"
-    ]
-  },
-  {
-    "id": "practice-626",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 626,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on urbanization and social stratification ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "sociology"
-    ]
-  },
-  {
-    "id": "practice-627",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 627,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on cognitive biases in decision making yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial dissonance outcomes",
-      "B": "the methodology was widely adopted by Psychology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-628",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 628,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Geology initiative is to mitigate the adverse effects of tectonic plate boundaries on local communities.",
-    "options": {
-      "A": "Yeni Geology girişiminin temel amacı, tectonic plate boundaries konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Geology alanındaki yenilikler yerel halkı tectonic plate boundaries etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar tectonic plate boundaries nedeniyle Geology girişiminden olumsuz etkilenmektedir.",
-      "D": "tectonic plate boundaries etkilerini azaltmak için Geology projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Geology ve tectonic plate boundaries arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-629",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 629,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on the industrial revolution's impact on agriculture in the History journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-630",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 630,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Ecology, analyzing keystone species in marine ecosystems requires highly sophisticated equipment. ------. Without this precision, distinguishing between biodiversity and trophic would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-631",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 631,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Astrophysics is a rapidly evolving discipline. (II) Recent studies focusing on black hole thermodynamics have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand hawking radiation mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-632",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 632,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Botany have ------ our understanding of photosynthetic adaptations in arid climates, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "stomata": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "botany"
-    ]
-  },
-  {
-    "id": "practice-633",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 633,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on the evolution of proto-Indo-European languages ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "linguistics"
-    ]
-  },
-  {
-    "id": "practice-634",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 634,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on macroeconomic inflation targeting yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial monetary policy outcomes",
-      "B": "the methodology was widely adopted by Economics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-635",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 635,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Medicine initiative is to mitigate the adverse effects of immunotherapy in oncology on local communities.",
-    "options": {
-      "A": "Yeni Medicine girişiminin temel amacı, immunotherapy in oncology konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Medicine alanındaki yenilikler yerel halkı immunotherapy in oncology etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar immunotherapy in oncology nedeniyle Medicine girişiminden olumsuz etkilenmektedir.",
-      "D": "immunotherapy in oncology etkilerini azaltmak için Medicine projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Medicine ve immunotherapy in oncology arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-636",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 636,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on urbanization and social stratification in the Sociology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-637",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 637,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Psychology, analyzing cognitive biases in decision making requires highly sophisticated equipment. ------. Without this precision, distinguishing between heuristic and dissonance would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-638",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 638,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Geology is a rapidly evolving discipline. (II) Recent studies focusing on tectonic plate boundaries have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand seismic mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-639",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 639,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in History have ------ our understanding of the industrial revolution's impact on agriculture, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "mechanization": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "history"
-    ]
-  },
-  {
-    "id": "practice-640",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 640,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on keystone species in marine ecosystems ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "ecology"
-    ]
-  },
-  {
-    "id": "practice-641",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 641,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on black hole thermodynamics yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial event horizon outcomes",
-      "B": "the methodology was widely adopted by Astrophysics experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-642",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 642,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new Botany initiative is to mitigate the adverse effects of photosynthetic adaptations in arid climates on local communities.",
-    "options": {
-      "A": "Yeni Botany girişiminin temel amacı, photosynthetic adaptations in arid climates konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "Botany alanındaki yenilikler yerel halkı photosynthetic adaptations in arid climates etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar photosynthetic adaptations in arid climates nedeniyle Botany girişiminden olumsuz etkilenmektedir.",
-      "D": "photosynthetic adaptations in arid climates etkilerini azaltmak için Botany projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı Botany ve photosynthetic adaptations in arid climates arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-643",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 643,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on the evolution of proto-Indo-European languages in the Linguistics journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-644",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 644,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Economics, analyzing macroeconomic inflation targeting requires highly sophisticated equipment. ------. Without this precision, distinguishing between fiat and monetary policy would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-645",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 645,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Medicine is a rapidly evolving discipline. (II) Recent studies focusing on immunotherapy in oncology have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand T-cells mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-646",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 646,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Sociology have ------ our understanding of urbanization and social stratification, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "mobility": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "sociology"
-    ]
-  },
-  {
-    "id": "practice-647",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 647,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on cognitive biases in decision making ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "psychology"
-    ]
-  },
-  {
-    "id": "practice-648",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 648,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on tectonic plate boundaries yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial lithosphere outcomes",
-      "B": "the methodology was widely adopted by Geology experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
-    "tags": [
-      "sentence_completion",
-      "contrast"
-    ]
-  },
-  {
-    "id": "practice-649",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 649,
-    "category": "Çeviri",
-    "subCategory": "İngilizce-Türkçe",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "The primary goal of the new History initiative is to mitigate the adverse effects of the industrial revolution's impact on agriculture on local communities.",
-    "options": {
-      "A": "Yeni History girişiminin temel amacı, the industrial revolution's impact on agriculture konusunun yerel halk üzerindeki olumsuz etkilerini hafifletmektir.",
-      "B": "History alanındaki yenilikler yerel halkı the industrial revolution's impact on agriculture etkilerinden korumayı hedefler.",
-      "C": "Yerel topluluklar the industrial revolution's impact on agriculture nedeniyle History girişiminden olumsuz etkilenmektedir.",
-      "D": "the industrial revolution's impact on agriculture etkilerini azaltmak için History projeleri başlatılmalıdır.",
-      "E": "Yeni girişimin tek amacı History ve the industrial revolution's impact on agriculture arasındaki ilişkiyi yerel halka açıklamaktır."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Çeviri Taktiği: Özne 'The primary goal' (temel amacı), yüklem 'is to mitigate' (hafifletmektir).",
-    "explanation": "Cümlenin birebir çevirisi A şıkkında mevcuttur.",
-    "wordAnalysis": {
-      "mitigate": "hafifletmek",
-      "adverse": "olumsuz"
-    },
-    "tags": [
-      "translation"
-    ]
-  },
-  {
-    "id": "practice-650",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 650,
-    "category": "Diyalog Tamamlama",
-    "subCategory": "Akademik",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Dr. A: Have you reviewed the latest paper on keystone species in marine ecosystems in the Ecology journal?\nDr. B: Yes, but I found their methodology quite flawed.\nDr. A: ------\nDr. B: Exactly. Their sample size was too small to draw such sweeping conclusions.",
-    "options": {
-      "A": "I agree; they shouldn't have generalized from such limited data.",
-      "B": "I thought their statistical analysis was brilliant.",
-      "C": "But they received a massive grant for this research.",
-      "D": "Why do you always criticize junior researchers?",
-      "E": "The ${t.topic} conference is scheduled for next week."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Diyalog Taktiği: Dr. B 'kesinlikle, örneklem boyutu çok küçüktü' diyerek Dr. A'yı onaylıyor. Dr. A buna benzer bir eleştiri yapmış olmalıdır.",
-    "explanation": "A şıkkındaki 'sınırlı veriden genelleme yapmamalılardı' ifadesi Dr. B'nin cevabıyla tam uyumludur.",
-    "wordAnalysis": {
-      "flawed": "kusurlu",
-      "sweeping": "geniş kapsamlı, genel"
-    },
-    "tags": [
-      "dialogue"
-    ]
-  },
-  {
-    "id": "practice-651",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 651,
-    "category": "Paragraf Tamamlama",
-    "subCategory": "Düşünce Akışı",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "In the field of Astrophysics, analyzing black hole thermodynamics requires highly sophisticated equipment. ------. Without this precision, distinguishing between singularity and event horizon would be virtually impossible for researchers.",
-    "options": {
-      "A": "Such advanced measurement tools are incredibly costly to maintain and calibrate.",
-      "B": "Most universities have completely abandoned this line of research.",
-      "C": "Therefore, theoretical models are preferred over practical experiments.",
-      "D": "Historical records from the 19th century provide the best baseline data.",
-      "E": "As a result, students are turning to other scientific disciplines."
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Paragraf Taktiği: Boşluktan önceki 'sophisticated equipment' (gelişmiş ekipman) ve sonraki 'this precision' (bu hassasiyet) ifadeleri köprü görevi görür.",
-    "explanation": "A şıkkı, bu gelişmiş araçların (advanced measurement tools) bakımının maliyetinden bahsederek akışı sağlar.",
-    "wordAnalysis": {
-      "sophisticated": "gelişmiş",
-      "precision": "hassasiyet"
-    },
-    "tags": [
-      "paragraph_completion"
-    ]
-  },
-  {
-    "id": "practice-652",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 652,
-    "category": "Anlatım Bütünlüğünü Bozan Cümle",
-    "subCategory": "Akış",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "(I) Botany is a rapidly evolving discipline. (II) Recent studies focusing on photosynthetic adaptations in arid climates have yielded unprecedented insights. (III) The funding for arts and humanities has been steadily declining. (IV) These insights allow scientists to better understand succulent mechanisms. (V) Consequently, the theoretical foundations of the field are being entirely rewritten.",
-    "options": {
-      "A": "I",
-      "B": "II",
-      "C": "III",
-      "D": "IV",
-      "E": "V"
-    },
-    "correctAnswer": "C",
-    "solutionMethod": "İlgisiz Cümle Taktiği: Metin bilimsel bir disiplinden bahsederken III. cümle sanat ve beşeri bilimlerin fonlanmasından bahsetmektedir.",
-    "explanation": "Cümle III, paragrafın konusuyla tamamen alakasızdır.",
-    "wordAnalysis": {
-      "unprecedented": "benzeri görülmemiş",
-      "consequently": "sonuç olarak"
-    },
-    "tags": [
-      "irrelevant_sentence"
-    ]
-  },
-  {
-    "id": "practice-653",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 653,
-    "category": "Kelime Bilgisi",
-    "subCategory": "Akademik Kelimeler",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "Recent breakthroughs in Linguistics have ------ our understanding of the evolution of proto-Indo-European languages, fundamentally shifting previous theoretical frameworks.",
-    "options": {
-      "A": "altered",
-      "B": "diminished",
-      "C": "withheld",
-      "D": "confined",
-      "E": "forbid"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Kelime Taktiği: 'our understanding' nesnesi ile en uygun fiil 'altered' (değiştirdi) olacaktır.",
-    "explanation": "'altered' değiştirmek, farklılaştırmak anlamına gelir.",
-    "wordAnalysis": {
-      "breakthrough": "büyük buluş",
-      "alter": "değiştirmek",
-      "syntax": "anahtar kelime"
-    },
-    "tags": [
-      "vocabulary",
-      "linguistics"
-    ]
-  },
-  {
-    "id": "practice-654",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 654,
-    "category": "Dilbilgisi",
-    "subCategory": "Zamanlar",
-    "difficulty": "Orta",
-    "passage": "",
-    "questionText": "By the time the comprehensive report on macroeconomic inflation targeting ------ published next year, researchers ------ data for over a decade.",
-    "options": {
-      "A": "is / will have been collecting",
-      "B": "was / had collected",
-      "C": "has been / will collect",
-      "D": "will be / collected",
-      "E": "is / have collected"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zaman uyumu: 'By the time + Present, Future Perfect' kalıbı aranmalıdır.",
-    "explanation": "Geleceğe dair bir projeksiyon olduğu için yan cümle Present, ana cümle Future Perfect Continuous olur.",
-    "wordAnalysis": {
-      "comprehensive": "kapsamlı",
-      "decade": "onyıl"
-    },
-    "tags": [
-      "grammar",
-      "tenses",
-      "economics"
-    ]
-  },
-  {
-    "id": "practice-655",
-    "exam": "YDS Alıştırma",
-    "year": "Alıştırma",
-    "term": "Serbest",
-    "questionNumber": 655,
-    "category": "Cümle Tamamlama",
-    "subCategory": "Zıtlık Bağlaçları",
-    "difficulty": "Zor",
-    "passage": "",
-    "questionText": "Even though early studies on immunotherapy in oncology yielded promising results, ------.",
-    "options": {
-      "A": "subsequent extensive trials failed to replicate those initial malignant outcomes",
-      "B": "the methodology was widely adopted by Medicine experts",
-      "C": "funding for the project was immediately doubled",
-      "D": "because the statistical margin of error was negligible",
-      "E": "which led to a paradigm shift in the field"
-    },
-    "correctAnswer": "A",
-    "solutionMethod": "Zıtlık Taktiği: 'Even though' olumlu bir başlangıç yapmış (umut verici sonuçlar). Devamında olumsuz bir sonuç aranmalıdır.",
-    "explanation": "A seçeneğindeki 'sonraki denemelerin bu sonuçları tekrarlayamaması' tam bir zıtlık oluşturur.",
-    "wordAnalysis": {
-      "yield": "sağlamak, vermek",
-      "replicate": "tekrarlamak",
-      "subsequent": "sonraki"
-    },
     "tags": [
       "sentence_completion",
       "contrast"

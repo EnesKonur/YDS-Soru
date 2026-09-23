@@ -15,7 +15,7 @@ $env:Path = "$env:JAVA_HOME\bin;$env:LOCALAPPDATA\Programs\gradle-8.7\bin;$env:P
 
 # 2. Web Varlıklarını Güncelle
 Write-Host "[1/4] Web varlıkları 'www/' dizinine kopyalanıyor..." -ForegroundColor Yellow
-$webFiles = @('index.html', 'style.css', 'app.js', 'ad-service.js', 'questions.js', 'practice_questions.js', 'dictionary.js', 'pdf-parser.js', 'manifest.json', 'icon-192.png', 'icon-512.png')
+$webFiles = @('index.html', 'style.css', 'app.js', 'vocab-data.js', 'vocab-trainer.js', 'ad-service.js', 'questions.js', 'practice_questions.js', 'dictionary.js', 'pdf-parser.js', 'manifest.json', 'icon-192.png', 'icon-512.png', 'privacy_policy.html')
 foreach ($file in $webFiles) {
     Copy-Item -Path (Join-Path $root $file) -Destination (Join-Path $root "www") -Force
 }
