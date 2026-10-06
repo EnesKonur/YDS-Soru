@@ -66,6 +66,7 @@ class VocabTrainer {
   }
 
   start() {
+    window.ydsAdService?.resetVocabSession();
     this.loadVocabList();
 
     const homeView = document.getElementById('homeView');
@@ -103,6 +104,7 @@ class VocabTrainer {
 
     this.container = document.getElementById('vocabCardContainer');
     this.renderCards();
+    window.ydsAdService?.showBanner();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
@@ -429,6 +431,7 @@ class VocabTrainer {
     }
 
     this.updateStats();
+    window.ydsAdService?.onVocabSwiped();
 
     setTimeout(() => {
       this.isAnimating = false;

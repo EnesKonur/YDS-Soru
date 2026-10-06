@@ -58,20 +58,7 @@
       animation: bounce 2s infinite, pulse 2s infinite;
       filter: drop-shadow(0 0 8px rgba(249, 115, 22, 0.8));
     }
-    /* Üst Filtre ve Deneme Bantları Akıllı Daralma/Genişleme (Scroll Collapse) */
-    .collapsible-header-bars {
-      transition: max-height 0.22s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.18s ease;
-      max-height: 350px;
-      opacity: 1;
-      overflow: hidden;
-      will-change: max-height, opacity;
-    }
-    .collapsible-header-bars.collapsed-header-bars {
-      max-height: 0 !important;
-      opacity: 0 !important;
-      pointer-events: none !important;
-      border: none !important;
-    }
+
     .interactive-word {
       pointer-events: auto !important;
       cursor: pointer;
@@ -81,7 +68,7 @@
 <body class="bg-slate-50 dark:bg-gray-900 text-slate-800 dark:text-gray-100 min-h-screen flex flex-col transition-colors duration-200">
 
   <!-- Üst Başlık (Header) -->
-  <header id="smartHeader" class="sticky top-0 z-50 w-full bg-white/95 dark:bg-gray-800/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 shadow-xs flex flex-col">
+  <header id="smartHeader" class="z-50 w-full bg-white/95 dark:bg-gray-800/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700 shadow-xs flex flex-col">
     <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-2 sm:gap-3">
       
       <!-- Sol Logo ve Marka / Geri Butonu -->
@@ -941,10 +928,10 @@
     </div> <!-- #questionView bitişi -->
   
     <!-- ==================== KELİME ANTRENMANI EKRANI (VOCAB TRAINING) ==================== -->
-    <div id="vocabTrainingView" class="hidden space-y-4 animate-in fade-in duration-300 flex flex-col items-center justify-start min-h-[75vh] py-2 select-none">
+    <div id="vocabTrainingView" class="hidden animate-in fade-in duration-300 flex flex-col items-center justify-between h-[calc(100vh-200px)] w-full py-4 select-none">
       
       <!-- Üst Bilgi ve Aksiyon Çubuğu -->
-      <div class="w-full max-w-sm flex items-center justify-between px-2 pt-2">
+      <div class="w-full max-w-sm flex items-center justify-between px-2 flex-shrink-0">
         <div class="flex items-center space-x-2 bg-white dark:bg-gray-800 px-3.5 py-2 rounded-2xl shadow-sm border border-indigo-100/80 dark:border-gray-700">
           <span class="text-sm">🎯</span>
           <div class="text-xs font-bold text-gray-600 dark:text-gray-300">
@@ -959,39 +946,43 @@
       </div>
 
       <!-- Kart Konteyneri (Tinder Stack) -->
-      <div id="vocabCardContainer" class="relative w-full max-w-sm h-[390px] sm:h-[420px] my-3">
+      <div id="vocabCardContainer" class="relative w-full max-w-sm flex-1 my-4">
         <!-- Kartlar JS ile dinamik render edilecek -->
       </div>
       
       <!-- Tinder Aksiyon Butonları (Lively Buttons) -->
-      <div class="flex items-center justify-center space-x-6 w-full max-w-sm pt-2">
-        <!-- Bilmiyorum Butonu -->
-        <button onclick="window.vocabTrainer.swipeCurrent('left')" class="group relative w-16 h-16 rounded-full bg-white dark:bg-gray-800 border-2 border-rose-200 dark:border-rose-900/60 shadow-lg shadow-rose-500/15 flex items-center justify-center text-rose-500 hover:bg-rose-50 dark:hover:bg-rose-950/40 hover:scale-110 active:scale-90 transition-all duration-200" title="Bilmiyorum (Sola Kaydır)">
-          <svg class="w-8 h-8 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
-        </button>
+      <div class="flex flex-col items-center justify-center w-full max-w-sm flex-shrink-0 mb-2">
+        <div class="flex items-center justify-around w-full px-4 mb-2">
+          <!-- Bilmiyorum Butonu -->
+          <div class="flex flex-col items-center justify-center gap-1.5">
+            <button onclick="window.vocabTrainer.swipeCurrent('left')" class="group relative w-16 h-16 rounded-full bg-white dark:bg-gray-800 border-2 border-rose-200 dark:border-rose-900/60 shadow-lg shadow-rose-500/15 flex items-center justify-center text-rose-500 hover:bg-rose-50 dark:hover:bg-rose-950/40 hover:scale-110 active:scale-90 transition-all duration-200" title="Bilmiyorum (Sola Kaydır)">
+              <svg class="w-8 h-8 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+            <span class="text-[11px] font-bold text-rose-500 tracking-wide flex items-center gap-1"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg> Bilmiyorum</span>
+          </div>
 
-        <!-- Çevir (Flip) Butonu -->
-        <button onclick="window.vocabTrainer.flipCurrent()" class="group relative w-12 h-12 rounded-full bg-white dark:bg-gray-800 border-2 border-amber-200 dark:border-amber-900/60 shadow-md shadow-amber-500/15 flex items-center justify-center text-amber-500 hover:bg-amber-50 dark:hover:bg-amber-950/40 hover:scale-110 active:scale-90 transition-all duration-200" title="Anlamını Gör (Çevir)">
-          <svg class="w-6 h-6 group-hover:rotate-180 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
-          </svg>
-        </button>
+          <!-- Çevir (Flip) Butonu -->
+          <div class="flex flex-col items-center justify-center gap-1.5">
+            <button onclick="window.vocabTrainer.flipCurrent()" class="group relative w-12 h-12 rounded-full bg-white dark:bg-gray-800 border-2 border-amber-200 dark:border-amber-900/60 shadow-md shadow-amber-500/15 flex items-center justify-center text-amber-500 hover:bg-amber-50 dark:hover:bg-amber-950/40 hover:scale-110 active:scale-90 transition-all duration-200 mt-2" title="Anlamını Gör (Çevir)">
+              <svg class="w-6 h-6 group-hover:rotate-180 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+              </svg>
+            </button>
+            <span class="text-[10px] font-semibold text-indigo-500 dark:text-indigo-400">Çevir</span>
+          </div>
 
-        <!-- Öğrendim Butonu -->
-        <button onclick="window.vocabTrainer.swipeCurrent('right')" class="group relative w-16 h-16 rounded-full bg-white dark:bg-gray-800 border-2 border-emerald-200 dark:border-emerald-900/60 shadow-lg shadow-emerald-500/15 flex items-center justify-center text-emerald-500 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 hover:scale-110 active:scale-90 transition-all duration-200" title="Öğrendim (Sağa Kaydır)">
-          <svg class="w-8 h-8 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
-          </svg>
-        </button>
-      </div>
-
-      <!-- Alt İpucu Metni -->
-      <div class="flex items-center justify-between w-full max-w-sm px-6 pt-1 text-[11px] font-bold text-gray-400 dark:text-gray-500">
-        <span class="flex items-center gap-1 text-rose-500"><svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg> Bilmiyorum</span>
-        <span class="text-indigo-500 dark:text-indigo-400 font-semibold">Dokunarak Çevir</span>
-        <span class="flex items-center gap-1 text-emerald-500">Öğrendim <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg></span>
+          <!-- Öğrendim Butonu -->
+          <div class="flex flex-col items-center justify-center gap-1.5">
+            <button onclick="window.vocabTrainer.swipeCurrent('right')" class="group relative w-16 h-16 rounded-full bg-white dark:bg-gray-800 border-2 border-emerald-200 dark:border-emerald-900/60 shadow-lg shadow-emerald-500/15 flex items-center justify-center text-emerald-500 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 hover:scale-110 active:scale-90 transition-all duration-200" title="Öğrendim (Sağa Kaydır)">
+              <svg class="w-8 h-8 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </button>
+            <span class="text-[11px] font-bold text-emerald-500 tracking-wide flex items-center gap-1">Öğrendim <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l7-7m-7 7h18"/></svg></span>
+          </div>
+        </div>
       </div>
       
     </div>
@@ -1451,7 +1442,7 @@
         <!-- Uygulama Bilgisi -->
         <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-200 dark:border-gray-700 text-xs text-gray-500 dark:text-gray-400 space-y-1">
           <p class="font-bold text-gray-700 dark:text-gray-200">YDS Soru Platformu</p>
-          <p>Sürüm: <strong>1.1.9</strong> • App Store & Google Play Store Sürümü</p>
+          <p>Sürüm: <strong>1.2.1</strong> • App Store & Google Play Store Sürümü</p>
           <p>YDS Formatında YDS Soru Bankası, Akıllı Süre ve Kişiselleştirilmiş Karne Sistemi.</p>
         </div>
 

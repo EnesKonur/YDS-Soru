@@ -104,6 +104,9 @@ class YDSApp {
     if (soundToggle) soundToggle.checked = this.soundEnabled;
     const autoPauseToggle = document.getElementById("settingsAutoPauseToggle");
     if (autoPauseToggle) autoPauseToggle.checked = this.autoPauseEnabled;
+
+    // Alt banner reklamının görünürlüğünü başlat
+    window.ydsAdService?.showBanner();
   }
 
   // --- LocalStorage Yönetimi (Deneme ve Alıştırma İzolasyonu) ---
@@ -2701,6 +2704,7 @@ class YDSApp {
     document.getElementById("navReportBtn")?.classList.add("hidden");
     document.getElementById("navReportBtn")?.classList.remove("inline-flex");
 
+    const lastViewBeforeHome = this.currentView;
     this.previousView = this.currentView;
     const poolLabelH = document.getElementById("poolBtnLabel");
     if (poolLabelH) {
@@ -2710,9 +2714,19 @@ class YDSApp {
     this.expandHeaderBars?.();
     this.updateHomeStats();
     window.scrollTo({ top: 0, behavior: "smooth" });
+
+    // Soru çözme veya kelime çalışmasından ana menüye dönerken doğal geçiş reklamı
+    if (lastViewBeforeHome === "question" || lastViewBeforeHome === "vocab") {
+      window.ydsAdService?.onNavigateHome();
+    }
+
+    // Ana ekranda alt banner reklamının aktif kalmasını sağla
+    window.ydsAdService?.showBanner();
   }
 
   showQuestionView(mode = "practice") {
+    window.ydsAdService?.resetQuestionSession();
+    window.ydsAdService?.showBanner();
     const homeView = document.getElementById("homeView");
     const questionView = document.getElementById("questionView");
     const reportView = document.getElementById("reportView");
@@ -2808,6 +2822,7 @@ class YDSApp {
     }
     this.currentView = "report";
     this.renderReportView();
+    window.ydsAdService?.showBanner();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -3305,8 +3320,10 @@ class YDSApp {
       this.renderReportView();
     }
 
-    this.renderQuestion();
-    this.renderQuestionGrid();
+    if (this.currentView === "question") {
+      this.renderQuestion();
+      this.renderQuestionGrid();
+    }
 
     this.closeSettingsModal();
     alert("Tüm ilerlemeniz başarıyla sıfırlandı.");
@@ -3543,84 +3560,15 @@ class YDSApp {
     this.initScrollHeaderBars();
   }
 
-  // --- Üst Barların Kaydırma Davranışı (Scroll Auto-Collapse) ---
+  // --- Üst Barların Kaydırma Davranışı (Scroll Auto-Collapse) İPTAL EDİLDİ ---
   initScrollHeaderBars() {
-    const barsContainer = document.getElementById('collapsibleHeaderBars');
-    if (!barsContainer) return;
-
-    let isCollapsed = false;
-    let lastScrollY = Math.max(0, window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0);
-    let accumulatedDelta = 0;
-    let lastStateChangeTime = 0;
-    let ticking = false;
-
-    const updateBarState = () => {
-      // Sadece soru ekranındayken ve açık bir modal yokken çalıştır
-      if (this.currentView !== 'question' || this._scrollLocked) {
-        lastScrollY = Math.max(0, window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0);
-        accumulatedDelta = 0;
-        ticking = false;
-        return;
-      }
-
-      const currentScrollY = Math.max(0, window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0);
-      const delta = currentScrollY - lastScrollY;
-      const now = Date.now();
-
-      // 1. En üstteyken (<= 25px) daima görünür olmalı
-      if (currentScrollY <= 25) {
-        if (isCollapsed) {
-          isCollapsed = false;
-          barsContainer.classList.remove('collapsed-header-bars');
-          lastStateChangeTime = now;
-        }
-        accumulatedDelta = 0;
-      } else {
-        // Yön değişiminde birikimi sıfırla
-        if ((delta > 0 && accumulatedDelta < 0) || (delta < 0 && accumulatedDelta > 0)) {
-          accumulatedDelta = 0;
-        }
-        accumulatedDelta += delta;
-
-        // Soğuma süresi (cooldown): Son açılma/kapanmadan sonra 180ms bekle (titremeyi önler)
-        if (now - lastStateChangeTime > 180) {
-          // 2. Aşağı doğru belirgin kaydırma (> 45px) ve yeterli derinlikteyken (> 80px) gizle
-          if (accumulatedDelta > 45 && currentScrollY > 80) {
-            if (!isCollapsed) {
-              isCollapsed = true;
-              barsContainer.classList.add('collapsed-header-bars');
-              lastStateChangeTime = now;
-              accumulatedDelta = 0;
-            }
-          }
-          // 3. Yukarı doğru belirgin kaydırma (< -35px) durumunda geri getir
-          else if (accumulatedDelta < -35) {
-            if (isCollapsed) {
-              isCollapsed = false;
-              barsContainer.classList.remove('collapsed-header-bars');
-              lastStateChangeTime = now;
-              accumulatedDelta = 0;
-            }
-          }
-        }
-      }
-
-      lastScrollY = currentScrollY;
-      ticking = false;
-    };
-
-    window.addEventListener('scroll', () => {
-      if (!ticking) {
-        window.requestAnimationFrame(updateBarState);
-        ticking = true;
-      }
-    }, { passive: true });
-
+    // Scroll ile yapay gizleme/gösterme iptal edildi, çünkü header'ın kendisi sticky olmaktan çıkarıldı 
+    // ve doğal olarak sayfa ile kaydırılması istendi.
     this.expandHeaderBars = () => {
-      isCollapsed = false;
-      lastScrollY = 0;
-      accumulatedDelta = 0;
-      barsContainer.classList.remove('collapsed-header-bars');
+      const barsContainer = document.getElementById('collapsibleHeaderBars');
+      if (barsContainer) {
+        barsContainer.classList.remove('collapsed-header-bars');
+      }
     };
   }
 
