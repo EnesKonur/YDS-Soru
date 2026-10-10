@@ -1,6 +1,6 @@
 {
-  "name": "YDS Soru Filtreleme & Kelime Havuzu",
-  "short_name": "YDS Soru",
+  "name": "Examdil - YDS Soru & Sınav Platformu",
+  "short_name": "Examdil",
   "description": "YDS sınav sorularını kelimelere göre filtreleme ve interaktif çalışma uygulaması",
   "start_url": "index.html",
   "display": "standalone",

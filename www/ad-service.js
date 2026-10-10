@@ -26,16 +26,19 @@ class YDSAdService {
       }
     };
 
-    // Soru sayacı ve sıklık ayarları
+    // Soru sayacı ve sıklık ayarları (Kullanıcı dostu optimize değerler)
     this.practiceAnswerCount = 0;
-    this.interstitialInterval = 6; // Her 6 soruda bir geçiş reklamı
+    this.interstitialInterval = 10; // Her 10 soruda bir geçiş reklamı (önceden 6 idi)
     this.sessionQuestionsSolved = 0; // Bu oturumda çözülen soru sayısı
     this.vocabSwipeCount = 0; // Kelime kartı swipe sayacı
     this.sessionVocabSwiped = 0;
 
-    // Akıllı Soğuma Süresi (Cooldown) - En az 65 sn
+    // Akıllı Soğuma Süresi (Cooldown) - En az 90 sn (kesinlikle üst üste çıkmaz)
     this.lastInterstitialTime = 0;
-    this.minInterstitialIntervalMs = 65 * 1000;
+    this.minInterstitialIntervalMs = 90 * 1000;
+
+    // Reklamsız Mod (Ad-Free / Premium) Durumu
+    this.isAdFree = localStorage.getItem("examdil_ad_free") === "true";
 
     this.checkPlatform();
     this.bootstrap();
@@ -215,6 +218,11 @@ class YDSAdService {
   }
 
   async showInterstitial(force = false) {
+    if (this.isAdFree) {
+      console.log('👑 [YDSAdService] Reklamsız mod aktif: Geçiş reklamı gösterilmedi.');
+      return false;
+    }
+
     const now = Date.now();
     if (!force && (now - this.lastInterstitialTime < this.minInterstitialIntervalMs)) {
       console.log('⏳ [YDSAdService] Geçiş reklamı soğuma süresinde, bekleniyor.');
@@ -249,6 +257,7 @@ class YDSAdService {
 
   // Soru çözümünde sayaç artır ve gerekirse reklam göster
   onQuestionAnswered() {
+    if (this.isAdFree) return;
     this.practiceAnswerCount++;
     this.sessionQuestionsSolved++;
 
@@ -262,6 +271,7 @@ class YDSAdService {
 
   // Ana menüye dönerken doğal geçiş reklamı
   onNavigateHome() {
+    if (this.isAdFree) return;
     if (this.sessionQuestionsSolved >= 3 || this.sessionVocabSwiped >= 8) {
       this.sessionQuestionsSolved = 0;
       this.sessionVocabSwiped = 0;
@@ -273,6 +283,7 @@ class YDSAdService {
 
   // Kelime kartı çevrildiğinde
   onVocabSwiped() {
+    if (this.isAdFree) return;
     this.vocabSwipeCount++;
     this.sessionVocabSwiped++;
 
@@ -314,6 +325,14 @@ class YDSAdService {
   }
 
   async showRewarded(onRewardCallback) {
+    if (this.isAdFree) {
+      console.log('👑 [YDSAdService] Reklamsız mod aktif: Ödül doğrudan verildi.');
+      if (typeof onRewardCallback === 'function') {
+        onRewardCallback({ amount: 1, type: 'reward' });
+      }
+      return;
+    }
+
     if (!this.isNative) {
       this.showWebMockToast('🎁 [Web Modu] 15 sn Ödüllü Video İzlendi. Ödül Açıldı!');
       if (typeof onRewardCallback === 'function') {
@@ -352,6 +371,12 @@ class YDSAdService {
   // --- 3. Canlı Alt Banner Reklamı (%100 Canlı Üretim Kimliği) ---
   async showBanner() {
     this.checkPlatform();
+    if (this.isAdFree) {
+      console.log('👑 [YDSAdService] Reklamsız mod aktif: Banner gösterilmeyecek.');
+      this.hideBanner();
+      return;
+    }
+
     if (!this.isNative) {
       console.log('ℹ️ [YDSAdService] Web banner simülasyonu.');
       return;
@@ -413,6 +438,23 @@ class YDSAdService {
     } catch (e) {
       console.warn('Banner gizleme uyarısı:', e);
     }
+  }
+
+  // --- Reklamsız Mod Yönetimi ---
+  setAdFree(enabled) {
+    this.isAdFree = !!enabled;
+    localStorage.setItem("examdil_ad_free", this.isAdFree ? "true" : "false");
+    if (this.isAdFree) {
+      this.hideBanner();
+    } else {
+      this.showBanner();
+    }
+    window.dispatchEvent(new CustomEvent('adFreeStatusChanged', { detail: { isAdFree: this.isAdFree } }));
+    console.log(`👑 [YDSAdService] Reklamsız mod ${this.isAdFree ? 'AKTİF EDİLDİ' : 'DEVRE DIŞI BIRAKILDI'}.`);
+  }
+
+  getAdFree() {
+    return this.isAdFree;
   }
 
   // Web / Safari Testinde bildirim

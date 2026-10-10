@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>YDS Soru Filtreleme & Kelime Havuzu Platformu</title>
+  <title>Examdil - YDS Soru Filtreleme & Sınav Platformu</title>
   <meta name="theme-color" content="#4f46e5">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="YDS Soru">
+  <meta name="apple-mobile-web-app-title" content="Examdil">
   <meta name="format-detection" content="telephone=no">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" type="image/png" href="icon-192.png">
@@ -84,8 +84,8 @@
 
         <!-- Ana Menü Başlığı (Sadece Ana Menüde Gösterilir) -->
         <div id="headerBrandTitle" class="flex flex-col">
-          <span class="text-base sm:text-lg font-black tracking-tight text-gray-900 dark:text-white leading-none">YDS Soru</span>
-          <span class="text-[10px] font-semibold text-indigo-600 dark:text-indigo-400">Hazırlık Platformu</span>
+          <span class="text-base sm:text-lg font-black tracking-tight text-gray-900 dark:text-white leading-none">Examdil</span>
+          <span class="text-[10px] font-semibold text-indigo-600 dark:text-indigo-400">YDS Hazırlık Platformu</span>
         </div>
 
         <!-- Ana Menüye Dön Butonu (Soru Çözümü veya Rapor Ekranında Görünür) -->
@@ -682,6 +682,11 @@
                 <span id="qCategoryBadge" class="badge-filter bg-violet-100 dark:bg-violet-950 text-violet-700 dark:text-violet-300 text-[11px] font-bold">Kelime</span>
                 <span id="qSubCategoryBadge" class="badge-filter bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-[11px] font-bold hidden sm:inline-flex"></span>
                 <span id="qDifficultyBadge" class="badge-filter bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300 text-[11px] font-bold">Orta</span>
+                <!-- Topluluk Çözülme & Başarı Rozeti (Cold Start Eşiği: >= 20) -->
+                <button id="qStatsBadge" type="button" onclick="ydsApp.showQuestionStatsTooltip(event)" class="hidden cursor-pointer select-none inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-800/80 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 transition active:scale-95 shadow-2xs" title="Topluluk Soru İstatistiği">
+                  <span id="qStatsBadgeText">👥 0 çözdü</span>
+                  <span class="text-[10px] opacity-75">ℹ️</span>
+                </button>
               </div>
               <div class="text-right whitespace-nowrap flex-shrink-0">
                 <span id="qNumberDisplay" class="text-xs sm:text-sm font-black text-gray-900 dark:text-gray-100">Soru 1 / 15</span>
@@ -1349,7 +1354,7 @@
       </div>
       <div>
         <h3 class="text-xl font-extrabold text-gray-900 dark:text-white">
-          YDS Soru Platformu'na Hoş Geldiniz!
+          Examdil Platformu'na Hoş Geldiniz!
         </h3>
         <p class="text-xs text-gray-500 dark:text-gray-400 mt-1.5">
           Hedefinize giden yolda size özel karne ve karşılama için adınızı öğrenebilir miyiz?
@@ -1403,6 +1408,21 @@
           </div>
         </div>
 
+        <!-- Reklamsız Mod & Premium -->
+        <div class="p-4 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/40 dark:to-orange-950/30 border border-amber-200 dark:border-amber-800/60 flex items-center justify-between">
+          <div class="space-y-0.5">
+            <div class="flex items-center gap-1.5 font-black text-amber-900 dark:text-amber-200 text-sm">
+              <span>👑</span>
+              <span>Reklamsız Mod (Premium)</span>
+              <span id="adFreeStatusBadge" class="hidden text-[10px] font-extrabold px-2 py-0.5 rounded-full bg-emerald-500 text-white">Aktif</span>
+            </div>
+            <p id="adFreeStatusDesc" class="text-xs text-amber-700/80 dark:text-amber-300/80">Tüm banner ve geçiş reklamlarını kaldırın.</p>
+          </div>
+          <button id="openAdFreeModalBtn" onclick="ydsApp.openAdFreeModal()" class="px-3.5 py-1.5 rounded-xl font-bold text-xs bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white shadow-xs transition active:scale-95 flex items-center gap-1">
+            Yönet
+          </button>
+        </div>
+
         <!-- Ses Efektleri -->
         <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-200 dark:border-gray-700 flex items-center justify-between">
           <div>
@@ -1441,9 +1461,9 @@
 
         <!-- Uygulama Bilgisi -->
         <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-200 dark:border-gray-700 text-xs text-gray-500 dark:text-gray-400 space-y-1">
-          <p class="font-bold text-gray-700 dark:text-gray-200">YDS Soru Platformu</p>
-          <p>Sürüm: <strong>1.2.1</strong> • App Store & Google Play Store Sürümü</p>
-          <p>YDS Formatında YDS Soru Bankası, Akıllı Süre ve Kişiselleştirilmiş Karne Sistemi.</p>
+          <p class="font-bold text-gray-700 dark:text-gray-200">Examdil Platformu</p>
+          <p>Sürüm: <strong>1.2.2</strong> • App Store & Google Play Store Sürümü</p>
+          <p>YDS Formatında Özgün Soru Bankası, Akıllı Süre ve Kişiselleştirilmiş Karne Sistemi.</p>
         </div>
 
       </div>
@@ -1451,6 +1471,118 @@
     </div>
   </div>
 
+  <!-- Reklamsız Mod & Premium Modalı -->
+  <div id="adFreeModal" class="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs hidden animate-in fade-in duration-200" onclick="ydsApp.closeAdFreeModal(event)">
+    <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-sm sm:max-w-md w-full p-5 sm:p-6 shadow-2xl border border-gray-100 dark:border-gray-700 space-y-5" onclick="event.stopPropagation()">
+      
+      <!-- Modal Başlık -->
+      <div class="flex items-center justify-between border-b border-gray-100 dark:border-gray-700/80 pb-3">
+        <div class="flex items-center gap-2.5">
+          <div class="w-10 h-10 rounded-2xl bg-amber-100 dark:bg-amber-950/70 text-amber-600 dark:text-amber-400 flex items-center justify-center text-xl shadow-xs">👑</div>
+          <div>
+            <h3 class="font-black text-base sm:text-lg text-gray-900 dark:text-white leading-tight">Examdil Premium</h3>
+            <span class="text-xs text-amber-600 dark:text-amber-400 font-semibold">Reklamsız Tam Sürüm</span>
+          </div>
+        </div>
+        <button type="button" onclick="ydsApp.closeAdFreeModal()" class="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Avantajlar Listesi -->
+      <div class="space-y-2.5">
+        <div class="p-3 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-100 dark:border-gray-700 flex items-start gap-3">
+          <span class="text-lg">🚫</span>
+          <div>
+            <h4 class="text-xs font-bold text-gray-900 dark:text-white">Sıfır Reklam</h4>
+            <p class="text-[11px] text-gray-500 dark:text-gray-400">Tüm banner ve tam ekran geçiş reklamları tamamen devre dışı kalır.</p>
+          </div>
+        </div>
+        <div class="p-3 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-100 dark:border-gray-700 flex items-start gap-3">
+          <span class="text-lg">⚡</span>
+          <div>
+            <h4 class="text-xs font-bold text-gray-900 dark:text-white">Kesintisiz Odaklanma</h4>
+            <p class="text-[11px] text-gray-500 dark:text-gray-400">Deneme sınavları ve soru çözümlerinde dikkatiniz asla bölünmez.</p>
+          </div>
+        </div>
+        <div class="p-3 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-100 dark:border-gray-700 flex items-start gap-3">
+          <span class="text-lg">💡</span>
+          <div>
+            <h4 class="text-xs font-bold text-gray-900 dark:text-white">Tüm Taktik ve Analizler Açık</h4>
+            <p class="text-[11px] text-gray-500 dark:text-gray-400">Video izlemeden kişiye özel tüm analizlere anında tam erişim.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Durum ve Satın Alma Alanı (Reklamlar henüz açıksa) -->
+      <div id="adFreeInactiveContainer" class="space-y-3">
+        <!-- Satın Alma Butonu (Google Play / App Store) -->
+        <button type="button" onclick="ydsApp.purchaseAdFree()" class="w-full py-3.5 px-4 rounded-2xl font-black text-sm bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white shadow-md shadow-amber-500/25 transition transform active:scale-98 flex items-center justify-center gap-2">
+          <span>👑 Reklamsız Sürüme Geç</span>
+          <span class="text-xs bg-white/20 px-2 py-0.5 rounded-full font-bold">Ömür Boyu</span>
+        </button>
+
+        <!-- VIP / Promosyon Kodu Girişi -->
+        <div class="pt-2 border-t border-gray-100 dark:border-gray-700 space-y-1.5">
+          <label class="text-[11px] font-bold text-gray-500 dark:text-gray-400 block">Promosyon veya VIP Kodunuz mu var?</label>
+          <div class="flex items-center gap-2">
+            <input 
+              type="text" 
+              id="vipPromoCodeInput" 
+              placeholder="Örn: EXAMDILVIP" 
+              class="flex-1 px-3 py-2 text-xs rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white uppercase font-bold outline-none focus:ring-2 focus:ring-amber-500"
+              maxlength="20"
+            />
+            <button type="button" onclick="ydsApp.applyPromoCode()" class="px-4 py-2 rounded-xl text-xs font-bold bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:opacity-90 transition active:scale-95">
+              Uygula
+            </button>
+          </div>
+          <span id="promoCodeMessage" class="hidden text-[11px] font-bold"></span>
+        </div>
+
+        <!-- Satın Alımları Geri Yükle -->
+        <button type="button" onclick="ydsApp.restorePurchases()" class="w-full text-center text-[11px] font-semibold text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 py-1 transition">
+          Satın Alımları Geri Yükle (Restore)
+        </button>
+      </div>
+
+      <!-- Aktifse Gösterilecek Durum -->
+      <div id="adFreeActiveContainer" class="hidden p-4 rounded-2xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-center space-y-2">
+        <div class="text-2xl">✨</div>
+        <h4 class="text-sm font-black text-emerald-800 dark:text-emerald-300">Examdil Premium Aktif!</h4>
+        <p class="text-xs text-emerald-700 dark:text-emerald-400">Tüm reklamlar kaldırıldı. Sınırsız ve kesintisiz deneyimin tadını çıkarın.</p>
+        <button type="button" onclick="ydsApp.toggleAdFreeForTesting()" class="mt-2 text-[10px] text-gray-400 hover:text-rose-500 underline">
+          (Geliştirici Testi: Reklamları Yeniden Aç)
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Topluluk Soru İstatistiği Bilgi Penceresi (Modal / Tooltip) -->
+  <div id="qStatsModal" class="fixed inset-0 z-[120] flex items-center justify-center p-4 bg-black/40 backdrop-blur-xs hidden transition-opacity" onclick="ydsApp.closeQuestionStatsTooltip(event)">
+    <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-xs sm:max-w-sm w-full p-5 sm:p-6 shadow-2xl border border-gray-100 dark:border-gray-700 space-y-4 transform transition-transform" onclick="event.stopPropagation()">
+      <div class="flex items-center justify-between border-b border-gray-100 dark:border-gray-700/80 pb-3">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-xl bg-emerald-100 dark:bg-emerald-950/70 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-base">📊</div>
+          <div>
+            <h4 class="text-sm font-bold text-gray-900 dark:text-white leading-tight">Topluluk Başarı Oranı</h4>
+            <span class="text-[10px] text-gray-400">Anonim Soru İstatistiği</span>
+          </div>
+        </div>
+        <button type="button" onclick="ydsApp.closeQuestionStatsTooltip()" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 text-xl font-bold leading-none p-1">&times;</button>
+      </div>
+
+      <div id="qStatsModalBody" class="space-y-3">
+        <!-- Dinamik Başarı Oranı Kartı -->
+      </div>
+
+      <button type="button" onclick="ydsApp.closeQuestionStatsTooltip()" class="w-full py-2.5 rounded-xl font-bold text-xs bg-gray-100 dark:bg-gray-700/80 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 transition active:scale-98">
+        Anladım
+      </button>
+    </div>
+  </div>
 
   <!-- Çıkış Onay Modalı -->
   <div id="exitConfirmModal" class="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/50 hidden animate-in fade-in duration-200">
@@ -1481,9 +1613,15 @@
         <h3 class="font-extrabold text-lg sm:text-xl text-gray-900 dark:text-white flex items-center gap-2">
           <span class="text-emerald-500">✨</span> Günün Sorusu
         </h3>
-        <button onclick="ydsApp.closeDailyQuestion()" class="p-2 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-full text-gray-600 dark:text-gray-300 transition shrink-0">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-        </button>
+        <div class="flex items-center gap-2">
+          <button id="dailyQStatsBadge" type="button" onclick="ydsApp.showDailyQuestionStatsTooltip(event)" class="hidden cursor-pointer select-none inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-800/80 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 transition active:scale-95 shadow-2xs" title="Topluluk Soru İstatistiği">
+            <span id="dailyQStatsBadgeText">👥 0 çözdü</span>
+            <span class="text-[10px] opacity-75">ℹ️</span>
+          </button>
+          <button onclick="ydsApp.closeDailyQuestion()" class="p-2 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-full text-gray-600 dark:text-gray-300 transition shrink-0">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+          </button>
+        </div>
       </div>
       <div id="dailyQuestionContent" class="overflow-y-auto space-y-4 flex-1 pr-1 custom-scrollbar" style="overscroll-behavior-y: contain; -webkit-overflow-scrolling: touch; touch-action: pan-y;">
         <!-- İçerik JS ile doldurulacak -->
@@ -1592,9 +1730,15 @@
             </p>
           </div>
         </div>
-        <button type="button" onclick="ydsApp.closeQuestionNoteDrawer()" class="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition" title="Kapat">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
-        </button>
+        <div class="flex items-center space-x-2">
+          <button type="button" onclick="ydsApp.saveCurrentQuestionNote()" class="px-3.5 py-1.5 rounded-xl font-bold text-xs bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white shadow-xs transition active:scale-95 flex items-center gap-1" title="Notu Kaydet">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            <span>Kaydet</span>
+          </button>
+          <button type="button" onclick="ydsApp.closeQuestionNoteDrawer()" class="p-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition" title="Kapat">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
       </div>
 
       <!-- Çekmece Gövdesi (Textarea & Karakter Sayacı) -->
@@ -1613,7 +1757,7 @@
       </div>
 
       <!-- Çekmece Alt Aksiyonlar -->
-      <div class="p-4 sm:p-5 border-t border-gray-100 dark:border-gray-700/80 bg-gray-50/50 dark:bg-gray-900/30 rounded-b-3xl flex items-center justify-between gap-3">
+      <div class="p-4 pb-8 sm:p-5 border-t border-gray-100 dark:border-gray-700/80 bg-gray-50/50 dark:bg-gray-900/30 rounded-b-3xl flex items-center justify-between gap-3">
         <button id="deleteQuestionNoteBtn" type="button" onclick="ydsApp.deleteCurrentQuestionNote()" class="hidden px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-950/40 hover:bg-rose-100 dark:hover:bg-rose-900/60 transition active:scale-95 flex items-center gap-1.5">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
           <span>Notu Sil</span>
@@ -1632,6 +1776,10 @@
   </div>
 
   <!-- Scriptler (Sayfa sonunda yüklenir) -->
+  <!-- Firebase SDK (Cloud Firestore Topluluk İstatistik Altyapısı) -->
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+  <script src="question-stats-service.js"></script>
   <script src="ad-service.js"></script>
   <script src="dictionary.js"></script>
   <script src="practice_questions.js"></script>

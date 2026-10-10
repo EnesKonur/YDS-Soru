@@ -1,0 +1,24 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Topluluk Soru Çözülme & Başarı İstatistikleri Dokümanları
+    // Her deneme veya alıştırma grubu tek bir dokümanda toplanır (kota tasarrufu)
+    match /question_stats/{testId} {
+      // Herkes istatistikleri okuyabilir (get), ancak toplu listeleme (list/query) kapalıdır
+      allow get: if true;
+      allow list: if false;
+
+      // Kullanıcılar test bitiminde sayaçları artırabilir (create/update)
+      // Doküman silme kesinlikle yasaktır
+      allow create, update: if true;
+      allow delete: if false;
+    }
+
+    // Diğer tüm koleksiyonlar varsayılan olarak kapalıdır
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

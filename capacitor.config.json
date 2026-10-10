@@ -1,6 +1,6 @@
-﻿{
+{
   "appId": "com.yds.sorufiltreleme",
-  "appName": "YDS Soru",
+  "appName": "Examdil",
   "webDir": "www",
   "bundledWebRuntime": false,
   "server": {

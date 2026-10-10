@@ -36,6 +36,8 @@ class YDSApp {
     this.tacticsUnlocked = localStorage.getItem("yds_tactics_unlocked") === "true";
     this.currentView = "home"; // 'home' | 'question' | 'report'
     this.isPracticeMode = false;
+    this.pendingSessionStats = {};
+    this.currentQuestionStats = null;
 
     // Audio Context
     this.audioCtx = null;
@@ -107,6 +109,22 @@ class YDSApp {
 
     // Alt banner reklamının görünürlüğünü başlat
     window.ydsAdService?.showBanner();
+
+    // Reklamsız mod arayüz durumunu senkronize et
+    this.updateAdFreeUI();
+    window.addEventListener('adFreeStatusChanged', () => {
+      this.updateAdFreeUI();
+    });
+
+    // Uygulama arka plana geçtiğinde biriken soru istatistiklerini Firestore'a gönder
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") {
+        this.flushPendingStats();
+      }
+    });
+    window.addEventListener("pagehide", () => {
+      this.flushPendingStats();
+    });
   }
 
   // --- LocalStorage Yönetimi (Deneme ve Alıştırma İzolasyonu) ---
@@ -327,6 +345,7 @@ class YDSApp {
 
       if (drawer) {
         this.lockScroll();
+        window.ydsAdService?.hideBanner();
         drawer.classList.remove("hidden");
         drawer.classList.add("active");
         requestAnimationFrame(() => {
@@ -354,6 +373,7 @@ class YDSApp {
 
       // Sayfa kaydırma kilidini hemen açarak takılmayı tamamen yok et
       this.unlockScroll();
+      window.ydsAdService?.showBanner();
 
       const drawer = document.getElementById("questionNoteDrawer");
       if (!drawer) return;
@@ -431,6 +451,181 @@ class YDSApp {
         explText.textContent = "";
       }
     }
+  }
+
+  // --- Topluluk Soru Çözülme & Başarı İstatistiği (Question Stats) ---
+  updateQuestionStatsBadge(q) {
+    const badge = document.getElementById("qStatsBadge");
+    const badgeText = document.getElementById("qStatsBadgeText");
+    if (!badge || !badgeText) return;
+
+    if (!q || !q.id || !window.questionStatsService) {
+      badge.classList.add("hidden");
+      this.currentQuestionStats = null;
+      return;
+    }
+
+    const testId = window.questionStatsService.resolveTestId(q);
+    const stat = window.questionStatsService.getQuestionStat(testId, q.id);
+    const threshold = window.questionStatsService.COLD_START_THRESHOLD || 20;
+
+    // Soğuk Başlangıç Kuralı (Cold Start Threshold):
+    // Eğer total çözülme sayısı 20'den az ise rozeti KESİNLİKLE render etme / gizle
+    if (!stat || typeof stat.total !== "number" || stat.total < threshold) {
+      badge.classList.add("hidden");
+      this.currentQuestionStats = null;
+
+      // İlgili test dokümanı henüz cache'e alınmadıysa arka planda tek seferlik getir
+      if (!window.questionStatsService.statsCache[testId]) {
+        window.questionStatsService.fetchTestStats(testId).then(data => {
+          if (!data) return;
+          const currentQ = this.filteredQuestions[this.currentIndex];
+          if (currentQ && currentQ.id === q.id) {
+            this.updateQuestionStatsBadge(currentQ);
+          }
+        }).catch(() => {});
+      }
+      return;
+    }
+
+    // Eşik sağlandı (total >= 20): Rozet gösterilir
+    this.currentQuestionStats = {
+      questionId: q.id,
+      testId: testId,
+      total: stat.total,
+      correct: typeof stat.correct === "number" ? stat.correct : 0
+    };
+
+    badgeText.textContent = `👥 ${stat.total} çözdü`;
+    badge.classList.remove("hidden");
+  }
+
+  showQuestionStatsTooltip(event) {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    if (!this.currentQuestionStats || typeof this.currentQuestionStats.total !== "number") {
+      return;
+    }
+
+    const { total, correct = 0 } = this.currentQuestionStats;
+    const threshold = window.questionStatsService?.COLD_START_THRESHOLD || 20;
+    if (total < threshold) return;
+
+    const successRate = Math.round((correct / total) * 100);
+    const modal = document.getElementById("qStatsModal");
+    const modalBody = document.getElementById("qStatsModalBody");
+
+    if (modalBody) {
+      modalBody.innerHTML = `
+        <div class="p-4 rounded-2xl bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-100 dark:border-emerald-900/50 text-center space-y-1">
+          <div class="text-3xl font-black text-emerald-600 dark:text-emerald-400">%${successRate}</div>
+          <div class="text-xs font-bold text-gray-700 dark:text-gray-300">Doğru Yanıtlama Oranı</div>
+        </div>
+        <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-300 leading-relaxed text-center px-1">
+          Bu soruyu çözen adayların <strong>%${successRate}</strong>'i doğru yanıtladı.
+        </p>
+        <div class="flex items-center justify-between text-[11px] text-gray-500 dark:text-gray-400 pt-2 border-t border-gray-100 dark:border-gray-700/60 px-1">
+          <span>Toplam Çözülme: <strong class="text-gray-700 dark:text-gray-200">${total}</strong></span>
+          <span>Doğru Yanıt: <strong class="text-emerald-600 dark:text-emerald-400">${correct}</strong></span>
+        </div>
+      `;
+    }
+
+    if (modal) {
+      this.lockScroll();
+      modal.classList.remove("hidden");
+    }
+  }
+
+  closeQuestionStatsTooltip(event) {
+    if (event && event.target && event.target.closest && event.target.closest(".transform")) {
+      return;
+    }
+    this.unlockScroll();
+    const modal = document.getElementById("qStatsModal");
+    if (modal) modal.classList.add("hidden");
+  }
+
+  updateDailyQuestionStatsBadge(q) {
+    const badge = document.getElementById("dailyQStatsBadge");
+    const badgeText = document.getElementById("dailyQStatsBadgeText");
+    if (!badge || !badgeText) return;
+
+    if (!q || !q.id || !window.questionStatsService) {
+      badge.classList.add("hidden");
+      this.currentDailyQuestionStats = null;
+      return;
+    }
+
+    const testId = window.questionStatsService.resolveTestId(q);
+    const stat = window.questionStatsService.getQuestionStat(testId, q.id);
+    const threshold = window.questionStatsService.COLD_START_THRESHOLD || 20;
+
+    // Soğuk Başlangıç Kuralı (Cold Start Threshold):
+    if (!stat || typeof stat.total !== "number" || stat.total < threshold) {
+      badge.classList.add("hidden");
+      this.currentDailyQuestionStats = null;
+
+      if (!window.questionStatsService.statsCache[testId]) {
+        window.questionStatsService.fetchTestStats(testId).then(data => {
+          if (!data) return;
+          if (this._dailyQuestion && this._dailyQuestion.id === q.id) {
+            this.updateDailyQuestionStatsBadge(this._dailyQuestion);
+          }
+        }).catch(() => {});
+      }
+      return;
+    }
+
+    this.currentDailyQuestionStats = {
+      questionId: q.id,
+      testId: testId,
+      total: stat.total,
+      correct: typeof stat.correct === "number" ? stat.correct : 0
+    };
+
+    badgeText.textContent = `👥 ${stat.total} çözdü`;
+    badge.classList.remove("hidden");
+  }
+
+  showDailyQuestionStatsTooltip(event) {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    if (!this.currentDailyQuestionStats) return;
+    this.currentQuestionStats = this.currentDailyQuestionStats;
+    this.showQuestionStatsTooltip(event);
+  }
+
+  queueStatSubmission(question, isCorrect) {
+    if (!question || !question.id) return;
+    const testId = window.questionStatsService?.resolveTestId(question) || "practice_all";
+    if (!this.pendingSessionStats) this.pendingSessionStats = {};
+    if (!this.pendingSessionStats[testId]) this.pendingSessionStats[testId] = [];
+
+    const list = this.pendingSessionStats[testId];
+    const existing = list.find(item => item.questionId === question.id);
+    if (existing) {
+      existing.isCorrect = isCorrect;
+    } else {
+      list.push({ questionId: question.id, isCorrect });
+    }
+  }
+
+  flushPendingStats() {
+    if (!this.pendingSessionStats || !window.questionStatsService) return;
+    const testIds = Object.keys(this.pendingSessionStats);
+    testIds.forEach(testId => {
+      const results = this.pendingSessionStats[testId];
+      if (results && results.length > 0) {
+        window.questionStatsService.submitTestStats(testId, results);
+      }
+    });
+    this.pendingSessionStats = {};
   }
 
   escapeHtml(str) {
@@ -993,6 +1188,9 @@ class YDSApp {
     // Soru Notu Göstergesi
     this.updateQuestionNoteUI(q);
 
+    // Topluluk Soru Çözülme & Başarı Rozeti
+    this.updateQuestionStatsBadge(q);
+
     // Paragraf varsa göster
     const passageContainer = document.getElementById("passageContainer");
     const passageTextEl = document.getElementById("passageText");
@@ -1211,6 +1409,7 @@ class YDSApp {
     // Normal serbest soru çözme modunda periyodik geçiş reklamı kontrolü (her 20 soruda bir)
     if (!this.isExamMode) {
       window.ydsAdService?.onQuestionAnswered();
+      this.queueStatSubmission(q, isCorrect);
     }
 
     // Sınav modundaysa ilerleme rozetini güncelle
@@ -2210,6 +2409,7 @@ class YDSApp {
   }
 
   startExamMode(examIdentifier) {
+    this.flushPendingStats();
     this.practiceSessionActive = false;
     this.isPracticeMode = false;
     this.isExamMode = true;
@@ -2291,6 +2491,17 @@ class YDSApp {
       this.pauseExamSmartTimer();
     } else {
       this.resumeExamSmartTimer();
+    }
+
+    // Topluluk soru istatistiklerini bu deneme için tek seferde önceden çek (Firestore kota tasarrufu: tek doküman)
+    const testId = window.questionStatsService?.resolveTestId(examQuestions[0]);
+    if (testId) {
+      window.questionStatsService?.fetchTestStats(testId).then(() => {
+        const curQ = this.filteredQuestions[this.currentIndex];
+        if (curQ) {
+          this.updateQuestionStatsBadge(curQ);
+        }
+      }).catch(() => {});
     }
 
     this.updateFilterStatusBadge();
@@ -2492,6 +2703,26 @@ class YDSApp {
       };
       this.saveExamSessions();
       this.renderYearExamCards();
+
+      // Topluluk soru istatistiklerini Firestore'a atomik batch olarak gönder (Fire-and-forget)
+      if (questions && questions.length > 0) {
+        const examResults = [];
+        questions.forEach(q => {
+          const ans = this.examAnswers[q.id] || this.userAnswers[q.id];
+          if (ans) {
+            examResults.push({
+              questionId: q.id,
+              isCorrect: !!ans.isCorrect
+            });
+          }
+        });
+        if (examResults.length > 0) {
+          const testId = window.questionStatsService?.resolveTestId(questions[0]);
+          if (testId) {
+            window.questionStatsService?.submitTestStats(testId, examResults);
+          }
+        }
+      }
     }
 
     // Reklam gösterimi
@@ -2680,6 +2911,7 @@ class YDSApp {
   }
 
   showHomeView() {
+    this.flushPendingStats();
     if (this.isExamMode) {
       this.pauseExamSmartTimer();
       document.getElementById("examModeBanner")?.classList.add("hidden");
@@ -3212,6 +3444,14 @@ class YDSApp {
     // Alıştırmanın kategorileriyle dropdown'ı doldur
     this.populateFilterDropdowns(practiceQuestions);
 
+    // Topluluk soru istatistiklerini alıştırma havuzu için tek seferde arka planda çek (Firestore kota tasarrufu: tek doküman)
+    window.questionStatsService?.fetchTestStats("practice_all").then(() => {
+      const curQ = this.filteredQuestions[this.currentIndex];
+      if (curQ) {
+        this.updateQuestionStatsBadge(curQ);
+      }
+    }).catch(() => {});
+
     this.showQuestionView("practice");
     this.updateFilterStatusBadge();
     this.renderQuestion();
@@ -3254,6 +3494,7 @@ class YDSApp {
   // --- Uygulama Ayarları Modalı ---
   openSettingsModal() {
     this.lockScroll();
+    this.updateAdFreeUI();
     const modal = document.getElementById("settingsModal");
     const input = document.getElementById("settingsNameInput");
     const soundToggle = document.getElementById("settingsSoundToggle");
@@ -3269,6 +3510,100 @@ class YDSApp {
   closeSettingsModal() {
     this.unlockScroll();
     document.getElementById("settingsModal")?.classList.add("hidden");
+  }
+
+  // --- Reklamsız Mod (Ad-Free / Premium) Yönetimi ---
+  openAdFreeModal() {
+    this.lockScroll();
+    this.updateAdFreeUI();
+    const modal = document.getElementById("adFreeModal");
+    if (modal) modal.classList.remove("hidden");
+  }
+
+  closeAdFreeModal(event) {
+    if (event && event.target && event.target.closest && event.target.closest(".bg-white")) {
+      return;
+    }
+    this.unlockScroll();
+    const modal = document.getElementById("adFreeModal");
+    if (modal) modal.classList.add("hidden");
+  }
+
+  updateAdFreeUI() {
+    const isAdFree = !!(window.ydsAdService?.getAdFree());
+    const badge = document.getElementById("adFreeStatusBadge");
+    const desc = document.getElementById("adFreeStatusDesc");
+    const inactiveBox = document.getElementById("adFreeInactiveContainer");
+    const activeBox = document.getElementById("adFreeActiveContainer");
+
+    if (badge) {
+      if (isAdFree) {
+        badge.classList.remove("hidden");
+      } else {
+        badge.classList.add("hidden");
+      }
+    }
+
+    if (desc) {
+      desc.textContent = isAdFree 
+        ? "Examdil Premium aktif. Tüm reklamlar kaldırıldı."
+        : "Tüm banner ve geçiş reklamlarını kaldırın.";
+    }
+
+    if (inactiveBox && activeBox) {
+      if (isAdFree) {
+        inactiveBox.classList.add("hidden");
+        activeBox.classList.remove("hidden");
+      } else {
+        inactiveBox.classList.remove("hidden");
+        activeBox.classList.add("hidden");
+      }
+    }
+  }
+
+  applyPromoCode() {
+    const input = document.getElementById("vipPromoCodeInput");
+    const msg = document.getElementById("promoCodeMessage");
+    if (!input || !msg) return;
+
+    const code = (input.value || "").trim().toUpperCase();
+    if (!code) {
+      msg.textContent = "Lütfen bir kod giriniz.";
+      msg.className = "text-[11px] font-bold text-rose-500 block";
+      return;
+    }
+
+    const validCodes = ["EXAMDILVIP", "PREMIUM2026", "REKLAMSIZ", "EXAMDILPREMIUM", "VIP"];
+    if (validCodes.includes(code)) {
+      window.ydsAdService?.setAdFree(true);
+      this.updateAdFreeUI();
+      msg.textContent = "🎉 Tebrikler! Examdil Premium ve Reklamsız Mod ömür boyu aktif edildi.";
+      msg.className = "text-[11px] font-bold text-emerald-600 dark:text-emerald-400 block";
+      input.value = "";
+    } else {
+      msg.textContent = "❌ Geçersiz veya süresi dolmuş kod.";
+      msg.className = "text-[11px] font-bold text-rose-500 block";
+    }
+  }
+
+  purchaseAdFree() {
+    alert("👑 Examdil Reklamsız Sürüm Google Play satın alma ekranı hazırlanıyor.\n\nŞu an test için aşağıdaki promosyon kodunu kullanabilirsiniz: EXAMDILVIP");
+  }
+
+  restorePurchases() {
+    const isAdFree = !!(window.ydsAdService?.getAdFree());
+    if (isAdFree) {
+      alert("✓ Satın alımlarınız kontrol edildi: Examdil Premium hesabınızda zaten aktif.");
+    } else {
+      alert("Google Play hesabınızda kayıtlı geçmiş bir satın alma bulunamadı.");
+    }
+  }
+
+  toggleAdFreeForTesting() {
+    const current = !!(window.ydsAdService?.getAdFree());
+    window.ydsAdService?.setAdFree(!current);
+    this.updateAdFreeUI();
+    alert(`Reklamsız mod ${!current ? 'AÇILDI' : 'KAPATILDI (Reklamlar tekrar aktif)'}.`);
   }
 
   saveSettingsName() {
@@ -3607,6 +3942,7 @@ class YDSApp {
     const actualAnswer = q.answer || q.correctAnswer;
 
     this._dailyQuestion = q;
+    this.updateDailyQuestionStatsBadge(q);
     
     const answeredKey = "yds_daily_" + today.toLocaleDateString("tr-TR");
     const isAnswered = localStorage.getItem(answeredKey);
@@ -3691,6 +4027,18 @@ class YDSApp {
     if (localStorage.getItem("yds_daily_" + today)) return;
 
     localStorage.setItem("yds_daily_" + today, selectedKey);
+
+    // Günün sorusu cevabını anında topluluk istatistiklerine atomik olarak aktar
+    const actualAnswer = this._dailyQuestion.answer || this._dailyQuestion.correctAnswer;
+    const isCorrect = selectedKey === actualAnswer;
+    const testId = window.questionStatsService?.resolveTestId(this._dailyQuestion);
+    if (testId) {
+      window.questionStatsService?.submitTestStats(testId, [{
+        questionId: this._dailyQuestion.id,
+        isCorrect: isCorrect
+      }]);
+    }
+
     this.renderDailyQuestion();
     
     // Konfeti veya ses efekti eklenebilir
@@ -3724,6 +4072,7 @@ class YDSApp {
   handleHardwareBackButton() {
     // 1. Açık bir modal veya çekmece varsa kapat (en üstteki panel)
     const modals = [
+      { id: "adFreeModal", closeFn: () => this.closeAdFreeModal() },
       { id: "allNotesModal", closeFn: () => this.closeAllNotesModal() },
       { id: "questionNoteDrawer", closeFn: () => this.closeQuestionNoteDrawer() },
       { id: "learnedVocabModal", closeFn: () => this.closeLearnedVocabModal() },
