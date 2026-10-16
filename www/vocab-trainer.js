@@ -147,7 +147,9 @@ class VocabTrainer {
     if (this.unlearnedQueue.length === 0) {
       this.container.innerHTML = `
         <div class="flex flex-col items-center justify-center h-full text-center p-6 bg-white dark:bg-gray-800 rounded-3xl shadow-xl border border-indigo-100 dark:border-gray-700">
-          <div class="w-20 h-20 rounded-full bg-emerald-100 dark:bg-emerald-950 flex items-center justify-center text-4xl mb-3 shadow-inner">🏆</div>
+          <div class="w-20 h-20 rounded-full bg-emerald-100 dark:bg-emerald-950 flex items-center justify-center mb-3 shadow-inner text-emerald-600 dark:text-emerald-400">
+            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+          </div>
           <h3 class="text-2xl font-black text-gray-900 dark:text-white mb-1">Tebrikler!</h3>
           <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">Tüm kelimeleri başarıyla öğrendiniz.</p>
           <button onclick="window.vocabTrainer.resetLearnedVocab()" class="px-6 py-3 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white rounded-2xl font-black text-sm shadow-lg shadow-indigo-500/25 active:scale-95 transition">
@@ -173,16 +175,16 @@ class VocabTrainer {
 
       cardEl.innerHTML = `
         <!-- ÖN YÜZ (İngilizce) -->
-        <div class="vocab-card-face vocab-card-front bg-gradient-to-b from-white via-white to-slate-50 dark:from-gray-800 dark:via-gray-800 dark:to-slate-850">
+        <div class="vocab-card-face vocab-card-front bg-gradient-to-b from-white via-white to-slate-50 dark:from-gray-800 dark:via-gray-800 dark:to-gray-900">
           <!-- Üst Bilgi Barı -->
           <div class="flex items-center justify-between w-full z-10 pointer-events-auto">
             <div class="flex items-center space-x-1.5 px-3 py-1.5 rounded-2xl bg-amber-50 dark:bg-amber-950/50 text-amber-700 dark:text-amber-300 border border-amber-200/80 dark:border-amber-800/80 text-[11px] font-black shadow-2xs">
-              <span>🔥</span>
+              <svg class="w-3.5 h-3.5 text-amber-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.527.82-1.124 1.956-1.528 3.013a22.25 22.25 0 00-1.148 4.288A4.978 4.978 0 006 12a5 5 0 0010 0c0-.82-.2-1.594-.555-2.278a22.348 22.348 0 00-1.6-3.84c-.392-.74-.82-1.47-1.45-2.329zm-3.82 8.64a3 3 0 015.425 0c.26.474.4.998.4 1.54 0 1.657-1.343 3-3 3s-3-1.343-3-3c0-.542.14-1.066.4-1.54z" clip-rule="evenodd"/></svg>
               <span>YDS'de ${item.freq} Kez</span>
             </div>
             
             <button type="button" class="goToQuestionsBtn flex items-center space-x-1 px-3 py-1.5 rounded-2xl bg-gradient-to-r from-indigo-500 to-violet-600 hover:from-indigo-600 hover:to-violet-700 text-white text-[11px] font-extrabold shadow-sm shadow-indigo-500/30 transition transform active:scale-95" title="Kelimenin geçtiği sorulara git">
-              <span>📖</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
               <span>${qCount} Soruya Git</span>
               <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
             </button>
@@ -198,7 +200,6 @@ class VocabTrainer {
               ${item.word}
             </h2>
             <div class="mt-4 inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-full bg-indigo-50/80 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 text-xs font-bold border border-indigo-100 dark:border-indigo-900/40 animate-pulse">
-              <span>👆</span>
               <span>Anlamı görmek için dokunun</span>
             </div>
           </div>
@@ -213,7 +214,7 @@ class VocabTrainer {
         </div>
 
         <!-- ARKA YÜZ (Türkçe Anlamlar) -->
-        <div class="vocab-card-face vocab-card-back bg-gradient-to-b from-slate-50 via-white to-indigo-50/40 dark:from-slate-850 dark:via-gray-800 dark:to-indigo-950/30">
+        <div class="vocab-card-face vocab-card-back bg-gradient-to-b from-slate-50 via-white to-indigo-50/40 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-950/30">
           <!-- Üst Bilgi Barı -->
           <div class="flex items-center justify-between w-full z-10 pointer-events-auto">
             <span class="text-xs font-extrabold text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1.5 rounded-2xl border border-indigo-100 dark:border-indigo-900/50">
@@ -221,7 +222,7 @@ class VocabTrainer {
             </span>
             
             <button type="button" class="goToQuestionsBtn flex items-center space-x-1 px-3 py-1.5 rounded-2xl bg-gradient-to-r from-indigo-500 to-violet-600 hover:from-indigo-600 hover:to-violet-700 text-white text-[11px] font-extrabold shadow-sm shadow-indigo-500/30 transition transform active:scale-95" title="Kelimenin geçtiği sorulara git">
-              <span>📖</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
               <span>${qCount} Soruya Git</span>
               <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
             </button>
@@ -421,6 +422,7 @@ class VocabTrainer {
         this.learnedVocab.add(wordObj.word);
         this.saveLearnedVocab();
       }
+      window.ydsApp?.recordDailyActivity?.(1);
     } else {
       card.classList.add('swipe-left');
       const nopeEl = card.querySelector('.vocab-feedback.nope');
@@ -475,7 +477,9 @@ class VocabTrainer {
     if (this.learnedVocab.size === 0) {
       container.innerHTML = `
         <div class="text-center py-10 text-gray-400 dark:text-gray-500">
-          <div class="text-4xl mb-2">⭐</div>
+          <div class="w-12 h-12 mx-auto mb-2 rounded-2xl bg-amber-50 dark:bg-amber-950/40 text-amber-500 flex items-center justify-center">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
           <p class="font-bold text-sm">Henüz öğrendiğiniz bir kelime yok.</p>
           <p class="text-xs mt-1">Kartı sağa kaydırarak veya yeşil butona basarak kelimeleri buraya ekleyebilirsiniz.</p>
         </div>
@@ -495,7 +499,7 @@ class VocabTrainer {
               <div class="text-xs text-gray-500 dark:text-gray-300 font-medium truncate">${found.tr}</div>
             </div>
             <button onclick="window.vocabTrainer.closeLearnedVocabModal(); window.vocabTrainer.goToQuestions('${found.word}')" class="flex-shrink-0 flex items-center space-x-1 px-3 py-1.5 text-xs font-bold text-indigo-700 dark:text-indigo-200 bg-indigo-50 dark:bg-indigo-900/50 rounded-xl hover:bg-indigo-100 transition shadow-2xs" title="Sorularda Gör">
-              <span>📖</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
               <span>${qCount} Soru</span>
             </button>
           </div>

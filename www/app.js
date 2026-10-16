@@ -39,6 +39,40 @@ class YDSApp {
     this.pendingSessionStats = {};
     this.currentQuestionStats = null;
 
+    // Yeni Etkileşim & Çalışma Özellikleri Durumu (Paket 1)
+    this.eliminatedOptions = this.loadEliminatedOptions();
+    this.fontSizeScale = parseInt(localStorage.getItem("yds_font_scale") || "0", 10);
+    if (isNaN(this.fontSizeScale)) this.fontSizeScale = 0;
+    this.streakData = this.loadStreakData();
+    this.lastSession = this.loadLastSession();
+    this._recommendedWeakCategory = null;
+    this.vocabQuizState = {
+      mode: "pool",
+      questions: [],
+      currentIndex: 0,
+      correct: 0,
+      wrong: 0,
+      missed: [],
+      answered: false
+    };
+
+    // Yeni Etkileşim & Çalışma Özellikleri Durumu (Paket 2)
+    this.ydsScoreTarget = parseInt(localStorage.getItem("yds_score_target") || "70", 10) || 70;
+    this.clueHighlightEnabled = localStorage.getItem("yds_clue_highlight") === "true";
+    this.isSprintMode = false;
+    this.sprintTimerInterval = null;
+    this.sprintSecondsLeft = 300;
+    this.sprintTotalSeconds = 300;
+    this.sprintAnswers = {};
+    this.sprintBackupAnswers = {};
+    this.sprintRecords = this.loadSprintRecords();
+    this.isMistakeMelterMode = false;
+    this.mistakeMelterBackup = {};
+    this.mistakeMelterOrigins = {};
+    this.mistakeMelterSessionMelted = 0;
+    this.meltedMistakesCount = parseInt(localStorage.getItem("yds_melted_mistakes_count") || "0", 10) || 0;
+    this.grammarCampTab = "all";
+
     // Audio Context
     this.audioCtx = null;
 
@@ -80,6 +114,8 @@ class YDSApp {
     this.allQuestions = window.PRACTICE_YDS_QUESTIONS || [];
     this.activePool = this.allQuestions;
     this.setupEventListeners();
+    this.applyQuestionFontSize();
+    this.updateClueHighlightButtonUI();
     this.applyFilters();
     this.updateStats();
     this.updateHomeStats();
@@ -496,7 +532,7 @@ class YDSApp {
       correct: typeof stat.correct === "number" ? stat.correct : 0
     };
 
-    badgeText.textContent = `👥 ${stat.total} çözdü`;
+    badgeText.textContent = `${stat.total} çözdü`;
     badge.classList.remove("hidden");
   }
 
@@ -587,7 +623,7 @@ class YDSApp {
       correct: typeof stat.correct === "number" ? stat.correct : 0
     };
 
-    badgeText.textContent = `👥 ${stat.total} çözdü`;
+    badgeText.textContent = `${stat.total} çözdü`;
     badge.classList.remove("hidden");
   }
 
@@ -741,10 +777,12 @@ class YDSApp {
       if (noteEntries.length === 0) {
         container.innerHTML = `
           <div class="py-12 text-center text-gray-500 dark:text-gray-400 space-y-3">
-            <div class="w-16 h-16 rounded-3xl bg-amber-50 dark:bg-amber-950/40 text-amber-500 mx-auto flex items-center justify-center text-3xl shadow-xs">📝</div>
+            <div class="w-16 h-16 rounded-3xl bg-amber-50 dark:bg-amber-950/40 text-amber-500 mx-auto flex items-center justify-center shadow-xs">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+            </div>
             <h4 class="text-base font-bold text-gray-800 dark:text-gray-200">Henüz Kayıtlı Notunuz Yok</h4>
             <p class="text-xs sm:text-sm max-w-sm mx-auto leading-relaxed">
-              Soruları çözerken soru başlığındaki <strong>"📝 Not Al"</strong> butonuna tıklayarak soruya özel ipuçlarınızı ve kelime notlarınızı buraya kaydedebilirsiniz.
+              Soruları çözerken soru başlığındaki <strong>"Not Al"</strong> butonuna tıklayarak soruya özel ipuçlarınızı ve kelime notlarınızı buraya kaydedebilirsiniz.
             </p>
           </div>
         `;
@@ -1080,11 +1118,11 @@ class YDSApp {
       if (this.isPracticeMode) {
         if (scVal === "exams") {
           if (keywordSpan) {
-            keywordSpan.textContent = `🎯 Deneme Soruları: "${this.activeKeyword}" (${this.filteredQuestions.length} soru)`;
+            keywordSpan.textContent = `Deneme Soruları: "${this.activeKeyword}" (${this.filteredQuestions.length} soru)`;
           }
         } else if (scVal === "all") {
           if (keywordSpan) {
-            keywordSpan.textContent = `🌐 Tüm Sorular: "${this.activeKeyword}" (${this.filteredQuestions.length} soru)`;
+            keywordSpan.textContent = `Tüm Sorular: "${this.activeKeyword}" (${this.filteredQuestions.length} soru)`;
           }
         } else {
           if (keywordSpan) {
@@ -1111,9 +1149,9 @@ class YDSApp {
           const stNames = { unsolved: "Çözülmemişler", wrong: "Yanlış Yapılanlar", correct: "Doğru Yapılanlar", favorites: "Yıldızlılar" };
           label = stNames[stVal] || stVal;
         } else if (scVal === "exams" && catVal === "all" && stVal === "all") {
-          label = "🎯 Deneme Sınavı Soruları";
+          label = "Deneme Sınavı Soruları";
         } else if (scVal === "all" && catVal === "all" && stVal === "all") {
-          label = "🌐 Tüm Sorular (Alıştırma + Deneme)";
+          label = "Tüm Sorular (Alıştırma + Deneme)";
         }
         keywordSpan.textContent = label;
       }
@@ -1224,10 +1262,14 @@ class YDSApp {
                                (q.questionNumber >= 37 && q.questionNumber <= 39) ||
                                /[çğışöüÇĞİŞÖÜ]/.test(sampleOptText);
 
+      const eliminatedForQ = Array.isArray(this.eliminatedOptions?.[q.id]) ? this.eliminatedOptions[q.id] : [];
+
       const optKeys = ["A", "B", "C", "D", "E"];
       optKeys.forEach(key => {
         const optText = q.options ? q.options[key] : null;
         if (!optText) return;
+
+        const isEliminated = !existingAnswer && eliminatedForQ.includes(key);
 
         const optBtn = document.createElement("button");
         optBtn.className = "option-btn w-full p-4 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-left flex items-start space-x-3 group relative shadow-sm";
@@ -1246,6 +1288,8 @@ class YDSApp {
             statusClass = "option-wrong";
             badgeHtml = `<span class="ml-auto text-rose-600 dark:text-rose-400 font-bold flex items-center text-sm"><svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg> Yanlış</span>`;
           }
+        } else if (isEliminated) {
+          statusClass = "option-eliminated";
         }
 
         if (statusClass) {
@@ -1254,30 +1298,66 @@ class YDSApp {
 
         const interactiveOptText = isTurkishOptions ? optText : this.tokenizeInteractiveText(optText);
 
+        const eliminateBtnHtml = !existingAnswer ? `
+          <span role="button" tabindex="0" data-eliminate-key="${key}" title="${isEliminated ? 'Elenen şıkkı geri aç' : 'Bu şıkkı ele (Üstünü çiz)'}"
+            class="eliminate-opt-btn flex-shrink-0 ml-1 p-1.5 rounded-lg border transition-all ${
+              isEliminated
+                ? 'bg-rose-100 dark:bg-rose-950/80 text-rose-600 dark:text-rose-400 border-rose-300 dark:border-rose-800 hover:bg-rose-200'
+                : 'bg-gray-50 dark:bg-gray-700/60 text-gray-400 dark:text-gray-400 border-gray-200/80 dark:border-gray-600/80 hover:text-rose-600 dark:hover:text-rose-400 hover:border-rose-300 dark:hover:border-rose-700 hover:bg-rose-50 dark:hover:bg-rose-950/40'
+            }">
+            ${isEliminated
+              ? `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"/></svg>`
+              : `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"/></svg>`
+            }
+          </span>
+        ` : '';
+
         optBtn.innerHTML = `
 <div class="flex flex-col w-full min-w-0">
   ${badgeHtml ? `<div class="w-full flex justify-start sm:justify-end mb-2">${badgeHtml}</div>` : ''}
   <div class="flex items-start gap-3 w-full">
-    <span class="flex-shrink-0 w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 flex items-center justify-center font-bold text-sm group-hover:bg-indigo-600 group-hover:text-white transition-colors mt-0.5">
+    <span class="option-key-badge flex-shrink-0 w-8 h-8 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 flex items-center justify-center font-bold text-sm group-hover:bg-indigo-600 group-hover:text-white transition-colors mt-0.5">
       ${key}
     </span>
-    <div class="flex-1 text-gray-800 dark:text-gray-100 leading-relaxed font-medium break-words min-w-0 pt-1">
+    <div class="option-text-content flex-1 text-gray-800 dark:text-gray-100 leading-relaxed font-medium break-words min-w-0 pt-1">
       ${interactiveOptText}
     </div>
+    ${eliminateBtnHtml}
   </div>
 </div>
 `;
 
         optBtn.addEventListener("click", (e) => {
+          // Şık eleme butonuna tıklandıysa şıkkı seçme, sadece ele/geri aç
+          const elimBtn = e.target.closest(".eliminate-opt-btn");
+          if (elimBtn) {
+            e.preventDefault();
+            e.stopPropagation();
+            this.toggleEliminateOption(q.id, key, e);
+            return;
+          }
           // Eğer tıklanan eleman veya ebeveyni interaktif kelime ise şıkkı işaretleme, kelimeyi aç
           if (e.target.closest(".interactive-word")) return;
           // Zaten cevaplanmışsa yeni cevap seçme
           if (this.userAnswers[q.id]) return;
+          // Eğer şık elenmişse yanlışlıkla seçilmesini önle, önce elemeyi kaldır
+          if (Array.isArray(this.eliminatedOptions?.[q.id]) && this.eliminatedOptions[q.id].includes(key)) {
+            this.toggleEliminateOption(q.id, key, e);
+            return;
+          }
           this.handleOptionSelect(key);
         });
 
         optionsContainer.appendChild(optBtn);
       });
+    }
+
+    // Yazı boyutu ölçeğini uygula
+    this.applyQuestionFontSize();
+
+    // Kaldığın yerden devam et bilgisini kaydet
+    if (this.currentView === "question") {
+      this.recordCurrentSessionPosition(q);
     }
 
     // Açıklama / Çözüm Kartı
@@ -1362,8 +1442,9 @@ class YDSApp {
 
       const cleanForLookup = coreWord.toLowerCase();
       const isSearchMatch = kw && (cleanForLookup === kw);
+      const clueClass = this.clueHighlightEnabled ? this.getClueHighlightClass(cleanForLookup) : "";
 
-      const highlightClass = isSearchMatch ? "search-highlight" : "";
+      const highlightClass = [isSearchMatch ? "search-highlight" : "", clueClass].filter(Boolean).join(" ");
 
       return `${leading}<span class="interactive-word ${highlightClass}" data-word="${encodeURIComponent(cleanForLookup)}">${coreWord}</span>${trailing}`;
     }).join("");
@@ -1385,14 +1466,54 @@ class YDSApp {
     }
 
     const isCorrect = selectedOption === q.correctAnswer;
+    let justMeltedMistake = false;
+
+    // Akıllı Hata Eritme Modunda cevaplandıysa orijinal havuzunu da güncelle
+    if (this.isMistakeMelterMode) {
+      const origin = this.mistakeMelterOrigins?.[q.id] || "practice";
+      delete this.mistakeMelterBackup?.[q.id];
+
+      const recordObj = {
+        selected: selectedOption,
+        isCorrect: isCorrect,
+        timestamp: Date.now()
+      };
+
+      if (origin === "exam") {
+        this.examAnswers[q.id] = recordObj;
+        this.saveExamAnswers();
+      } else {
+        this.practiceAnswers[q.id] = recordObj;
+        this.savePracticeAnswers();
+      }
+
+      if (isCorrect) {
+        justMeltedMistake = true;
+        this.mistakeMelterSessionMelted = (this.mistakeMelterSessionMelted || 0) + 1;
+        this.meltedMistakesCount = (this.meltedMistakesCount || 0) + 1;
+        try {
+          localStorage.setItem("yds_melted_mistakes_count", String(this.meltedMistakesCount));
+        } catch (e) {}
+      }
+    }
 
     this.userAnswers[q.id] = {
       selected: selectedOption,
       isCorrect: isCorrect,
-      timestamp: Date.now()
+      timestamp: Date.now(),
+      _justMelted: justMeltedMistake
     };
 
+    if (this.isSprintMode) {
+      this.sprintAnswers[q.id] = {
+        selected: selectedOption,
+        isCorrect: isCorrect,
+        timestamp: Date.now()
+      };
+    }
+
     this.saveUserAnswers();
+    this.recordDailyActivity(1);
     this.updateHomeStats();
 
     // Ses çal
@@ -1406,8 +1527,23 @@ class YDSApp {
     this.renderQuestion();
     this.renderQuestionGrid();
 
+    if (this.isSprintMode) {
+      this.updateSprintBannerUI();
+      const allSprintAnswered = this.filteredQuestions.length > 0 && this.filteredQuestions.every(item => this.sprintAnswers[item.id] || this.userAnswers[item.id]);
+      if (allSprintAnswered) {
+        this.stopSprintTimer();
+        setTimeout(() => {
+          this.finishSprintMode();
+        }, 900);
+      }
+    }
+
+    if (this.isMistakeMelterMode) {
+      this.updateMistakeMelterBannerUI();
+    }
+
     // Normal serbest soru çözme modunda periyodik geçiş reklamı kontrolü (her 20 soruda bir)
-    if (!this.isExamMode) {
+    if (!this.isExamMode && !this.isSprintMode) {
       window.ydsAdService?.onQuestionAnswered();
       this.queueStatSubmission(q, isCorrect);
     }
@@ -1449,7 +1585,7 @@ class YDSApp {
       }
     }
 
-    // 🎯 Çözüm Yöntemi kartını gizliyoruz, metin doğrudan Detaylı Çözüm & Türkçe Çeviri içine yerleştirilecek
+    // Çözüm Yöntemi kartını gizliyoruz, metin doğrudan Detaylı Çözüm & Türkçe Çeviri içine yerleştirilecek
     const solutionCard = document.getElementById("solutionMethodCard");
     if (solutionCard) {
       solutionCard.classList.add("hidden");
@@ -1458,6 +1594,9 @@ class YDSApp {
     const feedbackBanner = document.getElementById("answerFeedbackBanner");
     if (feedbackBanner) {
       if (answer.isCorrect) {
+        const meltedExtra = answer._justMelted
+          ? `<span class="inline-flex items-center gap-1 mt-1.5 px-2.5 py-0.5 rounded-full text-xs font-extrabold bg-emerald-600 text-white">Hata Havuzunuzdan Eritildi! (+1 Net)</span>`
+          : "";
         feedbackBanner.className = "p-4 rounded-xl mb-4 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-emerald-800 dark:text-emerald-200 flex items-center space-x-3";
         feedbackBanner.innerHTML = `
           <div class="w-10 h-10 rounded-full bg-emerald-100 dark:bg-emerald-900 flex items-center justify-center flex-shrink-0 text-emerald-600 dark:text-emerald-400">
@@ -1466,6 +1605,7 @@ class YDSApp {
           <div>
             <h4 class="font-bold text-base">Tebrikler! Doğru Cevap: (${q.correctAnswer})</h4>
             <p class="text-sm opacity-90">Soruyu başarıyla çözdünüz. Aşağıdaki özel taktiği ve açıklamayı inceleyebilirsiniz.</p>
+            ${meltedExtra}
           </div>
         `;
       } else {
@@ -1513,7 +1653,7 @@ class YDSApp {
               <span class="text-gray-600 dark:text-gray-300 ml-2">: ${meaning}</span>
             </div>
             <button class="add-to-pool-btn p-1.5 rounded-lg text-xs font-semibold flex items-center space-x-1 ${isSaved ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300' : 'bg-indigo-50 text-indigo-700 dark:bg-indigo-950 dark:text-indigo-300 hover:bg-indigo-100'}">
-              ${isSaved ? '<span>✓ Havuzda</span>' : '<span>+ Havuza Ekle</span>'}
+              ${isSaved ? '<span>Havuzda</span>' : '<span>+ Havuza Ekle</span>'}
             </button>
           `;
 
@@ -1593,7 +1733,7 @@ class YDSApp {
       btn.innerHTML = `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> <span>Öğrenme Havuzunda Ekli (Kaldır)</span>`;
     } else {
       btn.className = "w-full py-2.5 px-4 rounded-xl font-semibold text-sm flex items-center justify-center space-x-2 bg-indigo-600 text-white hover:bg-indigo-700 transition";
-      btn.innerHTML = `<span>⭐️ Öğrenme Havuzuma Ekle</span>`;
+      btn.innerHTML = `<svg class="w-4 h-4 text-amber-300" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><span>Öğrenme Havuzuma Ekle</span>`;
     }
   }
 
@@ -1728,7 +1868,9 @@ class YDSApp {
     if (this.masteredWords.length === 0) {
       container.innerHTML = `
         <div class="text-center py-12 text-gray-500 dark:text-gray-400">
-          <p class="text-4xl mb-3">🎓</p>
+          <div class="w-16 h-16 mx-auto mb-3 rounded-2xl bg-indigo-50 dark:bg-indigo-950/50 flex items-center justify-center text-indigo-500">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          </div>
           <p class="text-lg font-medium">Henüz öğrendiğin kelime yok.</p>
           <p class="text-sm mt-1">Flaş Kart modunda "Öğrendim" butonuna basarak kelimeleri buraya taşıyabilirsin.</p>
         </div>
@@ -1762,7 +1904,7 @@ class YDSApp {
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/>
                 </svg>
               </button>
-              <span class="px-2 py-0.5 rounded-full text-xs font-bold bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300">✓ Öğrenildi</span>
+              <span class="px-2 py-0.5 rounded-full text-xs font-bold bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300">Öğrenildi</span>
             </div>
             ${meaningHtml}
             ${dateHtml}
@@ -1960,7 +2102,7 @@ class YDSApp {
 
         if (this.learningPool.length === 0) {
           this.closeFlashcardsModal();
-          alert("🎉 Tebrikler! Öğrenme havuzundaki tüm kelimeleri başarıyla öğrendiniz.");
+          alert("Tebrikler! Öğrenme havuzundaki tüm kelimeleri başarıyla öğrendiniz.");
           return;
         }
 
@@ -2250,13 +2392,13 @@ class YDSApp {
       if (this.isExamTimerPaused) {
         badge.className = "flex items-center space-x-1 px-2 py-0.5 rounded-md text-[11px] font-bold bg-amber-500/30 text-amber-200 border border-amber-400/40";
         dot.className = "w-2 h-2 rounded-full bg-amber-400";
-        statusText.textContent = "⏸️ Süre Duraklatıldı (Manuel/Açıklama)";
+        statusText.textContent = "Süre Duraklatıldı (Manuel/Açıklama)";
         if (playIcon) playIcon.classList.remove("hidden");
         if (pauseIcon) pauseIcon.classList.add("hidden");
       } else {
         badge.className = "flex items-center space-x-1 px-2 py-0.5 rounded-md text-[11px] font-bold bg-emerald-500/30 text-emerald-200 border border-emerald-400/30";
         dot.className = "w-2 h-2 rounded-full bg-emerald-400 animate-pulse";
-        statusText.textContent = "🟢 Süre İşliyor";
+        statusText.textContent = "Süre İşliyor";
         if (playIcon) playIcon.classList.add("hidden");
         if (pauseIcon) pauseIcon.classList.remove("hidden");
       }
@@ -2303,7 +2445,7 @@ class YDSApp {
       const lastSession = this.examSessions[exam.name] || this.examSessions[exam.year];
 
       const card = document.createElement("div");
-      card.className = "p-4 sm:p-5 rounded-2xl bg-white dark:bg-gray-750 border border-gray-200 dark:border-gray-700 hover:border-indigo-500 dark:hover:border-indigo-400 transition-all shadow-sm hover:shadow-md flex flex-col justify-between space-y-4 group";
+      card.className = "p-4 sm:p-5 rounded-2xl bg-white dark:bg-gray-700/70 border border-gray-200 dark:border-gray-600 hover:border-indigo-500 dark:hover:border-indigo-400 transition-all shadow-sm hover:shadow-md flex flex-col justify-between space-y-4 group";
 
       let statusBadge = "";
       if (lastSession) {
@@ -2318,8 +2460,8 @@ class YDSApp {
       if (lastSession) {
         actionButtons = `
           <button class="restart-year-btn px-3 py-1.5 rounded-xl text-xs font-bold bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300 hover:bg-gray-200 transition active:scale-95">Baştan Başla</button>
-          <button class="view-scorecard-btn px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-bold bg-emerald-600 text-white hover:bg-emerald-700 transition shadow-sm shadow-emerald-500/20 active:scale-95 flex items-center space-x-1">
-            <span>🏆</span>
+          <button class="view-scorecard-btn px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-bold bg-emerald-600 text-white hover:bg-emerald-700 transition shadow-sm shadow-emerald-500/20 active:scale-95 flex items-center space-x-1.5">
+            <svg class="w-4 h-4 text-emerald-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
             <span>Karneni Gör</span>
           </button>
         `;
@@ -2410,6 +2552,7 @@ class YDSApp {
 
   startExamMode(examIdentifier) {
     this.flushPendingStats();
+    this.cleanupSpecialQuestionModes?.();
     this.practiceSessionActive = false;
     this.isPracticeMode = false;
     this.isExamMode = true;
@@ -2565,7 +2708,7 @@ class YDSApp {
       // Aktif sınav oturumunu sonlandırıp karneye bakıyoruz
       if (this.isExamMode) {
         const confirmFinish = confirm(
-          "⚠️ Deneme Sınavını Sonlandırmak Üzeresiniz!\n\n" +
+          "Deneme Sınavını Sonlandırmak Üzeresiniz!\n\n" +
           "Karnenizi görüntülediğinizde deneme sınavınız sonlandırılacak, resmi puanınız ve analizleriniz hesaplanacaktır. " +
           "Daha sonra kaldığınız yerden teste devam edemezsiniz.\n\n" +
           "Sınavı bitirip sonuçlarınızı görmek istiyor musunuz?"
@@ -2912,6 +3055,7 @@ class YDSApp {
 
   showHomeView() {
     this.flushPendingStats();
+    this.cleanupSpecialQuestionModes?.();
     if (this.isExamMode) {
       this.pauseExamSmartTimer();
       document.getElementById("examModeBanner")?.classList.add("hidden");
@@ -3010,13 +3154,13 @@ class YDSApp {
     const modeBadge = document.getElementById("questionViewModeBadge");
     if (modeBadge) {
       if (mode === "practice") {
-        modeBadge.textContent = "⚡ Alıştırma Modu (Bağımsız Havuz)";
+        modeBadge.textContent = "Alıştırma Modu (Bağımsız Havuz)";
         modeBadge.className = "px-3 py-1 rounded-full text-xs font-bold bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300";
       } else if (mode === "exam") {
-        modeBadge.textContent = `📝 ${this.currentExamName || (this.currentExamYear ? this.currentExamYear + ' YDS' : 'YDS Tam Deneme')}`;
+        modeBadge.textContent = this.currentExamName || (this.currentExamYear ? this.currentExamYear + ' YDS' : 'YDS Tam Deneme');
         modeBadge.className = "px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300";
       } else {
-        modeBadge.textContent = "🔍 Soru Bankası";
+        modeBadge.textContent = "Soru Bankası";
         modeBadge.className = "px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300";
       }
     }
@@ -3062,9 +3206,10 @@ class YDSApp {
     const homeName = document.getElementById("homeUserNameText");
     if (homeName) homeName.textContent = this.userName || "Aday";
 
-    const answeredEntries = Object.values(this.userAnswers);
+    const combinedAnswers = { ...(this.practiceAnswers || {}), ...(this.examAnswers || {}) };
+    const answeredEntries = Object.values(combinedAnswers);
     const totalSolved = answeredEntries.length;
-    const totalCorrect = answeredEntries.filter(a => a.isCorrect).length;
+    const totalCorrect = answeredEntries.filter(a => a && a.isCorrect).length;
     const accuracy = totalSolved > 0 ? Math.round((totalCorrect / totalSolved) * 100) : 0;
     const totalExams = Object.keys(this.examSessions).length;
 
@@ -3075,6 +3220,14 @@ class YDSApp {
     if (kpiSolved) kpiSolved.textContent = totalSolved;
     if (kpiAccuracy) kpiAccuracy.textContent = `%${accuracy}`;
     if (kpiExams) kpiExams.textContent = totalExams;
+
+    // Günlük Seri, Son Oturum, Zayıf Konu Koçu ve Paket 2 Kartlarını güncelle
+    this.renderStreakAndGoalUI();
+    this.updateContinueSessionUI();
+    this.updateWeakTopicCoachUI();
+    this.updateYdsScoreTargetUI?.();
+    this.updateSprintHomeBadgeUI?.();
+    this.updateMistakeMelterHomeUI?.();
   }
 
   initDailyTip() {
@@ -3097,9 +3250,10 @@ class YDSApp {
 
   // --- Karne & Rapor Ekranı Hesaplamaları ---
   renderReportView() {
-    const answeredEntries = Object.values(this.userAnswers);
+    const combinedAnswers = { ...(this.practiceAnswers || {}), ...(this.examAnswers || {}) };
+    const answeredEntries = Object.values(combinedAnswers);
     const totalSolved = answeredEntries.length;
-    const totalCorrect = answeredEntries.filter(a => a.isCorrect).length;
+    const totalCorrect = answeredEntries.filter(a => a && a.isCorrect).length;
     const totalWrong = totalSolved - totalCorrect;
     const accuracy = totalSolved > 0 ? Math.round((totalCorrect / totalSolved) * 100) : 0;
 
@@ -3128,6 +3282,9 @@ class YDSApp {
       repLearnedWeek.textContent = weeklyCount;
     }
 
+    this.updateMistakeMelterHomeUI?.();
+    this.renderWeeklyActivityChart?.();
+
     // Kategori Dağılım Çubukları
     this.renderCategoryReportBars();
 
@@ -3152,22 +3309,25 @@ class YDSApp {
     container.innerHTML = "";
 
     const questionMap = new Map();
+    if (window.questionRepo && typeof window.questionRepo.getAll === "function") {
+      window.questionRepo.getAll().forEach(q => questionMap.set(q.id, q));
+    }
     (this.allQuestions || []).forEach(q => questionMap.set(q.id, q));
     if (window.PRACTICE_YDS_QUESTIONS) {
       window.PRACTICE_YDS_QUESTIONS.forEach(q => questionMap.set(q.id, q));
     }
 
     const standardCategories = [
-      { name: "Kelime Bilgisi (Vocabulary & Phrasal Verbs)", match: ["kelime", "vocabulary", "phrasal"], icon: "📚" },
-      { name: "Dilbilgisi & Zamanlar (Grammar & Tenses)", match: ["dilbilgisi", "grammar", "tenses", "preposition"], icon: "📐" },
-      { name: "Cloze Test (Parça İçi Boşluk)", match: ["cloze"], icon: "🧩" },
-      { name: "Cümle Tamamlama (Sentence Completion)", match: ["cümle tamamlama", "sentence"], icon: "🔗" },
-      { name: "Çeviri (İngilizce ↔ Türkçe)", match: ["çeviri", "translation"], icon: "🌐" },
-      { name: "Okuma Parçaları (Reading Passages)", match: ["okuma", "parça", "reading"], icon: "📖" },
-      { name: "Diyalog Tamamlama (Dialogue)", match: ["diyalog", "dialogue"], icon: "💬" },
-      { name: "Anlamca En Yakın Cümle (Restatement)", match: ["anlamca en yakın", "restatement"], icon: "🔄" },
-      { name: "Paragraf Tamamlama (Paragraph Completion)", match: ["paragraf tamamlama"], icon: "📝" },
-      { name: "Anlatım Bütünlüğü / Akışı Bozan (Irrelevant)", match: ["anlatım", "akışı bozan", "irrelevant"], icon: "✂️" }
+      { name: "Kelime Bilgisi (Vocabulary & Phrasal Verbs)", match: ["kelime", "vocabulary", "phrasal"] },
+      { name: "Dilbilgisi & Zamanlar (Grammar & Tenses)", match: ["dilbilgisi", "grammar", "tenses", "preposition"] },
+      { name: "Cloze Test (Parça İçi Boşluk)", match: ["cloze"] },
+      { name: "Cümle Tamamlama (Sentence Completion)", match: ["cümle tamamlama", "sentence"] },
+      { name: "Çeviri (İngilizce ↔ Türkçe)", match: ["çeviri", "translation"] },
+      { name: "Okuma Parçaları (Reading Passages)", match: ["okuma", "parça", "reading"] },
+      { name: "Diyalog Tamamlama (Dialogue)", match: ["diyalog", "dialogue"] },
+      { name: "Anlamca En Yakın Cümle (Restatement)", match: ["anlamca en yakın", "restatement"] },
+      { name: "Paragraf Tamamlama (Paragraph Completion)", match: ["paragraf tamamlama"] },
+      { name: "Anlatım Bütünlüğü / Akışı Bozan (Irrelevant)", match: ["anlatım", "akışı bozan", "irrelevant"] }
     ];
 
     const statsByCategory = standardCategories.map(cat => ({
@@ -3179,7 +3339,9 @@ class YDSApp {
     let otherTotal = 0;
     let otherCorrect = 0;
 
-    Object.entries(this.userAnswers).forEach(([qId, ans]) => {
+    const combinedAnswers = { ...(this.practiceAnswers || {}), ...(this.examAnswers || {}) };
+
+    Object.entries(combinedAnswers).forEach(([qId, ans]) => {
       const q = questionMap.get(qId);
       if (!q) return;
 
@@ -3201,7 +3363,7 @@ class YDSApp {
       }
     });
 
-    const totalAnswered = Object.keys(this.userAnswers).length;
+    const totalAnswered = Object.keys(combinedAnswers).length;
     if (totalAnswered === 0) {
       container.innerHTML = `
         <div class="text-center py-6 text-gray-400 text-xs sm:text-sm">
@@ -3225,31 +3387,38 @@ class YDSApp {
       }
 
       const row = document.createElement("div");
-      row.className = "space-y-1.5 p-3 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-100 dark:border-gray-700/60";
+      row.className = "space-y-2 p-3 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-100 dark:border-gray-600/60";
       row.innerHTML = `
-        <div class="flex items-center justify-between text-xs sm:text-sm">
-          <span class="font-bold text-gray-800 dark:text-gray-200 flex items-center space-x-1.5">
-            <span>${stat.icon}</span>
-            <span>${stat.name}</span>
+        <div class="flex items-center justify-between gap-2 text-xs sm:text-sm">
+          <span class="font-bold text-gray-800 dark:text-gray-200">
+            ${stat.name}
           </span>
-          <span class="font-extrabold ${badgeTextColor}">
-            ${stat.correct} / ${stat.total} Doğru (%${pct})
-          </span>
+          <div class="flex items-center gap-2 flex-shrink-0">
+            <span class="font-extrabold ${badgeTextColor}">
+              ${stat.correct} / ${stat.total} Doğru (%${pct})
+            </span>
+            <button type="button" data-practice-cat="${stat.match[0]}" class="practice-cat-btn px-2.5 py-1 rounded-lg bg-indigo-100 hover:bg-indigo-600 dark:bg-indigo-950/80 dark:hover:bg-indigo-600 text-indigo-700 hover:text-white dark:text-indigo-300 dark:hover:text-white text-[11px] font-extrabold transition active:scale-95">
+              Bu Konuyu Çalış →
+            </button>
+          </div>
         </div>
         <div class="w-full h-2.5 rounded-full bg-gray-200 dark:bg-gray-700 overflow-hidden">
           <div class="h-full rounded-full ${barColor} transition-all duration-500" style="width: ${pct}%"></div>
         </div>
       `;
+      row.querySelector(".practice-cat-btn")?.addEventListener("click", () => {
+        this.startWeakTopicPractice(stat.match[0]);
+      });
       container.appendChild(row);
     });
 
     if (otherTotal > 0) {
       const pct = Math.round((otherCorrect / otherTotal) * 100);
       const row = document.createElement("div");
-      row.className = "space-y-1.5 p-3 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-100 dark:border-gray-700/60";
+      row.className = "space-y-1.5 p-3 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-100 dark:border-gray-600/60";
       row.innerHTML = `
         <div class="flex items-center justify-between text-xs sm:text-sm">
-          <span class="font-bold text-gray-800 dark:text-gray-200">📌 Diğer Soru Tipleri</span>
+          <span class="font-bold text-gray-800 dark:text-gray-200">Diğer Soru Tipleri</span>
           <span class="font-extrabold text-indigo-600 dark:text-indigo-400">
             ${otherCorrect} / ${otherTotal} Doğru (%${pct})
           </span>
@@ -3286,7 +3455,7 @@ class YDSApp {
 
     this.renderPersonalizedTactics();
     this.playCorrectSound();
-    alert("🎉 Harika! Ödüllü video izlendi ve Kişiselleştirilmiş Hata & Sınav Taktikleri Rehberinizin kilidi açıldı!");
+    alert("Harika! Ödüllü video izlendi ve Kişiselleştirilmiş Hata & Sınav Taktikleri Rehberinizin kilidi açıldı!");
   }
 
   renderPersonalizedTactics() {
@@ -3311,7 +3480,7 @@ class YDSApp {
       container.innerHTML = `
         <div class="space-y-4">
           <div class="p-3.5 rounded-xl bg-indigo-500/20 border border-indigo-400/30">
-            <h5 class="font-extrabold text-amber-300 text-sm sm:text-base">🌟 Tebrikler! Henüz Yanlış Cevabınız Bulunmuyor.</h5>
+            <h5 class="font-extrabold text-amber-300 text-sm sm:text-base">Tebrikler! Henüz Yanlış Cevabınız Bulunmuyor.</h5>
             <p class="mt-1 text-xs sm:text-sm text-indigo-100">
               YDS hazırlığınız harika gidiyor! Sınavda 80+ üstü puanı garantilemek için altın değerindeki bu 4 evrensel YDS taktiğini mutlaka uygulayın:
             </p>
@@ -3351,7 +3520,7 @@ class YDSApp {
     let tacticsHtml = `
       <div class="space-y-4">
         <div class="p-3.5 rounded-xl bg-rose-500/20 border border-rose-400/30">
-          <h5 class="font-extrabold text-amber-300 text-sm sm:text-base">🎯 Kişiselleştirilmiş Hata Analiziniz (${wrongList.length} Yanlış Tespit Edildi)</h5>
+          <h5 class="font-extrabold text-amber-300 text-sm sm:text-base">Kişiselleştirilmiş Hata Analiziniz (${wrongList.length} Yanlış Tespit Edildi)</h5>
           <p class="mt-1 text-xs sm:text-sm text-indigo-100">
             Yapay zeka analiz motorumuz hata yaptığınız soruları kategorize etti. İşte en çok puan kaybettiğiniz alanlar ve nokta atışı çözüm reçeteleri:
           </p>
@@ -3362,7 +3531,7 @@ class YDSApp {
 
     sortedWeak.forEach(([catName, count]) => {
       const lower = catName.toLowerCase();
-      let tacticTitle = `📌 ${catName} (${count} Hata)`;
+      let tacticTitle = `${catName} (${count} Hata)`;
       let tacticBody = "";
 
       if (lower.includes("kelime") || lower.includes("vocabulary")) {
@@ -3401,6 +3570,7 @@ class YDSApp {
 
   // --- Alıştırmalık Sorular Modu (Denemelerden Tamamen Bağımsız Havuz) ---
   startPracticeMode() {
+    this.cleanupSpecialQuestionModes?.();
     if (this.isExamMode) {
       this.stopExamSmartTimer();
       this.isExamMode = false;
@@ -3516,8 +3686,30 @@ class YDSApp {
   openAdFreeModal() {
     this.lockScroll();
     this.updateAdFreeUI();
+    this.loadStorePrice();
     const modal = document.getElementById("adFreeModal");
     if (modal) modal.classList.remove("hidden");
+  }
+
+  async loadStorePrice() {
+    const isIOS = window.Capacitor?.getPlatform() === 'ios' || /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const Billing = isIOS 
+      ? (window.Capacitor?.Plugins?.AppStoreBilling)
+      : (window.Capacitor?.Plugins?.GooglePlayBilling);
+
+    if (Billing && typeof Billing.getProductDetails === 'function') {
+      try {
+        const details = await Billing.getProductDetails({ productId: 'remove_ads' });
+        if (details && details.formattedPrice) {
+          const badge = document.getElementById("adFreePriceTag");
+          if (badge) {
+            badge.textContent = details.formattedPrice;
+          }
+        }
+      } catch (e) {
+        // Varsayılan fiyat zaten gösterimde
+      }
+    }
   }
 
   closeAdFreeModal(event) {
@@ -3546,7 +3738,7 @@ class YDSApp {
 
     if (desc) {
       desc.textContent = isAdFree 
-        ? "Examdil Premium aktif. Tüm reklamlar kaldırıldı."
+        ? "Examgo Premium aktif. Tüm reklamlar kaldırıldı."
         : "Tüm banner ve geçiş reklamlarını kaldırın.";
     }
 
@@ -3561,41 +3753,83 @@ class YDSApp {
     }
   }
 
-  applyPromoCode() {
-    const input = document.getElementById("vipPromoCodeInput");
-    const msg = document.getElementById("promoCodeMessage");
-    if (!input || !msg) return;
+  async purchaseAdFree() {
+    const isIOS = window.Capacitor?.getPlatform() === 'ios' || /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const Billing = isIOS
+      ? (window.Capacitor?.Plugins?.AppStoreBilling)
+      : (window.Capacitor?.Plugins?.GooglePlayBilling);
+    const storeName = isIOS ? "App Store" : "Google Play";
 
-    const code = (input.value || "").trim().toUpperCase();
-    if (!code) {
-      msg.textContent = "Lütfen bir kod giriniz.";
-      msg.className = "text-[11px] font-bold text-rose-500 block";
-      return;
-    }
+    const btn = document.getElementById("purchaseAdFreeBtn");
+    const priceTag = document.getElementById("adFreePriceTag");
+    const currentPrice = priceTag ? priceTag.textContent : "₺23,99";
 
-    const validCodes = ["EXAMDILVIP", "PREMIUM2026", "REKLAMSIZ", "EXAMDILPREMIUM", "VIP"];
-    if (validCodes.includes(code)) {
-      window.ydsAdService?.setAdFree(true);
-      this.updateAdFreeUI();
-      msg.textContent = "🎉 Tebrikler! Examdil Premium ve Reklamsız Mod ömür boyu aktif edildi.";
-      msg.className = "text-[11px] font-bold text-emerald-600 dark:text-emerald-400 block";
-      input.value = "";
+    if (Billing && typeof Billing.purchase === 'function') {
+      try {
+        if (btn) {
+          btn.disabled = true;
+          btn.innerHTML = `<span class="flex items-center gap-2"><span>${storeName} Bağlanıyor...</span></span><span class="text-xs bg-black/20 px-2.5 py-1 rounded-full font-bold tracking-wide">${currentPrice}</span>`;
+        }
+
+        const res = await Billing.purchase({ productId: 'remove_ads' });
+
+        if (btn) {
+          btn.disabled = false;
+          btn.innerHTML = `<span class="flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><span>Reklamsız Sürüme Geç</span></span><span class="text-xs bg-black/20 px-2.5 py-1 rounded-full font-bold tracking-wide" id="adFreePriceTag">${currentPrice}</span>`;
+        }
+
+        if (res && (res.success || res.isAdFree)) {
+          window.ydsAdService?.setAdFree(true);
+          this.updateAdFreeUI();
+          alert("Examgo Premium başarıyla satın alındı ve aktif edildi.");
+        }
+      } catch (err) {
+        console.warn(`${storeName} satın alma hatası/iptal:`, err);
+        if (btn) {
+          btn.disabled = false;
+          btn.innerHTML = `<span class="flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg><span>Reklamsız Sürüme Geç</span></span><span class="text-xs bg-black/20 px-2.5 py-1 rounded-full font-bold tracking-wide" id="adFreePriceTag">${currentPrice}</span>`;
+        }
+        const msg = err?.message || (typeof err === 'string' ? err : JSON.stringify(err));
+        if (msg && (msg.toLowerCase().includes("iptal") || msg.toLowerCase().includes("cancel"))) {
+          // İptal edildi, sessizce çık
+        } else {
+          alert(`${storeName} satın alma işlemi gerçekleştirilemedi:\n` + msg);
+        }
+      }
     } else {
-      msg.textContent = "❌ Geçersiz veya süresi dolmuş kod.";
-      msg.className = "text-[11px] font-bold text-rose-500 block";
+      alert(`Examgo Premium mobil cihazlarda ${storeName} üzerinden satın alınabilir.`);
     }
   }
 
-  purchaseAdFree() {
-    alert("👑 Examdil Reklamsız Sürüm Google Play satın alma ekranı hazırlanıyor.\n\nŞu an test için aşağıdaki promosyon kodunu kullanabilirsiniz: EXAMDILVIP");
-  }
+  async restorePurchases() {
+    const isIOS = window.Capacitor?.getPlatform() === 'ios' || /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const Billing = isIOS
+      ? (window.Capacitor?.Plugins?.AppStoreBilling)
+      : (window.Capacitor?.Plugins?.GooglePlayBilling);
+    const storeName = isIOS ? "App Store" : "Google Play";
 
-  restorePurchases() {
-    const isAdFree = !!(window.ydsAdService?.getAdFree());
-    if (isAdFree) {
-      alert("✓ Satın alımlarınız kontrol edildi: Examdil Premium hesabınızda zaten aktif.");
+    if (Billing && (typeof Billing.queryPurchases === 'function' || typeof Billing.restorePurchases === 'function')) {
+      try {
+        const queryFn = typeof Billing.queryPurchases === 'function' ? Billing.queryPurchases : Billing.restorePurchases;
+        const res = await queryFn({ productId: 'remove_ads' });
+        if (res && (res.hasPurchased || res.isAdFree)) {
+          window.ydsAdService?.setAdFree(true);
+          this.updateAdFreeUI();
+          alert("Satın alımınız doğrulandı! Examgo Premium hesabınızda başarıyla geri yüklendi.");
+        } else {
+          alert(`${storeName} hesabınızda kayıtlı geçmiş bir satın alma bulunamadı.`);
+        }
+      } catch (err) {
+        console.warn("Restore hatası:", err);
+        alert("Satın alma kontrolü sırasında bir hata oluştu: " + (err?.message || err));
+      }
     } else {
-      alert("Google Play hesabınızda kayıtlı geçmiş bir satın alma bulunamadı.");
+      const isAdFree = !!(window.ydsAdService?.getAdFree());
+      if (isAdFree) {
+        alert("Satın alımlarınız kontrol edildi: Examgo Premium hesabınızda zaten aktif.");
+      } else {
+        alert(`${storeName} hesabınızda kayıtlı geçmiş bir satın alma bulunamadı.`);
+      }
     }
   }
 
@@ -3619,7 +3853,7 @@ class YDSApp {
     const homeName = document.getElementById("homeUserNameText");
     if (homeName) homeName.textContent = this.userName;
 
-    alert("İsminiz başarıyla kaydedildi! ✓");
+    alert("İsminiz başarıyla kaydedildi!");
   }
 
   toggleSoundSetting(checked) {
@@ -3642,11 +3876,21 @@ class YDSApp {
     localStorage.removeItem(STORAGE_KEYS.EXAM_SESSIONS);
     localStorage.removeItem("yds_tactics_unlocked");
     localStorage.removeItem("yds_mastered_words");
+    localStorage.removeItem("yds_eliminated_options");
+    localStorage.removeItem("yds_last_session");
+    localStorage.removeItem("yds_sprint_records");
+    localStorage.removeItem("yds_melted_mistakes_count");
+    localStorage.removeItem("yds_streak_data");
 
     this.practiceAnswers = {};
     this.examAnswers = {};
     this.examSessions = {};
     this.masteredWords = [];
+    this.eliminatedOptions = {};
+    this.lastSession = null;
+    this.sprintRecords = { bestScore: 0, bestTime: null, totalSprints: 0 };
+    this.meltedMistakesCount = 0;
+    this.streakData = this.loadStreakData();
     this.tacticsUnlocked = false;
 
     this.updateStats();
@@ -3881,14 +4125,22 @@ class YDSApp {
 
     // Gece/Gündüz Modu Butonu
     document.getElementById("themeToggleBtn")?.addEventListener("click", () => {
-      document.documentElement.classList.toggle("dark");
-      const isDark = document.documentElement.classList.contains("dark");
+      const isDark = document.documentElement.classList.toggle("dark");
+      if (isDark) {
+        document.documentElement.classList.remove("light");
+      } else {
+        document.documentElement.classList.add("light");
+      }
       localStorage.setItem("yds_theme", isDark ? "dark" : "light");
     });
 
     // Kayıtlı tema yükleme
     if (localStorage.getItem("yds_theme") === "dark" || (!localStorage.getItem("yds_theme") && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.remove("light");
       document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.add("light");
     }
 
     // Üst filtre ve deneme barları kaydırma dinleyicisi
@@ -3981,7 +4233,7 @@ class YDSApp {
       explanationHtml = `
         <div class="mt-5 p-4 sm:p-5 rounded-2xl ${isCorrect ? 'bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800' : 'bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800'} animate-in fade-in slide-in-from-bottom-4 duration-300">
           <h4 class="font-bold ${isCorrect ? 'text-emerald-700 dark:text-emerald-400' : 'text-red-700 dark:text-red-400'} text-lg mb-2 flex items-center gap-2">
-             ${isCorrect ? '✨ Tebrikler, Doğru!' : '❌ Maalesef Yanlış.'}
+             ${isCorrect ? 'Tebrikler, Doğru!' : 'Maalesef Yanlış.'}
           </h4>
           <p class="text-sm font-semibold text-gray-900 dark:text-gray-100 ${explanationText ? 'mb-2' : ''}">Doğru Cevap: ${actualAnswer}</p>
           ${explanationText ? `
@@ -4028,6 +4280,9 @@ class YDSApp {
 
     localStorage.setItem("yds_daily_" + today, selectedKey);
 
+    // Günlük aktivite ve seri sayacını güncelle
+    this.recordDailyActivity(1);
+
     // Günün sorusu cevabını anında topluluk istatistiklerine atomik olarak aktar
     const actualAnswer = this._dailyQuestion.answer || this._dailyQuestion.correctAnswer;
     const isCorrect = selectedKey === actualAnswer;
@@ -4067,11 +4322,2324 @@ class YDSApp {
     }
   }
 
+  // ============================================================
+  // --- ÖZELLİK PAKETİ 1: ŞIK ELEME & YAZI BOYUTU (A- / A+) ---
+  // ============================================================
 
-    
+  loadEliminatedOptions() {
+    try {
+      const raw = localStorage.getItem("yds_eliminated_options");
+      return raw ? JSON.parse(raw) : {};
+    } catch {
+      return {};
+    }
+  }
+
+  saveEliminatedOptions() {
+    try {
+      localStorage.setItem("yds_eliminated_options", JSON.stringify(this.eliminatedOptions || {}));
+    } catch (e) {}
+  }
+
+  toggleEliminateOption(questionId, optKey, event) {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    if (!questionId || !optKey) return;
+    if (this.userAnswers[questionId]) return;
+
+    if (!this.eliminatedOptions) this.eliminatedOptions = {};
+    const list = Array.isArray(this.eliminatedOptions[questionId])
+      ? [...this.eliminatedOptions[questionId]]
+      : [];
+
+    const idx = list.indexOf(optKey);
+    if (idx >= 0) {
+      list.splice(idx, 1);
+    } else {
+      list.push(optKey);
+    }
+
+    if (list.length > 0) {
+      this.eliminatedOptions[questionId] = list;
+    } else {
+      delete this.eliminatedOptions[questionId];
+    }
+
+    this.saveEliminatedOptions();
+    this.renderQuestion();
+  }
+
+  changeQuestionFontSize(delta) {
+    const next = Math.max(-1, Math.min(2, (this.fontSizeScale || 0) + delta));
+    this.fontSizeScale = next;
+    try {
+      localStorage.setItem("yds_font_scale", String(this.fontSizeScale));
+    } catch (e) {}
+    this.applyQuestionFontSize();
+  }
+
+  applyQuestionFontSize() {
+    const container = document.getElementById("questionContainer");
+    const indicator = document.getElementById("fontSizeIndicator");
+    const scale = Math.max(-1, Math.min(2, this.fontSizeScale || 0));
+
+    if (container) {
+      container.classList.remove("q-font-scale--1", "q-font-scale-0", "q-font-scale-1", "q-font-scale-2");
+      container.classList.add(`q-font-scale-${scale}`);
+    }
+
+    if (indicator) {
+      const labelMap = {
+        "-1": "%90",
+        "0": "%100",
+        "1": "%112",
+        "2": "%125"
+      };
+      indicator.textContent = labelMap[String(scale)] || "%100";
+    }
+  }
+
+  // ============================================================
+  // --- ÖZELLİK PAKETİ 2: GÜNLÜK SERİ (STREAK), HEDEF & SON OTURUM ---
+  // ============================================================
+
+  getLocalISODate(dateObj = new Date()) {
+    const y = dateObj.getFullYear();
+    const m = String(dateObj.getMonth() + 1).padStart(2, "0");
+    const d = String(dateObj.getDate()).padStart(2, "0");
+    return `${y}-${m}-${d}`;
+  }
+
+  getYesterdayISODate() {
+    const d = new Date();
+    d.setDate(d.getDate() - 1);
+    return this.getLocalISODate(d);
+  }
+
+  loadStreakData() {
+    const today = this.getLocalISODate();
+    const yesterday = this.getYesterdayISODate();
+    const defaults = {
+      currentStreak: 0,
+      bestStreak: 0,
+      lastActiveDate: null,
+      todayDate: today,
+      todayCount: 0,
+      dailyTarget: 15,
+      dailyHistory: {}
+    };
+
+    try {
+      const raw = localStorage.getItem("yds_streak_data");
+      if (!raw) return defaults;
+      const parsed = { ...defaults, ...JSON.parse(raw) };
+      if (!parsed.dailyHistory || typeof parsed.dailyHistory !== "object") {
+        parsed.dailyHistory = {};
+      }
+
+      // Önceki günün sayacını geçmişe kaydet
+      if (parsed.todayDate && parsed.todayCount > 0) {
+        parsed.dailyHistory[parsed.todayDate] = Math.max(parsed.dailyHistory[parsed.todayDate] || 0, parsed.todayCount);
+      }
+
+      // Gün değişmişse bugünkü sayacı sıfırla
+      if (parsed.todayDate !== today) {
+        parsed.todayDate = today;
+        parsed.todayCount = parsed.dailyHistory[today] || 0;
+      }
+
+      // Son aktif olunan gün dün veya bugün değilse seri sıfırlanır
+      if (parsed.lastActiveDate && parsed.lastActiveDate !== today && parsed.lastActiveDate !== yesterday) {
+        parsed.currentStreak = 0;
+      }
+
+      return parsed;
+    } catch {
+      return defaults;
+    }
+  }
+
+  saveStreakData() {
+    try {
+      localStorage.setItem("yds_streak_data", JSON.stringify(this.streakData));
+    } catch (e) {}
+  }
+
+  recordDailyActivity(amount = 1) {
+    if (!this.streakData) {
+      this.streakData = this.loadStreakData();
+    }
+    const today = this.getLocalISODate();
+    const yesterday = this.getYesterdayISODate();
+
+    if (!this.streakData.dailyHistory || typeof this.streakData.dailyHistory !== "object") {
+      this.streakData.dailyHistory = {};
+    }
+
+    if (this.streakData.todayDate !== today) {
+      this.streakData.todayDate = today;
+      this.streakData.todayCount = this.streakData.dailyHistory[today] || 0;
+    }
+
+    this.streakData.todayCount = Math.max(0, (this.streakData.todayCount || 0) + amount);
+    this.streakData.dailyHistory[today] = this.streakData.todayCount;
+
+    if (this.streakData.lastActiveDate !== today) {
+      if (this.streakData.lastActiveDate === yesterday) {
+        this.streakData.currentStreak = (this.streakData.currentStreak || 0) + 1;
+      } else {
+        this.streakData.currentStreak = 1;
+      }
+      this.streakData.lastActiveDate = today;
+    }
+
+    if ((this.streakData.currentStreak || 0) > (this.streakData.bestStreak || 0)) {
+      this.streakData.bestStreak = this.streakData.currentStreak;
+    }
+
+    this.saveStreakData();
+    this.renderStreakAndGoalUI();
+  }
+
+  setDailyTarget(target) {
+    const validTarget = [10, 15, 25].includes(Number(target)) ? Number(target) : 15;
+    if (!this.streakData) this.streakData = this.loadStreakData();
+    this.streakData.dailyTarget = validTarget;
+    this.saveStreakData();
+    this.renderStreakAndGoalUI();
+  }
+
+  renderStreakAndGoalUI() {
+    if (!this.streakData) this.streakData = this.loadStreakData();
+    const today = this.getLocalISODate();
+    if (this.streakData.todayDate !== today) {
+      this.streakData = this.loadStreakData();
+    }
+
+    const { currentStreak, bestStreak, todayCount, dailyTarget } = this.streakData;
+    const target = dailyTarget || 15;
+    const count = todayCount || 0;
+    const pct = Math.min(100, Math.round((count / target) * 100));
+
+    const dayCountEl = document.getElementById("streakDayCount");
+    const bestBadgeEl = document.getElementById("streakBestBadge");
+    const motivEl = document.getElementById("streakMotivationText");
+    const progTextEl = document.getElementById("dailyGoalProgressText");
+    const statusBadgeEl = document.getElementById("dailyGoalStatusBadge");
+    const barEl = document.getElementById("dailyGoalProgressBar");
+
+    if (dayCountEl) dayCountEl.textContent = `${currentStreak || 0} Gün`;
+    if (bestBadgeEl) bestBadgeEl.textContent = `En İyi: ${bestStreak || 0} Gün`;
+
+    if (motivEl) {
+      if (count === 0) {
+        motivEl.textContent = "Bugün 1 soru veya kelime çalışarak serinizi başlatın!";
+      } else if (count < target) {
+        motivEl.textContent = `Harika gidiyorsunuz! Günlük hedefe ${target - count} adım kaldı.`;
+      } else {
+        motivEl.textContent = "Tebrikler! Bugünkü YDS çalışma hedefinizi tamamladınız.";
+      }
+    }
+
+    if (progTextEl) progTextEl.textContent = `${count} / ${target} Tamamlandı`;
+    if (barEl) barEl.style.width = `${pct}%`;
+
+    if (statusBadgeEl) {
+      if (count >= target) {
+        statusBadgeEl.textContent = "Hedef Tamamlandı!";
+        statusBadgeEl.className = "text-[11px] font-extrabold text-emerald-600 dark:text-emerald-400";
+      } else {
+        statusBadgeEl.textContent = `%${pct}`;
+        statusBadgeEl.className = "text-[11px] font-bold text-amber-600 dark:text-amber-400";
+      }
+    }
+
+    [10, 15, 25].forEach(val => {
+      const btn = document.getElementById(`dailyTargetBtn${val}`);
+      if (!btn) return;
+      if (val === target) {
+        btn.className = "px-2 py-0.5 rounded-md text-[10px] font-extrabold transition bg-amber-500 text-white shadow-2xs";
+      } else {
+        btn.className = "px-2 py-0.5 rounded-md text-[10px] font-extrabold transition text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600";
+      }
+    });
+  }
+
+  loadLastSession() {
+    try {
+      const raw = localStorage.getItem("yds_last_session");
+      return raw ? JSON.parse(raw) : null;
+    } catch {
+      return null;
+    }
+  }
+
+  saveLastSession(sessionData) {
+    this.lastSession = sessionData;
+    try {
+      localStorage.setItem("yds_last_session", JSON.stringify(sessionData));
+    } catch (e) {}
+  }
+
+  recordCurrentSessionPosition(q) {
+    if (!q) return;
+    const mode = this.isExamMode ? "exam" : "practice";
+    const examName = this.isExamMode ? (this.currentExamName || (this.currentExamYear ? `${this.currentExamYear} YDS` : "YDS Denemesi")) : null;
+    const sessionData = {
+      mode,
+      examName,
+      examYear: this.currentExamYear || q.year || null,
+      questionId: q.id,
+      questionIndex: this.currentIndex,
+      totalQuestions: this.filteredQuestions.length || 1,
+      category: q.category || "Karma Konular",
+      timestamp: Date.now()
+    };
+    this.saveLastSession(sessionData);
+  }
+
+  updateContinueSessionUI() {
+    const badgeEl = document.getElementById("continueSessionBadge");
+    const pillEl = document.getElementById("continueSessionProgressPill");
+    const titleEl = document.getElementById("continueSessionTitle");
+    const descEl = document.getElementById("continueSessionDesc");
+    const btnTextEl = document.getElementById("continueSessionBtnText");
+
+    const s = this.lastSession || this.loadLastSession();
+
+    if (!s || !s.questionId) {
+      if (badgeEl) badgeEl.textContent = "Hızlı Başlangıç";
+      if (pillEl) pillEl.textContent = "Hazır";
+      if (titleEl) titleEl.textContent = "Hemen Soru Çözmeye Başla";
+      if (descEl) descEl.textContent = "ÖSYM ayarında özgün YDS alıştırma sorularıyla pratik yapmaya başlayın.";
+      if (btnTextEl) btnTextEl.textContent = "Alıştırma Modunu Başlat";
+      return;
+    }
+
+    if (s.mode === "exam" && s.examName) {
+      if (badgeEl) badgeEl.textContent = "Deneme Oturumu";
+      if (pillEl) pillEl.textContent = `Soru ${(s.questionIndex || 0) + 1} / ${s.totalQuestions || 80}`;
+      if (titleEl) titleEl.textContent = `${s.examName}`;
+      if (descEl) descEl.textContent = `En son ${(s.questionIndex || 0) + 1}. soruda (${s.category || "Genel"}) kaldınız. Süreniz korunarak devam edin.`;
+      if (btnTextEl) btnTextEl.textContent = `${(s.questionIndex || 0) + 1}. Sorudan Denemeye Devam Et`;
+    } else {
+      if (badgeEl) badgeEl.textContent = "Son Alıştırma";
+      if (pillEl) pillEl.textContent = `Soru ${(s.questionIndex || 0) + 1} / ${s.totalQuestions || 330}`;
+      if (titleEl) titleEl.textContent = `Alıştırma Modu • ${s.category || "Karma"}`;
+      if (descEl) descEl.textContent = `Son çalıştığınız oturuma kaldığınız sorudan tek tıkla geri dönün.`;
+      if (btnTextEl) btnTextEl.textContent = "Kaldığın Sorudan Devam Et";
+    }
+  }
+
+  continueLastSession() {
+    const s = this.lastSession || this.loadLastSession();
+    if (!s || !s.questionId) {
+      this.startPracticeMode();
+      return;
+    }
+
+    if (s.mode === "exam" && s.examName) {
+      this.startExamMode(s.examName);
+      const foundIdx = this.filteredQuestions.findIndex(q => q.id === s.questionId);
+      if (foundIdx >= 0) {
+        this.currentIndex = foundIdx;
+        this.renderQuestion();
+        this.renderQuestionGrid();
+      }
+      return;
+    }
+
+    // Alıştırma modunda kaldığı soruyu bul ve aç
+    this.startPracticeMode();
+    const allPractice = window.questionRepo ? window.questionRepo.getAlistirmaQuestions() : (window.PRACTICE_YDS_QUESTIONS || []);
+    const targetQ = allPractice.find(q => q.id === s.questionId) || (this.allQuestions || []).find(q => q.id === s.questionId);
+    if (targetQ) {
+      const existingIdx = this.filteredQuestions.findIndex(q => q.id === targetQ.id);
+      if (existingIdx >= 0) {
+        this.currentIndex = existingIdx;
+      } else {
+        this.filteredQuestions.unshift(targetQ);
+        this.currentIndex = 0;
+      }
+      this.renderQuestion();
+      this.renderQuestionGrid();
+    }
+  }
+
+  // ============================================================
+  // --- ÖZELLİK PAKETİ 3: ZAYIF KONU KOÇU & TEK TIKLA ANTRENMAN ---
+  // ============================================================
+
+  analyzeCategoryPerformance() {
+    const questionMap = new Map();
+    if (window.questionRepo && typeof window.questionRepo.getAll === "function") {
+      window.questionRepo.getAll().forEach(q => questionMap.set(q.id, q));
+    }
+    (this.allQuestions || []).forEach(q => questionMap.set(q.id, q));
+    if (window.PRACTICE_YDS_QUESTIONS) {
+      window.PRACTICE_YDS_QUESTIONS.forEach(q => questionMap.set(q.id, q));
+    }
+
+    const standardCategories = [
+      {
+        id: "kelime",
+        shortName: "Kelime Bilgisi",
+        name: "Kelime Bilgisi (Vocabulary & Phrasal Verbs)",
+        match: ["kelime", "vocabulary", "phrasal"],
+        advice: "Boşluktan sonraki edat ve isim tamlamalarına (collocation) dikkat edin; bilmediğiniz kelimeleri havuza ekleyip tekrar edin."
+      },
+      {
+        id: "dilbilgisi",
+        shortName: "Dilbilgisi & Zamanlar",
+        name: "Dilbilgisi & Zamanlar (Grammar & Tenses)",
+        match: ["dilbilgisi", "grammar", "tenses", "preposition", "zaman"],
+        advice: "Cümledeki zaman zarflarına (by the time, since, during) ve ana-yan cümle Tense uyumuna odaklanarak şıkları eleyin."
+      },
+      {
+        id: "cloze",
+        shortName: "Cloze Test",
+        name: "Cloze Test (Parça İçi Boşluk)",
+        match: ["cloze"],
+        advice: "Parçanın genel zamanını (Past/Present) ve cümleler arası zıtlık/neden-sonuç geçiş bağlaçlarını bütünlük içinde değerlendirin."
+      },
+      {
+        id: "cümle tamamlama",
+        shortName: "Cümle Tamamlama",
+        name: "Cümle Tamamlama (Sentence Completion)",
+        match: ["cümle tamamlama", "sentence"],
+        advice: "Bağlaçların anlam kutuplarını (+ / -) ve şıklardaki referans zamir karşılıklarını (this, such, they) öncelikli kontrol edin."
+      },
+      {
+        id: "çeviri",
+        shortName: "Çeviri Soruları",
+        name: "Çeviri (İngilizce ↔ Türkçe)",
+        match: ["çeviri", "translation"],
+        advice: "Önce cümlenin ana yüklemini ve öznesini eşleştirin; bu yöntemle 5 şıktan en az 3'ünü saniyeler içinde eleyebilirsiniz."
+      },
+      {
+        id: "okuma",
+        shortName: "Okuma Parçaları",
+        name: "Okuma Parçaları (Reading Passages)",
+        match: ["okuma", "parça", "reading"],
+        advice: "Önce soru köklerini okuyun ve parçada 'only, never, completely' gibi aşırı kesinlik içeren çeldiricilere karşı dikkatli olun."
+      },
+      {
+        id: "diyalog",
+        shortName: "Diyalog Tamamlama",
+        name: "Diyalog Tamamlama (Dialogue)",
+        match: ["diyalog", "dialogue"],
+        advice: "Boşluktan hemen sonraki konuşmacının verdiği tepkiye ve soruya odaklanarak konu bütünlüğünü yakalayın."
+      },
+      {
+        id: "anlamca en yakın",
+        shortName: "Restatement (Yakın Anlam)",
+        name: "Anlamca En Yakın Cümle (Restatement)",
+        match: ["anlamca en yakın", "restatement"],
+        advice: "Soru cümlesindeki miktar, karşılaştırma (more/less/as...as) ve olasılık (may/must) derecelerini koruyan şıkkı seçin."
+      },
+      {
+        id: "paragraf tamamlama",
+        shortName: "Paragraf Tamamlama",
+        name: "Paragraf Tamamlama (Paragraph Completion)",
+        match: ["paragraf tamamlama"],
+        advice: "Boşluktan önceki ve sonraki cümlelerdeki zamir takibine ve konu daralması/genişlemesi geçişlerine dikkat edin."
+      },
+      {
+        id: "anlatım",
+        shortName: "Akışı Bozan Cümle",
+        name: "Anlatım Bütünlüğü / Akışı Bozan (Irrelevant)",
+        match: ["anlatım", "akışı bozan", "irrelevant"],
+        advice: "Paragrafın ana öznesinden veya savunduğu bakış açısından sapan cümleyi tespit edin."
+      }
+    ];
+
+    const stats = standardCategories.map(c => ({
+      ...c,
+      total: 0,
+      correct: 0,
+      wrong: 0,
+      accuracy: 0
+    }));
+
+    const combinedAnswers = { ...(this.practiceAnswers || {}), ...(this.examAnswers || {}) };
+    let totalAnswered = 0;
+
+    Object.entries(combinedAnswers).forEach(([qId, ans]) => {
+      const q = questionMap.get(qId);
+      if (!q) return;
+      totalAnswered++;
+
+      const qCat = ((q.category || "") + " " + (q.subCategory || "")).toLowerCase();
+      for (const item of stats) {
+        if (item.match.some(kw => qCat.includes(kw))) {
+          item.total++;
+          if (ans.isCorrect) item.correct++;
+          else item.wrong++;
+          break;
+        }
+      }
+    });
+
+    stats.forEach(item => {
+      item.accuracy = item.total > 0 ? Math.round((item.correct / item.total) * 100) : 0;
+    });
+
+    const attempted = stats.filter(s => s.total > 0);
+    // En zayıf konuyu sırala: önce en düşük başarı yüzdesi, eşitlikte daha çok yanlış sayısı
+    const sortedWeak = [...attempted].sort((a, b) => {
+      if (a.accuracy !== b.accuracy) return a.accuracy - b.accuracy;
+      return b.wrong - a.wrong;
+    });
+
+    return {
+      totalAnswered,
+      attempted,
+      weakest: sortedWeak[0] || null,
+      secondWeakest: sortedWeak[1] || null
+    };
+  }
+
+  updateWeakTopicCoachUI() {
+    const badgesEl = document.getElementById("weakCoachBadges");
+    const titleEl = document.getElementById("weakCoachTitle");
+    const descEl = document.getElementById("weakCoachDesc");
+    const btnTextEl = document.getElementById("weakCoachActionBtnText");
+
+    if (!titleEl || !descEl) return;
+
+    const analysis = this.analyzeCategoryPerformance();
+
+    if (analysis.totalAnswered < 3 || !analysis.weakest) {
+      this._recommendedWeakCategory = null;
+      if (badgesEl) {
+        badgesEl.innerHTML = `
+          <span class="px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-rose-100 dark:bg-rose-950/80 text-rose-700 dark:text-rose-300 border border-rose-200 dark:border-rose-800/60">
+            Akıllı Zayıf Konu Koçu
+          </span>
+          <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300">
+            Veri Toplanıyor (${analysis.totalAnswered}/3 Soru)
+          </span>
+        `;
+      }
+      titleEl.textContent = "Zayıf Konu Analiziniz İçin Birkaç Soru Çözün";
+      descEl.textContent = "En az 3 soru çözdüğünüzde yapay zeka koçunuz en çok zorlandığınız soru tipini tespit eder ve tek tıkla özel antrenman hazırlar.";
+      if (btnTextEl) btnTextEl.textContent = "Tanı Antrenmanına Başla";
+      return;
+    }
+
+    const w = analysis.weakest;
+    this._recommendedWeakCategory = w.id;
+
+    const statusColor = w.accuracy < 50
+      ? "bg-rose-100 dark:bg-rose-950/90 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-800"
+      : w.accuracy < 75
+      ? "bg-amber-100 dark:bg-amber-950/90 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800"
+      : "bg-emerald-100 dark:bg-emerald-950/90 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800";
+
+    if (badgesEl) {
+      badgesEl.innerHTML = `
+        <span class="px-2.5 py-0.5 rounded-full text-[11px] font-extrabold bg-rose-100 dark:bg-rose-950/80 text-rose-700 dark:text-rose-300 border border-rose-200 dark:border-rose-800/60">
+          Zayıf Konu Koçu
+        </span>
+        <span class="px-2.5 py-0.5 rounded-full text-[11px] font-extrabold border ${statusColor}">
+          %${w.accuracy} Başarı (${w.correct}/${w.total} Doğru)
+        </span>
+      `;
+    }
+
+    titleEl.textContent = `Odak Konunuz: ${w.shortName}`;
+    descEl.textContent = w.advice;
+    if (btnTextEl) btnTextEl.textContent = `${w.shortName} Antrenmanı Başlat`;
+  }
+
+  startWeakTopicPractice(categoryKeyword = null) {
+    const targetKeyword = (categoryKeyword || this._recommendedWeakCategory || "").toLowerCase().trim();
+
+    if (!targetKeyword) {
+      this.startPracticeMode();
+      return;
+    }
+
+    this.cleanupSpecialQuestionModes?.();
+
+    if (this.isExamMode) {
+      this.stopExamSmartTimer();
+      this.isExamMode = false;
+      this.currentExamYear = null;
+      document.getElementById("examModeBanner")?.classList.add("hidden");
+    }
+
+    this.isPracticeMode = true;
+    const practicePool = window.questionRepo
+      ? window.questionRepo.getAlistirmaQuestions()
+      : (window.PRACTICE_YDS_QUESTIONS || []);
+    const fallbackPool = window.questionRepo ? window.questionRepo.getAll() : (this.allQuestions || []);
+
+    const matchQuestion = (q) => {
+      const qCat = ((q.category || "") + " " + (q.subCategory || "")).toLowerCase();
+      return qCat.includes(targetKeyword);
+    };
+
+    let matchedQuestions = practicePool.filter(matchQuestion);
+    if (matchedQuestions.length < 5) {
+      const extra = fallbackPool.filter(q => matchQuestion(q) && !matchedQuestions.some(m => m.id === q.id));
+      matchedQuestions = [...matchedQuestions, ...extra];
+    }
+
+    if (matchedQuestions.length === 0) {
+      this.startPracticeMode();
+      return;
+    }
+
+    // Önce çözülmemiş ve yanlış yapılmış soruları öne al
+    const wrongOrUnsolved = matchedQuestions.filter(q => {
+      const ans = this.practiceAnswers[q.id] || this.examAnswers[q.id];
+      return !ans || !ans.isCorrect;
+    });
+    const correctOnes = matchedQuestions.filter(q => {
+      const ans = this.practiceAnswers[q.id] || this.examAnswers[q.id];
+      return ans && ans.isCorrect;
+    });
+
+    const ordered = [
+      ...wrongOrUnsolved.sort(() => Math.random() - 0.5),
+      ...correctOnes.sort(() => Math.random() - 0.5)
+    ];
+
+    this.activePool = practicePool.length > 0 ? practicePool : fallbackPool;
+    this.populateFilterDropdowns(this.activePool);
+
+    // Kategori filtresinde eşleşen seçeneği seç
+    const catSelect = document.getElementById("categoryFilter");
+    if (catSelect) {
+      const matchingOption = Array.from(catSelect.options).find(opt =>
+        opt.value.toLowerCase().includes(targetKeyword)
+      );
+      catSelect.value = matchingOption ? matchingOption.value : "all";
+    }
+
+    this.filteredQuestions = ordered;
+    this.currentIndex = 0;
+    this.practiceSessionActive = true;
+
+    this.showQuestionView("practice");
+
+    const modeBadge = document.getElementById("questionViewModeBadge");
+    if (modeBadge) {
+      const matchedCatName = ordered[0]?.category || "Hedef Konu";
+      modeBadge.textContent = `Koç Antrenmanı: ${matchedCatName} (${ordered.length} Soru)`;
+      modeBadge.className = "px-3 py-1 rounded-full text-xs font-extrabold bg-rose-100 dark:bg-rose-950 text-rose-700 dark:text-rose-300 border border-rose-200 dark:border-rose-800/60";
+    }
+
+    this.updateFilterStatusBadge();
+    this.renderQuestion();
+    this.renderQuestionGrid();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  // ============================================================
+  // --- ÖZELLİK PAKETİ 4: ÇOKTAN SEÇMELİ KELİME QUİZİ MODU ---
+  // ============================================================
+
+  openVocabQuizModal(mode = "pool") {
+    const poolModal = document.getElementById("learningPoolModal");
+    if (poolModal && !poolModal.classList.contains("hidden")) {
+      poolModal.classList.add("hidden");
+    }
+
+    const modal = document.getElementById("vocabQuizModal");
+    if (!modal) return;
+
+    this.lockScroll();
+    modal.classList.remove("hidden");
+
+    const effectiveMode = (mode === "pool" && (!this.learningPool || this.learningPool.length === 0))
+      ? "pool"
+      : (mode || "pool");
+
+    this.switchVocabQuizMode(effectiveMode);
+  }
+
+  closeVocabQuizModal() {
+    this.unlockScroll();
+    document.getElementById("vocabQuizModal")?.classList.add("hidden");
+  }
+
+  switchVocabQuizMode(mode = "pool") {
+    this.vocabQuizState.mode = mode;
+
+    const poolBtn = document.getElementById("vocabQuizModePoolBtn");
+    const allBtn = document.getElementById("vocabQuizModeAllBtn");
+
+    if (poolBtn && allBtn) {
+      if (mode === "pool") {
+        poolBtn.className = "flex-1 py-1.5 px-3 rounded-lg text-xs font-extrabold transition bg-white dark:bg-gray-800 text-violet-700 dark:text-violet-300 shadow-2xs";
+        allBtn.className = "flex-1 py-1.5 px-3 rounded-lg text-xs font-extrabold transition text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200";
+      } else {
+        allBtn.className = "flex-1 py-1.5 px-3 rounded-lg text-xs font-extrabold transition bg-white dark:bg-gray-800 text-violet-700 dark:text-violet-300 shadow-2xs";
+        poolBtn.className = "flex-1 py-1.5 px-3 rounded-lg text-xs font-extrabold transition text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200";
+      }
+    }
+
+    this.restartVocabQuiz();
+  }
+
+  generateVocabQuizQuestions(mode = "pool", count = 10) {
+    const globalList = (typeof VOCAB_LIST !== "undefined" && Array.isArray(VOCAB_LIST)) ? VOCAB_LIST : [];
+    const poolItems = Array.isArray(this.learningPool) ? this.learningPool : [];
+
+    // Tüm çeldirici anlam havuzu
+    const allMeaningsPool = [];
+    globalList.forEach(item => {
+      if (item.word && item.tr) {
+        allMeaningsPool.push({ word: item.word.toLowerCase(), meaning: item.tr.trim() });
+      }
+    });
+    poolItems.forEach(item => {
+      if (item.word && item.meaning) {
+        allMeaningsPool.push({ word: item.word.toLowerCase(), meaning: item.meaning.trim() });
+      }
+    });
+
+    const sourceItems = [];
+    const usedWords = new Set();
+
+    if (mode === "pool") {
+      const shuffledPool = [...poolItems].sort(() => Math.random() - 0.5);
+      shuffledPool.forEach(p => {
+        if (!p.word || !p.meaning) return;
+        const wLower = p.word.toLowerCase();
+        if (usedWords.has(wLower)) return;
+        usedWords.add(wLower);
+        const foundGlobal = globalList.find(g => g.word.toLowerCase() === wLower);
+        sourceItems.push({
+          word: p.word,
+          meaning: p.meaning,
+          sample: p.sample || "",
+          freq: foundGlobal ? foundGlobal.freq : this.getExamOccurrenceCount(p.word),
+          sourceLabel: "Kelime Havuzunuzdan",
+          fromPool: true
+        });
+      });
+
+      // Eğer havuzda 10 kelimeden az varsa kalan soruları YDS Sık Çıkanlar ile tamamla
+      if (sourceItems.length < count && globalList.length > 0) {
+        const shuffledGlobal = [...globalList].sort(() => Math.random() - 0.5);
+        for (const g of shuffledGlobal) {
+          if (sourceItems.length >= count) break;
+          const wLower = g.word.toLowerCase();
+          if (usedWords.has(wLower)) continue;
+          usedWords.add(wLower);
+          sourceItems.push({
+            word: g.word,
+            meaning: g.tr,
+            sample: "",
+            freq: g.freq || 1,
+            sourceLabel: poolItems.length === 0 ? "YDS Sık Çıkanlar (Havuzunuz Boş)" : "YDS Sık Çıkanlar (Tamamlama)",
+            fromPool: false
+          });
+        }
+      }
+    } else {
+      const shuffledGlobal = [...globalList].sort(() => Math.random() - 0.5);
+      for (const g of shuffledGlobal) {
+        if (sourceItems.length >= count) break;
+        const wLower = g.word.toLowerCase();
+        if (usedWords.has(wLower)) continue;
+        usedWords.add(wLower);
+        const inPool = poolItems.find(p => p.word.toLowerCase() === wLower);
+        sourceItems.push({
+          word: g.word,
+          meaning: g.tr,
+          sample: inPool?.sample || "",
+          freq: g.freq || 1,
+          sourceLabel: "YDS Sık Çıkanlar",
+          fromPool: !!inPool
+        });
+      }
+    }
+
+    const selectedTargets = sourceItems.slice(0, count);
+
+    return selectedTargets.map(target => {
+      const correctMeaning = target.meaning;
+      const targetLower = target.word.toLowerCase();
+
+      // 4 benzersiz çeldirici seç
+      const distractors = [];
+      const usedMeanings = new Set([correctMeaning.toLowerCase()]);
+      const shuffledCandidates = [...allMeaningsPool].sort(() => Math.random() - 0.5);
+
+      for (const cand of shuffledCandidates) {
+        if (distractors.length >= 4) break;
+        if (cand.word === targetLower) continue;
+        const mLower = cand.meaning.toLowerCase();
+        if (usedMeanings.has(mLower)) continue;
+        usedMeanings.add(mLower);
+        distractors.push(cand.meaning);
+      }
+
+      const options = [correctMeaning, ...distractors].sort(() => Math.random() - 0.5);
+      const correctIndex = options.indexOf(correctMeaning);
+
+      return {
+        ...target,
+        options,
+        correctIndex
+      };
+    });
+  }
+
+  restartVocabQuiz() {
+    const mode = this.vocabQuizState?.mode || "pool";
+    const questions = this.generateVocabQuizQuestions(mode, 10);
+
+    this.vocabQuizState = {
+      mode,
+      questions,
+      currentIndex: 0,
+      correct: 0,
+      wrong: 0,
+      missed: [],
+      answered: false
+    };
+
+    document.getElementById("vocabQuizResultBody")?.classList.add("hidden");
+    document.getElementById("vocabQuizActiveBody")?.classList.remove("hidden");
+
+    this.renderVocabQuizQuestion();
+  }
+
+  renderVocabQuizQuestion() {
+    const state = this.vocabQuizState;
+    if (!state || !state.questions || state.questions.length === 0) return;
+
+    const q = state.questions[state.currentIndex];
+    if (!q) {
+      this.renderVocabQuizSummary();
+      return;
+    }
+
+    state.answered = false;
+
+    const total = state.questions.length;
+    const currentNum = state.currentIndex + 1;
+    const pct = Math.round(((currentNum - 1) / total) * 100);
+
+    const progressEl = document.getElementById("vocabQuizProgressText");
+    const corrEl = document.getElementById("vocabQuizCorrectCount");
+    const wrongEl = document.getElementById("vocabQuizWrongCount");
+    const barEl = document.getElementById("vocabQuizProgressBar");
+    const sourceBadgeEl = document.getElementById("vocabQuizSourceBadge");
+    const freqBadgeEl = document.getElementById("vocabQuizFreqBadge");
+    const wordTitleEl = document.getElementById("vocabQuizWord");
+    const optionsEl = document.getElementById("vocabQuizOptionsContainer");
+    const footerEl = document.getElementById("vocabQuizFeedbackFooter");
+
+    if (progressEl) progressEl.textContent = `Soru ${currentNum} / ${total}`;
+    if (corrEl) corrEl.textContent = String(state.correct);
+    if (wrongEl) wrongEl.textContent = String(state.wrong);
+    if (barEl) barEl.style.width = `${pct}%`;
+
+    if (sourceBadgeEl) sourceBadgeEl.textContent = q.sourceLabel || "YDS Kelimesi";
+    if (freqBadgeEl) freqBadgeEl.textContent = `YDS'de ${q.freq || 1} Kez`;
+    if (wordTitleEl) wordTitleEl.textContent = q.word;
+
+    if (footerEl) {
+      footerEl.classList.add("hidden");
+    }
+
+    if (optionsEl) {
+      optionsEl.innerHTML = "";
+      const letters = ["A", "B", "C", "D", "E"];
+      q.options.forEach((optText, idx) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.dataset.idx = String(idx);
+        btn.className = "vocab-quiz-opt-btn w-full p-3.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:border-indigo-400 dark:hover:border-indigo-500 hover:bg-indigo-50/40 dark:hover:bg-gray-700/70 text-left flex items-center gap-3 transition shadow-2xs group";
+        btn.innerHTML = `
+          <span class="vocab-quiz-opt-letter w-7 h-7 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 group-hover:bg-indigo-600 group-hover:text-white font-extrabold text-xs flex items-center justify-center flex-shrink-0 transition">
+            ${letters[idx] || idx + 1}
+          </span>
+          <span class="text-xs sm:text-sm font-semibold text-gray-800 dark:text-gray-100 leading-snug flex-1">
+            ${optText}
+          </span>
+        `;
+        btn.addEventListener("click", () => this.selectVocabQuizOption(idx));
+        optionsEl.appendChild(btn);
+      });
+    }
+  }
+
+  selectVocabQuizOption(selectedIdx) {
+    const state = this.vocabQuizState;
+    if (!state || state.answered) return;
+
+    const q = state.questions[state.currentIndex];
+    if (!q) return;
+
+    state.answered = true;
+    const isCorrect = selectedIdx === q.correctIndex;
+
+    if (isCorrect) {
+      state.correct++;
+      this.playCorrectSound();
+    } else {
+      state.wrong++;
+      state.missed.push(q);
+      this.playWrongSound();
+    }
+
+    // Günlük hedef ve seriye katkı sağla
+    this.recordDailyActivity(1);
+
+    const corrEl = document.getElementById("vocabQuizCorrectCount");
+    const wrongEl = document.getElementById("vocabQuizWrongCount");
+    const barEl = document.getElementById("vocabQuizProgressBar");
+    if (corrEl) corrEl.textContent = String(state.correct);
+    if (wrongEl) wrongEl.textContent = String(state.wrong);
+    if (barEl) {
+      const pct = Math.round(((state.currentIndex + 1) / state.questions.length) * 100);
+      barEl.style.width = `${pct}%`;
+    }
+
+    const optionsEl = document.getElementById("vocabQuizOptionsContainer");
+    if (optionsEl) {
+      const buttons = optionsEl.querySelectorAll(".vocab-quiz-opt-btn");
+      buttons.forEach((btn, idx) => {
+        btn.disabled = true;
+        btn.classList.remove("hover:border-indigo-400", "dark:hover:border-indigo-500", "hover:bg-indigo-50/40", "dark:hover:bg-gray-700/70");
+        const letterBadge = btn.querySelector(".vocab-quiz-opt-letter");
+
+        if (idx === q.correctIndex) {
+          btn.className = "vocab-quiz-opt-btn w-full p-3.5 rounded-xl border-2 border-emerald-500 bg-emerald-50 dark:bg-emerald-950/50 text-left flex items-center gap-3 transition shadow-xs";
+          if (letterBadge) {
+            letterBadge.className = "vocab-quiz-opt-letter w-7 h-7 rounded-lg bg-emerald-600 text-white font-extrabold text-xs flex items-center justify-center flex-shrink-0";
+          }
+        } else if (idx === selectedIdx && !isCorrect) {
+          btn.className = "vocab-quiz-opt-btn w-full p-3.5 rounded-xl border-2 border-rose-500 bg-rose-50 dark:bg-rose-950/50 text-left flex items-center gap-3 transition shadow-xs";
+          if (letterBadge) {
+            letterBadge.className = "vocab-quiz-opt-letter w-7 h-7 rounded-lg bg-rose-600 text-white font-extrabold text-xs flex items-center justify-center flex-shrink-0";
+          }
+        } else {
+          btn.classList.add("opacity-55");
+        }
+      });
+    }
+
+    const footerEl = document.getElementById("vocabQuizFeedbackFooter");
+    const nextBtnText = document.getElementById("vocabQuizNextBtnText");
+    const goQBtn = document.getElementById("vocabQuizGoQuestionsBtn");
+    const isLast = state.currentIndex >= state.questions.length - 1;
+
+    if (nextBtnText) {
+      nextBtnText.textContent = isLast ? "Sonuçları Gör" : "Sonraki Soru";
+    }
+    if (goQBtn) {
+      goQBtn.onclick = () => {
+        this.closeVocabQuizModal();
+        this.searchWordInExams(q.word);
+      };
+    }
+    if (footerEl) {
+      footerEl.classList.remove("hidden");
+    }
+  }
+
+  addWordToPoolFromQuiz(word, meaning, btnEl = null) {
+    if (!word || !meaning) return;
+    const exists = this.learningPool.some(i => i.word.toLowerCase() === word.toLowerCase());
+    if (!exists) {
+      this.learningPool.push({
+        id: "pool_" + Date.now() + "_" + Math.random().toString(36).slice(2, 6),
+        word: word,
+        meaning: meaning,
+        sample: "",
+        dateAdded: new Date().toLocaleDateString("tr-TR")
+      });
+      this.saveLearningPool();
+      this.renderLearningPoolList();
+    }
+    if (btnEl) {
+      btnEl.textContent = "Havuza Eklendi";
+      btnEl.disabled = true;
+      btnEl.className = "px-2.5 py-1 rounded-lg bg-emerald-100 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-300 text-[11px] font-extrabold";
+    }
+  }
+
+  nextVocabQuizQuestion() {
+    const state = this.vocabQuizState;
+    if (!state) return;
+
+    if (state.currentIndex < state.questions.length - 1) {
+      state.currentIndex++;
+      this.renderVocabQuizQuestion();
+    } else {
+      this.renderVocabQuizSummary();
+    }
+  }
+
+  renderVocabQuizSummary() {
+    const state = this.vocabQuizState;
+    if (!state) return;
+
+    document.getElementById("vocabQuizActiveBody")?.classList.add("hidden");
+    document.getElementById("vocabQuizResultBody")?.classList.remove("hidden");
+
+    const total = state.questions.length || 1;
+    const pct = Math.round((state.correct / total) * 100);
+
+    const scoreEl = document.getElementById("vocabQuizSummarySubtext");
+    const corrEl = document.getElementById("vocabQuizFinalCorrect");
+    const wrongEl = document.getElementById("vocabQuizFinalWrong");
+    const rateEl = document.getElementById("vocabQuizFinalRate");
+    const missedBox = document.getElementById("vocabQuizMissedContainer");
+
+    if (scoreEl) scoreEl.textContent = `${total} kelimede ${state.correct} doğru yanıt verdiniz.`;
+    if (corrEl) corrEl.textContent = String(state.correct);
+    if (wrongEl) wrongEl.textContent = String(state.wrong);
+    if (rateEl) rateEl.textContent = `%${pct}`;
+
+    if (missedBox) {
+      if (state.missed.length === 0) {
+        missedBox.innerHTML = `
+          <div class="p-3 rounded-2xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200/70 dark:border-emerald-800/60 text-center text-xs font-bold text-emerald-700 dark:text-emerald-300">
+            Tebrikler! Bu setteki tüm kelimeleri hatasız bildiniz.
+          </div>
+        `;
+      } else {
+        missedBox.innerHTML = `<h5 class="text-xs font-extrabold uppercase tracking-wider text-rose-600 dark:text-rose-400 mb-1.5">Hata Yapılan Kelimeler</h5>`;
+        state.missed.forEach(item => {
+          const inPool = this.learningPool.some(p => p.word.toLowerCase() === item.word.toLowerCase());
+          const row = document.createElement("div");
+          row.className = "p-2.5 rounded-xl bg-gray-50 dark:bg-gray-700/60 border border-rose-100 dark:border-gray-600 flex items-center justify-between gap-2";
+          row.innerHTML = `
+            <div class="min-w-0">
+              <span class="font-extrabold text-xs sm:text-sm text-gray-900 dark:text-white">${item.word}</span>
+              <p class="text-[11px] text-gray-600 dark:text-gray-300 truncate">${item.options[item.correctIndex]}</p>
+            </div>
+            ${!inPool ? `
+              <button type="button" class="missed-add-pool-btn flex-shrink-0 px-2.5 py-1 rounded-lg bg-amber-100 hover:bg-amber-200 dark:bg-amber-950/80 text-amber-800 dark:text-amber-300 text-[11px] font-extrabold transition">
+                + Havuza Ekle
+              </button>
+            ` : `
+              <span class="flex-shrink-0 text-[10px] font-bold text-emerald-600 dark:text-emerald-400">Havuzda</span>
+            `}
+          `;
+          const btn = row.querySelector(".missed-add-pool-btn");
+          if (btn) {
+            btn.addEventListener("click", () => {
+              this.addWordToPoolFromQuiz(item.word, item.options[item.correctIndex], btn);
+            });
+          }
+          missedBox.appendChild(row);
+        });
+      }
+    }
+  }
+
+  speakVocabQuizWord() {
+    const state = this.vocabQuizState;
+    const q = state?.questions?.[state.currentIndex];
+    if (q && q.word) {
+      this.speakWord(q.word);
+    }
+  }
+
+  resetLearnedVocab() {
+    if (window.vocabTrainer && typeof window.vocabTrainer.resetLearnedVocab === "function") {
+      window.vocabTrainer.resetLearnedVocab();
+    }
+  }
+
+  // ============================================================
+  // --- ÖZELLİK PAKETİ 2.1: YDS PUAN HEDEFİ & DİNAMİK SEVİYE ---
+  // ============================================================
+
+  setYdsScoreTarget(target) {
+    const valid = [55, 70, 80, 90].includes(Number(target)) ? Number(target) : 70;
+    this.ydsScoreTarget = valid;
+    try {
+      localStorage.setItem("yds_score_target", String(valid));
+    } catch (e) {}
+    this.updateYdsScoreTargetUI();
+  }
+
+  calculateEstimatedYdsScore() {
+    const combined = { ...(this.practiceAnswers || {}), ...(this.examAnswers || {}) };
+    const entries = Object.values(combined).filter(Boolean);
+    const totalSolved = entries.length;
+    const totalCorrect = entries.filter(a => a.isCorrect).length;
+
+    if (totalSolved === 0) {
+      return { totalSolved: 0, totalCorrect: 0, estimatedScore: 0, bandLabel: "Veri Bekleniyor" };
+    }
+
+    // YDS 80 soru = 100 puan (Her doğru 1.25 puan, doğruluk yüzdesi = 100 üzerinden puan karşılığı)
+    const rawScore = (totalCorrect / totalSolved) * 100;
+    const estimatedScore = Math.round(rawScore * 10) / 10;
+
+    let bandLabel = "Başlangıç (<50)";
+    if (estimatedScore >= 90) bandLabel = "A Seviyesi (90-100)";
+    else if (estimatedScore >= 80) bandLabel = "B Seviyesi (80-89)";
+    else if (estimatedScore >= 70) bandLabel = "C Seviyesi (70-79)";
+    else if (estimatedScore >= 60) bandLabel = "D Seviyesi (60-69)";
+    else if (estimatedScore >= 50) bandLabel = "E Seviyesi (50-59)";
+
+    if (totalSolved < 10) {
+      bandLabel += ` • Ön Tahmin (${totalSolved} Soru)`;
+    }
+
+    return { totalSolved, totalCorrect, estimatedScore, bandLabel };
+  }
+
+  updateYdsScoreTargetUI() {
+    const scoreTextEl = document.getElementById("estimatedYdsScoreText");
+    const bandBadgeEl = document.getElementById("estimatedYdsBandBadge");
+    const diffTextEl = document.getElementById("ydsTargetDiffText");
+    const scaleLabelEl = document.getElementById("ydsScoreScaleLabel");
+    const pctBadgeEl = document.getElementById("ydsTargetPercentBadge");
+    const barEl = document.getElementById("ydsScoreProgressBar");
+
+    const target = this.ydsScoreTarget || 70;
+    const { totalSolved, estimatedScore, bandLabel } = this.calculateEstimatedYdsScore();
+
+    if (scoreTextEl) scoreTextEl.textContent = `${estimatedScore.toFixed(1)} Puan`;
+    if (bandBadgeEl) bandBadgeEl.textContent = bandLabel;
+
+    const targetNames = {
+      55: "55 Puan (Akademik Baraj)",
+      70: "70 Puan (C Seviyesi)",
+      80: "80 Puan (B Seviyesi)",
+      90: "90 Puan (A Seviyesi)"
+    };
+    const targetLabel = targetNames[target] || `${target} Puan`;
+
+    if (scaleLabelEl) {
+      scaleLabelEl.textContent = `0 Puan → Hedef: ${targetLabel}`;
+    }
+
+    const progressPct = totalSolved === 0 ? 0 : Math.min(100, Math.round((estimatedScore / target) * 100));
+    if (barEl) barEl.style.width = `${progressPct}%`;
+
+    if (pctBadgeEl) {
+      if (totalSolved === 0) {
+        pctBadgeEl.textContent = "Hedefe %0 Ulaşıldı";
+      } else if (estimatedScore >= target) {
+        pctBadgeEl.textContent = "Hedef Puan Aşıldı!";
+      } else {
+        pctBadgeEl.textContent = `Hedefe %${progressPct} Yaklaşıldı`;
+      }
+    }
+
+    if (diffTextEl) {
+      if (totalSolved === 0) {
+        diffTextEl.textContent = `Seçili hedefiniz: ${targetLabel}. Tahmini YDS puanınızı görmek için soru çözmeye başlayın.`;
+      } else if (estimatedScore >= target) {
+        const surplus = (estimatedScore - target).toFixed(1);
+        diffTextEl.textContent = `Tebrikler! Seçili hedefiniz olan ${target} puanın +${surplus} puan üzerindesiniz. Bir üst hedefi seçebilirsiniz!`;
+      } else {
+        const remainingPts = (target - estimatedScore).toFixed(1);
+        const approxNetNeeded = Math.max(1, Math.ceil((target - estimatedScore) / 1.25));
+        diffTextEl.textContent = `Hedefiniz: ${targetLabel} • Hedefe ulaşmak için ${remainingPts} puan (80 soruda yaklaşık +${approxNetNeeded} net) kaldı.`;
+      }
+    }
+
+    [55, 70, 80, 90].forEach(val => {
+      const btn = document.getElementById(`ydsTargetBtn${val}`);
+      if (!btn) return;
+      if (val === target) {
+        btn.className = "px-2 py-1 rounded-lg text-[11px] font-extrabold transition bg-emerald-600 text-white shadow-2xs";
+      } else {
+        btn.className = "px-2 py-1 rounded-lg text-[11px] font-extrabold transition text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600";
+      }
+    });
+  }
+
+  // ============================================================
+  // --- ÖZEL MOD TEMİZLİĞİ (SPRINT & HATA ERİTME) ---
+  // ============================================================
+
+  cleanupSpecialQuestionModes() {
+    // 1. Aktif Sprint modu varsa durdur ve yedek cevapları geri yükle
+    if (this.isSprintMode) {
+      this.stopSprintTimer();
+      if (this.sprintBackupAnswers && typeof this.sprintBackupAnswers === "object") {
+        Object.entries(this.sprintBackupAnswers).forEach(([qId, backupAns]) => {
+          if (!this.sprintAnswers?.[qId] && backupAns) {
+            this.practiceAnswers[qId] = backupAns;
+          }
+        });
+        this.savePracticeAnswers();
+      }
+      this.isSprintMode = false;
+      this.sprintBackupAnswers = {};
+    }
+    document.getElementById("sprintModeBanner")?.classList.add("hidden");
+
+    // 2. Aktif Hata Eritme modu varsa çözülmemiş soruların hata kaydını geri yükle
+    if (this.isMistakeMelterMode) {
+      if (this.mistakeMelterBackup && typeof this.mistakeMelterBackup === "object") {
+        Object.entries(this.mistakeMelterBackup).forEach(([qId, backupAns]) => {
+          const origin = this.mistakeMelterOrigins?.[qId] || "practice";
+          if (origin === "exam") {
+            this.examAnswers[qId] = backupAns;
+          } else {
+            this.practiceAnswers[qId] = backupAns;
+          }
+        });
+        this.savePracticeAnswers();
+        this.saveExamAnswers();
+      }
+      this.isMistakeMelterMode = false;
+      this.mistakeMelterBackup = {};
+      this.mistakeMelterOrigins = {};
+    }
+    document.getElementById("mistakeMelterBanner")?.classList.add("hidden");
+  }
+
+  // ============================================================
+  // --- ÖZELLİK PAKETİ 2.2: 5 DAKİKADA 10 SORU HIZLI SPRINT MODU ---
+  // ============================================================
+
+  loadSprintRecords() {
+    const defaults = { bestScore: 0, bestTime: null, totalSprints: 0 };
+    try {
+      const raw = localStorage.getItem("yds_sprint_records");
+      return raw ? { ...defaults, ...JSON.parse(raw) } : defaults;
+    } catch {
+      return defaults;
+    }
+  }
+
+  saveSprintRecords() {
+    try {
+      localStorage.setItem("yds_sprint_records", JSON.stringify(this.sprintRecords));
+    } catch (e) {}
+  }
+
+  updateSprintHomeBadgeUI() {
+    const badgeEl = document.getElementById("homeSprintRecordBadge");
+    if (!badgeEl) return;
+    if (!this.sprintRecords) this.sprintRecords = this.loadSprintRecords();
+    if (this.sprintRecords.totalSprints > 0) {
+      badgeEl.textContent = `REKOR: %${this.sprintRecords.bestScore}`;
+    } else {
+      badgeEl.textContent = "5 DK • 10 SORU";
+    }
+  }
+
+  startSprintMode() {
+    this.closeSprintResultModal();
+    this.cleanupSpecialQuestionModes();
+
+    if (this.isExamMode) {
+      this.stopExamSmartTimer();
+      this.isExamMode = false;
+      this.currentExamYear = null;
+      document.getElementById("examModeBanner")?.classList.add("hidden");
+    }
+
+    const practicePool = window.questionRepo
+      ? window.questionRepo.getAlistirmaQuestions()
+      : (window.PRACTICE_YDS_QUESTIONS || []);
+    const fallbackPool = window.questionRepo ? window.questionRepo.getAll() : (this.allQuestions || []);
+    const sourcePool = practicePool.length >= 10 ? practicePool : fallbackPool;
+
+    if (!sourcePool || sourcePool.length === 0) {
+      alert("Soru havuzu yüklenemedi.");
+      return;
+    }
+
+    // Öncelikle çözülmemiş soruları seç, yetmezse rastgele tamamla
+    const unsolved = sourcePool.filter(q => !this.practiceAnswers[q.id]);
+    const solved = sourcePool.filter(q => !!this.practiceAnswers[q.id]);
+
+    const selected = [
+      ...unsolved.sort(() => Math.random() - 0.5),
+      ...solved.sort(() => Math.random() - 0.5)
+    ].slice(0, 10);
+
+    this.sprintBackupAnswers = {};
+    this.sprintAnswers = {};
+    selected.forEach(q => {
+      if (this.practiceAnswers[q.id]) {
+        this.sprintBackupAnswers[q.id] = this.practiceAnswers[q.id];
+        delete this.practiceAnswers[q.id];
+      }
+    });
+
+    this.isPracticeMode = true;
+    this.isSprintMode = true;
+    this.sprintTotalSeconds = 300; // 5 dakika
+    this.sprintSecondsLeft = 300;
+
+    this.activePool = selected;
+    this.filteredQuestions = selected;
+    this.currentIndex = 0;
+    this.practiceSessionActive = true;
+
+    this.showQuestionView("practice");
+
+    document.getElementById("sprintModeBanner")?.classList.remove("hidden");
+    document.getElementById("mistakeMelterBanner")?.classList.add("hidden");
+
+    const modeBadge = document.getElementById("questionViewModeBadge");
+    if (modeBadge) {
+      modeBadge.textContent = "Hızlı Sprint (5 Dakika • 10 Soru)";
+      modeBadge.className = "px-3 py-1 rounded-full text-xs font-extrabold bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300";
+    }
+
+    this.updateSprintBannerUI();
+    this.startSprintTimer();
+    this.updateStats();
+    this.renderQuestion();
+    this.renderQuestionGrid();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  startSprintTimer() {
+    this.stopSprintTimer();
+    this.sprintTimerInterval = setInterval(() => {
+      if (!this.isSprintMode) {
+        this.stopSprintTimer();
+        return;
+      }
+      this.sprintSecondsLeft = Math.max(0, (this.sprintSecondsLeft || 0) - 1);
+      this.updateSprintBannerUI();
+
+      if (this.sprintSecondsLeft <= 0) {
+        this.stopSprintTimer();
+        this.finishSprintMode(true);
+      }
+    }, 1000);
+  }
+
+  stopSprintTimer() {
+    if (this.sprintTimerInterval) {
+      clearInterval(this.sprintTimerInterval);
+      this.sprintTimerInterval = null;
+    }
+  }
+
+  updateSprintBannerUI() {
+    const progEl = document.getElementById("sprintProgressBadge");
+    const timerEl = document.getElementById("sprintTimerDisplay");
+    const pillEl = document.getElementById("sprintTimerPill");
+
+    const total = this.filteredQuestions.length || 10;
+    const answeredList = Object.values(this.sprintAnswers || {});
+    const answeredCount = answeredList.length;
+    const correctCount = answeredList.filter(a => a.isCorrect).length;
+    const wrongCount = answeredCount - correctCount;
+
+    if (progEl) {
+      progEl.textContent = `${answeredCount} / ${total} Cevaplandı • ${correctCount} D / ${wrongCount} Y`;
+    }
+
+    const secs = Math.max(0, this.sprintSecondsLeft || 0);
+    const mins = String(Math.floor(secs / 60)).padStart(2, "0");
+    const remSecs = String(secs % 60).padStart(2, "0");
+
+    if (timerEl) {
+      timerEl.textContent = `${mins}:${remSecs}`;
+    }
+
+    if (pillEl) {
+      if (secs <= 60) {
+        pillEl.className = "px-3 py-1.5 rounded-xl bg-rose-600/90 border border-rose-300 flex items-center space-x-1.5 font-mono text-sm font-black text-white sprint-timer-urgent";
+      } else {
+        pillEl.className = "px-3 py-1.5 rounded-xl bg-black/30 border border-white/20 flex items-center space-x-1.5 font-mono text-sm font-black text-amber-300";
+      }
+    }
+  }
+
+  finishSprintMode(timeExpired = false) {
+    this.stopSprintTimer();
+
+    const total = this.filteredQuestions.length || 10;
+    const answeredList = Object.values(this.sprintAnswers || {});
+    const answeredCount = answeredList.length;
+    const correct = answeredList.filter(a => a.isCorrect).length;
+    const wrong = answeredCount - correct;
+    const empty = Math.max(0, total - answeredCount);
+    const scorePct = Math.round((correct / total) * 100);
+
+    const elapsedSeconds = Math.max(1, (this.sprintTotalSeconds || 300) - (this.sprintSecondsLeft || 0));
+    const avgSec = answeredCount > 0 ? Math.round(elapsedSeconds / answeredCount) : 0;
+
+    const eMin = String(Math.floor(elapsedSeconds / 60)).padStart(2, "0");
+    const eSec = String(elapsedSeconds % 60).padStart(2, "0");
+
+    if (!this.sprintRecords) this.sprintRecords = this.loadSprintRecords();
+    this.sprintRecords.totalSprints = (this.sprintRecords.totalSprints || 0) + 1;
+    if (scorePct > (this.sprintRecords.bestScore || 0)) {
+      this.sprintRecords.bestScore = scorePct;
+    }
+    if (!this.sprintRecords.bestTime || (correct >= 7 && elapsedSeconds < this.sprintRecords.bestTime)) {
+      this.sprintRecords.bestTime = elapsedSeconds;
+    }
+    this.saveSprintRecords();
+    this.updateSprintHomeBadgeUI();
+
+    const subEl = document.getElementById("sprintResultSubtext");
+    const scoreEl = document.getElementById("sprintFinalScoreText");
+    const bestEl = document.getElementById("sprintBestRecordText");
+    const corrEl = document.getElementById("sprintFinalCorrect");
+    const wrongEl = document.getElementById("sprintFinalWrong");
+    const emptyEl = document.getElementById("sprintFinalEmpty");
+    const timeEl = document.getElementById("sprintFinalTimeText");
+    const avgEl = document.getElementById("sprintFinalAvgTimeText");
+
+    if (subEl) {
+      subEl.textContent = timeExpired
+        ? "5 dakikalık süre doldu! İşte hız ve doğruluk karneniz:"
+        : "Sprint tamamlandı! İşte hız ve doğruluk karneniz:";
+    }
+    if (scoreEl) scoreEl.textContent = `%${scorePct} (${correct}/${total})`;
+    if (bestEl) bestEl.textContent = `En İyi Sprint Rekorunuz: %${this.sprintRecords.bestScore}`;
+    if (corrEl) corrEl.textContent = String(correct);
+    if (wrongEl) wrongEl.textContent = String(wrong);
+    if (emptyEl) emptyEl.textContent = String(empty);
+    if (timeEl) timeEl.textContent = `${eMin}:${eSec}`;
+    if (avgEl) avgEl.textContent = answeredCount > 0 ? `${avgSec} sn / soru` : "-";
+
+    const modal = document.getElementById("sprintResultModal");
+    if (modal) {
+      this.lockScroll();
+      modal.classList.remove("hidden");
+    }
+  }
+
+  closeSprintResultModal() {
+    this.unlockScroll();
+    document.getElementById("sprintResultModal")?.classList.add("hidden");
+  }
+
+  exitSprintMode(goHome = true) {
+    this.cleanupSpecialQuestionModes();
+    if (goHome) {
+      this.showHomeView();
+    }
+  }
+
+  // ============================================================
+  // --- ÖZELLİK PAKETİ 2.3: İNATÇI HATALARIM (AKILLI HATA ERİTME) ---
+  // ============================================================
+
+  getWrongQuestionsList() {
+    const questionMap = new Map();
+    if (window.questionRepo && typeof window.questionRepo.getAll === "function") {
+      window.questionRepo.getAll().forEach(q => questionMap.set(q.id, q));
+    }
+    (this.allQuestions || []).forEach(q => questionMap.set(q.id, q));
+    if (window.PRACTICE_YDS_QUESTIONS) {
+      window.PRACTICE_YDS_QUESTIONS.forEach(q => questionMap.set(q.id, q));
+    }
+
+    const wrongItems = [];
+    const seen = new Set();
+
+    Object.entries(this.practiceAnswers || {}).forEach(([qId, ans]) => {
+      if (ans && ans.isCorrect === false && !seen.has(qId)) {
+        const q = questionMap.get(qId);
+        if (q) {
+          seen.add(qId);
+          wrongItems.push({ q, origin: "practice", ans });
+        }
+      }
+    });
+
+    Object.entries(this.examAnswers || {}).forEach(([qId, ans]) => {
+      if (ans && ans.isCorrect === false && !seen.has(qId)) {
+        const q = questionMap.get(qId);
+        if (q) {
+          seen.add(qId);
+          wrongItems.push({ q, origin: "exam", ans });
+        }
+      }
+    });
+
+    // Aktif hata eritme oturumunda henüz cevaplanmamış yedekleri de say
+    Object.entries(this.mistakeMelterBackup || {}).forEach(([qId, ans]) => {
+      if (ans && ans.isCorrect === false && !seen.has(qId)) {
+        const q = questionMap.get(qId);
+        if (q) {
+          seen.add(qId);
+          wrongItems.push({ q, origin: this.mistakeMelterOrigins?.[qId] || "practice", ans });
+        }
+      }
+    });
+
+    return wrongItems;
+  }
+
+  updateMistakeMelterHomeUI() {
+    const wrongList = this.getWrongQuestionsList();
+    const wrongCount = wrongList.length;
+    const meltedCount = this.meltedMistakesCount || 0;
+
+    const homeMistakeBadge = document.getElementById("homeMistakeCountBadge");
+    const homeMeltedBadge = document.getElementById("homeMeltedCountBadge");
+    const homeBtnText = document.getElementById("homeMistakeBtnText");
+    const repSummaryText = document.getElementById("repMistakeSummaryText");
+    const repMeltedText = document.getElementById("repMeltedCountText");
+
+    if (homeMistakeBadge) {
+      homeMistakeBadge.textContent = wrongCount > 0 ? `${wrongCount} Hatalı Soru` : "0 Hata";
+    }
+    if (homeMeltedBadge) {
+      homeMeltedBadge.textContent = `${meltedCount} Eritildi`;
+    }
+    if (homeBtnText) {
+      homeBtnText.textContent = wrongCount > 0
+        ? `${wrongCount} Hatalı Soruyu Eritmeye Başla`
+        : "Hata Havuzunu Kontrol Et";
+    }
+    if (repMeltedText) {
+      repMeltedText.textContent = `${meltedCount} Hata Eritildi`;
+    }
+    if (repSummaryText) {
+      repSummaryText.textContent = wrongCount > 0
+        ? `Şu an hata havuzunuzda tekrar çözülmeyi bekleyen ${wrongCount} yanlış sorunuz var. Doğru çözdüğünüz her soru havuzdan düşer!`
+        : `Harika! Hata havuzunuzda bekleyen yanlış soru bulunmuyor. Şimdiye kadar toplam ${meltedCount} hatayı erittiniz.`;
+    }
+  }
+
+  startMistakeMelterMode() {
+    this.cleanupSpecialQuestionModes();
+
+    const wrongItems = this.getWrongQuestionsList();
+    if (wrongItems.length === 0) {
+      alert("Harika! Şu an hata havuzunuzda yanlış cevaplanmış soru bulunmuyor. Yeni sorular çözerek kendinizi test edebilirsiniz.");
+      return;
+    }
+
+    if (this.isExamMode) {
+      this.stopExamSmartTimer();
+      this.isExamMode = false;
+      this.currentExamYear = null;
+      document.getElementById("examModeBanner")?.classList.add("hidden");
+    }
+
+    this.isPracticeMode = true;
+    this.isMistakeMelterMode = true;
+    this.mistakeMelterSessionMelted = 0;
+    this.mistakeMelterBackup = {};
+    this.mistakeMelterOrigins = {};
+
+    const questionsToMelt = wrongItems.map(item => {
+      const qId = item.q.id;
+      this.mistakeMelterBackup[qId] = item.ans;
+      this.mistakeMelterOrigins[qId] = item.origin;
+      // Sorunun yeniden çözülebilmesi için mevcut kilidi geçici olarak kaldır
+      delete this.practiceAnswers[qId];
+      delete this.examAnswers[qId];
+      return item.q;
+    });
+
+    this.activePool = questionsToMelt;
+    this.filteredQuestions = questionsToMelt;
+    this.currentIndex = 0;
+    this.practiceSessionActive = true;
+
+    this.showQuestionView("practice");
+
+    document.getElementById("mistakeMelterBanner")?.classList.remove("hidden");
+    document.getElementById("sprintModeBanner")?.classList.add("hidden");
+
+    const modeBadge = document.getElementById("questionViewModeBadge");
+    if (modeBadge) {
+      modeBadge.textContent = `Hata Eritme Modu (${questionsToMelt.length} Soru)`;
+      modeBadge.className = "px-3 py-1 rounded-full text-xs font-extrabold bg-rose-100 dark:bg-rose-950 text-rose-700 dark:text-rose-300";
+    }
+
+    this.updateMistakeMelterBannerUI();
+    this.updateStats();
+    this.renderQuestion();
+    this.renderQuestionGrid();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  updateMistakeMelterBannerUI() {
+    const badgeEl = document.getElementById("mistakeMelterSessionBadge");
+    const statusEl = document.getElementById("mistakeMelterStatusText");
+
+    const remainingUnanswered = Object.keys(this.mistakeMelterBackup || {}).length;
+    if (badgeEl) {
+      badgeEl.textContent = `Bu Oturumda ${this.mistakeMelterSessionMelted || 0} Hata Eritildi`;
+    }
+    if (statusEl) {
+      statusEl.textContent = remainingUnanswered > 0
+        ? `Kalan ${remainingUnanswered} hatalı soruyu doğru yanıtlayarak hata havuzunuzu sıfırlayın.`
+        : `Bu oturumdaki tüm hatalı soruları tamamladınız! Toplam ${this.mistakeMelterSessionMelted || 0} hata eritildi.`;
+    }
+  }
+
+  exitMistakeMelterMode() {
+    this.cleanupSpecialQuestionModes();
+    this.showHomeView();
+  }
+
+  // ============================================================
+  // --- ÖZELLİK PAKETİ 2.4: OKUMA MODU (İPUCU VURGULAMA) & HIZLI KAMP REHBERİ ---
+  // ============================================================
+
+  getClueHighlightClass(cleanWord) {
+    if (!cleanWord) return "";
+    const contrastWords = new Set([
+      "although", "though", "despite", "however", "nevertheless", "nonetheless",
+      "whereas", "while", "yet", "still", "conversely", "contrary", "unlike",
+      "instead", "regardless", "albeit", "even"
+    ]);
+    const causeWords = new Set([
+      "because", "since", "therefore", "thus", "hence", "consequently",
+      "accordingly", "due", "owing", "thanks", "result", "results", "resulting",
+      "lead", "leads", "leading", "trigger", "triggers", "stem", "stems", "thereby"
+    ]);
+    const timeConditionWords = new Set([
+      "unless", "provided", "providing", "whether", "until", "during", "once",
+      "whenever", "only", "never", "always", "completely", "entirely", "solely",
+      "merely", "hardly", "scarcely", "barely", "rarely", "notably"
+    ]);
+
+    if (contrastWords.has(cleanWord)) return "clue-contrast";
+    if (causeWords.has(cleanWord)) return "clue-cause";
+    if (timeConditionWords.has(cleanWord)) return "clue-time";
+    return "";
+  }
+
+  toggleClueHighlight() {
+    this.clueHighlightEnabled = !this.clueHighlightEnabled;
+    try {
+      localStorage.setItem("yds_clue_highlight", this.clueHighlightEnabled ? "true" : "false");
+    } catch (e) {}
+    this.updateClueHighlightButtonUI();
+    if (this.currentView === "question") {
+      this.renderQuestion();
+    }
+  }
+
+  updateClueHighlightButtonUI() {
+    const btn = document.getElementById("clueHighlightBtn");
+    const textEl = document.getElementById("clueHighlightBtnText");
+    const legendEl = document.getElementById("clueLegendBar");
+
+    if (btn) {
+      if (this.clueHighlightEnabled) {
+        btn.className = "inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-[11px] font-extrabold bg-indigo-600 text-white border border-indigo-600 shadow-xs transition active:scale-95";
+      } else {
+        btn.className = "inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-[11px] font-bold bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-200 border border-gray-200 dark:border-gray-600 hover:border-indigo-400 transition active:scale-95 shadow-2xs";
+      }
+    }
+    if (textEl) {
+      textEl.textContent = this.clueHighlightEnabled ? "İpuçları Açık" : "İpucu Vurgula";
+    }
+    if (legendEl) {
+      if (this.clueHighlightEnabled) {
+        legendEl.classList.remove("hidden");
+      } else {
+        legendEl.classList.add("hidden");
+      }
+    }
+  }
+
+  getGrammarCampData() {
+    return [
+      // 1. BAĞLAÇLAR (CONJUNCTIONS)
+      {
+        type: "conjunction",
+        title: "Although / Even though / Though",
+        rule: "+ Tam Cümle (SVO)",
+        polarity: "Zıtlık (+ / -)",
+        meaning: "-e rağmen, her ne kadar ... olsa da",
+        tip: "Yan cümlede olumlu bir durum varsa ana cümlede beklenmedik bir engel veya olumsuzluk aranır.",
+        sample: "Although the treatment is effective, it has severe side effects.",
+        searchKw: "although"
+      },
+      {
+        type: "conjunction",
+        title: "Despite / In spite of / Notwithstanding",
+        rule: "+ İsim / V-ing / the fact that SVO",
+        polarity: "Zıtlık (+ / -)",
+        meaning: "-e rağmen, -e karşın",
+        tip: "Arkasından tam cümle (SVO) doğrudan gelmez; isim grubu veya 'the fact that + cümle' alır.",
+        sample: "Despite dramatic advances in medicine, malaria remains a global threat.",
+        searchKw: "despite"
+      },
+      {
+        type: "conjunction",
+        title: "Whereas / While",
+        rule: "+ Tam Cümle (SVO)",
+        polarity: "Taban Tabana Zıtlık",
+        meaning: "-iken, oysa (iki farklı özneyi karşılaştırır)",
+        tip: "Genellikle iki farklı kavramı, ülkeyi veya dönemi zıt özellikleriyle kıyaslarken kullanılır.",
+        sample: "While some species thrive in arid climates, others require constant moisture.",
+        searchKw: "whereas"
+      },
+      {
+        type: "conjunction",
+        title: "However / Nevertheless / Nonetheless",
+        rule: "Noktalı virgül veya yeni cümle başı (+ SVO)",
+        polarity: "Zıtlık (+ / -)",
+        meaning: "Ancak, buna rağmen, yine de",
+        tip: "İki cümle arasında geçiş yapar; kendisinden sonra genellikle virgül (,) gelir.",
+        sample: "The initial experiment failed; however, subsequent trials proved successful.",
+        searchKw: "however"
+      },
+      {
+        type: "conjunction",
+        title: "Because / Since / As / Now that",
+        rule: "+ Tam Cümle (SVO)",
+        polarity: "Neden - Sonuç (+/+ veya -/-)",
+        meaning: "-dığı için, çünkü, madem ki",
+        tip: "Cümleye neden-sonuç anlamı katar; iki tarafın anlam kutbu genellikle paraleldir.",
+        sample: "Since fossil fuels are depleting rapidly, renewable energy is vital.",
+        searchKw: "since"
+      },
+      {
+        type: "conjunction",
+        title: "Due to / Owing to / On account of",
+        rule: "+ İsim / V-ing / the fact that SVO",
+        polarity: "Neden - Sonuç",
+        meaning: "-den dolayı, yüzünden, nedeniyle",
+        tip: "Boşluktan sonra tam cümle değil isim tamlaması varsa 'because' yerine bu grup seçilir.",
+        sample: "Many flights were cancelled due to adverse weather conditions.",
+        searchKw: "due"
+      },
+      {
+        type: "conjunction",
+        title: "Thanks to",
+        rule: "+ İsim / V-ing",
+        polarity: "Olumlu Neden - Sonuç (+)",
+        meaning: "... sayesinde",
+        tip: "Sonuç cümlesi почти her zaman olumlu bir gelişmeyi veya başarıyı anlatır.",
+        sample: "Thanks to early diagnosis, the survival rate has increased significantly.",
+        searchKw: "thanks"
+      },
+      {
+        type: "conjunction",
+        title: "Therefore / Consequently / Thus / Hence",
+        rule: "+ Tam Cümle (veya V-ing kısaltma)",
+        polarity: "Sonuç / Çıkarım",
+        meaning: "Bu yüzden, dolayısıyla, sonuç olarak",
+        tip: "Önceki cümlede anlatılan nedenin doğal sonucunu bağlar.",
+        sample: "The soil lacks essential nutrients; therefore, crop yields remain low.",
+        searchKw: "therefore"
+      },
+      {
+        type: "conjunction",
+        title: "Unless",
+        rule: "+ Olumlu Yapıda Cümle (Present)",
+        polarity: "Olumsuz Koşul (If ... not)",
+        meaning: "-medikçe, -madıkça, ... olmazsa",
+        tip: "Kendi içinde 'not' barındırdığı için yan cümlesi genellikle olumlu fiille kurulur, ana cümle olumsuz sonuç bildirir.",
+        sample: "Unless immediate measures are taken, the ecosystem will collapse.",
+        searchKw: "unless"
+      },
+      {
+        type: "conjunction",
+        title: "Provided that / As long as / So long as",
+        rule: "+ Tam Cümle (SVO)",
+        polarity: "Koşul",
+        meaning: "... şartıyla, ... sürece",
+        tip: "Güçlü bir şart bildirir; 'If' bağlacının resmi akademik karşılığıdır.",
+        sample: " Economic growth is sustainable provided that inflation remains under control.",
+        searchKw: "provided"
+      },
+      {
+        type: "conjunction",
+        title: "In case",
+        rule: "+ Tam Cümle (SVO)",
+        polarity: "Tedbir / Önlem",
+        meaning: "... olursa diye, ihtimaline karşı",
+        tip: "Öncesinde yapılan bir hazırlığı veya alınan bir tedbiri (take precaution) anlatır.",
+        sample: "Keep emergency supplies ready in case an earthquake strikes.",
+        searchKw: "case"
+      },
+      {
+        type: "conjunction",
+        title: "So that / In order that",
+        rule: "+ Tam Cümle (genellikle can/could/may/will)",
+        polarity: "Amaç",
+        meaning: "-sın diye, ... amacıyla",
+        tip: "Devamındaki cümlede %90 oranında 'can, could, may, might, will, would' gibi bir modal bulunur.",
+        sample: "The government lowered taxes so that small businesses could expand.",
+        searchKw: "order"
+      },
+      {
+        type: "conjunction",
+        title: "In order to / So as to",
+        rule: "+ V1 (Yalın Fiil)",
+        polarity: "Amaç",
+        meaning: "-mek / -mak için, amacıyla",
+        tip: "Olumsuz hali 'in order not to / so as not to V1' şeklinde yazılır.",
+        sample: "Researchers analyzed thousands of samples in order to identify the virus.",
+        searchKw: "order"
+      },
+      {
+        type: "conjunction",
+        title: "Not only ... but also ...",
+        rule: "Paralel Yapı (Cümle başında devrik: Not only did/is...)",
+        polarity: "Ek Bilgi & Vurgu",
+        meaning: "Sadece ... değil, aynı zamanda ... da",
+        tip: "Cümle en başında 'Not only' varsa birinci cümle soru formunda devrik (Inversion) olur!",
+        sample: "Not only does exercise improve physical health, but it also reduces stress.",
+        searchKw: "only"
+      },
+      {
+        type: "conjunction",
+        title: "No sooner ... than / Hardly ... when",
+        rule: "Past Perfect (had V3) ... Simple Past (V2)",
+        polarity: "Zaman (Tam ... olmuştu ki)",
+        meaning: "Tam ... olmuştu ki ... oldu",
+        tip: "No sooner her zaman 'than' ile, Hardly/Scarcely/Barely ise 'when' ile eşleşir.",
+        sample: "Hardly had the treaty been signed when border tensions erupted again.",
+        searchKw: "hardly"
+      },
+
+      // 2. EDATLAR & KALIPLAR (PREPOSITIONS)
+      {
+        type: "preposition",
+        title: "Dependent on / Rely on / Count on",
+        rule: "Sıfat/Fiil + ON",
+        polarity: "Bağımlılık / Güven",
+        meaning: "-e bağımlı olmak, -e bel bağlamak",
+        tip: "YDS'de 'on/upon' edatıyla en sık sorulan üçlüdür (independent OF ile karıştırmayın!).",
+        sample: "Many developing nations are heavily dependent on agricultural exports.",
+        searchKw: "dependent"
+      },
+      {
+        type: "preposition",
+        title: "Associated with / Linked to",
+        rule: "Fiil/Sıfat + WITH / TO",
+        polarity: "İlişki / Bağlantı",
+        meaning: "... ile ilişkili, bağlantılı",
+        tip: "Hastalık, risk veya bilimsel bulguların bir faktörle ilişkisini anlatırken çok sık çıkar.",
+        sample: "Air pollution is closely associated with respiratory diseases.",
+        searchKw: "associated"
+      },
+      {
+        type: "preposition",
+        title: "Result in vs. Result from",
+        rule: "Result IN (Sonuç) / Result FROM (Kaynak)",
+        polarity: "Neden - Sonuç Fiili",
+        meaning: "Result in: -e yol açmak • Result from: -den kaynaklanmak",
+        tip: "Result IN = Lead to / Bring about. Result FROM = Stem from / Arise from.",
+        sample: "Prolonged drought can result in severe food shortages.",
+        searchKw: "result"
+      },
+      {
+        type: "preposition",
+        title: "Contribute to / Lead to / Give rise to",
+        rule: "Fiil + TO (+ İsim / V-ing)",
+        polarity: "Katkı / Yol Açma",
+        meaning: "-e katkıda bulunmak, -e yol açmak",
+        tip: "Buradaki 'to' yönelme edatıdır; kendisinden sonra fiil gelirse V-ing alır.",
+        sample: "Deforestation significantly contributes to global warming.",
+        searchKw: "contribute"
+      },
+      {
+        type: "preposition",
+        title: "Vulnerable to / Susceptible to / Prone to",
+        rule: "Sıfat + TO",
+        polarity: "Hassasiyet / Savunmasızlık (-)",
+        meaning: "-e karşı savunmasız, açık, yatkın",
+        tip: "Özellikle sağlık, ekonomi ve ekoloji metinlerinde 'to' edatıyla banko sorulur.",
+        sample: "Coastal cities are increasingly vulnerable to rising sea levels.",
+        searchKw: "vulnerable"
+      },
+      {
+        type: "preposition",
+        title: "Prevent from / Abstain from / Refrain from",
+        rule: "Fiil + FROM (+ V-ing)",
+        polarity: "Engelleme / Kaçınma",
+        meaning: "-den alıkoymak, -den kaçınmak / uzak durmak",
+        tip: "Engelleme ve uzak durma fiilleri YDS'de daima 'from' edatı alır.",
+        sample: "Strict regulations prevent factories from dumping toxic waste.",
+        searchKw: "prevent"
+      },
+      {
+        type: "preposition",
+        title: "Responsible for / Account for",
+        rule: "Sıfat/Fiil + FOR",
+        polarity: "Sorumluluk / Oran Oluşturma",
+        meaning: "-den sorumlu olmak, (belli bir oranı) oluşturmak",
+        tip: "'Account for' yüzdelik oranlarla (%40 of...) kullanıldığında 'oluşturmak/teşkil etmek' demektir.",
+        sample: "Transport accounts for nearly a quarter of global carbon emissions.",
+        searchKw: "responsible"
+      },
+      {
+        type: "preposition",
+        title: "Compatible with / Consistent with",
+        rule: "Sıfat + WITH",
+        polarity: "Uyum / Tutarlılık (+)",
+        meaning: "... ile uyumlu, ... ile tutarlı",
+        tip: "Kanıtların veya verilerin bir teoriyle tutarlı olduğunu anlatırken 'with' alır.",
+        sample: "The new findings are fully consistent with previous geological models.",
+        searchKw: "consistent"
+      },
+      {
+        type: "preposition",
+        title: "Consist of / Composed of / Comprise",
+        rule: "Consist OF / Be composed OF (Comprise edat almaz!)",
+        polarity: "İçerik / Oluşum",
+        meaning: "-den oluşmak, meydana gelmek",
+        tip: "Consist of pasif yapılmaz; composed of ise daima 'be composed of' şeklinde pasif kullanılır.",
+        sample: "The committee consists of ten independent scientists.",
+        searchKw: "consist"
+      },
+      {
+        type: "preposition",
+        title: "Capable of / Aware of / Deprived of",
+        rule: "Sıfat + OF",
+        polarity: "Yetenek / Farkındalık / Yoksunluk",
+        meaning: "-e muktedir, -nın farkında, -den yoksun",
+        tip: "Arkasından gelen fiil daima V-ing (gerund) formunda olur.",
+        sample: "Many rural areas remain deprived of basic healthcare services.",
+        searchKw: "capable"
+      },
+      {
+        type: "preposition",
+        title: "Exposure to / Access to / Threat to",
+        rule: "İsim + TO",
+        polarity: "Yönelme İsimleri",
+        meaning: "-e maruz kalma, -e erişim, -e yönelik tehdit",
+        tip: "Boşluktan önce 'exposure, access, threat, resistance, solution, key' varsa doğru edat 'to'dur.",
+        sample: "Long-term exposure to ultraviolet radiation damages skin cells.",
+        searchKw: "exposure"
+      },
+      {
+        type: "preposition",
+        title: "In terms of / With respect to / Regarding",
+        rule: "Karma Edat + İsim",
+        polarity: "Bakımından / Açısından",
+        meaning: "... açısından, ... bakımından, ... ile ilgili olarak",
+        tip: "Cümlede konunun hangi boyutuyla ele alındığını belirtir.",
+        sample: "The two regions differ sharply in terms of annual rainfall.",
+        searchKw: "terms"
+      },
+      {
+        type: "preposition",
+        title: "By means of / Through / Via",
+        rule: "Edat + İsim / V-ing",
+        polarity: "Araç / Yöntem",
+        meaning: "... aracılığıyla, vasıtasıyla, yoluyla",
+        tip: "Bir işlemin hangi yöntem veya araç kullanılarak yapıldığını gösterir.",
+        sample: "Heat is transferred through the atmosphere by means of radiation.",
+        searchKw: "means"
+      },
+      {
+        type: "preposition",
+        title: "At the expense of",
+        rule: "Kalıp + İsim",
+        polarity: "Pahasına / Uğruna (-)",
+        meaning: "... pahasına, ...-yı feda etme uğruna",
+        tip: "Bir kazancın başka bir şeyin zarar görmesi pahasına elde edildiğini anlatır.",
+        sample: "Rapid industrialization was achieved at the expense of environmental quality.",
+        searchKw: "expense"
+      },
+      {
+        type: "preposition",
+        title: "In accordance with / In compliance with",
+        rule: "Kalıp + İsim",
+        polarity: "Uyum / Kurallara Göre",
+        meaning: "... ile uyumlu olarak, ...-e göre / uyarınca",
+        tip: "Yasa, yönetmelik veya standartlara uygun hareket edildiğini belirtir.",
+        sample: "All clinical trials must be conducted in accordance with ethical guidelines.",
+        searchKw: "accordance"
+      },
+
+      // 3. PHRASAL VERBS
+      {
+        type: "phrasal",
+        title: "Bring about / Give rise to",
+        rule: "Eş anlam: Cause, Lead to, Trigger",
+        polarity: "Neden Olmak",
+        meaning: "Meydana getirmek, sebep olmak, yol açmak",
+        tip: "YDS kelime sorularında en çok doğru cevap olan Phrasal Verb'dür.",
+        sample: "The industrial revolution brought about profound social changes.",
+        searchKw: "brought"
+      },
+      {
+        type: "phrasal",
+        title: "Carry out / Conduct",
+        rule: "Eş anlam: Perform, Execute, Implement",
+        polarity: "Yürütmek / Uygulamak",
+        meaning: "(Deney, araştırma, görev) yürütmek, gerçekleştirmek",
+        tip: "Nesnesi 'experiment, research, survey, study, reform' ise ilk akla gelmelidir.",
+        sample: "Scientists carried out extensive experiments to test the hypothesis.",
+        searchKw: "carried"
+      },
+      {
+        type: "phrasal",
+        title: "Put off / Call off",
+        rule: "Put off = Postpone • Call off = Cancel",
+        polarity: "Ertelemek / İptal Etmek",
+        meaning: "Put off: Ertelemek • Call off: İptal etmek",
+        tip: "İkisi sıkça aynı şıklarda verilir; erteleme mi yoksa tamamen iptal mi olduğuna dikkat edin.",
+        sample: "The summit was put off until next month due to diplomatic tensions.",
+        searchKw: "put"
+      },
+      {
+        type: "phrasal",
+        title: "Figure out / Make out / Work out",
+        rule: "Eş anlam: Understand, Solve, Decipher",
+        polarity: "Anlamak / Çözmek",
+        meaning: "Anlamak, çözmek, kavrayıp ortaya çıkarmak",
+        tip: "Karmaşık bir mekanizmanın veya sorunun nasıl çalıştığını çözmek anlamında kullanılır.",
+        sample: "Astronomers are still trying to figure out the origin of dark matter.",
+        searchKw: "figure"
+      },
+      {
+        type: "phrasal",
+        title: "Make up for / Compensate for",
+        rule: "3 kelimeli Phrasal Verb",
+        polarity: "Telafi Etmek (+)",
+        meaning: "Telafi etmek, eksikliğini kapatmak",
+        tip: "Bir kaybı veya eksikliği dengelemek anlamında 'compensate for' ile tam eş anlamlıdır.",
+        sample: "Increased exports helped make up for the decline in domestic demand.",
+        searchKw: "compensate"
+      },
+      {
+        type: "phrasal",
+        title: "Put up with / Tolerate",
+        rule: "Eş anlam: Endure, Bear, Stand",
+        polarity: "Katlanmak / Tahammül Etmek",
+        meaning: "Katlanmak, tahammül etmek, hoş görmek",
+        tip: "Zorlu koşullar, gürültü veya olumsuz durumlara katlanmak bağlamında sorulur.",
+        sample: "Residents refused to put up with the constant noise from the airport.",
+        searchKw: "tolerate"
+      },
+      {
+        type: "phrasal",
+        title: "Look into / Investigate",
+        rule: "Eş anlam: Examine, Inspect, Probe",
+        polarity: "İncelemek / Araştırmak",
+        meaning: "Araştırmak, incelemek, soruşturmak",
+        tip: "Bir komisyonun veya bilim insanlarının bir sorunu derinlemesine incelemesini anlatır.",
+        sample: "A special committee was set up to look into the causes of the accident.",
+        searchKw: "investigate"
+      },
+      {
+        type: "phrasal",
+        title: "Turn down / Reject",
+        rule: "Eş anlam: Refuse, Decline, Dismiss",
+        polarity: "Reddetmek (-)",
+        meaning: "Geri çevirmek, reddetmek (veya sesi/ısıyı kısmak)",
+        tip: "Teklif, başvuru veya öneri (offer, proposal) nesneleriyle 'reddetmek' anlamında çıkar.",
+        sample: "The board turned down the merger proposal due to financial risks.",
+        searchKw: "turned"
+      },
+      {
+        type: "phrasal",
+        title: "Take over / Assume control",
+        rule: "Phrasal Verb",
+        polarity: "Devralmak",
+        meaning: "Devralmak, yönetimini/kontrolünü üstlenmek",
+        tip: "Şirketlerin, kurumların veya görevlerin el değiştirmesini anlatır.",
+        sample: "Automated systems have taken over many routine manufacturing tasks.",
+        searchKw: "taken"
+      },
+      {
+        type: "phrasal",
+        title: "Wipe out / Eradicate",
+        rule: "Eş anlam: Destroy, Eliminate, Obliterate",
+        polarity: "Yok Etmek / Kökünü Kazımak (-)",
+        meaning: "Tamamen yok etmek, ortadan kaldırmak",
+        tip: "Salgın hastalıkların veya canlı türlerinin yok olması bağlamında çok sık çıkar.",
+        sample: "Vaccination campaigns have nearly wiped out polio worldwide.",
+        searchKw: "wiped"
+      },
+      {
+        type: "phrasal",
+        title: "Come up with / Devise",
+        rule: "3 kelimeli Phrasal Verb",
+        polarity: "Üretmek / Bulmak (+)",
+        meaning: "(Fikir, çözüm, plan) bulmak, ortaya atmak, geliştirmek",
+        tip: "Nesnesi her zaman 'solution, idea, plan, alternative, theory' gibi soyut bir üretimdir.",
+        sample: "Engineers came up with an innovative solution to reduce fuel consumption.",
+        searchKw: "solution"
+      },
+      {
+        type: "phrasal",
+        title: "Point out / Indicate",
+        rule: "Eş anlam: Highlight, Emphasize, Note",
+        polarity: "Belirtmek / Dikkat Çekmek",
+        meaning: "Dikkat çekmek, işaret etmek, belirtmek",
+        tip: "Uzmanların veya raporların önemli bir gerçeğe dikkat çektiğini ifade eder.",
+        sample: "Economists point out that inflation affects low-income households most.",
+        searchKw: "point"
+      },
+      {
+        type: "phrasal",
+        title: "Rule out / Exclude",
+        rule: "Eş anlam: Eliminate, Dismiss, Preclude",
+        polarity: "İhtimal Dışı Bırakmak",
+        meaning: "Göz ardı etmek, ihtimal dışı bırakmak, elemek",
+        tip: "Genellikle 'cannot rule out the possibility' (ihtimalini göz ardı edemeyiz) kalıbıyla sorulur.",
+        sample: "Doctors cannot rule out the possibility of a genetic predisposition.",
+        searchKw: "rule"
+      },
+      {
+        type: "phrasal",
+        title: "Stem from / Arise from",
+        rule: "Eş anlam: Originate from, Result from, Derive from",
+        polarity: "Kaynaklanmak",
+        meaning: "-den kaynaklanmak, köken almak, ileri gelmek",
+        tip: "Bir sorunun veya geleneğin nereden doğduğunu anlatır.",
+        sample: "Many modern legal principles stem from ancient Roman law.",
+        searchKw: "stem"
+      },
+      {
+        type: "phrasal",
+        title: "Break out / Erupt",
+        rule: "Nesne Almaz (Intransitive)",
+        polarity: "Patlak Vermek (-)",
+        meaning: "(Savaş, salgın, yangın, kriz) aniden patlak vermek, başlamak",
+        tip: "Öznesi 'war, conflict, epidemic, fire, violence' ise banko seçenektir.",
+        sample: "Severe cholera epidemics broke out in several overcrowded cities.",
+        searchKw: "broke"
+      }
+    ];
+  }
+
+  openGrammarCampModal(initialTab = "all") {
+    const modal = document.getElementById("grammarCampModal");
+    if (!modal) return;
+    this.lockScroll();
+    modal.classList.remove("hidden");
+    this.switchGrammarCampTab(initialTab || this.grammarCampTab || "all");
+  }
+
+  closeGrammarCampModal() {
+    this.unlockScroll();
+    document.getElementById("grammarCampModal")?.classList.add("hidden");
+  }
+
+  switchGrammarCampTab(tab = "all") {
+    this.grammarCampTab = tab;
+    const tabs = [
+      { id: "campTabAll", key: "all" },
+      { id: "campTabConjunctions", key: "conjunction" },
+      { id: "campTabPrepositions", key: "preposition" },
+      { id: "campTabPhrasal", key: "phrasal" }
+    ];
+
+    tabs.forEach(t => {
+      const btn = document.getElementById(t.id);
+      if (!btn) return;
+      if (t.key === tab) {
+        btn.className = "px-3 py-1.5 rounded-xl text-xs font-extrabold transition bg-purple-600 text-white shadow-xs";
+      } else {
+        btn.className = "px-3 py-1.5 rounded-xl text-xs font-extrabold transition bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600";
+      }
+    });
+
+    this.renderGrammarCampList();
+  }
+
+  renderGrammarCampList() {
+    const container = document.getElementById("grammarCampListContainer");
+    if (!container) return;
+
+    const searchInput = document.getElementById("grammarCampSearchInput");
+    const query = (searchInput ? searchInput.value : "").toLowerCase().trim();
+    const activeTab = this.grammarCampTab || "all";
+
+    const data = this.getGrammarCampData().filter(item => {
+      if (activeTab !== "all" && item.type !== activeTab) return false;
+      if (!query) return true;
+      return (
+        item.title.toLowerCase().includes(query) ||
+        item.meaning.toLowerCase().includes(query) ||
+        item.rule.toLowerCase().includes(query) ||
+        item.polarity.toLowerCase().includes(query) ||
+        item.tip.toLowerCase().includes(query) ||
+        item.sample.toLowerCase().includes(query)
+      );
+    });
+
+    container.innerHTML = "";
+
+    if (data.length === 0) {
+      container.innerHTML = `
+        <div class="col-span-full p-8 text-center text-sm text-gray-500 dark:text-gray-400">
+          Aradığınız kritere uygun bağlaç, edat veya phrasal verb bulunamadı.
+        </div>
+      `;
+      return;
+    }
+
+    const typeBadges = {
+      conjunction: { label: "Bağlaç", cls: "bg-rose-100 dark:bg-rose-950/80 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-800" },
+      preposition: { label: "Edat / Kalıp", cls: "bg-indigo-100 dark:bg-indigo-950/80 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800" },
+      phrasal: { label: "Phrasal Verb", cls: "bg-emerald-100 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800" }
+    };
+
+    data.forEach(item => {
+      const badge = typeBadges[item.type] || typeBadges.conjunction;
+      const card = document.createElement("div");
+      card.className = "p-4 rounded-2xl bg-white dark:bg-gray-800 border border-gray-200/90 dark:border-gray-700 shadow-2xs flex flex-col justify-between space-y-3";
+      card.innerHTML = `
+        <div class="space-y-2">
+          <div class="flex flex-wrap items-center justify-between gap-1.5">
+            <span class="px-2 py-0.5 rounded-lg text-[10px] font-extrabold border ${badge.cls}">
+              ${badge.label} • ${item.polarity}
+            </span>
+            <span class="px-2 py-0.5 rounded-lg text-[10px] font-bold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300">
+              ${item.rule}
+            </span>
+          </div>
+          <h4 class="text-sm sm:text-base font-black text-gray-900 dark:text-white leading-snug">
+            ${item.title}
+          </h4>
+          <p class="text-xs font-extrabold text-purple-700 dark:text-purple-300">
+            Anlamı: ${item.meaning}
+          </p>
+          <p class="text-xs text-gray-600 dark:text-gray-300 leading-relaxed">
+            <strong class="text-gray-800 dark:text-gray-100">YDS İpucu:</strong> ${item.tip}
+          </p>
+          <div class="p-2.5 rounded-xl bg-gray-50 dark:bg-gray-900/60 border border-gray-100 dark:border-gray-700/70 text-[11px] italic text-gray-600 dark:text-gray-300">
+            "${item.sample}"
+          </div>
+        </div>
+        <div class="pt-1 flex items-center justify-between gap-2">
+          <button type="button" class="camp-speak-btn px-2.5 py-1.5 rounded-xl text-[11px] font-bold bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 flex items-center gap-1 transition">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+            <span>Dinle</span>
+          </button>
+          <button type="button" class="camp-filter-btn px-3 py-1.5 rounded-xl text-[11px] font-extrabold bg-purple-50 dark:bg-purple-950/80 hover:bg-purple-100 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 flex items-center gap-1 transition">
+            <span>Sorularda Gör</span>
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </button>
+        </div>
+      `;
+
+      card.querySelector(".camp-speak-btn")?.addEventListener("click", () => {
+        const firstPhrase = item.title.split("/")[0].trim();
+        this.speakWord(firstPhrase);
+      });
+      card.querySelector(".camp-filter-btn")?.addEventListener("click", () => {
+        this.filterQuestionsFromGrammarCamp(item.searchKw);
+      });
+
+      container.appendChild(card);
+    });
+  }
+
+  filterQuestionsFromGrammarCamp(keyword) {
+    if (!keyword) return;
+    this.closeGrammarCampModal();
+    this.searchWordInExams(keyword);
+  }
+
+  // ============================================================
+  // --- ÖZELLİK PAKETİ 2.5: SON 7 GÜNLÜK ÇÖZÜM GRAFİĞİ ---
+  // ============================================================
+
+  getLast7DaysActivity() {
+    if (!this.streakData) this.streakData = this.loadStreakData();
+    const history = this.streakData.dailyHistory || {};
+    const target = this.streakData.dailyTarget || 15;
+    const todayISO = this.getLocalISODate();
+
+    // Ayrıca practiceAnswers ve examAnswers içindeki timestamp'lerden de günlük sayıları çıkar
+    const timestampCounts = {};
+    const combinedAnswers = { ...(this.practiceAnswers || {}), ...(this.examAnswers || {}) };
+    Object.values(combinedAnswers).forEach(ans => {
+      if (ans && ans.timestamp) {
+        const dStr = this.getLocalISODate(new Date(ans.timestamp));
+        timestampCounts[dStr] = (timestampCounts[dStr] || 0) + 1;
+      }
+    });
+
+    const dayNames = ["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"];
+    const days = [];
+
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date();
+      d.setDate(d.getDate() - i);
+      const iso = this.getLocalISODate(d);
+      const fromHistory = iso === todayISO
+        ? Math.max(this.streakData.todayCount || 0, history[iso] || 0)
+        : (history[iso] || 0);
+      const fromTimestamps = timestampCounts[iso] || 0;
+      const count = Math.max(fromHistory, fromTimestamps);
+
+      days.push({
+        iso,
+        dayLabel: i === 0 ? "Bugün" : dayNames[d.getDay()],
+        shortDate: `${String(d.getDate()).padStart(2, "0")}.${String(d.getMonth() + 1).padStart(2, "0")}`,
+        count,
+        goalMet: count >= target
+      });
+    }
+
+    return { days, target };
+  }
+
+  renderWeeklyActivityChart() {
+    const container = document.getElementById("weeklyChartBarsContainer");
+    if (!container) return;
+
+    const { days, target } = this.getLast7DaysActivity();
+    const total7Days = days.reduce((sum, d) => sum + d.count, 0);
+    const avgDaily = Math.round((total7Days / 7) * 10) / 10;
+    const goalDays = days.filter(d => d.goalMet).length;
+
+    const maxVal = Math.max(target, ...days.map(d => d.count), 10);
+
+    const totalBadge = document.getElementById("weeklyTotalSolvedBadge");
+    const avgBadge = document.getElementById("weeklyDailyAvgBadge");
+    const goalBadge = document.getElementById("weeklyGoalDaysBadge");
+    const bestDayEl = document.getElementById("weeklyBestDayText");
+
+    if (totalBadge) totalBadge.textContent = `7 Gün Toplam: ${total7Days}`;
+    if (avgBadge) avgBadge.textContent = `Günlük Ort: ${avgDaily}`;
+    if (goalBadge) goalBadge.textContent = `Hedef: ${goalDays}/7 Gün`;
+
+    const bestDay = [...days].sort((a, b) => b.count - a.count)[0];
+    if (bestDayEl) {
+      bestDayEl.textContent = bestDay && bestDay.count > 0
+        ? `En Verimli Gün: ${bestDay.dayLabel} (${bestDay.count} Soru/Kelime)`
+        : "Bu hafta henüz aktivite kaydı yok";
+    }
+
+    container.innerHTML = "";
+    days.forEach(d => {
+      const heightPct = d.count === 0 ? 6 : Math.max(12, Math.min(100, Math.round((d.count / maxVal) * 100)));
+      const barColor = d.goalMet
+        ? "bg-gradient-to-t from-emerald-600 to-teal-400 shadow-xs shadow-emerald-500/20"
+        : d.count > 0
+        ? "bg-gradient-to-t from-indigo-600 to-violet-500 shadow-xs shadow-indigo-500/20"
+        : "bg-gray-200 dark:bg-gray-700";
+
+      const col = document.createElement("div");
+      col.className = "flex flex-col items-center justify-end h-full group";
+      col.innerHTML = `
+        <span class="text-[10px] sm:text-xs font-extrabold ${d.count > 0 ? 'text-gray-800 dark:text-gray-100' : 'text-gray-400 dark:text-gray-500'} mb-1">
+          ${d.count}
+        </span>
+        <div class="w-full max-w-[34px] h-28 flex items-end justify-center">
+          <div class="w-full rounded-t-xl transition-all duration-500 ${barColor}" style="height: ${heightPct}%" title="${d.shortDate}: ${d.count} Soru/Kelime"></div>
+        </div>
+        <span class="text-[10px] sm:text-[11px] font-bold ${d.dayLabel === 'Bugün' ? 'text-indigo-600 dark:text-indigo-400 font-extrabold' : 'text-gray-500 dark:text-gray-400'} mt-1.5">
+          ${d.dayLabel}
+        </span>
+      `;
+      container.appendChild(col);
+    });
+  }
+
   handleHardwareBackButton() {
     // 1. Açık bir modal veya çekmece varsa kapat (en üstteki panel)
     const modals = [
+      { id: "sprintResultModal", closeFn: () => this.closeSprintResultModal() },
+      { id: "grammarCampModal", closeFn: () => this.closeGrammarCampModal() },
+      { id: "vocabQuizModal", closeFn: () => this.closeVocabQuizModal() },
       { id: "adFreeModal", closeFn: () => this.closeAdFreeModal() },
       { id: "allNotesModal", closeFn: () => this.closeAllNotesModal() },
       { id: "questionNoteDrawer", closeFn: () => this.closeQuestionNoteDrawer() },
@@ -4092,11 +6660,11 @@ class YDSApp {
       if (el && !el.classList.contains("hidden")) {
         if (modal.id === "namePromptModal") return; // Geri tuşu ile geçilemez
         modal.closeFn();
-        return; // Sadece en Ǭsttekini kapat ve k
+        return; // Sadece en üsttekini kapat ve çık
       }
     }
 
-    // 2. EYer Question veya Report view'daysak Home'a dn
+    // 2. Eğer Question veya Report view'daysak Home'a dön
     if (this.currentView === "question") {
       if (this.isExamMode) {
         this.exitExamMode();
@@ -4110,13 +6678,13 @@ class YDSApp {
       return;
     }
 
-    // 3. EYer Home view'daysak, kY uyars gster
+    // 3. Eğer Home view'daysak, çıkış uyarısı göster
     if (this.currentView === "home") {
       const exitModal = document.getElementById("exitConfirmModal");
       if (exitModal && exitModal.classList.contains("hidden")) {
         exitModal.classList.remove("hidden");
       } else if (exitModal) {
-        exitModal.classList.add("hidden"); // Zaten aksa ve tekrar basldysa kapat
+        exitModal.classList.add("hidden"); // Zaten açıksa ve tekrar basıldıysa kapat
       }
     }
   }

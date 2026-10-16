@@ -1,6 +1,7 @@
 import UIKit
 import Capacitor
 import AVFoundation
+import StoreKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -47,5 +48,141 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                           sessionRole: connectingSceneSession.role)
         config.delegateClass = SceneDelegate.self
         return config
+    }
+}
+
+// MARK: - Native App Store Billing Plugin (StoreKit 2)
+@objc(AppStoreBillingPlugin)
+public class AppStoreBillingPlugin: CAPPlugin, CAPBridgedPlugin {
+    public let identifier = "AppStoreBillingPlugin"
+    public let jsName = "AppStoreBilling"
+    public let pluginMethods: [CAPPluginMethod] = [
+        CAPPluginMethod(name: "purchase", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "queryPurchases", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "getProductDetails", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "restorePurchases", returnType: CAPPluginReturnPromise)
+    ]
+
+    @objc func purchase(_ call: CAPPluginCall) {
+        let productId = call.getString("productId") ?? "remove_ads"
+
+        if #available(iOS 15.0, *) {
+            Task {
+                do {
+                    let products = try await Product.products(for: [productId])
+                    guard let product = products.first else {
+                        call.reject("Ürün App Store üzerinde bulunamadı (ID: \(productId)).")
+                        return
+                    }
+
+                    let purchaseResult = try await product.purchase()
+                    switch purchaseResult {
+                    case .success(let verification):
+                        switch verification {
+                        case .verified(let transaction):
+                            await transaction.finish()
+                            call.resolve([
+                                "success": true,
+                                "isAdFree": true,
+                                "productId": transaction.productID
+                            ])
+                        case .unverified(_, let error):
+                            call.reject("Satın alma işlemi doğrulanamadı: \(error.localizedDescription)")
+                        }
+                    case .userCancelled:
+                        call.reject("Satın alma işlemi kullanıcı tarafından iptal edildi.", "CANCELLED")
+                    case .pending:
+                        call.resolve([
+                            "pending": true,
+                            "isAdFree": false,
+                            "message": "Satın alma onay bekliyor."
+                        ])
+                    @unknown default:
+                        call.reject("Bilinmeyen bir satın alma sonucu oluştu.")
+                    }
+                } catch {
+                    call.reject("App Store satın alma işlemi gerçekleştirilemedi: \(error.localizedDescription)")
+                }
+            }
+        } else {
+            call.reject("Bu cihaz sürümü App Store In-App Purchase desteklemiyor (iOS 15+ gereklidir).")
+        }
+    }
+
+    @objc func queryPurchases(_ call: CAPPluginCall) {
+        checkEntitlements(call: call)
+    }
+
+    @objc func restorePurchases(_ call: CAPPluginCall) {
+        if #available(iOS 15.0, *) {
+            Task {
+                try? await AppStore.sync()
+                self.checkEntitlements(call: call)
+            }
+        } else {
+            self.checkEntitlements(call: call)
+        }
+    }
+
+    private func checkEntitlements(call: CAPPluginCall) {
+        let productId = call.getString("productId") ?? "remove_ads"
+
+        if #available(iOS 15.0, *) {
+            Task {
+                var hasPurchased = false
+                for await result in Transaction.currentEntitlements {
+                    if case .verified(let transaction) = result {
+                        if transaction.productID == productId && transaction.revocationDate == nil {
+                            hasPurchased = true
+                            break
+                        }
+                    }
+                }
+                call.resolve([
+                    "hasPurchased": hasPurchased,
+                    "isAdFree": hasPurchased
+                ])
+            }
+        } else {
+            call.resolve([
+                "hasPurchased": false,
+                "isAdFree": false
+            ])
+        }
+    }
+
+    @objc func getProductDetails(_ call: CAPPluginCall) {
+        let productId = call.getString("productId") ?? "remove_ads"
+
+        if #available(iOS 15.0, *) {
+            Task {
+                do {
+                    let products = try await Product.products(for: [productId])
+                    if let product = products.first {
+                        call.resolve([
+                            "productId": product.id,
+                            "formattedPrice": product.displayPrice,
+                            "title": product.displayName,
+                            "description": product.description
+                        ])
+                    } else {
+                        call.resolve([
+                            "productId": productId,
+                            "formattedPrice": "₺23,99"
+                        ])
+                    }
+                } catch {
+                    call.resolve([
+                        "productId": productId,
+                        "formattedPrice": "₺23,99"
+                    ])
+                }
+            }
+        } else {
+            call.resolve([
+                "productId": productId,
+                "formattedPrice": "₺23,99"
+            ])
+        }
     }
 }

@@ -154,6 +154,71 @@ header {
   75% { transform: translateX(4px); }
 }
 
+/* Şık Eleme (Option Elimination - Üstünü Çizme) Stilleri */
+.option-btn.option-eliminated {
+  opacity: 0.45 !important;
+  border-style: dashed !important;
+  border-color: #cbd5e1 !important;
+  background-color: #f8fafc !important;
+}
+
+.dark .option-btn.option-eliminated {
+  opacity: 0.42 !important;
+  border-color: #475569 !important;
+  background-color: rgba(15, 23, 42, 0.5) !important;
+}
+
+.option-btn.option-eliminated .option-text-content {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #ef4444;
+  color: #94a3b8 !important;
+}
+
+.dark .option-btn.option-eliminated .option-text-content {
+  text-decoration-color: #f87171;
+  color: #64748b !important;
+}
+
+.option-btn.option-eliminated .option-key-badge {
+  background-color: #e2e8f0 !important;
+  color: #94a3b8 !important;
+  text-decoration: line-through;
+}
+
+.dark .option-btn.option-eliminated .option-key-badge {
+  background-color: #1e293b !important;
+  color: #64748b !important;
+}
+
+/* Dinamik Soru Metni Boyutu Ölçekleme (A- / A+) */
+#questionContainer.q-font-scale--1 #passageText,
+#questionContainer.q-font-scale--1 #questionText {
+  font-size: 0.92rem !important;
+  line-height: 1.65 !important;
+}
+#questionContainer.q-font-scale--1 .option-text-content {
+  font-size: 0.88rem !important;
+}
+
+#questionContainer.q-font-scale-1 #passageText,
+#questionContainer.q-font-scale-1 #questionText {
+  font-size: 1.18rem !important;
+  line-height: 1.85 !important;
+}
+#questionContainer.q-font-scale-1 .option-text-content {
+  font-size: 1.08rem !important;
+}
+
+#questionContainer.q-font-scale-2 #passageText,
+#questionContainer.q-font-scale-2 #questionText {
+  font-size: 1.32rem !important;
+  line-height: 1.9 !important;
+}
+#questionContainer.q-font-scale-2 .option-text-content {
+  font-size: 1.18rem !important;
+}
+
 /* 3D Flaş Kart (Flashcard) Animasyonu */
 .flashcard-container {
   perspective: 1000px;
@@ -487,5 +552,94 @@ header {
 #questionNoteDrawer.open #questionNotePanel {
   transform: translateY(0);
 }
+
+/* =========================================
+   DARK THEME GLOBAL REFINEMENTS
+   ========================================= */
+.dark body {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+.dark input[type="text"],
+.dark input[type="search"],
+.dark select,
+.dark textarea {
+  color-scheme: dark;
+}
+
+.dark option {
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+
+/* Custom scrollbars in dark mode */
+.dark .custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(30, 41, 59, 0.5);
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 6px;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* =========================================
+   PACKAGE 2: OKUMA MODU İPUCU VURGULAMA & SPRINT
+   ========================================= */
+.interactive-word.clue-contrast {
+  background-color: rgba(244, 63, 94, 0.14);
+  color: #be123c;
+  border-bottom: 2px solid #f43f5e;
+  font-weight: 700;
+  padding: 0 3px;
+  border-radius: 4px;
+}
+.dark .interactive-word.clue-contrast {
+  background-color: rgba(244, 63, 94, 0.25);
+  color: #fda4af;
+  border-bottom: 2px solid #fb7185;
+}
+
+.interactive-word.clue-cause {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: #047857;
+  border-bottom: 2px solid #10b981;
+  font-weight: 700;
+  padding: 0 3px;
+  border-radius: 4px;
+}
+.dark .interactive-word.clue-cause {
+  background-color: rgba(16, 185, 129, 0.25);
+  color: #6ee7b7;
+  border-bottom: 2px solid #34d399;
+}
+
+.interactive-word.clue-time {
+  background-color: rgba(99, 102, 241, 0.15);
+  color: #4338ca;
+  border-bottom: 2px solid #6366f1;
+  font-weight: 700;
+  padding: 0 3px;
+  border-radius: 4px;
+}
+.dark .interactive-word.clue-time {
+  background-color: rgba(99, 102, 241, 0.28);
+  color: #a5b4fc;
+  border-bottom: 2px solid #818cf8;
+}
+
+@keyframes sprintDangerPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+
+.sprint-timer-urgent {
+  animation: sprintDangerPulse 1s infinite ease-in-out;
+}
+
 
 

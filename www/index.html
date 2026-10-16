@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>Examdil - YDS Soru Filtreleme & Sınav Platformu</title>
+  <title>Examgo - YDS Soru Filtreleme & Sınav Platformu</title>
   <meta name="theme-color" content="#4f46e5">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Examdil">
+  <meta name="apple-mobile-web-app-title" content="Examgo">
   <meta name="format-detection" content="telephone=no">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" type="image/png" href="icon-192.png">
@@ -27,11 +27,32 @@
               500: '#6366f1',
               600: '#4f46e5',
               700: '#4338ca',
+            },
+            gray: {
+              150: '#f1f5f9',
+              750: '#1e293b',
+              850: '#0f172a',
+            },
+            slate: {
+              850: '#0f172a',
             }
           }
         }
       }
     }
+  </script>
+  <script>
+    // FOUC önleyici erken tema yükleyici
+    try {
+      const savedTheme = localStorage.getItem('yds_theme');
+      if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+        document.documentElement.classList.remove('light');
+      } else {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.add('light');
+      }
+    } catch (_) {}
   </script>
   <!-- PDF.js CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
@@ -84,7 +105,7 @@
 
         <!-- Ana Menü Başlığı (Sadece Ana Menüde Gösterilir) -->
         <div id="headerBrandTitle" class="flex flex-col">
-          <span class="text-base sm:text-lg font-black tracking-tight text-gray-900 dark:text-white leading-none">Examdil</span>
+          <span class="text-base sm:text-lg font-black tracking-tight text-gray-900 dark:text-white leading-none">Examgo</span>
           <span class="text-[10px] font-semibold text-indigo-600 dark:text-indigo-400">YDS Hazırlık Platformu</span>
         </div>
 
@@ -144,7 +165,7 @@
           class="hidden items-center space-x-1 px-2.5 sm:px-3 py-2 rounded-xl text-xs sm:text-sm font-bold bg-emerald-50 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-100 dark:hover:bg-emerald-900 border border-emerald-200/80 dark:border-emerald-800 transition transform active:scale-95 flex-shrink-0 shadow-2xs"
           title="Karnemi ve Raporlarımı Gör"
         >
-          <span>📊</span>
+          <svg class="w-4 h-4 text-emerald-600 dark:text-emerald-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
           <span class="hidden md:inline">Karne</span>
         </button>
 
@@ -170,7 +191,7 @@
           class="relative inline-flex items-center space-x-1 px-2 sm:px-2.5 py-2 rounded-xl text-xs sm:text-sm font-bold bg-amber-50 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 hover:bg-amber-100 dark:hover:bg-amber-900/60 border border-amber-200/80 dark:border-amber-800 transition transform active:scale-95 flex-shrink-0"
           title="Tüm Soru Notlarım"
         >
-          <span class="text-sm">📝</span>
+          <svg class="w-4 h-4 text-amber-600 dark:text-amber-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
           <span id="notesBtnLabel" class="hidden md:inline">Notlarım</span>
           <span id="notesCountBadge" class="ml-0.5 px-1.5 py-0.2 rounded-full text-xs bg-amber-500 text-white font-bold">0</span>
         </button>
@@ -239,7 +260,7 @@
             <span class="text-gray-500 dark:text-gray-400 text-xs font-semibold whitespace-nowrap">Durum:</span>
             <select id="statusFilter" class="bg-transparent text-xs outline-none focus:text-indigo-600 dark:focus:text-indigo-400 font-medium">
               <option value="all">Tümü</option>
-              <option value="notes">📝 Not Aldıklarım</option>
+              <option value="notes">Not Aldıklarım</option>
               <option value="unsolved">Çözülmemişler</option>
               <option value="wrong">Yanlış Yapılanlar (Hata Havuzu)</option>
               <option value="correct">Doğru Yapılanlar</option>
@@ -253,14 +274,14 @@
             <select id="searchScopeFilter" class="bg-transparent text-xs outline-none focus:text-amber-600 dark:focus:text-amber-400 font-bold text-amber-900 dark:text-amber-200">
               <option value="practice">Sadece Alıştırmalar</option>
               <option value="exams">Deneme Sınavı Soruları</option>
-              <option value="all">🌐 Tüm Sorularda Ara</option>
+              <option value="all">Tüm Sorularda Ara</option>
             </select>
           </div>
         </div>
 
         <!-- Aktif Filtre Bilgi Rozeti -->
         <div id="filterInfoBanner" class="hidden flex items-center space-x-2 text-xs font-medium text-indigo-700 dark:text-indigo-300 bg-indigo-50 dark:bg-indigo-950/60 px-3 py-1 rounded-full border border-indigo-200 dark:border-indigo-800 flex-shrink-0">
-          <span>🎯 Filtre: <strong id="filterKeywordName"></strong> (<span id="filteredCount">0</span> soru)</span>
+          <span>Filtre: <strong id="filterKeywordName"></strong> (<span id="filteredCount">0</span> soru)</span>
           <button id="clearFilterBtn" class="text-xs text-rose-600 dark:text-rose-400 hover:underline font-semibold ml-1">Filtreyi Temizle</button>
         </div>
 
@@ -348,15 +369,15 @@
         <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div class="space-y-2.5">
             <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/15 backdrop-blur-md text-xs font-bold tracking-wide uppercase text-indigo-100 border border-white/20">
-              <span>🎯</span>
+              <svg class="w-3.5 h-3.5 text-indigo-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
               <span>YDS Hazırlık & Performans Platformu</span>
             </div>
             <div class="flex items-center space-x-3">
               <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white">
-                Merhaba, <span id="homeUserNameText" class="text-amber-300">Aday</span> 👋
+                Merhaba, <span id="homeUserNameText" class="text-amber-300">Aday</span>
               </h1>
-              <button onclick="ydsApp.openNameModal()" class="text-xs bg-white/20 hover:bg-white/30 text-white px-2.5 py-1 rounded-lg transition" title="İsmini Değiştir">
-                ✏️
+              <button onclick="ydsApp.openNameModal()" class="text-xs bg-white/20 hover:bg-white/30 text-white p-1.5 rounded-lg transition" title="İsmini Değiştir">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg>
               </button>
             </div>
             <p class="text-xs sm:text-sm text-indigo-100/90 max-w-xl font-medium leading-relaxed">
@@ -364,11 +385,13 @@
             </p>
             <div class="flex flex-wrap items-center gap-2 pt-1">
               <button onclick="ydsApp.openAllNotesModal()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-amber-400/20 hover:bg-amber-400/30 text-amber-200 border border-amber-300/30 transition active:scale-95 shadow-2xs">
-                <span>📝 Soru Notlarım</span>
+                <svg class="w-3.5 h-3.5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+                <span>Soru Notlarım</span>
                 <span id="homeNotesBadge" class="px-1.5 py-0.2 rounded-full bg-amber-500 text-white text-[10px] font-black">0</span>
               </button>
               <button onclick="ydsApp.openLearningPoolModal()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-white/10 hover:bg-white/20 text-indigo-100 border border-white/15 transition active:scale-95 shadow-2xs">
-                <span>⭐ Kelime Havuzum</span>
+                <svg class="w-3.5 h-3.5 text-indigo-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+                <span>Kelime Havuzum</span>
               </button>
             </div>
           </div>
@@ -391,41 +414,202 @@
         </div>
       </div>
 
-      <!-- Ana Menü Butonları / Kartları (2x2 Grid) -->
-      
-          
-          <!-- Günün Sorusu Banner -->
-          <div class="group relative fire-banner mt-8 rounded-3xl p-5 sm:p-6 mb-6 flex flex-col sm:flex-row items-center justify-between text-white cursor-pointer transform transition-all duration-300 hover:scale-[1.02] overflow-hidden" onclick="ydsApp.openDailyQuestion()">
-            <!-- Ateş Efekti Dekorasyon -->
-            <div class="absolute -bottom-4 right-10 text-3xl fire-particle hidden sm:block" style="animation-delay: 0.5s; opacity: 0.8; font-size: 2rem;">🔥</div>
-            <div class="absolute top-1/2 left-1/4 text-2xl fire-particle hidden sm:block" style="animation-delay: 1.2s; opacity: 0.4; font-size: 1.5rem; filter: blur(1px);">🔥</div>
-            <div class="absolute -top-3 -left-2 text-4xl fire-particle hidden sm:block">🔥</div>
-            
-            <div class="text-center sm:text-left mb-4 sm:mb-0 relative z-10 pl-0 sm:pl-8">
-              <h3 class="text-2xl sm:text-3xl font-black text-white flex items-center justify-center sm:justify-start gap-2 tracking-tight drop-shadow-sm">
-                Günün Sorusu
-              </h3>
-              <p class="text-sm font-semibold text-red-50 mt-1.5 max-w-md opacity-90">Her güne 1 orijinal YDS sorusuyla ateşli bir başlangıç yap!</p>
+      <!-- Günlük Seri & Hedef + Kaldığın Yerden Devam Et Alanı -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-5">
+        
+        <!-- Sol: Günlük Seri (Streak) ve Günlük Hedef Kartı (7 Kolon) -->
+        <div id="dailyStreakCard" class="lg:col-span-7 bg-white dark:bg-gray-800 rounded-3xl p-5 sm:p-6 border border-gray-200/80 dark:border-gray-700 shadow-sm flex flex-col justify-between space-y-4">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center space-x-3.5">
+              <div id="streakIconBox" class="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 text-white flex items-center justify-center shadow-md shadow-orange-500/25 flex-shrink-0">
+                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.527.82-1.124 1.956-1.528 3.013a22.25 22.25 0 00-1.148 4.288A4.978 4.978 0 006 12a5 5 0 0010 0c0-.82-.2-1.594-.555-2.278a22.348 22.348 0 00-1.6-3.84c-.392-.74-.82-1.47-1.45-2.329zm-3.82 8.64a3 3 0 015.425 0c.26.474.4.998.4 1.54 0 1.657-1.343 3-3 3s-3-1.343-3-3c0-.542.14-1.066.4-1.54z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <h3 class="text-lg sm:text-xl font-black text-gray-900 dark:text-white tracking-tight">
+                    <span id="streakDayCount">0</span> Günlük Seri
+                  </h3>
+                  <span id="streakBestBadge" class="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-amber-100 dark:bg-amber-950/80 text-amber-800 dark:text-amber-300 border border-amber-200/60 dark:border-amber-800/60">
+                    En İyi: 0 Gün
+                  </span>
+                </div>
+                <p id="streakMotivationText" class="text-xs text-gray-500 dark:text-gray-400 mt-0.5 font-medium">
+                  Serini başlatmak ve korumak için bugün hedefini tamamla!
+                </p>
+              </div>
             </div>
-            <button class="py-3.5 px-8 rounded-2xl font-black text-sm bg-white text-red-600 shadow-xl shadow-red-900/20 transition transform group-hover:scale-105 group-active:scale-95 relative z-10 flex items-center gap-2">
-              <span>GÖSTER</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+
+            <!-- Günlük Hedef Seçici -->
+            <div class="flex items-center space-x-1 bg-gray-100 dark:bg-gray-700/80 p-1 rounded-xl border border-gray-200/60 dark:border-gray-600">
+              <span class="text-[10px] font-bold text-gray-500 dark:text-gray-300 px-1.5">Hedef:</span>
+              <button type="button" onclick="ydsApp.setDailyTarget(10)" id="dailyTargetBtn10" class="px-2 py-1 rounded-lg text-[11px] font-extrabold transition">10</button>
+              <button type="button" onclick="ydsApp.setDailyTarget(15)" id="dailyTargetBtn15" class="px-2 py-1 rounded-lg text-[11px] font-extrabold transition">15</button>
+              <button type="button" onclick="ydsApp.setDailyTarget(25)" id="dailyTargetBtn25" class="px-2 py-1 rounded-lg text-[11px] font-extrabold transition">25</button>
+            </div>
+          </div>
+
+          <!-- Günlük Hedef İlerleme Çubuğu -->
+          <div class="space-y-1.5 pt-1">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-bold text-gray-700 dark:text-gray-200">
+                Bugünkü İlerleme: <strong id="dailyGoalProgressText" class="text-indigo-600 dark:text-indigo-400">0 / 15</strong> Soru & Kelime
+              </span>
+              <span id="dailyGoalStatusBadge" class="text-[11px] font-extrabold text-amber-600 dark:text-amber-400">
+                %0 Tamamlandı
+              </span>
+            </div>
+            <div class="w-full h-3 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden p-0.5 border border-gray-200/60 dark:border-gray-600/60">
+              <div id="dailyGoalProgressBar" class="h-full rounded-full bg-gradient-to-r from-amber-500 to-orange-500 transition-all duration-500" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sağ: Kaldığın Yerden Devam Et Kartı (5 Kolon) -->
+        <div id="continueLastSessionCard" class="lg:col-span-5 bg-white dark:bg-gray-800 rounded-3xl p-5 sm:p-6 border border-gray-200/80 dark:border-gray-700 shadow-sm flex flex-col justify-between space-y-4">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between gap-2">
+              <span class="inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-lg text-[10px] font-extrabold uppercase tracking-wider bg-indigo-50 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-300 border border-indigo-100 dark:border-indigo-800/60">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                <span id="continueSessionBadge">Hızlı Erişim</span>
+              </span>
+              <span id="continueSessionProgressPill" class="text-[11px] font-bold text-gray-400 dark:text-gray-400">Hazır</span>
+            </div>
+            <h3 id="continueSessionTitle" class="text-base sm:text-lg font-extrabold text-gray-900 dark:text-white leading-snug">
+              Kaldığın Yerden Devam Et
+            </h3>
+            <p id="continueSessionDesc" class="text-xs text-gray-500 dark:text-gray-400 leading-relaxed">
+              En son çalıştığınız deneme veya alıştırma oturumuna kaldığınız sorudan tek tıkla geri dönün.
+            </p>
+          </div>
+          <div>
+            <button id="continueSessionBtn" type="button" onclick="ydsApp.continueLastSession()" class="w-full py-3 px-4 rounded-2xl font-bold text-xs sm:text-sm bg-indigo-600 hover:bg-indigo-700 text-white shadow-md shadow-indigo-500/20 flex items-center justify-center space-x-2 transition transform active:scale-98">
+              <span id="continueSessionBtnText">Çalışmaya Devam Et</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </button>
           </div>
+        </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
+      </div>
 
-        <!-- Kart: Kelime Antrenmanı -->
-        <div onclick="window.startVocabTraining ? window.startVocabTraining() : ydsApp.startVocabTraining()" class="group relative bg-white dark:bg-gray-800 rounded-3xl p-5 sm:p-6 border border-gray-200/80 dark:border-gray-700 shadow-sm hover:shadow-xl hover:border-teal-400 dark:hover:border-teal-600 transition-all duration-300 flex flex-col justify-between overflow-hidden cursor-pointer">
-          <div class="text-center py-1.5">
-            <h3 class="text-xl sm:text-2xl font-black text-gray-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors tracking-tight text-center">
-              Kelime Antrenmanı
-            </h3>
+      <!-- YDS Puan Hedefi ve Dinamik Seviye Çubuğu Kartı -->
+      <div id="ydsScoreTargetCard" class="bg-white dark:bg-gray-800 rounded-3xl p-5 sm:p-6 border border-gray-200/80 dark:border-gray-700 shadow-sm space-y-4">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div class="flex items-start sm:items-center space-x-3.5">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex items-center justify-center shadow-md shadow-emerald-500/20 flex-shrink-0">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+            </div>
+            <div>
+              <div class="flex flex-wrap items-center gap-2">
+                <h3 class="text-base sm:text-lg font-black text-gray-900 dark:text-white tracking-tight">
+                  Tahmini YDS Seviyeniz: <span id="estimatedYdsScoreText" class="text-emerald-600 dark:text-emerald-400">0.0 Puan</span>
+                </h3>
+                <span id="estimatedYdsBandBadge" class="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800/60">
+                  Veri Bekleniyor
+                </span>
+              </div>
+              <p id="ydsTargetDiffText" class="text-xs text-gray-500 dark:text-gray-400 mt-0.5 font-medium">
+                Hedef puanınızı seçin; çözdüğünüz sorulara göre YDS seviyeniz canlı hesaplansın.
+              </p>
+            </div>
           </div>
-          <div class="pt-3">
-            <button onclick="window.startVocabTraining ? window.startVocabTraining() : ydsApp.startVocabTraining()" class="w-full py-3.5 px-5 rounded-2xl font-black text-sm bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white shadow-md shadow-teal-500/25 flex items-center justify-center space-x-2 transition transform active:scale-98">
-              <span>Antrenmana Başla</span>
-              <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+
+          <!-- Hedef Puan Seçici -->
+          <div class="flex items-center space-x-1 bg-gray-100 dark:bg-gray-700/80 p-1 rounded-xl border border-gray-200/60 dark:border-gray-600 self-start md:self-auto">
+            <span class="text-[10px] font-bold text-gray-500 dark:text-gray-300 px-1.5 whitespace-nowrap">Hedef YDS:</span>
+            <button type="button" onclick="ydsApp.setYdsScoreTarget(55)" id="ydsTargetBtn55" class="px-2 py-1 rounded-lg text-[11px] font-extrabold transition" title="55 Puan (Akademik Baraj)">55 (Baraj)</button>
+            <button type="button" onclick="ydsApp.setYdsScoreTarget(70)" id="ydsTargetBtn70" class="px-2 py-1 rounded-lg text-[11px] font-extrabold transition" title="70 Puan (C Seviyesi)">70 (C)</button>
+            <button type="button" onclick="ydsApp.setYdsScoreTarget(80)" id="ydsTargetBtn80" class="px-2 py-1 rounded-lg text-[11px] font-extrabold transition" title="80 Puan (B Seviyesi)">80 (B)</button>
+            <button type="button" onclick="ydsApp.setYdsScoreTarget(90)" id="ydsTargetBtn90" class="px-2 py-1 rounded-lg text-[11px] font-extrabold transition" title="90 Puan (A Seviyesi)">90 (A)</button>
+          </div>
+        </div>
+
+        <!-- Seviye İlerleme Çubuğu -->
+        <div class="space-y-1.5">
+          <div class="flex items-center justify-between text-[11px]">
+            <span id="ydsScoreScaleLabel" class="font-bold text-gray-500 dark:text-gray-400">
+              0 Puan (Başlangıç) → Hedef: 70 Puan
+            </span>
+            <span id="ydsTargetPercentBadge" class="font-extrabold text-emerald-600 dark:text-emerald-400">
+              Hedefe %0 Ulaşıldı
+            </span>
+          </div>
+          <div class="w-full h-3 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden p-0.5 border border-gray-200/60 dark:border-gray-600/60">
+            <div id="ydsScoreProgressBar" class="h-full rounded-full bg-gradient-to-r from-emerald-500 via-teal-500 to-indigo-500 transition-all duration-500" style="width: 0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Günün Sorusu Banner -->
+      <div class="group relative fire-banner rounded-3xl p-5 sm:p-6 flex flex-col sm:flex-row items-center justify-between text-white cursor-pointer transform transition-all duration-300 hover:scale-[1.01] overflow-hidden" onclick="ydsApp.openDailyQuestion()">
+        <div class="text-center sm:text-left mb-4 sm:mb-0 relative z-10 pl-0 sm:pl-4">
+          <h3 class="text-2xl sm:text-3xl font-black text-white flex items-center justify-center sm:justify-start gap-2 tracking-tight drop-shadow-sm">
+            <span>Günün Sorusu</span>
+          </h3>
+          <p class="text-sm font-semibold text-red-50 mt-1.5 max-w-md opacity-90">Her güne 1 orijinal YDS sorusuyla güncel kal ve hızlan!</p>
+        </div>
+        <button class="py-3.5 px-8 rounded-2xl font-black text-sm bg-white text-red-600 shadow-xl shadow-red-900/20 transition transform group-hover:scale-105 group-active:scale-95 relative z-10 flex items-center gap-2">
+          <span>GÖSTER</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+        </button>
+      </div>
+
+      <!-- Akıllı YDS Koçu & Zayıf Konu Analizi Kartı -->
+      <div id="weakTopicCoachCard" class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white rounded-3xl p-5 sm:p-6 border border-indigo-500/30 shadow-lg flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
+        <div class="flex items-start space-x-4 flex-1">
+          <div class="w-12 h-12 rounded-2xl bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 flex items-center justify-center flex-shrink-0 mt-0.5">
+            <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          </div>
+          <div class="space-y-2 flex-1">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-amber-400/20 text-amber-300 border border-amber-400/30">
+                Zayıf Konu Koçu
+              </span>
+              <div id="weakCoachBadges" class="flex flex-wrap items-center gap-1.5"></div>
+            </div>
+            <h3 id="weakCoachTitle" class="text-base sm:text-lg font-extrabold text-white">
+              Kişisel Performans ve Eksik Konu Analizi
+            </h3>
+            <p id="weakCoachDesc" class="text-xs sm:text-sm text-indigo-100/90 leading-relaxed">
+              Çözdüğünüz sorular analiz edilerek en çok puan kaybettiğiniz soru tipi tespit edilir ve tek tıkla nokta atışı antrenman başlatılır.
+            </p>
+          </div>
+        </div>
+        <div class="w-full md:w-auto flex-shrink-0">
+          <button id="weakCoachActionBtn" type="button" onclick="ydsApp.startWeakTopicPractice()" class="w-full md:w-auto py-3.5 px-5 rounded-2xl font-extrabold text-xs sm:text-sm bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 text-slate-950 shadow-md shadow-amber-500/20 flex items-center justify-center space-x-2 transition transform active:scale-95">
+            <span id="weakCoachActionBtnText">Eksik Konumu Çalış</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Ana Menü Butonları / Kartları (2x4 Simetrik Grid) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
+
+        <!-- Kart: Kelime Antrenmanı & Çoktan Seçmeli Quiz -->
+        <div class="group relative bg-white dark:bg-gray-800 rounded-3xl p-5 sm:p-6 border border-gray-200/80 dark:border-gray-700 shadow-sm hover:shadow-xl hover:border-teal-400 dark:hover:border-teal-600 transition-all duration-300 flex flex-col justify-between overflow-hidden">
+          <div class="space-y-2.5">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="text-lg sm:text-xl font-extrabold text-gray-900 dark:text-white group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors">
+                Kelime Antrenmanı & Quiz
+              </h3>
+              <span class="px-2.5 py-1 rounded-xl text-[10px] sm:text-[11px] font-extrabold bg-teal-100 dark:bg-teal-950 text-teal-800 dark:text-teal-300 whitespace-nowrap shrink-0">
+                KART & TEST MODU
+              </span>
+            </div>
+            <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 leading-relaxed">
+              YDS'de en sık çıkan kelimeleri sağa/sola kaydırarak öğrenin veya <strong>5 şıklı çoktan seçmeli mini quiz</strong> ile kelime bilginizi test edin.
+            </p>
+          </div>
+          <div class="pt-4 sm:pt-5 grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+            <button type="button" onclick="window.startVocabTraining ? window.startVocabTraining() : ydsApp.startVocabTraining()" class="w-full py-3 px-4 rounded-2xl font-bold text-xs sm:text-sm bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white shadow-md shadow-teal-500/25 flex items-center justify-center space-x-1.5 transition transform active:scale-98">
+              <span>Kartlarla Çalış</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </button>
+            <button type="button" onclick="ydsApp.openVocabQuizModal('all')" class="w-full py-3 px-4 rounded-2xl font-bold text-xs sm:text-sm bg-teal-50 dark:bg-teal-950/70 hover:bg-teal-100 dark:hover:bg-teal-900/70 text-teal-700 dark:text-teal-300 border border-teal-200 dark:border-teal-800 flex items-center justify-center space-x-1.5 transition transform active:scale-98">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+              <span>Kelime Quizi Çöz</span>
             </button>
           </div>
         </div>
@@ -476,7 +660,81 @@
           </div>
         </div>
 
-        <!-- Kart 3: Deneme Raporları & Soru Karnesi -->
+        <!-- YENİ KART 3: 5 Dakikada 10 Soru — Hızlı Sprint Modu -->
+        <div class="group relative bg-white dark:bg-gray-800 rounded-3xl p-5 sm:p-6 border border-gray-200/80 dark:border-gray-700 shadow-sm hover:shadow-xl hover:border-cyan-400 dark:hover:border-cyan-600 transition-all duration-300 flex flex-col justify-between overflow-hidden">
+          <div class="space-y-2.5">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="text-lg sm:text-xl font-extrabold text-gray-900 dark:text-white group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
+                5 Dakikada 10 Soru (Sprint)
+              </h3>
+              <span id="homeSprintRecordBadge" class="px-2.5 py-1 rounded-xl text-[10px] sm:text-[11px] font-extrabold bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300 whitespace-nowrap shrink-0">
+                HIZLI TUR
+              </span>
+            </div>
+            <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 leading-relaxed">
+              Kısa molalarda 80 soruluk denemeye vakti olmayanlar için <strong>5 dakika geri sayımlı, 10 soruluk</strong> yüksek tempolu hız ve odak testi.
+            </p>
+          </div>
+          <div class="pt-4 sm:pt-5">
+            <button type="button" onclick="ydsApp.startSprintMode()" class="w-full py-3.5 px-5 rounded-2xl font-bold text-sm bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white shadow-md shadow-cyan-500/25 flex items-center justify-center space-x-2 transition transform active:scale-98">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              <span>Hızlı Sprint Başlat (05:00)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- YENİ KART 4: İnatçı Hatalarım — Akıllı Hata Eritme Modu -->
+        <div class="group relative bg-white dark:bg-gray-800 rounded-3xl p-5 sm:p-6 border border-gray-200/80 dark:border-gray-700 shadow-sm hover:shadow-xl hover:border-rose-400 dark:hover:border-rose-600 transition-all duration-300 flex flex-col justify-between overflow-hidden">
+          <div class="space-y-2.5">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="text-lg sm:text-xl font-extrabold text-gray-900 dark:text-white group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
+                İnatçı Hatalarım (Hata Eritme)
+              </h3>
+              <div class="flex items-center gap-1.5 shrink-0">
+                <span id="homeMistakeCountBadge" class="px-2.5 py-1 rounded-xl text-[10px] sm:text-[11px] font-extrabold bg-rose-100 dark:bg-rose-950 text-rose-700 dark:text-rose-300 whitespace-nowrap">
+                  0 Hata
+                </span>
+                <span id="homeMeltedCountBadge" class="px-2 py-1 rounded-xl text-[10px] font-extrabold bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 whitespace-nowrap">
+                  0 Eritildi
+                </span>
+              </div>
+            </div>
+            <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 leading-relaxed">
+              Yanlış yaptığınız soruları özel bir oturumda tekrar çözün. <strong>Doğru yaptığınız her soru hata havuzunuzdan düşer</strong> ve netinize eklenir.
+            </p>
+          </div>
+          <div class="pt-4 sm:pt-5">
+            <button type="button" onclick="ydsApp.startMistakeMelterMode()" class="w-full py-3.5 px-5 rounded-2xl font-bold text-sm bg-gradient-to-r from-rose-600 to-pink-600 hover:from-rose-700 hover:to-pink-700 text-white shadow-md shadow-rose-500/25 flex items-center justify-center space-x-2 transition transform active:scale-98">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+              <span id="homeMistakeBtnText">Hatalarımı Eritmeye Başla</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- YENİ KART 5: Bağlaç, Edat & Phrasal Verb Hızlı Kamp Rehberi -->
+        <div class="group relative bg-white dark:bg-gray-800 rounded-3xl p-5 sm:p-6 border border-gray-200/80 dark:border-gray-700 shadow-sm hover:shadow-xl hover:border-purple-400 dark:hover:border-purple-600 transition-all duration-300 flex flex-col justify-between overflow-hidden">
+          <div class="space-y-2.5">
+            <div class="flex items-center justify-between gap-2">
+              <h3 class="text-lg sm:text-xl font-extrabold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                Bağlaç, Edat & Phrasal Kampı
+              </h3>
+              <span class="px-2.5 py-1 rounded-xl text-[10px] sm:text-[11px] font-extrabold bg-purple-100 dark:bg-purple-950 text-purple-800 dark:text-purple-300 whitespace-nowrap shrink-0">
+                45+ KRİTİK YAPI
+              </span>
+            </div>
+            <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 leading-relaxed">
+              YDS'de en çok sorulan <strong>Bağlaç (+SVO / +İsim), Sıfat+Edat ve Phrasal Verb</strong> tablolarını inceleyin ve tek tıkla çıkmış sorularda görün.
+            </p>
+          </div>
+          <div class="pt-4 sm:pt-5">
+            <button type="button" onclick="ydsApp.openGrammarCampModal()" class="w-full py-3.5 px-5 rounded-2xl font-bold text-sm bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white shadow-md shadow-purple-500/25 flex items-center justify-center space-x-2 transition transform active:scale-98">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+              <span>Hızlı Kamp Rehberini Aç</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Kart 6: Deneme Raporları & Soru Karnesi -->
         <div class="group relative bg-white dark:bg-gray-800 rounded-3xl p-5 sm:p-6 border border-gray-200/80 dark:border-gray-700 shadow-sm hover:shadow-xl hover:border-emerald-400 dark:hover:border-emerald-600 transition-all duration-300 flex flex-col justify-between overflow-hidden">
           <div class="space-y-2.5">
             <div class="flex items-center justify-between gap-2">
@@ -484,11 +742,11 @@
                 Raporlar ve Karne
               </h3>
               <span class="px-2.5 py-1 rounded-xl text-[10px] sm:text-[11px] font-extrabold bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 whitespace-nowrap shrink-0">
-                KARNE & TAKTİK
+                7 GÜN GRAFİK & KARNE
               </span>
             </div>
             <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 leading-relaxed">
-              Konu bazlı başarı grafiğinizi inceleyin. Yanlış yaptığınız soru tiplerine özel <strong>ödüllü reklamla açılan sınav taktiklerini</strong> keşfedin.
+              Son 7 günlük soru çözüm grafiğinizi, konu bazlı başarı dağılımınızı ve yanlışlarınıza özel <strong>sınav taktiklerini</strong> keşfedin.
             </p>
           </div>
           <div class="pt-4 sm:pt-5">
@@ -499,7 +757,7 @@
           </div>
         </div>
 
-        <!-- Kart 4: Uygulama Ayarları -->
+        <!-- Kart 7: Uygulama Ayarları -->
         <div class="group relative bg-white dark:bg-gray-800 rounded-3xl p-5 sm:p-6 border border-gray-200/80 dark:border-gray-700 shadow-sm hover:shadow-xl hover:border-slate-400 dark:hover:border-slate-600 transition-all duration-300 flex flex-col justify-between overflow-hidden">
           <div class="space-y-2.5">
             <div class="flex items-center justify-between gap-2">
@@ -526,7 +784,9 @@
 
       <!-- Günün YDS Tüyosu Kutusu -->
       <div class="p-5 sm:p-6 rounded-3xl bg-amber-50/80 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/50 flex items-start space-x-4">
-        <div class="text-3xl flex-shrink-0">💡</div>
+        <div class="w-10 h-10 rounded-2xl bg-amber-200/80 dark:bg-amber-900/60 flex items-center justify-center flex-shrink-0 text-amber-700 dark:text-amber-300">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+        </div>
         <div class="space-y-1">
           <h4 class="text-sm font-bold text-amber-900 dark:text-amber-200 uppercase tracking-wide">
             Günün Altın YDS Tüyosu:
@@ -543,8 +803,9 @@
     <div id="reportView" class="hidden space-y-7 animate-in fade-in duration-300">
       <!-- Üst Bar: Geri Dönüş -->
       <div class="flex items-center justify-end">
-        <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950 px-3 py-1 rounded-full">
-          📊 Performans Karnesi
+        <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950 px-3 py-1 rounded-full flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          <span>Performans Karnesi</span>
         </span>
       </div>
 
@@ -578,22 +839,83 @@
           <span class="text-[10px] sm:text-xs font-bold text-indigo-100 uppercase tracking-wider block mb-1">Bu Hafta Öğrenilen Kelime</span>
           <div class="flex items-end justify-between mt-1">
             <span id="repLearnedWeek" class="text-3xl sm:text-4xl font-black">0</span>
-            <span class="text-2xl sm:text-3xl opacity-50">??</span>
+            <svg class="w-8 h-8 opacity-40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
           </div>
         </div>
         <div class="p-4 rounded-2xl bg-gradient-to-br from-teal-500 to-teal-700 text-white shadow-sm flex flex-col justify-between">
           <span class="text-[10px] sm:text-xs font-bold text-teal-100 uppercase tracking-wider block mb-1">Toplam Öğrenilen Kelime</span>
           <div class="flex items-end justify-between mt-1">
             <span id="repLearnedTotal" class="text-3xl sm:text-4xl font-black">0</span>
-            <span class="text-2xl sm:text-3xl opacity-50">??</span>
+            <svg class="w-8 h-8 opacity-40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
           </div>
+        </div>
+      </div>
+
+      <!-- Akıllı Hata Eritme Özeti & Aksiyon Kartı -->
+      <div id="repMistakeMelterBar" class="p-5 rounded-3xl bg-white dark:bg-gray-800 border border-rose-200/80 dark:border-rose-900/60 shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div class="flex items-start space-x-3.5">
+          <div class="w-11 h-11 rounded-2xl bg-rose-100 dark:bg-rose-950/80 text-rose-600 dark:text-rose-400 flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          </div>
+          <div>
+            <div class="flex flex-wrap items-center gap-2">
+              <h4 class="text-sm sm:text-base font-extrabold text-gray-900 dark:text-white">İnatçı Hatalarım & Hata Eritme Havuzu</h4>
+              <span id="repMeltedCountText" class="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300">
+                0 Hata Eritildi
+              </span>
+            </div>
+            <p id="repMistakeSummaryText" class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
+              Yanlış yaptığınız soruları tekrar çözüp doğru yanıtladığınızda hata havuzunuzdan düşer.
+            </p>
+          </div>
+        </div>
+        <button type="button" onclick="ydsApp.startMistakeMelterMode()" class="w-full sm:w-auto px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-rose-600 to-pink-600 hover:from-rose-700 hover:to-pink-700 text-white shadow-sm flex items-center justify-center space-x-1.5 transition active:scale-95 shrink-0">
+          <span>Yanlışlarımı Erit</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </button>
+      </div>
+
+      <!-- Son 7 Günlük Soru Çözüm ve Aktivite Grafiği -->
+      <div id="weeklyActivityChartCard" class="p-6 rounded-3xl bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm space-y-5">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <h3 class="text-base font-extrabold text-gray-900 dark:text-white flex items-center gap-2">
+              <svg class="w-5 h-5 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"/></svg>
+              <span>Son 7 Günlük Performans Grafiği</span>
+            </h3>
+            <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Günlük çözülen soru ve öğrenilen kelime aktiviteniz</p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <span id="weeklyTotalSolvedBadge" class="px-2.5 py-1 rounded-xl text-[11px] font-extrabold bg-indigo-50 dark:bg-indigo-950/80 text-indigo-700 dark:text-indigo-300 border border-indigo-200/60 dark:border-indigo-800/60">
+              7 Gün: 0
+            </span>
+            <span id="weeklyDailyAvgBadge" class="px-2.5 py-1 rounded-xl text-[11px] font-extrabold bg-amber-50 dark:bg-amber-950/80 text-amber-700 dark:text-amber-300 border border-amber-200/60 dark:border-amber-800/60">
+              Günlük Ort: 0
+            </span>
+            <span id="weeklyGoalDaysBadge" class="px-2.5 py-1 rounded-xl text-[11px] font-extrabold bg-emerald-50 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800/60">
+              Hedef: 0/7 Gün
+            </span>
+          </div>
+        </div>
+
+        <!-- 7 Sütunlu Grafik Alanı -->
+        <div id="weeklyChartBarsContainer" class="grid grid-cols-7 gap-2 sm:gap-4 items-end h-44 pt-6 pb-2 px-1 sm:px-3 bg-gray-50/70 dark:bg-gray-900/50 rounded-2xl border border-gray-100 dark:border-gray-700/70">
+          <!-- JS ile dinamik renderlanacak -->
+        </div>
+
+        <div class="flex flex-wrap items-center justify-between gap-2 text-[11px] text-gray-400 dark:text-gray-400 pt-1">
+          <div class="flex items-center gap-3">
+            <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-emerald-500 inline-block"></span> Günlük Hedef Tamamlandı</span>
+            <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-indigo-500 inline-block"></span> Çalışılan Gün</span>
+          </div>
+          <span id="weeklyBestDayText" class="font-semibold text-gray-500 dark:text-gray-300"></span>
         </div>
       </div>
 
       <!-- Kategori Bazlı Dağılım Çubukları -->
       <div class="p-6 rounded-3xl bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm space-y-4">
         <h3 class="text-base font-extrabold text-gray-900 dark:text-white flex items-center justify-between">
-          <span>🧠 Soru Tipi Bazlı Başarı Analizi</span>
+          <span>Soru Tipi Bazlı Başarı Analizi</span>
           <span class="text-xs font-normal text-gray-400">Doğru / Toplam</span>
         </h3>
         <div id="repCategoryBarsList" class="space-y-3.5">
@@ -604,12 +926,12 @@
       <!-- ================= ÖDÜLLÜ REKLAMLI ÖZEL TAKTİK BÖLÜMÜ ================= -->
       <div class="p-6 sm:p-7 rounded-3xl bg-gradient-to-br from-indigo-900 via-indigo-950 to-purple-950 text-white border border-indigo-700/50 shadow-xl relative overflow-hidden">
         <div class="flex items-start space-x-4">
-          <div class="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-300 flex items-center justify-center text-2xl flex-shrink-0">
-            🧠
+          <div class="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-300 flex items-center justify-center flex-shrink-0">
+            <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
           </div>
           <div class="space-y-2 flex-1">
             <div class="inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-full bg-amber-400/20 text-amber-300 text-xs font-bold uppercase tracking-wider border border-amber-300/30">
-              <span>✨ Kişiselleştirilmiş Akıl & Taktik Rehberi</span>
+              <span>Kişiselleştirilmiş Akıl & Taktik Rehberi</span>
             </div>
             <h3 class="text-xl font-extrabold text-white">
               Yanlış Yaptığın Sorulara Özel YDS Sınav Stratejisi
@@ -621,10 +943,10 @@
             <!-- Kilitli Durum -->
             <div id="lockedTacticsBanner" class="pt-3 space-y-3">
               <div class="p-3.5 rounded-xl bg-white/10 border border-white/10 flex items-center justify-between text-xs text-indigo-100">
-                <span>🔒 Taktik rehberi kilitli. Kısa bir sponsorlu video izleyerek kilidi anında kaldırabilirsiniz.</span>
+                <span>Taktik rehberi kilitli. Kısa bir sponsorlu video izleyerek kilidi anında kaldırabilirsiniz.</span>
               </div>
               <button onclick="ydsApp.requestRewardedTactics()" class="inline-flex items-center space-x-2 px-5 py-3 rounded-2xl text-sm font-extrabold bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 text-indigo-950 shadow-lg shadow-amber-500/30 transition transform active:scale-95">
-                <span>🎁</span>
+                <svg class="w-4 h-4 text-indigo-950 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 <span>Ödüllü Video İzle & Taktikleri Aç</span>
               </button>
             </div>
@@ -632,7 +954,7 @@
             <!-- Kilidi Açılmış Durum (Unlocked Content) -->
             <div id="unlockedTacticsBanner" class="hidden pt-4 space-y-4">
               <div class="p-4 rounded-2xl bg-emerald-500/20 border border-emerald-400/30 flex items-center space-x-2 text-xs font-bold text-emerald-200">
-                <span>✓</span>
+                <svg class="w-4 h-4 text-emerald-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                 <span>Taktik Rehberinizin Kilidi Açıldı! İşte eksiklerinize özel analiz ve hap taktikler:</span>
               </div>
               <div id="unlockedTacticsContent" class="space-y-3 text-xs sm:text-sm text-indigo-100 leading-relaxed bg-black/30 p-5 rounded-2xl border border-white/10">
@@ -649,7 +971,54 @@
     <!-- ==================== 3. SORU ÇÖZÜM ALANI (QUESTION VIEW) ==================== -->
     <div id="questionView" class="hidden space-y-4 animate-in fade-in duration-300">
       
-      
+      <!-- Hızlı Sprint Modu (5 Dakikada 10 Soru) Aktif Üst Çubuğu -->
+      <div id="sprintModeBanner" class="hidden p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-cyan-700 via-blue-700 to-indigo-800 text-white shadow-md flex flex-wrap items-center justify-between gap-3 border border-cyan-400/30">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-xl bg-white/15 flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs sm:text-sm font-black tracking-wide">Hızlı Sprint Modu (10 Soru)</span>
+              <span id="sprintProgressBadge" class="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-white/20 text-white">
+                0 / 10 Cevaplandı
+              </span>
+            </div>
+            <p class="text-[11px] text-cyan-100 hidden sm:block">Süre dolmadan 10 soruyu en yüksek doğrulukla tamamlayın!</p>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-2.5 ml-auto">
+          <div id="sprintTimerPill" class="px-3 py-1.5 rounded-xl bg-black/30 border border-white/20 flex items-center space-x-1.5 font-mono text-sm font-black text-amber-300">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span id="sprintTimerDisplay">05:00</span>
+          </div>
+          <button type="button" onclick="ydsApp.finishSprintMode()" class="px-3 py-1.5 rounded-xl text-xs font-extrabold bg-white text-blue-800 hover:bg-blue-50 transition shadow-xs">
+            Sprinti Bitir
+          </button>
+        </div>
+      </div>
+
+      <!-- Akıllı Hata Eritme Modu Aktif Üst Çubuğu -->
+      <div id="mistakeMelterBanner" class="hidden p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-rose-700 via-pink-700 to-rose-800 text-white shadow-md flex flex-wrap items-center justify-between gap-3 border border-rose-400/30">
+        <div class="flex items-center space-x-3">
+          <div class="w-9 h-9 rounded-xl bg-white/15 flex items-center justify-center flex-shrink-0">
+            <svg class="w-5 h-5 text-amber-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs sm:text-sm font-black tracking-wide">Akıllı Hata Eritme Modu</span>
+              <span id="mistakeMelterSessionBadge" class="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-emerald-400/25 text-emerald-200 border border-emerald-300/30">
+                Bu Oturumda 0 Hata Eritildi
+              </span>
+            </div>
+            <p id="mistakeMelterStatusText" class="text-[11px] text-rose-100">Doğru yanıtladığınız her soru hata havuzunuzdan kalıcı olarak düşer.</p>
+          </div>
+        </div>
+        <button type="button" onclick="ydsApp.exitMistakeMelterMode()" class="px-3 py-1.5 rounded-xl text-xs font-extrabold bg-white/15 hover:bg-white/25 text-white border border-white/20 transition">
+          Moddan Çık
+        </button>
+      </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
 
@@ -684,8 +1053,8 @@
                 <span id="qDifficultyBadge" class="badge-filter bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300 text-[11px] font-bold">Orta</span>
                 <!-- Topluluk Çözülme & Başarı Rozeti (Cold Start Eşiği: >= 20) -->
                 <button id="qStatsBadge" type="button" onclick="ydsApp.showQuestionStatsTooltip(event)" class="hidden cursor-pointer select-none inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-800/80 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 transition active:scale-95 shadow-2xs" title="Topluluk Soru İstatistiği">
-                  <span id="qStatsBadgeText">👥 0 çözdü</span>
-                  <span class="text-[10px] opacity-75">ℹ️</span>
+                  <span id="qStatsBadgeText">0 çözdü</span>
+                  <svg class="w-3 h-3 opacity-75" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 </button>
               </div>
               <div class="text-right whitespace-nowrap flex-shrink-0">
@@ -694,15 +1063,31 @@
               </div>
             </div>
 
-            <!-- 2. Satır: Soru İpucu ve Not/Favori Aksiyonları -->
-            <div class="flex items-center justify-between pt-1 border-t border-gray-200/50 dark:border-gray-700/50">
+            <!-- 2. Satır: Soru İpucu, Yazı Boyutu, Okuma Modu ve Not/Favori Aksiyonları -->
+            <div class="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-gray-200/50 dark:border-gray-700/50">
               <div class="flex items-center gap-1.5 text-[11px] font-medium text-gray-500 dark:text-gray-400">
-                <span class="text-indigo-600 dark:text-indigo-400 font-bold">💡 İpucu:</span>
-                <span>Kelimelerin anlamı için üzerlerine dokunun</span>
+                <span class="text-indigo-600 dark:text-indigo-400 font-bold">İpucu:</span>
+                <span>Kelime anlamı için dokunun • Şık elemek için sağdaki simgeyi kullanın</span>
               </div>
-              <div class="flex items-center space-x-2">
+              <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                <!-- Okuma Modu: İpucu Kelime Vurgulama Butonu -->
+                <button id="clueHighlightBtn" type="button" onclick="ydsApp.toggleClueHighlight()" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-[11px] font-bold bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-200 border border-gray-200 dark:border-gray-600 hover:border-indigo-400 transition active:scale-95 shadow-2xs" title="Cümledeki kritik bağlaç, zaman ve zıtlık ipuçlarını vurgula">
+                  <svg class="w-3.5 h-3.5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+                  <span id="clueHighlightBtnText">İpucu Vurgula</span>
+                </button>
+                <!-- Hızlı Bağlaç/Edat Kamp Rehberi Butonu -->
+                <button id="quickGrammarCampBtn" type="button" onclick="ydsApp.openGrammarCampModal()" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-[11px] font-bold bg-purple-50 dark:bg-purple-950/70 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 hover:bg-purple-100 transition active:scale-95 shadow-2xs" title="YDS Bağlaç, Edat ve Phrasal Verb Rehberi">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                  <span class="hidden sm:inline">Rehber</span>
+                </button>
+                <!-- Yazı Boyutu (A- / A+) Ayarı -->
+                <div class="inline-flex items-center rounded-xl bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 p-0.5 shadow-2xs" title="Soru Metni Boyutu">
+                  <button type="button" onclick="ydsApp.changeQuestionFontSize(-1)" class="px-2 py-1 rounded-lg text-[11px] font-extrabold text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600 transition active:scale-95">A-</button>
+                  <span id="fontSizeIndicator" class="px-1.5 text-[10px] font-bold text-indigo-600 dark:text-indigo-400 select-none">100%</span>
+                  <button type="button" onclick="ydsApp.changeQuestionFontSize(1)" class="px-2 py-1 rounded-lg text-xs font-extrabold text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600 transition active:scale-95">A+</button>
+                </div>
                 <button id="questionNoteBtn" onclick="ydsApp.openQuestionNoteDrawer()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition transform active:scale-95 shadow-2xs">
-                  <span class="text-xs">📝</span>
+                  <svg class="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
                   <span id="questionNoteBtnText">Not Al</span>
                   <span id="questionNoteIndicator" class="hidden w-2 h-2 rounded-full bg-amber-500"></span>
                 </button>
@@ -716,6 +1101,19 @@
           <!-- Soru Gövdesi -->
           <div class="p-6 sm:p-8 space-y-6">
 
+            <!-- Okuma Modu İpucu Renk Anahtarı (İpucu Vurgulama Aktifken Görünür) -->
+            <div id="clueLegendBar" class="hidden p-3 rounded-xl bg-slate-50 dark:bg-gray-900/70 border border-slate-200/80 dark:border-gray-700 flex flex-wrap items-center justify-between gap-2 text-[11px]">
+              <div class="flex flex-wrap items-center gap-3">
+                <span class="font-extrabold text-gray-700 dark:text-gray-200">Okuma Modu Aktif:</span>
+                <span class="inline-flex items-center gap-1 font-bold text-rose-700 dark:text-rose-300"><span class="w-2.5 h-2.5 rounded-xs bg-rose-500 inline-block"></span> Zıtlık & Kutup (+/-)</span>
+                <span class="inline-flex items-center gap-1 font-bold text-emerald-700 dark:text-emerald-300"><span class="w-2.5 h-2.5 rounded-xs bg-emerald-500 inline-block"></span> Neden - Sonuç</span>
+                <span class="inline-flex items-center gap-1 font-bold text-indigo-700 dark:text-indigo-300"><span class="w-2.5 h-2.5 rounded-xs bg-indigo-500 inline-block"></span> Zaman, Koşul & Kesinlik</span>
+              </div>
+              <button type="button" onclick="ydsApp.openGrammarCampModal()" class="text-purple-600 dark:text-purple-400 font-extrabold hover:underline">
+                Bağlaç/Edat Tablosu →
+              </button>
+            </div>
+
             <!-- Paragraf Alanı (Opsiyonel) -->
             <div id="passageContainer" class="hidden p-5 rounded-xl bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200/70 dark:border-amber-900/40">
               <span class="text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 block mb-2 flex items-center">
@@ -727,7 +1125,7 @@
 
             <!-- YDS Formatında Resmi Soru Yönergesi -->
             <div id="questionDirectiveBanner" class="p-3.5 rounded-xl bg-indigo-50/90 dark:bg-indigo-950/40 border border-indigo-200/80 dark:border-indigo-800/60 flex items-start space-x-2.5 text-xs font-semibold text-indigo-950 dark:text-indigo-200 shadow-sm">
-              <span class="text-base leading-none flex-shrink-0">📌</span>
+              <svg class="w-4 h-4 text-indigo-600 dark:text-indigo-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
               <span id="questionDirectiveText" class="leading-relaxed"></span>
             </div>
 
@@ -735,7 +1133,7 @@
             <div class="space-y-2">
               <div class="flex items-center justify-between">
                 <span class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">Soru Kökü (Question Stem)</span>
-                <span class="text-xs text-gray-400 italic">💡 Kelimelerin üzerine tıklayarak Türkçe anlamına bakabilirsiniz</span>
+                <span class="text-xs text-gray-400 italic">Kelimelerin üzerine tıklayarak Türkçe anlamına bakabilirsiniz</span>
               </div>
               <div id="questionText" class="reading-text text-base sm:text-lg text-gray-900 dark:text-gray-50 font-medium leading-relaxed"></div>
             </div>
@@ -743,7 +1141,7 @@
             <!-- Kayıtlı Soru Notu Hatırlatma Kutusu (Varsa Doğrudan Gösterilir) -->
             <div id="questionInlineNoteCard" class="hidden p-3.5 rounded-2xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-800/80 shadow-2xs flex items-start justify-between gap-3">
               <div class="flex items-start space-x-2.5">
-                <span class="text-lg flex-shrink-0">📝</span>
+                <svg class="w-5 h-5 text-amber-600 dark:text-amber-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
                 <div>
                   <div class="text-[11px] font-black uppercase tracking-wider text-amber-800 dark:text-amber-300">Bu Soruya Aldığınız Not:</div>
                   <p id="questionInlineNoteText" class="text-xs sm:text-sm text-gray-800 dark:text-gray-200 mt-0.5 leading-relaxed font-medium whitespace-pre-wrap"></p>
@@ -762,7 +1160,7 @@
           </div>
 
           <!-- Çözüm & Detaylı Açıklama Bölümü (Cevaplandıktan Sonra Açılır) -->
-          <div id="explanationSection" class="hidden border-t border-gray-100 dark:border-gray-700/80 bg-slate-50/70 dark:bg-gray-850 p-6 sm:p-8 space-y-6">
+          <div id="explanationSection" class="hidden border-t border-gray-100 dark:border-gray-700/80 bg-slate-50/70 dark:bg-gray-900 p-6 sm:p-8 space-y-6">
             
             <!-- Anında Değerlendirme Bildirimi -->
             <div id="answerFeedbackBanner"></div>
@@ -770,7 +1168,7 @@
             <!-- Akıllı Süre Duraklatıldı Bildirimi (Kullanıcıya sürenin durduğunu açıklar) -->
             <div id="explanationTimerNotice" class="p-3.5 rounded-xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-amber-900 dark:text-amber-200 flex items-center justify-between gap-3 text-xs font-medium">
               <div class="flex items-center space-x-2.5">
-                <span class="text-xl flex-shrink-0">⏸️</span>
+                <svg class="w-5 h-5 text-amber-600 dark:text-amber-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 <span><strong>Süreniz Duraklatıldı:</strong> Çözüm yöntemini, çeviriyi ve kelimeleri rahatça inceleyebilirsiniz. Sonraki soruya geçtiğinizde süreniz otomatik olarak akmaya devam edecektir.</span>
               </div>
               <span class="text-[10px] uppercase font-extrabold tracking-wider px-2 py-1 rounded bg-amber-200/80 dark:bg-amber-900/60 text-amber-900 dark:text-amber-200 flex-shrink-0 hidden sm:inline-block">
@@ -778,14 +1176,14 @@
               </span>
             </div>
 
-            <!-- 🎯 Çözüm Yöntemi & YDS Soru Taktiği (ÖZEL KUTU) -->
+            <!-- Çözüm Yöntemi & YDS Soru Taktiği (ÖZEL KUTU) -->
             <div id="solutionMethodCard" class="p-5 rounded-2xl solution-method-box space-y-2">
               <div class="flex items-center justify-between">
                 <h4 class="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300 flex items-center">
                   <svg class="w-4 h-4 mr-1.5 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                   </svg>
-                  🎯 Çözüm Yöntemi & YDS Soru Taktiği
+                  Çözüm Yöntemi & YDS Soru Taktiği
                 </h4>
                 <span class="text-[10px] text-indigo-500 font-semibold uppercase tracking-wider">Strateji</span>
               </div>
@@ -819,7 +1217,8 @@
             <div id="explanationNoteCard" class="hidden p-4 rounded-2xl bg-amber-50/80 dark:bg-amber-950/30 border border-amber-200/90 dark:border-amber-900/50 space-y-2">
               <div class="flex items-center justify-between">
                 <h4 class="text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 flex items-center">
-                  <span class="mr-1.5 text-base">📝</span> Soruya Aldığınız Not
+                  <svg class="w-4 h-4 mr-1.5 text-amber-600 dark:text-amber-400 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+                  <span>Soruya Aldığınız Not</span>
                 </h4>
                 <button type="button" onclick="ydsApp.openQuestionNoteDrawer()" class="text-xs font-bold text-amber-700 dark:text-amber-400 hover:underline flex items-center gap-1">
                   <span>Düzenle</span>
@@ -920,10 +1319,10 @@
             Nasıl Kullanılır?
           </h4>
           <ul class="text-xs space-y-2 text-indigo-950 dark:text-indigo-200">
-            <li>🔍 <strong>Kelime Filtresi:</strong> Üstteki arama kutusuna örneğin <code class="bg-white/80 dark:bg-gray-800 px-1 py-0.5 rounded font-mono font-bold">apple</code> yazarak o kelimenin geçtiği tüm soruları sırayla çözebilirsiniz.</li>
-            <li>📖 <strong>Kelime Çevirisi:</strong> Sorudaki herhangi bir kelimeye tıklayarak Türkçe anlamına bakabilir ve sesli telaffuzunu dinleyebilirsiniz.</li>
-            <li>⭐️ <strong>Öğrenme Havuzu:</strong> Bilmediğiniz kelimeleri tek tıkla havuza ekleyip 3D Flaş Kartlarla çalışabilirsiniz.</li>
-            <li>⌨️ <strong>Klavye Kısayolları:</strong> <kbd class="px-1 py-0.5 bg-white dark:bg-gray-800 rounded shadow-xs font-mono">A-E</kbd> şık işaretleme, <kbd class="px-1 py-0.5 bg-white dark:bg-gray-800 rounded shadow-xs font-mono">←</kbd> / <kbd class="px-1 py-0.5 bg-white dark:bg-gray-800 rounded shadow-xs font-mono">→</kbd> soru geçişi.</li>
+            <li><strong>Kelime Filtresi:</strong> Üstteki arama kutusuna örneğin <code class="bg-white/80 dark:bg-gray-800 px-1 py-0.5 rounded font-mono font-bold">apple</code> yazarak o kelimenin geçtiği tüm soruları sırayla çözebilirsiniz.</li>
+            <li><strong>Kelime Çevirisi:</strong> Sorudaki herhangi bir kelimeye tıklayarak Türkçe anlamına bakabilir ve sesli telaffuzunu dinleyebilirsiniz.</li>
+            <li><strong>Öğrenme Havuzu:</strong> Bilmediğiniz kelimeleri tek tıkla havuza ekleyip 3D Flaş Kartlarla çalışabilirsiniz.</li>
+            <li><strong>Klavye Kısayolları:</strong> <kbd class="px-1 py-0.5 bg-white dark:bg-gray-800 rounded shadow-xs font-mono">A-E</kbd> şık işaretleme, <kbd class="px-1 py-0.5 bg-white dark:bg-gray-800 rounded shadow-xs font-mono">←</kbd> / <kbd class="px-1 py-0.5 bg-white dark:bg-gray-800 rounded shadow-xs font-mono">→</kbd> soru geçişi.</li>
           </ul>
         </div>
 
@@ -938,13 +1337,13 @@
       <!-- Üst Bilgi ve Aksiyon Çubuğu -->
       <div class="w-full max-w-sm flex items-center justify-between px-2 flex-shrink-0">
         <div class="flex items-center space-x-2 bg-white dark:bg-gray-800 px-3.5 py-2 rounded-2xl shadow-sm border border-indigo-100/80 dark:border-gray-700">
-          <span class="text-sm">🎯</span>
+          <svg class="w-4 h-4 text-indigo-600 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
           <div class="text-xs font-bold text-gray-600 dark:text-gray-300">
             <span id="vocabRemainingCount" class="text-indigo-600 dark:text-indigo-400 font-black text-sm">0</span> Kelime Kaldı
           </div>
         </div>
         <button onclick="window.vocabTrainer.openLearnedVocabModal()" class="flex items-center space-x-1.5 text-xs font-extrabold bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-3.5 py-2 rounded-2xl shadow-md shadow-emerald-500/20 hover:from-emerald-600 hover:to-teal-700 transition active:scale-95">
-          <span>⭐</span>
+          <svg class="w-3.5 h-3.5 text-amber-300" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
           <span>Öğrendiklerim</span>
           <span id="vocabLearnedBadge" class="ml-1 bg-white/25 px-1.5 py-0.5 rounded-full text-[10px]">0</span>
         </button>
@@ -1023,7 +1422,7 @@
       <!-- Aksiyon Butonları -->
       <div class="space-y-2 pt-2">
         <button id="modalAddPoolBtn" class="w-full py-2.5 px-4 rounded-xl font-semibold text-sm flex items-center justify-center space-x-2 bg-indigo-600 text-white hover:bg-indigo-700 transition">
-          <span>⭐️ Öğrenme Havuzuma Ekle</span>
+          <span>Öğrenme Havuzuma Ekle</span>
         </button>
         <button id="modalFilterByWordBtn" class="w-full py-2.5 px-4 rounded-xl font-semibold text-sm flex items-center justify-center space-x-2 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600 transition">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
@@ -1054,19 +1453,23 @@
       <!-- Tab Butonları: Havuz vs Öğrenilenler -->
       <div class="flex items-center space-x-2 border-b border-gray-100 dark:border-gray-700 pb-2">
         <button id="tabPoolWordsBtn" onclick="ydsApp._showPoolTab('pool')" class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-indigo-600 text-white shadow-sm transition">
-          ⭐ Havuzdaki Kelimeler
+          Havuzdaki Kelimeler
         </button>
         <button id="tabMasteredWordsBtn" onclick="ydsApp._showPoolTab('mastered')" class="px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 transition">
-          ✅ Öğrendiğim Kelimeler (<span id="masteredTotalWords">0</span>)
+          Öğrendiğim Kelimeler (<span id="masteredTotalWords">0</span>)
         </button>
       </div>
 
-      <!-- Flaş Kart ve Dışa Aktar Çubuğu -->
-      <div id="poolActionsBar" class="flex flex-wrap items-center justify-between gap-2 pt-1 pb-2">
-        <button id="openFlashcardsBtn" class="inline-flex items-center space-x-2 px-4 py-2 rounded-xl text-sm font-semibold bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600 transition shadow-sm">
-          <span>🃏 3D Flaş Kart Modunu Başlat</span>
+      <!-- Flaş Kart ve Çoktan Seçmeli Quiz Çubuğu -->
+      <div id="poolActionsBar" class="flex flex-wrap items-center gap-2.5 pt-1 pb-2">
+        <button id="openFlashcardsBtn" class="inline-flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600 transition shadow-sm">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          <span>3D Flaş Kart Modu</span>
         </button>
-
+        <button id="openVocabQuizFromPoolBtn" type="button" onclick="ydsApp.openVocabQuizModal('pool')" class="inline-flex items-center space-x-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-gradient-to-r from-indigo-600 to-violet-600 text-white hover:from-indigo-700 hover:to-violet-700 transition shadow-sm">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+          <span>Çoktan Seçmeli Mini Quiz</span>
+        </button>
       </div>
 
       <!-- Kelimeler Listesi -->
@@ -1120,11 +1523,130 @@
           ← Önceki
         </button>
         <button id="flashcardMasteredBtn" class="flex-1 py-2.5 rounded-xl text-sm font-semibold bg-emerald-600 text-white hover:bg-emerald-700 transition">
-          ✓ Öğrendim
+          Öğrendim
         </button>
         <button id="flashcardNextBtn" class="px-4 py-2.5 rounded-xl text-sm font-semibold bg-indigo-600 text-white hover:bg-indigo-700 transition">
           Sonraki →
         </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 3B. Çoktan Seçmeli Kelime Havuzu Mini Quiz Modalı -->
+  <div id="vocabQuizModal" class="fixed inset-0 z-[155] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs hidden animate-in fade-in duration-200">
+    <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-lg w-full p-5 sm:p-6 shadow-2xl border border-gray-200 dark:border-gray-700 max-h-[92vh] flex flex-col space-y-4 overflow-hidden">
+      
+      <!-- Üst Başlık ve Kaynak Seçimi -->
+      <div class="flex items-center justify-between border-b border-gray-100 dark:border-gray-700 pb-3">
+        <div class="flex items-center space-x-2.5">
+          <div class="w-9 h-9 rounded-2xl bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+          </div>
+          <div>
+            <h3 class="text-base sm:text-lg font-extrabold text-gray-900 dark:text-white leading-tight">Kelime Mini Quiz</h3>
+            <p class="text-[11px] text-gray-500 dark:text-gray-400">5 Şıklı Çoktan Seçmeli Kelime Testi</p>
+          </div>
+        </div>
+        <button type="button" onclick="ydsApp.closeVocabQuizModal()" class="p-2 rounded-xl text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Quiz Mod Seçici (Havuzum vs YDS Genel) -->
+      <div class="flex items-center justify-between gap-2 bg-gray-100 dark:bg-gray-700/70 p-1 rounded-2xl border border-gray-200/60 dark:border-gray-600">
+        <button type="button" id="vocabQuizModePoolBtn" onclick="ydsApp.switchVocabQuizMode('pool')" class="flex-1 py-1.5 px-3 rounded-xl text-xs font-extrabold transition text-center">
+          Havuzumdaki Kelimeler
+        </button>
+        <button type="button" id="vocabQuizModeAllBtn" onclick="ydsApp.switchVocabQuizMode('all')" class="flex-1 py-1.5 px-3 rounded-xl text-xs font-extrabold transition text-center">
+          YDS Sık Çıkanlar
+        </button>
+      </div>
+
+      <!-- İlerleme ve Skor Çubuğu -->
+      <div class="space-y-1.5">
+        <div class="flex items-center justify-between text-xs font-bold">
+          <span id="vocabQuizProgressText" class="text-gray-700 dark:text-gray-300">Soru 1 / 10</span>
+          <div class="flex items-center space-x-3">
+            <span class="text-emerald-600 dark:text-emerald-400">Doğru: <strong id="vocabQuizCorrectCount">0</strong></span>
+            <span class="text-rose-600 dark:text-rose-400">Yanlış: <strong id="vocabQuizWrongCount">0</strong></span>
+          </div>
+        </div>
+        <div class="w-full h-2 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+          <div id="vocabQuizProgressBar" class="h-full bg-indigo-600 transition-all duration-300" style="width: 10%"></div>
+        </div>
+      </div>
+
+      <!-- Aktif Soru Gövdesi -->
+      <div id="vocabQuizActiveBody" class="flex-1 overflow-y-auto space-y-4 pr-1 custom-scrollbar">
+        <!-- Kelime Kartı -->
+        <div class="p-5 rounded-2xl bg-gradient-to-br from-indigo-50 via-white to-violet-50 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-950/40 border border-indigo-100 dark:border-gray-700 text-center space-y-2.5 shadow-2xs">
+          <div class="flex items-center justify-between">
+            <span id="vocabQuizSourceBadge" class="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300">
+              Havuzunuzdan
+            </span>
+            <span id="vocabQuizFreqBadge" class="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-amber-100 dark:bg-amber-950/70 text-amber-800 dark:text-amber-300">
+              YDS Kelimesi
+            </span>
+          </div>
+          <div class="flex items-center justify-center gap-2 pt-1">
+            <h2 id="vocabQuizWord" class="text-2xl sm:text-3xl font-black text-gray-900 dark:text-white tracking-tight">word</h2>
+            <button type="button" onclick="ydsApp.speakVocabQuizWord()" class="p-2 rounded-xl bg-white dark:bg-gray-700 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-gray-600 border border-gray-200 dark:border-gray-600 transition shadow-2xs" title="Telaffuzu Dinle">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+            </button>
+          </div>
+          <p class="text-[11px] text-gray-500 dark:text-gray-400">Bu kelimenin doğru Türkçe karşılığını seçin:</p>
+        </div>
+
+        <!-- 5 Şıklı Seçenekler -->
+        <div id="vocabQuizOptionsContainer" class="space-y-2">
+          <!-- JS ile renderlanacak -->
+        </div>
+
+        <!-- Soru Sonrası Alt Aksiyon -->
+        <div id="vocabQuizFeedbackFooter" class="hidden pt-2 flex items-center justify-between gap-2 border-t border-gray-100 dark:border-gray-700">
+          <button type="button" id="vocabQuizGoQuestionsBtn" class="px-3.5 py-2.5 rounded-xl text-xs font-bold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600 transition">
+            Sorularda Gör
+          </button>
+          <button type="button" onclick="ydsApp.nextVocabQuizQuestion()" class="flex-1 py-2.5 px-4 rounded-xl text-xs sm:text-sm font-extrabold bg-indigo-600 hover:bg-indigo-700 text-white shadow-sm transition flex items-center justify-center space-x-1.5">
+            <span id="vocabQuizNextBtnText">Sonraki Soru</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quiz Sonu Özet Gövdesi -->
+      <div id="vocabQuizResultBody" class="hidden flex-1 overflow-y-auto space-y-4 pr-1 text-center py-3 custom-scrollbar">
+        <div class="w-16 h-16 mx-auto rounded-3xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shadow-xs">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div>
+          <h4 class="text-xl font-black text-gray-900 dark:text-white">Quiz Tamamlandı!</h4>
+          <p id="vocabQuizSummarySubtext" class="text-xs text-gray-500 dark:text-gray-400 mt-1">Kelime antrenmanı performans özetiniz:</p>
+        </div>
+        <div class="grid grid-cols-3 gap-2.5">
+          <div class="p-3 rounded-2xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200/70 dark:border-emerald-800/60">
+            <span id="vocabQuizFinalCorrect" class="text-xl font-black text-emerald-600 dark:text-emerald-400 block">0</span>
+            <span class="text-[10px] font-bold text-emerald-800 dark:text-emerald-300 uppercase">Doğru</span>
+          </div>
+          <div class="p-3 rounded-2xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200/70 dark:border-rose-800/60">
+            <span id="vocabQuizFinalWrong" class="text-xl font-black text-rose-600 dark:text-rose-400 block">0</span>
+            <span class="text-[10px] font-bold text-rose-800 dark:text-rose-300 uppercase">Yanlış</span>
+          </div>
+          <div class="p-3 rounded-2xl bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-200/70 dark:border-indigo-800/60">
+            <span id="vocabQuizFinalRate" class="text-xl font-black text-indigo-600 dark:text-indigo-400 block">%0</span>
+            <span class="text-[10px] font-bold text-indigo-800 dark:text-indigo-300 uppercase">Başarı</span>
+          </div>
+        </div>
+        <div id="vocabQuizMissedContainer" class="text-left space-y-2"></div>
+        <div class="flex items-center gap-2.5 pt-2">
+          <button type="button" onclick="ydsApp.closeVocabQuizModal()" class="px-4 py-3 rounded-2xl text-xs sm:text-sm font-bold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200 transition">
+            Kapat
+          </button>
+          <button type="button" onclick="ydsApp.restartVocabQuiz()" class="flex-1 py-3 px-4 rounded-2xl text-xs sm:text-sm font-extrabold bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white shadow-md shadow-indigo-500/20 transition">
+            Yeni 10 Soruluk Quiz Başlat
+          </button>
+        </div>
       </div>
 
     </div>
@@ -1232,7 +1754,7 @@
       <div class="flex items-center justify-between border-b border-gray-100 dark:border-gray-700 pb-3">
         <div class="flex items-center space-x-2.5">
           <div class="w-10 h-10 rounded-2xl bg-amber-100 dark:bg-amber-900/50 text-amber-600 dark:text-amber-300 flex items-center justify-center text-xl">
-            🏆
+            <svg class="w-6 h-6 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
           </div>
           <div>
             <h3 class="text-lg sm:text-xl font-extrabold text-gray-900 dark:text-white flex items-center">
@@ -1296,9 +1818,9 @@
         </div>
 
         <!-- Kategori Dağılımı ve Başarı Analizi -->
-        <div class="p-4 rounded-2xl bg-gray-50/80 dark:bg-gray-750/50 border border-gray-200 dark:border-gray-700 space-y-3">
+        <div class="p-4 rounded-2xl bg-gray-50/80 dark:bg-gray-800/60 border border-gray-200 dark:border-gray-700 space-y-3">
           <h4 class="text-xs font-bold uppercase tracking-wider text-gray-700 dark:text-gray-300 flex items-center justify-between">
-            <span>📊 Soru Tipi Bazlı Başarı Dağılımı</span>
+            <span>Soru Tipi Bazlı Başarı Dağılımı</span>
             <span class="text-[10px] text-gray-400 font-normal">Doğru / Toplam</span>
           </h4>
           <div id="scorecardCategoryList" class="space-y-2.5">
@@ -1324,20 +1846,20 @@
             class="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold bg-amber-500 hover:bg-amber-600 text-white shadow-md shadow-amber-500/20 transition transform active:scale-95"
             title="Kısa bir video izleyerek sınav ipuçlarını açın"
           >
-            <span>🎁</span>
+            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
             <span>Ödüllü Video: Taktikleri Aç</span>
           </button>
           <button 
             id="scorecardRestartExamBtn" 
             class="px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200"
           >
-            🔄 Yeniden Çöz
+            Yeniden Çöz
           </button>
           <button 
             id="scorecardChangeYearBtn" 
             class="px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-indigo-50 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100"
           >
-            📑 Başka Yıl Seç
+            Başka Yıl Seç
           </button>
         </div>
       </div>
@@ -1350,11 +1872,11 @@
   <div id="namePromptModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 hidden animate-in fade-in duration-200">
     <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-md w-full p-6 sm:p-7 shadow-2xl border border-gray-200 dark:border-gray-700 space-y-5 text-center">
       <div class="w-16 h-16 mx-auto rounded-3xl bg-gradient-to-tr from-indigo-600 to-violet-600 text-white flex items-center justify-center text-3xl shadow-lg shadow-indigo-500/30">
-        👋
+        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
       </div>
       <div>
         <h3 class="text-xl font-extrabold text-gray-900 dark:text-white">
-          Examdil Platformu'na Hoş Geldiniz!
+          Examgo Platformu'na Hoş Geldiniz!
         </h3>
         <p class="text-xs text-gray-500 dark:text-gray-400 mt-1.5">
           Hedefinize giden yolda size özel karne ve karşılama için adınızı öğrenebilir miyiz?
@@ -1371,7 +1893,7 @@
         />
       </div>
       <button onclick="ydsApp.saveNameModal()" class="w-full py-3.5 px-4 rounded-2xl text-sm font-bold bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white shadow-md shadow-indigo-500/25 transition transform active:scale-98">
-        Başla ve Platforma Geç 🚀
+        Başla ve Platforma Geç
       </button>
     </div>
   </div>
@@ -1383,7 +1905,9 @@
       <!-- Başlık -->
       <div class="flex items-center justify-between border-b border-gray-100 dark:border-gray-700 pb-4">
         <div class="flex items-center space-x-2.5">
-          <span class="text-2xl">⚙️</span>
+          <div class="w-8 h-8 rounded-xl bg-gray-100 dark:bg-gray-700 flex items-center justify-center text-gray-700 dark:text-gray-300">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
           <h3 class="text-lg font-extrabold text-gray-900 dark:text-white">Uygulama Ayarları</h3>
         </div>
         <button onclick="ydsApp.closeSettingsModal()" class="p-2 rounded-xl text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
@@ -1395,7 +1919,7 @@
       <div class="space-y-4 flex-1 overflow-y-auto pr-1 text-xs sm:text-sm">
         
         <!-- Kullanıcı Adı Ayarı -->
-        <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-200 dark:border-gray-700 space-y-2">
+        <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 space-y-2">
           <label class="font-bold text-gray-700 dark:text-gray-200 block">Kullanıcı İsmi:</label>
           <div class="flex flex-wrap items-center gap-2">
             <input 
@@ -1412,7 +1936,7 @@
         <div class="p-4 rounded-2xl bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/40 dark:to-orange-950/30 border border-amber-200 dark:border-amber-800/60 flex items-center justify-between">
           <div class="space-y-0.5">
             <div class="flex items-center gap-1.5 font-black text-amber-900 dark:text-amber-200 text-sm">
-              <span>👑</span>
+              <svg class="w-4 h-4 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
               <span>Reklamsız Mod (Premium)</span>
               <span id="adFreeStatusBadge" class="hidden text-[10px] font-extrabold px-2 py-0.5 rounded-full bg-emerald-500 text-white">Aktif</span>
             </div>
@@ -1424,7 +1948,7 @@
         </div>
 
         <!-- Ses Efektleri -->
-        <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-200 dark:border-gray-700 flex items-center justify-between">
+        <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 flex items-center justify-between">
           <div>
             <span class="font-bold text-gray-800 dark:text-gray-200 block">Doğru / Yanlış Sesleri</span>
             <span class="text-xs text-gray-400">Şık işaretlemelerinde ses efekti çalınsın.</span>
@@ -1433,7 +1957,7 @@
         </div>
 
         <!-- Akıllı Süre Sayacı -->
-        <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-200 dark:border-gray-700 flex items-center justify-between">
+        <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 flex items-center justify-between">
           <div>
             <span class="font-bold text-gray-800 dark:text-gray-200 block">Akıllı Süre (Auto-Pause)</span>
             <span class="text-xs text-gray-400">Çözüm açıklamaları açıldığında sınav süresi dursun.</span>
@@ -1442,7 +1966,7 @@
         </div>
 
         <!-- PDF Sınavı Yükleme -->
-        <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-200 dark:border-gray-700 flex items-center justify-between">
+        <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 flex items-center justify-between">
           <div>
             <span class="font-bold text-gray-800 dark:text-gray-200 block">PDF Denemesi İçe Aktar</span>
             <span class="text-xs text-gray-400">YDS Formatında veya deneme PDF dosyanızı yükleyin.</span>
@@ -1460,9 +1984,9 @@
         </div>
 
         <!-- Uygulama Bilgisi -->
-        <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-200 dark:border-gray-700 text-xs text-gray-500 dark:text-gray-400 space-y-1">
-          <p class="font-bold text-gray-700 dark:text-gray-200">Examdil Platformu</p>
-          <p>Sürüm: <strong>1.2.2</strong> • App Store & Google Play Store Sürümü</p>
+        <div class="p-4 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 text-xs text-gray-500 dark:text-gray-400 space-y-1">
+          <p class="font-bold text-gray-700 dark:text-gray-200">Examgo Platformu</p>
+          <p>Sürüm: <strong>1.2.4</strong> • App Store & Google Play Store Sürümü</p>
           <p>YDS Formatında Özgün Soru Bankası, Akıllı Süre ve Kişiselleştirilmiş Karne Sistemi.</p>
         </div>
 
@@ -1478,9 +2002,11 @@
       <!-- Modal Başlık -->
       <div class="flex items-center justify-between border-b border-gray-100 dark:border-gray-700/80 pb-3">
         <div class="flex items-center gap-2.5">
-          <div class="w-10 h-10 rounded-2xl bg-amber-100 dark:bg-amber-950/70 text-amber-600 dark:text-amber-400 flex items-center justify-center text-xl shadow-xs">👑</div>
+          <div class="w-10 h-10 rounded-2xl bg-amber-100 dark:bg-amber-950/70 text-amber-600 dark:text-amber-400 flex items-center justify-center shadow-xs">
+            <svg class="w-5 h-5 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
           <div>
-            <h3 class="font-black text-base sm:text-lg text-gray-900 dark:text-white leading-tight">Examdil Premium</h3>
+            <h3 class="font-black text-base sm:text-lg text-gray-900 dark:text-white leading-tight">Examgo Premium</h3>
             <span class="text-xs text-amber-600 dark:text-amber-400 font-semibold">Reklamsız Tam Sürüm</span>
           </div>
         </div>
@@ -1491,22 +2017,28 @@
 
       <!-- Avantajlar Listesi -->
       <div class="space-y-2.5">
-        <div class="p-3 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-100 dark:border-gray-700 flex items-start gap-3">
-          <span class="text-lg">🚫</span>
+        <div class="p-3 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-100 dark:border-gray-600 flex items-start gap-3">
+          <div class="w-7 h-7 rounded-lg bg-rose-100 dark:bg-rose-950/60 flex items-center justify-center flex-shrink-0 text-rose-600 dark:text-rose-400">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/></svg>
+          </div>
           <div>
             <h4 class="text-xs font-bold text-gray-900 dark:text-white">Sıfır Reklam</h4>
             <p class="text-[11px] text-gray-500 dark:text-gray-400">Tüm banner ve tam ekran geçiş reklamları tamamen devre dışı kalır.</p>
           </div>
         </div>
-        <div class="p-3 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-100 dark:border-gray-700 flex items-start gap-3">
-          <span class="text-lg">⚡</span>
+        <div class="p-3 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-100 dark:border-gray-600 flex items-start gap-3">
+          <div class="w-7 h-7 rounded-lg bg-amber-100 dark:bg-amber-950/60 flex items-center justify-center flex-shrink-0 text-amber-600 dark:text-amber-400">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
           <div>
             <h4 class="text-xs font-bold text-gray-900 dark:text-white">Kesintisiz Odaklanma</h4>
             <p class="text-[11px] text-gray-500 dark:text-gray-400">Deneme sınavları ve soru çözümlerinde dikkatiniz asla bölünmez.</p>
           </div>
         </div>
-        <div class="p-3 rounded-2xl bg-gray-50 dark:bg-gray-750/50 border border-gray-100 dark:border-gray-700 flex items-start gap-3">
-          <span class="text-lg">💡</span>
+        <div class="p-3 rounded-2xl bg-gray-50 dark:bg-gray-700/50 border border-gray-100 dark:border-gray-600 flex items-start gap-3">
+          <div class="w-7 h-7 rounded-lg bg-indigo-100 dark:bg-indigo-950/60 flex items-center justify-center flex-shrink-0 text-indigo-600 dark:text-indigo-400">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          </div>
           <div>
             <h4 class="text-xs font-bold text-gray-900 dark:text-white">Tüm Taktik ve Analizler Açık</h4>
             <p class="text-[11px] text-gray-500 dark:text-gray-400">Video izlemeden kişiye özel tüm analizlere anında tam erişim.</p>
@@ -1517,28 +2049,14 @@
       <!-- Durum ve Satın Alma Alanı (Reklamlar henüz açıksa) -->
       <div id="adFreeInactiveContainer" class="space-y-3">
         <!-- Satın Alma Butonu (Google Play / App Store) -->
-        <button type="button" onclick="ydsApp.purchaseAdFree()" class="w-full py-3.5 px-4 rounded-2xl font-black text-sm bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white shadow-md shadow-amber-500/25 transition transform active:scale-98 flex items-center justify-center gap-2">
-          <span>👑 Reklamsız Sürüme Geç</span>
-          <span class="text-xs bg-white/20 px-2 py-0.5 rounded-full font-bold">Ömür Boyu</span>
+        <button id="purchaseAdFreeBtn" type="button" onclick="ydsApp.purchaseAdFree()" class="w-full py-3.5 px-4 rounded-2xl font-bold text-sm bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white shadow-md shadow-amber-500/25 transition transform active:scale-98 flex items-center justify-between">
+          <span class="flex items-center gap-2">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            <span>Reklamsız Sürüme Geç</span>
+          </span>
+          <span class="text-xs bg-black/20 px-2.5 py-1 rounded-full font-bold tracking-wide" id="adFreePriceTag">₺23,99</span>
         </button>
-
-        <!-- VIP / Promosyon Kodu Girişi -->
-        <div class="pt-2 border-t border-gray-100 dark:border-gray-700 space-y-1.5">
-          <label class="text-[11px] font-bold text-gray-500 dark:text-gray-400 block">Promosyon veya VIP Kodunuz mu var?</label>
-          <div class="flex items-center gap-2">
-            <input 
-              type="text" 
-              id="vipPromoCodeInput" 
-              placeholder="Örn: EXAMDILVIP" 
-              class="flex-1 px-3 py-2 text-xs rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white uppercase font-bold outline-none focus:ring-2 focus:ring-amber-500"
-              maxlength="20"
-            />
-            <button type="button" onclick="ydsApp.applyPromoCode()" class="px-4 py-2 rounded-xl text-xs font-bold bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:opacity-90 transition active:scale-95">
-              Uygula
-            </button>
-          </div>
-          <span id="promoCodeMessage" class="hidden text-[11px] font-bold"></span>
-        </div>
+        <p class="text-center text-[11px] text-gray-400 dark:text-gray-500">Tek seferlik ödeme ile tüm reklamları kalıcı olarak kaldırın</p>
 
         <!-- Satın Alımları Geri Yükle -->
         <button type="button" onclick="ydsApp.restorePurchases()" class="w-full text-center text-[11px] font-semibold text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 py-1 transition">
@@ -1548,13 +2066,15 @@
 
       <!-- Aktifse Gösterilecek Durum -->
       <div id="adFreeActiveContainer" class="hidden p-4 rounded-2xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 text-center space-y-2">
-        <div class="text-2xl">✨</div>
-        <h4 class="text-sm font-black text-emerald-800 dark:text-emerald-300">Examdil Premium Aktif!</h4>
+        <div class="w-8 h-8 mx-auto rounded-full bg-emerald-100 dark:bg-emerald-900/60 flex items-center justify-center text-emerald-600 dark:text-emerald-300">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+        </div>
+        <h4 class="text-sm font-black text-emerald-800 dark:text-emerald-300">Examgo Premium Aktif</h4>
         <p class="text-xs text-emerald-700 dark:text-emerald-400">Tüm reklamlar kaldırıldı. Sınırsız ve kesintisiz deneyimin tadını çıkarın.</p>
-        <button type="button" onclick="ydsApp.toggleAdFreeForTesting()" class="mt-2 text-[10px] text-gray-400 hover:text-rose-500 underline">
-          (Geliştirici Testi: Reklamları Yeniden Aç)
-        </button>
       </div>
+
+    </div>
+  </div>
 
     </div>
   </div>
@@ -1565,7 +2085,9 @@
     <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-xs sm:max-w-sm w-full p-5 sm:p-6 shadow-2xl border border-gray-100 dark:border-gray-700 space-y-4 transform transition-transform" onclick="event.stopPropagation()">
       <div class="flex items-center justify-between border-b border-gray-100 dark:border-gray-700/80 pb-3">
         <div class="flex items-center gap-2">
-          <div class="w-8 h-8 rounded-xl bg-emerald-100 dark:bg-emerald-950/70 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-base">📊</div>
+          <div class="w-8 h-8 rounded-xl bg-emerald-100 dark:bg-emerald-950/70 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-base">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          </div>
           <div>
             <h4 class="text-sm font-bold text-gray-900 dark:text-white leading-tight">Topluluk Başarı Oranı</h4>
             <span class="text-[10px] text-gray-400">Anonim Soru İstatistiği</span>
@@ -1611,12 +2133,13 @@
     <div class="bg-white dark:bg-gray-800 rounded-3xl w-full max-w-lg p-5 sm:p-6 shadow-2xl border border-gray-200 dark:border-gray-700 flex flex-col max-h-[90vh]" style="touch-action: auto; overscroll-behavior: contain;">
       <div class="flex justify-between items-center mb-4 pb-3 border-b border-gray-100 dark:border-gray-700">
         <h3 class="font-extrabold text-lg sm:text-xl text-gray-900 dark:text-white flex items-center gap-2">
-          <span class="text-emerald-500">✨</span> Günün Sorusu
+          <svg class="w-5 h-5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          <span>Günün Sorusu</span>
         </h3>
         <div class="flex items-center gap-2">
-          <button id="dailyQStatsBadge" type="button" onclick="ydsApp.showDailyQuestionStatsTooltip(event)" class="hidden cursor-pointer select-none inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-800/80 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 transition active:scale-95 shadow-2xs" title="Topluluk Soru İstatistiği">
-            <span id="dailyQStatsBadgeText">👥 0 çözdü</span>
-            <span class="text-[10px] opacity-75">ℹ️</span>
+          <button id="dailyQStatsBadge" type="button" onclick="ydsApp.showDailyQuestionStatsTooltip(event)" class="hidden cursor-pointer select-none inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-800/80 hover:bg-emerald-100 dark:hover:bg-emerald-900/60 transition active:scale-95 shadow-2xs" title="Topluluk Soru İstatistiği">
+            <svg class="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+            <span id="dailyQStatsBadgeText">0 çözdü</span>
           </button>
           <button onclick="ydsApp.closeDailyQuestion()" class="p-2 bg-gray-100 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-full text-gray-600 dark:text-gray-300 transition shrink-0">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
@@ -1638,7 +2161,8 @@
       <!-- Modal Header -->
       <div class="p-4 sm:p-5 border-b border-gray-100 dark:border-gray-700 flex justify-between items-center bg-gray-50/50 dark:bg-gray-900/50 rounded-t-3xl">
         <h3 class="text-lg sm:text-xl font-black text-gray-900 dark:text-white flex items-center gap-2">
-          <span>✅</span> Öğrendiğim Kelimeler
+          <svg class="w-5 h-5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+          <span>Öğrendiğim Kelimeler</span>
         </h3>
         <button onclick="ydsApp.closeLearnedVocabModal()" class="p-2 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full transition text-gray-500 dark:text-gray-400">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
@@ -1667,7 +2191,7 @@
       <div class="p-4 sm:p-5 border-b border-gray-100 dark:border-gray-700/80 flex justify-between items-center bg-gray-50/50 dark:bg-gray-900/50">
         <div class="flex items-center space-x-2.5">
           <div class="w-9 h-9 rounded-2xl bg-amber-100 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold text-lg shadow-xs">
-            📝
+            <svg class="w-5 h-5 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
           </div>
           <div>
             <h3 class="text-lg sm:text-xl font-black text-gray-900 dark:text-white flex items-center gap-2">
@@ -1691,7 +2215,7 @@
             placeholder="Notlarınızda veya soru metninde ara..." 
             class="w-full pl-9 pr-4 py-2 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 text-xs sm:text-sm text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-amber-500"
           >
-          <span class="absolute left-3 top-2.5 text-gray-400 text-xs sm:text-sm">🔍</span>
+          <svg class="absolute left-3 top-2.5 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
         </div>
       </div>
 
@@ -1719,7 +2243,7 @@
       <div class="p-4 sm:p-5 border-b border-gray-100 dark:border-gray-700/80 flex items-center justify-between">
         <div class="flex items-center space-x-2.5">
           <div class="w-9 h-9 rounded-2xl bg-amber-100 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold text-lg shadow-xs">
-            📝
+            <svg class="w-5 h-5 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
           </div>
           <div>
             <h3 id="questionNoteTitle" class="text-base sm:text-lg font-black text-gray-900 dark:text-white leading-tight">
@@ -1771,6 +2295,136 @@
             <span>Kaydet</span>
           </button>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. Hızlı Sprint (5 Dakikada 10 Soru) Sonuç & Hız Karnesi Modalı -->
+  <div id="sprintResultModal" class="fixed inset-0 z-[170] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs hidden animate-in fade-in duration-200">
+    <div class="bg-white dark:bg-gray-800 rounded-3xl max-w-md w-full p-6 shadow-2xl border border-gray-200 dark:border-gray-700 space-y-5 relative overflow-hidden">
+      <div class="flex items-center justify-between border-b border-gray-100 dark:border-gray-700 pb-3.5">
+        <div class="flex items-center space-x-2.5">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-600 text-white flex items-center justify-center shadow-sm">
+            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <div>
+            <h3 class="text-lg font-black text-gray-900 dark:text-white leading-tight">Sprint Hız Karnesi</h3>
+            <p id="sprintResultSubtext" class="text-xs text-gray-500 dark:text-gray-400">5 Dakikalık 10 Soru Hızlı Tur Özeti</p>
+          </div>
+        </div>
+        <button type="button" onclick="ydsApp.closeSprintResultModal()" class="p-1.5 rounded-xl text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Ana Başarı Yüzdesi -->
+      <div class="p-4 rounded-2xl bg-gradient-to-br from-cyan-600 via-blue-700 to-indigo-800 text-white text-center space-y-1 shadow-md">
+        <span class="text-[11px] font-bold uppercase tracking-wider text-cyan-200 block">Sprint Başarı Oranı</span>
+        <div id="sprintFinalScoreText" class="text-3xl font-black text-white">%0</div>
+        <span id="sprintBestRecordText" class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-white/15 text-amber-300">En İyi Rekor: %0</span>
+      </div>
+
+      <!-- Doğru / Yanlış / Boş ve Süre İstatistikleri -->
+      <div class="grid grid-cols-3 gap-2.5 text-center">
+        <div class="p-3 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 border border-emerald-200/70 dark:border-emerald-800/60">
+          <span class="text-[10px] font-bold uppercase text-emerald-700 dark:text-emerald-300 block">Doğru</span>
+          <span id="sprintFinalCorrect" class="text-xl font-black text-emerald-600 dark:text-emerald-400">0</span>
+        </div>
+        <div class="p-3 rounded-xl bg-rose-50 dark:bg-rose-950/50 border border-rose-200/70 dark:border-rose-800/60">
+          <span class="text-[10px] font-bold uppercase text-rose-700 dark:text-rose-300 block">Yanlış</span>
+          <span id="sprintFinalWrong" class="text-xl font-black text-rose-600 dark:text-rose-400">0</span>
+        </div>
+        <div class="p-3 rounded-xl bg-gray-50 dark:bg-gray-700/60 border border-gray-200 dark:border-gray-600">
+          <span class="text-[10px] font-bold uppercase text-gray-500 dark:text-gray-300 block">Boş</span>
+          <span id="sprintFinalEmpty" class="text-xl font-black text-gray-700 dark:text-gray-200">0</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-2.5 text-center">
+        <div class="p-3 rounded-xl bg-indigo-50/70 dark:bg-indigo-950/40 border border-indigo-100 dark:border-indigo-800/60">
+          <span class="text-[10px] font-bold text-indigo-600 dark:text-indigo-300 uppercase block">Tamamlama Süresi</span>
+          <span id="sprintFinalTimeText" class="text-base font-black text-gray-900 dark:text-white">00:00</span>
+        </div>
+        <div class="p-3 rounded-xl bg-amber-50/70 dark:bg-amber-950/40 border border-amber-100 dark:border-amber-800/60">
+          <span class="text-[10px] font-bold text-amber-700 dark:text-amber-300 uppercase block">Soru Başına Hız</span>
+          <span id="sprintFinalAvgTimeText" class="text-base font-black text-gray-900 dark:text-white">0 sn</span>
+        </div>
+      </div>
+
+      <!-- Aksiyonlar -->
+      <div class="space-y-2 pt-1">
+        <button type="button" onclick="ydsApp.startSprintMode()" class="w-full py-3 px-4 rounded-2xl font-extrabold text-xs sm:text-sm bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 text-white shadow-md flex items-center justify-center gap-2 transition active:scale-95">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          <span>Yeni 10 Soruluk Sprint Başlat</span>
+        </button>
+        <div class="grid grid-cols-2 gap-2">
+          <button type="button" onclick="ydsApp.closeSprintResultModal()" class="py-2.5 px-3 rounded-xl font-bold text-xs bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 transition">
+            Soruları İncele
+          </button>
+          <button type="button" onclick="ydsApp.closeSprintResultModal(); ydsApp.exitSprintMode(true);" class="py-2.5 px-3 rounded-xl font-bold text-xs bg-indigo-50 dark:bg-indigo-950/70 hover:bg-indigo-100 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800 transition">
+            Ana Ekrana Dön
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 11. Bağlaç, Edat & Phrasal Verb Hızlı Kamp Rehberi Modalı -->
+  <div id="grammarCampModal" class="fixed inset-0 z-[165] flex items-center justify-center p-3 sm:p-4 bg-black/60 backdrop-blur-xs hidden animate-in fade-in duration-200">
+    <div class="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl w-full max-w-3xl max-h-[88vh] flex flex-col relative z-10 overflow-hidden border border-gray-200 dark:border-gray-700">
+      
+      <!-- Modal Üst Başlık -->
+      <div class="p-4 sm:p-5 border-b border-gray-100 dark:border-gray-700 flex items-center justify-between bg-gray-50/70 dark:bg-gray-900/50">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-purple-600 to-indigo-600 text-white flex items-center justify-center shadow-sm flex-shrink-0">
+            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          </div>
+          <div>
+            <h3 class="text-base sm:text-xl font-black text-gray-900 dark:text-white leading-tight">
+              YDS Hızlı Kamp Rehberi
+            </h3>
+            <p class="text-xs text-gray-500 dark:text-gray-400">
+              En çok çıkan Bağlaçlar (+SVO / +İsim), Sıfat/Fiil+Edatlar ve Phrasal Verb tabloları
+            </p>
+          </div>
+        </div>
+        <button type="button" onclick="ydsApp.closeGrammarCampModal()" class="p-2 rounded-xl text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Kategori Sekmeleri ve Arama Çubuğu -->
+      <div class="p-3.5 sm:p-4 border-b border-gray-100 dark:border-gray-700 space-y-3 bg-white dark:bg-gray-800">
+        <div class="flex flex-wrap items-center gap-1.5">
+          <button type="button" id="campTabAll" onclick="ydsApp.switchGrammarCampTab('all')" class="px-3 py-1.5 rounded-xl text-xs font-extrabold transition bg-purple-600 text-white shadow-xs">
+            Tümü (45)
+          </button>
+          <button type="button" id="campTabConjunctions" onclick="ydsApp.switchGrammarCampTab('conjunction')" class="px-3 py-1.5 rounded-xl text-xs font-extrabold transition bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200">
+            Bağlaçlar (Conjunctions)
+          </button>
+          <button type="button" id="campTabPrepositions" onclick="ydsApp.switchGrammarCampTab('preposition')" class="px-3 py-1.5 rounded-xl text-xs font-extrabold transition bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200">
+            Edatlar (Prepositions)
+          </button>
+          <button type="button" id="campTabPhrasal" onclick="ydsApp.switchGrammarCampTab('phrasal')" class="px-3 py-1.5 rounded-xl text-xs font-extrabold transition bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200">
+            Phrasal Verbs
+          </button>
+        </div>
+
+        <div class="relative">
+          <input
+            type="text"
+            id="grammarCampSearchInput"
+            oninput="ydsApp.renderGrammarCampList()"
+            placeholder="Yapı, Türkçe anlam veya ipucu ara (örn: although, dependent on, bring about, zıtlık)..."
+            class="w-full pl-9 pr-4 py-2.5 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 text-xs sm:text-sm text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+          />
+          <svg class="absolute left-3 top-3 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </div>
+      </div>
+
+      <!-- Liste Gövdesi -->
+      <div id="grammarCampListContainer" class="flex-1 overflow-y-auto p-4 sm:p-5 grid grid-cols-1 md:grid-cols-2 gap-3.5 custom-scrollbar bg-gray-50/40 dark:bg-gray-900/30">
+        <!-- JS ile dinamik renderlanacak -->
       </div>
     </div>
   </div>

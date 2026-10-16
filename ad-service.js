@@ -38,7 +38,7 @@ class YDSAdService {
     this.minInterstitialIntervalMs = 90 * 1000;
 
     // Reklamsız Mod (Ad-Free / Premium) Durumu
-    this.isAdFree = localStorage.getItem("examdil_ad_free") === "true";
+    this.isAdFree = localStorage.getItem("examgo_ad_free") === "true" || localStorage.getItem("examdil_ad_free") === "true";
 
     this.checkPlatform();
     this.bootstrap();
@@ -86,6 +86,33 @@ class YDSAdService {
         clearInterval(retryInterval);
       }
     }, 500);
+
+    // Google Play Satın Alım Otomatik Kontrolü
+    this.checkSavedPurchases();
+  }
+
+  checkSavedPurchases() {
+    const Billing = window.Capacitor?.Plugins?.GooglePlayBilling;
+    if (Billing && typeof Billing.queryPurchases === 'function') {
+      Billing.queryPurchases()
+        .then(res => {
+          if (res && (res.hasPurchased || res.isAdFree)) {
+            console.log('👑 [YDSAdService] Google Play satın alımı doğrulandı, reklamsız mod aktif ediliyor.');
+            this.setAdFree(true);
+          }
+        })
+        .catch(err => {
+          console.warn('Google Play satın alım kontrolü:', err);
+        });
+
+      try {
+        Billing.addListener('onPurchaseCompleted', (data) => {
+          if (data && data.isAdFree) {
+            this.setAdFree(true);
+          }
+        });
+      } catch (e) {}
+    }
   }
 
   async init() {
@@ -231,7 +258,7 @@ class YDSAdService {
 
     if (!this.isNative) {
       this.lastInterstitialTime = now;
-      this.showWebMockToast('🎬 [Web Modu] Canlı Geçiş Reklamı Gösterildi');
+      this.showWebMockToast('[Web Modu] Canlı Geçiş Reklamı Gösterildi');
       return true;
     }
 
@@ -334,7 +361,7 @@ class YDSAdService {
     }
 
     if (!this.isNative) {
-      this.showWebMockToast('🎁 [Web Modu] 15 sn Ödüllü Video İzlendi. Ödül Açıldı!');
+      this.showWebMockToast('[Web Modu] 15 sn Ödüllü Video İzlendi. Ödül Açıldı!');
       if (typeof onRewardCallback === 'function') {
         onRewardCallback({ amount: 1, type: 'reward' });
       }
@@ -369,17 +396,38 @@ class YDSAdService {
   }
 
   // --- 3. Canlı Alt Banner Reklamı (%100 Canlı Üretim Kimliği) ---
+  async resumeBanner() {
+    this.checkPlatform();
+    if (this.isAdFree || !this.isNative) return;
+    try {
+      const AdMob = window.Capacitor?.Plugins?.AdMob;
+      if (AdMob && typeof AdMob.resumeBanner === 'function') {
+        await AdMob.resumeBanner();
+        this.bannerVisible = true;
+        this.bannerHidden = false;
+        console.log('✅ [YDSAdService] Banner başarıyla geri gösterildi (resume).');
+        return;
+      }
+    } catch (e) {
+      console.warn('resumeBanner uyarısı, showBanner çağrılıyor:', e);
+    }
+    this.showBanner();
+  }
+
   async showBanner() {
     this.checkPlatform();
     if (this.isAdFree) {
-      console.log('👑 [YDSAdService] Reklamsız mod aktif: Banner gösterilmeyecek.');
       this.hideBanner();
       return;
     }
 
     if (!this.isNative) {
-      console.log('ℹ️ [YDSAdService] Web banner simülasyonu.');
       return;
+    }
+
+    // Eğer banner daha önce oluşturulmuş ve sadece gizlenmişse, direkt görünür yap
+    if (this.bannerHidden) {
+      return this.resumeBanner();
     }
 
     if (this.bannerVisible) {
@@ -412,7 +460,8 @@ class YDSAdService {
         isTesting: false
       });
 
-      // bannerAdLoaded olayı bannerVisible durumunu true yapacaktır.
+      this.bannerVisible = true;
+      this.bannerHidden = false;
     } catch (e) {
       console.warn('⚠️ [YDSAdService] Canlı banner showBanner çağrısı hata verdi:', e);
       this.bannerLoading = false;
@@ -420,7 +469,7 @@ class YDSAdService {
 
       // Hata durumunda da tekrar canlı ID ile 10 sn sonra dene
       setTimeout(() => {
-        if (!this.bannerVisible) {
+        if (!this.bannerVisible && !this.isAdFree) {
           this.showBanner();
         }
       }, 10000);
@@ -431,9 +480,10 @@ class YDSAdService {
     if (!this.isNative) return;
     try {
       const AdMob = window.Capacitor?.Plugins?.AdMob;
-      if (AdMob && this.bannerVisible) {
+      if (AdMob) {
         await AdMob.hideBanner();
         this.bannerVisible = false;
+        this.bannerHidden = true;
       }
     } catch (e) {
       console.warn('Banner gizleme uyarısı:', e);
@@ -443,6 +493,7 @@ class YDSAdService {
   // --- Reklamsız Mod Yönetimi ---
   setAdFree(enabled) {
     this.isAdFree = !!enabled;
+    localStorage.setItem("examgo_ad_free", this.isAdFree ? "true" : "false");
     localStorage.setItem("examdil_ad_free", this.isAdFree ? "true" : "false");
     if (this.isAdFree) {
       this.hideBanner();
@@ -464,7 +515,8 @@ class YDSAdService {
 
     const toast = document.createElement('div');
     toast.id = 'adMockToast';
-    toast.innerHTML = '<span>📢</span><span>' + message + '</span>';
+    toast.className = "fixed bottom-16 left-1/2 -translate-x-1/2 z-[200] px-4 py-2.5 rounded-2xl bg-gray-900/90 dark:bg-gray-100/90 text-white dark:text-gray-900 text-xs font-semibold shadow-xl backdrop-blur-sm flex items-center gap-1.5 animate-in fade-in";
+    toast.innerHTML = '<svg class="w-4 h-4 inline mr-1 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg><span>' + message + '</span>';
     document.body.appendChild(toast);
 
     setTimeout(() => {

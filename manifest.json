@@ -1,6 +1,6 @@
 {
-  "name": "Examdil - YDS Soru & Sınav Platformu",
-  "short_name": "Examdil",
+  "name": "Examgo - YDS Soru & Sınav Platformu",
+  "short_name": "Examgo",
   "description": "YDS sınav sorularını kelimelere göre filtreleme ve interaktif çalışma uygulaması",
   "start_url": "index.html",
   "display": "standalone",
